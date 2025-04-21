@@ -1,0 +1,72 @@
+{
+  "doi": "10.1016/j.apsusc.2015.10.158",
+  "title": "Performance of colloidal silica and ceria based slurries on CMP of Si-face 6H-SiC substrates",
+  "year_published": "2015",
+  "journal": "Applied Surface Science",
+  "substrate": "Si\u2011face 6H\u2011SiC",
+  "pad": "IC\u20111000 K\u2011Groove",
+  "pad_conditioning": "Ex situ",
+  "process_conditions": {
+    "pressure": "4\u00a0psi",
+    "slurry_flow_rate": "90\u00a0ml/min",
+    "platen_speed": "90\u00a0rpm",
+    "carrier_speed": "90\u00a0rpm",
+    "polishing_time": "20\u00a0min"
+  },
+  "abrasives": [
+    "SiO\u2082",
+    "CeO\u2082"
+  ],
+  "abrasive_concentration": {
+    "SiO\u2082": "6\u00a0wt%",
+    "CeO\u2082": "2\u00a0wt%"
+  },
+  "oxidizer": "KMnO\u2084",
+  "oxidizer_concentration": "0.05\u00a0M",
+  "pH_test_range": [
+    2,
+    10
+  ],
+  "optimal_pH": {
+    "SiO\u2082_slurry": 6,
+    "CeO\u2082_slurry": 2
+  },
+  "max_MRR": {
+    "SiO\u2082_slurry": "185\u00a0nm/h",
+    "CeO\u2082_slurry": "1089\u00a0nm/h"
+  },
+  "surface_roughness_Ra": {
+    "SiO\u2082_slurry": "0.254\u00a0nm",
+    "CeO\u2082_slurry": "0.11\u00a0nm"
+  },
+  "measurement_methods": [
+    "zeta potential",
+    "XPS",
+    "AFM"
+  ],
+  "zeta_potential_behavior": {
+    "SiO\u2082_particles": "always negative (pH\u00a02\u201310)",
+    "CeO\u2082_particles": "positive pH\u00a02\u20138, IEP \u2248\u00a08",
+    "SiC_surface_IEP": 5
+  },
+  "XPS_findings": {
+    "elements_detected": [
+      "C\u00a01s",
+      "O\u00a01s",
+      "Si\u00a02p"
+    ],
+    "C/Si_ratios": {
+      "pre_polished": 2.4,
+      "SiO\u2082_slurry_pH6": 3.1,
+      "CeO\u2082_slurry_pH2": 3.5
+    },
+    "oxidation_states": "Increase in Si\u2011C oxide species and decrease in carbon\u2011only species under strong acid KMnO\u2084"
+  },
+  "polishing_mechanism": [
+    "Oxidation of the SiC surface by KMnO\u2084 to form silicon\u2011carbon\u2011oxide species",
+    "Mechanical abrasion removes the (oxidized) surface layer",
+    "CeO\u2082 chemically interacts (Si\u2013O\u2013Ce bonding) to enhance removal rate"
+  ],
+  "environmental_conditions": "room temperature",
+  "batch_number_process_identifier": null
+}

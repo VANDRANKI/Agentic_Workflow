@@ -1,0 +1,56 @@
+{
+    "doi": "",
+    "title": "CMP characteristics of quartz glass substrate by aggregated colloidal ceria slurry",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "CeO₂ (Zenus HC60)",
+      "CeO₂ (HOROX‑A20)"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "KOH",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "5 wt%",
+    "target_final_slurry_ph": null,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": null,
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": null,
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "Desktop CMP apparatus NF‑300 (Nano Factor Co., Ltd); digital weighing scale AUW220D (Shimadzu Corporation); CLSM OLS3500 (Olympus Corporation); AFM Dimension Icon (Bruker Corporation); SEM SU8000 (Hitachi High‑Technologies Corporation)",
+    "instrument_device_model": {
+      "CMP apparatus": "NF‑300 (Nano Factor Co., Ltd)",
+      "Digital weighing scale": "AUW220D (Shimadzu Corporation)",
+      "CLSM": "OLS3500 (Olympus Corporation)",
+      "AFM": "Dimension Icon (Bruker Corporation)",
+      "SEM": "SU8000 (Hitachi High‑Technologies Corporation)"
+    },
+    "pad_composition": "IC1000 (Nitta‑Haas XY‑groove)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "colloidal_ceria": "80 nm",
+      "calcined_ceria": "200 nm–5 μm"
+    },
+    "particle_morphology": {
+      "colloidal_ceria": "spherical",
+      "calcined_ceria": "irregular polyhedral"
+    },
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Room temperature",
+    "batch_number_process_identifier": null
+  }  

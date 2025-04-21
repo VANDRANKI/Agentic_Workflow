@@ -1,0 +1,127 @@
+{
+    "doi": null,
+    "title": "Enhancing ceria slurry performance for shallow trench isolation chemical mechanical polishing through non-ionic surfactant addition",
+    "year_published": "2023",
+    "journal": null,
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": [
+      "PVP‑K30",
+      "PEG"
+    ],
+    "abrasive_ceria_concentration": null,
+    "target_final_slurry_ph": [
+      4,
+      6,
+      7,
+      10,
+      12
+    ],
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": {
+      "PVP‑K30": {
+        "4": "≈5 mV",
+        "6": "≈3 mV",
+        "7": "≈0 mV",
+        "10": "≈−15 mV",
+        "12": "≈−20 mV"
+      },
+      "PEG": {
+        "4": "≈10 mV",
+        "6": "≈30 mV",
+        "7": "≈0 mV",
+        "10": "≈−10 mV",
+        "12": "≈−50 mV"
+      },
+      "SiO₂ solid": {
+        "4": "≈−2 mV",
+        "6": "≈−40 mV",
+        "7": "≈−45 mV",
+        "10": "≈−75 mV",
+        "12": "≈−85 mV"
+      }
+    },
+    "sedimentation_rate": null,
+    "polishing_time": "60 s",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "PVP‑K30": {
+        "Si₃N₄": {
+          "4": 9,
+          "6": 59,
+          "7": 41,
+          "10": 26,
+          "12": 21
+        },
+        "SiO₂": {
+          "4": 226,
+          "6": 339,
+          "7": 271,
+          "10": 327,
+          "12": 534
+        }
+      },
+      "PEG": {
+        "Si₃N₄": {
+          "4": 202,
+          "6": 97,
+          "7": 61,
+          "10": 67,
+          "12": 47
+        },
+        "SiO₂": {
+          "4": 741,
+          "6": 1489,
+          "7": 1422,
+          "10": 635,
+          "12": 350
+        }
+      }
+    },
+    "adsorption_mass": {
+      "SiO₂": {
+        "PVP‑K30": "240 ng",
+        "PEG": "104 ng"
+      },
+      "Si₃N₄": {
+        "PVP‑K30": "198 ng",
+        "PEG": "73 ng"
+      }
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "Universal 150 Plus Polisher (Hwasting Technology); DH3002‑T80D30‑S20M3S1 rigid polishing pad; pad break‑in conditioning for 600 s with diamond disk",
+    "instrument_device_model": {
+      "Polisher": "Universal 150 Plus Polisher (Hwasting Technology)",
+      "Polishing pad": "DH3002‑T80D30‑S20M3S1 rigid pad",
+      "Optical interferometer": "F50 (Filmetrics)",
+      "SEM": "SU8220 (Hitachi)",
+      "Particle size analyzer": "Nano‑ZS90 (Malvern Instrument)",
+      "Surface zeta analyzer": "SurPASS 3 (Anton Paar)",
+      "TGA": "Platinum crucible under N₂ atmosphere",
+      "Rheometer": "Physica MCR302 (Anton Paar)",
+      "QCM": "Q‑sense (Biolin Scientific)",
+      "AFM": "Dimension ICON (Bruker)"
+    },
+    "pad_composition": "DH3002‑T80D30‑S20M3S1 rigid polishing pad",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": null,
+    "particle_morphology": "Individual CeO₂ particles ~60 nm with PVP‑K30; ~60–150 nm with PEG; ~120–150 nm aggregated without surfactant",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "TGA under N₂; slurry pH varied at 4, 6, 7, 10, 12",
+    "batch_number_process_identifier": null
+  }
+  

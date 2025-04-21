@@ -1,0 +1,77 @@
+{
+  "doi": "10.1016/j.powtec.2024.120290",
+  "title": "Investigation of the impact of optical glass composition on ceria slurry stability during chemical mechanical polishing process",
+  "year_published": "2024",
+  "journal": "Powder Technology",
+  "precursor_chemical": [
+    "CeO2"
+  ],
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": null,
+  "abrasive_ceria_concentration": "3 wt%",
+  "target_final_slurry_ph": null,
+  "reaction_temperatures": null,
+  "reaction_time_if_in_situ_synthesis": null,
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": {
+    "OS400": "-9 mV",
+    "SL400": "-32 mV",
+    "FS400": "-0.65 mV",
+    "BS400": "-37 mV",
+    "OS80": "-53.5 mV",
+    "SL80": "-54.4 mV",
+    "FS80": "-51.7 mV",
+    "BS80": "-55.9 mV"
+  },
+  "sedimentation_rate": null,
+  "polishing_time": "8 min",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "SL400": 10.8,
+    "FS400": 5.3,
+    "BS400": 4.0,
+    "SL80": 0.7,
+    "FS80": 1.2,
+    "BS80": 1.8
+  },
+  "process_temperatures": [
+    "RT"
+  ],
+  "pad_conditioning_pressure": "12.2 kPa",
+  "equipment_model_calibration_details": null,
+  "instrument_device_model": {
+    "Weighing scale": "AUW220D (Shimadzu Corp.)",
+    "Surface profiler": "Alpha-Step IQ surface profiler",
+    "SEM": "Auriga 60 Crossbeam (Carl Zeiss AG)",
+    "Zetasizer": "Zetasizer Nano (Malvern Panalytical GmbH)",
+    "Polishing machine": "Struers Rotopol polishing machine"
+  },
+  "pad_composition": "Polyurethane P-66",
+  "pre_cmp_surface_roughness": {
+    "Soda-lime": 19.85,
+    "Fused silica": 15.64,
+    "Borosilicate": 17.27
+  },
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "80 nm ceria": "170–220 nm (D50)",
+    "400 nm ceria initial (OS400)": "700 nm (D50)",
+    "400 nm ceria post-polishing fused silica": "650–5000 nm (6–60 min)",
+    "400 nm ceria post-polishing soda-lime": "600–1300 nm (8–60 min)",
+    "400 nm ceria post-polishing borosilicate": "≈450 nm (stable D50)"
+  },
+  "particle_morphology": "Spherical ceria nanoparticles: 80 nm slurries well‑dispersed; 400 nm slurries show glass‑dependent aggregation",
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": null,
+  "batch_number_process_identifier": null
+}

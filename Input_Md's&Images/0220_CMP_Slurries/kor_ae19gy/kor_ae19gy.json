@@ -1,0 +1,67 @@
+{
+    "doi": "10.1149/2.0091502jss",
+    "title": "Ceria-Based Slurries for Non-Prestonian Removal of Silicon Dioxide Films",
+    "year_published": "2014",
+    "journal": "ECS Journal of Solid State Science and Technology",
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "Diallyldimethylammonium chloride (DADMAC)",
+    "abrasive_ceria_concentration": "1 wt%",
+    "target_final_slurry_ph": 4,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": {
+      "1 wt% ceria (no DADMAC)": "+73.5 mV",
+      "1 wt% silica (no DADMAC)": "-46.4 mV",
+      "1 wt% ceria + 25 mM DADMAC": "+33.2 mV",
+      "1 wt% silica + 25 mM DADMAC": "+14.3 mV",
+      "1st redispersion (ceria)": "64.2 mV",
+      "3rd redispersion (silica)": "15.7 mV",
+      "5th redispersion (silica)": "15.8 mV"
+    },
+    "sedimentation_rate": null,
+    "polishing_time": "1 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "0 mM DADMAC": { "1 psi": 180, "2 psi": 330, "3 psi": 480, "4 psi": 620 },
+      "5 mM DADMAC": { "1 psi": 50,  "2 psi": 150, "3 psi": 250, "4 psi": 350 },
+      "7.5 mM DADMAC": { "1 psi": 0,   "2 psi": 60,  "3 psi": 150, "4 psi": 260 },
+      "15 mM DADMAC": { "1 psi": 0,   "2 psi": 30,  "3 psi": 60,  "4 psi": 150 },
+      "25 mM DADMAC": { "1 psi": 0,   "2 psi": 0,   "3 psi": 0,   "4 psi": 0   }
+    },
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "POLI‑500 polisher (G & P Technology, South Korea) with IC1000 K‑groove pad conditioned using a 4″ S60 diamond grid pad conditioner (3M Inc.); Filmetrics F‑20 interferometer for thickness measurements.",
+    "instrument_device_model": {
+      "Polisher": "POLI‑500 (G & P Technology)",
+      "Pad": "IC1000 K‑groove (Dow Electronic Materials)",
+      "Pad Conditioner": "4″ S60 diamond grid (3M Inc.)",
+      "Interferometer": "Filmetrics F‑20",
+      "Zeta Potential Analyzer": "Matec Applied Science model 9800 Electro Acoustic analyzer",
+      "TGA": "Perkin‑Elmer Pyris 1 Thermogravimetric analyzer",
+      "UV‑Vis Spectrometer": "Perkin Elmer Lambda 35"
+    },
+    "pad_composition": "IC1000 K‑groove polyurethane pad (Dow Electronic Materials)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "ceria": "dₘₑₐₙ ≈ 140 nm",
+      "silica": "dₘₑₐₙ ≈ 85 nm"
+    },
+    "particle_morphology": null,
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Polishing and zeta measurements at pH 4 and RT; TGA under argon atmosphere",
+    "batch_number_process_identifier": null
+  }
+  

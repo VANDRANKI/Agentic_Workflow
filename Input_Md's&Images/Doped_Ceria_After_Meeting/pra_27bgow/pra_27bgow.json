@@ -1,0 +1,123 @@
+{
+    "doi": "10.1016/j.mssp.2015.01.049",
+    "title": "Effect of lanthanum doping in ceria abrasives on chemical mechanical polishing selectivity for shallow trench isolation",
+    "year_published": "2015",
+    "journal": "Materials Science in Semiconductor Processing",
+    "precursor_chemical": [
+      "Ce(NO₃)₃·6H₂O",
+      "C₆H₈O₇ (citric acid)",
+      "NH₄OH",
+      "La(NO₃)₃·6H₂O"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "NH₄OH",
+    "molar_ratio_precursor_precipitant": "1:3",
+    "additives_surfactant_dispersant": {
+      "glutamic acid": "20 mM",
+      "aspartic acid": "20 mM",
+      "serine": "200 mM",
+      "asparagine": "200 mM",
+      "alanine": "200 mM",
+      "phenylalanine": "200 mM",
+      "valine": "200 mM",
+      "proline": "200 mM",
+      "glycine": "200 mM",
+      "lysine": "5–20 mM"
+    },
+    "abrasive_ceria_concentration": "0.25 wt%",
+    "target_final_slurry_ph": 5,
+    "reaction_temperature_if_in_situ_synthesis": [
+      "room temperature (precipitation)",
+      ">150 °C (dehydration)",
+      "350 °C (calcination)",
+      "900 °C (calcination)"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "1 h stirring",
+      "12 h at 350 °C",
+      "12 h at 900 °C"
+    ],
+    "ph_during_reaction": 7,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "no_additive": {
+        "ceria-SG": { "oxide": 70,  "nitride": 22 },
+        "ceria-SGL": { "oxide": 84,  "nitride": 18 }
+      },
+      "glutamic acid": {
+        "ceria-SG": { "oxide": 110, "nitride": 0 },
+        "ceria-SGL": { "oxide": 110, "nitride": 0 }
+      },
+      "serine": {
+        "ceria-SG": { "oxide": 120, "nitride": 0 },
+        "ceria-SGL": { "oxide": 120, "nitride": 0 }
+      },
+      "asparagine": {
+        "ceria-SG": { "oxide": 120, "nitride": 0 },
+        "ceria-SGL": { "oxide": 120, "nitride": 0 }
+      },
+      "alanine": {
+        "ceria-SG": { "oxide": 170, "nitride": 0 },
+        "ceria-SGL": { "oxide": 170, "nitride": 0 }
+      },
+      "valine": {
+        "ceria-SG": { "oxide": 170, "nitride": 0 },
+        "ceria-SGL": { "oxide": 170, "nitride": 0 }
+      },
+      "phenylalanine": {
+        "ceria-SG": { "oxide": 170, "nitride": 0 },
+        "ceria-SGL": { "oxide": 170, "nitride": 0 }
+      },
+      "proline": {
+        "ceria-SG": { "oxide": 113, "nitride": 0 },
+        "ceria-SGL": { "oxide": 124, "nitride": 37 }
+      },
+      "glycine": {
+        "ceria-SG": { "oxide": 128, "nitride": 0 },
+        "ceria-SGL": { "oxide": 112, "nitride": 24 }
+      },
+      "lysine": {
+        "ceria-SG": {
+          "oxide": [30, 34, 60],
+          "nitride": [0, 0, 9]
+        }
+      }
+    },
+    "process_temperature": "room temperature",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "Struers Labopol‑5/Laboforce‑3 bench‑top polisher (250 rpm carrier, 100 rpm turntable), slurry flow 60 mL/min; F20UV thin‑film analyzer",
+    "instrument_device_model": {
+      "XRD": "X'pert Pro PANalytical diffractometer",
+      "TEM": "Philips CM20",
+      "Laser diffraction": "Horiba LA‑950 V2",
+      "XPS": "Sigma probe (Thermo, UK)",
+      "TGA": "TA Instruments SDT Q600",
+      "EDS": "Horiba EMAX"
+    },
+    "pad_composition": null,
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "ceria-SG": "mean agglomerate size 8.6 µm",
+      "ceria-SGL": "mean agglomerate size 8.1 µm"
+    },
+    "particle_morphology": "highly agglomerated, polycrystalline particles",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "cubic fluorite",
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": {
+      "ceria-SG": { "O": "70 at%", "Ce": "30 at%", "La": "0 at%" },
+      "ceria-SGL": { "O": "69 at%", "Ce": "28 at%", "La": "3 at%" }
+    },
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "TGA in N₂; CMP at pH 5; sol‑gel synthesis in air",
+    "batch_number_process_identifier": null
+  }
+  

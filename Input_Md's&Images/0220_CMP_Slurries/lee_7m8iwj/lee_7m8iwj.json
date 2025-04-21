@@ -1,0 +1,63 @@
+{
+  "doi": null,
+  "title": "Improvement of oxide chemical mechanical polishing performance by increasing Ce3+ / Ce4+ ratio in ceria slurry via hydrogen reduction",
+  "year_published": null,
+  "journal": null,
+  "precursor_chemical": null,
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": null,
+  "abrasive_ceria_concentration": "0.5 wt%",
+  "target_final_slurry_ph": 3.5,
+  "reaction_temperature_if_in_situ_synthesis": [
+    "400\u00b0C",
+    "700\u00b0C",
+    "1000\u00b0C"
+  ],
+  "reaction_time_if_in_situ_synthesis": "30 min",
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": "47 mV",
+  "sedimentation_rate": null,
+  "polishing_time": "60 s",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "original": 2394.2,
+    "400\u00b0C": 2524.2,
+    "700\u00b0C": 2707.5,
+    "1000\u00b0C": 3296.6
+  },
+  "process_temperature": null,
+  "pad_conditioning_pressure": "3 psi",
+  "equipment_model_calibration_details": "Poli400 (GnP Technology, Korea) polisher; polyurethane pad (KONIPAD, KPX Chemical, Korea)",
+  "instrument_device_model": {
+    "XRD": "D8 ADVANCE (Bruker, USA)",
+    "TEM": "JEM ARM 200F (JEOL, Japan)",
+    "XPS": "ESCALAB250 (Thermo Fisher, USA)",
+    "Ultrasonic Processor": "Sonictopia (Korea)",
+    "Moisture titrator": "MCU-170 (Kyoto Electronics Manufacturing, Japan)",
+    "FESEM": "JSM-IT800 (JEOL, Japan)",
+    "DLS/Zeta": "ELSZ-2000 (Otsuka Electronics, Japan)",
+    "Thickness meter": "ST5030-SL (K-MAC, Korea)",
+    "AFM": "NX10 (Park Systems, Korea)"
+  },
+  "pad_composition": "Polyurethane (KONIPAD, KPX Chemical, Korea)",
+  "pre_cmp_surface_roughness": null,
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": "Mean ~90 nm after dispersion (original and reduced)",
+  "particle_morphology": "Nanoparticles, mean size ~100 nm",
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": [
+    "Fluorite CeO2",
+    "Ce(OH)3 phase"
+  ],
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "Reduction under 40% H2 in Ar at 50 cm\u00b3/min, 400\u20131000\u00b0C; CMP at room temperature with slurry flow 120 mL/min",
+  "batch_number_process_identifier": null
+}

@@ -1,0 +1,102 @@
+{
+    "doi": "10.1016/j.apouse.2024.161236",
+    "title": "Enhanced chemical mechanical polishing (CMP) performance of porous self-assembled spherical cerium oxide via RE(La / Pr / Nd) doping",
+    "year_published": "2024",
+    "journal": null,
+    "precursor_chemical": [
+      "CeCl₂·7H₂O",
+      "NaHCO₃",
+      "LaCl₂·7H₂O",
+      "PrCl₂·7H₂O",
+      "NdCl₂·6H₂O"
+    ],
+    "precursor_concentration": {
+      "CeCl₂·7H₂O": "0.6 M",
+      "NaHCO₃": "0.6 M",
+      "LaCl₂·7H₂O": "10 wt%",
+      "PrCl₂·7H₂O": "10 wt%",
+      "NdCl₂·6H₂O": "10 wt%"
+    },
+    "precipitant_type": "NaHCO₃",
+    "molar_ratio_precursor_precipitant": [
+      "3:1"
+    ],
+    "additives_surfactant_dispersant": "PVP 0.5 wt%",
+    "abrasive_ceria_concentration": "1.0 wt%",
+    "target_final_slurry_ph": 6.0,
+    "reaction_temperature_if_in_situ_synthesis": [
+      "180 °C"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "12 h"
+    ],
+    "ph_during_reaction": null,
+    "stirring_speed": [
+      "400 rpm",
+      "300 rpm"
+    ],
+    "viscosity": null,
+    "zeta_potential": {
+      "p-CeO₂": "-37 ± 2.0 mV",
+      "La-CeO₂": "-43 ± 1.4 mV",
+      "Pr-CeO₂": "-39 ± 1.5 mV",
+      "Nd-CeO₂": "-41 ± 3.1 mV",
+      "c-CeO₂": "-24 ± 4.5 mV"
+    },
+    "sedimentation_rate": null,
+    "polishing_time": null,
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "p-CeO₂": "252 ± 6.02 nm/min",
+      "La-CeO₂": "338 ± 7.54 nm/min",
+      "Pr-CeO₂": "306 ± 4.04 nm/min",
+      "Nd-CeO₂": "295 ± 6.55 nm/min",
+      "c-CeO₂": "160 ± 8.18 nm/min"
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "ProLap-15 polishing machine (Shenzhen Mayor Yong Precision Technology)",
+    "instrument_device_model": {
+      "ICP-AES": "Leeman Profile Spec ICP-AES",
+      "XRD": "Smart-lab (Cu Kα)",
+      "SEM": "JEOL JSM‑7900F",
+      "TEM": "Thermo Fisher Talos F200X",
+      "XPS": "Thermo Scientific NEXSA",
+      "EDS": "Oxford Link ISIS",
+      "BET": "Micromeritics ASAP 2460",
+      "H₂-TPR": "TP-5080B",
+      "Raman": "Thermo Fisher DXR2xi",
+      "XANES": "SSRF BL14W1",
+      "AFM": "Asylum Research Cypher S"
+    },
+    "pad_composition": null,
+    "pre_cmp_surface_roughness": "0.939 ± 0.015 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "p-CeO₂": "199.29 nm",
+      "La-CeO₂": "200.19 nm",
+      "Pr-CeO₂": "199.48 nm",
+      "Nd-CeO₂": "199.69 nm"
+    },
+    "particle_morphology": "Porous self‑assembled spherical nanoparticles (~200 nm)",
+    "specific_surface_area_bet": {
+      "p-CeO₂": "28.09 m²/g",
+      "La-CeO₂": "59.14 m²/g",
+      "Pr-CeO₂": "38.25 m²/g",
+      "Nd-CeO₂": "53.02 m²/g"
+    },
+    "crystallinity_phase_composition": "Cubic fluorite (PDF#34‑0394)",
+    "crystallite_size": {
+      "p-CeO₂": "30.1 nm",
+      "La-CeO₂": "21.4 nm",
+      "Pr-CeO₂": "26.1 nm",
+      "Nd-CeO₂": "24.2 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Hydrothermal in aqueous solution; slurry at pH 6.0",
+    "batch_number_process_identifier": null
+  }
+  

@@ -1,0 +1,164 @@
+{
+  "doi": null,
+  "title": "Effect of lanthanum doping in ceria abrasives on chemical mechanical polishing selectivity for shallow trench isolation",
+  "year_published": "2015",
+  "journal": null,
+  "precursor_chemical": [
+    "Ce(NO₃)₃·6H₂O",
+    "La(NO₃)₃·6H₂O"
+  ],
+  "precursor_concentration": null,
+  "precipitant_type": "NH₄OH",
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": [
+    "glutamic acid",
+    "aspartic acid",
+    "serine",
+    "asparagine",
+    "alanine",
+    "valine",
+    "phenylalanine",
+    "glycine",
+    "proline"
+  ],
+  "abrasive_ceria_concentration": "0.25 wt%",
+  "target_final_slurry_ph": 5,
+  "reaction_temperature_if_in_situ_synthesis": [
+    ">150 °C (dehydration)",
+    "350 °C (calcination)",
+    "900 °C (calcination)"
+  ],
+  "reaction_time_if_in_situ_synthesis": [
+    "1 h stirring",
+    "12 h calcination at 350 °C",
+    "12 h calcination at 900 °C"
+  ],
+  "ph_during_reaction": 7,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": null,
+  "sedimentation_rate": null,
+  "polishing_time": "1 min",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "ceria-SG": {
+      "no_additive": {
+        "oxide": 70,
+        "nitride": 22
+      },
+      "glutamic acid": {
+        "oxide": 110,
+        "nitride": 0
+      },
+      "serine": {
+        "oxide": 120,
+        "nitride": 0
+      },
+      "asparagine": {
+        "oxide": 120,
+        "nitride": 0
+      },
+      "alanine": {
+        "oxide": 170,
+        "nitride": 0
+      },
+      "phenylalanine": {
+        "oxide": 170,
+        "nitride": 0
+      },
+      "valine": {
+        "oxide": 170,
+        "nitride": 0
+      },
+      "proline": {
+        "oxide": 113,
+        "nitride": 0
+      },
+      "glycine": {
+        "oxide": 128,
+        "nitride": 0
+      }
+    },
+    "ceria-SGL": {
+      "no_additive": {
+        "oxide": 84,
+        "nitride": 18
+      },
+      "glutamic acid": {
+        "oxide": 110,
+        "nitride": 0
+      },
+      "serine": {
+        "oxide": 120,
+        "nitride": 0
+      },
+      "asparagine": {
+        "oxide": 120,
+        "nitride": 0
+      },
+      "alanine": {
+        "oxide": 170,
+        "nitride": 0
+      },
+      "phenylalanine": {
+        "oxide": 170,
+        "nitride": 0
+      },
+      "valine": {
+        "oxide": 170,
+        "nitride": 0
+      },
+      "proline": {
+        "oxide": 124,
+        "nitride": 37
+      },
+      "glycine": {
+        "oxide": 112,
+        "nitride": 24
+      }
+    }
+  },
+  "process_temperature": null,
+  "pad_conditioning_pressure": null,
+  "equipment_model_calibration_details": "Struers Labopol-5/Laboforce-3 bench-top polisher; F20UV thin film analyzer; pad conditioned with silicon carbide grit paper",
+  "instrument_device_model": {
+    "XRD": "X'pert Pro PANalytical",
+    "TEM": "Philips CM20",
+    "Laser Diffraction": "Horiba LA-950 V2",
+    "XPS": "Sigma Probe (Thermo, UK)",
+    "TGA": "TA Instruments SDT Q600",
+    "EDS": "Horiba EMAX",
+    "Thin Film Analyzer": "F20UV"
+  },
+  "pad_composition": null,
+  "pre_cmp_surface_roughness": null,
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "ceria-SG": "mean agglomerate size 8.6 µm",
+    "ceria-SGL": "mean agglomerate size 8.1 µm"
+  },
+  "particle_morphology": "highly agglomerated polycrystalline particles",
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": {
+    "ceria-SG": "cubic fluorite",
+    "ceria-SGL": "cubic fluorite"
+  },
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": {
+    "ceria-SG": {
+      "O": 70,
+      "Ce": 30,
+      "La": 0
+    },
+    "ceria-SGL": {
+      "O": 69,
+      "Ce": 28,
+      "La": 3
+    }
+  },
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "TGA in N₂; slurry pH 5; ambient temperature polishing",
+  "batch_number_process_identifier": null
+}

@@ -1,0 +1,89 @@
+{
+    "doi": null,
+    "title": "Polishing behaviors of single crystalline ceria abrasives on silicon dioxide and silicon nitride CMP",
+    "year_published": "2010",
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO₃)₃·6H₂O",
+      "KOH"
+    ],
+    "precursor_concentration": {
+      "Ce(NO₃)₃·6H₂O": "0.5 M",
+      "KOH": "0.5 M"
+    },
+    "precipitant_type": "KOH",
+    "molar_ratio_precursor_precipitant": [
+      "1:1"
+    ],
+    "additives_surfactant_dispersant": "Poly acrylic acid (PAA, Mw 4000) 2 wt%",
+    "abrasive_ceria_concentration": "2.0 wt%",
+    "target_final_slurry_ph": "6.5–6.7",
+    "reaction_temperature_if_in_situ_synthesis": [
+      "50 °C",
+      "220–230 °C"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "12 h at 50 °C",
+      "6 h at 220–230 °C"
+    ],
+    "ph_during_reaction": "0.5–3.0",
+    "stirring_speed": "100 rpm",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "oxide": {
+        "62 nm": 1174.4,
+        "116 nm": 1794.2,
+        "163 nm": 2369.4,
+        "232 nm": 2674.1
+      },
+      "nitride": {
+        "62 nm": 46.4,
+        "116 nm": 47.3,
+        "163 nm": 52.4,
+        "232 nm": 61.6
+      }
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": "280 g/cm²",
+    "equipment_model_calibration_details": "GNP POLI 400 polisher (G&P Technology)",
+    "instrument_device_model": {
+      "UPA 150": "Particle size analyzer (Microtrac Inc.)",
+      "GNP POLI 400": "Rotary type CMP machine (G&P Technology)",
+      "IC 1000/SUBA IV": "CMP pads (Rodel Inc.)",
+      "Nanospec 6100": "Spectroscopic reflectometry (Nanometrics)"
+    },
+    "pad_composition": "IC 1000/SUBA IV (Rodel Inc.)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "Slurry A": "178 nm",
+      "Slurry B": "273 nm",
+      "Slurry C": "326 nm",
+      "Slurry D": "484 nm"
+    },
+    "particle_morphology": "Spherical (62 nm, 116 nm) and square (163 nm, 232 nm) primary particles",
+    "specific_surface_area_bet": {
+      "Slurry A": "22.12 m²/g",
+      "Slurry B": "16.37 m²/g",
+      "Slurry C": "11.44 m²/g",
+      "Slurry D": "7.48 m²/g"
+    },
+    "crystallinity_phase_composition": "Cubic fluorite structure, single crystalline",
+    "crystallite_size": {
+      "Slurry A": "29 nm",
+      "Slurry B": "40 nm",
+      "Slurry C": "45 nm",
+      "Slurry D": "66 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "pH 6.5–6.7, ambient temperature",
+    "batch_number_process_identifier": null
+  }
+  

@@ -1,0 +1,75 @@
+{
+    "doi": null,
+    "title": "Oxygen vacancy self-doping strategy efficiently enhanced Ce³⁺ and chemical-mechanical polishing properties of CeO₂",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO₃)₅·6H₂O",
+      "PVP",
+      "urea"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "urea",
+    "molar_ratio_precursor_precipitant": "1:60",
+    "additives_surfactant_dispersant": "PVP (4.5 g)",
+    "abrasive_ceria_concentration": "2.5 wt%",
+    "target_final_slurry_ph": 10,
+    "reaction_temperature_if_in_situ_synthesis": [
+      "100 °C (hydrothermal)",
+      "75 °C (H₂O₂ treatment)"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "4 h at 100 °C",
+      "2 h at 75 °C"
+    ],
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "4 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "CMP": "289.52 nm/min",
+      "PCMP": "361.89 nm/min"
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": "3 N",
+    "equipment_model_calibration_details": "UNIPOL‑1200S precision polishing machine (Shenyang Kejing Co., Ltd., China)",
+    "instrument_device_model": {
+      "XRD": "X'Pert PRO",
+      "SEM": "Gemini SEM 300",
+      "TEM": "JEM‑2010F (JEOL)",
+      "XPS": "ESCALAB‑250Xi",
+      "Raman": "Thermo Nicolet 6700-NXR",
+      "PL": "QM‑8000",
+      "UV-vis DRS": "Lambda750S",
+      "AFM": "Ntegra Prima SPM"
+    },
+    "pad_composition": null,
+    "pre_cmp_surface_roughness": {
+      "Ra": "0.957 ± 0.02 nm",
+      "RMS": "1.263 ± 0.03 nm"
+    },
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "NCeO2": "10.81 nm",
+      "ACeO2": "12.49 nm",
+      "CeO2": "12.51 nm"
+    },
+    "particle_morphology": "Uniform spherical nanoparticles",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "Cubic fluorite (PDF‑34‑0394)",
+    "crystallite_size": {
+      "NCeO2": 10.81,
+      "ACeO2": 12.49,
+      "CeO2": 12.51
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "N₂ atmosphere during annealing; UV (365 nm) irradiation during PCMP",
+    "batch_number_process_identifier": null
+  }
+  

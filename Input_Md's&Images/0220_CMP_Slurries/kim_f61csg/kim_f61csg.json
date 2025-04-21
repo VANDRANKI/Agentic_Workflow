@@ -1,0 +1,78 @@
+{
+    "doi": "10.1016/j.apsusc.2024.160123",
+    "title": "Particle size dependence of nanoclustered ceria abrasives on surface activity and chemical mechanical planarization performance",
+    "year_published": "2024",
+    "journal": "Applied Surface Science",
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "0.3 wt%",
+    "target_final_slurry_ph": "4.0–4.6",
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": {
+      "NC51": "42.0 mV",
+      "NC69": "44.2 mV",
+      "NC108": "45.7 mV",
+      "HC60": "42.1 mV",
+      "Silica": "-11.5 mV"
+    },
+    "sedimentation_rate": null,
+    "polishing_time": "1 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "NC51": "5394 Å/min",
+      "NC69": "4392 Å/min",
+      "NC108": "3546 Å/min",
+      "HC60": "2197 Å/min"
+    },
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "CMP polisher (GNP POLI-400L, G&P Technology Inc., Korea)",
+    "instrument_device_model": {
+      "FESEM": "JEOL JSM 7401F",
+      "HRTEM": "JEOL JEM‑2100F",
+      "XRD": "Rigaku Smart Lab SE",
+      "BET": "Micromeritics TriStar II 3020",
+      "XPS": "ESCALAB 250",
+      "Zeta potential": "Zetasizer Nano‑ZS",
+      "DLS": "Zetasizer Nano‑ZS",
+      "Reflectometer": "ST4000‑DLX"
+    },
+    "pad_composition": "Polyurethane (HD‑319C, SKC Inc., Korea)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "NC51": { "average": "51.4 nm", "std": "6.04 nm" },
+      "NC69": { "average": "68.6 nm", "std": "9.42 nm" },
+      "NC108": { "average": "108.0 nm", "std": "10.3 nm" }
+    },
+    "particle_morphology": "Spherical nanoclustered particles composed of 4–6 nm granules",
+    "specific_surface_area_bet": {
+      "NC51": "136.2 m²/g",
+      "NC69": "~100.0 m²/g",
+      "NC108": "53.5 m²/g"
+    },
+    "crystallinity_phase_composition": "70.6%",
+    "crystallite_size": {
+      "NC51": "5.40 nm",
+      "NC69": "5.86 nm",
+      "NC108": "4.36 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": {
+      "NC51": { "OH⁻": "82.4%", "O²⁻": "17.6%" },
+      "NC69": { "OH⁻": "76.8%", "O²⁻": "23.2%" },
+      "NC108": { "OH⁻": "69.4%", "O²⁻": "30.6%" }
+    },
+    "environmental_conditions": "pH 4; room‑temperature aqueous dispersion",
+    "batch_number_process_identifier": null
+  }
+  

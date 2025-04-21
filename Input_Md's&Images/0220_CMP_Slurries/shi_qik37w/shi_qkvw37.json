@@ -1,0 +1,65 @@
+{
+    "doi": "10.1016/j.apsusc.2019.144041",
+    "title": "Achieving ultralow surface roughness and high material removal rate in fused silica via a novel acid SiO₂ slurry and its chemical-mechanical polishing mechanism",
+    "year_published": "2019",
+    "journal": "Applied Surface Science",
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "Phenol 1 wt%",
+    "abrasive_ceria_concentration": "5 wt%",
+    "target_final_slurry_ph": {
+      "acid_SiO2": 2,
+      "alkaline_SiO2": 10,
+      "alkaline_CeO2": 10
+    },
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1 h",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "acid_SiO2": 10.9,
+      "alkaline_SiO2": 1.1,
+      "alkaline_CeO2": 24.1
+    },
+    "process_temperature": "25 °C",
+    "pad_conditioning_pressure": "100 g/cm²",
+    "equipment_model_calibration_details": "1000 S precision polishing machine (Kengjing Corporation); pads: SURFIN 000 (Fujimi Corporation)",
+    "instrument_device_model": {
+      "AFM": "Bruker Dimension Icon",
+      "OIP": "Zygo New View 7200",
+      "IR": "VERTEX 70 (Bruker)",
+      "TGA": "STA449 F3",
+      "XPS": "PHI Quantera II (Ulvac-Phi Inc.)",
+      "NMR": "Avance III 400 (Bruker)",
+      "IC": "761 Compact (Metrohm)",
+      "SEM": "TESCAN MIRA3",
+      "LPSA": "NanoS (Malvern)"
+    },
+    "pad_composition": "Polyurethane (SURFIN 000)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "CeO2": "∼1.5 µm (agglomerated), peaks at ∼15 µm and ∼85 µm",
+      "SiO2": "∼80 nm"
+    },
+    "particle_morphology": {
+      "CeO2": "Irregular, agglomerated",
+      "SiO2": "Regular, spherical, non-agglomerated"
+    },
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": "Phenolic −OH functionalization",
+    "environmental_conditions": "Room temperature, 1 h polishing, slurry aged 1 month",
+    "batch_number_process_identifier": null
+  }  

@@ -1,0 +1,52 @@
+{
+    "doi": "10.1016/j.jmatprotec.2007.10.033",
+    "title": "Pad roughness variation and its effect on material removal profile in ceria-based CMP slurry",
+    "year_published": "2007",
+    "journal": "Journal of Materials Processing Technology",
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": null,
+    "target_final_slurry_ph": null,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": [
+      "1 min",
+      "3 min",
+      "5 min"
+    ],
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": null,
+    "process_temperature": null,
+    "pad_conditioning_pressure": "60 g/cm^2",
+    "equipment_model_calibration_details": "R&D GNP POLIS00 polisher with polyurethane pad; ex situ conditioning at 60 g/cm^2 using hollow-type conditioner disk at 40 rpm and platen at 60 rpm",
+    "instrument_device_model": {
+      "Surface Roughness Tester": "Mitutoyo SJ-301",
+      "Surface Profiler": "NanoviewTM (Nanosystem Inc.)",
+      "Force Sensor": "Piezoelectric force sensor"
+    },
+    "pad_composition": "Polyurethane (IC1400 Nitta-Haas)",
+    "pre_cmp_surface_roughness": {
+      "Rpk": "2.4 μm"
+    },
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": null,
+    "particle_morphology": null,
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": null,
+    "batch_number_process_identifier": null
+  }
+  

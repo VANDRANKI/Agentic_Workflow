@@ -1,0 +1,99 @@
+{
+    "doi": null,
+    "title": "Chemical effect on the material removal rate in the CMP of silicon wafers",
+    "year_published": "2010",
+    "journal": null,
+    "precursor_chemical": [
+      "Al₂O₃",
+      "CeO₂"
+    ],
+    "precursor_concentration": {
+      "Al₂O₃": "2.5 Vol%",
+      "CeO₂": "2.5 Vol%"
+    },
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "2.5 Vol%",
+    "target_final_slurry_ph": null,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": "7–12",
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": null,
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "flow_rate_ml_per_min": {
+        "Al₂O₃": {
+          "20": 100,
+          "40": 128,
+          "80": 170,
+          "100": 168
+        },
+        "CeO₂": {
+          "20": 67,
+          "40": 83,
+          "80": 105,
+          "100": 99
+        }
+      },
+      "oxidizer_concentration_vol_percent": {
+        "Al₂O₃": {
+          "0.2": 120,
+          "0.4": 175,
+          "1.0": 140,
+          "2.0": 115
+        },
+        "CeO₂": {
+          "0.2": 82,
+          "0.4": 105,
+          "1.0": 250,
+          "2.0": 110
+        }
+      },
+      "pH": {
+        "Al₂O₃": {
+          "7": 170,
+          "9": 90,
+          "10": 110,
+          "11": 200,
+          "12": 190
+        },
+        "CeO₂": {
+          "7": 100,
+          "9": 330,
+          "11": 370,
+          "12": 375
+        }
+      }
+    },
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "PM5 auto‑lap precision lapping/polishing machine (Logitech Co.); precision balance BP 210D (Sartorius); polishing pad Chemicloth SKU:0CON‑352 (Logitech); UV/VIS/NIR spectrophotometer Cary 5E; quartz optical cell G380 (Proscitech Co.)",
+    "instrument_device_model": {
+      "polishing_machine": "PM5 auto‑lap precision lapping/polishing machine (Logitech Co.)",
+      "balance": "BP 210D (Sartorius)",
+      "spectrophotometer": "Cary 5E UV/VIS/NIR",
+      "optical_cell": "G380 quartz box (Proscitech Co.)"
+    },
+    "pad_composition": "Chemicloth Polishing Cloth SKU:0CON‑352 (Logitech)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "Al₂O₃": "50 nm",
+      "CeO₂": "50 nm"
+    },
+    "particle_morphology": null,
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Room temperature",
+    "batch_number_process_identifier": null
+  }  

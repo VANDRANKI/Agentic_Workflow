@@ -1,0 +1,77 @@
+{
+    "doi": "10.1016/j.apsusc.2023.156997",
+    "title": "Doping strategy on properties and chemical mechanical polishing performance of CeO₂ Abrasives: A DFT assisted experimental study",
+    "year_published": "2023",
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO₃)₃·6H₂O",
+      "La(NO₃)₃·nH₂O",
+      "Pr(NO₃)₃·6H₂O",
+      "Y(NO₃)₃·6H₂O"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "0.5 wt%",
+    "target_final_slurry_ph": 6.0,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "3 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "pure_CeO2": 401.90,
+      "Ce1-xYxO2": {
+        "x=0.02": 509.10,
+        "x=0.04": 578.74,
+        "x=0.06": 589.46,
+        "x=0.08": 626.97,
+        "x=0.10": 562.67
+      },
+      "Ce0.92La0.08O2": 562.66,
+      "Ce0.92Pr0.08O2": 578.74
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China); synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+    "instrument_device_model": {
+      "XRD": "D8 Advance (Bruker, Germany)",
+      "SEM/EDS": "Apreso S with EDS (FEI, USA)",
+      "XPS": "Thermo Scientific K-Alpha (USA)",
+      "AFM": "Seiko SPA400-SP13800N (Japan)",
+      "CMP machine": "UNIPOL-1200S automatic pressure grinding and polishing machine",
+      "Balance": "Precision electronic balance (accuracy 0.1 mg)"
+    },
+    "pad_composition": "Synthetic leather",
+    "pre_cmp_surface_roughness": "2.275 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "pure_CeO2": "238.10 nm"
+    },
+    "particle_morphology": "Pure particles spherical; doping induces octahedral morphology",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "Single‑phase cubic fluorite CeO₂ solid solution",
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": {
+      "pure_CeO2": {
+        "O wt%": 27.47,
+        "Ce wt%": 72.53
+      },
+      "Ce0.9La0.1O2": {
+        "O wt%": 28.89,
+        "Ce wt%": 67.50,
+        "La wt%": 3.61
+      }
+    },
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": null,
+    "batch_number_process_identifier": null
+  }
+  

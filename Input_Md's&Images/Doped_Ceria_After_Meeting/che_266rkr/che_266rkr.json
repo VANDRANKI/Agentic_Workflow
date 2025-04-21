@@ -1,0 +1,97 @@
+{
+    "doi": "10.1016/j.ceramint.2024.10.236",
+    "title": "Synthesis, characterization and CMP property of neat and doped mesoporous ceria as defective active particle abrasives",
+    "year_published": "2024",
+    "journal": "Ceramics International",
+    "precursor_chemical": [
+      "Ce(NO₃)₃·6H₂O",
+      "Gd(NO₃)₃·6H₂O",
+      "Y(NO₃)₃·6H₂O",
+      "Zn(CH₃COO)₂·2H₂O"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "HCl",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "PVP", 
+    "abrasive_ceria_concentration": "1.0 wt %",
+    "target_final_slurry_ph": 8.0,
+    "reaction_temperature_if_in_situ_synthesis": [
+      "70 °C",
+      "155 °C",
+      "120 °C"
+    ],  
+    "reaction_time_if_in_situ_synthesis": [
+      "1 h at 155 °C",
+      "1.5 h at 120 °C"
+    ], 
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "2 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "CMP": {
+        "mCeO2": 48,
+        "mCeO2-Gd": 74,
+        "mCeO2-Y": 61,
+        "mCeO2-Zn": 59
+      },
+      "UV-CMP": {
+        "mCeO2": 83,
+        "mCeO2-Gd": 117,
+        "mCeO2-Y": 105,
+        "mCeO2-Zn": 110
+      }
+    },
+    "process_temperature": ["RT"], 
+    "pad_conditioning_pressure": "3.0 psi", 
+    "equipment_model_calibration_details": "TegraForce‑1 & TegraPol‑15 benchtop polisher with porous polyurethane MD‑Chem pad (Struers)",
+    "instrument_device_model": {
+      "XRD": "Rigaku D/Max 2500 PC",
+      "SEM": "ZEISS SUPRA 55",
+      "TEM": "JEOL JEM‑2100",
+      "STEM‑EDX": "FEI Talos 200 s",
+      "XPS": "ULVAC‑PHI‑5000",
+      "N2 Adsorption": "Micromeritics TriStar 3020",
+      "UV‑Vis DRS": "Shimadzu UV3600",
+      "Raman": "ThermoFisher DXR",
+      "AFM": "Nanoman VS & Dimension V",
+      "Profilometer": "Bruker Contour GT",
+      "Balance": "Mettler Toledo XS105"
+    },  
+    "pad_composition": "Porous polyurethane MD‑Chem",
+    "pre_cmp_surface_roughness": {
+      "Ra": "7.84 Å",
+      "Rq": "9.18 Å"
+    },
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "mCeO2": "79 ± 8 nm",
+      "mCeO2-Gd": "78 ± 16 nm",
+      "mCeO2-Y": "77 ± 13 nm",
+      "mCeO2-Zn": "79 ± 12 nm"
+    },
+    "particle_morphology": "Uniform spherical mesoporous nanospheres",
+    "specific_surface_area_bet": {
+      "mCeO2": "42.02 m²/g",
+      "mCeO2-Gd": "47.25 m²/g",
+      "mCeO2-Y": "43.69 m²/g",
+      "mCeO2-Zn": "50.25 m²/g"
+    },  
+    "crystallinity_phase_composition": "Cubic fluorite CeO₂",
+    "crystallite_size": {
+      "mCeO2": 10.75,
+      "mCeO2-Gd": 9.12,
+      "mCeO2-Y": 9.10,
+      "mCeO2-Zn": 9.60
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "N₂ protection during synthesis; UV (365 nm) illumination for UV‑CMP; slurry pH 8", 
+    "batch_number_process_identifier": null
+  }
+  

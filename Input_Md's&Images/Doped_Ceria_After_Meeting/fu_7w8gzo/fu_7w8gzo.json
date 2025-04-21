@@ -1,0 +1,79 @@
+{
+    "doi": "10.1016/j.solidstatesciences.2009.08.014",
+    "title": "Surface charge tuning of ceria particles by titanium doping: Towards significantly improved polishing performance",
+    "year_published": "2009",
+    "journal": "Solid State Sciences",
+    "precursor_chemical": [
+      "Ce2(CO3)3·8H2O (CeO2/REO ≥ 99.95%)",
+      "Ti(SO4)2 (C.P.)"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "NH4OH (ammonia, NH3 28 wt%)",
+    "molar_ratio_precursor_precipitant": "NH4OH : Ce = 3:1",
+    "additives_surfactant_dispersant": "Sodium hexametaphosphate (8 g)",
+    "abrasive_ceria_concentration": "40 g in 1.7 L DI water",
+    "target_final_slurry_ph": "7",
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": {
+      "x=0": "-32.93 mV",
+      "x=0.1": "-41.16 mV",
+      "x=0.2": "-39.7 mV",
+      "x=0.3": "-38.53 mV"
+    },
+    "sedimentation_rate": null,
+    "polishing_time": "2 h",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "x=0": 241,
+      "x=0.1": 544,
+      "x=0.2": 484,
+      "x=0.3": 361
+    },
+    "process_temperature": "30 ± 2 °C",
+    "pad_conditioning_pressure": "6.60 MPa",
+    "equipment_model_calibration_details": "UNIPOL802 CMP equipment (Shenyang Kejing Co. Ltd.), Rodel porous polyurethane pad, rotation speed 125 rpm, feed rate 100 nm/min",
+    "instrument_device_model": {
+      "XRD": "Bruker D8 Advance diffractometer",
+      "Particle size analyzer": "OMEC L5601A",
+      "FE-SEM": "FLOTU JSM-7401",
+      "Raman": "Nicolet 5700 FT‑IR with HeNe laser",
+      "BET": "ST‑08 surface area analyzer",
+      "Zeta Sizer": "J594H Zeta Sizer",
+      "CMP equipment": "UNIPOL802 CMP system",
+      "AFM": "NanoScope3a + Enviroscope + ECM‑2"
+    },
+    "pad_composition": "Porous polyurethane",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "x=0": {"D10": "0.92 μm", "D50": "2.22 μm", "D90": "3.91 μm", "R": 1.347},
+      "x=0.1": {"D10": "0.55 μm", "D50": "1.11 μm", "D90": "1.76 μm", "R": 1.09},
+      "x=0.2": {"D10": "0.53 μm", "D50": "1.24 μm", "D90": "1.99 μm", "R": 1.18},
+      "x=0.3": {"D10": "0.51 μm", "D50": "1.64 μm", "D90": "3.57 μm", "R": 1.86}
+    },
+    "particle_morphology": "Uniform spheroid particles (80–100 nm), loosely agglomerated",
+    "specific_surface_area_bet": {
+      "x=0": "3.23 m²/g",
+      "x=0.1": "8.71 m²/g",
+      "x=0.2": "6.17 m²/g",
+      "x=0.3": "4.83 m²/g"
+    },
+    "crystallinity_phase_composition": {
+      "x=0": {"phase": "cubic fluorite CeO2", "crystallinity": "99.09%"},
+      "x=0.1": {"phase": "cubic fluorite CeO2–TiO2 solid solution", "crystallinity": "93.34%"},
+      "x=0.2": {"phase": "cubic fluorite CeO2–TiO2 solid solution + CeTi2O6", "crystallinity": "97.14%"},
+      "x=0.3": {"phase": "cubic fluorite CeO2–TiO2 solid solution + CeTi2O6", "crystallinity": "96.48%"}
+    },
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Slurry pH 7; ambient temperature",
+    "batch_number_process_identifier": null
+  }
+  

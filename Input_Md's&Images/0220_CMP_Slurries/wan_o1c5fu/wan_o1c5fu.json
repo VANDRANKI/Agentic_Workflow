@@ -1,0 +1,62 @@
+{
+    "doi": null,
+    "title": "Ceria concentration effect on chemical mechanical polishing of optical glass",
+    "year_published": "2006",
+    "journal": null,
+    "precursor_chemical": [
+      "CeO₂"
+    ],
+    "precursor_concentration": {
+      "CeO₂": [
+        "1 wt%",
+        "0.5 wt%",
+        "0.25 wt%"
+      ]
+    },
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "dispersant 0.1 wt%",
+    "abrasive_ceria_concentration": [
+      "1 wt%",
+      "0.5 wt%",
+      "0.25 wt%"
+    ],
+    "target_final_slurry_ph": 4,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": 4,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "10 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "1 wt%": 250,
+      "0.5 wt%": 375,
+      "0.25 wt%": 675
+    },
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "CETR CP‑4 CMP Tester; pad rotation 150 rpm; wafer rotation 150 rpm; down force 3 psi; slurry feed 100 mL/min",
+    "instrument_device_model": {
+      "CMP Tester": "CETR CP‑4",
+      "FESEM": "S‑4700 (Hitachi)",
+      "AFM": "Q‑Scope 250 (Quesant Instrument)",
+      "Spectrophotometer": "V‑570 UV/VIS/NIR (JASCO)"
+    },
+    "pad_composition": "IC 1000/Suba IV stacked pad (Rodel)",
+    "pre_cmp_surface_roughness": "9.7 Å",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": "40–80 nm",
+    "particle_morphology": null,
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": "Ceria surface reduction: Ce⁴⁺→Ce³⁺ with decreasing concentration (Ce³⁺ dominant at 0.25 wt%)",
+    "environmental_conditions": "Room temperature",
+    "batch_number_process_identifier": null
+  }  

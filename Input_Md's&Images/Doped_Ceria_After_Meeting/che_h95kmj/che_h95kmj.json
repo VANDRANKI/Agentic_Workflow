@@ -1,0 +1,76 @@
+{
+    "doi": null,
+    "title": "Development of Zr- and Gd-doped porous ceria (pCeO2) abrasives for achieving high-quality and high-efficiency oxide chemical mechanical polishing",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO₃)₃·6H₂O",
+      "ZrO(NO₃)₂·xH₂O",
+      "Gd(NO₃)₃·6H₂O"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "acetic acid",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "1 wt%",
+    "target_final_slurry_ph": 8.5,
+    "reaction_temperature_if_in_situ_synthesis": "180 °C",
+    "reaction_time_if_in_situ_synthesis": "3 h",
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "2 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "pCeO2": "61 nm/min",
+      "pCeZrO2": "88 nm/min",
+      "pCeGdO2": "109 nm/min"
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": "3.0 psi",
+    "equipment_model_calibration_details": "TegraForce‑1/TegraPol‑15 polisher (Struers, Denmark); MD‑Chem porous polyurethane pad (Struers)",
+    "instrument_device_model": {
+      "XRD": "D/Max 2500 PC powder diffractometer (Rigaku)",
+      "Raman": "DXR spectrometer (Thermo Fisher)",
+      "N₂ adsorption–desorption": "TriStar 3020 analyzer (Micrometrics)",
+      "FESEM": "SUPRA 55 field‑emission SEM (ZEISS)",
+      "TEM": "JEM‑2100 transmission electron microscope (JEOL)",
+      "UV–vis DRS": "UV‑3600 spectrophotometer (Shimadzu)",
+      "AFM": "Nanoman VS atomic force microscope (VEECO/Bruker)",
+      "Surface profiler": "ContourGT‑K0 non‑contact profiler (Bruker)",
+      "Balance": "XS105 analytical balance (Mettler Toledo)"
+    },
+    "pad_composition": "porous polyurethane",
+    "pre_cmp_surface_roughness": "Ra: 0.99 nm; RMS: 1.25 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "pCeO2": "70–90 nm",
+      "pCeZrO2": "60–80 nm",
+      "pCeGdO2": "60–80 nm"
+    },
+    "particle_morphology": "uniform spherical nanospheres composed of ~5 nm CeO2 nanoparticles with mesoporous structure",
+    "specific_surface_area_bet": {
+      "pCeO2": "195 m²/g",
+      "pCeZrO2": "176 m²/g",
+      "pCeGdO2": "110 m²/g"
+    },
+    "crystallinity_phase_composition": {
+      "pCeO2": "cubic fluorite",
+      "pCeZrO2": "cubic fluorite",
+      "pCeGdO2": "cubic fluorite"
+    },
+    "crystallite_size": {
+      "pCeO2": "7.2 nm",
+      "pCeZrO2": "6.8 nm",
+      "pCeGdO2": "7.1 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "20 °C, 40 % RH ambient measurements; samples stored under N₂",
+    "batch_number_process_identifier": null
+  }
+  

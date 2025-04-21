@@ -1,0 +1,53 @@
+{
+    "doi": null,
+    "title": "POLISHING SLURRY COMPOSITION",
+    "year_published": "2022",
+    "journal": null,
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "5 wt%",
+    "target_final_slurry_ph": 4,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": "+54 mV",
+    "sedimentation_rate": null,
+    "polishing_time": "60 s",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "silicon oxide film": 4665,
+      "silicon nitride film": 1226,
+      "polysilicon film": 552
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": "3.5 psi",
+    "equipment_model_calibration_details": "Polishing machine: AP‑300 (300 mm, KCTECH); Pad: IC‑1000 (DOW)",
+    "instrument_device_model": {
+      "Polishing machine": "AP‑300",
+      "Pad": "IC‑1000",
+      "Defect measurement equipment": "ATI‑XP"
+    },
+    "pad_composition": "IC‑1000 (DOW)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "primary particle": "5–150 nm",
+      "secondary particle": "30–300 nm"
+    },
+    "particle_morphology": "single‑crystalline spherical particles",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "pH 3–6; positive zeta potential; cleaning with SC‑1 and HF",
+    "batch_number_process_identifier": null
+  }
+  

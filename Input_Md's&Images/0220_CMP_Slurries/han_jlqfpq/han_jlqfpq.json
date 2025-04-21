@@ -1,0 +1,54 @@
+{
+  "doi": null,
+  "title": "Effect of Pad Surface Roughness on Material Removal Rate in Chemical Mechanical Polishing Using Ultrafine Colloidal Ceria Slurry",
+  "year_published": "2013",
+  "journal": null,
+  "precursor_chemical": null,
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": null,
+  "abrasive_ceria_concentration": "<0.1 wt%",
+  "target_final_slurry_ph": null,
+  "reaction_temperature_if_in_situ_synthesis": null,
+  "reaction_time_if_in_situ_synthesis": null,
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": null,
+  "sedimentation_rate": null,
+  "polishing_time": null,
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "smooth_pad": ">2000 \u00c5/min",
+    "rough_pad": "<200 \u00c5/min"
+  },
+  "process_temperature": "Ambient",
+  "pad_conditioning_pressure": null,
+  "equipment_model_calibration_details": "AMAT-LK polisher; GNP Poli-762 polisher",
+  "instrument_device_model": {
+    "TEM/EDS": "Not specified model",
+    "Optical Profiler": "WYKO NT1100",
+    "Interferometer": "ST-5000"
+  },
+  "pad_composition": "IC1010 pore pad (Dow Corporation)",
+  "pre_cmp_surface_roughness": null,
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "Slurry A (calcined)": "110 nm",
+    "Slurry B (ultrafine)": "20 nm"
+  },
+  "particle_morphology": {
+    "Slurry A (calcined)": "Irregular, sharp-edged",
+    "Slurry B (ultrafine)": "Spherical"
+  },
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "Ambient",
+  "batch_number_process_identifier": null
+}

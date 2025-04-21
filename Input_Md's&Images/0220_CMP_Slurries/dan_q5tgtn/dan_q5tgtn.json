@@ -1,0 +1,85 @@
+{
+  "doi": null,
+  "title": "Reverse selectivity - High silicon nitride and low silicon dioxide removal rates using ceria abrasive-based dispersions",
+  "year_published": "2010",
+  "journal": null,
+  "precursor_chemical": null,
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": "Poly(acrylicacid-co-diallyldimethylammonium chloride) (PAD)",
+  "abrasive_ceria_concentration": "0.25 wt%",
+  "target_final_slurry_ph": 4,
+  "reaction_temperature_if_in_situ_synthesis": null,
+  "reaction_time_if_in_situ_synthesis": [
+    "up to 8 min"
+  ],
+  "ph_during_reaction": 4,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": {
+    "ceria_X0.2": null,
+    "ceria_X0.8": null,
+    "ceria_X1.25_pH4": "10 mV"
+  },
+  "sedimentation_rate": null,
+  "polishing_time": [
+    "1 min",
+    "8 min"
+  ],
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "Silicon nitride": {
+      "X=0": 120,
+      "X=0.2": 120,
+      "X=0.31": 120,
+      "X=0.5": 125,
+      "X=0.8": 128,
+      "X=1.25": 120
+    },
+    "Silicon dioxide": {
+      "X=0": 350,
+      "X=0.2": 24,
+      "X=0.31": 21,
+      "X=0.5": 19,
+      "X=0.8": 6,
+      "X=1.25": 2
+    }
+  },
+  "process_temperature": null,
+  "pad_conditioning_pressure": "4 psi operating / 5.5 psi retaining ring",
+  "equipment_model_calibration_details": "POLI-500 polisher (G&P Technology); IC-1000 k-groove pad with 3M diamond conditioner",
+  "instrument_device_model": {
+    "Interferometer": "Filmetrics F-20",
+    "Zeta potential analyzer": "Matec 9800",
+    "TGA": "Perkin-Elmer Pyris 1",
+    "UV-vis": "Perkin-Elmer Lambda 35"
+  },
+  "pad_composition": "IC-1000 k-groove polyurethane pad",
+  "pre_cmp_surface_roughness": null,
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "ceria": "60 nm primary (140-170 nm secondary)",
+    "silica": [
+      "20 nm",
+      "35 nm",
+      "50 nm",
+      "85 nm"
+    ],
+    "silicon nitride": [
+      "20 nm",
+      "50 nm",
+      "100 nm"
+    ]
+  },
+  "particle_morphology": "Near-spherical nanoparticles",
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "Ambient; pH 4",
+  "batch_number_process_identifier": null
+}

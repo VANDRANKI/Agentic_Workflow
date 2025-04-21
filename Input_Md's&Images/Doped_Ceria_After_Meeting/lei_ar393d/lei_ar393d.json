@@ -1,0 +1,72 @@
+{
+    "doi": "10.1016/j.matchemphys.2015.12.026",
+    "title": "Preparation of Ce-doped colloidal SiO2 composite abrasives and their chemical mechanical polishing behavior on sapphire substrates",
+    "year_published": "2016",
+    "journal": "Materials Chemistry and Physics",
+    "precursor_chemical": [
+      "ceric ammonium nitrate ((NH4)2Ce(NO3)6)",
+      "colloidal SiO2 seed",
+      "active silicic acid solution",
+      "carbamide (CO(NH2)2)",
+      "ammonia (NH3·H2O)"
+    ],
+    "precursor_concentration": {
+      "(NH4)2Ce(NO3)6": "0.4 wt%",
+      "active silicic acid": "2.5 wt%",
+      "carbamide": "0.05 wt%",
+      "ammonia": "1.5 wt%",
+      "colloidal SiO2 seed": "10 wt%"
+    },
+    "precipitant_type": "ammonia (NH3·H2O)",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "sodium hexametaphosphate 3.0 wt%",
+    "abrasive_ceria_concentration": [
+      "0 wt.%",
+      "0.5 wt.%",
+      "1.0 wt.%",
+      "1.5 wt.%"
+    ],
+    "target_final_slurry_ph": 10.5,
+    "reaction_temperature_if_in_situ_synthesis": "100 °C",
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": "9.0-11.0",
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "2 h",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "0 wt.%": 0.306,
+      "0.5 wt.%": 0.225,
+      "1.0 wt.%": 0.368,
+      "1.5 wt.%": 0.387
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "UNIPOL‑1502 polishing equipment (Shenyang Kejing Instrument Co., LTD, China); slurry supply rate 180 ml/min",
+    "instrument_device_model": {
+      "Mastersizer 2000": "Mastersizer 2000 instrument",
+      "SEM": "JEOL JSM‑6700F field emission scanning electron microscope",
+      "TOF‑SIMS": "Model 2100 Trift II time‑of‑flight secondary ion mass spectrometer",
+      "ICP‑AES": "PERKINE 7300DV inductively coupled plasma–atomic emission spectrometer",
+      "XPS": "ESCALAB 250Xi electron spectrometer",
+      "Surface profiler": "Ambios XI‑100 surface profiler",
+      "Analytical balance": "METTLER TOLEDO AL104 analytical balance"
+    },
+    "pad_composition": "Rodel porous polyurethane pad",
+    "pre_cmp_surface_roughness": "2.535 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": null,
+    "particle_morphology": "spherical",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "synthesis at pH 9.0–11.0, 100 °C; polishing slurry pH 10.5, ambient temperature",
+    "batch_number_process_identifier": null
+  }
+  

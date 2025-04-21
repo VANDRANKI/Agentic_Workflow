@@ -1,0 +1,86 @@
+{
+  "doi": null,
+  "title": "Synthesis, characterization and CMP property of neat and doped mesoporous ceria as defective active particle abrasives",
+  "year_published": null,
+  "journal": null,
+  "precursor_chemical": [
+    "Ce(NO\u2083)\u2083\u00b76H\u2082O",
+    "Gd(NO\u2083)\u2083\u00b76H\u2082O",
+    "Y(NO\u2083)\u2083\u00b76H\u2082O",
+    "Zn(CH\u2083COO)\u2082\u00b72H\u2082O"
+  ],
+  "precursor_concentration": null,
+  "precipitant_type": "HCl",
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": "PVP K30 1.0\u202fwt%",
+  "abrasive_ceria_concentration": "1.0\u202fwt%",
+  "target_final_slurry_ph": 8.0,
+  "reaction_temperature_if_in_situ_synthesis": "155\u202f\u00b0C then 120\u202f\u00b0C",
+  "reaction_time_if_in_situ_synthesis": "1\u202fh at 155\u202f\u00b0C; 1.5\u202fh at 120\u202f\u00b0C",
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": null,
+  "sedimentation_rate": null,
+  "polishing_time": "2\u202fmin",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "mCeO2": 48,
+    "mCeO2-Gd": 74,
+    "mCeO2-Y": 61,
+    "mCeO2-Zn": 59
+  },
+  "process_temperature": "20\u202f\u00b0C",
+  "pad_conditioning_pressure": "3.0\u202fpsi",
+  "equipment_model_calibration_details": "TegraForce-1/TegraPol-15 polisher (Struers) with MD-Chem polyurethane pad; 250\u202fW UV lamp (365\u202fnm)",
+  "instrument_device_model": {
+    "XRD": "Rigaku D/Max\u00a02500\u00a0PC",
+    "SEM": "SUPRA\u00a055 (ZEISS)",
+    "TEM": "JEOL JEM-2100",
+    "STEM-EDX": "FEI Talos 200 s",
+    "XPS": "ULVAC-PHI-5000",
+    "BET analyzer": "Micromeritics TriStar\u00a03020",
+    "UV-Vis DRS": "Shimadzu UV3600",
+    "Raman": "ThermoFisher DXR",
+    "AFM": "Nanoman VS & Dimension V",
+    "Profilometer": "Contour GT (Bruker)",
+    "Balance": "Mettler Toledo XS105"
+  },
+  "pad_composition": "porous polyurethane (MD-Chem, Struers)",
+  "pre_cmp_surface_roughness": {
+    "Ra": 0.784,
+    "Rq": 0.918
+  },
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "mCeO2": "79\u202f\u00b1\u202f8\u202fnm",
+    "mCeO2-Gd": "78\u202f\u00b1\u202f16\u202fnm",
+    "mCeO2-Y": "77\u202f\u00b1\u202f13\u202fnm",
+    "mCeO2-Zn": "79\u202f\u00b1\u202f12\u202fnm"
+  },
+  "particle_morphology": "monodisperse spherical mesoporous nanospheres (~79\u202fnm) assembled from ~10\u202fnm crystalline domains",
+  "specific_surface_area_bet": {
+    "mCeO2": "42.02\u202fm\u00b2/g",
+    "mCeO2-Gd": "47.25\u202fm\u00b2/g",
+    "mCeO2-Y": "43.69\u202fm\u00b2/g",
+    "mCeO2-Zn": "50.25\u202fm\u00b2/g"
+  },
+  "crystallinity_phase_composition": {
+    "mCeO2": "cubic fluorite",
+    "mCeO2-Gd": "cubic fluorite",
+    "mCeO2-Y": "cubic fluorite",
+    "mCeO2-Zn": "cubic fluorite"
+  },
+  "crystallite_size": {
+    "mCeO2": 10.75,
+    "mCeO2-Gd": 9.12,
+    "mCeO2-Y": 9.1,
+    "mCeO2-Zn": 9.6
+  },
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "CMP and UV-CMP at 20\u202f\u00b0C, 40\u202f% RH; synthesis under N\u2082 at 155\u202f\u00b0C and 120\u202f\u00b0C; slurry pH\u202f8.0 with 5\u202fmM KPS",
+  "batch_number_process_identifier": null
+}

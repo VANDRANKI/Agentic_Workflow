@@ -1,0 +1,114 @@
+{
+    "doi": null,
+    "title": "The mechanism of ceria slurry on chemical mechanical polishing efficiency and surface quality of Gallium nitride",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "SiO₂",
+      "Al₂O₃",
+      "CeO₂"
+    ],
+    "precursor_concentration": {
+      "SiO₂": [
+        "0.5 wt%",
+        "1.0 wt%",
+        "2.0 wt%",
+        "3.0 wt%",
+        "4.0 wt%"
+      ],
+      "Al₂O₃": [
+        "0.5 wt%",
+        "1.0 wt%",
+        "2.0 wt%",
+        "3.0 wt%",
+        "4.0 wt%"
+      ],
+      "CeO₂": [
+        "0.5 wt%",
+        "1.0 wt%",
+        "2.0 wt%",
+        "3.0 wt%",
+        "4.0 wt%"
+      ]
+    },
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": [
+      "0.5 wt%",
+      "1.0 wt%",
+      "2.0 wt%",
+      "3.0 wt%",
+      "4.0 wt%"
+    ],
+    "target_final_slurry_ph": 3.0,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": 3.0,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "30 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "SiO₂": {
+        "0.5 wt%": 30,
+        "1.0 wt%": 35,
+        "2.0 wt%": 75,
+        "3.0 wt%": 80,
+        "4.0 wt%": 65
+      },
+      "Al₂O₃": {
+        "0.5 wt%": 140,
+        "1.0 wt%": 200,
+        "2.0 wt%": 240,
+        "3.0 wt%": 230,
+        "4.0 wt%": 225
+      },
+      "CeO₂": {
+        "0.5 wt%": 250,
+        "1.0 wt%": 260,
+        "2.0 wt%": 270,
+        "3.0 wt%": 265,
+        "4.0 wt%": 260
+      }
+    },
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": "5.8 psi",
+    "equipment_model_calibration_details": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Co.) with Suba 600 pad; POLI‑500 friction & temperature measurement (GnP Corp.); planetary ball mill (PA66 jars, zirconia beads)",
+    "instrument_device_model": {
+      "SSP500 polisher": "Wuxi RX Lapping & Polishing Technology Co.",
+      "POLI‑500": "GnP Corporation",
+      "AFM": "Q‑Scope 250 (Quesant Instrument)",
+      "SEM": "Sigma 500 (Zeiss)",
+      "XPS": "Unspecified XPS system",
+      "DLS": "NICOMP 380ZLS"
+    },
+    "pad_composition": "Suba 600 (urethane)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "SiO₂": "≈50–150 nm",
+      "Al₂O₃": "≈200–650 nm",
+      "CeO₂": "≈180–450 nm"
+    },
+    "particle_morphology": {
+      "SiO₂": "spherical",
+      "Al₂O₃": "irregular/angular",
+      "CeO₂": "granular/irregular"
+    },
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": {
+      "SiO₂": 7,
+      "Al₂O₃": 9,
+      "CeO₂": "5–6"
+    },
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Room temperature, pH 3",
+    "batch_number_process_identifier": null
+  }  

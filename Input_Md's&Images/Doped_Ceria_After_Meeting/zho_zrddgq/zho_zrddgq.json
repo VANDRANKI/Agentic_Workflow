@@ -1,0 +1,91 @@
+{
+    "doi": null,
+    "title": "Development of Ce/Cu co-doped dendritic mesoporous silica nanoparticles (DMSNs) as novel abrasive systems toward high‑performance chemical mechanical polishing",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO₃)₂·6H₂O",
+      "Cu(NO₃)₂·3H₂O"
+    ],
+    "precursor_concentration": {
+      "Ce(NO₃)₂·6H₂O": "0.25 mmol (0.21 g) in 20 mL ethanol",
+      "Cu(NO₃)₂·3H₂O": "0.25 mmol (0.12 g) in 20 mL ethanol"
+    },
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "PVP (1.0 wt %)",
+    "abrasive_ceria_concentration": null,
+    "target_final_slurry_ph": "8.0–8.5",
+    "reaction_temperature_if_in_situ_synthesis": [
+      "Room temperature (impregnation)",
+      "45 °C (solvent evaporation)",
+      "550 °C (calcination)"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "10 min ultrasonication",
+      "2 h aging",
+      "2 h calcination"
+    ],
+    "ph_during_reaction": null,
+    "stirring_speed": "150 r/min (synthesis), 200–300 r/min (aging)",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "2 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "DMSNs (CMP)": 68,
+      "Ce‑DMSNs (CMP)": 93,
+      "Ce/Cu‑DMSNs (CMP)": 152,
+      "Ce/Cu‑DMSNs (PCMP)": 184
+    },
+    "process_temperature": "Room temperature (RT)",
+    "pad_conditioning_pressure": "3.0–3.5 psi",
+    "equipment_model_calibration_details": "Tegra-Force-1-TrgraPol-15 polisher (Struers); porous polyurethane pad (MD‑Chem, Struers); UV lamp (250 W, 365 nm, placed ~30 cm above pad)",
+    "instrument_device_model": {
+      "FESEM": "ZEISS SUPRA‑55 electron microscope",
+      "TEM": "JEOL JEM‑2100 electron microscope",
+      "Nitrogen adsorption": "Micromeritics TriStar 3020",
+      "FT‑IR": "Nicolet Avatar‑370",
+      "XRD": "Rigaku D/Max 2500 PC",
+      "XPS": "PHI‑5000 VersaProbe III",
+      "AFM": "Nanoman VS with Dimension V controller (Veeco)",
+      "Profilometer": "Contour GT (Bruker)",
+      "Polisher": "Tegra‑Force‑1‑TrgraPol‑15 (Struers)",
+      "Balance": "XS105 (Mettler Toledo)",
+      "UV‑vis": "722 spectrophotometer (JINGHUR Instruments)",
+      "Photochemical reactor": "GHX‑2 photochemical reaction apparatus (Yangzhou University Town Science and Education Instrument Co., Ltd.)"
+    },
+    "pad_composition": "Porous polyurethane (MD‑Chem, Struers)",
+    "pre_cmp_surface_roughness": {
+      "Ra": "0.693 nm",
+      "Rq": "0.829 nm",
+      "Rz": "1.41 nm"
+    },
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "DMSNs": "72.0 ± 6.5 nm",
+      "Ce‑DMSNs": "74.2 ± 6.2 nm",
+      "Cu‑DMSNs": "75.4 ± 6.8 nm",
+      "Ce/Cu‑DMSNs": "74.6 ± 7.4 nm"
+    },
+    "particle_morphology": "Uniform spherical dendritic mesoporous nanoparticles (~70–80 nm)",
+    "specific_surface_area_bet": {
+      "DMSNs": "605.8 m²/g",
+      "Ce‑DMSNs": "265.9 m²/g",
+      "Ce/Cu‑DMSNs": "299.7 m²/g"
+    },
+    "crystallinity_phase_composition": {
+      "Ce‑DMSNs": "cubic fluorite CeO₂",
+      "Cu‑DMSNs": "monoclinic CuO",
+      "Ce/Cu‑DMSNs": "cubic fluorite CeO₂ and monoclinic CuO"
+    },
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": null,
+    "batch_number_process_identifier": null
+  }
+  

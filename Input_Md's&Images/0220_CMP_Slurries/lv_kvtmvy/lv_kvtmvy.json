@@ -1,0 +1,60 @@
+{
+  "doi": null,
+  "title": "Effect of synergistic CeO2/MoS2 abrasives on surface roughness and material removal rate of quartz glass",
+  "year_published": null,
+  "journal": null,
+  "precursor_chemical": null,
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": "Potassium oleate (KOL) 0.2 wt%",
+  "abrasive_ceria_concentration": "4.0 wt%",
+  "target_final_slurry_ph": "∼10",
+  "reaction_temperature_if_in_situ_synthesis": null,
+  "reaction_time_if_in_situ_synthesis": null,
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": null,
+  "sedimentation_rate": null,
+  "polishing_time": "40 min",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "S1": 9.27,
+    "S2": 11.0,
+    "S3": 17.0,
+    "S4": 24.03,
+    "S5": 22.87
+  },
+  "process_temperature": "Room temperature",
+  "pad_conditioning_pressure": "1.35 kg",
+  "equipment_model_calibration_details": "UNIPOL-802 precision lapping/polishing machine",
+  "instrument_device_model": {
+    "Peristaltic Pump": "BT-300EA (Chongqing Jieheng Peristaltic Pump Co., Ltd.)",
+    "Drop Shape Analyzer": "DSA25R (KRUSS Scientific)",
+    "AFM": "Dimension ICON (Bruker)",
+    "SEM": "S4800 (Hitachi)",
+    "TEM": "JEM-F200 (JEOL)",
+    "XPS": "Axis Supra (Shimadzu)",
+    "FTIR": "INVENIO (Bruker)"
+  },
+  "pad_composition": "Polyurethane",
+  "pre_cmp_surface_roughness": "2.65 nm",
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "mean": "83.62 nm average",
+    "range": "40–140 nm"
+  },
+  "particle_morphology": "CeO2: irregular spherical nanoparticles with sharp edges; MoS2: layered nanosheets",
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": {
+    "MoS2": "99.5%"
+  },
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "Ambient room temperature, slurry pH ~10, ultrasonication for 20 min",
+  "batch_number_process_identifier": null
+}

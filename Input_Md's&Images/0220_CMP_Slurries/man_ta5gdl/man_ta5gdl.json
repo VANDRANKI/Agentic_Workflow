@@ -1,0 +1,55 @@
+{
+    "doi": null,
+    "title": "Mechanism of high selectivity in ceria based shallow trench isolation chemical mechanical polishing slurries",
+    "year_published": "2010",
+    "journal": null,
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "DL-aspartic acid",
+    "abrasive_ceria_concentration": "0.1–2 wt%",
+    "target_final_slurry_ph": 5,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": null,
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "oxide": "64.6 nm/min",
+      "nitride": "0.9 nm/min"
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": "31.0 kPa",
+    "equipment_model_calibration_details": "Struers Labopol-5 and Laboforce-3 CMP equipment; Rohm and Haas SUBA IV polishing pads; Filmetrics F20-UV thin film analyzer",
+    "instrument_device_model": {
+      "CMP equipment": ["Struers Labopol-5", "Laboforce-3"],
+      "Polishing pad": "Rohm and Haas SUBA IV",
+      "Thin film analyzer": "Filmetrics F20-UV"
+    },
+    "pad_composition": "SUBA IV (Rohm and Haas)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": null,
+    "particle_morphology": null,
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": {
+      "ceria": "≥90% total rare earth oxides (≥60% CeO₂)",
+      "Fe₂O₃": "trace"
+    },
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": {
+      "pH_range": "2–10",
+      "ambient": "room temperature"
+    },
+    "batch_number_process_identifier": null
+  }
+  

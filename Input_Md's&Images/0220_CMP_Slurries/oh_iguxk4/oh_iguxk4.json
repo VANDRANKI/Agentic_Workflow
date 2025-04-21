@@ -1,0 +1,97 @@
+{
+    "doi": null,
+    "title": "Polishing behaviors of ceria abrasives on silicon dioxide and silicon nitride CMP",
+    "year_published": "2010",
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO₃)₃·6H₂O",
+      "KOH"
+    ],
+    "precursor_concentration": {
+      "Ce(NO₃)₃·6H₂O": "0.5 M",
+      "KOH": "1.0 M"
+    },
+    "precipitant_type": "KOH",
+    "molar_ratio_precursor_precipitant": [
+      "1:2"
+    ],
+    "additives_surfactant_dispersant": "Polyacrylic acid (PAA, Mw 4000) 2 wt%",
+    "abrasive_ceria_concentration": "2.0 wt%",
+    "target_final_slurry_ph": "6.5–6.7",
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": "100 rpm",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "slurry_A": {
+        "oxide": 1661,
+        "oxide_std": 77,
+        "nitride": 79,
+        "nitride_std": 6
+      },
+      "slurry_B": {
+        "oxide": 3390,
+        "oxide_std": 103,
+        "nitride": 117,
+        "nitride_std": 8
+      },
+      "slurry_C": {
+        "oxide": 3989,
+        "oxide_std": 91,
+        "nitride": 127,
+        "nitride_std": 6
+      },
+      "slurry_D": {
+        "oxide": 4343,
+        "oxide_std": 136,
+        "nitride": 155,
+        "nitride_std": 13
+      }
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": "280 g/cm²",
+    "equipment_model_calibration_details": "GNP POLI 400 CMP machine (G&P Technology); IC1000/SUBA IV stacked pads (Rodel Inc.)",
+    "instrument_device_model": {
+      "CMP_machine": "GNP POLI 400 (G&P Technology)",
+      "FESEM": "Field emission scanning electron microscope (unspecified model)",
+      "XRD": "X-ray diffraction (CuKα radiation, unspecified model)",
+      "Light_scattering": "UPA 150 (Microtrac Inc.)",
+      "TGA": "Thermogravimetric analyzer (unspecified model)",
+      "Reflectometry": "Nanospec 6100 (Nanometrics)"
+    },
+    "pad_composition": "IC1000/SUBA IV stacked pads (Rodel Inc.)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "slurry_A": "165 nm",
+      "slurry_B": "278 nm",
+      "slurry_C": "483 nm",
+      "slurry_D": "742 nm"
+    },
+    "particle_morphology": "crystalline grains with well-defined morphology, roughly spherical",
+    "specific_surface_area_bet": {
+      "slurry_A": "20.53 m²/g",
+      "slurry_B": "14.06 m²/g",
+      "slurry_C": "12.70 m²/g",
+      "slurry_D": "5.58 m²/g"
+    },
+    "crystallinity_phase_composition": "cubic fluorite structure",
+    "crystallite_size": {
+      "slurry_A": "38 nm",
+      "slurry_B": "43 nm",
+      "slurry_C": "57 nm",
+      "slurry_D": "88 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": null,
+    "batch_number_process_identifier": null
+  }
+  

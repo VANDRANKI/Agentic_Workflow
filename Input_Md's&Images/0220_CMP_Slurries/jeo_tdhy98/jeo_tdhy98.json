@@ -1,0 +1,69 @@
+{
+  "doi": null,
+  "title": "Investigation of abrasive behavior between pad asperity and oxide thin film in chemical mechanical planarization",
+  "year_published": null,
+  "journal": null,
+  "precursor_chemical": null,
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": null,
+  "abrasive_ceria_concentration": null,
+  "target_final_slurry_ph": null,
+  "reaction_temperature_if_in_situ_synthesis": null,
+  "reaction_time_if_in_situ_synthesis": null,
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": null,
+  "sedimentation_rate": null,
+  "polishing_time": "1 min",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "ceria": {
+      "Desired": 2990,
+      "Smoothed": 4404
+    },
+    "silica": {
+      "Desired": 2640,
+      "Smoothed": 1080
+    }
+  },
+  "process_temperature": "Ambient",
+  "pad_conditioning_pressure": null,
+  "equipment_model_calibration_details": "Poli-762 polisher (GnP Technology)",
+  "instrument_device_model": {
+    "Polisher": "Poli-762 (GnP Technology)",
+    "Reflectometer": "ST5030-SL (K-MAC)",
+    "3D Confocal Microscope": "OLS5100 (Olympus)",
+    "Optical Microscope": "Dino-Lite Edge (AnMo Electronics)"
+  },
+  "pad_composition": "DuPont IC1000",
+  "pre_cmp_surface_roughness": {
+    "Desired": {
+      "Rpk": "6.6 \u00b5m (avg)",
+      "Rms": "approx 3 \u00b5m"
+    },
+    "Smoothed": {
+      "Rpk": "5.9 \u00b5m (avg)",
+      "Rms": "approx 2.9 \u00b5m"
+    }
+  },
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "ceria": "130 nm",
+    "silica": "130 nm"
+  },
+  "particle_morphology": null,
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": [
+    "Ambient temperature, slurry flow 160 mL/min"
+  ],
+  "batch_number_process_identifier": null
+}

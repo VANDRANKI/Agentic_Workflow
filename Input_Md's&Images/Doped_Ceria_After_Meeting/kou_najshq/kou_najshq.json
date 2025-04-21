@@ -1,0 +1,82 @@
+{
+    "doi": null,
+    "title": "Trivalent lanthanum and ytterbium doped meso‑silica/ceria abrasive systems toward chemical mechanical polishing (CMP) and ultraviolet irradiation‑assisted photochemical mechanical polishing (PCMP)",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO₃)₂·6H₂O",
+      "La(NO₃)₂·6H₂O",
+      "Yb(NO₃)₂·6H₂O"
+    ],
+    "precursor_concentration": {
+      "Ce(NO₃)₂·6H₂O": "0.5 g",
+      "La(NO₃)₂·6H₂O": "0.1 g (or Yb(NO₃)₂·6H₂O 0.1 g)",
+      "C₆H₁₂N₄ (precipitant)": "0.96 g"
+    },
+    "precipitant_type": "hexamethylenetetramine (C₆H₁₂N₄)",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "H₂O₂ (1.0 wt %), SDS (0.5 wt %), pH regulator to 8.0–8.5",
+    "abrasive_ceria_concentration": "1.0 wt %",
+    "target_final_slurry_ph": "8.0–8.5",
+    "reaction_temperature_if_in_situ_synthesis": "75 °C",
+    "reaction_time_if_in_situ_synthesis": "2 h",
+    "ph_during_reaction": null,
+    "stirring_speed": "300 rpm",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "30 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "Commercial CeO₂ (CMP)": 23.5,
+      "mSiO₂/La‑CeO₂ (CMP)": 64.6,
+      "mSiO₂/Yb‑CeO₂ (CMP)": 102.2,
+      "mSiO₂/La‑CeO₂ (PCMP)": 121.8,
+      "mSiO₂/Yb‑CeO₂ (PCMP)": 157.4
+    },
+    "process_temperature": "Ambient (room temperature)",
+    "pad_conditioning_pressure": "3.0 psi",
+    "equipment_model_calibration_details": "TegraForce‑1/TrgraPol‑15 polisher (Struers A/S, Denmark); MD‑Chem porous polyurethane pad; 250 W halogen lamp (365 nm)",
+    "instrument_device_model": {
+      "XRD": "Rigaku D/Max 2500 PC",
+      "FESEM": "Zeiss SUPRAS5",
+      "TEM": "JEOL JEM‑2100",
+      "HAADF‑STEM": "FEI Talos 200 s",
+      "Raman": "ThermoFisher DXR Raman",
+      "Zeta analyzer": "Malvern Nano‑ZS Zetasizer",
+      "XPS": "UlvacPhi PHI‑5000 VP III",
+      "AFM": "Bruker Nanoman VS",
+      "Analytical balance": "Mettler Toledo XS105"
+    },
+    "pad_composition": "Porous polyurethane (MD‑Chem, Struers A/S)",
+    "pre_cmp_surface_roughness": {
+      "Ra": "111 nm",
+      "Rq": "137 nm",
+      "PV": "344 nm"
+    },
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "mSiO₂ cores": "208.1 ± 24.9 nm",
+      "mSiO₂/La‑CeO₂": "227.7 ± 27.1 nm",
+      "CeO₂ shell nanocrystals": "2–5 nm"
+    },
+    "particle_morphology": "Spherical mSiO₂ cores densely grafted with 2–5 nm CeO₂ nanocrystals (strawberry‑like surface)",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": {
+      "undoped": "cubic fluorite CeO₂",
+      "La‑doped": "cubic fluorite CeO₂",
+      "Yb‑doped": "cubic fluorite CeO₂"
+    },
+    "crystallite_size": {
+      "undoped CeO₂": 3.09,
+      "La‑doped": 2.60,
+      "Yb‑doped": 2.61
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Slurry pH 8.0–8.5; UV irradiation (365 nm); synthesis at 75 °C; annealing at 650 °C; AFM under N₂",
+    "batch_number_process_identifier": null
+  }
+  

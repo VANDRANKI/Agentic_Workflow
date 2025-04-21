@@ -1,0 +1,97 @@
+{
+    "doi": null,
+    "title": "Synthesis of Al₂O₃@MnO₂ composite abrasives and their chemical mechanical polishing performance on silicon carbide (SiC)",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "Al₂O₃",
+      "KMnO₄"
+    ],
+    "precursor_concentration": {
+      "Al₂O₃": "15 g in 100 g deionized water",
+      "KMnO₄": "0.1669 g in 100 g deionized water"
+    },
+    "precipitant_type": "HCl (3 mol/L)",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "1.5 wt%",
+    "target_final_slurry_ph": 2,
+    "reaction_temperature_if_in_situ_synthesis": "50 °C",
+    "reaction_time_if_in_situ_synthesis": [
+      "25 min ultrasound",
+      "30 min stirring at 50 °C"
+    ],
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1 h",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "Al₂O₃": 364.50,
+      "Al₂O₃@MnO₂ (0.01 wt%)": 440,
+      "Al₂O₃@MnO₂ (0.03 wt%)": 480,
+      "Al₂O₃@MnO₂ (0.05 wt%)": 640.47,
+      "Al₂O₃@MnO₂ (0.10 wt%)": 510,
+      "Al₂O₃@MnO₂ (0.30 wt%)": 495,
+      "Al₂O₃@MnO₂ (0.50 wt%)": 405
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "UNIPOL‑1502 polishing machine (Shenyang Kejing Co., Ltd., China); Suba 800 pad (Dow Chemical Co., Ltd., USA)",
+    "instrument_device_model": {
+      "XRD": "Rigaku X‑ray diffractometer",
+      "SEM": "JEOL JSM‑7500F",
+      "Zetasizer": "Malvern Panalytical Nano ZS90",
+      "Optical profilometer": "Sensofar S neox 090",
+      "XPS": "Thermo Scientific K‑Alpha",
+      "Contact angle analyzer": "BIOLIN Theta Flex",
+      "Friction meter": "Bangyi Byes‑550"
+    },
+    "pad_composition": "Polyurethane (Suba 800, Dow Chemical Co., Ltd., USA)",
+    "pre_cmp_surface_roughness": "3.31 nm",
+    "post_cmp_surface_roughness": {
+      "Al₂O₃": "2.70 nm",
+      "Al₂O₃@MnO₂ (0.05 wt%)": "1.50 nm"
+    },
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "Al₂O₃": "peak ~350 nm",
+      "Al₂O₃@MnO₂ (0.01–0.30 wt%)": "peak ~240–300 nm",
+      "Al₂O₃@MnO₂ (0.50 wt%)": "broad distribution"
+    },
+    "particle_morphology": "Irregular polygonal Al₂O₃ particles; composite shows improved dispersion and reduced agglomeration",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": {
+      "Al₂O₃": "α‑phase (R3c, PDF#10‑0173)",
+      "MnO₂": "α‑phase (I4/m, PDF#44‑0141)"
+    },
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Acidic slurry environment (pH 2) at room temperature",
+    "contact_angle_vs_mno2": {
+      "0": "65.90°",
+      "0.01": "51.23°",
+      "0.03": "47.26°",
+      "0.05": "37.54°",
+      "0.10": "46.32°",
+      "0.30": "48.06°",
+      "0.50": "54.31°"
+    },
+    "dynamic_friction_coefficient_vs_mno2": {
+      "0": 0.18,
+      "0.01": 0.196,
+      "0.03": 0.205,
+      "0.05": 0.242,
+      "0.10": 0.236,
+      "0.30": 0.221,
+      "0.50": 0.217
+    },
+    "polishing_mechanism_model": "Under acidic conditions the SiC surface is oxidized to soft SiO₂, MnO₂ reacts to form Mn‑O‑Si bonds, and the composite abrasive mechanically removes the oxide layer.",
+    "batch_number_process_identifier": null
+  }
+  

@@ -1,0 +1,71 @@
+{
+    "doi": null,
+    "title": "Nd-doped porous CeO2 abrasives for chemical mechanical polishing of SiO2 films",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO3)3·6H2O",
+      "Nd(NO3)3·6H2O"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "PVP 1.0 wt%",
+    "abrasive_ceria_concentration": "1.0 wt%",
+    "target_final_slurry_ph": 10,
+    "reaction_temperature_if_in_situ_synthesis": "180 °C",
+    "reaction_time_if_in_situ_synthesis": "240 min",
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "pCeO2": "80.8 ± 8.7 nm/min",
+      "pCeO2-Nd": "126.3 ± 17.5 nm/min"
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": "8 N",
+    "equipment_model_calibration_details": "Bruker Universal Mechanical Tester (UMT TriboLab); XS105 Mettler Toledo ultra‑precision balance (± 0.01 mg); AFM Nanoman VS (Bruker) with OLTESPA‑R3 probe (70 kHz, 2 N/m, 7 nm tip); SEM Hitachi S4800 with EDS; TEM JEOL JEM‑2010 EX; Powder XRD (Cu Kα, λ = 1.4518 Å); UV‑vis DRS Shimadzu UV‑3600; Raman HORIBA T64000; XPS PHI‑5000 Versaprobe III; Zetasizer Nano ZS (Malvern Instruments)",
+    "instrument_device_model": {
+      "PolishingTester": "Bruker Universal Mechanical Tester (UMT TriboLab)",
+      "Balance": "XS105 Mettler Toledo",
+      "AFM": "Nanoman VS (Bruker) with OLTESPA‑R3 probe",
+      "SEM": "Hitachi S4800 with EDS",
+      "TEM": "JEOL JEM‑2010 EX",
+      "XRD": "Powder X‑ray diffractometer (Cu Kα, λ = 1.4518 Å)",
+      "UV‑vis DRS": "Shimadzu UV‑3600",
+      "Raman": "HORIBA T64000",
+      "XPS": "PHI‑5000 Versaprobe III",
+      "DLS": "Zetasizer Nano ZS (Malvern Instruments)"
+    },
+    "pad_composition": null,
+    "pre_cmp_surface_roughness": "0.813 ± 0.02 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "pCeO2": "194 nm",
+      "pCeO2-Nd": "157 nm"
+    },
+    "particle_morphology": "Monodisperse porous nanospheres (80–180 nm) with uniform spherical morphology",
+    "specific_surface_area_bet": {
+      "pCeO2": "143.5 m²/g",
+      "pCeO2-Nd": "98.49 m²/g"
+    },
+    "crystallinity_phase_composition": {
+      "pCeO2": "cubic fluorite‑type CeO2",
+      "pCeO2-Nd": "cubic fluorite‑type CeO2"
+    },
+    "crystallite_size": {
+      "pCeO2": "6.318 nm",
+      "pCeO2-Nd": "6.491 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Hydrothermal synthesis at 180 °C; calcination at 600 °C; TGA under N₂; slurry pH 10; polishing at room temperature",
+    "batch_number_process_identifier": null
+  }
+  

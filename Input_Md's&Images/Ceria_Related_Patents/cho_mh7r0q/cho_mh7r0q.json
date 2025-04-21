@@ -1,0 +1,61 @@
+{
+    "doi": null,
+    "title": "SURFACE-MODIFIED COLLOIDAL CERIA ABRASIVE PARTICLES, PREPARATION METHOD THEREFOR, AND POLISHING SLURRY COMPOSITION CONTAINING SAME",
+    "year_published": "2019",
+    "journal": null,
+    "precursor_chemical": [
+      "(NH₄)₂Ce(NO₃)₆"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "ammonium hydroxide (NH₄OH)",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "1–10 wt%",
+    "target_final_slurry_ph": null,
+    "reaction_temperature_if_in_situ_synthesis": [
+      "250 °C"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "12 h"
+    ],
+    "ph_during_reaction": 10,
+    "stirring_speed": "300 rpm",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "60 s",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "Comparative example": 5262,
+      "Example 1": 6811,
+      "Example 2": 8068,
+      "Example 3": 6686
+    },
+    "process_temperature": [
+      "70 °C",
+      "250 °C"
+    ],
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "AP-300 polisher (CTS)",
+    "instrument_device_model": null,
+    "pad_composition": "IC 1000",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": "60 nm",
+    "particle_morphology": "core‑shell spherical shape",
+    "specific_surface_area_bet": {
+      "Comparative example": "14.235 m²/g",
+      "Example 1": "17.652 m²/g",
+      "Example 2": "34.717 m²/g",
+      "Example 3": "52.646 m²/g"
+    },
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": null,
+    "batch_number_process_identifier": null
+  }
+  

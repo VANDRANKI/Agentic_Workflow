@@ -1,0 +1,114 @@
+{
+  "doi": "10.1149/1.1817870",
+  "title": "Slurry Additive Effects on the Suppression of Silicon Nitride Removal during CMP",
+  "year_published": "2004",
+  "journal": "Electrochemical and Solid-State Letters",
+  "precursor_chemical": [
+    "CeO2 (ceria)"
+  ],
+  "precursor_concentration": "1 wt%",
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": [
+    "glycine",
+    "proline",
+    "alanine",
+    "lysine",
+    "arginine",
+    "N-methylglycine",
+    "N,N-dimethylglycine",
+    "3-aminobutyric acid",
+    "picolinic acid",
+    "isonicotinic acid"
+  ],
+  "abrasive_ceria_concentration": "1 wt%",
+  "target_final_slurry_ph": 9.6,
+  "reaction_temperature_if_in_situ_synthesis": null,
+  "reaction_time_if_in_situ_synthesis": null,
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": null,
+  "sedimentation_rate": null,
+  "polishing_time": "3 min",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "arginine": {
+      "nitride": 1,
+      "oxide": 23,
+      "selectivity": 23
+    },
+    "lysine": {
+      "nitride": 1,
+      "oxide": 71,
+      "selectivity": 71
+    },
+    "proline": {
+      "nitride": 2,
+      "oxide": 456,
+      "selectivity": 228
+    },
+    "N-methylglycine": {
+      "nitride": 12,
+      "oxide": 467,
+      "selectivity": 38.9
+    },
+    "alanine": {
+      "nitride": 18,
+      "oxide": 455,
+      "selectivity": 30.3
+    },
+    "glycine": {
+      "nitride": 18,
+      "oxide": 435,
+      "selectivity": 24.2
+    },
+    "picolinic acid": {
+      "nitride": 65,
+      "oxide": 423,
+      "selectivity": 6.5
+    },
+    "N,N-dimethylglycine": {
+      "nitride": 68,
+      "oxide": 438,
+      "selectivity": 6.4
+    },
+    "3-aminobutyric acid": {
+      "nitride": 72,
+      "oxide": 442,
+      "selectivity": 6.1
+    },
+    "isonicotinic acid": {
+      "nitride": 71,
+      "oxide": 441,
+      "selectivity": 6.2
+    }
+  },
+  "process_temperature": null,
+  "pad_conditioning_pressure": "5 psi",
+  "equipment_model_calibration_details": null,
+  "instrument_device_model": {
+    "CMP tools": [
+      "Strashaugh 6DS-SP",
+      "Westech 372"
+    ],
+    "Thickness gauge": [
+      "Tencor TF-1",
+      "Filmetrics F-20"
+    ]
+  },
+  "pad_composition": "Rodel IC1400",
+  "pre_cmp_surface_roughness": null,
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": null,
+  "particle_morphology": null,
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "DI water, pH 9.6 ±0.1",
+  "batch_number_process_identifier": null
+}

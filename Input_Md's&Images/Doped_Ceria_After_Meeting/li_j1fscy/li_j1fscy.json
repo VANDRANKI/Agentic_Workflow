@@ -1,0 +1,79 @@
+{
+    "doi": "10.1016/j.apsusc.2023.158055",
+    "title": "Development and characterization of a novel RE3+ doped Core‑shell CeO2 abrasive system and its glass CMP investigations",
+    "year_published": "2023",
+    "journal": "Applied Surface Science",
+    "precursor_chemical": [
+      "Ce(NO3)3·6H2O",
+      "La(NO3)3·6H2O",
+      "Yb(NO3)3·5H2O"
+    ],
+    "precursor_concentration": {
+      "Ce(NO3)3·6H2O": "0.02 M (pure); 0.019 M (doped)",
+      "La(NO3)3·6H2O": "0.88 mM",
+      "Yb(NO3)3·5H2O": "0.88 mM"
+    },
+    "precipitant_type": "hexamethylenetetramine (HMT)",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "1 wt%",
+    "target_final_slurry_ph": "7",
+    "reaction_temperature_if_in_situ_synthesis": "80 °C",
+    "reaction_time_if_in_situ_synthesis": "2 h",
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1.5 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "PS@CeO2": 439.77,
+      "PS@CeO2:La": 480.22,
+      "PS@CeO2:Yb": 429.60,
+      "C‑CeO2": 338.00,
+      "G‑CeO2": 394.02
+    },
+    "process_temperature": "room temperature (ambient)",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "Alpha‑600 CMP machine (Suzhou TROJAN Materials Technology Co.); XS105 balance (METTLER TOLEDO, 0.01 mg accuracy); MD‑100 glass density meter (Beijing XuHui Xinrui Technology Co., Ltd.)",
+    "instrument_device_model": {
+      "SEM": "S‑4800 (Hitachi)",
+      "DLS": "Zetasizer Nano‑ZS (Malvern)",
+      "TEM": "JEMS‑F200 (JEOL)",
+      "HRTEM": "JEMS‑F200 (JEOL)",
+      "EDS": "JEMS‑F200 (JEOL)",
+      "XRD": "D/MAX 2550 PC (Rigaku)",
+      "Raman": "LABRAM HR Evolution (HORIBA Jobin Yvon)",
+      "ICP‑OES": "7800 (Agilent Technologies)",
+      "XPS": "AXIS SUPRA (Krato)",
+      "TG‑DTA": "DSCQ1000 (TA Instruments)",
+      "AFM": "Dimension ICON (Bruker)"
+    },
+    "pad_composition": "porous polyurethane (Alpha‑600 pad)",
+    "pre_cmp_surface_roughness": "3.08 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "PS@CeO2": { "SEM": 377, "DLS": 375 },
+      "PS@CeO2:La": { "SEM": 381, "DLS": 386 },
+      "PS@CeO2:Yb": { "SEM": 392, "DLS": 396 }
+    },
+    "particle_morphology": "uniform core–shell nanospheres with PS core and CeO2 shell composed of nanocrystals",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "single‑phase fluorite CeO2",
+    "crystallite_size": {
+      "PS@CeO2": 9.0,
+      "PS@CeO2:La": 8.2,
+      "PS@CeO2:Yb": 6.7
+    },
+    "hardness": null,
+    "purity": {
+      "La (measured doping %)": 4.41,
+      "Yb (measured doping %)": 4.43
+    },
+    "surface_functionalization_treatment": "RE3+ ions doped into CeO2 lattice (La3+ and Yb3+)",
+    "environmental_conditions": "PS synthesis under N₂; characterizations and CMP at ambient conditions; TGA in air; slurry pH adjusted to 7",
+    "batch_number_process_identifier": null
+  }
+  

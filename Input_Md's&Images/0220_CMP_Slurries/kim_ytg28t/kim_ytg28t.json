@@ -1,0 +1,59 @@
+{
+    "doi": null,
+    "title": "Improvement of oxide removal rate in chemical mechanical polishing by forming oxygen vacancy in ceria abrasives via ultraviolet irradiation",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "1 wt%",
+    "target_final_slurry_ph": "near 7",
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": "near 7",
+    "stirring_speed": "400 rpm",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": null,
+    "process_temperature": null,
+    "pad_conditioning_pressure": "3 kgf",
+    "equipment_model_calibration_details": "Poly-400 polisher (G&P Technology, Korea); IC1010 pad (DuPont, USA) conditioned for 30 min at 3 kgf",
+    "instrument_device_model": {
+      "CMP machine": "Poly-400 (G&P Technology, Korea)",
+      "TEM": "JEOL JEM ARM200F (Japan)",
+      "XRD": "D8 ADVANCE (Bruker, USA)",
+      "XPS": "ESCALAB 250 (Thermo Fisher, USA)",
+      "Particle size analyzer": "ELSZ 2000 (Otsuka, Japan)",
+      "Reflectometer": "ST5030-SL (K-MAC Co., Korea)"
+    },
+    "pad_composition": "IC1010/Suba IV",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "CS-A": "96.3 nm",
+      "CS-B": "95.1 nm",
+      "CS-C": "23.0 nm"
+    },
+    "particle_morphology": "CS-A: varied shapes, 20–200 nm; CS-B: polyhedral aggregates, 20–150 nm; CS-C: agglomerated ∼10 nm",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": {
+      "all samples": "cubic fluorite (JCPDS 34-0394)"
+    },
+    "crystallite_size": {
+      "CS-A": { "before UV": "23.57 nm", "after UV": "23.10 nm" },
+      "CS-B": { "before UV": "30.15 nm", "after UV": "29.10 nm" },
+      "CS-C": { "before UV": "9.22 nm", "after UV": "8.96 nm" }
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": null,
+    "batch_number_process_identifier": null
+  }
+  

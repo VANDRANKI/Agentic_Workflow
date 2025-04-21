@@ -1,0 +1,60 @@
+{
+    "doi": null,
+    "title": "SLURRY COMPOSITIONS AND CMP METHODS USING THE SAME",
+    "year_published": "2005",
+    "journal": null,
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": [
+      "ethylene oxide-propylene oxide block copolymer alcohols",
+      "ethylene oxide-propylene oxide tri-block polymers"
+    ],
+    "abrasive_ceria_concentration": null,
+    "target_final_slurry_ph": "7–12",
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": null,
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "polysilicon": {
+        "no surfactant": 4500,
+        "0.02 vol% surfactant": 2000,
+        "varying surfactant concentrations": {
+          "0.00 vol%": 5000,
+          "0.02 vol%": 4000,
+          "0.04 vol%": 2000,
+          "0.06 vol%": 1500,
+          "0.08 vol%": 1500,
+          "0.10 vol%": 1000,
+          "0.12 vol%": 1000
+        }
+      }
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": null,
+    "instrument_device_model": {
+      "SEM": "unspecified model"
+    },
+    "pad_composition": null,
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": "5 nm–1 µm",
+    "particle_morphology": null,
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": "passivation layer formation on polysilicon",
+    "environmental_conditions": null,
+    "batch_number_process_identifier": null
+  }

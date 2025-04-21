@@ -1,0 +1,80 @@
+{
+    "doi": "10.1016/j.colsurfa.2022.130508",
+    "title": "Preparation of lanthanide-doped polystyrene/CeO2 abrasives and investigation of slurry stability and photochemical mechanical polishing performance",
+    "year_published": "2023",
+    "journal": "Colloids and Surfaces A: Physicochemical and Engineering Aspects",
+    "precursor_chemical": [
+      "Ce(NO3)3·6H2O",
+      "La(NO3)3·6H2O",
+      "Nd(NO3)3·6H2O",
+      "Eu(NO3)3·6H2O"
+    ],
+    "precursor_concentration": {
+      "Ce(NO3)3·6H2O": "0.8 g",
+      "La(NO3)3·6H2O": "0.2 g",
+      "Nd(NO3)3·6H2O": "0.2 g",
+      "Eu(NO3)3·6H2O": "0.2 g"
+    },
+    "precipitant_type": "Hexamethylenetetramine (HMT)",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "PVP (1 wt %)",
+    "abrasive_ceria_concentration": "1 wt %",
+    "target_final_slurry_ph": 10,
+    "reaction_temperature_if_in_situ_synthesis": "75 °C",
+    "reaction_time_if_in_situ_synthesis": "3 h",
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": "-12.3 mV",
+    "sedimentation_rate": null,
+    "polishing_time": "1 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "CMP": "65.8 ± 3.7 nm/min",
+      "PCMP": "174.3 ± 7.6 nm/min"
+    },
+    "process_temperature": {
+      "synthesis": "75 °C",
+      "polishing": "Room temperature"
+    },
+    "pad_conditioning_pressure": "6 N",
+    "equipment_model_calibration_details": "Bruker UMT TriboLab mechanical tester (pad/wafer rotation 90/120 r/min, slurry injection 100 ml/min, pressure 6 N)",
+    "instrument_device_model": {
+      "XRD": "Powder X‑ray diffractometer (Cu Kα, λ=1.4518 Å, 0.15°/s, 2θ 10–90°)",
+      "SEM": "Hitachi S4800",
+      "TEM": "JEOL JEM‑2010 EX",
+      "UV‑vis DRS": "Shimadzu UV3600",
+      "PL": "Fluorolog 3 modular spectrofluorometer",
+      "XPS": "PHI VersaProbe III",
+      "Raman": "HORIBA T64000",
+      "AFM": "Nanoman VS (OLTESPAR3 probe, 70 kHz, 2 N/m, 7 nm tip)",
+      "Balance": "Mettler Toledo XS105",
+      "DLS/Zeta": "Zetasizer Nano ZS"
+    },
+    "pad_composition": null,
+    "pre_cmp_surface_roughness": "0.82 ± 0.01 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "average_size": "330 nm",
+      "span": "0.64"
+    },
+    "particle_morphology": "Spherical core–shell particles (85 nm PS core, 10 nm CeO2 shell)",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": {
+      "phase": "Cubic fluorite CeO2",
+      "secondary_phase": "None detected"
+    },
+    "crystallite_size": {
+      "PS-Ce": "8.304 nm",
+      "PS-Ce-La": "5.963 nm",
+      "PS-Ce-Nd": "6.901 nm",
+      "PS-Ce-Eu": "6.132 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "pH 10; stable for 7 days; UV (365 nm) irradiation; room temperature",
+    "batch_number_process_identifier": null
+  }
+  

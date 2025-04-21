@@ -1,0 +1,76 @@
+{
+  "doi": "10.3390/polym16243593",
+  "title": "The Stability Evaluation of Ceria Slurry Using Polymer Dispersants with Varying Contents for Chemical Mechanical Polishing Process",
+  "year_published": "2024",
+  "journal": "Polymers",
+  "precursor_chemical": [
+    "Ce₂(CO₃)₃·6H₂O"
+  ],
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": [
+    "Zinc salt of ethylene acrylic acid copolymer (EAA) 5 wt%",
+    "Zinc salt of ethylene acrylic acid copolymer (EAA) 6 wt%",
+    "Zinc salt of ethylene acrylic acid copolymer (EAA) 7 wt%"
+  ],
+  "abrasive_ceria_concentration": "30 wt%",
+  "target_final_slurry_ph": null,
+  "reaction_temperature_if_in_situ_synthesis": null,
+  "reaction_time_if_in_situ_synthesis": null,
+  "ph_during_reaction": null,
+  "stirring_speed": "1500 rpm",
+  "viscosity": null,
+  "zeta_potential": {
+    "Commercial": "49.2 mV",
+    "D5": "42.9 mV",
+    "D6": "45.3 mV",
+    "D7": "52.1 mV"
+  },
+  "sedimentation_rate": null,
+  "polishing_time": "60 s",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "Commercial": 4706,
+    "D5": 4224,
+    "D6": 4538,
+    "D7": 4712
+  },
+  "process_temperature": "25 °C",
+  "pad_conditioning_pressure": "9 psi",
+  "equipment_model_calibration_details": "AP-300 polisher; IC1010TM A6 pad; conditioner applied for 10 min",
+  "instrument_device_model": {
+    "pH meter": "Thermo Fisher Scientific Orionstars A215",
+    "conductivity meter": "Thermo Fisher Scientific Orionstars A215",
+    "viscometer": "Brookfield DVNext Cone/Plate Rheometer",
+    "zeta potential analyzer": "Microtrac Nanotrac Wave II",
+    "DLS": "ELS-2000 (Otsuka Electronics)",
+    "ATR-IR": "Thermo Fisher Scientific Nicolet Summit X",
+    "SEM": "JEOL-7800F",
+    "TEM": "NEOARM JEM-ARM 200F"
+  },
+  "pad_composition": "IC1010TM A6 pad",
+  "pre_cmp_surface_roughness": null,
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "Commercial": "269.4 ± 7.76 nm",
+    "D5": "281.6 ± 13.3 nm",
+    "D6": "251.8 ± 17.1 nm",
+    "D7": "227.2 ± 0.57 nm"
+  },
+  "particle_morphology": "Uniform, near-spherical ceria nanoparticles; size tens to hundreds of nm",
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": "Coating with zinc salt of ethylene acrylic acid copolymer",
+  "environmental_conditions": [
+    "25 °C (open)",
+    "25 °C (closed)",
+    "4 °C",
+    "60 °C"
+  ],
+  "batch_number_process_identifier": null
+}

@@ -1,0 +1,83 @@
+{
+    "doi": "10.1016/j.powtec.2021.09.070",
+    "title": "Preparation of the rod-shaped SiO₂@C abrasive and effects of its microstructure on the polishing of zirconia ceramics",
+    "year_published": "2021",
+    "journal": "Powder Technology",
+    "precursor_chemical": [
+      "Tetraethyl orthosilicate (TEOS)",
+      "Sodium silicate"
+    ],
+    "precursor_concentration": [
+      "2 ml TEOS",
+      "2.5 wt% active silicic acid"
+    ],
+    "precipitant_type": "Aqueous ammonia solution (30 %)",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": [
+      "Polyvinyl pyrrolidone (PVP)",
+      "Sodium citrate"
+    ],
+    "abrasive_ceria_concentration": null,
+    "target_final_slurry_ph": "10",
+    "reaction_temperature_if_in_situ_synthesis": [
+      "RT (first step)",
+      "Boiling (~100 °C second step)",
+      "Calcination at 500 °C"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "24 h (seed growth)",
+      "Time for silicic acid addition until boil‑off",
+      "2 h calcination"
+    ],
+    "ph_during_reaction": "10",
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "2 h",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "spherical_silica": "142.3 nm/h",
+      "pure_rod_SiO₂": "243.8 nm/h",
+      "A-SiO₂@C": "196.5 nm/h",
+      "E-SiO₂@C": "242.5 nm/h"
+    },
+    "process_temperature": "Ambient (RT)",
+    "pad_conditioning_pressure": "Load pressure 6 kg",
+    "equipment_model_calibration_details": "UNIPOL‑1000S CMP polishing machine (Shenyang Kejing Instrument Co., Ltd.)",
+    "instrument_device_model": {
+      "SEM": "Nova NanoSEM 450 (FEI)",
+      "TEM": "JEM‑2100F (JEOL)",
+      "TGA": "STA 449 F5 (Netzsch)",
+      "BET": "Autosorb‑IQ2 (Quantachrome)",
+      "FTIR": "Avatar 370 (Nicolet)",
+      "Raman": "Senterra R200‑L (Bruker)",
+      "MetallographicMicroscope": "CMM‑50 (Shanghai Changfang)",
+      "SurfaceProfiler": "Xi‑100 (Ambios)",
+      "AFM": "NX10 (Park Systems)",
+      "ContactAngleGoniometer": "Theta Flex (Attension)"
+    },
+    "pad_composition": "Porous polyurethane pad (Suba 600)",
+    "pre_cmp_surface_roughness": "6.51 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "diameter": "150–200 nm",
+      "length": "3 µm"
+    },
+    "particle_morphology": "Rod‑shaped silica core with textured surface and porous carbon shell",
+    "specific_surface_area_bet": "151.63 m²/g",
+    "crystallinity_phase_composition": {
+      "silica_core": "Amorphous",
+      "carbon_shell": "Amorphous"
+    },
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": "PVP‑derived carbon shell formed by calcination at 500 °C",
+    "environmental_conditions": {
+      "slurry_pH": "10",
+      "polishing_temperature": "Ambient"
+    },
+    "batch_number_process_identifier": null
+  }  

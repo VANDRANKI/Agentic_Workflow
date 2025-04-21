@@ -1,0 +1,57 @@
+{
+    "doi": "10.1557/JMR.2007.0097",
+    "title": "Effects of abrasive particle size and molecular weight of poly(acrylic acid) in ceria slurry on removal selectivity of SiO2/Si3N4 films in shallow trench isolation chemical mechanical planarization",
+    "year_published": "2007",
+    "journal": "Journal of Materials Research",
+    "precursor_chemical": "Cerium carbonate",
+    "precursor_concentration": "5 wt%",
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": [
+      "poly(methacrylate acid) (PMAA), 100 ppm",
+      "ammonium salt (Darvan C), 1 wt%",
+      "poly(acrylic acid) (PAA), 0–0.80 wt%"
+    ],
+    "abrasive_ceria_concentration": "1 wt%",
+    "target_final_slurry_ph": "6.0–7.0",
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "30 s",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": null,
+    "process_temperature": null,
+    "pad_conditioning_pressure": "4 psi",
+    "equipment_model_calibration_details": "Strasbaugh 6EC polisher with IC1000/Suba IV stacked pad",
+    "instrument_device_model": {
+      "XRD": "RINT/DMAX‑2500 (Rigaku)",
+      "HRTEM": "JEM‑2010 (JEOL)",
+      "Particle size analyzer": "APS‑100 (Matec)",
+      "Viscometer": "MCR300 (Paar Physica)",
+      "AFM": "XE 150 (PSIA)",
+      "Polisher": "Strasbaugh 6EC",
+      "Thickness measurement": "NanoSpec 180 (Nanometrics) and Opti‑probe (Therma‑Wave)"
+    },
+    "pad_composition": "Polyurethane (IC1000/Suba IV)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": null,
+    "particle_morphology": "Polycrystalline ceria abrasives with primary grain sizes ∼27 nm (700 °C) and ∼36 nm (800 °C); 700 °C sample shows lower crystallinity and broader size distribution, 800 °C sample shows well‑defined grains",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "Single‑phase CeO₂ fluorite structure",
+    "crystallite_size": {
+      "700 °C": 27,
+      "800 °C": 36
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "25 ±0.1 °C; pH 6.0–7.0",
+    "batch_number_process_identifier": null
+  }
+  

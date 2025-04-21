@@ -1,0 +1,77 @@
+{
+  "doi": null,
+  "title": "Study on the effect of ceria concentration on the silicon oxide removal rate in chemical mechanical planarization",
+  "year_published": null,
+  "journal": null,
+  "precursor_chemical": null,
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": null,
+  "abrasive_ceria_concentration": [
+    "0.5 wt%",
+    "1.0 wt%",
+    "2.0 wt%",
+    "4.0 wt%"
+  ],
+  "target_final_slurry_ph": [
+    4,
+    10
+  ],
+  "reaction_temperature_if_in_situ_synthesis": null,
+  "reaction_time_if_in_situ_synthesis": null,
+  "ph_during_reaction": null,
+  "stirring_speed": "60 rpm",
+  "viscosity": null,
+  "zeta_potential": {
+    "pH 2": "\u224860 mV",
+    "pH 4": "\u224855 mV",
+    "pH 6": "\u224852 mV",
+    "pH 8": "-20 mV",
+    "pH 10": "-35 mV"
+  },
+  "sedimentation_rate": null,
+  "polishing_time": null,
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "ceria": {
+      "0 wt%": 300,
+      "5 wt%": 800,
+      "10 wt%": 2000,
+      "15 wt%": 3000
+    },
+    "silica": {
+      "1 wt%": 6700,
+      "5 wt%": 5800,
+      "10 wt%": 4600,
+      "15 wt%": 3800
+    }
+  },
+  "process_temperature": null,
+  "pad_conditioning_pressure": "3 kgf",
+  "equipment_model_calibration_details": "Mini polisher (Poli-400, GnP Technology, Korea); HD-300 pad (SKC, Korea); 20PPW60EBC0 conditioner (SAESOLDIAMOND, Korea)",
+  "instrument_device_model": {
+    "TEM": "JEM-2100 F (JEOL, Japan)",
+    "Zeta sizer": "ELSZ-2000 (Otsuka Electronics, Japan)",
+    "SMPS": "TSI 3080 (TSI, USA)",
+    "SEM": "JSM7600 F (JEOL, Japan)",
+    "Digital microscope": "Dino lite Edge (AnMo Electronics Corporation, Taiwan)"
+  },
+  "pad_composition": "HD-300 (SKC, Korea)",
+  "pre_cmp_surface_roughness": null,
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "mode_peak_shift": "4 nm at 0.5 wt%",
+    "distribution": "Raw and waste distributions similar except peak shift at 0.5 wt%"
+  },
+  "particle_morphology": "Spherical colloidal nanoparticles",
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "Slurry prepared at ambient temperature; DI water; pH adjusted to 4 and 10; CMP under DI water flow at 150 mL/min",
+  "batch_number_process_identifier": null
+}

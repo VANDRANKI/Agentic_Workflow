@@ -1,0 +1,71 @@
+{
+    "doi": "10.1149/2.0241709jos",
+    "title": "Trace Metals Optimization in Ceria Abrasive for Material Removal Rate Enhancement during ILD CMP",
+    "year_published": "2017",
+    "journal": "ECS Journal of Solid State Science and Technology",
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "1 wt%",
+    "target_final_slurry_ph": 10,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": "10",
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": "< -30 mV",
+    "sedimentation_rate": null,
+    "polishing_time": "2 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "ceria": 5123.86,
+      "ceria + FeCl₂": {
+        "10 ppm": 5621,
+        "50 ppm": null,
+        "100 ppm": null,
+        "500 ppm": null,
+        "1000 ppm": null
+      },
+      "ceria + CrCl₂": {
+        "10 ppm": null,
+        "50 ppm": 6522.91,
+        "100 ppm": null,
+        "500 ppm": null,
+        "1000 ppm": null
+      }
+    },
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "CP-4 (Bruker); film thickness measured with ST4000-DLX (K-MAC)",
+    "instrument_device_model": {
+      "Zeta Potential": "Zetasizer Nano ZS (Malvern, England)",
+      "SEM": "JEOL (Japan)",
+      "UV-vis": "Cary 5000 (Varian, Australia)",
+      "AFM": "Innova (Bruker, USA)",
+      "SIMS": "TOFSIMS-5 (ION-TOF, Germany)",
+      "SMPS": "TSI (USA)"
+    },
+    "pad_composition": null,
+    "pre_cmp_surface_roughness": {
+      "ceria": "0.473 nm",
+      "ceria + FeCl₂": "0.441 nm",
+      "ceria + CrCl₂": "0.390 nm"
+    },
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "ceria": "Mode size: 49.6 nm",
+      "ceria + FeCl₂/CrCl₂": "Unchanged up to 100 ppm; reduction in particle number >100 ppm"
+    },
+    "particle_morphology": "Agglomerated under SEM despite zeta potential < -30 mV",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": "Trace metal interaction inducing Ce³⁺ formation via oxygen vacancies",
+    "environmental_conditions": "Room temperature; pH 10; DI water rinse after CMP; trace metal concentrations 0–1000 ppm",
+    "batch_number_process_identifier": null
+  }  

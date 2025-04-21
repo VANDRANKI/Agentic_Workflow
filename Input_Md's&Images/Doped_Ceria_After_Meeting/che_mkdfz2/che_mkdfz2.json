@@ -1,0 +1,80 @@
+{
+    "doi": "10.1016/j.apsusc.2019.144668",
+    "title": "RE (La, Nd and Yb) doped CeO₂ abrasive particles for chemical mechanical polishing of dielectric materials: Experimental and computational analysis",
+    "year_published": "2019",
+    "journal": "Applied Surface Science",
+    "precursor_chemical": [
+      "La(NO₃)₂·6H₂O",
+      "Nd(NO₃)₂·6H₂O",
+      "Yb(NO₃)₂·5H₂O"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "0.25 wt%",
+    "target_final_slurry_ph": [
+      5,
+      9.5
+    ],
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1.5 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "pH 5": {
+        "La/CeO₂": "-40.5%",
+        "Nd/CeO₂": "-50.2%",
+        "Yb/CeO₂": "-47.6%"
+      },
+      "pH 9.5": {
+        "La/CeO₂": "+20.9%",
+        "Nd/CeO₂": "+29.6%",
+        "Yb/CeO₂": "+4.3%"
+      }
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": null,
+    "instrument_device_model": {
+      "TGA/DSC": "TGA/DSC1 (Mettler Toledo)",
+      "XRD": "D8 ADVANCE (Bruker)",
+      "TEM/EDS": "JEM‑2010F (JEOL)",
+      "XPS": "PHI Quantera II (Ulvac‑Phi)",
+      "Zeta Potential Analyzer": "Nano ZS90 (Malvern)",
+      "Surface Charge Analyzer": "SurPASS 3 (Anton Parr)",
+      "CMP Machine": "Universal-150 (Tianjin Hwatsing Technology Co.)",
+      "Thickness Measurement": "Resmap (Creative Design Engineering)",
+      "Surface Profilometer": "Talysurf PGI (Taylor‑Hobson)"
+    },
+    "pad_composition": "Politex (Dow Chemical Co.)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "primary_diameter": "<50 nm",
+      "average_grain_size_XRD": "ca. 20 nm"
+    },
+    "particle_morphology": "near‑spherical nanoparticles",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "Cubic fluorite CeO₂ structure; no secondary phases detected",
+    "crystallite_size": {
+      "CeO₂": "19.8 nm",
+      "La/CeO₂": "18.8 nm",
+      "Nd/CeO₂": "19.4 nm",
+      "Yb/CeO₂": "19.7 nm"
+    },
+    "hardness": null,
+    "purity": {
+      "CeO₂": "99.95%"
+    },
+    "surface_functionalization_treatment": "Modified incipient impregnation of CeO₂ with 5 wt% La, Nd or Yb nitrates followed by calcination at 400 °C",
+    "environmental_conditions": "TGA under N₂; CMP slurry pH 5 and 9.5; aging and drying at RT and 120 °C; calcination in air at 400 °C",
+    "batch_number_process_identifier": null
+  }
+  

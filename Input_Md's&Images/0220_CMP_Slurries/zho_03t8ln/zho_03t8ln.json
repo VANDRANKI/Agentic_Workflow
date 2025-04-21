@@ -1,0 +1,88 @@
+{
+    "doi": "10.1016/j.ceramint.2021.08.048",
+    "title": "Chemical-mechanical polishing performance of core-shell structured polystyrene@ceria/nanodiamond ternary abrasives on sapphire wafer",
+    "year_published": "2021",
+    "journal": "Ceramics International",
+    "precursor_chemical": [
+      "Styrene monomer (C₆H₆)",
+      "Ce(NO₃)₃·6H₂O",
+      "Hexamethylenetetramine (HMT)",
+      "Detonation nanodiamond (DND)"
+    ],
+    "precursor_concentration": {
+      "PS": "30 g L⁻¹",
+      "Ce(NO₃)₃·6H₂O": "0.0115 mol L⁻¹",
+      "DND": "5 g L⁻¹"
+    },
+    "precipitant_type": "Hexamethylenetetramine (HMT)",
+    "molar_ratio_precursor_precipitant": "1:5",
+    "additives_surfactant_dispersant": "CTAB (2 × 10⁻³ mol L⁻¹)",
+    "abrasive_ceria_concentration": "0.0115 mol L⁻¹ Ce(NO₃)₃·6H₂O",
+    "target_final_slurry_ph": null,
+    "reaction_temperature_if_in_situ_synthesis": "80 °C",
+    "reaction_time_if_in_situ_synthesis": "2.5 h",
+    "ph_during_reaction": "10–11",
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": {
+      "PS": "< −20 mV",
+      "DND (CTAB‑modified)": "≈ 50 mV at pH 11"
+    },
+    "sedimentation_rate": null,
+    "polishing_time": "20 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "rotating_speed_150_rpm": {
+        "PS@CeO₂": "1.2 µm h⁻¹",
+        "PS@DND": "1.6 µm h⁻¹",
+        "PS@CeO₂/DND": "1.7 µm h⁻¹"
+      },
+      "down_force_4_kg": {
+        "PS@CeO₂": "1.17 µm h⁻¹",
+        "PS@DND": "1.61 µm h⁻¹",
+        "PS@CeO₂/DND": "2.05 µm h⁻¹"
+      }
+    },
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": null,
+    "instrument_device_model": {
+      "Polishing machine": "ZDHP‑30 B",
+      "FESEM": "TESCAN MIRA3 with Oxford X‑Max20",
+      "TEM": "Tecnai G2 OST (FEI)",
+      "XRD": "DX‑2700 (Dandong Haoyuan)",
+      "TG‑DTA": "DSC Q2000 (TA Instruments)",
+      "FTIR": "Nexus 670 (Nicolet)",
+      "Zeta potential analyzer": "Zetasizer Nano ZS (Malvern)",
+      "XPS": "Thermo Scientific K‑Alpha+",
+      "AFM": "Multimode V (Veeco)"
+    },
+    "pad_composition": "Porous polyurethane",
+    "pre_cmp_surface_roughness": "3.23 nm",
+    "substrate_hardness": "9 (Mohs scale)",
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "PS": "350–420 nm",
+      "Primary DND (aggregated)": "≈ 0.8 µm",
+      "Deagglomerated DND": "≈ 50 nm"
+    },
+    "particle_morphology": "Spherical core‑shell particles (~500 nm) with PS core and ceria/DND shells",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": {
+      "PS": "Amorphous",
+      "CeO₂": "Cubic fluorite",
+      "DND": "FCC diamond"
+    },
+    "crystallite_size": {
+      "CeO₂": "≈ 10 nm",
+      "DND": "≈ 5 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": {
+      "DND": "CTAB modification"
+    },
+    "environmental_conditions": "N₂ atmosphere for PS polymerization; aqueous dispersion at pH 10–11; CMP at room temperature under air",
+    "batch_number_process_identifier": null
+  }
+  

@@ -1,0 +1,48 @@
+{
+    "doi": null,
+    "title": "Preparation of spherical ceria coated silica nanoparticle abrasives for CMP application",
+    "year_published": "2015",
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO₃)₃"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "NH₄OH",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "1 wt%",
+    "target_final_slurry_ph": 5,
+    "reaction_temperature_if_in_situ_synthesis": "95 °C",
+    "reaction_time_if_in_situ_synthesis": "12 h",
+    "ph_during_reaction": 10,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": "+13.8 mV",
+    "sedimentation_rate": null,
+    "polishing_time": null,
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": null,
+    "process_temperature": null,
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "Ecomet 4+ Automet polishing machine (Buehler) with IC-1400K Groove pads; pad rotation 80 rpm; load 15 lbs; slurry flow 100 ml/min",
+    "instrument_device_model": {
+      "TEM": "Philips CM 200 keV",
+      "XRD": "Bruker D8-advance",
+      "Ellipsometer": "JOBIN-YVON SPEX"
+    },
+    "pad_composition": "Polyurethane",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": "70–80 nm",
+    "particle_morphology": "spherical and mono-dispersed",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Aqueous medium, pH 5 for polishing; reaction at pH 10 and 95 °C",
+    "batch_number_process_identifier": null
+  }
+  

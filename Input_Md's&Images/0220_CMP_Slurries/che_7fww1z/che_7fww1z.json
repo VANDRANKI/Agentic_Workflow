@@ -1,0 +1,68 @@
+{
+    "doi": "10.1116/1.4792373",
+    "title": "Preparation of porous alumina/ceria composite abrasive and its chemical mechanical polishing behavior",
+    "year_published": "2013",
+    "journal": "Journal of Vacuum Science & Technology B",
+    "precursor_chemical": [
+        "Al(NO3)3\u00b79H2O",
+        "Ce(NO3)3\u00b76H2O"
+    ],
+    "precursor_concentration": {
+        "Al(NO3)3\u00b79H2O": "150 g in 200 ml",
+        "Ce(NO3)3\u00b76H2O": "17.2 g in 200 ml"
+    },
+    "precipitant_type": "NH3 (ammonia solution)",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "Ce molar fraction: 10%",
+    "target_final_slurry_ph": null,
+    "reaction_temperature_if_in_situ_synthesis": "100 \u00b0C",
+    "reaction_time_if_in_situ_synthesis": "48 h",
+    "ph_during_reaction": "2.68",
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "30 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+        "rotation_speed_rpm": {
+            "20": "1.9 mg/min",
+            "40": "3.8 mg/min",
+            "60": "5.3 mg/min",
+            "80": "6.0 mg/min"
+        },
+        "down_force_kg": {
+            "1": "2.4 mg/min",
+            "2": "3.7 mg/min",
+            "3": "4.1 mg/min",
+            "4": "4.5 mg/min",
+            "5": "5.3 mg/min"
+        }
+    },
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "UNIPOL-1502 polishing equipment (Shenyang Kejing Instrument); DPC5150 Rodel porous polyurethane pad",
+    "instrument_device_model": {
+        "TEM": "JEOL 2000 CX",
+        "Particle size analyzer": "Malvern Zetasizer 3000HS",
+        "SEM/EDS": "JSM-6700F with Oxford EDS",
+        "EPR": "EMX-electron paramagnetic resonance",
+        "Surface profiler": "Ambios XI-100",
+        "CMP tool": "UNIPOL-1502 (Shenyang Kejing)"
+    },
+    "pad_composition": "Porous polyurethane (Rodel DPC5150)",
+    "pre_cmp_surface_roughness": "49.25 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": "D50 \u2248 327 nm",
+    "particle_morphology": "Wormhole-like porous structure",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "CMP performed at room temperature in slurry containing H2O2",
+    "batch_number_process_identifier": null
+}

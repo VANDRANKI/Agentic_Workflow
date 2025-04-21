@@ -1,0 +1,74 @@
+{
+    "doi": null,
+    "title": "The influence of CeO2 abrasive size on the performance of photocatalytic assisted chemical-mechanical polishing by Y / Pr co-doping strategy",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO3)3·6H2O",
+      "Y(NO3)3·6H2O",
+      "Pr(NO3)3·6H2O",
+      "KCl",
+      "KNO3",
+      "C2H5OH",
+      "H2O"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "0.5 wt%",
+    "target_final_slurry_ph": 6.0,
+    "reaction_temperature_if_in_situ_synthesis": [
+      "850 °C"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "4 h"
+    ],
+    "ph_during_reaction": 6.0,
+    "stirring_speed": "400 rpm",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "180 s",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "0.00": "498.36 nm/min",
+      "0.01": "568.36 nm/min",
+      "0.02": "932.42 nm/min",
+      "0.03": "643.05 nm/min",
+      "0.04": "498.36 nm/min",
+      "0.05": "482.29 nm/min"
+    },
+    "process_temperature": [
+      "room temperature"
+    ],
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "UNIPOL-1200S polisher (China Shenyang Kejing Automobile Instrument Co., LTD), synthetic leather pad from Shenyang Kejing Automobile Instrument Co., LTD",
+    "instrument_device_model": {
+      "XRD": "D8 Advance diffractometer",
+      "SEM": "Regulus 8100 (Hitachi)",
+      "UV-Vis-NIR": "Cary 5000",
+      "XPS": "Al Kα (model unspecified)",
+      "Raman": "Renishaw in Via",
+      "AFM": "Seiko Instruments Inc.",
+      "Photocatalytic lamp": "PLS-SXE300 xenon lamp",
+      "UV-visible spectrophotometer": "P9 (Shanghai Mapada Instrument)",
+      "Muffle furnace": "MF1100 C-S",
+      "Ball mill": "planetary ball mill"
+    },
+    "pad_composition": "synthetic leather",
+    "pre_cmp_surface_roughness": "1.08 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": "190–260 nm",
+    "particle_morphology": "octahedral shape",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "cubic fluorite structure",
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "ambient atmosphere; UV irradiation for photocatalysis",
+    "batch_number_process_identifier": null
+  }
+  

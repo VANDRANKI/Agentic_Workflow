@@ -1,0 +1,85 @@
+{
+    "doi": "10.1016/j.colsurfa.2023.132551",
+    "title": "Research progress on the application of ceria nanoparticles as abrasives in dielectric layer CMP and post cleaning: Structure, morphology, doping, and mechanism",
+    "year_published": "2023",
+    "journal": "Colloids and Surfaces A: Physicochemical and Engineering Aspects",
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": [
+      "Polyacrylamide (PPI)",
+      "Polyvinyl alcohol (PVA)",
+      "Polyvinyl pyrrolidone (PVP)",
+      "Sodium dodecyl sulfonate (SDS)"
+    ],
+    "abrasive_ceria_concentration": "1.0 wt%",
+    "target_final_slurry_ph": [
+      4,
+      8
+    ],
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": {
+      "ceria_particles_mV": {
+        "pH 3": 40,
+        "pH 4": 38,
+        "pH 5": 36,
+        "pH 6": 28,
+        "pH 7": 15,
+        "pH 8": -23,
+        "pH 10": -30,
+        "pH 12": -37
+      },
+      "TEOS_substrate_mV": {
+        "pH 3": -15,
+        "pH 4": -32,
+        "pH 5": -45,
+        "pH 6": -60,
+        "pH 8": -75,
+        "pH 10": -82,
+        "pH 12": -90
+      }
+    },
+    "sedimentation_rate": null,
+    "polishing_time": null,
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "Original": 3.6,
+      "400°C": 10.0,
+      "700°C": 20.0,
+      "1000°C": 18.0
+    },
+    "process_temperature": [
+      "RT",
+      "400°C",
+      "700°C",
+      "1000°C"
+    ],
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": null,
+    "instrument_device_model": null,
+    "pad_composition": null,
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": [
+      "217±24 nm",
+      "166±16 nm",
+      "119±15 nm",
+      "25 nm"
+    ],
+    "particle_morphology": null,
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": null,
+    "hardness": "5.5 (Mohs)",
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Cleaning with DIW (pH 6.2), N₂ water (pH 5.2), CO₂ water (pH 3.9); cleaning at 0 °C and 20 °C; slurry pH range 3–11; RT",
+    "batch_number_process_identifier": null
+  }
+  

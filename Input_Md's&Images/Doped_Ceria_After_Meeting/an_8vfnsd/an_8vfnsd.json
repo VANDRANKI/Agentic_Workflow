@@ -1,0 +1,90 @@
+{
+    "doi": null,
+    "title": "Experimental study and DFT+U calculations on the impact of Rare‑Earth ion (La³⁺, Sm³⁺, Y³⁺, Yb³⁺) doped CeO₂ Core‑Shell abrasives on polishing performance",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "D(+)-Glucose monohydrate (C₆H₁₂O₆·H₂O)",
+      "Urea (CO(NH₂)₂)",
+      "Cerium nitrate hexahydrate (Ce(NO₃)₃·6H₂O)",
+      "Lanthanum nitrate hexahydrate (La(NO₃)₃·6H₂O)",
+      "Samarium nitrate hexahydrate (Sm(NO₃)₃·6H₂O)",
+      "Yttrium nitrate hexahydrate (Y(NO₃)₃·6H₂O)",
+      "Ytterbium nitrate hexahydrate (Yb(NO₃)₃·6H₂O)"
+    ],
+    "precursor_concentration": {
+      "glucose": "8–10 g in 60 g DI water",
+      "urea": "10.40 g in 50 g DI water",
+      "Ce(NO₃)₃·6H₂O": "0.7812 g in 50 g DI water",
+      "La(NO₃)₃·6H₂O": "0.07 g in 50 g DI water"
+    },
+    "precipitant_type": "Urea",
+    "molar_ratio_precursor_precipitant": [
+      "La/(Ce+La) = 0.10",
+      "Sm/(Ce+Sm) = 0.10",
+      "Y/(Ce+Y)   = 0.10",
+      "Yb/(Ce+Yb) = 0.10"
+    ],
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "0.5 wt%",
+    "target_final_slurry_ph": 10.0,
+    "reaction_temperature_if_in_situ_synthesis": [
+      "180 °C (hydrothermal)",
+      "90 °C (oil bath)"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "3 h (hydrothermal)",
+      "3 h (oil‑bath precipitation)"
+    ],
+    "ph_during_reaction": null,
+    "stirring_speed": "300 rpm",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "4 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "simple_commercial": 277.3,
+      "CS@CeO2": 144.6,
+      "CS@Ce0.9La0.1O2": 157.89,
+      "CS@Ce0.9Sm0.1O2": 108.5,
+      "CS@Ce0.9Y0.1O2": 221.04,
+      "CS@Ce0.9Yb0.1O2": 192.9
+    },
+    "process_temperatures": [
+      "180 °C (hydrothermal)",
+      "90 °C (oil bath)",
+      "550 °C (calcination in N₂)"
+    ],
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "UNIPOL‑1200S automatic pressure polishing machine (Shenyang Kejing); polyurethane pad",
+    "instrument_device_model": {
+      "ICP‑OES": "Optima 8000",
+      "XRD": "X'Pert PRO (Cu Kα)",
+      "SEM": "Hitachi S‑4800",
+      "TEM": "JEOL JEM‑2100",
+      "Raman": "Thermo Fisher DXR (532 nm)",
+      "XPS": "ESCALAB 250Xi (Al Kα)",
+      "FT‑IR": "Avatar 670 Nicolet",
+      "AFM": "Bruker contact‑mode, 5 × 5 μm² scan",
+      "Balance": "0.01 mg precision"
+    },
+    "pad_composition": "Polyurethane (Shenyang Kejing Instrument Co.)",
+    "pre_cmp_surface_roughness": 1.619,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "CS": "260 nm (mean)",
+      "CS@CeO2": "230 nm (mean)"
+    },
+    "particle_morphology": "Spherical core‑shell nanospheres",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "100% cubic fluorite‑type CeO₂ (no secondary phases detected)",
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": "Ce–O–C chemical bond formation indicated by FT‑IR; N₂‑calcination enhanced interfacial bonding",
+    "environmental_conditions": "Calcination in N₂ atmosphere; slurry pH = 10",
+    "batch_number_process_identifier": null
+  }
+  

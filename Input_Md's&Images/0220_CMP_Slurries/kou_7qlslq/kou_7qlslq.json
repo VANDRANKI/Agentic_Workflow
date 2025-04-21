@@ -1,0 +1,94 @@
+{
+    "doi": null,
+    "title": "Trivalent lanthanum and ytterbium doped meso-silica/ceria abrasive systems toward chemical mechanical polishing (CMP) and ultraviolet irradiation-assisted photochemical mechanical polishing (PCMP)",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "Ce(NO₃)₂·6H₂O",
+      "La(NO₃)₂·6H₂O",
+      "Yb(NO₃)₂·6H₂O"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "hexamethylenetetramine",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "SDS, 0.5 wt%",
+    "abrasive_ceria_concentration": "1.0 wt%",
+    "target_final_slurry_ph": "8.0–8.5",
+    "reaction_temperature_if_in_situ_synthesis": [
+      "75 °C",
+      "650 °C"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "2 h",
+      "2 h"
+    ],
+    "ph_during_reaction": null,
+    "stirring_speed": "300 rpm",
+    "viscosity": null,
+    "zeta_potential": {
+      "mSiO2/La-CeO2": "-43.0 mV",
+      "mSiO2/Yb-CeO2": "-38.2 mV"
+    },
+    "sedimentation_rate": null,
+    "polishing_time": "30 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "CMP": {
+        "commercial_CeO2": 23.5,
+        "mSiO2/Yb-CeO2": 64.6,
+        "mSiO2/La-CeO2": 102.2
+      },
+      "PCMP": {
+        "mSiO2/Yb-CeO2": 157.4,
+        "mSiO2/La-CeO2": 121.8
+      }
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": "3.0 psi",
+    "equipment_model_calibration_details": "TegraForce‑1/TrgraPol‑15 polisher (Struers A/S) with MD‑Chem porous polyurethane polishing pad and 250 W halogen lamp",
+    "instrument_device_model": {
+      "FESEM": "Zeiss SUPRAS5",
+      "TEM": "JEOL JEM‑2100",
+      "HAADF‑STEM": "FEI Talos 200 S",
+      "XRD": "Rigaku D/Max 2500 PC",
+      "Raman": "ThermoFisher DXR",
+      "Zeta potential analyzer": "Malvern Nano‑ZS Zetasizer",
+      "XPS": "UlvacPhi PHI‑5000 VP III",
+      "AFM": "Digital Instruments Nanoman VS with Dimension V controller",
+      "Balance": "Mettler Toledo XS105"
+    },
+    "pad_composition": "MD‑Chem porous polyurethane",
+    "pre_cmp_surface_roughness": {
+      "Ra": "111 nm",
+      "Rq": "137 nm",
+      "PV": "344 nm"
+    },
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "mSiO2": "208.1 ± 24.9 nm",
+      "mSiO2/La-CeO2": "227.7 ± 27.1 nm",
+      "CeO2 nanocrystals": "2–5 nm"
+    },
+    "particle_morphology": "Strawberry‑like core–shell spheres with 2–5 nm CeO2 nanocrystals on mSiO2 cores",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "Pm3m face‑centered‑cubic CeO2; no detectable La2O3 or Yb2O3 phases",
+    "crystallite_size": {
+      "CeO2": 3.09,
+      "La-CeO2": 2.60,
+      "Yb-CeO2": 2.61
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": {
+      "La-CeO2": {
+        "Ce3+": "44.02%"
+      },
+      "Yb-CeO2": {
+        "Ce3+": "40.58%"
+      }
+    },
+    "environmental_conditions": "pH 8.0–8.5 slurry; room temperature polishing; N2 atmosphere for drying",
+    "batch_number_process_identifier": null
+  }
+  

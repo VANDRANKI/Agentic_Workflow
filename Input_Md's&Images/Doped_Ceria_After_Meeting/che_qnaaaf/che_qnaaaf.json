@@ -1,0 +1,77 @@
+{
+    "doi": null,
+    "title": "Meso‑silica/Erbium‑doped ceria binary particles as functionalized abrasives for photochemical mechanical polishing (PCMP)",
+    "year_published": null,
+    "journal": null,
+    "precursor_chemical": [
+      "Tetraethyl orthosilicate (TEOS)",
+      "Cerium nitrate hexahydrate (Ce(NO₃)₃·6H₂O)",
+      "Erbium nitrate pentahydrate (Er(NO₃)₃·5H₂O)",
+      "Hexamethylenetetramine (HMT)"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": "Hexamethylenetetramine (HMT)",
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": [
+      "Cetyltrimethylammonium bromide (CTAB)",
+      "Polyvinylpyrrolidone (PVP)"
+    ],
+    "abrasive_ceria_concentration": "1 wt %",
+    "target_final_slurry_ph": "8.5–9.0",
+    "reaction_temperature_if_in_situ_synthesis": "75 °C",
+    "reaction_time_if_in_situ_synthesis": "2 h",
+    "ph_during_reaction": null,
+    "stirring_speed": "200–300 r/min",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "2 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "Composite‑A_CMP": "38 ± 13 nm/min",
+      "Composite‑A_PCMP": "66 ± 19 nm/min",
+      "Composite‑B_CMP": "71 ± 23 nm/min",
+      "Composite‑B_PCMP": "99 ± 18 nm/min"
+    },
+    "process_temperature": "Room temperature",
+    "pad_conditioning_pressure": "3.3 psi",
+    "equipment_model_calibration_details": "TegraForce‑1/TegraPol‑15 (Struers, Denmark); polyurethane porous pad (MD‑Chem, Struers, Denmark)",
+    "instrument_device_model": {
+      "FESEM": "SUPRA 55 (Zeiss)",
+      "TEM": "JEM‑2100 (JEOL)",
+      "XRD": "Rigaku D/Max 2500 PC",
+      "Nitrogen adsorption": "Micromeritics TriStar 3020",
+      "XPS": "Thermo ESCALAB 250",
+      "HADDF‑STEM": "FEI Talos 2005",
+      "Raman": "ThermoFisher DXR",
+      "UV‑vis": "Shimadzu UV‑3600",
+      "PL": "LS45 (PEI)",
+      "AFM": "Nanoman VS (Digital Instruments)",
+      "Balance": "XS105 (Mettler Toledo)"
+    },
+    "pad_composition": "Polyurethane (MD‑Chem, Struers, Denmark)",
+    "pre_cmp_surface_roughness": "0.8–1.0 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "mSiO₂ cores": "212 ± 8 nm",
+      "Composite‑A": "249 ± 14 nm",
+      "Composite‑B": "251 ± 16 nm"
+    },
+    "particle_morphology": "Spherical core‑shell particles with worm‑like mesoporous silica cores and ceria nanoparticle shells",
+    "specific_surface_area_bet": "1626.53 m²/g",
+    "crystallinity_phase_composition": {
+      "phase": "Cubic fluorite CeO₂",
+      "solid_solution": "Ce–Er–O"
+    },
+    "crystallite_size": {
+      "Composite‑A": "5.2 nm",
+      "Composite‑B": "5.4 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": "Er³⁺‑doping and ceria shell grafted onto mesoporous silica cores",
+    "environmental_conditions": "pH 8.5–9.0, room temperature, UV irradiation at 365 nm",
+    "batch_number_process_identifier": null
+  }
+  

@@ -1,0 +1,87 @@
+{
+  "doi": null,
+  "title": "Development of Highly stable ceria slurry in acetic acid-ammonium acetate buffer Media for effective chemical mechanical polishing of silicon dioxide",
+  "year_published": null,
+  "journal": null,
+  "precursor_chemical": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+  "precursor_concentration": "1.0 wt%",
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": "Acetic acid-ammonium acetate buffer solution (pH 4.0)",
+  "abrasive_ceria_concentration": "1.0 wt%",
+  "target_final_slurry_ph": "4.0",
+  "reaction_temperature_if_in_situ_synthesis": null,
+  "reaction_time_if_in_situ_synthesis": null,
+  "ph_during_reaction": "4.0",
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": {
+    "blank": {
+      "day0": "37.89 mV",
+      "day7": "29.11 mV"
+    },
+    "acetic_acid": {
+      "day0": "46.47 mV",
+      "day7": "35.01 mV"
+    },
+    "buffer_solution": {
+      "day0": "51.22 mV",
+      "day7": "42.19 mV"
+    }
+  },
+  "sedimentation_rate": null,
+  "polishing_time": "20 s",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "acetic_acid": {
+      "day0": "621.59 nm/min",
+      "day7": "582.04 nm/min"
+    },
+    "buffer_solution": {
+      "day0": "694.77 nm/min",
+      "day7": "660.35 nm/min"
+    }
+  },
+  "process_temperature": "room temperature",
+  "pad_conditioning_pressure": "4 psi",
+  "equipment_model_calibration_details": "RuiXuan SSP-500 polisher",
+  "instrument_device_model": {
+    "particle_size_analyzer": "NIcomp-380 (PSS Inc U.S.A.)",
+    "SEM": "Zeiss Sigma500/VP",
+    "confocal_microscopy": "OLX5000-LAF",
+    "AFM": "Agilent 5600LS",
+    "XPS": "PHI 250Xi",
+    "UV-vis": "Lambda 1050+"
+  },
+  "pad_composition": null,
+  "pre_cmp_surface_roughness": "0.37 nm",
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "blank": {
+      "day0": "512.7 nm",
+      "day7": "534.3 nm"
+    },
+    "acetic_acid": {
+      "day0": "266.3 nm",
+      "day7": "289.6 nm"
+    },
+    "buffer_solution": {
+      "day0": "183.1 nm",
+      "day7": "201.5 nm"
+    }
+  },
+  "particle_morphology": "Spherical ceria nanoparticles; buffer-dispersed ~183-201 nm with clear contours; slight agglomeration ~266-290 nm with acetic acid; severe agglomeration ~512-534 nm without dispersant",
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": {
+    "acetic_acid": "99% purity",
+    "ammonium_acetate": "not specified",
+    "ceria_suspension": "not specified"
+  },
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "Polishing at pH 4.0, room temperature; N2 drying after rinsing",
+  "batch_number_process_identifier": null
+}

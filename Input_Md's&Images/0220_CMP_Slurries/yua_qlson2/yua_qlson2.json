@@ -1,0 +1,63 @@
+{
+    "doi": "",
+    "title": "Synthesis, characterization of CeO₂ @ ZIF‑8 composite abrasives and their chemical mechanical polishing behavior on glass substrate",
+    "year_published": "",
+    "journal": "",
+    "precursor_chemical": null,
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "2 wt%",
+    "target_final_slurry_ph": 10,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1 h",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "CeO2": "17.34 µm/h",
+      "CeO2‑COOH": null,
+      "CeO2 @ ZIF‑8 (0.50 wt%)": "19.24 µm/h",
+      "CeO2 @ ZIF‑8 (1.95 wt%)": "22.15 µm/h"
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "Polishing machine: UNIPOL‑1000S (Shenyang Kejing Instrument Co., LTD., China)",
+    "instrument_device_model": {
+      "FT‑IR": "Nicolet AVATAR 370",
+      "SEM": "JSM‑7500F",
+      "TEM": "JSM‑2010F",
+      "Particle size analyzer": "Zetasizer3000HS (Malvern)",
+      "XRD": "D/max‑2500 diffractometer (Rigaku, Japan)",
+      "N₂ physisorption analyzer": "Autosorb‑IQ2 (Quantachrome Corporation, USA)",
+      "Surface profilometer": "S neox 090 3D (Sensofar, Spain)",
+      "Contact angle analyzer": "Theta Flex (Biolin, Sweden)",
+      "XPS": "ESCALAB 250Xi"
+    },
+    "pad_composition": "Porous polyurethane (Rodel)",
+    "pre_cmp_surface_roughness": "1.96 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": null,
+    "particle_morphology": "Angular CeO₂ particles; composite exhibits softer, less angular morphology due to ZIF‑8 coating",
+    "specific_surface_area_bet": {
+      "CeO2": "27.172 m²/g",
+      "CeO2 @ ZIF‑8": "36.569 m²/g"
+    },
+    "crystallinity_phase_composition": {
+      "CeO2": "cubic fluorite‑phase",
+      "ZIF‑8": "zeolitic imidazolate framework"
+    },
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": "Carboxylation via KH550 and glutaric anhydride",
+    "environmental_conditions": "Slurry pH 10; ambient‑temperature polishing; powders degassed at 150 °C under N₂ before BET",
+    "batch_number_process_identifier": null
+  }
+  

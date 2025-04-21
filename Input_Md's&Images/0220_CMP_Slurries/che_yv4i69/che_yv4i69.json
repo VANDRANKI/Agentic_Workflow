@@ -1,0 +1,77 @@
+{
+  "doi": null,
+  "title": "Development of Zr- and Gd\u2011doped porous ceria (pCeO\u2082) abrasives for achieving high\u2011quality and high\u2011efficiency oxide chemical mechanical polishing",
+  "year_published": null,
+  "journal": null,
+  "precursor_chemical": [
+    "Ce(NO\u2083)\u2083\u00b76H\u2082O",
+    "ZrO(NO\u2083)\u2082\u00b7xH\u2082O",
+    "Gd(NO\u2083)\u2083\u00b76H\u2082O"
+  ],
+  "precursor_concentration": null,
+  "precipitant_type": "CH\u2083COOH (acetic acid)",
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": null,
+  "abrasive_ceria_concentration": "1\u202fwt%",
+  "target_final_slurry_ph": 8.5,
+  "reaction_temperature_if_in_situ_synthesis": "180\u202f\u00b0C",
+  "reaction_time_if_in_situ_synthesis": "3\u202fh",
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": null,
+  "sedimentation_rate": null,
+  "polishing_time": "2\u202fmin",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "pCeO2": 61,
+    "pCeZrO2": 88,
+    "pCeGdO2": 109
+  },
+  "process_temperature": "20\u202f\u00b0C",
+  "pad_conditioning_pressure": "3.0\u202fpsi",
+  "equipment_model_calibration_details": "TegraForce\u20111/TegraPol\u201115 polisher (Struers, Denmark); porous polyurethane pad (MD\u2011Chem, Struers); analytical balance XS105 (Mettler Toledo)",
+  "instrument_device_model": {
+    "XRD": "D/Max\u00a02500\u00a0PC (Rigaku)",
+    "Raman": "DXR spectrometer (Thermo\u00a0Fisher)",
+    "Nitrogen adsorption analyzer": "TriStar\u00a03020 (Micrometrics)",
+    "FESEM": "SUPRA\u00a055 (ZEISS)",
+    "TEM": "JEM\u20112100 (JEOL)",
+    "UV\u2011vis": "Shimadzu\u00a0UV\u20113600",
+    "AFM": "Nanoman\u00a0VS (VEECO, Bruker)",
+    "Surface profiler": "ContourGT\u2011K0 (Bruker)"
+  },
+  "pad_composition": "porous polyurethane (MD\u2011Chem, Struers)",
+  "pre_cmp_surface_roughness": {
+    "Ra": 0.99,
+    "RMS": 1.25
+  },
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "pCeO2": "70\u201390\u202fnm",
+    "pCeZrO2": "60\u201380\u202fnm",
+    "pCeGdO2": "60\u201380\u202fnm"
+  },
+  "particle_morphology": "uniform spherical mesoporous nanospheres comprised of ~5\u202fnm CeO\u2082 nanoparticles",
+  "specific_surface_area_bet": {
+    "pCeO2": "195\u202fm\u00b2/g",
+    "pCeZrO2": "176\u202fm\u00b2/g",
+    "pCeGdO2": "110\u202fm\u00b2/g"
+  },
+  "crystallinity_phase_composition": {
+    "pCeO2": "cubic fluorite",
+    "pCeZrO2": "cubic fluorite",
+    "pCeGdO2": "cubic fluorite"
+  },
+  "crystallite_size": {
+    "pCeO2": 7.2,
+    "pCeZrO2": 6.8,
+    "pCeGdO2": 7.1
+  },
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "CMP at 20\u202f\u00b0C and 40\u202f% RH; drying in N\u2082; solvothermal synthesis in air",
+  "batch_number_process_identifier": null
+}

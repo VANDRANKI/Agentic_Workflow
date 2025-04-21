@@ -1,0 +1,84 @@
+{
+    "doi": "10.1016/j.mtcomm.2023.107791",
+    "title": "Enhancement mechanism of Y‑doped Ce₁₋ₓYₓO₂ for photocatalytic‑assisted chemical‑mechanical polishing",
+    "year_published": "2023",
+    "journal": "Materials Today Communications",
+    "precursor_chemical": [
+      "Ce(NO₃)₃·6H₂O",
+      "Y(NO₃)₃·6H₂O"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": [
+      "1:10"
+    ],
+    "additives_surfactant_dispersant": null,
+    "abrasive_ceria_concentration": "0.5 wt%",
+    "target_final_slurry_ph": 6.0,
+    "reaction_temperature_if_in_situ_synthesis": [
+      "800 °C"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "4 h"
+    ],
+    "ph_during_reaction": null,
+    "stirring_speed": "400 rpm",
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "180 s",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "CMP": {
+        "0": 176.82,
+        "2.5": 192.91,
+        "5": 473.17,
+        "10": 451.18,
+        "15": 456.62
+      },
+      "PCMP": {
+        "0": 225.79,
+        "2.5": 237.60,
+        "5": 636.40,
+        "10": 461.62,
+        "15": 483.29
+      }
+    },
+    "process_temperature": [
+      "Room temperature"
+    ],
+    "pad_conditioning_pressure": "3.5 kg",
+    "equipment_model_calibration_details": "UNIPOL‑1200S automatic pressure grinding and polishing instrument (Shenyang Kejing Automobile Instrument Co., LTD.)",
+    "instrument_device_model": {
+      "XRD": "D8 Advance diffractometer (Bruker)",
+      "SEM": "Regulus 8100 (Hitachi)",
+      "TEM": "Tecnai G2 F20 (FEI)",
+      "UV‑Vis DRS": "Cary 5000 UV‑VIS‑NIR spectrophotometer (Agilent)",
+      "XPS": "Al Kα XPS (1486.6 eV)",
+      "Raman": "inVia Raman microscope (Renishaw)",
+      "AFM": "Seiko Instruments AFM",
+      "Polisher": "UNIPOL‑1200S polishing equipment",
+      "Photocatalytic lamp": "PLS‑SXE300 Xe lamp (Beijing Perfect Light)"
+    },
+    "pad_composition": "Synthetic leather",
+    "pre_cmp_surface_roughness": "1.08 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "pure CeO₂": "187 nm",
+      "Y‑doped CeO₂": "113–148 nm"
+    },
+    "particle_morphology": "Nearly spherical nanoparticles",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": {
+      "CeO₂": "FCC cubic (JCPDS 34‑0394)",
+      "Y‑doped CeO₂": "FCC cubic"
+    },
+    "crystallite_size": null,
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": null,
+    "batch_number_process_identifier": null
+  }
+  

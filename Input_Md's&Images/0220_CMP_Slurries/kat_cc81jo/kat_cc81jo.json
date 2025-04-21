@@ -1,0 +1,119 @@
+{
+    "doi": "10.1143/JJAP.42.1150",
+    "title": "Effects of Abrasive Morphology and Surfactant Concentration on Polishing Rate of Ceria Slurry",
+    "year_published": "2003",
+    "journal": "Jpn. J. Appl. Phys.",
+    "precursor_chemical": [
+      "Cerium carbonate",
+      "Cerium nitrate"
+    ],
+    "precursor_concentration": null,
+    "precipitant_type": null,
+    "molar_ratio_precursor_precipitant": null,
+    "additives_surfactant_dispersant": "Water‑soluble acrylic acid (anionic surfactant) at 0–0.8 wt%",
+    "abrasive_ceria_concentration": "1 wt%",
+    "target_final_slurry_ph": null,
+    "reaction_temperature_if_in_situ_synthesis": null,
+    "reaction_time_if_in_situ_synthesis": null,
+    "ph_during_reaction": null,
+    "stirring_speed": null,
+    "viscosity": "≈1×10⁻³ Pa·s",
+    "zeta_potential": {
+      "slurry A": {
+        "0 wt%": "-90 mV",
+        "0.03 wt%": "-80 mV",
+        "0.08 wt%": "-70 mV",
+        "0.2 wt%": "-63 mV",
+        "0.4 wt%": "-62 mV",
+        "0.8 wt%": "-60 mV"
+      },
+      "slurry B": {
+        "0 wt%": "-65 mV",
+        "0.03 wt%": "-63 mV",
+        "0.08 wt%": "-62 mV",
+        "0.2 wt%": "-61 mV",
+        "0.4 wt%": "-60 mV",
+        "0.8 wt%": "-60 mV"
+      }
+    },
+    "sedimentation_rate": null,
+    "polishing_time": "30 s",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "oxide": {
+        "slurry A": {
+          "0 wt%": 3800,
+          "0.08 wt%": 3500,
+          "0.4 wt%": 3400,
+          "0.8 wt%": 800
+        },
+        "slurry B": {
+          "0 wt%": 2000,
+          "0.08 wt%": 400,
+          "0.4 wt%": 300,
+          "0.8 wt%": 150
+        }
+      },
+      "nitride": {
+        "slurry A": {
+          "0 wt%": 800,
+          "0.08 wt%": 300,
+          "0.1 wt%": 50,
+          "0.4 wt%": 10,
+          "0.8 wt%": 5
+        },
+        "slurry B": {
+          "0 wt%": 350,
+          "0.08 wt%": 40,
+          "0.1 wt%": 20,
+          "0.4 wt%": 5,
+          "0.8 wt%": 2
+        }
+      }
+    },
+    "process_temperature": [
+      "Room temperature"
+    ],
+    "pad_conditioning_pressure": null,
+    "equipment_model_calibration_details": "Strasbaugh 6EC polisher with single polishing head and platen; ex‑situ conditioning with diamond dresser",
+    "instrument_device_model": {
+      "Polisher": "Strasbaugh 6EC",
+      "Pad": "IC1000/Suba IV (Rodel Co.)",
+      "Thickness measurement": "Nanospec 180 (Nanometrics)",
+      "Zeta and size measurement": "AcoustoSizer II (Colloidal Dynamics)",
+      "TEM": "JEOL JEM2010",
+      "Scratch measurement": "Surfscan SP1 (KLA‑Tencor)"
+    },
+    "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+    "pre_cmp_surface_roughness": null,
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "slurry A": {
+        "single-crystal grain": "38.5 nm",
+        "poly-crystal particle": "121.8 nm"
+      },
+      "slurry B": {
+        "single-crystal grain": "40.3 nm",
+        "poly-crystal particle": "50.8 nm"
+      }
+    },
+    "particle_morphology": {
+      "slurry A": "Poly‑crystalline abrasives with small‑angle grain boundaries",
+      "slurry B": "Discrete single‑crystal particles with random orientations"
+    },
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": null,
+    "crystallite_size": {
+      "slurry A single-crystal grain": "38.5 nm",
+      "slurry A poly-crystal particle": "121.8 nm",
+      "slurry B single-crystal grain": "40.3 nm",
+      "slurry B poly-crystal particle": "50.8 nm"
+    },
+    "hardness": null,
+    "purity": null,
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Ambient lab environment at room temperature; deionized water used as diluent",
+    "batch_number_process_identifier": null
+  }
+  

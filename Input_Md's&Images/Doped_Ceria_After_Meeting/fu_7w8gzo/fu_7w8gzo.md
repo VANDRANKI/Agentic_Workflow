@@ -1,0 +1,139 @@
+# Surface charge tuning of ceria particles by titanium doping: Towards significantly improved polishing performance 
+
+Maosheng Fu a,b, Lianghua Wei ${ }^{\text {a }}$, Yanhua $\mathrm{Li}^{\mathrm{a}}$, Xuezhen Zhou ${ }^{\mathrm{a}}$, Shiyou Hao ${ }^{\mathrm{c}}$, Yongxiu $\mathrm{Li}^{\mathrm{a}, *}$<br>${ }^{a}$ Research Center for Rare Earths and Micro/nano Functional Materials, Institute for Advanced Study, Nanchang University, Nanchang 330031, China<br>${ }^{\mathrm{b}}$ Department of Environmental and Chemical Engineering, Nanchang Hangkong University, Nanchang 330063, China<br>${ }^{\mathrm{c}}$ Zhejiang Normal University, Jinhua 321004, China
+
+## A R T I C L E I N F O
+
+Article history:
+Received 17 June 2009
+Received in revised form
+14 August 2009
+Accepted 18 August 2009
+Available online 23 August 2009
+
+Keywords:
+Titanium-doped ceria
+Chemical mechanical polishing
+Surface charge
+AFM
+Micro-scale abrasion
+
+## A B S T R A C T
+
+Titanium-doped ceria $\mathrm{Ce}_{1} \ldots \mathrm{~T}_{\mathrm{N}} \mathrm{O}_{2}(\mathrm{x}=0-0.3)$ powders were prepared and their material removal rate (MRR) values for polishing the $\mathrm{ZF}_{2}$ optical glass were evaluated with respect to their particle sizes, surface charges, crystallinity as well as the suspension stability. Significantly increased MRR values with a particle zeta potential dependence were observed for all the Ti-doped ceria powders, indicating that ceria abrasives with high MRR can be designed and synthesized by tuning particle surface charge using the titanium doping method. The XRD and Raman spectroscopic analyses revealed that the large increase in MRR and the surface negative zeta potentials were attributed to lattice defects due to the formation of $\mathrm{CeO}_{2}-\mathrm{TiO}_{2}$ solid solutions and the $\mathrm{CeTi}_{2} \mathrm{O}_{6}$ phase. A maximum MRR value of $544 \mathrm{~nm} \mathrm{~min}^{-1}$ was obtained using $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ solid solution as a polishing powder for the ZF7 glass. This value is ca. 2.2 times of that obtained from using pure ceria. With the $x$ value further increasing to 0.2 and 0.3 , the MRR value decreased slightly with the $\mathrm{CeTi}_{2} \mathrm{O}_{6}$ phase content increasing. This fact reveals that the contribution of $\mathrm{CeTi}_{2} \mathrm{O}_{6}$ to the MRR increase is less than that of $\mathrm{CeO}_{2}-\mathrm{TiO}_{2}$ solid solution.
+(c) 2009 Elsevier Masson SAS. All rights reserved.
+
+## 1. Introduction
+
+The design and synthesis of ceria particles using economical and environmentally friendly methods have been intensively pursued for their technological applications as abrasives in chemical mechanical polishing or planarization (CMP) [1]. Among the variables that can influence the CMP process, the production of slurry composed of abrasive particles and water as well as other additives is of key importance for achieving remarkable performance characteristics because the constituents of the polishing slurry has a significant influence on several of the output responses in a CMP process including polish rate and surface quality [1-3]. Ceria particles exhibit high MRR or high removal selectivity among different materials, and have been used as the key abrasive component for the CMP of advanced integrated circuits, optical glass, dielectric films deposited for the fabrication of microelectronic devices and many other applications in advanced materials $[1-3]$. As the size of the integrated circuit architecture decreases for chip miniaturization and the precision of glass planarization increases for device upgrade, however, it is desirable to further
+
+[^0]increase the MRR while minimizing roughness and defects on the polished surfaces [4].
+
+It has been found that the physical characteristics of abrasive particles, such as size, morphology and surface state, have a great influence on the polishing performance [1]. A number of studies on the synthesis and tailoring of ceria particles have been carried out to optimize slurry characteristics with enhanced polish rates for different wafers [1-8]. Among them, titanium doping into ceria has been found to be an effective route to synthesize abrasives with high polishing performance. Wang et al. [4] have developed an approach to preparing spherical, single-crystal and Ti-doped $\mathrm{CeO}_{2}$ nanoparticles which were shown to exhibit an $80 \%$ reduction in defects and a $50 \%$ increase in the silica removal rate. Recently, a ternary mixed oxide, $\mathrm{CeTi}_{2} \mathrm{O}_{6}$, has been synthesized by Yoshida et al. [7]. This $\mathrm{Ce}-\mathrm{Ti}$ mixed-oxide slurry was demonstrated to have the same potential as the $\mathrm{CeO}_{2}$ slurry to give a high removal rate. The high removal ability was attributed to the increase in either the chemical activity of Ce or the number of effective particles of $\mathrm{CeTi}_{2} \mathrm{O}_{6}$.
+
+In order to gain an understanding on how the Ti-doping influences the polishing performance of ceria particles, and search for a new design principle for abrasive particle preparations, we focused on the mechanical, chemical and electrical interactions between the abrasive particles and the surface materials of wafer. If
+
+
+[^0]:    a Corresponding author. Tel.: +86 791830 5741; fax: +86 7913969240.
+    E-mail address: yxli@ncu.edu.cn (Y. Li).
+
+a polishing process is dominated by the mechanical interaction, it is reasonable to assume that the cube-shaped particles with a large size can exhibit a higher material removal rate than sphere-shaped particles with a smaller size. Many traditional polishing materials have been prepared based on this assumption. A recent example entails the synthesis of cube-shaped ceria nanocrystals from the hydrolytic sol-gel reaction of a cerium salt in the presence of oleylamine [8]. However, to polishing materials used in the fabrication of advanced devices, the mechanical interaction should be limited to minimize roughness and defects on the polished surface. Consequently, the chemical or electrical interaction should be increased. In this situation, spherical ceria particles may show better polishing performance than cube-shaped ceria do [1-3], because spherical particles are favorable to roll on the surfaces of both pad and wafer and provide a strong interfacial interaction for the material removal. Additionally, the surface charge variations of abrasive particles resulted from titanium doping should be considered as a more important factor for polishing performance improvement [4]. A convincing example was reported by Hegde and Babu [9] who evaluated the effect of surface charges on oxide and nitride film polishing using alumina/ceria mixed abrasive slurries with regard to their particle size, surface morphology, and surface charge. The authors suggested that the surface charges on both the abrasives and the oxide and nitride blanket films being polished play a significant role in determining polish rates. The polish rates increase when the surface films being polished and the abrasives carry the opposite charge, but decrease when they have the same charge. Therefore, the surface charge of abrasive particles should be opposite to that of wafer surface so as to strengthen the interaction between particles and wafer surface.
+
+Herein, a series of ultrafine $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}(x=0,0.1,0.2,0.3)$ powders were synthesized using wet-solid phase mechanochemical processing (MCP). This sample series is economical and environmentally friendly, thus being used in industrial manufacture. Their preparation has previously been reported by us [10,11]. In this paper, their MRR for polishing the $\mathrm{ZF}_{7}$ optical glass were determined and rationalized on the basis of their microstructure and surface properties such as particle size, surface morphology, specific surface area and zeta potentials. The optimal doping amount of titanium and the contributions made by Ti-doping for the polishing performance improvements were investigated in detail.
+
+## 2. Experimental procedure
+
+### 2.1. Preparation of $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}$
+
+In a general procedure, $\mathrm{Ce}_{2}\left(\mathrm{CO}_{3}\right)_{3} \cdot 8 \mathrm{H}_{2} \mathrm{O}\left(\mathrm{CeO}_{2} / \mathrm{REO} \geq 99.95 \%\right)$ and $\mathrm{Ti}\left(\mathrm{SO}_{4}\right)_{2}$ (C.P.) were weighed out according to the nominal composition of $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}(x=0,0.1,0.2,0.3)$, and mixed with excess ammonia (A.R., $\mathrm{NH}_{3} 28 \mathrm{wt} \%$, the mol ratio of $\mathrm{NH}_{4} \mathrm{OH} /$ $\mathrm{Ce}=3: 1$ ) and 50 ml hydrogen peroxide (A.R., $\mathrm{H}_{2} \mathrm{O}_{2}, 30 \mathrm{wt} \%$ ) in a $0.5 \mathrm{dm}^{3}$ nylon jar. The mixture was then milled in planetary ballmilling equipment at room temperature for 3 h . The ball to the solid starting material mass ratio was 5:1. The milling speed was fixed at 280 rpm . The resulting yellow suspension was filtrated and washed with deionized (DI) water and anhydrous ethanol for several times. The cake obtained from the synthesis was then dried at $80^{\circ} \mathrm{C}$ for 8 h to convert to a precursor. The precursor was calcinated at $900^{\circ} \mathrm{C}$ in air for 2 h to obtain the intended mixed oxide $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}$.
+
+### 2.2. Characterization of $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}$
+
+The XRD patterns of the as-synthesized powders were recorded at 293 K on a Bruker Advance D8 X-ray powder diffractometer
+equipped with a rotating anode using Cu Ks radiation and a diffracting beam monochrometor over the $2 \theta$ range of $15-90^{\circ}$. Based on the XRD profiles, the crystallinity of as-synthesized samples was calculated using the method described in MDI jade 5.0, with which the crystallinity (\%) is defined as $\left[S_{1} /\left(S_{1}+S_{2}\right)\right] \times 100$, where $S_{1}$ and $S_{2}$ are the diffraction peak intensities of crystal and scattering peak intensity of noncrystal. The particle size and distribution was measured by an OMEC L5601A particle size analyzer. The particle morphology and size of the as-synthesized $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ sample was characterized by FE-SEM (FLOTU JSM-7401) without any further dispersion. Laser-Raman spectra were obtained on a Nicolet 5700 FT-IR (Thermo Co. Ltd. USA) by excitation with a 5 mW visible HeNe laser operating at the 1064 nm wavelength. The specific surface area was measured and calculated by the BET method from $\mathrm{N}_{2}$ adsorption isotherms recorded at liquid nitrogen temperature on a Model ST-08 specific surface area analyzer (Beijing instrument Co. Ltd. China). The surface zeta potential measurements of the asprepared powders were performed using a J594H Zeta Sizer (Shanghai Zhongchen Ltd., China) at $25^{\circ} \mathrm{C}$. The samples were ultrasonically dispersed for 5 min in water with a concentration of $2.0 \mathrm{mg} \mathrm{ml}^{-1}$ and pH 7 .
+
+### 2.3. MRR determination and AFM observation
+
+CMP tests were performed at the $\mathrm{ZF}_{7}$-type conventional optical glass wafers with a diameter of 3.0 cm by a UNIPOL802 CMP equipment (Shenyang Kejing Co. Ltd.). The slurries were prepared by adding $40 \mathrm{~g} \mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}$ and 8 g sodium hexametaphosphate as dispersant into 1.7 L DI water under stirring. The pH value was adjusted to 7 by $0.1 \mathrm{~mol} \mathrm{~L}^{-1} \mathrm{NaOH}$ solution and ultrasonic dispersing for 15 min . MRR is defined as the thickness of the removal material per unit time, or MRR $=\left(m_{0}-m\right) / \rho / A$, where $\rho$ is the density of a cylindrical glass wafer, $A$ is the area of the wafer, $t$ is polishing time, $m_{0}$ is the original mass of the wafer, and $m$ is the mass of wafer after being polished. Polishing process parameters were set as follows: using a Rodel porous polyurethane pad with rotation speed 125 rpm , down force 6.60 MPa , feed rate of the slurry $100 \mathrm{~nm} \mathrm{~min}^{-1}$, polishing temperature $30 \pm 2^{\circ} \mathrm{C}$. The glasses were pre-polished for 2 h to get a smooth surface, and then repolished for another 2 h for MRR determination. Therefore, $\mathrm{m}_{0}$ is the mass of glasses after first 2 h polishing, and $m$ is the mass of glasses after a further 2 h polishing, $\rho$ for ZF7 glass is $5.18 \mathrm{~g} / \mathrm{cm}^{3}$. All the MRR values were calculated from three pieces glasses with diameter of 3 cm . AFM images and the surface $R_{\mathrm{a}}$ of the glass surface in a $5.0 \mu \mathrm{~m} \times 5.0 \mu \mathrm{~m}$ area were obtained using an AFM (NanoScope3a + Enviroscope + ECM-2, Veeco Co. Ltd. USA) with a silicon nitride tip in contact mode.
+
+## 3. Results and discussion
+
+The MRR values and the corresponding surface zeta potential, particle size, specific surface area and crystallinity of the assynthesized $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}$ powders are compared in Table 1. These
+
+Table 1
+Physical characteristic of $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}$ and their MRR values for polishing $\mathrm{ZF}_{7}$ glass.
+
+| $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}$ | $x=0$ | $x=0.1$ | $x=0.2$ | $x=0.3$ |
+| :-- | :--: | :--: | :--: | :--: |
+| MRR/nm min ${ }^{-1}$ | 241 | 544 | 484 | 361 |
+| Zeta potential/mV | -32.93 | -41.16 | -39.7 | -38.53 |
+| Surface area/m² g ${ }^{-1}$ | 3.23 | 8.71 | 6.17 | 4.83 |
+| Crystallinity/\% | 99.09 | 93.34 | 97.14 | 96.48 |
+| $D_{10} / \mu \mathrm{m}$ | 0.92 | 0.55 | 0.53 | 0.51 |
+| $D_{50} / \mu \mathrm{m}$ | 2.22 | 1.11 | 1.24 | 1.64 |
+| $D_{90} / \mu \mathrm{m}$ | 3.91 | 1.76 | 1.99 | 3.57 |
+| $R=\left(D_{90}-D_{10}\right) / D_{50}$ | 1.347 | 1.09 | 1.18 | 1.86 |
+
+results show that the MRR values of all $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}$ powders are higher than that of pure $\mathrm{CeO}_{2}$, indicating that the doping of titanium has greatly improved the polishing performance of $\mathrm{CeO}_{2}$. Among the four samples, the $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ sample was found to possess the highest MRR ( $544 \mathrm{~nm} \mathrm{~min}^{-1}$ ), which was $\sim 2.2$ times as that of pure $\mathrm{CeO}_{2}\left(241 \mathrm{~nm} \mathrm{~min}^{-1}\right)$. However, with the $x$ values in $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}$ increasing from 0.1 to 0.2 and to 0.3 , the MRR of $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}$ decreased from $544 \mathrm{~nm} \mathrm{~min}^{-1}$ to $484 \mathrm{~nm} \mathrm{~min}^{-1}$ and then to $361 \mathrm{~nm} \mathrm{~min}^{-1}$ respectively.
+
+It can be seen from Table 1 that the MRR values increase with the increase of the negative zeta potential of $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}$ particles, demonstrating that the charge on the abrasive particle surface has a significant influence on MRR. As we know, ZF7 glass substrate is composed of silicates of sodium and lead, its surface is positively charged when immerged in ceria slurry at pH 6-7 [12]. As shown in Table 1, all the particles were negatively charged. Therefore, they are readily in contact with the glass surface through the electrostatic interaction and can interact with the surface material under the mechanical pressure from pad. The more the particles are charged, the stronger the interaction can occur.
+
+In the view of colloidal chemistry, the increase of particle surface charge always results in particle size decrease and surface area increase as well as their improved dispersion stability. Therefore, the largest MRR value also corresponds to the sample with the highest specific surface area and the smallest particle medium size $\left(D_{50}\right)$. This fact indicates that the MRR is interfacial dependent, i.e. the polishing process is possibly dominated by the interfacial interaction between the abrasive particle and glass rather than by the mechanical force which is proportional to the particle size [8]. It means that tuning the surface charge of particles is a very useful route to design and synthesize new abrasive particles with excellent polishing performance.
+
+To understand why the MRR increased, the microstructures of as-synthesized particles were examined by XRD and Raman spectra. Fig. 1 shows the XRD patterns of $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}(x=0,0.1,0.2$, 0.3). In the case of pure $\mathrm{CeO}_{2}$ and $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ (Fig. 1a and b), all the diffraction peaks can be indexed to the standard XRD data of pure face-centered cubic (FCC) fluorite structure of $\mathrm{CeO}_{2}$ (JCPDS file No. 34-0394). However, their unit cell parameters calculated with (111) diffraction peaks are $5.4205 \AA$ and $5.4116 \AA$ respectively, showing a slight decrease due to the substituting of larger $\mathrm{Ce}^{4+}$ ions $(0.92 \AA$ ) in the lattice of cubic $\mathrm{CeO}_{2}$ by smaller $\mathrm{Ti}^{4+}$ ions $(0.68 \AA$ ). This fact
+![img-0.jpeg](images\img-0.jpeg)
+
+Fig. 1. XRD patterns of $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}$ powders calcinated at $900^{\circ} \mathrm{C}$ (a: $x=0 ;$ b: $x=0.1$; c: $x=0.2 ;$ d: $x=0.3 ; \bullet-\mathrm{CeO}_{2} ; \diamond-\mathrm{CeTi}_{2} \mathrm{O}_{6}$ ).
+![img-1.jpeg](images\img-1.jpeg)
+
+Fig. 2. Laser-Raman spectra of $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}$ where $x=0$ (a), 0.1 (b), 0.2 (c), 0.3 (d).
+demonstrated that the as-synthesized $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ powders are $\mathrm{CeO}_{2}-\mathrm{TiO}_{2}$ solid solution with cubic fluorite-type structure.
+
+However, in the XRD pattern of as-synthesized sample $\mathrm{Ce}_{0.8} \mathrm{Ti}_{0.2} \mathrm{O}_{2}$, besides the typical diffraction peaks of cubic fluorite $\mathrm{CeO}_{2}$, some weak and diffuse diffraction peaks at $2 \theta=18.6^{\circ}$ $(d=4.756 \AA), 2 \theta=25.9^{\circ}(d=3.439 \AA), 2 \theta=26.7^{\circ}(d=3.335 \AA)$, $30.9^{\circ}(d=2.89 \AA)$ appeared. These weak diffraction peaks can be assigned to brannerite $\mathrm{UTi}_{2} \mathrm{O}_{6}$ type $\mathrm{CeTi}_{2} \mathrm{O}_{6}$ [7,13] (JCPDS file No.120477). With the $x$ value in $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}$ increasing from 0.2 to 0.3 , the intensity of these peaks increases. These facts indicate that the as-synthesized $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}(x=0.2$ or 0.3$)$ samples are composed of cubic fluorite-type $\mathrm{CeO}_{2}$ or $\mathrm{CeO}_{2}-\mathrm{TiO}_{2}$ solid solution and brannerite $\mathrm{UTi}_{2} \mathrm{O}_{6}$ type $\mathrm{CeTi}_{2} \mathrm{O}_{6}$, and the amount of $\mathrm{CeTi}_{2} \mathrm{O}_{6}$ phase increases with the increasing $x$ values in $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}$.
+
+Fig. 2 shows the Raman spectra of the as-synthesized $\mathrm{Ce}_{1-x} \mathrm{Ti}_{6} \mathrm{O}_{2}$ materials. The Raman spectra of pure $\mathrm{CeO}_{2}$ and $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ (Fig. 2(b)) are quite similar. The vibration band at around $465 \mathrm{~cm}^{-1}$ which belongs to pure cubic $\mathrm{CeO}_{2}$ (space group: $\mathrm{Fm}-3 \mathrm{~m}$ ) [14] indicates that the $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ mixed oxide is a solid solution as a consequence of titanium ion insertion to the $\mathrm{CeO}_{2}$
+![img-2.jpeg](images\img-2.jpeg)
+
+Fig. 3. FE-SEM micrographs of as-synthesized $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ annealed at $900^{\circ} \mathrm{C}$.
+
+![img-3.jpeg](images\img-3.jpeg)
+
+Fig. 4. 2D and 3D profiles of $\mathrm{ZF}_{2}$ optical glass polished by $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ abrasive.
+cubic fluorite lattice. In the cases of $\mathrm{Ce}_{0.8} \mathrm{Ti}_{0.2} \mathrm{O}_{2}$ and $\mathrm{Ce}_{0.7} \mathrm{Ti}_{0.3} \mathrm{O}_{2}$, in addition to the strong vibration band at $465 \mathrm{~cm}^{-1}$, Raman bands at $164,197,335,376,576$ and $644 \mathrm{~cm}^{-1}$ appear simultaneously and their intensities increase with the increasing $x$ values. These Raman bands can be attributed to the Raman-active modes of $\mathrm{CeTi}_{2} \mathrm{O}_{6}$, which is in agreement with the XRD results. We also noticed that a very weak band assigned to rutile $\mathrm{TiO}_{2}$ appeared at $610 \mathrm{~cm}^{-1}$ in the Raman spectra of $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ and $\mathrm{Ce}_{0.8} \mathrm{Ti}_{0.2} \mathrm{O}_{2}[15,16]$ and vanished in the Raman spectra of $\mathrm{Ce}_{0.7} \mathrm{Ti}_{0.3} \mathrm{O}_{2}$. However, no diffraction peak corresponding to rutile $\mathrm{TiO}_{2}$ was observed in the XRD patterns of $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ and $\mathrm{Ce}_{0.8} \mathrm{Ti}_{0.2} \mathrm{O}_{2}$, indicating that the particles of rutile $\mathrm{TiO}_{2}$ in sample were very few or small. These particles might be distributed on the grain boundaries of ceria particles [14] and gave rise to a larger specific surface area of $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}\left(8.71 \mathrm{~m}^{2} \mathrm{~g}^{-1}\right)$ than that of pure $\mathrm{CeO}_{2}\left(3.23 \mathrm{~m}^{2} \mathrm{~g}^{-1}\right)$.
+
+Based on the above analysis, we conclude that the highly improved polishing performance of Ti-doped ceria can be attributed to the formation of both $\mathrm{CeO}_{2}-\mathrm{TiO}_{2}$ solid solution and $\mathrm{CeTi}_{2} \mathrm{O}_{6}$, which remarkably increases the value of particle surface negative zeta potential. The slightly decreased negative zeta potential and MRR when the $x$ value in $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}$ exceeds 0.1 is due to the formation of $\mathrm{CeTi}_{2} \mathrm{O}_{6}$. This fact demonstrates that the contribution for the increase of MRR and negative zeta potential follows the order of $\mathrm{CeO}_{2}-\mathrm{TiO}_{2}>\mathrm{CeTi}_{2} \mathrm{O}_{6}>\mathrm{CeO}_{2}$ [7]. The increase of MRR and particle surface negative zeta potential value promoted by Ti-doping can be explained by the increase of lattice defects induced by the formation of $\mathrm{CeO}_{2}-\mathrm{TiO}_{2}$ solid solution and $\mathrm{CeTi}_{2} \mathrm{O}_{6}$. The lattice defects in the as-synthesized samples can be evaluated using their crystallinity data shown in Table 1. It is clear that all the titanium-doped ceria samples possessed lower crystallinity than
+
+pure ceria. The degree of the decreasing crystallinity is proportional to the degree of the increasing MRR and negative zeta potential, indicating that the crystallinity is another important parameter that can affect the polishing performance of ceria abrasives.
+
+The FE-SEM image of the as-synthesized $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ powders is shown in Fig. 3. It is clear that the $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ powders consist of uniform fine particles which are loosely agglomerated together. The primary particles are spheroid, and their size range from 80 nm to 100 nm , indicating that the doping ceria with titanium can facilitate the formation of spherical ceria particles as the spherical morphology is favorable to the polishing process dominated by the interfacial interaction.
+
+Fig. 4 shows the two-dimensional (2D) and three-dimensional (3D) AFM images of $\mathrm{ZF}_{7}$-type optical glass surface after polished by $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ abrasive with the highest MRR value ( $544 \mathrm{~nm} \mathrm{~min}^{-1}$ ). The surface roughness, $R_{a}$ and RMS, in a $5.0 \mu \mathrm{~m} \times 5.0 \mu \mathrm{~m}$ area were found to be of 0.854 nm and 1.108 nm respectively, which can meet the specifications of commercial optical glass. This fact indicates that $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ can be used as a promising abrasive for the polishing of ZF7 optical glass with high MRR and low surface roughness.
+
+## 4. Conclusions
+
+Ultrafine $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}(x=0,0.1,0.2,0.3)$ powders were synthesized via MCP method and characterized by the means of XRD, Raman spectra. The material removal rate (MRR) values for ZF7 glass polished by the as-synthesized particles were evaluated with respect to their zeta potential, particle size and surface area. A significant increase of MRR was achieved by Ti-doping, and was attributed to the increase of negative zeta potential value due to the formation of $\mathrm{CeO}_{2}-\mathrm{TiO}_{2}$ solid solution and $\mathrm{CeTi}_{2} \mathrm{O}_{9}$. With the $x$ value increased from 0.1 to 0.2 and then to 0.3 , the amount of $\mathrm{CeTi}_{2} \mathrm{O}_{9}$ in the as-synthesized $\mathrm{Ce}_{1-x} \mathrm{Ti}_{x} \mathrm{O}_{2}$ powders increases, correspondingly, the MRR and negative zeta potential decrease and the particle size increases. These facts indicate that the contribution of $\mathrm{CeO}_{2^{-}}$ $\mathrm{TiO}_{2}$ solid solution for the increase of MRR and negative zeta potential is more than that of $\mathrm{CeTi}_{2} \mathrm{O}_{9}$. A satisfactory $R_{a}$ value of 0.854 nm within a $5.0 \mu \mathrm{~m} \times 5.0 \mu \mathrm{~m}$ area in the glass surface
+polished was achieved using $\mathrm{Ce}_{0.9} \mathrm{Ti}_{0.1} \mathrm{O}_{2}$ as abrasive particles which exhibited a high MRR value of $544 \mathrm{~nm} \mathrm{~min}^{-1}$. In conclusion, the Ti doped ceria particles with spherical shape and high surface charge are potential abrasive materials for ZF7 optical glass polishing, because they can not only provide a suitable shape for improving the contact chance of particles with wafer, but also enhance the interfacial interaction between abrasive particle and wafer polished.
+
+## Acknowledgements
+
+This work is financially supported by the National Natural Science Foundation of China (20161002), the Natural Science Foundation of Jiangxi Province (0620046), the Foundation of Training Academic and Technical Leaders for Main Majors of Jiangxi (2007DD00800), and the Science Foundation of Educational Department of Jiangxi. Helpful suggestions and language modification by Dr. Songping D. Huang (Department of chemistry, Kent State University) are gratefully acknowledged.
+
+## References
+
+[1] P.B. Zantye, A. Kumar, A.K. Sikder, Mater. Sci. Eng. R 45 (2004) 89.
+[2] D.S. Lim, J.W. Ahn, H.S. Park, J.H. Shin, Surf. Coat. Technol. 200 (2005) 1751.
+[3] L.Y. Wang, K.L. Zhang, Z.T. Song, S.L. Feng, Appl. Surf. Sci. 253 (2007) 4951.
+[4] X.D. Feng, D.C. Sayle, Z.L. Wang, M.S. Paras, B. Santora, A.C. Sutorik, T.X.T. Sayle, Y. Yang, Y. Ding, X.D. Wang, Y.S. Her, Science 312 (5779) (2006) 1504.
+[5] M.X. Chai, J.D. Hu, X.P. Feng, X.Z. Zhou, J.M. Luo, Y.X. Li, Chin. J. Inorg. Chem. 23 (2007) 623.
+[6] J.D. Hu, Y.X. Li, C.M. Chen, M.X. Cai, X.P. Feng, X.Z. Zhou, Z.Y. Gu, Chin. J. Inorg. Chem. 22 (2006) 1354.
+[7] M. Yoshida, N. Koyama, T. Ashizawa, Y. Sakata, H. Imamura, Jpn. J. Appl. Phys. 46 (2007) 977.
+[8] T.K. Yu, Y.I. Park, M.C. Kang, J. Joo, J.K. Park, H.Y. Won, J.J. Kim, T.G. Hyeon, Eur. J. Inorg. Chem. 6 (2008) 855.
+[9] S. Hegde, S.V. Babu, Electrochem. Solid State Lett. 7 (2004) G316.
+[10] C.M. Cheng, Y.X. Li, X.Z. Zhou, W.F. Chen, J. Rare Earths 22 (2004) 775.
+[11] Y.X. Li, W.F. Chen, X.Z. Zhou, Z.Y. Gu, C.M. Chen, Mater. Lett. 59 (2004) 48.
+[12] C.Y. Wang, Y. Tao, Technologies for glass surface treatment, Chemical Industry Press, Beijing, 2004, pp. 76-77.
+[13] A. Verma, A.K. Srivastava, K.N. Sood, Solid State Ionics 178 (2007) 1288.
+[14] J. Fang, X.Z. Bi, D.J. Si, Z.Q. Jiang, W.X. Huang, Appl. Surf. Sci. 253 (2007) 8952.
+[15] L.S. Chen, G.L. Lu, X.R. Hu, J. Rare Earths 21 (2003) 208.
+[16] D.Y. Chen, E.H. Jordan, M. Gell, M. Wei, Acta Biomater. 4 (2008) 553.
+

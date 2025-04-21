@@ -1,0 +1,95 @@
+{
+  "doi": null,
+  "title": "Abrasive and additive interactions in high selectivity STI CMP slurries",
+  "year_published": "2013",
+  "journal": null,
+  "precursor_chemical": "Cerium carbonate",
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": [
+    "L-proline",
+    "L-glutamic acid"
+  ],
+  "abrasive_ceria_concentration": "0.25 wt%",
+  "target_final_slurry_ph": 7,
+  "reaction_temperature_if_in_situ_synthesis": [
+    "300 °C",
+    "400 °C",
+    "600 °C",
+    "700 °C",
+    "800 °C",
+    "1000 °C"
+  ],
+  "reaction_time_if_in_situ_synthesis": [
+    "3 h",
+    "6 h"
+  ],
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": null,
+  "sedimentation_rate": null,
+  "polishing_time": "1 min",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": null,
+  "process_temperature": null,
+  "pad_conditioning_pressure": null,
+  "equipment_model_calibration_details": "Struers polisher Labopol-5/Laboforce-3; Suba IV pad",
+  "instrument_device_model": {
+    "XRD": "X'pert Pro PANalytical",
+    "TEM": "Philips CM20",
+    "XPS": "Sigma Probe (Thermo, UK)",
+    "BET": "Quantachrome Autosorb Automated Gas Sorption System",
+    "EDX": "MIRA3 (TESCAN)",
+    "UV-Vis": "Shimadzu 1800",
+    "ICP-OES": "Perkin-Elmer Optima 5300 DV"
+  },
+  "pad_composition": "Polyurethane (SUBA IV)",
+  "pre_cmp_surface_roughness": null,
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "ceria-SA": "≥100 nm",
+    "ceria-S": "nanometers to sub-micron",
+    "ceria-CM": "40–50 nm"
+  },
+  "particle_morphology": "Agglomerated particles",
+  "specific_surface_area_bet": {
+    "ceria-CM": "58 m²/g",
+    "ceria-S": "6 m²/g",
+    "ceria-SA": "9 m²/g"
+  },
+  "crystallinity_phase_composition": {
+    "ceria-CM": ["cubic phase"],
+    "ceria-S": ["cubic phase", "hexagonal phase", "tetragonal lanthanum"],
+    "ceria-SA": ["cubic phase", "hexagonal phase", "tetragonal lanthanum"]
+  },
+  "crystallite_size": {
+    "ceria-CM": 12,
+    "ceria-S": 30,
+    "ceria-SA": 29
+  },
+  "hardness": null,
+  "purity": {
+    "ceria-CM": {
+      "Ce": 79,
+      "O": 21
+    },
+    "ceria-S": {
+      "Ce": 61,
+      "O": 8,
+      "La": 31
+    },
+    "ceria-SA": {
+      "Ce": 53,
+      "O": 13,
+      "La": 24,
+      "Al": 5,
+      "Si": 5
+    }
+  },
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "pH 7; room temperature",
+  "batch_number_process_identifier": null
+}

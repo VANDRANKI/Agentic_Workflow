@@ -1,0 +1,96 @@
+{
+    "doi": "10.1016/j.powtec.2021.11.069",
+    "title": "Effects of trivalent lanthanide (La and Nd) doped ceria abrasives on chemical mechanical polishing",
+    "year_published": "2021",
+    "journal": "Powder Technology",
+    "precursor_chemical": [
+      "CeCl₃·7H₂O",
+      "LaCl₃·7H₂O",
+      "NdCl₃·7H₂O"
+    ],
+    "precursor_concentration": {
+      "CeCl₃·7H₂O": "15 mmol in 400 mL DI water",
+      "Lanthanide doping (4:1)": "12 mmol CeCl₃·7H₂O + 3 mmol LaCl₃/NdCl₃ in 400 mL DI water",
+      "Lanthanide doping (1:1)": "7.5 mmol CeCl₃·7H₂O + 7.5 mmol LaCl₃/NdCl₃ in 400 mL DI water"
+    },
+    "precipitant_type": "NH₄OH",
+    "molar_ratio_precursor_precipitant": [
+      "15 mmol CeCl₃·7H₂O : 10 mmol NH₄OH (3:2)"
+    ],
+    "additives_surfactant_dispersant": "Nitric acid (to pH 4.2–4.5); poly(methacrylic acid) 0.01 wt%",
+    "abrasive_ceria_concentration": "0.1 wt%",
+    "target_final_slurry_ph": "4.2–4.5",
+    "reaction_temperature_if_in_situ_synthesis": [
+      "RT (dissolution)",
+      "50 °C (seed formation)",
+      "210 °C (hydrothermal growth)"
+    ],
+    "reaction_time_if_in_situ_synthesis": [
+      "30 min at RT",
+      "15 min at 50 °C",
+      "24 h at 210 °C"
+    ],
+    "ph_during_reaction": null,
+    "stirring_speed": [
+      "200 rpm (30 min at RT)",
+      "100 rpm (during 210 °C synthesis)"
+    ],
+    "viscosity": null,
+    "zeta_potential": null,
+    "sedimentation_rate": null,
+    "polishing_time": "1 min",
+    "interfacial_gap": null,
+    "material_removal_rate_mrr": {
+      "Commercial": 1500,
+      "HTC": 3100,
+      "LDC-L": 3500,
+      "NDC-L": 3700,
+      "LDC-H": 4800,
+      "NDC-H": 5800
+    },
+    "process_temperature": null,
+    "pad_conditioning_pressure": "0.5 psi",
+    "equipment_model_calibration_details": "Poly‑400 CMP machine (G&P Technology, Korea); conditioner 20PPW60EBC0 (SAESOI, Korea) at 87 rpm & 0.5 psi; pad IC1010 (DuPont) conditioned with DI water for 10 min",
+    "instrument_device_model": {
+      "HRTEM": "JEM‑2100F (JEOL, Japan)",
+      "XRD": "D8 ADVANCE (Bruker, USA)",
+      "XPS": "ESCALAB 250 (Thermo Scientific, USA)",
+      "KPFM": "NX10 (Park Systems, Korea)",
+      "AFM": "Force‑distance mode with Cr/Pt‑coated cantilever",
+      "DLS": "ELSZ‑2000 (Otsuka, Japan)",
+      "CMP Machine": "Poly‑400 (G&P Technology, Korea)",
+      "Reflectometer": "ST5030SL (K‑MAC, Korea)",
+      "Sonicator": "STH‑750S (Sonictopia, Korea)"
+    },
+    "pad_composition": "IC1010 (DuPont polyurethane)",
+    "pre_cmp_surface_roughness": "0.305 nm",
+    "substrate_hardness": null,
+    "youngs_modulus_substrate": null,
+    "particle_size_distribution": {
+      "HTC": "32.2 nm",
+      "NDC-L": "31.5 nm",
+      "LDC-L": "31.9 nm",
+      "Commercial": "32.6 nm"
+    },
+    "particle_morphology": "Polyhedral nanoparticles (~30 nm)",
+    "specific_surface_area_bet": null,
+    "crystallinity_phase_composition": "Fluorite cubic CeO₂ (JCPDS 034-0394)",
+    "crystallite_size": {
+      "HTC": 23.99,
+      "NDC-L": 22.75,
+      "LDC-L": 18.38,
+      "NDC-H": 21.87,
+      "LDC-H": 17.45
+    },
+    "hardness": null,
+    "purity": {
+      "NDC-L": { "O": 75.99, "Ce": 22.38, "Nd": 1.63 },
+      "LDC-L": { "O": 73.16, "Ce": 25.11, "La": 1.73 },
+      "NDC-H": { "O": 68.24, "Ce": 26.87, "Nd": 4.89 },
+      "LDC-H": { "O": 71.25, "Ce": 25.49, "La": 3.26 }
+    },
+    "surface_functionalization_treatment": null,
+    "environmental_conditions": "Hydrothermal synthesis at 210 °C; slurry at pH 4.2–4.5; CMP at room temperature",
+    "batch_number_process_identifier": null
+  }
+  

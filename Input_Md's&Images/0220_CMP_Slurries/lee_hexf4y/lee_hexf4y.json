@@ -1,0 +1,73 @@
+{
+  "doi": null,
+  "title": "Effect of Diluted Colloidal Silica Slurry Mixed with Ceria Abrasives on CMP Characteristic",
+  "year_published": "2015",
+  "journal": null,
+  "precursor_chemical": null,
+  "precursor_concentration": null,
+  "precipitant_type": null,
+  "molar_ratio_precursor_precipitant": null,
+  "additives_surfactant_dispersant": null,
+  "abrasive_ceria_concentration": [
+    "0.1 wt%",
+    "0.5 wt%",
+    "1 wt%",
+    "3 wt%",
+    "5 wt%",
+    "7 wt%",
+    "9 wt%"
+  ],
+  "target_final_slurry_ph": [
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "reaction_temperature_if_in_situ_synthesis": null,
+  "reaction_time_if_in_situ_synthesis": null,
+  "ph_during_reaction": null,
+  "stirring_speed": null,
+  "viscosity": null,
+  "zeta_potential": null,
+  "sedimentation_rate": null,
+  "polishing_time": "60 s",
+  "interfacial_gap": null,
+  "material_removal_rate_mrr": {
+    "Silica": 8700,
+    "Ceria": 8400,
+    "Silica + DIW": 700,
+    "0.1 wt%": 1500,
+    "0.5 wt%": 2000,
+    "1 wt%": 4500,
+    "3 wt%": 6000,
+    "5 wt%": 7000,
+    "7 wt%": 7800,
+    "9 wt%": 8800
+  },
+  "process_temperature": null,
+  "pad_conditioning_pressure": null,
+  "equipment_model_calibration_details": "POLI-500 CMP polisher (G&P Technology); IC-1400 pad (Dow Electronic Materials); diamond pad conditioner",
+  "instrument_device_model": {
+    "Zeta potentiometer": "Otsuka Electronics Co.",
+    "Thickness measurement": "ST-5030SL (K-MAC)",
+    "AFM": "XE-100 (PSIA)"
+  },
+  "pad_composition": "Polyurethane (IC-1400, Dow Electronic Materials)",
+  "pre_cmp_surface_roughness": null,
+  "substrate_hardness": null,
+  "youngs_modulus_substrate": null,
+  "particle_size_distribution": {
+    "Silica": "100-150 nm",
+    "Ceria": "200-250 nm"
+  },
+  "particle_morphology": null,
+  "specific_surface_area_bet": null,
+  "crystallinity_phase_composition": null,
+  "crystallite_size": null,
+  "hardness": null,
+  "purity": null,
+  "surface_functionalization_treatment": null,
+  "environmental_conditions": "Room temperature CMP; slurry flow 120 mL/min; pH adjusted slurries; DI water dilution",
+  "batch_number_process_identifier": null
+}
