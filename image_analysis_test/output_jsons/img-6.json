@@ -1,0 +1,78 @@
+{
+  "Simulation_Set_a": {
+    "Label": "(a)",
+    "Interface_Type": "SiO2/c-CeO2",
+    "Simulations": [
+      {
+        "System_Label": "SiO2/c-CeO2",
+        "Adhesion_Work": {
+          "Symbol": "Wad",
+          "Value": 0.5,
+          "Unit": "J/m\u00b2"
+        }
+      },
+      {
+        "System_Label": "SiO2/c-CeO2 with Ov",
+        "Adhesion_Work": {
+          "Symbol": "Wad",
+          "Value": 0.58,
+          "Unit": "J/m\u00b2"
+        }
+      },
+      {
+        "System_Label": "SiO2/c-CeO2 with OH",
+        "Adhesion_Work": {
+          "Symbol": "Wad",
+          "Value": 0.5,
+          "Unit": "J/m\u00b2"
+        }
+      },
+      {
+        "System_Label": "SiO2/c-CeO2 with NO3",
+        "Adhesion_Work": {
+          "Symbol": "Wad",
+          "Value": 1.01,
+          "Unit": "J/m\u00b2"
+        }
+      }
+    ]
+  },
+  "Simulation_Set_b": {
+    "Label": "(b)",
+    "Interface_Type": "SiO2/a-CeO2",
+    "Simulations": [
+      {
+        "System_Label": "SiO2/a-CeO2",
+        "Adhesion_Work": {
+          "Symbol": "Wad",
+          "Value": 0.73,
+          "Unit": "J/m\u00b2"
+        }
+      },
+      {
+        "System_Label": "SiO2/a-CeO2 with Ov",
+        "Adhesion_Work": {
+          "Symbol": "Wad",
+          "Value": 0.6,
+          "Unit": "J/m\u00b2"
+        }
+      },
+      {
+        "System_Label": "SiO2/a-CeO2 with OH",
+        "Adhesion_Work": {
+          "Symbol": "Wad",
+          "Value": 0.75,
+          "Unit": "J/m\u00b2"
+        }
+      },
+      {
+        "System_Label": "SiO2/a-CeO2 with NO3",
+        "Adhesion_Work": {
+          "Symbol": "Wad",
+          "Value": 2.4,
+          "Unit": "J/m\u00b2"
+        }
+      }
+    ]
+  }
+}

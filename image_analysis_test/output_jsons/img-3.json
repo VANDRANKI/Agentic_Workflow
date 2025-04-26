@@ -1,0 +1,144 @@
+{
+  "subplot_a": {
+    "type": "3D Surface Plot",
+    "label": "(a)",
+    "axes": {
+      "x": {
+        "label": "Wavelength (cm\u207b\u00b9)",
+        "range": [
+          1000,
+          3000
+        ]
+      },
+      "y": {
+        "label": "Absorbance",
+        "range": [
+          -0.005,
+          0.005
+        ]
+      },
+      "z": {
+        "label": "Time (mins)",
+        "range": [
+          10.0,
+          80.0
+        ]
+      }
+    },
+    "detected_species": [
+      "Water",
+      "CO\u2082"
+    ],
+    "plot_color": "green"
+  },
+  "subplot_b": {
+    "type": "3D Surface Plot",
+    "label": "(b)",
+    "axes": {
+      "x": {
+        "label": "Wavelength (cm\u207b\u00b9)",
+        "range": [
+          1000,
+          3000
+        ]
+      },
+      "y": {
+        "label": "Absorbance",
+        "range": [
+          -0.0,
+          0.01
+        ]
+      },
+      "z": {
+        "label": "Time (mins)",
+        "range": [
+          10.0,
+          80.0
+        ]
+      }
+    },
+    "detected_species": [
+      "Water",
+      "CO\u2082",
+      "NO\u2082"
+    ],
+    "plot_color": "blue"
+  },
+  "subplot_c": {
+    "type": "FTIR Spectra",
+    "label": "(c)",
+    "axes": {
+      "x": {
+        "label": "Wavelength (cm\u207b\u00b9)",
+        "range": [
+          500,
+          4000
+        ]
+      },
+      "y": {
+        "label": "Absorbance (a.u.)"
+      }
+    },
+    "highlighted_regions": [
+      "Water",
+      "CO\u2082",
+      "NO\u2082"
+    ],
+    "data_series": [
+      {
+        "sample": "CeO\u2082 synthesized by Ce\u2074\u207a",
+        "temperatures": [
+          "58 \u00b0C",
+          "86 \u00b0C",
+          "146 \u00b0C",
+          "240 \u00b0C",
+          "305 \u00b0C",
+          "347 \u00b0C"
+        ],
+        "color": "Orange/Red Tones"
+      },
+      {
+        "sample": "CeO\u2082 synthesized by Ce\u00b3\u207a",
+        "temperatures": [
+          "69 \u00b0C",
+          "121 \u00b0C",
+          "273 \u00b0C",
+          "353 \u00b0C"
+        ],
+        "color": "Gray/Black Tones"
+      }
+    ]
+  },
+  "subplot_d": {
+    "type": "TGA Curves",
+    "label": "(d)",
+    "axes": {
+      "x": {
+        "label": "Temperature (\u00b0C)",
+        "range": [
+          "Approx 50",
+          700
+        ]
+      },
+      "y": {
+        "label": "Weight (%)",
+        "range": [
+          86,
+          100
+        ]
+      }
+    },
+    "data_series": [
+      {
+        "sample": "Superfine CeO\u2082 synthesized by Ce\u00b3\u207a",
+        "color": "Black",
+        "weight_loss": "3%"
+      },
+      {
+        "sample": "Superfine CeO\u2082 synthesized by Ce\u2074\u207a",
+        "color": "Red",
+        "weight_loss": "11%"
+      }
+    ]
+  }
+}

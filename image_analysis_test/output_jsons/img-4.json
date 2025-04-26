@@ -1,0 +1,103 @@
+{
+  "figure_a": {
+    "label": "(a)",
+    "plot_type": "Absorbance Spectrum",
+    "y_axis": {
+      "label": "Absorbance"
+    },
+    "x_axis": {
+      "label": "Wavelength (nm)",
+      "values": [
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "data_series": [
+      {
+        "label": "CeO\u2082 prepared by Ce\u00b3\u207a",
+        "line_style": "solid grey"
+      },
+      {
+        "label": "CeO\u2082 prepared by Ce\u2074\u207a",
+        "line_style": "solid red"
+      }
+    ],
+    "annotations": [
+      {
+        "text": "Charge-transfer"
+      },
+      {
+        "type": "indicator_line",
+        "associated_series": "CeO\u2082 prepared by Ce\u00b3\u207a",
+        "position_approx": 285,
+        "unit": "nm",
+        "style": "blue dashed"
+      },
+      {
+        "type": "indicator_line",
+        "associated_series": "CeO\u2082 prepared by Ce\u2074\u207a",
+        "position_approx": 300,
+        "unit": "nm",
+        "style": "red dashed"
+      }
+    ]
+  },
+  "figure_b": {
+    "label": "(b)",
+    "plot_type": "Raman Spectrum",
+    "y_axis": {
+      "label": "Raman Intensity"
+    },
+    "x_axis": {
+      "label": "Wavenumber (cm\u207b\u00b9)",
+      "values": [
+        400,
+        600,
+        800,
+        1000,
+        1200,
+        1400,
+        1600
+      ]
+    },
+    "data_series": [
+      {
+        "label": "CeO\u2082 prepared by Ce\u00b3\u207a",
+        "line_style": "solid grey"
+      },
+      {
+        "label": "CeO\u2082 prepared by Ce\u2074\u207a",
+        "line_style": "solid red"
+      }
+    ],
+    "peak_labels": [
+      {
+        "label": "F\u2082g",
+        "position_approx": 460,
+        "unit": "cm\u207b\u00b9"
+      },
+      {
+        "label": "D",
+        "position_approx": 600,
+        "unit": "cm\u207b\u00b9"
+      },
+      {
+        "label": "NO\u2083",
+        "position_approx": 750,
+        "unit": "cm\u207b\u00b9"
+      },
+      {
+        "label": "NO\u2083",
+        "position_approx": 1050,
+        "unit": "cm\u207b\u00b9"
+      },
+      {
+        "label": "NO\u2083",
+        "position_approx": 1350,
+        "unit": "cm\u207b\u00b9"
+      }
+    ]
+  }
+}

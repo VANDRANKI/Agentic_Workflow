@@ -1,0 +1,108 @@
+{
+  "Panel_a": {
+    "figure_label": "(a)",
+    "y_axis": {
+      "label": "Intensity"
+    },
+    "x_axis": {
+      "label": "Binding Energy",
+      "unit": "eV",
+      "values": [
+        920,
+        910,
+        900,
+        890,
+        880,
+        870
+      ]
+    },
+    "spectra": [
+      {
+        "sample_description": "CeO2 prepared by Ce3+",
+        "Ce3_percentage": {
+          "value": 20,
+          "unit": "%"
+        },
+        "peak_labels": [
+          "u3",
+          "u1",
+          "v1",
+          "u'''",
+          "u0'",
+          "v0"
+        ]
+      },
+      {
+        "sample_description": "CeO2 prepared by Ce4+",
+        "Ce3_percentage": {
+          "value": 24,
+          "unit": "%"
+        },
+        "peak_labels": [
+          "u2",
+          "u",
+          "v2",
+          "v"
+        ]
+      }
+    ]
+  },
+  "Panel_b": {
+    "figure_label": "(b)",
+    "x_axis": {
+      "label": "Binding Energy",
+      "unit": "eV",
+      "values": [
+        538,
+        536,
+        534,
+        532,
+        530,
+        528,
+        526
+      ]
+    },
+    "spectra": [
+      {
+        "sample_description": "CeO2 prepared by Ce3+",
+        "oxygen_species_percentage": [
+          {
+            "species": "OH",
+            "value": 9,
+            "unit": "%"
+          },
+          {
+            "species": "Ov",
+            "value": 40,
+            "unit": "%"
+          },
+          {
+            "species": "OL",
+            "value": 51,
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "sample_description": "CeO2 prepared by Ce4+",
+        "oxygen_species_percentage": [
+          {
+            "species": "OH/NO3",
+            "value": 46,
+            "unit": "%"
+          },
+          {
+            "species": "Ov",
+            "value": 30,
+            "unit": "%"
+          },
+          {
+            "species": "OL",
+            "value": 24,
+            "unit": "%"
+          }
+        ]
+      }
+    ]
+  }
+}

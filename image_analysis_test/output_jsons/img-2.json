@@ -1,0 +1,148 @@
+{
+  "FTIR_Analysis": {
+    "panel_a": {
+      "title": "CeO2 prepared by Ce3+",
+      "conditions": [
+        {
+          "temperature": "RT",
+          "color_indicator": "Red"
+        },
+        {
+          "temperature": "80 \u00b0C",
+          "color_indicator": "Blue"
+        }
+      ],
+      "spectra": [
+        {
+          "ratio_label": "Ce3+/OH-",
+          "ratio_value": "1:5",
+          "dataset": [
+            "RT",
+            "80 \u00b0C"
+          ]
+        },
+        {
+          "ratio_label": "Ce3+/OH-",
+          "ratio_value": "1:4",
+          "dataset": [
+            "RT",
+            "80 \u00b0C"
+          ]
+        },
+        {
+          "ratio_label": "Ce3+/OH-",
+          "ratio_value": "1:3",
+          "dataset": [
+            "RT",
+            "80 \u00b0C"
+          ]
+        },
+        {
+          "ratio_label": "Ce3+/OH-",
+          "ratio_value": "1:2",
+          "dataset": [
+            "RT",
+            "80 \u00b0C"
+          ]
+        },
+        {
+          "ratio_label": "Ce3+/OH-",
+          "ratio_value": "1:1",
+          "dataset": [
+            "RT",
+            "80 \u00b0C"
+          ]
+        }
+      ],
+      "plot_axes": {
+        "y_axis": {
+          "label": "Transmittance",
+          "unit": "a.u."
+        },
+        "x_axis": {
+          "label": "Wavenumber",
+          "unit": "cm\u207b\u00b9",
+          "ticks": [
+            2000,
+            1500,
+            1000,
+            500
+          ]
+        }
+      },
+      "band_labels": [
+        "NH\u2084",
+        "-O-",
+        "NO\u2083"
+      ]
+    },
+    "panel_b": {
+      "title": "CeO2 prepared by Ce4+",
+      "conditions": [
+        {
+          "temperature": "RT",
+          "color_indicator": "Yellow"
+        },
+        {
+          "temperature": "80 \u00b0C",
+          "color_indicator": "Green"
+        }
+      ],
+      "spectra": [
+        {
+          "ratio_label": "Ce4+/OH-",
+          "ratio_value": "1:5",
+          "dataset": [
+            "RT",
+            "80 \u00b0C"
+          ]
+        },
+        {
+          "ratio_label": "Ce4+/OH-",
+          "ratio_value": "1:4",
+          "dataset": [
+            "RT",
+            "80 \u00b0C"
+          ]
+        },
+        {
+          "ratio_label": "Ce4+/OH-",
+          "ratio_value": "1:3",
+          "dataset": [
+            "RT",
+            "80 \u00b0C"
+          ]
+        },
+        {
+          "ratio_label": "Ce4+/OH-",
+          "ratio_value": "1:2",
+          "dataset": [
+            "RT",
+            "80 \u00b0C"
+          ]
+        }
+      ],
+      "plot_axes": {
+        "y_axis": {
+          "label": "Transmittance",
+          "unit": "a.u."
+        },
+        "x_axis": {
+          "label": "Wavenumber",
+          "unit": "cm\u207b\u00b9",
+          "ticks": [
+            2000,
+            1500,
+            1000,
+            500
+          ]
+        }
+      },
+      "band_labels": [
+        "NH\u2084",
+        "-O-",
+        "NO\u2083"
+      ]
+    }
+  }
+}
