@@ -1,0 +1,282 @@
+{
+  "doi": "10.1149/1.3562559",
+  "title": "Effects of Ceria Abrasive Particle Size Distribution below Wafer Surface on In-Wafer Uniformity during Chemical Mechanical Polishing Processing",
+  "year_published": "2011",
+  "journal": "J. Electrochem. Soc.",
+  "samples": [
+    {
+      "sample_id": "Type A",
+      "experiment_context": "Uni-modal ceria slurry (Type A) used to study the effect of particle size distribution under wafer on CMP uniformity. Synthesized using the same technique as other types, size controlled by milling.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria (CeO2)",
+        "synthesis_details": "Synthesized with the same technique as Types B, C, D; size controlled by milling process time with zirconia balls.",
+        "additives": [
+          {
+            "name": "Poly-acrylic acid (PAA)",
+            "type": "Anionic polymer additive / Dispersant",
+            "concentrations_tested": [
+              {"value": 0, "unit": "wt%"},
+              {"value": 0.3, "unit": "wt%"},
+              {"value": 0.5, "unit": "wt%"}
+            ]
+          }
+        ],
+        "target_final_slurry_ph": {
+            "value": 7,
+            "unit": "",
+            "notes": "Approximately neutralized"
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity_measurements": [
+            {"paa_concentration_wt_percent": 0, "value": 1.33, "unit": "cps"},
+            {"paa_concentration_wt_percent": 0.3, "value": 2.40, "unit": "cps"},
+            {"paa_concentration_wt_percent": 0.5, "value": 3.82, "unit": "cps"}
+        ]
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "modality": "Uni-modal",
+          "range": {"min": 40, "max": 300, "unit": "nm"},
+          "peak_value": {"value": 70, "unit": "nm"},
+          "measurement_method_used": "SMPS (HCT Co.)"
+        },
+        "particle_morphology": {
+            "description": "Agglomerated ceria nanoparticles (based on TEM images in Fig 2b for uni-modal type)",
+            "measurement_method_used": "TEM"
+        },
+        "zeta_potential": [
+            {"paa_concentration_wt_percent": 0, "value": -46.3, "unit": "mV"},
+            {"paa_concentration_wt_percent": 0.3, "value": -55.6, "unit": "mV"},
+            {"paa_concentration_wt_percent": 0.5, "value": -59.2, "unit": "mV"}
+        ],
+        "observed_distribution_effects": [
+            {"condition": "Unused Pad, Center vs Edge (Fig 3a)", "observation": "Amount of small size particles significantly reduced at the center compared to edge and original slurry."},
+            {"condition": "Effect of Pressure at Center (Fig 4a)", "observation": "Smaller size abrasives were not found at the highest pressure (6 psi). Lower pressure (2 psi) is more effective at keeping small abrasives at the center. Amount of slurry abrasive decreases with increasing pressure."},
+            {"condition": "Effect of Pad Morphology at Center (Fig 6a)", "observation": "Abrasive size below 80 nm not observed in used pad (24h). Reduced amount of smaller abrasives in used pad compared to unused. Pad with small pore size/high density showed little difference between edge and center."},
+            {"condition": "Effect of Viscosity/PAA at Center (Fig 7a)", "observation": "As slurry became more viscous (higher PAA %), smaller abrasive particles were observed and their amount increased. Effect gradual with increased PAA."}
+        ]
+      },
+      "cmp_performance": {
+        "substrate": "8 in. PE-TEOS wafer",
+        "polishing_conditions": {
+            "pressure_size_distribution_tests": {"values": [2, 4, 6], "unit": "psi", "method": "dead weight"},
+            "pressure_mrr_tests": {"value": 4, "unit": "psi", "method": "head pressure"},
+            "polishing_time": {"value": 60, "unit": "s"},
+            "platen_speed": {"value": 90, "unit": "rpm"},
+            "head_speed": {"value": 100, "unit": "rpm"},
+            "slurry_flow_rate": {"value": 100, "unit": "ml/min"},
+            "process_temperature": {"value": "Room temperature", "unit": ""}
+        },
+        "equipment_model": {
+            "polisher": "MIRRA, AMAT Co. commercial 8 in. polishing machine",
+            "particle_sizer": "SMPS (HCT Co.)",
+            "analyzer": "DMA (HCT Co.)",
+            "counter": "CPC (HCT Co.)",
+            "zeta_potential_meter": "Zetasizer nano, Malvern Co."
+        },
+        "pad_composition": [
+            {"type": "Standard", "name": "IC1010", "manufacturer": "Dow Chemical Co.", "avg_pore_size": {"value": 25, "unit": "µm"}, "condition": "Unused"},
+            {"type": "Standard", "name": "IC1010", "manufacturer": "Dow Chemical Co.", "condition": "Used for 24h"},
+            {"type": "Customized", "name": "Customized Pad", "avg_pore_size": {"value": 20, "unit": "µm"}, "description": "Smaller pore diameter and higher pore density than IC1010"}
+        ],
+        "in_wafer_non_uniformity_wiwnu": [
+            {"condition": "Conventional (Unused IC1010 pad, 0.3% PAA)", "value": 8.01, "unit": "%"},
+            {"condition": "New Type Pad (Customized pad, 0.3% PAA)", "value": 10.83, "unit": "%"},
+            {"condition": "0.5% Additive (Unused IC1010 pad, 0.5% PAA)", "value": 13.57, "unit": "%"}
+        ],
+        "material_removal_rate_mrr": {
+            "notes": "Fig 8a shows MRR profiles visually but does not provide specific numerical values for the comparative conditions. Text indicates higher MRR at center than edge under New Pad and 0.5% Additive conditions compared to Conventional."
+        }
+      }
+    },
+    {
+      "sample_id": "Type B",
+      "experiment_context": "Uni-modal ceria slurry (Type B) used as one of the slurry types for initial comparison of size distribution under wafer.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria (CeO2)",
+        "synthesis_details": "Synthesized with the same technique as Types A, C, D; size controlled by milling process time with zirconia balls.",
+        "additives": null,
+        "target_final_slurry_ph": {
+            "value": 7,
+            "unit": "",
+            "notes": "Assumed same as other types based on general description"
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity_measurements": null
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "modality": "Uni-modal",
+          "range": {"min": 50, "max": 350, "unit": "nm"},
+          "peak_value": {"value": 80, "unit": "nm"},
+          "measurement_method_used": "SMPS (HCT Co.)"
+        },
+        "particle_morphology": {
+            "description": "Agglomerated ceria nanoparticles (Assumed similar to Type A based on Fig 2b description for uni-modal)",
+            "measurement_method_used": "TEM"
+        },
+        "zeta_potential": null,
+        "observed_distribution_effects": [
+             {"condition": "Unused Pad, Center vs Edge (Fig 3b)", "observation": "Amount of small size particles significantly reduced at the center compared to edge and original slurry."}
+        ]
+      },
+      "cmp_performance": {
+        "substrate": "8 in. PE-TEOS wafer",
+         "polishing_conditions": {
+            "notes": "General conditions likely same as Type A/D tests, but specific MRR/WIWNU tests were not reported for Type B."
+        },
+        "equipment_model": {
+            "polisher": "MIRRA, AMAT Co. commercial 8 in. polishing machine",
+            "particle_sizer": "SMPS (HCT Co.)"
+        },
+        "pad_composition": [
+             {"type": "Standard", "name": "IC1010", "manufacturer": "Dow Chemical Co.", "condition": "Unused (Assumed based on Fig 3 context)"}
+        ],
+        "in_wafer_non_uniformity_wiwnu": null,
+        "material_removal_rate_mrr": null
+      }
+    },
+    {
+      "sample_id": "Type C",
+      "experiment_context": "Uni-modal ceria slurry (Type C) used as one of the slurry types for initial comparison of size distribution under wafer.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria (CeO2)",
+        "synthesis_details": "Synthesized with the same technique as Types A, B, D; size controlled by milling process time with zirconia balls.",
+        "additives": null,
+        "target_final_slurry_ph": {
+            "value": 7,
+            "unit": "",
+            "notes": "Assumed same as other types based on general description"
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity_measurements": null
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "modality": "Uni-modal",
+          "range": {"min": 65, "max": 400, "unit": "nm"},
+          "peak_value": {"value": 90, "unit": "nm"},
+          "measurement_method_used": "SMPS (HCT Co.)"
+        },
+        "particle_morphology": {
+            "description": "Agglomerated ceria nanoparticles (Assumed similar to Type A based on Fig 2b description for uni-modal)",
+            "measurement_method_used": "TEM"
+        },
+        "zeta_potential": null,
+        "observed_distribution_effects": [
+             {"condition": "Unused Pad, Center vs Edge (Fig 3c)", "observation": "Amount of small size particles significantly reduced at the center compared to edge and original slurry."}
+        ]
+      },
+      "cmp_performance": {
+        "substrate": "8 in. PE-TEOS wafer",
+         "polishing_conditions": {
+            "notes": "General conditions likely same as Type A/D tests, but specific MRR/WIWNU tests were not reported for Type C."
+        },
+        "equipment_model": {
+            "polisher": "MIRRA, AMAT Co. commercial 8 in. polishing machine",
+            "particle_sizer": "SMPS (HCT Co.)"
+        },
+        "pad_composition": [
+             {"type": "Standard", "name": "IC1010", "manufacturer": "Dow Chemical Co.", "condition": "Unused (Assumed based on Fig 3 context)"}
+        ],
+        "in_wafer_non_uniformity_wiwnu": null,
+        "material_removal_rate_mrr": null
+      }
+    },
+    {
+      "sample_id": "Type D",
+      "experiment_context": "Bi-modal ceria slurry (Type D) used to study the effect of particle size distribution under wafer on CMP uniformity. Synthesized using the same technique as other types, size controlled by longer milling time.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria (CeO2)",
+        "synthesis_details": "Synthesized with the same technique as Types A, B, C; size controlled by longer milling process time with zirconia balls compared to uni-modal types.",
+        "additives": [
+          {
+            "name": "Poly-acrylic acid (PAA)",
+            "type": "Anionic polymer additive / Dispersant",
+            "concentrations_tested": [
+              {"value": 0, "unit": "wt%"},
+              {"value": 0.3, "unit": "wt%"},
+              {"value": 0.5, "unit": "wt%"}
+            ]
+          }
+        ],
+        "target_final_slurry_ph": {
+            "value": 7,
+            "unit": "",
+            "notes": "Approximately neutralized"
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity_measurements": [
+            {"paa_concentration_wt_percent": 0, "value": 1.21, "unit": "cps"},
+            {"paa_concentration_wt_percent": 0.3, "value": 2.25, "unit": "cps"},
+            {"paa_concentration_wt_percent": 0.5, "value": 3.60, "unit": "cps"}
+        ]
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "modality": "Bi-modal",
+          "range": null,
+          "peak_values": [
+              {"description": "First peak", "range": {"min": 20, "max": 30, "unit": "nm"}},
+              {"description": "Second peak", "value": "~100", "unit": "nm"}
+          ],
+          "measurement_method_used": "SMPS (HCT Co.)"
+        },
+        "particle_morphology": {
+            "description": "Agglomerated ceria nanoparticles, bi-modal distribution confirmed (Fig 2b)",
+            "measurement_method_used": "TEM"
+        },
+        "zeta_potential": null,
+        "observed_distribution_effects": [
+            {"condition": "Unused Pad, Center vs Edge (Fig 3d)", "observation": "Similar trend to uni-modal (small particles reduced at center), but entire particle count at the center was greatly reduced."},
+            {"condition": "Effect of Pressure at Center (Fig 4b)", "observation": "Smaller size abrasives were not found at the highest pressure (6 psi). Lower pressure (2 psi) is more effective at keeping small abrasives at the center. Amount of slurry abrasive decreases with increasing pressure."},
+            {"condition": "Effect of Pad Morphology at Center (Fig 6b)", "observation": "Abrasive size below 80 nm not observed in used pad (24h). Reduced amount of smaller abrasives in used pad compared to unused. Pad with small pore size/high density showed little difference between edge and center."},
+            {"condition": "Effect of Viscosity/PAA at Center (Fig 7b)", "observation": "As slurry became more viscous (higher PAA %), smaller abrasive particles were observed and their amount increased. Significant increase in particle count with addition of PAA. Effect more significant for particles below 100 nm."}
+        ]
+      },
+      "cmp_performance": {
+        "substrate": "8 in. PE-TEOS wafer",
+        "polishing_conditions": {
+            "pressure_size_distribution_tests": {"values": [2, 4, 6], "unit": "psi", "method": "dead weight"},
+            "pressure_mrr_tests": {"value": 4, "unit": "psi", "method": "head pressure"},
+            "polishing_time": {"value": 60, "unit": "s"},
+            "platen_speed": {"value": 90, "unit": "rpm"},
+            "head_speed": {"value": 100, "unit": "rpm"},
+            "slurry_flow_rate": {"value": 100, "unit": "ml/min"},
+            "process_temperature": {"value": "Room temperature", "unit": ""}
+        },
+        "equipment_model": {
+            "polisher": "MIRRA, AMAT Co. commercial 8 in. polishing machine",
+            "particle_sizer": "SMPS (HCT Co.)",
+            "analyzer": "DMA (HCT Co.)",
+            "counter": "CPC (HCT Co.)"
+        },
+        "pad_composition": [
+            {"type": "Standard", "name": "IC1010", "manufacturer": "Dow Chemical Co.", "avg_pore_size": {"value": 25, "unit": "µm"}, "condition": "Unused"},
+            {"type": "Standard", "name": "IC1010", "manufacturer": "Dow Chemical Co.", "condition": "Used for 24h"},
+            {"type": "Customized", "name": "Customized Pad", "avg_pore_size": {"value": 20, "unit": "µm"}, "description": "Smaller pore diameter and higher pore density than IC1010"}
+        ],
+        "in_wafer_non_uniformity_wiwnu": [
+            {"condition": "Conventional (Unused IC1010 pad, 0.3% PAA)", "value": 6.87, "unit": "%"},
+            {"condition": "New Type Pad (Customized pad, 0.3% PAA)", "value": 4.70, "unit": "%"},
+            {"condition": "0.5% Additive (Unused IC1010 pad, 0.5% PAA)", "value": 1.55, "unit": "%"}
+        ],
+         "material_removal_rate_mrr": {
+            "notes": "Fig 8b shows MRR profiles visually but does not provide specific numerical values for the comparative conditions. Text indicates reduction in MRR at center under Conventional conditions. Uniformity improved (implying center MRR increased relative to edge) under New Pad and 0.5% Additive conditions."
+        }
+      }
+    }
+  ]
+}

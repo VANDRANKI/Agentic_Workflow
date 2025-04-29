@@ -1,0 +1,231 @@
+{
+  "doi": "10.1016/j.apsusc.2023.158055",
+  "title": "Development and characterization of a novel RE³⁺ doped Core-shell CeO₂ abrasive system and its glass CMP investigations",
+  "year_published": "2023",
+  "journal": "Applied Surface Science",
+  "samples": [
+    {
+      "sample_id": "PS@CeO2",
+      "experiment_context": "Pristine core-shell Polystyrene@Ceria abrasive synthesized via a two-step method involving emulsifier-free emulsion polymerization for PS core and precipitation for CeO2 shell.",
+      "precursor_chemical": [
+        {"name": "Styrene (St)", "role": "PS core monomer"},
+        {"name": "Methyl acrylic acid (AA)", "role": "PS core monomer"},
+        {"name": "Potassium persulfate (KPS)", "role": "PS core initiator"},
+        {"name": "Ce(NO₃)₃·6H₂O", "role": "CeO2 shell precursor"}
+      ],
+      "precursor_concentration": [
+        {"chemical": "Ce(NO₃)₃·6H₂O", "value": "0.02", "unit": "mol·L⁻¹"}
+      ],
+      "precipitant_type": "Hexamethylenetetramine (HMT)",
+      "precipitant_concentration": {"value": "25", "unit": "mmol·L⁻¹"},
+      "molar_ratio_precursor_precipitant": "approx. 1:1.25 (Ce:HMT, calculated from concentrations and volumes)",
+      "reaction_temperature": {"value": "80", "unit": "°C"},
+      "reaction_time": {"value": "2", "unit": "h"},
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": "Stirring mentioned",
+        "environmental_conditions": "PS core synthesis under Nitrogen; Shell precipitation under ambient conditions implied, drying in Air."
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Centrifugation and washing with ethanol"},
+        "drying": {"temperature": {"value": "80", "unit": "°C"}, "duration": {"value": "2", "unit": "h"}, "atmosphere": "Air"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "1", "unit": "wt%"},
+        "additives": [
+          {"name": "NaOH", "type": "pH adjuster", "concentration": {"value": "0.1", "unit": "M", "note": "Used to adjust pH"}}
+        ],
+        "target_final_slurry_ph": "7",
+        "solvent": {"name": "Deionized water"}
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "375", "unit": "nm", "measurement_method_used": "DLS (Dynamic Light Scattering)"},
+        "particle_size_sem": {"value": "377", "unit": "nm", "measurement_method_used": "SEM Statistics"},
+        "crystallite_size": {"value": "9.0", "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)"},
+        "crystallinity_phase_composition": {"value": "Fluorite CeO₂", "unit": "", "measurement_method_used": "XRD"},
+        "lattice_parameter": {"value": "5.4267", "unit": "Å", "measurement_method_used": "XRD"},
+        "raman_peaks": [{"value": "459.9", "unit": "cm⁻¹", "assignment": "F₂g mode"}],
+        "surface_ce3_percent_xps": {"value": "9.79", "unit": "%"},
+         "oxygen_species_percent_xps": {
+            "O_lattice (Oa)": null,
+            "O_vacancy_related (Op)": {"value": "8.97", "unit": "%"},
+            "O_absorbed (Ov)": null
+         },
+        "particle_morphology": "Core-shell nanospheres with rough surface composed of small nanocrystals (SEM/TEM)",
+        "shell_thickness_calculated": {"value": "~25", "unit": "nm", "note": "Calculated based on PS core size (332nm) and final particle size (377nm SEM)"},
+        "ceria_shell_proportion_tga": {"value": "47.86", "unit": "wt%"},
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)"]
+      },
+      "cmp_performance": {
+        "substrate": "Soda lime glass",
+        "polishing_time": {"value": "1.5", "unit": "min"},
+        "material_removal_rate": {"value": "439.77", "unit": "nm/min", "error": "17.79"},
+        "surface_roughness_ra": {"value": "0.43", "unit": "nm", "measurement_method_used": "AFM"},
+        "surface_roughness_rv": {"value": "1.95", "unit": "nm", "measurement_method_used": "AFM"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "N", "alternative_value": "1.81", "alternative_unit": "psi"},
+        "equipment_model": "Poli-400 (GnP Technology)",
+        "pad_composition": "Porous polyurethane (Alpha-600, Suzhou TROJAN)",
+        "head_rotating_speed": {"value": "100", "unit": "rpm"},
+        "pad_rotating_speed": {"value": "150", "unit": "rpm", "note": "Same direction as head"},
+        "slurry_flow_rate": {"value": "31", "unit": "ml/min"}
+      }
+    },
+    {
+      "sample_id": "PS@CeO2:La",
+      "experiment_context": "Lanthanum-doped core-shell Polystyrene@Ceria abrasive synthesized via a two-step method.",
+      "precursor_chemical": [
+        {"name": "Styrene (St)", "role": "PS core monomer"},
+        {"name": "Methyl acrylic acid (AA)", "role": "PS core monomer"},
+        {"name": "Potassium persulfate (KPS)", "role": "PS core initiator"},
+        {"name": "Ce(NO₃)₃·6H₂O", "role": "CeO2 shell precursor"},
+        {"name": "La(NO₃)₃·6H₂O", "role": "Dopant precursor"}
+      ],
+      "precursor_concentration": [
+        {"chemical": "Ce(NO₃)₃·6H₂O", "value": "0.019", "unit": "mol·L⁻¹"},
+        {"chemical": "La(NO₃)₃·6H₂O", "value": "0.88", "unit": "mmol·L⁻¹"}
+      ],
+      "precipitant_type": "Hexamethylenetetramine (HMT)",
+      "precipitant_concentration": {"value": "25", "unit": "mmol·L⁻¹"},
+      "molar_ratio_precursor_precipitant": "approx. 1:1.26 ((Ce+La):HMT, calculated from concentrations and volumes)",
+      "doping_concentration_nominal": {"element": "La", "value": "4.4", "unit": "%"},
+      "doping_concentration_measured_icp": {"element": "La", "value": "4.41", "unit": "%"},
+      "reaction_temperature": {"value": "80", "unit": "°C"},
+      "reaction_time": {"value": "2", "unit": "h"},
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": "Stirring mentioned",
+        "environmental_conditions": "PS core synthesis under Nitrogen; Shell precipitation under ambient conditions implied, drying in Air."
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Centrifugation and washing with ethanol"},
+        "drying": {"temperature": {"value": "80", "unit": "°C"}, "duration": {"value": "2", "unit": "h"}, "atmosphere": "Air"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "1", "unit": "wt%"},
+        "additives": [
+          {"name": "NaOH", "type": "pH adjuster", "concentration": {"value": "0.1", "unit": "M", "note": "Used to adjust pH"}}
+        ],
+        "target_final_slurry_ph": "7",
+        "solvent": {"name": "Deionized water"}
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "386", "unit": "nm", "measurement_method_used": "DLS (Dynamic Light Scattering)"},
+        "particle_size_sem": {"value": "381", "unit": "nm", "measurement_method_used": "SEM Statistics"},
+        "crystallite_size": {"value": "8.2", "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)"},
+        "crystallinity_phase_composition": {"value": "Fluorite CeO₂", "unit": "", "measurement_method_used": "XRD"},
+        "lattice_parameter": {"value": "5.4448", "unit": "Å", "measurement_method_used": "XRD"},
+        "raman_peaks": [{"value": "456.656", "unit": "cm⁻¹", "assignment": "F₂g mode"}],
+        "surface_ce3_percent_xps": {"value": "28.14", "unit": "%"},
+         "oxygen_species_percent_xps": {
+            "O_lattice (Oa)": null,
+            "O_vacancy_related (Op)": {"value": "18.2", "unit": "%"},
+            "O_absorbed (Ov)": null
+         },
+        "particle_morphology": "Core-shell nanospheres with rough surface composed of small nanocrystals (SEM/TEM), homogeneous La distribution (EDS)",
+        "shell_thickness_calculated": {"value": "~25-30", "unit": "nm", "note": "Calculated based on PS core size (332nm) and final particle size (381nm SEM / 386nm DLS)"},
+        "ceria_shell_proportion_tga": {"value": "46.18", "unit": "wt%"},
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)"]
+      },
+      "cmp_performance": {
+        "substrate": "Soda lime glass",
+        "polishing_time": {"value": "1.5", "unit": "min"},
+        "material_removal_rate": {"value": "480.22", "unit": "nm/min", "error": "15.04"},
+        "surface_roughness_ra": {"value": "0.32", "unit": "nm", "measurement_method_used": "AFM"},
+        "surface_roughness_rv": {"value": "0.79", "unit": "nm", "measurement_method_used": "AFM"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "N", "alternative_value": "1.81", "alternative_unit": "psi"},
+        "equipment_model": "Poli-400 (GnP Technology)",
+        "pad_composition": "Porous polyurethane (Alpha-600, Suzhou TROJAN)",
+        "head_rotating_speed": {"value": "100", "unit": "rpm"},
+        "pad_rotating_speed": {"value": "150", "unit": "rpm", "note": "Same direction as head"},
+        "slurry_flow_rate": {"value": "31", "unit": "ml/min"}
+      }
+    },
+    {
+      "sample_id": "PS@CeO2:Yb",
+      "experiment_context": "Ytterbium-doped core-shell Polystyrene@Ceria abrasive synthesized via a two-step method.",
+      "precursor_chemical": [
+        {"name": "Styrene (St)", "role": "PS core monomer"},
+        {"name": "Methyl acrylic acid (AA)", "role": "PS core monomer"},
+        {"name": "Potassium persulfate (KPS)", "role": "PS core initiator"},
+        {"name": "Ce(NO₃)₃·6H₂O", "role": "CeO2 shell precursor"},
+        {"name": "Yb(NO₃)₃·5H₂O", "role": "Dopant precursor"}
+      ],
+      "precursor_concentration": [
+        {"chemical": "Ce(NO₃)₃·6H₂O", "value": "0.019", "unit": "mol·L⁻¹"},
+        {"chemical": "Yb(NO₃)₃·5H₂O", "value": "0.88", "unit": "mmol·L⁻¹"}
+      ],
+      "precipitant_type": "Hexamethylenetetramine (HMT)",
+      "precipitant_concentration": {"value": "25", "unit": "mmol·L⁻¹"},
+      "molar_ratio_precursor_precipitant": "approx. 1:1.26 ((Ce+Yb):HMT, calculated from concentrations and volumes)",
+      "doping_concentration_nominal": {"element": "Yb", "value": "4.4", "unit": "%"},
+      "doping_concentration_measured_icp": {"element": "Yb", "value": "4.43", "unit": "%"},
+      "reaction_temperature": {"value": "80", "unit": "°C"},
+      "reaction_time": {"value": "2", "unit": "h"},
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": "Stirring mentioned",
+        "environmental_conditions": "PS core synthesis under Nitrogen; Shell precipitation under ambient conditions implied, drying in Air."
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Centrifugation and washing with ethanol"},
+        "drying": {"temperature": {"value": "80", "unit": "°C"}, "duration": {"value": "2", "unit": "h"}, "atmosphere": "Air"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "1", "unit": "wt%"},
+        "additives": [
+          {"name": "NaOH", "type": "pH adjuster", "concentration": {"value": "0.1", "unit": "M", "note": "Used to adjust pH"}}
+        ],
+        "target_final_slurry_ph": "7",
+        "solvent": {"name": "Deionized water"}
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "396", "unit": "nm", "measurement_method_used": "DLS (Dynamic Light Scattering)"},
+        "particle_size_sem": {"value": "392", "unit": "nm", "measurement_method_used": "SEM Statistics"},
+        "crystallite_size": {"value": "6.7", "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)"},
+        "crystallinity_phase_composition": {"value": "Fluorite CeO₂", "unit": "", "measurement_method_used": "XRD"},
+        "lattice_parameter": {"value": "5.4106", "unit": "Å", "measurement_method_used": "XRD"},
+        "raman_peaks": [{"value": "460.636", "unit": "cm⁻¹", "assignment": "F₂g mode"}],
+        "surface_ce3_percent_xps": {"value": "15.42", "unit": "%"},
+         "oxygen_species_percent_xps": {
+            "O_lattice (Oa)": null,
+            "O_vacancy_related (Op)": {"value": "16.59", "unit": "%"},
+            "O_absorbed (Ov)": null
+         },
+        "particle_morphology": "Core-shell nanospheres with rough surface composed of small nanocrystals (SEM/TEM), homogeneous Yb distribution (EDS)",
+        "shell_thickness_calculated": {"value": "~30", "unit": "nm", "note": "Calculated based on PS core size (332nm) and final particle size (392nm SEM / 396nm DLS)"},
+        "ceria_shell_proportion_tga": {"value": "46.42", "unit": "wt%"},
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)"]
+      },
+      "cmp_performance": {
+        "substrate": "Soda lime glass",
+        "polishing_time": {"value": "1.5", "unit": "min"},
+        "material_removal_rate": {"value": "429.60", "unit": "nm/min", "error": "17.88"},
+        "surface_roughness_ra": {"value": "0.40", "unit": "nm", "measurement_method_used": "AFM"},
+        "surface_roughness_rv": {"value": "1.57", "unit": "nm", "measurement_method_used": "AFM"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "N", "alternative_value": "1.81", "alternative_unit": "psi"},
+        "equipment_model": "Poli-400 (GnP Technology)",
+        "pad_composition": "Porous polyurethane (Alpha-600, Suzhou TROJAN)",
+        "head_rotating_speed": {"value": "100", "unit": "rpm"},
+        "pad_rotating_speed": {"value": "150", "unit": "rpm", "note": "Same direction as head"},
+        "slurry_flow_rate": {"value": "31", "unit": "ml/min"}
+      }
+    }
+  ],
+   "instrumentation": [
+    {"instrument": "SEM", "model": "Hitachi S-4800"},
+    {"instrument": "DLS", "model": "Zetasizer Nano-ZS (Malvern)"},
+    {"instrument": "TEM/HRTEM/EDS", "model": "JEOL JEMS-F200"},
+    {"instrument": "XRD", "model": "RIGAKU D/MAX 2550/PC"},
+    {"instrument": "Raman Spectrometer", "model": "HORIBA Labram HR Evolution"},
+    {"instrument": "ICP-OES", "model": "Agilent 7800"},
+    {"instrument": "XPS", "model": "Kratos AXIS SUPRA"},
+    {"instrument": "TGA/DTA", "model": "TA DSCQ1000"},
+    {"instrument": "AFM", "model": "Bruker Dimension ICON"},
+    {"instrument": "Balance", "model": "METTLER TOLEDO XS105"},
+    {"instrument": "Glass Density Meter", "model": "MD-100 (Beijing XuHui Xinrui Technology Co., Ltd.)"},
+    {"instrument": "CMP Machine", "model": "Poli-400 (GnP Technology)"}
+  ]
+}

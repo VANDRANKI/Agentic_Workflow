@@ -1,0 +1,446 @@
+{
+  "doi": null,
+  "title": "Improvement of oxide chemical mechanical polishing performance by increasing Ce3+ / Ce4+ ratio in ceria slurry via hydrogen reduction",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Original",
+      "experiment_context": "Original calcined ceria nanoparticles used as baseline.",
+      "starting_material": {
+        "description": "Calcined ceria nanoparticles",
+        "supplier": "US Research Nanoparticles Inc., USA",
+        "mean_size_as_received": {
+          "value": 100,
+          "unit": "nm"
+        }
+      },
+      "reduction_treatment": {
+        "applied": false
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "Deionized water (DIW)"
+        },
+        "dispersion_method": "Ultrasonic equipment (Ultrasonic Processor; Sonictopia; Korea)",
+        "final_ph": {
+          "value": 3.5,
+          "unit": null
+        },
+        "mean_particle_size_in_slurry": {
+          "value": "~90",
+          "unit": "nm",
+          "method": "DLS"
+        },
+        "zeta_potential": {
+          "value": 47,
+          "unit": "mV"
+        }
+      },
+      "characterization": {
+        "color": "Pale yellow",
+        "crystallinity_phase_composition": [
+          "Fluorite CeO2"
+        ],
+        "xrd_analysis": {
+          "lattice_parameter_111": {
+            "value": 5.4035,
+            "unit": "Å"
+          },
+          "diffraction_patterns_figure": "Fig. 3(b)"
+        },
+        "tem_analysis": {
+          "lattice_parameter_111": {
+            "value": 0.31,
+            "unit": "nm"
+          },
+          "lattice_parameter_200": {
+            "value": 0.27,
+            "unit": "nm"
+          },
+          "fft_pattern_notes": "Standard CeO2 pattern, no extra diffraction points observed.",
+          "image_figure": "Fig. 4(a)",
+          "fft_figure": "Fig. 4(b)"
+        },
+        "xps_analysis": {
+          "ce3_plus_concentration": {
+            "value": 20.8,
+            "unit": "%"
+          },
+          "spectrum_figure": "Fig. 5(a)"
+        },
+        "sem_analysis": {
+            "morphology": "Nanoparticles",
+            "image_figure": "Fig. 6(a)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Silicon dioxide wafers (4 cm x 4 cm)",
+        "polishing_time": {
+          "value": 60,
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": 2394.2,
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "RPM"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "RPM"
+        },
+        "slurry_flow_rate": {
+          "value": 120,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli400 (GnP Technology, Korea) polisher",
+        "pad_composition": "Polyurethane (KONIPAD, KPX Chemical, Korea)",
+        "pad_conditioning": "15 min with DI water before each run",
+        "post_cmp_surface_roughness_notes": "Measured via AFM, similar to other samples.",
+        "afm_image_figure": "Fig. 8(b)"
+      }
+    },
+    {
+      "sample_id": "Reduced_400C",
+      "experiment_context": "Ceria nanoparticles reduced by hydrogen gas at 400°C.",
+      "starting_material": {
+        "description": "Calcined ceria nanoparticles",
+        "supplier": "US Research Nanoparticles Inc., USA",
+        "mean_size_as_received": {
+          "value": 100,
+          "unit": "nm"
+        }
+      },
+      "reduction_treatment": {
+        "applied": true,
+        "method": "Thermal CVD system (Scientific Engineering, Korea)",
+        "temperature": {
+          "value": 400,
+          "unit": "°C"
+        },
+        "time": {
+          "value": 30,
+          "unit": "min"
+        },
+        "atmosphere": "40% H₂ in Ar",
+        "gas_flow_rate": {
+          "value": 50,
+          "unit": "cm³/min"
+        },
+        "heating_rate": {
+          "value": 16.3,
+          "unit": "°C/min"
+        },
+        "cooling": "Natural cooling for 90 min in Ar"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "Deionized water (DIW)"
+        },
+        "dispersion_method": "Ultrasonic equipment (Ultrasonic Processor; Sonictopia; Korea)",
+        "final_ph": {
+          "value": 3.5,
+          "unit": null
+        },
+        "mean_particle_size_in_slurry": {
+          "value": "~90",
+          "unit": "nm",
+          "method": "DLS"
+        },
+        "zeta_potential": {
+          "value": 47,
+          "unit": "mV"
+        }
+      },
+      "characterization": {
+        "color": "Pale yellow (no change observed)",
+        "crystallinity_phase_composition": [
+          "Fluorite CeO2"
+        ],
+        "xps_analysis": {
+          "ce3_plus_concentration": {
+            "value": 21.4,
+            "unit": "%"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Silicon dioxide wafers (4 cm x 4 cm)",
+        "polishing_time": {
+          "value": 60,
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": 2524.2,
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "RPM"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "RPM"
+        },
+        "slurry_flow_rate": {
+          "value": 120,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli400 (GnP Technology, Korea) polisher",
+        "pad_composition": "Polyurethane (KONIPAD, KPX Chemical, Korea)",
+        "pad_conditioning": "15 min with DI water before each run",
+        "post_cmp_surface_roughness_notes": "Measured via AFM, similar to other samples.",
+        "afm_image_figure": "Fig. 8(c)"
+      }
+    },
+    {
+      "sample_id": "Reduced_700C",
+      "experiment_context": "Ceria nanoparticles reduced by hydrogen gas at 700°C.",
+      "starting_material": {
+        "description": "Calcined ceria nanoparticles",
+        "supplier": "US Research Nanoparticles Inc., USA",
+        "mean_size_as_received": {
+          "value": 100,
+          "unit": "nm"
+        }
+      },
+      "reduction_treatment": {
+        "applied": true,
+        "method": "Thermal CVD system (Scientific Engineering, Korea)",
+        "temperature": {
+          "value": 700,
+          "unit": "°C"
+        },
+        "time": {
+          "value": 30,
+          "unit": "min"
+        },
+        "atmosphere": "40% H₂ in Ar",
+        "gas_flow_rate": {
+          "value": 50,
+          "unit": "cm³/min"
+        },
+        "heating_rate": {
+          "value": 16.3,
+          "unit": "°C/min"
+        },
+        "cooling": "Natural cooling for 90 min in Ar"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "Deionized water (DIW)"
+        },
+        "dispersion_method": "Ultrasonic equipment (Ultrasonic Processor; Sonictopia; Korea)",
+        "final_ph": {
+          "value": 3.5,
+          "unit": null
+        },
+        "mean_particle_size_in_slurry": {
+          "value": "~90",
+          "unit": "nm",
+          "method": "DLS"
+        },
+        "zeta_potential": {
+          "value": 47,
+          "unit": "mV"
+        }
+      },
+      "characterization": {
+        "color": "Blue",
+        "crystallinity_phase_composition": [
+          "Fluorite CeO2",
+          "Ce(OH)3 phase"
+        ],
+        "xps_analysis": {
+          "ce3_plus_concentration": {
+            "value": 29.1,
+            "unit": "%"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Silicon dioxide wafers (4 cm x 4 cm)",
+        "polishing_time": {
+          "value": 60,
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": 2707.5,
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "RPM"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "RPM"
+        },
+        "slurry_flow_rate": {
+          "value": 120,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli400 (GnP Technology, Korea) polisher",
+        "pad_composition": "Polyurethane (KONIPAD, KPX Chemical, Korea)",
+        "pad_conditioning": "15 min with DI water before each run",
+        "post_cmp_surface_roughness_notes": "Measured via AFM, similar to other samples.",
+        "afm_image_figure": "Fig. 8(d)"
+      }
+    },
+    {
+      "sample_id": "Reduced_1000C",
+      "experiment_context": "Ceria nanoparticles reduced by hydrogen gas at 1000°C.",
+      "starting_material": {
+        "description": "Calcined ceria nanoparticles",
+        "supplier": "US Research Nanoparticles Inc., USA",
+        "mean_size_as_received": {
+          "value": 100,
+          "unit": "nm"
+        }
+      },
+      "reduction_treatment": {
+        "applied": true,
+        "method": "Thermal CVD system (Scientific Engineering, Korea)",
+        "temperature": {
+          "value": 1000,
+          "unit": "°C"
+        },
+        "time": {
+          "value": 30,
+          "unit": "min"
+        },
+        "atmosphere": "40% H₂ in Ar",
+        "gas_flow_rate": {
+          "value": 50,
+          "unit": "cm³/min"
+        },
+        "heating_rate": {
+          "value": 16.3,
+          "unit": "°C/min"
+        },
+        "cooling": "Natural cooling for 90 min in Ar"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "Deionized water (DIW)"
+        },
+        "dispersion_method": "Ultrasonic equipment (Ultrasonic Processor; Sonictopia; Korea)",
+        "final_ph": {
+          "value": 3.5,
+          "unit": null
+        },
+        "mean_particle_size_in_slurry": {
+          "value": "~90",
+          "unit": "nm",
+          "method": "DLS",
+          "distribution_figure": "Fig. 6(c)"
+        },
+        "zeta_potential": {
+          "value": 47,
+          "unit": "mV"
+        }
+      },
+      "characterization": {
+        "color": "Blue",
+        "crystallinity_phase_composition": [
+          "Fluorite CeO2",
+          "Ce(OH)3 phase"
+        ],
+        "xrd_analysis": {
+          "lattice_parameter_111": {
+            "value": 5.4071,
+            "unit": "Å"
+          },
+          "diffraction_patterns_figure": "Fig. 3(b)"
+        },
+        "tem_analysis": {
+          "lattice_parameter_111": {
+            "value": 0.32,
+            "unit": "nm"
+          },
+          "lattice_parameter_200": {
+            "value": 0.28,
+            "unit": "nm"
+          },
+          "fft_pattern_notes": "New diffraction points observed, indicating oxygen vacancies.",
+          "image_figure": "Fig. 4(c)",
+          "fft_figure": "Fig. 4(d)"
+        },
+        "xps_analysis": {
+          "ce3_plus_concentration": {
+            "value": 33.5,
+            "unit": "%"
+          },
+          "spectrum_figure": "Fig. 5(a)"
+        },
+         "sem_analysis": {
+            "morphology": "Nanoparticles (morphology unchanged by reduction)",
+            "image_figure": "Fig. 6(b)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Silicon dioxide wafers (4 cm x 4 cm)",
+        "polishing_time": {
+          "value": 60,
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": 3296.6,
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "RPM"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "RPM"
+        },
+        "slurry_flow_rate": {
+          "value": 120,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli400 (GnP Technology, Korea) polisher",
+        "pad_composition": "Polyurethane (KONIPAD, KPX Chemical, Korea)",
+        "pad_conditioning": "15 min with DI water before each run",
+        "post_cmp_surface_roughness_notes": "Measured via AFM, similar to other samples.",
+        "afm_image_figure": "Fig. 8(e)"
+      }
+    }
+  ]
+}

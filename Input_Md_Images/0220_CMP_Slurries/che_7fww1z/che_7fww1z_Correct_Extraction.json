@@ -1,0 +1,475 @@
+{
+  "doi": "10.1116/1.4792373",
+  "title": "Preparation of porous alumina/ceria composite abrasive and its chemical mechanical polishing behavior",
+  "year_published": "2013",
+  "journal": "Journal of Vacuum Science & Technology B",
+  "samples": [
+    {
+      "sample_id": "Porous_Alumina_Ceria_Composite",
+      "experiment_context": "Porous alumina/ceria composite abrasive synthesized via hydrothermal method using SDS template, compared in CMP tests on hard disk substrates.",
+      "synthesis_details": {
+        "method": "Hydrothermal synthesis",
+        "precursors": [
+          {
+            "chemical": "Al(NO₃)₃·9H₂O",
+            "concentration": {
+              "value": "150",
+              "unit": "g",
+              "solvent_volume": {
+                "value": "200",
+                "unit": "ml"
+              },
+              "solvent_name": "deionized water"
+            }
+          },
+          {
+            "chemical": "Ce(NO₃)₃·6H₂O",
+            "concentration": {
+              "value": "17.2",
+              "unit": "g",
+              "solvent_volume": {
+                "value": "200",
+                "unit": "ml"
+              },
+              "solvent_name": "deionized water"
+            }
+          }
+        ],
+        "precipitant": {
+          "type": "Ammonia solution",
+          "chemical_formula": "NH₃",
+          "concentration": {
+            "value": "2",
+            "unit": "mol/l"
+          },
+          "volume": {
+            "value": "200",
+            "unit": "ml"
+          }
+        },
+        "template_agent": {
+          "name": "Sodium dodecyl sulphate (SDS)",
+          "quantity": {
+            "value": "28.8",
+            "unit": "g"
+          }
+        },
+        "other_reagents": [
+          {
+            "name": "Urea",
+            "quantity": {
+              "value": "72",
+              "unit": "g"
+            }
+          }
+        ],
+        "reaction_conditions": {
+          "temperature": {
+            "value": "100",
+            "unit": "°C"
+          },
+          "time": {
+            "value": "48",
+            "unit": "h"
+          },
+          "ph_initial_mixture": {
+            "value": "2.68",
+            "unit": ""
+          },
+          "stirring": "Stirred during reagent addition",
+          "environment": "Static hydrothermal reaction in sealed Teflon-lined stainless autoclave vessel"
+        },
+        "post_treatment": {
+          "recovery": "Centrifugation",
+          "washing": {
+            "method": "Centrifuged with deionized water",
+            "times": "several times"
+          },
+          "drying": {
+            "temperature": {
+              "value": "110",
+              "unit": "°C"
+            },
+            "duration": {
+              "value": "12",
+              "unit": "h"
+            }
+          },
+          "calcination": {
+            "temperature": {
+              "value": "800",
+              "unit": "°C"
+            },
+            "duration": {
+              "value": "4",
+              "unit": "h"
+            },
+            "atmosphere": "Air",
+            "ramping_rate": {
+              "value": "1",
+              "unit": "°C/min"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "3.64",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "type": "Functional additives",
+            "concentration": {
+              "value": "5.45",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "7.28",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "milling": {
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          },
+          "equipment": "Vibrator",
+          "media": "ZrO₂ milling balls"
+        },
+        "filtration": {
+          "pore_size": {
+            "value": "10",
+            "unit": "µm"
+          }
+        },
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "average_diameter_after_milling": {
+            "value": "327",
+            "unit": "nm"
+          },
+          "measurement_method_used": "Malvern Zetasizer 3000HS"
+        },
+        "particle_morphology": "Wormhole-like pores (from TEM Fig. 2a)",
+        "elemental_composition_eds": {
+          "O": {
+            "atom_ratio": { "value": "58.97", "unit": "%" },
+            "weight_ratio": { "value": "37.7", "unit": "%" }
+          },
+          "Al": {
+            "atom_ratio": { "value": "35.60", "unit": "%" },
+            "weight_ratio": { "value": "38.38", "unit": "%" }
+          },
+          "S": {
+            "atom_ratio": { "value": "1.50", "unit": "%" },
+            "weight_ratio": { "value": "1.93", "unit": "%" }
+          },
+          "Ce": {
+            "atom_ratio": { "value": "3.93", "unit": "%" },
+            "weight_ratio": { "value": "21.99", "unit": "%" }
+          },
+          "atom_ratio_al_ce": "9:1"
+        },
+        "epr_analysis": {
+          "context": "Effect on free radical concentration in H₂O₂",
+          "trapping_agent": "Dimethyl pyridine N-oxide (DMPO)",
+          "free_radicals_detected": [
+            "DMPO-O₂⁻",
+            "DMPO-OH⁻"
+          ],
+          "comparison_to_h2o2_only": "Higher intensity of DMPO-OH⁻ observed with abrasive present."
+        }
+      },
+      "cmp_performance": {
+        "substrate": {
+          "material": "NiP plated Aluminum Alloy",
+          "composition": "approx. 85 wt.% Ni, 15 wt.% P",
+          "dimensions": "Φ95mm x 1.25mm (center hole Φ=25mm)",
+          "supplier": "Shenzhen Kaifa Magnetic Recording Company, China",
+          "initial_roughness_ra": {
+            "value": "40",
+            "unit": "nm"
+          }
+        },
+        "equipment": {
+          "model": "UNIPOL-1502 polishing equipment",
+          "manufacturer": "Shenyang Kejing Instrument, Co. Ltd, China"
+        },
+        "pad": {
+          "model": "DPC5150 Rodel",
+          "composition": "Porous polyurethane"
+        },
+        "conditions": {
+          "polishing_time": {
+            "value": "30",
+            "unit": "min"
+          },
+          "slurry_flow_rate": {
+            "value": "167",
+            "unit": "ml/min"
+          },
+          "process_temperature": {
+            "value": "RT",
+            "unit": ""
+          },
+          "down_force_range": {
+            "min": "1",
+            "max": "5",
+            "unit": "kg"
+          },
+          "rotation_speed_range": {
+            "min": "20",
+            "max": "80",
+            "unit": "rpm"
+          }
+        },
+        "results": {
+          "material_removal_rate_mrr": {
+            "vs_rotation_speed": [
+              {"speed": {"value": 20, "unit": "rpm"}, "mrr": {"value": "2.5", "unit": "mg/min", "source": "Fig. 4a estimate"}},
+              {"speed": {"value": 40, "unit": "rpm"}, "mrr": {"value": "4.5", "unit": "mg/min", "source": "Fig. 4a estimate"}},
+              {"speed": {"value": 60, "unit": "rpm"}, "mrr": {"value": "6.0", "unit": "mg/min", "source": "Fig. 4a estimate"}},
+              {"speed": {"value": 80, "unit": "rpm"}, "mrr": {"value": "6.5", "unit": "mg/min", "source": "Fig. 4a estimate"}}
+            ],
+            "vs_down_force": [
+              {"force": {"value": 1, "unit": "kg"}, "mrr": {"value": "3.0", "unit": "mg/min", "source": "Fig. 4b estimate"}},
+              {"force": {"value": 2, "unit": "kg"}, "mrr": {"value": "4.5", "unit": "mg/min", "source": "Fig. 4b estimate"}},
+              {"force": {"value": 3, "unit": "kg"}, "mrr": {"value": "5.0", "unit": "mg/min", "source": "Fig. 4b estimate"}},
+              {"force": {"value": 4, "unit": "kg"}, "mrr": {"value": "6.0", "unit": "mg/min", "source": "Fig. 4b estimate"}},
+              {"force": {"value": 5, "unit": "kg"}, "mrr": {"value": "6.5", "unit": "mg/min", "source": "Fig. 4b estimate"}}
+            ],
+            "notes": "MRR increases with down force and rotation speed. MRR is much larger than porous alumina and solid alumina slurries."
+          },
+          "surface_roughness_ra": {
+            "vs_rotation_speed": [
+              {"speed": {"value": 20, "unit": "rpm"}, "ra": {"value": "16", "unit": "nm", "source": "Fig. 5a estimate"}},
+              {"speed": {"value": 40, "unit": "rpm"}, "ra": {"value": "14.5", "unit": "nm", "source": "Fig. 5a estimate"}},
+              {"speed": {"value": 60, "unit": "rpm"}, "ra": {"value": "14", "unit": "nm", "source": "Fig. 5a estimate"}},
+              {"speed": {"value": 80, "unit": "rpm"}, "ra": {"value": "15", "unit": "nm", "source": "Fig. 5a estimate"}}
+            ],
+            "vs_down_force": [
+              {"force": {"value": 1, "unit": "kg"}, "ra": {"value": "17", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 2, "unit": "kg"}, "ra": {"value": "15", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 3, "unit": "kg"}, "ra": {"value": "14.5", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 4, "unit": "kg"}, "ra": {"value": "14", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 5, "unit": "kg"}, "ra": {"value": "15", "unit": "nm", "source": "Fig. 5b estimate"}}
+            ],
+            "optimal_condition_value": {
+              "value": "14.01",
+              "unit": "nm",
+              "conditions": "Rotation speed 60 rpm, down force 4 kg, polishing time 30 min (from Fig. 6d caption)"
+            },
+            "notes": "Ra decreases initially then increases with rotation speed (>60rpm) and down force (>4kg). Lower Ra than solid alumina."
+          },
+          "surface_morphology_notes": "Smoother surface compared to solid alumina, scratches can scarcely be observed (from Fig. 6 description)."
+        },
+        "post_cmp_cleaning": {
+          "method": "Ultrasonic",
+          "solution": {
+            "composition": "0.5 wt.% surfactant (polyoxyethylene alkyl ether) in deionized water"
+          },
+          "drying": "Dried in a dry oven"
+        },
+        "surface_analysis_instrument": {
+          "model": "Ambios XI-100 surface profiler",
+          "manufacturer": "Ambios Technology Corp., USA, ZYGO",
+          "parameters": {
+            "vertical_resolution": "0.1 Å (Texture Modes)",
+            "measuring_area": "500 µm x 500 µm",
+            "depth_of_focus": "3.0 µm",
+            "working_distance": "7.4 mm",
+            "numerical_aperture": "0.30"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Porous_Alumina",
+      "experiment_context": "Porous alumina abrasive synthesized via hydrothermal method using SDS template (without Ceria), compared in CMP tests.",
+      "synthesis_details": {
+        "method": "Hydrothermal synthesis (similar method to composite, without Ce(NO₃)₃·6H₂O)",
+        "precursors": [
+          {
+            "chemical": "Al(NO₃)₃·9H₂O",
+            "concentration": { "value": "150", "unit": "g", "solvent_volume": { "value": "200", "unit": "ml" }, "solvent_name": "deionized water" }
+          }
+        ],
+        "precipitant": {
+          "type": "Ammonia solution", "chemical_formula": "NH₃", "concentration": { "value": "2", "unit": "mol/l" }, "volume": { "value": "200", "unit": "ml" }
+        },
+        "template_agent": {
+          "name": "Sodium dodecyl sulphate (SDS)", "quantity": { "value": "28.8", "unit": "g" }
+        },
+        "other_reagents": [
+          { "name": "Urea", "quantity": { "value": "72", "unit": "g" } }
+        ],
+        "reaction_conditions": {
+          "temperature": { "value": "100", "unit": "°C" }, "time": { "value": "48", "unit": "h" }, "ph_initial_mixture": { "value": "2.68", "unit": "" }, "stirring": "Stirred during reagent addition", "environment": "Static hydrothermal reaction in sealed Teflon-lined stainless autoclave vessel"
+        },
+        "post_treatment": {
+          "recovery": "Centrifugation", "washing": { "method": "Centrifuged with deionized water", "times": "several times" }, "drying": { "temperature": { "value": "110", "unit": "°C" }, "duration": { "value": "12", "unit": "h" } }, "calcination": { "temperature": { "value": "800", "unit": "°C" }, "duration": { "value": "4", "unit": "h" }, "atmosphere": "Air", "ramping_rate": { "value": "1", "unit": "°C/min" } }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": "3.64", "unit": "wt%" },
+        "additives": [ { "type": "Functional additives", "concentration": { "value": "5.45", "unit": "wt%" } }, { "name": "H₂O₂", "type": "Oxidant", "concentration": { "value": "7.28", "unit": "wt%" } } ],
+        "milling": { "duration": { "value": "4", "unit": "h" }, "equipment": "Vibrator", "media": "ZrO₂ milling balls" },
+        "filtration": { "pore_size": { "value": "10", "unit": "µm" } },
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "average_diameter_after_milling": { "value": "323", "unit": "nm" },
+          "measurement_method_used": "Malvern Zetasizer 3000HS"
+        },
+        "particle_morphology": "Wormhole-like pores (from TEM Fig. 2b)"
+      },
+      "cmp_performance": {
+        "substrate": { "material": "NiP plated Aluminum Alloy", "initial_roughness_ra": { "value": "40", "unit": "nm" } },
+        "equipment": { "model": "UNIPOL-1502 polishing equipment" },
+        "pad": { "model": "DPC5150 Rodel", "composition": "Porous polyurethane" },
+        "conditions": { "polishing_time": { "value": "30", "unit": "min" }, "slurry_flow_rate": { "value": "167", "unit": "ml/min" }, "process_temperature": { "value": "RT", "unit": "" }, "down_force_range": { "min": "1", "max": "5", "unit": "kg" }, "rotation_speed_range": { "min": "20", "max": "80", "unit": "rpm" } },
+        "results": {
+          "material_removal_rate_mrr": {
+            "vs_rotation_speed": [
+              {"speed": {"value": 20, "unit": "rpm"}, "mrr": {"value": "1.9", "unit": "mg/min", "source": "Fig. 4a / Old JSON"}},
+              {"speed": {"value": 40, "unit": "rpm"}, "mrr": {"value": "3.8", "unit": "mg/min", "source": "Fig. 4a / Old JSON"}},
+              {"speed": {"value": 60, "unit": "rpm"}, "mrr": {"value": "5.3", "unit": "mg/min", "source": "Fig. 4a / Old JSON"}},
+              {"speed": {"value": 80, "unit": "rpm"}, "mrr": {"value": "6.0", "unit": "mg/min", "source": "Fig. 4a / Old JSON"}}
+            ],
+            "vs_down_force": [
+              {"force": {"value": 1, "unit": "kg"}, "mrr": {"value": "2.4", "unit": "mg/min", "source": "Fig. 4b / Old JSON"}},
+              {"force": {"value": 2, "unit": "kg"}, "mrr": {"value": "3.7", "unit": "mg/min", "source": "Fig. 4b / Old JSON"}},
+              {"force": {"value": 3, "unit": "kg"}, "mrr": {"value": "4.1", "unit": "mg/min", "source": "Fig. 4b / Old JSON"}},
+              {"force": {"value": 4, "unit": "kg"}, "mrr": {"value": "5.3", "unit": "mg/min", "source": "Fig. 4b / Old JSON"}},
+              {"force": {"value": 5, "unit": "kg"}, "mrr": {"value": "5.3", "unit": "mg/min", "source": "Fig. 4b / Old JSON"}}
+            ],
+            "notes": "MRR increases with down force and rotation speed."
+          },
+          "surface_roughness_ra": {
+            "vs_rotation_speed": [
+              {"speed": {"value": 20, "unit": "rpm"}, "ra": {"value": "16.5", "unit": "nm", "source": "Fig. 5a estimate"}},
+              {"speed": {"value": 40, "unit": "rpm"}, "ra": {"value": "15", "unit": "nm", "source": "Fig. 5a estimate"}},
+              {"speed": {"value": 60, "unit": "rpm"}, "ra": {"value": "14.3", "unit": "nm", "source": "Fig. 5a estimate"}},
+              {"speed": {"value": 80, "unit": "rpm"}, "ra": {"value": "15.5", "unit": "nm", "source": "Fig. 5a estimate"}}
+            ],
+            "vs_down_force": [
+              {"force": {"value": 1, "unit": "kg"}, "ra": {"value": "17.5", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 2, "unit": "kg"}, "ra": {"value": "15.5", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 3, "unit": "kg"}, "ra": {"value": "15", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 4, "unit": "kg"}, "ra": {"value": "14.3", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 5, "unit": "kg"}, "ra": {"value": "15.5", "unit": "nm", "source": "Fig. 5b estimate"}}
+            ],
+            "optimal_condition_value": {
+              "value": "14.30",
+              "unit": "nm",
+              "conditions": "Rotation speed 60 rpm, down force 4 kg, polishing time 30 min (from Fig. 6c caption)"
+            },
+            "notes": "Ra decreases initially then increases with rotation speed (>60rpm) and down force (>4kg). Lower Ra than solid alumina."
+          },
+          "surface_morphology_notes": "Smoother surface compared to solid alumina, scratches can scarcely be observed (from Fig. 6 description)."
+        },
+        "post_cmp_cleaning": { "method": "Ultrasonic", "solution": { "composition": "0.5 wt.% surfactant (polyoxyethylene alkyl ether) in deionized water" }, "drying": "Dried in a dry oven" },
+        "surface_analysis_instrument": { "model": "Ambios XI-100 surface profiler" }
+      }
+    },
+    {
+      "sample_id": "Solid_Alumina",
+      "experiment_context": "Solid alumina abrasive synthesized via hydrothermal method (without Ceria and without SDS template), compared in CMP tests.",
+      "synthesis_details": {
+        "method": "Hydrothermal synthesis (similar method to composite, without Ce(NO₃)₃·6H₂O and SDS)",
+        "precursors": [
+          {
+            "chemical": "Al(NO₃)₃·9H₂O",
+            "concentration": { "value": "150", "unit": "g", "solvent_volume": { "value": "200", "unit": "ml" }, "solvent_name": "deionized water" }
+          }
+        ],
+        "precipitant": {
+          "type": "Ammonia solution", "chemical_formula": "NH₃", "concentration": { "value": "2", "unit": "mol/l" }, "volume": { "value": "200", "unit": "ml" }
+        },
+        "template_agent": null,
+        "other_reagents": [
+          { "name": "Urea", "quantity": { "value": "72", "unit": "g" } }
+        ],
+        "reaction_conditions": {
+          "temperature": { "value": "100", "unit": "°C" }, "time": { "value": "48", "unit": "h" }, "ph_initial_mixture": { "value": "2.68", "unit": "" }, "stirring": "Stirred during reagent addition", "environment": "Static hydrothermal reaction in sealed Teflon-lined stainless autoclave vessel"
+        },
+        "post_treatment": {
+          "recovery": "Centrifugation", "washing": { "method": "Centrifuged with deionized water", "times": "several times" }, "drying": { "temperature": { "value": "110", "unit": "°C" }, "duration": { "value": "12", "unit": "h" } }, "calcination": { "temperature": { "value": "800", "unit": "°C" }, "duration": { "value": "4", "unit": "h" }, "atmosphere": "Air", "ramping_rate": { "value": "1", "unit": "°C/min" } }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": "3.64", "unit": "wt%" },
+        "additives": [ { "type": "Functional additives", "concentration": { "value": "5.45", "unit": "wt%" } }, { "name": "H₂O₂", "type": "Oxidant", "concentration": { "value": "7.28", "unit": "wt%" } } ],
+        "milling": { "duration": { "value": "4", "unit": "h" }, "equipment": "Vibrator", "media": "ZrO₂ milling balls" },
+        "filtration": { "pore_size": { "value": "10", "unit": "µm" } },
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "average_diameter_after_milling": { "value": "300", "unit": "nm" },
+          "measurement_method_used": "Malvern Zetasizer 3000HS"
+        },
+        "particle_morphology": "No porous structure (from TEM Fig. 2c)"
+      },
+      "cmp_performance": {
+        "substrate": { "material": "NiP plated Aluminum Alloy", "initial_roughness_ra": { "value": "40", "unit": "nm" } },
+        "equipment": { "model": "UNIPOL-1502 polishing equipment" },
+        "pad": { "model": "DPC5150 Rodel", "composition": "Porous polyurethane" },
+        "conditions": { "polishing_time": { "value": "30", "unit": "min" }, "slurry_flow_rate": { "value": "167", "unit": "ml/min" }, "process_temperature": { "value": "RT", "unit": "" }, "down_force_range": { "min": "1", "max": "5", "unit": "kg" }, "rotation_speed_range": { "min": "20", "max": "80", "unit": "rpm" } },
+        "results": {
+          "material_removal_rate_mrr": {
+            "vs_rotation_speed": [
+              {"speed": {"value": 20, "unit": "rpm"}, "mrr": {"value": "1.5", "unit": "mg/min", "source": "Fig. 4a estimate"}},
+              {"speed": {"value": 40, "unit": "rpm"}, "mrr": {"value": "3.0", "unit": "mg/min", "source": "Fig. 4a estimate"}},
+              {"speed": {"value": 60, "unit": "rpm"}, "mrr": {"value": "4.0", "unit": "mg/min", "source": "Fig. 4a estimate"}},
+              {"speed": {"value": 80, "unit": "rpm"}, "mrr": {"value": "4.5", "unit": "mg/min", "source": "Fig. 4a estimate"}}
+            ],
+            "vs_down_force": [
+              {"force": {"value": 1, "unit": "kg"}, "mrr": {"value": "1.8", "unit": "mg/min", "source": "Fig. 4b estimate"}},
+              {"force": {"value": 2, "unit": "kg"}, "mrr": {"value": "2.8", "unit": "mg/min", "source": "Fig. 4b estimate"}},
+              {"force": {"value": 3, "unit": "kg"}, "mrr": {"value": "3.2", "unit": "mg/min", "source": "Fig. 4b estimate"}},
+              {"force": {"value": 4, "unit": "kg"}, "mrr": {"value": "4.0", "unit": "mg/min", "source": "Fig. 4b estimate"}},
+              {"force": {"value": 5, "unit": "kg"}, "mrr": {"value": "4.5", "unit": "mg/min", "source": "Fig. 4b estimate"}}
+            ],
+            "notes": "MRR increases with down force and rotation speed."
+          },
+          "surface_roughness_ra": {
+            "vs_rotation_speed": [
+              {"speed": {"value": 20, "unit": "rpm"}, "ra": {"value": "20", "unit": "nm", "source": "Fig. 5a estimate"}},
+              {"speed": {"value": 40, "unit": "rpm"}, "ra": {"value": "18.5", "unit": "nm", "source": "Fig. 5a estimate"}},
+              {"speed": {"value": 60, "unit": "rpm"}, "ra": {"value": "18", "unit": "nm", "source": "Fig. 5a estimate"}},
+              {"speed": {"value": 80, "unit": "rpm"}, "ra": {"value": "19", "unit": "nm", "source": "Fig. 5a estimate"}}
+            ],
+            "vs_down_force": [
+              {"force": {"value": 1, "unit": "kg"}, "ra": {"value": "21", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 2, "unit": "kg"}, "ra": {"value": "19", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 3, "unit": "kg"}, "ra": {"value": "18.5", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 4, "unit": "kg"}, "ra": {"value": "18", "unit": "nm", "source": "Fig. 5b estimate"}},
+              {"force": {"value": 5, "unit": "kg"}, "ra": {"value": "19", "unit": "nm", "source": "Fig. 5b estimate"}}
+            ],
+            "optimal_condition_value": {
+              "value": "18.08",
+              "unit": "nm",
+              "conditions": "Rotation speed 60 rpm, down force 4 kg, polishing time 30 min (from Fig. 6b caption)"
+            },
+            "notes": "Ra decreases initially then increases with rotation speed (>60rpm) and down force (>4kg). Higher Ra compared to porous abrasives."
+          },
+          "surface_morphology_notes": "Surface became smooth, but some small scratches still exist (from Fig. 6 description)."
+        },
+        "post_cmp_cleaning": { "method": "Ultrasonic", "solution": { "composition": "0.5 wt.% surfactant (polyoxyethylene alkyl ether) in deionized water" }, "drying": "Dried in a dry oven" },
+        "surface_analysis_instrument": { "model": "Ambios XI-100 surface profiler" }
+      }
+    }
+  ]
+}

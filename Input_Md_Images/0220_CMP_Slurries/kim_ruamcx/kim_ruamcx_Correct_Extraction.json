@@ -1,0 +1,184 @@
+{
+  "doi": "10.1149/2.0371709jos",
+  "title": "Increase in Ce³⁺ Concentration of Ceria Nanoparticles for High Removal Rate of SiO₂ in Chemical Mechanical Planarization",
+  "year_published": "2017",
+  "journal": "ECS J. Solid State Sci. Technol.",
+  "samples": [
+    {
+      "sample_id": "S-ceria",
+      "experiment_context": "Ceria nanoparticles synthesized using 0.6 g Ce(NO₃)₃·6H₂O precursor, resulting in aggregates (~60-80 nm TEM, ~170 nm DLS) composed of small primary nanoparticles (~5 nm TEM). Aimed to achieve high Ce³⁺ concentration.",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "precursor_concentration_details": "0.6 g in 114 g DI water",
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "synthesis_conditions": {
+        "additives": [
+           {"name": "PVP", "type": "Support for synthesis/aggregation control", "concentration_details": "1.08 g"},
+           {"name": "Urea", "type": "Support for synthesis", "concentration_details": "0.24 g"}
+        ],
+        "reaction_temperature": {"value": "180", "unit": "°C"},
+        "reaction_time": {"value": "10", "unit": "h"},
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Hydrothermal synthesis in Teflon bottle inside stainless steel autoclave"
+      },
+      "post_synthesis_treatment": {
+         "washing": {"method": "Centrifugally washed with water", "times": 3},
+         "drying": {"temperature": {"value": 80, "unit": "°C"}, "time": {"value": 24, "unit": "h"}},
+         "calcination": {"temperature": {"value": 500, "unit": "°C"}, "time": {"value": 2, "unit": "h"}, "purpose": "Remove remaining PVP and urea"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [],
+        "target_final_slurry_ph": "7",
+        "solvent": {"name": "DI water"}
+      },
+      "characterization": {
+        "primary_particle_size": {"value": "~5", "unit": "nm", "measurement_method_used": "TEM"},
+        "aggregate_particle_size_tem": {"value": "60-80", "unit": "nm", "measurement_method_used": "TEM"},
+        "aggregate_particle_size_dls": {"value": "~170", "unit": "nm", "measurement_method_used": "DLS"},
+        "crystallite_size": {"value": "14.7", "unit": "nm", "measurement_method_used": "XRD (Scherrer)"},
+        "crystallinity_phase_composition": "Cubic fluorite structure",
+        "surface_ce3_percent_xps": {"value": "24.0", "unit": "%"},
+        "particle_morphology": "Spherical aggregates of primary NPs",
+        "lattice_parameter": {"value": "0.5436", "unit": "nm", "comment": "Highest in the series, indicating lattice expansion due to oxygen vacancies/Ce³⁺"},
+        "xrd_info": "Cubic fluorite structure confirmed"
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sio2": {"value": "4301", "unit": "Å/min"},
+        "material_removal_rate_si3n4": {"value": "551", "unit": "Å/min"},
+        "removal_selectivity_sio2_si3n4": "7.8",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4, CETR",
+        "pad_composition": "IC 1010/Suba IV, Dow Chemical"
+      },
+      "adsorption_analysis": {
+        "analyte": "Silicate anions",
+        "adsorption_model_fit": "Freundlich (R²=0.9867)",
+        "freundlich_constants": {"KF": 0.0125, "1/n": 0.8706},
+        "adsorbed_amount_at_1000mgL": {"value": 5.08, "unit": "mg/m²"},
+        "comment": "Highest adsorption capacity among the samples, correlated with highest Ce³⁺ concentration."
+      }
+    },
+    {
+      "sample_id": "M-ceria",
+      "experiment_context": "Ceria nanoparticles synthesized using 3.0 g Ce(NO₃)₃·6H₂O precursor, resulting in aggregates (~60-80 nm TEM, ~170 nm DLS) composed of medium primary nanoparticles (~30 nm TEM).",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "precursor_concentration_details": "3.0 g in 114 g DI water",
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "synthesis_conditions": {
+        "additives": [
+           {"name": "PVP", "type": "Support for synthesis/aggregation control", "concentration_details": "1.08 g"},
+           {"name": "Urea", "type": "Support for synthesis", "concentration_details": "0.24 g"}
+        ],
+        "reaction_temperature": {"value": "180", "unit": "°C"},
+        "reaction_time": {"value": "10", "unit": "h"},
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Hydrothermal synthesis in Teflon bottle inside stainless steel autoclave"
+      },
+      "post_synthesis_treatment": {
+         "washing": {"method": "Centrifugally washed with water", "times": 3},
+         "drying": {"temperature": {"value": 80, "unit": "°C"}, "time": {"value": 24, "unit": "h"}},
+         "calcination": {"temperature": {"value": 500, "unit": "°C"}, "time": {"value": 2, "unit": "h"}, "purpose": "Remove remaining PVP and urea"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [],
+        "target_final_slurry_ph": "7",
+        "solvent": {"name": "DI water"}
+      },
+      "characterization": {
+        "primary_particle_size": {"value": "~30", "unit": "nm", "measurement_method_used": "TEM"},
+        "aggregate_particle_size_tem": {"value": "60-80", "unit": "nm", "measurement_method_used": "TEM"},
+        "aggregate_particle_size_dls": {"value": "~170", "unit": "nm", "measurement_method_used": "DLS"},
+        "crystallite_size": {"value": "27.2", "unit": "nm", "measurement_method_used": "XRD (Scherrer)"},
+        "crystallinity_phase_composition": "Cubic fluorite structure",
+        "surface_ce3_percent_xps": {"value": "21.8", "unit": "%"},
+        "particle_morphology": "Spherical aggregates of primary NPs",
+        "lattice_parameter": {"value": null, "unit": "nm", "comment": "Intermediate lattice parameter between S-ceria and L-ceria"},
+        "xrd_info": "Cubic fluorite structure confirmed"
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sio2": {"value": "3890", "unit": "Å/min"},
+        "material_removal_rate_si3n4": {"value": "509", "unit": "Å/min"},
+        "removal_selectivity_sio2_si3n4": "7.6",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4, CETR",
+        "pad_composition": "IC 1010/Suba IV, Dow Chemical"
+      },
+      "adsorption_analysis": {
+        "analyte": "Silicate anions",
+        "adsorption_model_fit": "Freundlich (R²=0.9808)",
+        "freundlich_constants": {"KF": 0.0104, "1/n": 0.8839},
+        "adsorbed_amount_at_1000mgL": {"value": 3.96, "unit": "mg/m²"}
+      }
+    },
+    {
+      "sample_id": "L-ceria",
+      "experiment_context": "Ceria nanoparticles synthesized using 9.0 g Ce(NO₃)₃·6H₂O precursor, resulting in single nanoparticles (~60-80 nm TEM, ~170 nm DLS) with primary size ~70 nm TEM. Lowest Ce³⁺ concentration.",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "precursor_concentration_details": "9.0 g in 114 g DI water",
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "synthesis_conditions": {
+        "additives": [
+           {"name": "PVP", "type": "Support for synthesis/aggregation control", "concentration_details": "1.08 g"},
+           {"name": "Urea", "type": "Support for synthesis", "concentration_details": "0.24 g"}
+        ],
+        "reaction_temperature": {"value": "180", "unit": "°C"},
+        "reaction_time": {"value": "10", "unit": "h"},
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Hydrothermal synthesis in Teflon bottle inside stainless steel autoclave"
+      },
+      "post_synthesis_treatment": {
+         "washing": {"method": "Centrifugally washed with water", "times": 3},
+         "drying": {"temperature": {"value": 80, "unit": "°C"}, "time": {"value": 24, "unit": "h"}},
+         "calcination": {"temperature": {"value": 500, "unit": "°C"}, "time": {"value": 2, "unit": "h"}, "purpose": "Remove remaining PVP and urea"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [],
+        "target_final_slurry_ph": "7",
+        "solvent": {"name": "DI water"}
+      },
+      "characterization": {
+        "primary_particle_size": {"value": "~70", "unit": "nm", "measurement_method_used": "TEM"},
+        "aggregate_particle_size_tem": {"value": "60-80", "unit": "nm", "measurement_method_used": "TEM"},
+        "aggregate_particle_size_dls": {"value": "~170", "unit": "nm", "measurement_method_used": "DLS"},
+        "crystallite_size": {"value": "50.6", "unit": "nm", "measurement_method_used": "XRD (Scherrer)"},
+        "crystallinity_phase_composition": "Cubic fluorite structure",
+        "surface_ce3_percent_xps": {"value": "15.6", "unit": "%"},
+        "particle_morphology": "Single spherical NPs",
+        "lattice_parameter": {"value": "0.5400", "unit": "nm", "comment": "Lowest in the series, closer to bulk ceria"},
+        "xrd_info": "Cubic fluorite structure confirmed"
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sio2": {"value": "3134", "unit": "Å/min"},
+        "material_removal_rate_si3n4": {"value": "485", "unit": "Å/min"},
+        "removal_selectivity_sio2_si3n4": "6.4",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4, CETR",
+        "pad_composition": "IC 1010/Suba IV, Dow Chemical"
+      },
+      "adsorption_analysis": {
+        "analyte": "Silicate anions",
+        "adsorption_model_fit": "Freundlich (R²=0.9897)",
+        "freundlich_constants": {"KF": 0.0062, "1/n": 0.8934},
+        "adsorbed_amount_at_1000mgL": {"value": 2.28, "unit": "mg/m²"},
+        "comment": "Lowest adsorption capacity among the samples."
+      }
+    }
+  ]
+}

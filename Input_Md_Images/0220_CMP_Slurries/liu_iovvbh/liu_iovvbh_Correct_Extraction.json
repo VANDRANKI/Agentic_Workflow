@@ -1,0 +1,730 @@
+{
+  "doi": null,
+  "title": "Development of Highly stable ceria slurry in acetic acid-ammonium acetate buffer Media for effective chemical mechanical polishing of silicon dioxide",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Blank_Day0_pH4",
+      "experiment_context": "Ceria slurry (1.0 wt%) without dispersant, pH adjusted to 4.0, measured immediately (Day 0).",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "None",
+            "type": "Dispersant / pH Adjuster",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "512.7",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "zeta_potential": {
+          "value": "37.89",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "particle_morphology": "Agglomerated, serious buildup, blurred particle outlines (SEM Fig 5a).",
+        "surface_composition_xps": {
+          "Ce3_percent": {
+             "value": "24",
+             "unit": "%"
+          },
+          "Ce4_percent": {
+             "value": "76",
+             "unit": "%"
+          },
+          "measurement_conditions": "pH 4.0"
+        },
+        "uv_vis_analysis": {
+           "description": "Lowest Ce3+ absorption peak intensity (~200nm), highest Ce4+ absorption peak intensity (~300nm) (UV-Vis Fig 13a).",
+           "measurement_conditions": "pH 4.0"
+        }
+      },
+      "cmp_performance": {
+         "target_material": "TEOS (SiO2)",
+         "polishing_time": {
+           "value": "20",
+           "unit": "s"
+         },
+         "material_removal_rate": null,
+         "polishing_pressure": {
+           "value": "4",
+           "unit": "psi"
+         },
+         "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+         },
+         "polishing_speed_head_plate": {
+           "value": "50/50",
+           "unit": "rpm"
+         },
+         "equipment_model": "RuiXuan SSP-500 polisher",
+         "pad_composition": null,
+         "pre_cmp_surface_roughness": {
+            "value": "0.37",
+            "unit": "nm",
+            "measurement_method_used": "AFM (Sq)"
+         },
+         "post_cmp_surface_roughness": null,
+         "surface_defects": "Obvious scratches and residual ceria particles observed before polishing (Confocal Fig 8a)."
+      }
+    },
+    {
+      "sample_id": "Blank_Day7_pH4",
+      "experiment_context": "Ceria slurry (1.0 wt%) without dispersant, pH adjusted to 4.0, measured after 7 days.",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "None",
+            "type": "Dispersant / pH Adjuster",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "534.3",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "zeta_potential": {
+          "value": "29.11",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "particle_morphology": null,
+        "surface_composition_xps": null,
+        "uv_vis_analysis": null
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "AceticAcid_Day0_pH4",
+      "experiment_context": "Ceria slurry (1.0 wt%) with Acetic Acid as dispersant/pH adjuster, pH adjusted to 4.0, measured immediately (Day 0).",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Acetic Acid",
+            "type": "Dispersant / pH Adjuster",
+            "purity": "99%",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "266.3",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "zeta_potential": {
+          "value": "46.47",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "particle_morphology": "Slight agglomeration, non-uniform particle size (SEM Fig 5b).",
+        "surface_composition_xps": {
+          "Ce3_percent": {
+             "value": "26",
+             "unit": "%"
+          },
+          "Ce4_percent": {
+             "value": "74",
+             "unit": "%"
+          },
+          "measurement_conditions": "pH 4.0"
+        },
+        "uv_vis_analysis": {
+           "description": "Medium Ce3+ absorption peak intensity (~200nm), medium Ce4+ absorption peak intensity (~300nm) (UV-Vis Fig 13b).",
+           "measurement_conditions": "pH 4.0"
+        }
+      },
+      "cmp_performance": {
+         "target_material": "TEOS (SiO2)",
+         "polishing_time": {
+           "value": "20",
+           "unit": "s"
+         },
+         "material_removal_rate": {
+           "value": "621.59",
+           "unit": "nm/min"
+         },
+         "polishing_pressure": {
+           "value": "4",
+           "unit": "psi"
+         },
+         "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+         },
+         "polishing_speed_head_plate": {
+           "value": "50/50",
+           "unit": "rpm"
+         },
+         "equipment_model": "RuiXuan SSP-500 polisher",
+         "pad_composition": null,
+         "pre_cmp_surface_roughness": {
+            "value": "0.37",
+            "unit": "nm",
+            "measurement_method_used": "AFM (Sq)"
+         },
+         "post_cmp_surface_roughness": {
+            "value": "0.18",
+            "unit": "nm",
+            "measurement_method_used": "AFM (Sq)"
+         },
+         "surface_defects": "Surface quality improved, scratches lighter/disappeared, reduced residual particles (Confocal Fig 8b). Scratches visible (AFM Fig 9b)."
+      }
+    },
+    {
+      "sample_id": "AceticAcid_Day7_pH4",
+      "experiment_context": "Ceria slurry (1.0 wt%) with Acetic Acid as dispersant/pH adjuster, pH adjusted to 4.0, measured after 7 days.",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Acetic Acid",
+            "type": "Dispersant / pH Adjuster",
+            "purity": "99%",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "289.6",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "zeta_potential": {
+          "value": "35.01",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "particle_morphology": null,
+        "surface_composition_xps": null,
+        "uv_vis_analysis": null
+      },
+      "cmp_performance": {
+         "target_material": "TEOS (SiO2)",
+         "polishing_time": {
+           "value": "20",
+           "unit": "s"
+         },
+         "material_removal_rate": {
+           "value": "582.04",
+           "unit": "nm/min"
+         },
+         "polishing_pressure": {
+           "value": "4",
+           "unit": "psi"
+         },
+         "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+         },
+         "polishing_speed_head_plate": {
+           "value": "50/50",
+           "unit": "rpm"
+         },
+         "equipment_model": "RuiXuan SSP-500 polisher",
+         "pad_composition": null,
+         "pre_cmp_surface_roughness": null,
+         "post_cmp_surface_roughness": null,
+         "surface_defects": null
+      }
+    },
+    {
+      "sample_id": "Buffer_Day0_pH4",
+      "experiment_context": "Ceria slurry (1.0 wt%) with Acetic Acid-Ammonium Acetate Buffer as dispersant/pH adjuster, pH adjusted to 4.0, measured immediately (Day 0). Buffer prepared to pH 3.8 using 9.12 M Acetic Acid and 1.0 M Ammonium Acetate.",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Acetic Acid-Ammonium Acetate Buffer",
+            "type": "Dispersant / pH Adjuster",
+            "components": [
+               {"name": "Acetic Acid", "purity": "99%"},
+               {"name": "Ammonium Acetate", "purity": null}
+            ],
+            "preparation_details": "Buffer prepared to pH 3.8 (used to adjust slurry to pH 4.0) using 9.12 mol/L Acetic Acid and 1.0 mol/L Ammonium Acetate in DI water."
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "183.1",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "zeta_potential": {
+          "value": "51.22",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "particle_morphology": "Greatly improved dispersion, uniform particle size, clear contours and angles (SEM Fig 5c).",
+        "surface_composition_xps": {
+          "Ce3_percent": {
+             "value": "35",
+             "unit": "%"
+          },
+          "Ce4_percent": {
+             "value": "65",
+             "unit": "%"
+          },
+          "measurement_conditions": "pH 4.0"
+        },
+        "uv_vis_analysis": {
+           "description": "Highest Ce3+ absorption peak intensity (~200nm), lowest Ce4+ absorption peak intensity (~300nm) (UV-Vis Fig 13c).",
+           "measurement_conditions": "pH 4.0"
+        }
+      },
+      "cmp_performance": {
+         "target_material": "TEOS (SiO2)",
+         "polishing_time": {
+           "value": "20",
+           "unit": "s"
+         },
+         "material_removal_rate": {
+           "value": "694.77",
+           "unit": "nm/min"
+         },
+         "polishing_pressure": {
+           "value": "4",
+           "unit": "psi"
+         },
+         "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+         },
+         "polishing_speed_head_plate": {
+           "value": "50/50",
+           "unit": "rpm"
+         },
+         "equipment_model": "RuiXuan SSP-500 polisher",
+         "pad_composition": null,
+         "pre_cmp_surface_roughness": {
+            "value": "0.37",
+            "unit": "nm",
+            "measurement_method_used": "AFM (Sq)"
+         },
+         "post_cmp_surface_roughness": {
+            "value": "0.07",
+            "unit": "nm",
+            "measurement_method_used": "AFM (Sq)"
+         },
+         "surface_defects": "Surface quality significantly improved, no visible scratches or ceria residues (Confocal Fig 8c). Surface flat, no scratches or residual particles (AFM Fig 9c)."
+      }
+    },
+    {
+      "sample_id": "Buffer_Day7_pH4",
+      "experiment_context": "Ceria slurry (1.0 wt%) with Acetic Acid-Ammonium Acetate Buffer as dispersant/pH adjuster, pH adjusted to 4.0, measured after 7 days.",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Acetic Acid-Ammonium Acetate Buffer",
+            "type": "Dispersant / pH Adjuster",
+             "components": [
+               {"name": "Acetic Acid", "purity": "99%"},
+               {"name": "Ammonium Acetate", "purity": null}
+            ]
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "201.5",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "zeta_potential": {
+          "value": "42.19",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)"
+        },
+        "particle_morphology": null,
+        "surface_composition_xps": null,
+        "uv_vis_analysis": null
+      },
+      "cmp_performance": {
+         "target_material": "TEOS (SiO2)",
+         "polishing_time": {
+           "value": "20",
+           "unit": "s"
+         },
+         "material_removal_rate": {
+           "value": "660.35",
+           "unit": "nm/min"
+         },
+         "polishing_pressure": {
+           "value": "4",
+           "unit": "psi"
+         },
+         "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+         },
+         "polishing_speed_head_plate": {
+           "value": "50/50",
+           "unit": "rpm"
+         },
+         "equipment_model": "RuiXuan SSP-500 polisher",
+         "pad_composition": null,
+         "pre_cmp_surface_roughness": null,
+         "post_cmp_surface_roughness": null,
+         "surface_defects": null
+      }
+    },
+    {
+      "sample_id": "Buffer_Day0_pH3",
+      "experiment_context": "Ceria slurry (1.0 wt%) with Acetic Acid-Ammonium Acetate Buffer as dispersant/pH adjuster, pH adjusted to 3.0, measured immediately (Day 0).",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Acetic Acid-Ammonium Acetate Buffer",
+            "type": "Dispersant / pH Adjuster",
+             "components": [
+               {"name": "Acetic Acid", "purity": "99%"},
+               {"name": "Ammonium Acetate", "purity": null}
+            ]
+          }
+        ],
+        "target_final_slurry_ph": "3.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~180",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)",
+          "notes": "Value estimated from Fig 7a."
+        },
+        "zeta_potential": {
+          "value": "~53",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)",
+          "notes": "Value estimated from Fig 7b."
+        },
+        "particle_morphology": null,
+        "surface_composition_xps": null,
+        "uv_vis_analysis": null
+      },
+      "cmp_performance": {
+         "target_material": "TEOS (SiO2)",
+         "polishing_time": {
+           "value": "20",
+           "unit": "s"
+         },
+         "material_removal_rate": {
+           "value": "~680",
+           "unit": "nm/min",
+           "notes": "Value estimated from Fig 7c."
+         },
+         "polishing_pressure": {
+           "value": "4",
+           "unit": "psi"
+         },
+         "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+         },
+         "polishing_speed_head_plate": {
+           "value": "50/50",
+           "unit": "rpm"
+         },
+         "equipment_model": "RuiXuan SSP-500 polisher",
+         "pad_composition": null,
+         "pre_cmp_surface_roughness": null,
+         "post_cmp_surface_roughness": null,
+         "surface_defects": null
+      }
+    },
+        {
+      "sample_id": "Buffer_Day0_pH5",
+      "experiment_context": "Ceria slurry (1.0 wt%) with Acetic Acid-Ammonium Acetate Buffer as dispersant/pH adjuster, pH adjusted to 5.0, measured immediately (Day 0).",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Acetic Acid-Ammonium Acetate Buffer",
+            "type": "Dispersant / pH Adjuster",
+             "components": [
+               {"name": "Acetic Acid", "purity": "99%"},
+               {"name": "Ammonium Acetate", "purity": null}
+            ]
+          }
+        ],
+        "target_final_slurry_ph": "5.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~190",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)",
+          "notes": "Value estimated from Fig 7a."
+        },
+        "zeta_potential": {
+          "value": "~48",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)",
+          "notes": "Value estimated from Fig 7b."
+        },
+        "particle_morphology": null,
+        "surface_composition_xps": null,
+        "uv_vis_analysis": null
+      },
+      "cmp_performance": {
+         "target_material": "TEOS (SiO2)",
+         "polishing_time": {
+           "value": "20",
+           "unit": "s"
+         },
+         "material_removal_rate": {
+           "value": "~650",
+           "unit": "nm/min",
+           "notes": "Value estimated from Fig 7c."
+         },
+         "polishing_pressure": {
+           "value": "4",
+           "unit": "psi"
+         },
+         "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+         },
+         "polishing_speed_head_plate": {
+           "value": "50/50",
+           "unit": "rpm"
+         },
+         "equipment_model": "RuiXuan SSP-500 polisher",
+         "pad_composition": null,
+         "pre_cmp_surface_roughness": null,
+         "post_cmp_surface_roughness": null,
+         "surface_defects": null
+      }
+    },
+    {
+      "sample_id": "Buffer_Day0_pH6",
+      "experiment_context": "Ceria slurry (1.0 wt%) with Acetic Acid-Ammonium Acetate Buffer as dispersant/pH adjuster, pH adjusted to 6.0, measured immediately (Day 0).",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Acetic Acid-Ammonium Acetate Buffer",
+            "type": "Dispersant / pH Adjuster",
+             "components": [
+               {"name": "Acetic Acid", "purity": "99%"},
+               {"name": "Ammonium Acetate", "purity": null}
+            ]
+          }
+        ],
+        "target_final_slurry_ph": "6.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~210",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)",
+          "notes": "Value estimated from Fig 7a."
+        },
+        "zeta_potential": {
+          "value": "~40",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)",
+          "notes": "Value estimated from Fig 7b."
+        },
+        "particle_morphology": null,
+        "surface_composition_xps": null,
+        "uv_vis_analysis": null
+      },
+      "cmp_performance": {
+         "target_material": "TEOS (SiO2)",
+         "polishing_time": {
+           "value": "20",
+           "unit": "s"
+         },
+         "material_removal_rate": {
+           "value": "~580",
+           "unit": "nm/min",
+           "notes": "Value estimated from Fig 7c."
+         },
+         "polishing_pressure": {
+           "value": "4",
+           "unit": "psi"
+         },
+         "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+         },
+         "polishing_speed_head_plate": {
+           "value": "50/50",
+           "unit": "rpm"
+         },
+         "equipment_model": "RuiXuan SSP-500 polisher",
+         "pad_composition": null,
+         "pre_cmp_surface_roughness": null,
+         "post_cmp_surface_roughness": null,
+         "surface_defects": null
+      }
+    },
+    {
+      "sample_id": "Buffer_Day0_pH7",
+      "experiment_context": "Ceria slurry (1.0 wt%) with Acetic Acid-Ammonium Acetate Buffer as dispersant/pH adjuster, pH adjusted to 7.0, measured immediately (Day 0).",
+      "slurry_preparation": {
+        "base_slurry_source": "Ceria suspension (Shenzhen Juxin Semiconductor Material Co., Ltd.)",
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Acetic Acid-Ammonium Acetate Buffer",
+            "type": "Dispersant / pH Adjuster",
+             "components": [
+               {"name": "Acetic Acid", "purity": "99%"},
+               {"name": "Ammonium Acetate", "purity": null}
+            ]
+          }
+        ],
+        "target_final_slurry_ph": "7.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~450",
+          "unit": "nm",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)",
+          "notes": "Value estimated from Fig 7a."
+        },
+        "zeta_potential": {
+          "value": "~15",
+          "unit": "mV",
+          "measurement_method_used": "Laser Particle Size Analyzer (NIcomp-380)",
+          "notes": "Value estimated from Fig 7b."
+        },
+        "particle_morphology": "Poorer dispersion expected as pH approaches PZC (7.9).",
+        "surface_composition_xps": null,
+        "uv_vis_analysis": null
+      },
+      "cmp_performance": {
+         "target_material": "TEOS (SiO2)",
+         "polishing_time": {
+           "value": "20",
+           "unit": "s"
+         },
+         "material_removal_rate": {
+           "value": "~200",
+           "unit": "nm/min",
+           "notes": "Value estimated from Fig 7c."
+         },
+         "polishing_pressure": {
+           "value": "4",
+           "unit": "psi"
+         },
+         "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+         },
+         "polishing_speed_head_plate": {
+           "value": "50/50",
+           "unit": "rpm"
+         },
+         "equipment_model": "RuiXuan SSP-500 polisher",
+         "pad_composition": null,
+         "pre_cmp_surface_roughness": null,
+         "post_cmp_surface_roughness": null,
+         "surface_defects": null
+      }
+    }
+  ]
+}

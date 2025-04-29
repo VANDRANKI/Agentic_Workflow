@@ -1,0 +1,277 @@
+{
+  "doi": null,
+  "title": "Effect of Pad Surface Roughness on Material Removal Rate in Chemical Mechanical Polishing Using Ultrafine Colloidal Ceria Slurry",
+  "year_published": "2013",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Slurry_A_Calcined",
+      "experiment_context": "Calcined ceria slurry (Slurry A) used for baseline comparison, including scratch performance (AMAT-LK) and MRR mapping (GNP Poli-762).",
+      "synthesis_method": "Calcination (Top-Down)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "<1",
+          "unit": "wt.%"
+        },
+        "additives": null,
+        "target_final_slurry_ph": null,
+        "solvent": null
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "110",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce": {
+            "detected": true,
+            "measurement_method_used": "EDS"
+          },
+          "O": {
+            "detected": true,
+            "measurement_method_used": "EDS"
+          }
+        },
+        "particle_morphology": "Irregular, sharp-edged",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_substrate": "TEOS oxide wafer (300 mm) for MRR map / STI wafers for scratch",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "non_uniformity": {
+           "value": "12.4",
+           "unit": "%",
+           "condition": "GNP Poli-762, TEOS wafer"
+        },
+        "scratch_level_normalized": 1.0,
+        "scratch_description": "Longer and wider scratches compared to UFC",
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "2.4",
+          "unit": "psi",
+          "condition": "GNP Poli-762"
+        },
+         "head_platen_rpm_ratio": 0.96,
+         "slurry_flow_rate": {
+            "value": "200",
+            "unit": "mL/min"
+         },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "GNP Poli-762 (for MRR map) / AMAT-LK (for scratch)",
+        "pad_composition": "IC1010 pore pad (Dow Corporation)",
+        "pad_surface_roughness": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Slurry_B_UFC_Baseline",
+      "experiment_context": "Ultrafine colloidal ceria slurry (Slurry B, UFC) used for baseline comparison, including scratch performance (AMAT-LK) and MRR mapping (GNP Poli-762).",
+      "synthesis_method": "Colloidal (Bottom-Up)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "<0.1",
+          "unit": "wt.%"
+        },
+        "additives": null,
+        "target_final_slurry_ph": null,
+        "solvent": null
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "20",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce": {
+            "detected": true,
+            "measurement_method_used": "EDS"
+          },
+          "O": {
+            "detected": true,
+            "measurement_method_used": "EDS"
+          }
+        },
+        "particle_morphology": "Spherical, narrower size distribution",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_substrate": "TEOS oxide wafer (300 mm) for MRR map / STI wafers for scratch",
+        "polishing_time": null,
+        "material_removal_rate": null,
+         "non_uniformity": {
+           "value": "4.7",
+           "unit": "%",
+           "condition": "GNP Poli-762, TEOS wafer"
+        },
+        "scratch_level_normalized": 0.2,
+        "scratch_description": "80% less scratches than calcined ceria; shorter and narrower",
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "2.4",
+          "unit": "psi",
+          "condition": "GNP Poli-762"
+        },
+        "head_platen_rpm_ratio": 0.96,
+         "slurry_flow_rate": {
+            "value": "200",
+            "unit": "mL/min"
+         },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "GNP Poli-762 (for MRR map) / AMAT-LK (for scratch)",
+        "pad_composition": "IC1010 pore pad (Dow Corporation)",
+        "pad_surface_roughness": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Slurry_B_UFC_Roughness_6.65um",
+      "experiment_context": "Ultrafine colloidal ceria slurry (Slurry B, UFC) polished on TEOS oxide wafer using GNP Poli-762 under conditions resulting in low pad surface roughness (6.65 µm), leading to high MRR.",
+      "synthesis_method": "Colloidal (Bottom-Up)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "<0.1",
+          "unit": "wt.%"
+        },
+        "additives": null,
+        "target_final_slurry_ph": null,
+        "solvent": null
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "20",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_morphology": "Spherical, narrower size distribution"
+      },
+      "cmp_performance": {
+        "polishing_substrate": "TEOS oxide wafer (300 mm)",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "200",
+          "unit": "nm/min",
+          "error_margin": "±50",
+          "original_value": "2000 ± 500 Å/min"
+        },
+        "non_uniformity": null,
+        "scratch_level_normalized": null,
+        "scratch_description": null,
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "2.4",
+          "unit": "psi"
+        },
+         "head_platen_rpm_ratio": 0.96,
+         "slurry_flow_rate": {
+            "value": "200",
+            "unit": "mL/min"
+         },
+        "pad_conditioning_pressure": null,
+        "pad_conditioning_description": "Implied smooth conditioning (e.g., high-grade diamond like MBG660 from Fig 4)",
+        "equipment_model": "GNP Poli-762",
+        "pad_composition": "IC1010 pore pad (Dow Corporation)",
+        "pad_surface_roughness": {
+          "value": "6.65",
+          "unit": "µm",
+          "measurement_method_used": "Optical Profiler (WYKO NT1100)"
+        }
+      },
+      "theoretical_analysis": null
+    },
+     {
+      "sample_id": "Slurry_B_UFC_Roughness_8.87um",
+      "experiment_context": "Ultrafine colloidal ceria slurry (Slurry B, UFC) polished on TEOS oxide wafer using GNP Poli-762 under conditions resulting in high pad surface roughness (8.87 µm), leading to low MRR.",
+      "synthesis_method": "Colloidal (Bottom-Up)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "<0.1",
+          "unit": "wt.%"
+        },
+        "additives": null,
+        "target_final_slurry_ph": null,
+        "solvent": null
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "20",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_morphology": "Spherical, narrower size distribution"
+      },
+      "cmp_performance": {
+        "polishing_substrate": "TEOS oxide wafer (300 mm)",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "<20",
+          "unit": "nm/min",
+          "original_value": "<200 Å/min"
+        },
+        "non_uniformity": null,
+        "scratch_level_normalized": null,
+        "scratch_description": null,
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "2.4",
+          "unit": "psi"
+        },
+         "head_platen_rpm_ratio": 0.96,
+         "slurry_flow_rate": {
+            "value": "200",
+            "unit": "mL/min"
+         },
+        "pad_conditioning_pressure": null,
+        "pad_conditioning_description": "Implied rough conditioning (e.g., low-grade diamond like MBG620 from Fig 4)",
+        "equipment_model": "GNP Poli-762",
+        "pad_composition": "IC1010 pore pad (Dow Corporation)",
+        "pad_surface_roughness": {
+          "value": "8.87",
+          "unit": "µm",
+          "measurement_method_used": "Optical Profiler (WYKO NT1100)"
+        }
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "doi": null,
+  "title": "Investigation of abrasive behavior between pad asperity and oxide thin film in chemical mechanical planarization",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Ceria_Pad2_Desired",
+      "experiment_context": "CMP of 300 mm TEOS oxide wafer using commercial Ceria slurry on DuPont IC1000 Pad 2 (Desired condition after break-in, χ=0.83). Focus on pad texture effect.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_ceria_concentration": null,
+        "particle_size_distribution": {
+          "value": 130,
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity": null,
+        "zeta_potential": null,
+        "sedimentation_rate": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 299.0,
+          "unit": "nm/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "carrier_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 160,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli-762 (GnP Technology)",
+        "pad_composition": "DuPont IC1000",
+        "pad_type": "Pad 2",
+        "pad_condition": "Desired",
+        "pad_contact_area_ratio_chi": 0.83,
+        "friction_force": {
+          "value": "~58",
+          "unit": "N"
+        },
+        "coefficient_of_friction": {
+          "value": "~0.43",
+          "unit": ""
+        },
+        "process_temperature": {
+            "value": "Ambient",
+            "unit": ""
+        },
+        "pad_conditioning_pressure": null
+      },
+      "characterization": {
+         "pad_texture_Ra": {
+          "value": 50.2,
+          "unit": "µm"
+        },
+        "pad_texture_sigma": {
+          "value": 3.4,
+          "unit": "µm"
+        },
+        "pad_plasticity_index_psi": 2.5,
+        "pad_roughness_Rpk": {
+          "value": "~6.6",
+          "unit": "µm"
+        },
+        "pad_roughness_Rms": {
+          "value": "~3.0",
+          "unit": "µm"
+        }
+      },
+      "substrate": {
+        "material": "TEOS oxide",
+        "diameter": {
+          "value": 300,
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_Pad2_Smoothed",
+      "experiment_context": "CMP of 300 mm TEOS oxide wafer using commercial Ceria slurry on DuPont IC1000 Pad 2 (Smoothed condition after 30 min polishing without conditioning, χ=0.83). Focus on pad texture effect.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_ceria_concentration": null,
+        "particle_size_distribution": {
+          "value": 130,
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity": null,
+        "zeta_potential": null,
+        "sedimentation_rate": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 440.4,
+          "unit": "nm/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "carrier_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 160,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli-762 (GnP Technology)",
+        "pad_composition": "DuPont IC1000",
+        "pad_type": "Pad 2",
+        "pad_condition": "Smoothed",
+        "pad_contact_area_ratio_chi": 0.83,
+        "friction_force": {
+          "value": "~68",
+          "unit": "N"
+        },
+        "coefficient_of_friction": null,
+         "process_temperature": {
+            "value": "Ambient",
+            "unit": ""
+        },
+        "pad_conditioning_pressure": null
+      },
+      "characterization": {
+         "pad_texture_Ra": {
+          "value": 122.6,
+          "unit": "µm"
+        },
+        "pad_texture_sigma": {
+          "value": 2.9,
+          "unit": "µm"
+        },
+        "pad_plasticity_index_psi": 1.5,
+        "pad_roughness_Rpk": {
+          "value": "~5.9",
+          "unit": "µm"
+        },
+        "pad_roughness_Rms": {
+          "value": "~2.9",
+          "unit": "µm"
+        }
+      },
+      "substrate": {
+        "material": "TEOS oxide",
+        "diameter": {
+          "value": 300,
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_Pad2_Desired",
+      "experiment_context": "CMP of 300 mm TEOS oxide wafer using commercial Silica slurry on DuPont IC1000 Pad 2 (Desired condition after break-in, χ=0.83). Focus on pad texture effect.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_concentration": null,
+        "particle_size_distribution": {
+          "value": 130,
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity": null,
+        "zeta_potential": null,
+        "sedimentation_rate": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 264.0,
+          "unit": "nm/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "carrier_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 160,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli-762 (GnP Technology)",
+        "pad_composition": "DuPont IC1000",
+        "pad_type": "Pad 2",
+        "pad_condition": "Desired",
+        "pad_contact_area_ratio_chi": 0.83,
+        "friction_force": {
+          "value": "~55",
+          "unit": "N"
+        },
+        "coefficient_of_friction": {
+          "value": "~0.41",
+          "unit": ""
+        },
+         "process_temperature": {
+            "value": "Ambient",
+            "unit": ""
+        },
+        "pad_conditioning_pressure": null
+      },
+      "characterization": {
+         "pad_texture_Ra": {
+          "value": 50.2,
+          "unit": "µm"
+        },
+        "pad_texture_sigma": {
+          "value": 3.4,
+          "unit": "µm"
+        },
+        "pad_plasticity_index_psi": 2.5,
+        "pad_roughness_Rpk": {
+          "value": "~6.6",
+          "unit": "µm"
+        },
+        "pad_roughness_Rms": {
+          "value": "~3.0",
+          "unit": "µm"
+        }
+      },
+      "substrate": {
+        "material": "TEOS oxide",
+        "diameter": {
+          "value": 300,
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_Pad2_Smoothed",
+      "experiment_context": "CMP of 300 mm TEOS oxide wafer using commercial Silica slurry on DuPont IC1000 Pad 2 (Smoothed condition after 30 min polishing without conditioning, χ=0.83). Focus on pad texture effect.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_concentration": null,
+        "particle_size_distribution": {
+          "value": 130,
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity": null,
+        "zeta_potential": null,
+        "sedimentation_rate": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 108.0,
+          "unit": "nm/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "carrier_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 160,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli-762 (GnP Technology)",
+        "pad_composition": "DuPont IC1000",
+        "pad_type": "Pad 2",
+        "pad_condition": "Smoothed",
+        "pad_contact_area_ratio_chi": 0.83,
+        "friction_force": {
+          "value": "~48",
+          "unit": "N"
+        },
+        "coefficient_of_friction": null,
+         "process_temperature": {
+            "value": "Ambient",
+            "unit": ""
+        },
+        "pad_conditioning_pressure": null
+      },
+      "characterization": {
+         "pad_texture_Ra": {
+          "value": 122.6,
+          "unit": "µm"
+        },
+        "pad_texture_sigma": {
+          "value": 2.9,
+          "unit": "µm"
+        },
+        "pad_plasticity_index_psi": 1.5,
+        "pad_roughness_Rpk": {
+          "value": "~5.9",
+          "unit": "µm"
+        },
+        "pad_roughness_Rms": {
+          "value": "~2.9",
+          "unit": "µm"
+        }
+      },
+      "substrate": {
+        "material": "TEOS oxide",
+        "diameter": {
+          "value": 300,
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_Pad1",
+      "experiment_context": "CMP of 300 mm TEOS oxide wafer using commercial Ceria slurry on DuPont IC1000 Pad 1 (Desired condition, χ=0.73). Focus on groove up-feature effect.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_ceria_concentration": null,
+        "particle_size_distribution": {
+          "value": 130,
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity": null,
+        "zeta_potential": null,
+        "sedimentation_rate": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "~280.0",
+          "unit": "nm/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "carrier_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 160,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli-762 (GnP Technology)",
+        "pad_composition": "DuPont IC1000",
+        "pad_type": "Pad 1",
+        "pad_condition": "Desired",
+        "pad_contact_area_ratio_chi": 0.73,
+        "friction_force": {
+          "value": "~55",
+          "unit": "N"
+        },
+        "coefficient_of_friction": {
+          "value": "~0.43",
+          "unit": ""
+        },
+         "process_temperature": {
+            "value": "Ambient",
+            "unit": ""
+        },
+        "pad_conditioning_pressure": null
+      },
+      "characterization": null,
+      "substrate": {
+        "material": "TEOS oxide",
+        "diameter": {
+          "value": 300,
+          "unit": "mm"
+        }
+      }
+    },
+        {
+      "sample_id": "Ceria_Pad3",
+      "experiment_context": "CMP of 300 mm TEOS oxide wafer using commercial Ceria slurry on DuPont IC1000 Pad 3 (Desired condition, χ=0.92). Focus on groove up-feature effect.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_ceria_concentration": null,
+        "particle_size_distribution": {
+          "value": 130,
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity": null,
+        "zeta_potential": null,
+        "sedimentation_rate": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "~320.0",
+          "unit": "nm/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "carrier_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 160,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli-762 (GnP Technology)",
+        "pad_composition": "DuPont IC1000",
+        "pad_type": "Pad 3",
+        "pad_condition": "Desired",
+        "pad_contact_area_ratio_chi": 0.92,
+        "friction_force": {
+          "value": "~60",
+          "unit": "N"
+        },
+        "coefficient_of_friction": {
+          "value": "~0.43",
+          "unit": ""
+        },
+         "process_temperature": {
+            "value": "Ambient",
+            "unit": ""
+        },
+        "pad_conditioning_pressure": null
+      },
+      "characterization": null,
+      "substrate": {
+        "material": "TEOS oxide",
+        "diameter": {
+          "value": 300,
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_Pad1",
+      "experiment_context": "CMP of 300 mm TEOS oxide wafer using commercial Silica slurry on DuPont IC1000 Pad 1 (Desired condition, χ=0.73). Focus on groove up-feature effect.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_concentration": null,
+        "particle_size_distribution": {
+          "value": 130,
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity": null,
+        "zeta_potential": null,
+        "sedimentation_rate": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "~275.0",
+          "unit": "nm/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "carrier_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 160,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli-762 (GnP Technology)",
+        "pad_composition": "DuPont IC1000",
+        "pad_type": "Pad 1",
+        "pad_condition": "Desired",
+        "pad_contact_area_ratio_chi": 0.73,
+        "friction_force": {
+          "value": "~58",
+          "unit": "N"
+        },
+        "coefficient_of_friction": {
+          "value": "~0.43",
+          "unit": ""
+        },
+         "process_temperature": {
+            "value": "Ambient",
+            "unit": ""
+        },
+        "pad_conditioning_pressure": null
+      },
+      "characterization": null,
+      "substrate": {
+        "material": "TEOS oxide",
+        "diameter": {
+          "value": 300,
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_Pad3",
+      "experiment_context": "CMP of 300 mm TEOS oxide wafer using commercial Silica slurry on DuPont IC1000 Pad 3 (Desired condition, χ=0.92). Focus on groove up-feature effect.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_concentration": null,
+        "particle_size_distribution": {
+          "value": 130,
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "viscosity": null,
+        "zeta_potential": null,
+        "sedimentation_rate": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "~250.0",
+          "unit": "nm/min"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "carrier_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 160,
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli-762 (GnP Technology)",
+        "pad_composition": "DuPont IC1000",
+        "pad_type": "Pad 3",
+        "pad_condition": "Desired",
+        "pad_contact_area_ratio_chi": 0.92,
+        "friction_force": {
+          "value": "~52",
+          "unit": "N"
+        },
+        "coefficient_of_friction": {
+          "value": "~0.38",
+          "unit": ""
+        },
+         "process_temperature": {
+            "value": "Ambient",
+            "unit": ""
+        },
+        "pad_conditioning_pressure": null
+      },
+      "characterization": null,
+      "substrate": {
+        "material": "TEOS oxide",
+        "diameter": {
+          "value": 300,
+          "unit": "mm"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1946 @@
+{
+  "doi": "10.1143/JJAP.42.1150",
+  "title": "Effects of Abrasive Morphology and Surfactant Concentration on Polishing Rate of Ceria Slurry",
+  "year_published": "2003",
+  "journal": "Jpn. J. Appl. Phys.",
+  "samples": [
+    {
+      "sample_id": "SlurryA_0wt_Oxide",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with 0 wt% water-soluble acrylic acid surfactant, polishing PETEOS Oxide.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-90",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "PETEOS Oxide",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "3800",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryA_0wt_Nitride",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with 0 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-90",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "800",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+        {
+      "sample_id": "SlurryA_0.03wt_Characterization",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with 0.03 wt% water-soluble acrylic acid surfactant - Characterization Only.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.03",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "zeta_potential": {
+          "value": "-80",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "SlurryA_0.08wt_Oxide",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with approx. 0.08 wt% water-soluble acrylic acid surfactant, polishing PETEOS Oxide.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "160",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-70",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "PETEOS Oxide",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "3500",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryA_0.08wt_Nitride",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with approx. 0.08 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "160",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-70",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "300",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryA_0.10wt_Nitride",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with 0.10 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.10",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "50",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+     {
+      "sample_id": "SlurryA_0.2wt_Characterization",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with 0.2 wt% water-soluble acrylic acid surfactant - Characterization Only.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "zeta_potential": {
+          "value": "-63",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "SlurryA_0.4wt_Oxide",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with 0.4 wt% water-soluble acrylic acid surfactant, polishing PETEOS Oxide.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.4",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "250",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-62",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "PETEOS Oxide",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "3400",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        },
+        "surface_defects": {
+          "measurement_method": "Surfscan SP1 (KLA-Tencor)",
+          "min_detection_size_lpd": { "value": "0.189", "unit": "µm" },
+          "scratch_count": { "value": "1.33", "unit": "counts/wafer" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryA_0.4wt_Nitride",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with 0.4 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.4",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "250",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-62",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "10",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        },
+         "surface_defects": {
+          "measurement_method": "Surfscan SP1 (KLA-Tencor)",
+          "min_detection_size_lpd": { "value": "0.189", "unit": "µm" },
+          "scratch_count": { "value": "1.33", "unit": "counts/wafer" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryA_0.8wt_Oxide",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with 0.8 wt% water-soluble acrylic acid surfactant, polishing PETEOS Oxide.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.8",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "300",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-60",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "PETEOS Oxide",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "800",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryA_0.8wt_Nitride",
+      "experiment_context": "Slurry A (Poly-crystalline, Cerium Carbonate precursor) with 0.8 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium carbonate",
+      "synthesis_method": "Solid-state displacement reaction",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.8",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Poly-crystalline abrasives with small-angle grain boundaries",
+        "crystallite_size": {
+          "value": "38.5",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "121.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "300",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-60",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "5",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryB_0wt_Oxide",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with 0 wt% water-soluble acrylic acid surfactant, polishing PETEOS Oxide.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "130",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-65",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "PETEOS Oxide",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "2000",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryB_0wt_Nitride",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with 0 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "130",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-65",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "350",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+     {
+      "sample_id": "SlurryB_0.03wt_Characterization",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with 0.03 wt% water-soluble acrylic acid surfactant - Characterization Only.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.03",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "zeta_potential": {
+          "value": "-63",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "SlurryB_0.08wt_Oxide",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with approx. 0.08 wt% water-soluble acrylic acid surfactant, polishing PETEOS Oxide.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "140",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-62",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "PETEOS Oxide",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "400",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryB_0.08wt_Nitride",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with approx. 0.08 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "140",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-62",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "40",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryB_0.10wt_Nitride",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with 0.10 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.10",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "20",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryB_0.2wt_Characterization",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with 0.2 wt% water-soluble acrylic acid surfactant - Characterization Only.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "zeta_potential": {
+          "value": "-61",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "SlurryB_0.4wt_Oxide",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with 0.4 wt% water-soluble acrylic acid surfactant, polishing PETEOS Oxide.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.4",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "160",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-60",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "PETEOS Oxide",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "300",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        },
+        "surface_defects": {
+          "measurement_method": "Surfscan SP1 (KLA-Tencor)",
+          "min_detection_size_lpd": { "value": "0.189", "unit": "µm" },
+          "scratch_count": { "value": "0.89", "unit": "counts/wafer" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryB_0.4wt_Nitride",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with 0.4 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.4",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "160",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-60",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "5",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        },
+        "surface_defects": {
+          "measurement_method": "Surfscan SP1 (KLA-Tencor)",
+          "min_detection_size_lpd": { "value": "0.189", "unit": "µm" },
+          "scratch_count": { "value": "0.89", "unit": "counts/wafer" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryB_0.8wt_Oxide",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with 0.8 wt% water-soluble acrylic acid surfactant, polishing PETEOS Oxide.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.8",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "170",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-60",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "PETEOS Oxide",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "150",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "SlurryB_0.8wt_Nitride",
+      "experiment_context": "Slurry B (Single-crystal, Cerium Nitrate precursor) with 0.8 wt% water-soluble acrylic acid surfactant, polishing LPCVD Nitride.",
+      "precursor_chemical": "Cerium nitrate",
+      "synthesis_method": "Wet chemical precipitation",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Water-soluble acrylic acid",
+            "type": "Anionic organic surfactant",
+            "concentration": {
+              "value": "0.8",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "viscosity": {
+          "value": "approx. 1e-3",
+          "unit": "Pa·s"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Discrete single-crystal particles with random orientations",
+        "crystallite_size": {
+          "value": "40.3",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "poly_crystal_particle_size": {
+          "value": "50.8",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "particle_size_distribution": {
+          "value": "170",
+          "unit": "nm",
+          "measurement_method_used": "AcoustoSizer II"
+        },
+        "zeta_potential": {
+          "value": "-60",
+          "unit": "mV",
+          "measurement_method_used": "AcoustoSizer II"
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "LPCVD Nitride",
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "2",
+          "unit": "Å/min"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed_head": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "rotation_speed_table": {
+          "value": "70",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "250",
+          "unit": "fpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "cm³/min"
+        },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel Co.)",
+        "conditioning": "Ex-situ with diamond dresser",
+        "wafer_details": {
+          "size": { "value": "8", "unit": "inch" },
+          "oxide_film": "PETEOS",
+          "oxide_thickness_initial": { "value": "7000", "unit": "Å" },
+          "nitride_film": "LPCVD",
+          "nitride_thickness_initial": { "value": "1500", "unit": "Å" }
+        }
+      }
+    }
+  ]
+}

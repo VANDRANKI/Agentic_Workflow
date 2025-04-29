@@ -1,0 +1,579 @@
+{
+  "doi": null,
+  "title": "Improvement of oxide removal rate in chemical mechanical polishing by forming oxygen vacancy in ceria abrasives via ultraviolet irradiation",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "CS-A_Baseline",
+      "experiment_context": "Commercial calcined ceria slurry (CS-A), baseline condition (no UV treatment). Diluted to 1 wt% in distilled water, pH adjusted to near 7.",
+      "slurry_preparation": {
+        "abrasive_type": "CS-A (Commercial calcined ceria)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "near 7",
+        "solvent": {
+          "name": "Distilled water",
+          "quantity": null
+        },
+        "stirring_speed": {
+            "value": "400",
+            "unit": "rpm"
+        },
+        "uv_treatment": {
+            "applied": false,
+            "duration": null,
+            "wavelength": null,
+            "power": null,
+            "intensity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "96.3",
+          "unit": "nm",
+          "measurement_method_used": "DLS (ELSZ 2000, Otsuka, Japan)"
+        },
+        "particle_morphology": "Varied shapes, size distribution 20-200 nm (TEM)",
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite (JCPDS 34-0394)",
+          "unit": null
+        },
+        "crystallite_size": {
+          "value": "23.57",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak)"
+        },
+        "lattice_parameter": {
+            "value": "5.4195",
+            "unit": "Å",
+            "measurement_method_used": "XRD"
+        },
+        "surface_ce3_concentration_xps": {
+            "value": "14.06",
+            "unit": "%",
+            "measurement_method_used": "XPS (ESCALAB 250, Thermo Fisher, USA)"
+        },
+        "uv_vis_peaks": [
+            {"value": "~260", "unit": "nm", "assignment": "Ce3+"},
+            {"value": "~320", "unit": "nm", "assignment": "Ce4+"}
+        ]
+      },
+      "cmp_performance": {
+        "substrate_material": "1 µm-thick SiO₂ film on four-inch wafer",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "130",
+          "unit": "nm/min",
+          "estimation_source": "Fig. 5a"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "Poly-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1010/Suba IV",
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_rotation_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "wafer_rotation_speed": {
+            "value": "87",
+            "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "CS-A_UV_6h",
+      "experiment_context": "Commercial calcined ceria slurry (CS-A), treated with UV light for 6 hours. Diluted to 1 wt% in distilled water, pH adjusted to near 7.",
+      "slurry_preparation": {
+        "abrasive_type": "CS-A (Commercial calcined ceria)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "near 7",
+        "solvent": {
+          "name": "Distilled water",
+          "quantity": null
+        },
+        "stirring_speed": {
+            "value": "400",
+            "unit": "rpm"
+        },
+        "uv_treatment": {
+            "applied": true,
+            "duration": {"value": "6", "unit": "h"},
+            "wavelength": {"value": "254", "unit": "nm"},
+            "power": {"value": "6", "unit": "W"},
+            "intensity": {"value": "0.489", "unit": "W/cm²"}
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "96.3",
+          "unit": "nm",
+          "measurement_method_used": "DLS (ELSZ 2000, Otsuka, Japan)",
+          "note": "Particle size assumed unchanged by UV treatment based on text."
+        },
+        "particle_morphology": "Varied shapes, size distribution 20-200 nm (TEM). Oxygen vacancies observed at surface (TEM/FFT).",
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite (JCPDS 34-0394)",
+          "unit": null
+        },
+        "crystallite_size": {
+          "value": "23.10",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak)"
+        },
+        "lattice_parameter": {
+            "value": "5.4256",
+            "unit": "Å",
+            "measurement_method_used": "XRD"
+        },
+        "surface_ce3_concentration_xps": {
+            "value": "21.28",
+            "unit": "%",
+            "measurement_method_used": "XPS (ESCALAB 250, Thermo Fisher, USA)"
+        },
+        "uv_vis_peaks": [
+            {"value": "~260", "unit": "nm", "assignment": "Ce3+", "note": "Increased intensity vs baseline"},
+            {"value": "~320", "unit": "nm", "assignment": "Ce4+"}
+        ],
+        "tem_fft_analysis": "New diffraction spots observed, indicating oxygen vacancy formation."
+      },
+      "cmp_performance": {
+        "substrate_material": "1 µm-thick SiO₂ film on four-inch wafer",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "180",
+          "unit": "nm/min",
+          "estimation_source": "Fig. 5a"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "Poly-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1010/Suba IV",
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_rotation_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "wafer_rotation_speed": {
+            "value": "87",
+            "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "CS-B_Baseline",
+      "experiment_context": "Slurry compounded from 100 nm ceria powder (CP100; US Research Nanomaterials, USA; CS-B), baseline condition (no UV treatment). Diluted to 1 wt% in distilled water, pH adjusted to near 7.",
+      "slurry_preparation": {
+        "abrasive_type": "CS-B (Compounded from CP100 powder)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "near 7",
+        "solvent": {
+          "name": "Distilled water",
+          "quantity": null
+        },
+        "stirring_speed": {
+            "value": "400",
+            "unit": "rpm"
+        },
+        "uv_treatment": {
+            "applied": false,
+            "duration": null,
+            "wavelength": null,
+            "power": null,
+            "intensity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "95.1",
+          "unit": "nm",
+          "measurement_method_used": "DLS (ELSZ 2000, Otsuka, Japan)"
+        },
+        "particle_morphology": "Polyhedral particles in aggregated state, size distribution 20-150 nm (TEM)",
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite (JCPDS 34-0394)",
+          "unit": null
+        },
+        "crystallite_size": {
+          "value": "30.15",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak)"
+        },
+        "lattice_parameter": {
+            "value": "5.3975",
+            "unit": "Å",
+            "measurement_method_used": "XRD"
+        },
+        "surface_ce3_concentration_xps": {
+            "value": "13.37",
+            "unit": "%",
+            "measurement_method_used": "XPS (ESCALAB 250, Thermo Fisher, USA)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "1 µm-thick SiO₂ film on four-inch wafer",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "190",
+          "unit": "nm/min",
+          "estimation_source": "Fig. 5a"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "Poly-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1010/Suba IV",
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_rotation_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "wafer_rotation_speed": {
+            "value": "87",
+            "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "CS-B_UV_6h",
+      "experiment_context": "Slurry compounded from 100 nm ceria powder (CP100; US Research Nanomaterials, USA; CS-B), treated with UV light for 6 hours. Diluted to 1 wt% in distilled water, pH adjusted to near 7.",
+      "slurry_preparation": {
+        "abrasive_type": "CS-B (Compounded from CP100 powder)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "near 7",
+        "solvent": {
+          "name": "Distilled water",
+          "quantity": null
+        },
+        "stirring_speed": {
+            "value": "400",
+            "unit": "rpm"
+        },
+        "uv_treatment": {
+            "applied": true,
+            "duration": {"value": "6", "unit": "h"},
+            "wavelength": {"value": "254", "unit": "nm"},
+            "power": {"value": "6", "unit": "W"},
+            "intensity": {"value": "0.489", "unit": "W/cm²"}
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "95.1",
+          "unit": "nm",
+          "measurement_method_used": "DLS (ELSZ 2000, Otsuka, Japan)",
+          "note": "Particle size assumed unchanged by UV treatment based on text."
+        },
+        "particle_morphology": "Polyhedral particles in aggregated state, size distribution 20-150 nm (TEM)",
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite (JCPDS 34-0394)",
+          "unit": null
+        },
+        "crystallite_size": {
+          "value": "29.10",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak)"
+        },
+        "lattice_parameter": {
+            "value": "5.4048",
+            "unit": "Å",
+            "measurement_method_used": "XRD"
+        },
+        "surface_ce3_concentration_xps": {
+            "value": "19.69",
+            "unit": "%",
+            "measurement_method_used": "XPS (ESCALAB 250, Thermo Fisher, USA)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "1 µm-thick SiO₂ film on four-inch wafer",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "250",
+          "unit": "nm/min",
+          "estimation_source": "Fig. 5a"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "Poly-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1010/Suba IV",
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_rotation_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "wafer_rotation_speed": {
+            "value": "87",
+            "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "CS-C_Baseline",
+      "experiment_context": "Slurry compounded from 10 nm ceria powder (CP10; US Research Nanomaterials, USA; CS-C), baseline condition (no UV treatment). Diluted to 1 wt% in distilled water, pH adjusted to near 7.",
+      "slurry_preparation": {
+        "abrasive_type": "CS-C (Compounded from CP10 powder)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "near 7",
+        "solvent": {
+          "name": "Distilled water",
+          "quantity": null
+        },
+        "stirring_speed": {
+            "value": "400",
+            "unit": "rpm"
+        },
+        "uv_treatment": {
+            "applied": false,
+            "duration": null,
+            "wavelength": null,
+            "power": null,
+            "intensity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "23.0",
+          "unit": "nm",
+          "measurement_method_used": "DLS (ELSZ 2000, Otsuka, Japan)",
+          "note": "Agglomeration observed >100nm in DLS (Fig 5b)"
+        },
+        "particle_morphology": "Agglomerated state, primary particle size ~10 nm (TEM)",
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite (JCPDS 34-0394)",
+          "unit": null
+        },
+        "crystallite_size": {
+          "value": "9.22",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak)"
+        },
+        "lattice_parameter": {
+            "value": "5.4024",
+            "unit": "Å",
+            "measurement_method_used": "XRD"
+        },
+        "surface_ce3_concentration_xps": {
+            "value": "11.83",
+            "unit": "%",
+            "measurement_method_used": "XPS (ESCALAB 250, Thermo Fisher, USA)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "1 µm-thick SiO₂ film on four-inch wafer",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "50",
+          "unit": "nm/min",
+          "estimation_source": "Fig. 5a"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "Poly-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1010/Suba IV",
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_rotation_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "wafer_rotation_speed": {
+            "value": "87",
+            "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "CS-C_UV_6h",
+      "experiment_context": "Slurry compounded from 10 nm ceria powder (CP10; US Research Nanomaterials, USA; CS-C), treated with UV light for 6 hours. Diluted to 1 wt% in distilled water, pH adjusted to near 7.",
+      "slurry_preparation": {
+        "abrasive_type": "CS-C (Compounded from CP10 powder)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "near 7",
+        "solvent": {
+          "name": "Distilled water",
+          "quantity": null
+        },
+        "stirring_speed": {
+            "value": "400",
+            "unit": "rpm"
+        },
+        "uv_treatment": {
+            "applied": true,
+            "duration": {"value": "6", "unit": "h"},
+            "wavelength": {"value": "254", "unit": "nm"},
+            "power": {"value": "6", "unit": "W"},
+            "intensity": {"value": "0.489", "unit": "W/cm²"}
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "23.0",
+          "unit": "nm",
+          "measurement_method_used": "DLS (ELSZ 2000, Otsuka, Japan)",
+          "note": "Particle size assumed unchanged by UV treatment based on text. Agglomeration observed >100nm in DLS (Fig 5b)"
+        },
+        "particle_morphology": "Agglomerated state, primary particle size ~10 nm (TEM)",
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite (JCPDS 34-0394)",
+          "unit": null
+        },
+        "crystallite_size": {
+          "value": "8.96",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak)"
+        },
+        "lattice_parameter": {
+            "value": "5.4085",
+            "unit": "Å",
+            "measurement_method_used": "XRD"
+        },
+        "surface_ce3_concentration_xps": {
+            "value": "13.53",
+            "unit": "%",
+            "measurement_method_used": "XPS (ESCALAB 250, Thermo Fisher, USA)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "1 µm-thick SiO₂ film on four-inch wafer",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "60",
+          "unit": "nm/min",
+          "estimation_source": "Fig. 5a"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "Poly-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1010/Suba IV",
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_rotation_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "wafer_rotation_speed": {
+            "value": "87",
+            "unit": "rpm"
+        }
+      }
+    }
+  ]
+}

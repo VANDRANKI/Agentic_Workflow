@@ -1,0 +1,475 @@
+{
+  "doi": null,
+  "title": "Effect of synergistic CeO₂/MoS₂ abrasives on surface roughness and material removal rate of quartz glass",
+  "year_published": null,
+  "journal": null,
+  "materials_and_methods_summary": {
+    "substrate": {
+      "material": "Quartz glass",
+      "supplier": "Xuzhong Quartz Products Co., Ltd., China",
+      "dimensions": "10 mm diameter circular pieces",
+      "initial_roughness": {
+        "value": 2.65,
+        "unit": "nm",
+        "measurement_area": "15 x 15 µm²",
+        "method": "AFM"
+      }
+    },
+    "abrasives": [
+      {
+        "name": "CeO₂",
+        "type": "Commercial calcined nanopowder",
+        "supplier": "Zhongye New Materials Co., Ltd., China",
+        "reported_size_supplier": "~80 nm mean",
+        "characterization": {
+          "morphology": "Irregular spherical nanoparticles with prominent edges and corners (Fig 2a, 2b)",
+          "particle_size_distribution": {
+            "mean": {
+              "value": 83.62,
+              "unit": "nm"
+            },
+            "range": null,
+            "method": "TEM analysis (Fig 2c)"
+          }
+        }
+      },
+      {
+        "name": "MoS₂",
+        "type": "Nanopowder",
+        "supplier": "Shanghai Macklin Biochemical Technology Co., Ltd., China",
+        "purity": "≥99.5%",
+        "characterization": {
+          "morphology": "Layered nanosheets, lamellar structure (Fig 2d, 2e, 2f)"
+        }
+      }
+    ],
+    "additives": [
+      {
+        "name": "Potassium Oleate (KOL)",
+        "supplier": "Shanghai Macklin Biochemical Technology Co., Ltd., China",
+        "purity": "98%",
+        "role": "Surfactant, pH adjustment (alkaline environment)"
+      },
+      {
+        "name": "NaOH",
+        "supplier": "Shanghai Macklin Biochemical Technology Co., Ltd., China",
+        "purity": "97%",
+        "role": "pH regulator (for S1 only)"
+      }
+    ],
+    "solvent": "Deionised water (DIW)",
+    "slurry_preparation_method": "Mechanical swirling, followed by 20 min ultrasonic treatment for uniform suspension.",
+    "cmp_process": {
+      "equipment": "UNIPOL-802 precision lapping/polishing machine (Shenyang Kejing Auto-instrument Co., Ltd.)",
+      "pad": {
+        "material": "Polyurethane",
+        "supplier": "Shenyang Kejing Auto-instrument Co., Ltd."
+      },
+      "slurry_delivery": "BT-300EA digital peristaltic pump (Chongqing Jieheng Peristaltic Pump Co., Ltd.)",
+      "parameters": {
+        "polishing_disk_rotation_speed": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.35,
+          "unit": "kg"
+        },
+        "polishing_time": {
+          "value": 40,
+          "unit": "min"
+        },
+        "cmp_slurry_feed_rate": {
+          "value": 15,
+          "unit": "mL/min"
+        },
+        "amount_of_slurry_used_per_run": {
+           "value": 300,
+           "unit": "g"
+        }
+      },
+      "post_cmp_cleaning": "Ultrasonically washed with DIW and absolute ethanol for 10 min"
+    },
+    "characterization_techniques": [
+      {"instrument": "SEM", "model": "S4800", "manufacturer": "Hitachi, Japan", "purpose": "Observe abrasive morphologies and sizes"},
+      {"instrument": "TEM", "model": "JEM-F200", "manufacturer": "JEOL, Japan", "purpose": "Observe abrasive morphologies and sizes"},
+      {"instrument": "Contact Angle Analyzer", "model": "DSA25R", "manufacturer": "KRUSS Scientific, Germany", "method": "Sessile drop", "purpose": "Measure slurry wettability on quartz glass"},
+      {"instrument": "AFM", "model": "Dimension ICON", "manufacturer": "Bruker, Germany", "purpose": "Measure surface profile and roughness (Ra)"},
+      {"instrument": "XPS", "model": "Axis Supra", "manufacturer": "Shimadzu, Japan", "radiation": "Monochromatic Al Kα", "calibration": "C1s at 284.8 eV", "purpose": "Analyze elemental composition and valence states"},
+      {"instrument": "FTIR Spectrometer", "model": "INVENIO", "manufacturer": "Bruker, Germany", "range": "400-4000 cm⁻¹", "purpose": "Analyze chemical bonds and interactions"}
+    ]
+  },
+  "mechanism_summary": {
+    "role_of_KOL": "Acts as surfactant, reduces surface tension, creates stable suspension. Hydrolyzes to produce OH⁻, making the system alkaline (pH ~10). Alkaline environment reacts with SiO₂ to form silicate insoluble substances (softened layer), enhancing chemical removal.",
+    "role_of_CeO2": "Ce⁴⁺ can reduce to Ce³⁺. Ce³⁺ reacts with Si-O bonds on the quartz surface, weakening them and forming Ce-O-Si bonds, which are removed under mechanical stress.",
+    "role_of_MoS2": "Acts as a solid lubricant due to its layered structure and weak van der Waals forces between layers. Positioned between abrasive, pad, and substrate, it reduces friction and prevents excessive mechanical damage (scratches, pits) caused by hard/irregular CeO₂ particles. Enhances abrasive fluidity and wettability. Does not participate in chemical reactions (confirmed by XPS).",
+    "synergistic_effect": "Combination of KOL-induced chemical softening, CeO₂ chemical reactivity (Ce³⁺), and MoS₂ lubrication leads to higher MRR and lower Ra compared to traditional CeO₂ slurry. MoS₂ mitigates mechanical damage while KOL/CeO₂ enhance chemical removal."
+  },
+  "samples": [
+    {
+      "sample_id": "S1",
+      "experiment_context": "Baseline CMP slurry with CeO₂ abrasive and NaOH for pH adjustment.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "abrasive_mos2_concentration": {
+          "value": 0,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH regulator",
+            "concentration": {
+              "value": null,
+              "unit": null,
+              "notes": "Used to achieve target pH"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "contact_angle_on_quartz": {
+           "value": 49.7,
+           "unit": "degrees"
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 40,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 9.27,
+          "unit": "µm/h"
+        },
+        "final_surface_roughness_ra": {
+          "value": 0.83,
+          "unit": "nm",
+          "measurement_area": "15 x 15 µm²",
+          "method": "AFM"
+        },
+        "process_temperature": {
+          "value": "Room temperature",
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.35,
+          "unit": "kg"
+        },
+        "polishing_disk_rotation_speed": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "cmp_slurry_feed_rate": {
+          "value": 15,
+          "unit": "mL/min"
+        },
+        "equipment_model": "UNIPOL-802",
+        "pad_composition": "Polyurethane"
+      }
+    },
+    {
+      "sample_id": "S2",
+      "experiment_context": "CMP slurry with CeO₂, 0.1 wt% MoS₂, and 0.2 wt% KOL.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "abrasive_mos2_concentration": {
+          "value": 0.1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOL",
+            "type": "Surfactant / pH adjustment",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "contact_angle_on_quartz": {
+           "value": null,
+           "unit": "degrees",
+           "notes": "Lower than S1 based on Fig 4, exact value not specified but visually ~35-40 degrees"
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 40,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 11.0,
+          "unit": "µm/h"
+        },
+        "final_surface_roughness_ra": {
+          "value": 0.69,
+          "unit": "nm",
+          "measurement_area": "15 x 15 µm²",
+          "method": "AFM"
+        },
+        "process_temperature": {
+          "value": "Room temperature",
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.35,
+          "unit": "kg"
+        },
+        "polishing_disk_rotation_speed": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "cmp_slurry_feed_rate": {
+          "value": 15,
+          "unit": "mL/min"
+        },
+        "equipment_model": "UNIPOL-802",
+        "pad_composition": "Polyurethane"
+      }
+    },
+    {
+      "sample_id": "S3",
+      "experiment_context": "CMP slurry with CeO₂, 0.3 wt% MoS₂, and 0.2 wt% KOL.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "abrasive_mos2_concentration": {
+          "value": 0.3,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOL",
+            "type": "Surfactant / pH adjustment",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "contact_angle_on_quartz": {
+           "value": null,
+           "unit": "degrees",
+           "notes": "Lower than S1 based on Fig 4, exact value not specified but visually ~30-35 degrees (lowest)"
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 40,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 17.0,
+          "unit": "µm/h",
+          "notes": "Value read from Fig 5 bar chart, text mentions 24.03 µm/h for S4, not S3. Re-checking Fig 5, S3 MRR is ~17 µm/h."
+        },
+        "final_surface_roughness_ra": {
+          "value": 0.59,
+          "unit": "nm",
+          "measurement_area": "15 x 15 µm²",
+          "method": "AFM"
+        },
+        "process_temperature": {
+          "value": "Room temperature",
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.35,
+          "unit": "kg"
+        },
+        "polishing_disk_rotation_speed": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "cmp_slurry_feed_rate": {
+          "value": 15,
+          "unit": "mL/min"
+        },
+        "equipment_model": "UNIPOL-802",
+        "pad_composition": "Polyurethane"
+      }
+    },
+    {
+      "sample_id": "S4",
+      "experiment_context": "CMP slurry with CeO₂, 0.3 wt% MoS₂, and 0.2 wt% KOL. Identified as optimal composition.",
+       "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "abrasive_mos2_concentration": {
+          "value": 0.3,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOL",
+            "type": "Surfactant / pH adjustment",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "contact_angle_on_quartz": {
+           "value": null,
+           "unit": "degrees",
+           "notes": "Lower than S1 based on Fig 4, exact value not specified but visually ~30-35 degrees (lowest). Text states best wettability for 0.3 wt% MoS2."
+         },
+         "xps_analysis_after_cmp": {
+            "O1s_peaks_eV": [532.1, 531.04, 528.97],
+            "O1s_assignments": ["Ce-O-Si bond", "O²⁻ in Ce³⁺ context", "O²⁻ in Ce⁴⁺ context"],
+            "S2p_peaks_eV": [162.64, 161.48],
+            "S2p_assignments": ["S 2p₁/₂", "S 2p₃/₂"],
+            "Mo3d_peaks_eV": [231.78, 228.63],
+            "Mo3d_assignments": ["Mo 3d₃/₂", "Mo 3d₅/₂"],
+            "notes": "MoS₂ peaks show minimal shift, indicating no chemical reaction participation."
+         },
+         "ftir_analysis_after_cmp_on_quartz": {
+             "peaks_cm-1": [1105.5, 794.6, 490.7],
+             "assignments": ["Shifted Si-O-Si asymmetric tension", "Shifted Si-O-Si symmetric tension", "Shifted Si-O-Si bending"],
+             "notes": "Shifts indicate interaction, likely Ce-O-Si bond formation."
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 40,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 24.03,
+          "unit": "µm/h"
+        },
+        "final_surface_roughness_ra": {
+          "value": 0.48,
+          "unit": "nm",
+          "measurement_area": "15 x 15 µm²",
+          "method": "AFM"
+        },
+        "process_temperature": {
+          "value": "Room temperature",
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.35,
+          "unit": "kg"
+        },
+        "polishing_disk_rotation_speed": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "cmp_slurry_feed_rate": {
+          "value": 15,
+          "unit": "mL/min"
+        },
+        "equipment_model": "UNIPOL-802",
+        "pad_composition": "Polyurethane"
+      }
+    },
+    {
+      "sample_id": "S5",
+      "experiment_context": "CMP slurry with CeO₂, 0.5 wt% MoS₂, and 0.2 wt% KOL.",
+       "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "abrasive_mos2_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOL",
+            "type": "Surfactant / pH adjustment",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "contact_angle_on_quartz": {
+           "value": null,
+           "unit": "degrees",
+           "notes": "Lower than S1 based on Fig 4, exact value not specified but visually ~35-40 degrees"
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 40,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 22.87,
+          "unit": "µm/h"
+        },
+        "final_surface_roughness_ra": {
+          "value": 0.68,
+          "unit": "nm",
+          "measurement_area": "15 x 15 µm²",
+          "method": "AFM"
+        },
+        "process_temperature": {
+          "value": "Room temperature",
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.35,
+          "unit": "kg"
+        },
+        "polishing_disk_rotation_speed": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "cmp_slurry_feed_rate": {
+          "value": 15,
+          "unit": "mL/min"
+        },
+        "equipment_model": "UNIPOL-802",
+        "pad_composition": "Polyurethane"
+      }
+    }
+  ]
+}

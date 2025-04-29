@@ -1,0 +1,673 @@
+{
+  "doi": null,
+  "title": "Reverse selectivity - High silicon nitride and low silicon dioxide removal rates using ceria abrasive-based dispersions",
+  "year_published": "2010",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Ceria_PAD_X=0_pH4",
+      "experiment_context": "Polishing experiment using 0.25 wt% Ceria abrasive dispersion without PAD additive (X=0) at pH 4.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (CeO2)",
+        "abrasive_source": "Rhodia Electronics and Catalysis, Inc.",
+        "abrasive_product_code": "CeO2 60 (0)",
+        "abrasive_concentration": {
+          "value": "0.25",
+          "unit": "wt%"
+        },
+        "abrasive_primary_particle_size": {
+          "value": "60",
+          "unit": "nm"
+        },
+        "abrasive_secondary_particle_size": {
+          "value": "163",
+          "unit": "nm",
+          "measurement_method_used": "DLS"
+        },
+        "additives": [],
+        "pad_to_abrasive_ratio_X": {
+            "value": "0",
+            "unit": null
+        },
+        "target_final_slurry_ph": "4",
+        "ph_adjustment_chemicals": ["Nitric acid", "Potassium hydroxide"],
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "zeta_potential_ceria": {
+          "value": "~+30",
+          "unit": "mV",
+          "conditions": "pH 4, X=0"
+        },
+        "tga_weight_loss_ceria": {
+          "value": "~0.0",
+          "unit": "%",
+          "conditions": "pH 4, X=0, starting at ~195°C"
+        },
+        "uv_vis_filtrate_peak_300_310nm": true
+      },
+      "cmp_performance": {
+        "substrate_polished": ["Silicon dioxide", "Silicon nitride"],
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+             "material": "Silicon dioxide",
+             "value": "~350",
+             "unit": "nm/min"
+           },
+           {
+             "material": "Silicon nitride",
+             "value": "~120",
+             "unit": "nm/min"
+           }
+        ],
+        "polishing_pressure_operating": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "polishing_pressure_retaining_ring": {
+          "value": "5.5",
+          "unit": "psi"
+        },
+        "carrier_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "platen_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "~200",
+            "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G&P Technology)",
+        "pad_composition": "IC-1000, k-groove",
+        "pad_manufacturer": "Dow Electronic Materials (implied)",
+        "pad_conditioning": {
+            "tool": "3M diamond-grit pad conditioner",
+            "method": "in situ"
+        },
+        "contact_angle_after_polish": [
+            {
+                "material": "Silicon dioxide",
+                "value": "40",
+                "error": "5",
+                "unit": "degrees"
+            },
+            {
+                "material": "Silicon nitride",
+                "value": "33",
+                "error": "2",
+                "unit": "degrees"
+            }
+        ],
+        "friction_coefficient": [
+            {
+                "material": "Silicon dioxide",
+                "value": "~0.2",
+                "unit": null
+            },
+            {
+                "material": "Silicon nitride",
+                "value": "~0.27",
+                "unit": null
+            }
+        ]
+      }
+    },
+    {
+      "sample_id": "Ceria_PAD_X=0.2_pH4",
+      "experiment_context": "Polishing experiment using 0.25 wt% Ceria abrasive dispersion with PAD additive (X=0.2) at pH 4.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (CeO2)",
+        "abrasive_source": "Rhodia Electronics and Catalysis, Inc.",
+        "abrasive_product_code": "CeO2 60 (2+)",
+        "abrasive_concentration": {
+          "value": "0.25",
+          "unit": "wt%"
+        },
+        "abrasive_primary_particle_size": {
+          "value": "60",
+          "unit": "nm"
+        },
+        "abrasive_secondary_particle_size": {
+          "value": "140-170",
+          "unit": "nm",
+          "measurement_method_used": "DLS"
+        },
+        "additives": [
+          {
+            "name": "poly(acrylicacid-co-diallyldimethylammonium chloride)",
+            "abbreviation": "PAD",
+            "type": "Cationic polymer",
+            "concentration_relative_to_abrasive_X": {
+                "value": "0.2",
+                "unit": null
+            },
+            "concentration_absolute": {
+                "value": "0.05",
+                "unit": "wt%"
+            },
+            "molecular_weight_avg": {
+                "value": "~4200",
+                "unit": "g/mole"
+            },
+            "source": "Rhodia Inc."
+          }
+        ],
+        "pad_to_abrasive_ratio_X": {
+            "value": "0.2",
+            "unit": null
+        },
+        "target_final_slurry_ph": "4",
+        "ph_adjustment_chemicals": ["Nitric acid", "Potassium hydroxide"],
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "zeta_potential_ceria": {
+          "value": "~+25",
+          "unit": "mV",
+          "conditions": "pH 4, X=0.2"
+        },
+        "tga_weight_loss_ceria": {
+          "value": "~1.1",
+          "unit": "%",
+          "conditions": "pH 4, X=0.2, starting at ~195°C"
+        },
+        "adsorption_on_ceria": {
+            "value": "~20",
+            "unit": "mg/g",
+            "conditions": "pH 4, 0.05 wt% PAD"
+        },
+        "uv_vis_filtrate_peak_300_310nm": true
+      },
+      "cmp_performance": {
+        "substrate_polished": ["Silicon dioxide", "Silicon nitride"],
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+             "material": "Silicon dioxide",
+             "value": "~24",
+             "unit": "nm/min"
+           },
+           {
+             "material": "Silicon nitride",
+             "value": "~120",
+             "unit": "nm/min"
+           }
+        ],
+        "polishing_pressure_operating": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "polishing_pressure_retaining_ring": {
+          "value": "5.5",
+          "unit": "psi"
+        },
+        "carrier_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "platen_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "~200",
+            "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G&P Technology)",
+        "pad_composition": "IC-1000, k-groove",
+        "pad_manufacturer": "Dow Electronic Materials (implied)",
+        "pad_conditioning": {
+            "tool": "3M diamond-grit pad conditioner",
+            "method": "in situ"
+        },
+        "contact_angle_after_polish": [
+            {
+                "material": "Silicon dioxide",
+                "value": "54",
+                "error": "4",
+                "unit": "degrees"
+            },
+            {
+                "material": "Silicon nitride",
+                "value": "35",
+                "error": "4",
+                "unit": "degrees"
+            }
+        ],
+        "friction_coefficient": [
+            {
+                "material": "Silicon dioxide",
+                "value": "~0.1",
+                "unit": null
+            },
+            {
+                "material": "Silicon nitride",
+                "value": "~0.27",
+                "unit": null
+            }
+        ]
+      }
+    },
+    {
+      "sample_id": "Ceria_PAD_X=0.5_pH4",
+      "experiment_context": "Polishing experiment using 0.25 wt% Ceria abrasive dispersion with PAD additive (X=0.5) at pH 4.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (CeO2)",
+        "abrasive_source": "Rhodia Electronics and Catalysis, Inc.",
+        "abrasive_product_code": "CeO2 60 (2+)",
+        "abrasive_concentration": {
+          "value": "0.25",
+          "unit": "wt%"
+        },
+        "abrasive_primary_particle_size": {
+          "value": "60",
+          "unit": "nm"
+        },
+        "abrasive_secondary_particle_size": {
+          "value": "140-170",
+          "unit": "nm",
+          "measurement_method_used": "DLS"
+        },
+        "additives": [
+          {
+            "name": "poly(acrylicacid-co-diallyldimethylammonium chloride)",
+            "abbreviation": "PAD",
+            "type": "Cationic polymer",
+            "concentration_relative_to_abrasive_X": {
+                "value": "0.5",
+                "unit": null
+            },
+            "concentration_absolute": {
+                "value": "0.125",
+                "unit": "wt%"
+            },
+            "molecular_weight_avg": {
+                "value": "~4200",
+                "unit": "g/mole"
+            },
+            "source": "Rhodia Inc."
+          }
+        ],
+        "pad_to_abrasive_ratio_X": {
+            "value": "0.5",
+            "unit": null
+        },
+        "target_final_slurry_ph": "4",
+        "ph_adjustment_chemicals": ["Nitric acid", "Potassium hydroxide"],
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "zeta_potential_ceria": null,
+         "tga_weight_loss_ceria": null,
+         "adsorption_on_ceria": {
+            "value": "~25",
+            "unit": "mg/g",
+            "conditions": "pH 4, 0.125 wt% PAD"
+         },
+         "uv_vis_filtrate_peak_300_310nm": null
+      },
+      "cmp_performance": {
+        "substrate_polished": ["Silicon dioxide", "Silicon nitride"],
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+             "material": "Silicon dioxide",
+             "value": "~19",
+             "unit": "nm/min"
+           },
+           {
+             "material": "Silicon nitride",
+             "value": "~125",
+             "unit": "nm/min"
+           }
+        ],
+        "polishing_pressure_operating": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "polishing_pressure_retaining_ring": {
+          "value": "5.5",
+          "unit": "psi"
+        },
+        "carrier_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "platen_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "~200",
+            "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G&P Technology)",
+        "pad_composition": "IC-1000, k-groove",
+        "pad_manufacturer": "Dow Electronic Materials (implied)",
+        "pad_conditioning": {
+            "tool": "3M diamond-grit pad conditioner",
+            "method": "in situ"
+        },
+        "contact_angle_after_polish": null,
+        "friction_coefficient": [
+            {
+                "material": "Silicon dioxide",
+                "value": "~0.07",
+                "unit": null,
+                "note": "Interpolated estimate from Fig 10"
+            },
+            {
+                "material": "Silicon nitride",
+                "value": "~0.27",
+                "unit": null
+            }
+        ]
+      }
+    },
+    {
+      "sample_id": "Ceria_PAD_X=0.8_pH4",
+      "experiment_context": "Polishing experiment using 0.25 wt% Ceria abrasive dispersion with PAD additive (X=0.8) at pH 4.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (CeO2)",
+        "abrasive_source": "Rhodia Electronics and Catalysis, Inc.",
+        "abrasive_product_code": "CeO2 60 (2+)",
+        "abrasive_concentration": {
+          "value": "0.25",
+          "unit": "wt%"
+        },
+        "abrasive_primary_particle_size": {
+          "value": "60",
+          "unit": "nm"
+        },
+        "abrasive_secondary_particle_size": {
+          "value": "140-170",
+          "unit": "nm",
+          "measurement_method_used": "DLS"
+        },
+        "additives": [
+          {
+            "name": "poly(acrylicacid-co-diallyldimethylammonium chloride)",
+            "abbreviation": "PAD",
+            "type": "Cationic polymer",
+            "concentration_relative_to_abrasive_X": {
+                "value": "0.8",
+                "unit": null
+            },
+            "concentration_absolute": {
+                "value": "0.2",
+                "unit": "wt%"
+            },
+            "molecular_weight_avg": {
+                "value": "~4200",
+                "unit": "g/mole"
+            },
+            "source": "Rhodia Inc."
+          }
+        ],
+        "pad_to_abrasive_ratio_X": {
+            "value": "0.8",
+            "unit": null
+        },
+        "target_final_slurry_ph": "4",
+        "ph_adjustment_chemicals": ["Nitric acid", "Potassium hydroxide"],
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "zeta_potential_ceria": {
+          "value": "~+15",
+          "unit": "mV",
+          "conditions": "pH 4, X=0.8"
+        },
+        "tga_weight_loss_ceria": null,
+        "adsorption_on_ceria": {
+            "value": "~30",
+            "unit": "mg/g",
+            "conditions": "pH 4, 0.2 wt% PAD"
+        },
+        "uv_vis_filtrate_peak_300_310nm": null
+      },
+      "cmp_performance": {
+        "substrate_polished": ["Silicon dioxide", "Silicon nitride"],
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+             "material": "Silicon dioxide",
+             "value": "~6",
+             "unit": "nm/min"
+           },
+           {
+             "material": "Silicon nitride",
+             "value": "~128",
+             "unit": "nm/min"
+           }
+        ],
+        "polishing_pressure_operating": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "polishing_pressure_retaining_ring": {
+          "value": "5.5",
+          "unit": "psi"
+        },
+        "carrier_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "platen_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "~200",
+            "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G&P Technology)",
+        "pad_composition": "IC-1000, k-groove",
+        "pad_manufacturer": "Dow Electronic Materials (implied)",
+        "pad_conditioning": {
+            "tool": "3M diamond-grit pad conditioner",
+            "method": "in situ"
+        },
+        "contact_angle_after_polish": [
+            {
+                "material": "Silicon dioxide",
+                "value": "60",
+                "error": "6",
+                "unit": "degrees"
+            },
+            {
+                "material": "Silicon nitride",
+                "value": "33",
+                "error": "9",
+                "unit": "degrees"
+            }
+        ],
+        "friction_coefficient": [
+            {
+                "material": "Silicon dioxide",
+                "value": "~0.05",
+                "unit": null,
+                "note": "Estimated from Fig 10"
+            },
+            {
+                "material": "Silicon nitride",
+                "value": "~0.27",
+                "unit": null
+            }
+        ]
+      }
+    },
+    {
+      "sample_id": "Ceria_PAD_X=1.25_pH4",
+      "experiment_context": "Polishing experiment using 0.25 wt% Ceria abrasive dispersion with PAD additive (X=1.25) at pH 4.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (CeO2)",
+        "abrasive_source": "Rhodia Electronics and Catalysis, Inc.",
+        "abrasive_product_code": "CeO2 60 (2+)",
+        "abrasive_concentration": {
+          "value": "0.25",
+          "unit": "wt%"
+        },
+        "abrasive_primary_particle_size": {
+          "value": "60",
+          "unit": "nm"
+        },
+        "abrasive_secondary_particle_size": {
+          "value": "140-170",
+          "unit": "nm",
+          "measurement_method_used": "DLS"
+        },
+        "additives": [
+          {
+            "name": "poly(acrylicacid-co-diallyldimethylammonium chloride)",
+            "abbreviation": "PAD",
+            "type": "Cationic polymer",
+            "concentration_relative_to_abrasive_X": {
+                "value": "1.25",
+                "unit": null
+            },
+            "concentration_absolute": {
+                "value": "0.3125",
+                "unit": "wt%"
+            },
+            "molecular_weight_avg": {
+                "value": "~4200",
+                "unit": "g/mole"
+            },
+            "source": "Rhodia Inc."
+          }
+        ],
+        "pad_to_abrasive_ratio_X": {
+            "value": "1.25",
+            "unit": null
+        },
+        "target_final_slurry_ph": "4",
+        "ph_adjustment_chemicals": ["Nitric acid", "Potassium hydroxide"],
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "zeta_potential_ceria": {
+          "value": "~10",
+          "unit": "mV",
+          "conditions": "pH 4, X=1.25"
+        },
+        "tga_weight_loss_ceria": {
+          "value": "~3.6",
+          "unit": "%",
+          "conditions": "pH 4, X=1.25, starting at ~195°C"
+        },
+         "adsorption_on_ceria": {
+            "value": "~35",
+            "unit": "mg/g",
+            "conditions": "pH 4, 0.3125 wt% PAD"
+         },
+        "uv_vis_filtrate_peak_300_310nm": false
+      },
+      "cmp_performance": {
+        "substrate_polished": ["Silicon dioxide", "Silicon nitride"],
+        "polishing_time": {
+          "value": "1",
+          "unit": "min",
+          "note": "Also tested up to 8 min (Fig 11)"
+        },
+        "material_removal_rate": [
+           {
+             "material": "Silicon dioxide",
+             "value": "<2",
+             "unit": "nm/min",
+             "note": "Value is '<2 nm/min' per Fig 4. Remained ~0 after 8 min per Fig 11."
+           },
+           {
+             "material": "Silicon nitride",
+             "value": "~120",
+             "unit": "nm/min"
+           }
+        ],
+        "polishing_pressure_operating": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "polishing_pressure_retaining_ring": {
+          "value": "5.5",
+          "unit": "psi"
+        },
+        "carrier_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "platen_speed": {
+            "value": "75",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "~200",
+            "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G&P Technology)",
+        "pad_composition": "IC-1000, k-groove",
+        "pad_manufacturer": "Dow Electronic Materials (implied)",
+        "pad_conditioning": {
+            "tool": "3M diamond-grit pad conditioner",
+            "method": "in situ"
+        },
+        "contact_angle_after_polish": [
+            {
+                "material": "Silicon dioxide",
+                "value": "68",
+                "error": "3",
+                "unit": "degrees"
+            },
+            {
+                "material": "Silicon nitride",
+                "value": "34",
+                "error": "8",
+                "unit": "degrees"
+            }
+        ],
+        "friction_coefficient": [
+            {
+                "material": "Silicon dioxide",
+                "value": "~0.01",
+                "unit": null
+            },
+            {
+                "material": "Silicon nitride",
+                "value": "~0.27",
+                "unit": null
+            }
+        ]
+      }
+    }
+  ]
+}

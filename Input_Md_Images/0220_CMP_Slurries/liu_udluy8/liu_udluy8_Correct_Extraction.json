@@ -1,0 +1,512 @@
+{
+  "doi": null,
+  "title": "Novel green chemical mechanical polishing of fused silica through designing synergistic CeO₂/h-BN abrasives with lubricity",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "S1",
+      "experiment_context": "CMP of Fused Silica (FS) using slurry S1 (CeO2 + NaOH).",
+      "substrate_details": {
+        "material": "Fused Silica (FS)",
+        "purity": {
+          "value": "99.99",
+          "unit": "%"
+        },
+        "dimensions": {
+          "value": "10x10x5",
+          "unit": "mm³"
+        },
+        "initial_surface_roughness_sa": {
+          "value": "64.990",
+          "unit": "nm",
+          "measurement_area": "100x100 µm²",
+          "condition": "Before lapping"
+        },
+        "lapped_surface_roughness_sa": {
+          "value": "~1.255",
+          "unit": "nm",
+          "condition": "After lapping with 5.0 wt% SiO2, 0.4 wt% PEG 400, DIW slurry for 30 min"
+        }
+      },
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "name": "CeO₂",
+            "type": "Commercial calcined nanopowder",
+            "concentration": {
+              "value": "4.0",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "value": "50.48 ± 2.33",
+              "unit": "nm",
+              "measurement_method_used": "TEM (average from Fig 2c)",
+              "range": "45-57 nm"
+            },
+            "particle_morphology": "Irregular shapes with sharp edges and corners (Fig 2a, b)"
+          }
+        ],
+        "additives": [
+           {
+            "name": "NaOH",
+            "type": "pH regulator",
+            "concentration": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "DIW",
+          "quantity": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "characterization": {
+         "contact_angle_on_fs": {
+           "value": "~38",
+           "unit": "degrees",
+           "measurement_method_used": "Sessile drop method (DSA100, KRUSS Scientific)"
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "45",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "~10",
+          "unit": "µm/h",
+           "estimation_source": "Fig 5"
+        },
+        "surface_roughness_sa": {
+          "value": "~0.25",
+          "unit": "nm",
+          "estimation_source": "Fig 5"
+        },
+        "subsurface_damage_depth": {
+            "value": null,
+            "unit": "nm"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "35.2",
+          "unit": "kPa"
+        },
+         "polishing_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "slurry_feed_rate": {
+            "value": "11",
+            "unit": "mL/min"
+        },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Auto-instrument Co., Ltd.)",
+        "pad_composition": "Nubuck leather pad"
+      }
+    },
+    {
+      "sample_id": "S2",
+      "experiment_context": "CMP of Fused Silica (FS) using slurry S2 (CeO2 + KOL + h-BN).",
+       "substrate_details": {
+        "material": "Fused Silica (FS)",
+        "purity": {
+          "value": "99.99",
+          "unit": "%"
+        },
+        "dimensions": {
+          "value": "10x10x5",
+          "unit": "mm³"
+        },
+        "initial_surface_roughness_sa": {
+          "value": "64.990",
+          "unit": "nm",
+          "measurement_area": "100x100 µm²",
+          "condition": "Before lapping"
+        },
+        "lapped_surface_roughness_sa": {
+          "value": "~1.255",
+          "unit": "nm",
+          "condition": "After lapping with 5.0 wt% SiO2, 0.4 wt% PEG 400, DIW slurry for 30 min"
+        }
+      },
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "name": "CeO₂",
+            "type": "Commercial calcined nanopowder",
+            "concentration": {
+              "value": "4.0",
+              "unit": "wt%"
+            },
+             "particle_size_distribution": {
+              "value": "50.48 ± 2.33",
+              "unit": "nm",
+              "measurement_method_used": "TEM (average from Fig 2c)",
+              "range": "45-57 nm"
+            },
+            "particle_morphology": "Irregular shapes with sharp edges and corners (Fig 2a, b)"
+          },
+          {
+            "name": "h-BN",
+            "type": "Nanoflakes",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "particle_morphology": "Layered structure, nanosheet (Fig 2d, e)"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Potassium Oleate (KOL)",
+            "type": "Surfactant / pH regulator",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "purity": {
+                "value": ">98",
+                "unit": "%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "DIW",
+          "quantity": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+       "characterization": {
+         "contact_angle_on_fs": {
+           "value": "~25",
+           "unit": "degrees",
+           "measurement_method_used": "Sessile drop method (DSA100, KRUSS Scientific)"
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "45",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "~25",
+          "unit": "µm/h",
+          "estimation_source": "Fig 5"
+        },
+        "surface_roughness_sa": {
+          "value": "~0.18",
+          "unit": "nm",
+          "estimation_source": "Fig 5"
+        },
+         "subsurface_damage_depth": {
+            "value": null,
+            "unit": "nm"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "35.2",
+          "unit": "kPa"
+        },
+         "polishing_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+         "slurry_feed_rate": {
+            "value": "11",
+            "unit": "mL/min"
+        },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Auto-instrument Co., Ltd.)",
+        "pad_composition": "Nubuck leather pad"
+      }
+    },
+    {
+      "sample_id": "S3",
+      "experiment_context": "CMP of Fused Silica (FS) using slurry S3 (CeO2 + KOL + h-BN).",
+       "substrate_details": {
+        "material": "Fused Silica (FS)",
+        "purity": {
+          "value": "99.99",
+          "unit": "%"
+        },
+        "dimensions": {
+          "value": "10x10x5",
+          "unit": "mm³"
+        },
+        "initial_surface_roughness_sa": {
+          "value": "64.990",
+          "unit": "nm",
+          "measurement_area": "100x100 µm²",
+          "condition": "Before lapping"
+        },
+        "lapped_surface_roughness_sa": {
+          "value": "~1.255",
+          "unit": "nm",
+          "condition": "After lapping with 5.0 wt% SiO2, 0.4 wt% PEG 400, DIW slurry for 30 min"
+        }
+      },
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "name": "CeO₂",
+            "type": "Commercial calcined nanopowder",
+            "concentration": {
+              "value": "4.0",
+              "unit": "wt%"
+            },
+             "particle_size_distribution": {
+              "value": "50.48 ± 2.33",
+              "unit": "nm",
+              "measurement_method_used": "TEM (average from Fig 2c)",
+              "range": "45-57 nm"
+            },
+            "particle_morphology": "Irregular shapes with sharp edges and corners (Fig 2a, b)"
+          },
+          {
+            "name": "h-BN",
+            "type": "Nanoflakes",
+            "concentration": {
+              "value": "0.4",
+              "unit": "wt%"
+            },
+            "particle_morphology": "Layered structure, nanosheet (Fig 2d, e)"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Potassium Oleate (KOL)",
+            "type": "Surfactant / pH regulator",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+             "purity": {
+                "value": ">98",
+                "unit": "%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "DIW",
+          "quantity": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+       "characterization": {
+         "contact_angle_on_fs": {
+           "value": "~24",
+           "unit": "degrees",
+           "measurement_method_used": "Sessile drop method (DSA100, KRUSS Scientific)"
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "45",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "~28",
+          "unit": "µm/h",
+          "estimation_source": "Fig 5"
+        },
+        "surface_roughness_sa": {
+          "value": "~0.15",
+          "unit": "nm",
+          "estimation_source": "Fig 5"
+        },
+         "subsurface_damage_depth": {
+            "value": null,
+            "unit": "nm"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "35.2",
+          "unit": "kPa"
+        },
+         "polishing_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+         "slurry_feed_rate": {
+            "value": "11",
+            "unit": "mL/min"
+        },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Auto-instrument Co., Ltd.)",
+        "pad_composition": "Nubuck leather pad"
+      }
+    },
+    {
+      "sample_id": "S4",
+      "experiment_context": "CMP of Fused Silica (FS) using slurry S4 (Novel CMP Slurry: CeO2 + KOL + h-BN). Identified as the optimal slurry.",
+       "substrate_details": {
+        "material": "Fused Silica (FS)",
+        "purity": {
+          "value": "99.99",
+          "unit": "%"
+        },
+        "dimensions": {
+          "value": "10x10x5",
+          "unit": "mm³"
+        },
+        "initial_surface_roughness_sa": {
+          "value": "64.990",
+          "unit": "nm",
+          "measurement_area": "100x100 µm²",
+          "condition": "Before lapping"
+        },
+        "lapped_surface_roughness_sa": {
+          "value": "~1.255",
+          "unit": "nm",
+          "condition": "After lapping with 5.0 wt% SiO2, 0.4 wt% PEG 400, DIW slurry for 30 min"
+        }
+      },
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "name": "CeO₂",
+            "type": "Commercial calcined nanopowder",
+            "concentration": {
+              "value": "4.0",
+              "unit": "wt%"
+            },
+             "particle_size_distribution": {
+              "value": "50.48 ± 2.33",
+              "unit": "nm",
+              "measurement_method_used": "TEM (average from Fig 2c)",
+              "range": "45-57 nm"
+            },
+            "particle_morphology": "Irregular shapes with sharp edges and corners (Fig 2a, b)"
+          },
+          {
+            "name": "h-BN",
+            "type": "Nanoflakes",
+            "concentration": {
+              "value": "0.6",
+              "unit": "wt%"
+            },
+            "particle_morphology": "Layered structure, nanosheet (Fig 2d, e)"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Potassium Oleate (KOL)",
+            "type": "Surfactant / pH regulator",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+             "purity": {
+                "value": ">98",
+                "unit": "%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "DIW",
+          "quantity": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+       "characterization": {
+         "contact_angle_on_fs": {
+           "value": "~20",
+           "unit": "degrees",
+           "measurement_method_used": "Sessile drop method (DSA100, KRUSS Scientific)"
+         },
+         "xps_analysis": {
+            "slurry_before_polishing": {
+                "O_1s_peaks_eV": [ {"binding_energy": 529.13, "assignment": "O²⁻ in Ce⁴⁺"}, {"binding_energy": 531.47, "assignment": "O²⁻ in Ce³⁺"} ],
+                "N_1s_peaks_eV": [ {"binding_energy": 397.79, "assignment": "N-B bonds of h-BN"} ],
+                "B_1s_peaks_eV": [ {"binding_energy": 190.21, "assignment": "B-N bonds of h-BN"} ]
+            },
+            "slurry_after_polishing": {
+                 "O_1s_peaks_eV": [ {"binding_energy": 529.17, "assignment": "O²⁻ in Ce⁴⁺"}, {"binding_energy": 531.59, "assignment": "O²⁻ in Ce³⁺"}, {"binding_energy": 533.15, "assignment": "O²⁻ in ≡Si-O-Ce= bonding"} ],
+                 "N_1s_peaks_eV": [ {"binding_energy": "similar to before polishing", "assignment": "N-B bonds of h-BN"} ],
+                 "B_1s_peaks_eV": [ {"binding_energy": "similar to before polishing", "assignment": "B-N bonds of h-BN"} ]
+            },
+            "fs_before_kol_immersion": {
+                 "O_1s_peaks_eV": [ {"binding_energy": 532.60, "assignment": "O²⁻ in SiO₂"}, {"binding_energy": 531.93, "assignment": "O²⁻ in SiO₂"} ],
+                 "Si_2p_peaks_eV": [ {"binding_energy": 103.13, "assignment": "Si 2p in SiO₂"} ]
+            },
+             "fs_after_kol_immersion": {
+                 "O_1s_peaks_eV": [ {"binding_energy": 533.42, "assignment": "O 1s in O-C (KOL)"}, {"binding_energy": 531.07, "assignment": "O 1s in O=C (KOL)"}, {"binding_energy": 532.67, "assignment": "O 1s signal from SiO₂"}, {"binding_energy": 532.08, "assignment": "O 1s from SiO₃²⁻"} ],
+                 "Si_2p_peaks_eV": [ {"binding_energy": 103.22, "assignment": "Si 2p₃/₂ in SiO₂"}, {"binding_energy": 102.60, "assignment": "Si 2p₃/₂ in SiO₃²⁻"} ]
+            }
+         },
+         "ftir_analysis": {
+             "fs_sample": { "peaks_cm-1": [ {"wavenumber": 1150.3, "assignment": "asymmetric stretching Si-O-Si"}, {"wavenumber": 791.1, "assignment": "symmetric stretching Si-O-Si"}, {"wavenumber": 467.7, "assignment": "bending Si-O-Si"} ] },
+             "kol": { "peaks_cm-1": [ {"wavenumber": 2920.1, "assignment": "asymmetric stretching C-H"}, {"wavenumber": 2850.4, "assignment": "symmetric stretching C-H"}, {"wavenumber": 1563.3, "assignment": "asymmetric stretching -COO⁻"}, {"wavenumber": 1415.6, "assignment": "symmetric stretching -COO⁻"}, {"wavenumber": 1466.6, "assignment": "scissoring -CH₂-"}, {"wavenumber": 721.6, "assignment": "rocking -(CH₂)n-"} ] },
+             "fs_treated_with_kol": { "peaks_cm-1": [ {"wavenumber": 1108.8, "assignment": "shifted Si-O-Si"}, {"wavenumber": 783.5, "assignment": "shifted Si-O-Si"}, {"wavenumber": 470.1, "assignment": "shifted Si-O-Si"}, {"wavenumber": 2922.0, "assignment": "C-H"}, {"wavenumber": 2851.1, "assignment": "C-H"}, {"wavenumber": 1563.6, "assignment": "-COO⁻"}, {"wavenumber": 1416.3, "assignment": "-COO⁻"} ] },
+             "fs_treated_with_slurry_s4": { "peaks_cm-1": [ {"wavenumber": 1091.0, "assignment": "downshifted Si-O-Si (due to =Ce-O-Si≡)"}, {"wavenumber": 777.3, "assignment": "downshifted Si-O-Si"}, {"wavenumber": 455.1, "assignment": "downshifted Si-O-Si"}, {"wavenumber": 1561.9, "assignment": "downshifted -COO⁻ (Ce³⁺ interaction)"}, {"wavenumber": 1410.3, "assignment": "downshifted -COO⁻ (Ce³⁺ interaction)"} ] }
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "45",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "31.92",
+          "unit": "µm/h"
+        },
+        "surface_roughness_sa": {
+          "value": "0.124",
+          "unit": "nm",
+          "measurement_method_used": "3D optical surface profiler (NewView 9000, Zygo)",
+          "measurement_area": "20x20 µm²",
+          "additional_measurements": [
+              {"value": "0.127 ± 0.003", "unit": "nm", "type": "Average Sa (3D profiler)"},
+              {"value": "0.125", "unit": "nm", "type": "Sa (AFM, JPK Nanowizard 4XP)", "measurement_area": "10x10 µm²"}
+          ]
+        },
+         "subsurface_damage_depth": {
+            "value": "~2.7",
+            "unit": "nm",
+            "measurement_method_used": "HRTEM (Talos F200X, Thermo Fisher Scientific)",
+            "condition": "After CMP with S4",
+            "initial_depth_after_lapping": "~60.1 nm"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "35.2",
+          "unit": "kPa"
+        },
+         "polishing_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+         "slurry_feed_rate": {
+            "value": "11",
+            "unit": "mL/min"
+        },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Auto-instrument Co., Ltd.)",
+        "pad_composition": "Nubuck leather pad"
+      }
+    }
+  ]
+}

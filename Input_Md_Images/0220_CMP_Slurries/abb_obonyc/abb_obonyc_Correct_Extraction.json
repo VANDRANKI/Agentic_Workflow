@@ -1,0 +1,714 @@
+{
+  "doi": "10.1016/j.powtec.2024.120290",
+  "title": "Investigation of the impact of optical glass composition on ceria slurry stability during chemical mechanical polishing process",
+  "year_published": "2024",
+  "journal": "Powder Technology",
+  "samples": [
+    {
+      "sample_id": "OS400",
+      "experiment_context": "Original 400 nm ceria particle slurry (Treibacher Industry AG) before polishing process.",
+      "slurry_preparation": {
+        "abrasive_material": "CeO2",
+        "abrasive_nominal_size": {
+          "value": 400,
+          "unit": "nm"
+        },
+        "abrasive_supplier": "Treibacher Industry AG",
+        "abrasive_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "additives": null,
+        "initial_slurry_ph": {
+          "value": "~6.8",
+          "unit": null,
+          "measurement_method_used": "pH meter (inferred from Fig 4)"
+        },
+        "final_slurry_ph": null
+      },
+      "characterization": {
+        "zeta_potential": {
+          "value": -9,
+          "unit": "mV",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)"
+        },
+        "particle_size_distribution": {
+          "d50_value": 700,
+          "unit": "nm",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)",
+          "aggregation_notes": "Initial slight aggregation (D50 ~700nm at 6min post-sonication). Significant sedimentation after 8min, larger aggregates (D50 ~2300nm) after 1 hour."
+        },
+        "particle_morphology": "Significant aggregate formation observed in SEM (Fig 9).",
+        "sedimentation_rate": "Noticeable sedimentation after 60 min, pronounced after 270 min. Correlates with low zeta potential (Fig 8)."
+      },
+      "cmp_performance": null,
+      "instrument_device_model": {
+        "Zetasizer": "Zetasizer Nano (Malvern Panalytical GmbH)",
+        "SEM": "Auriga 60 Crossbeam (Carl Zeiss AG)"
+      }
+    },
+    {
+      "sample_id": "SL400",
+      "experiment_context": "400 nm ceria particle slurry after polishing soda-lime glass for 8 min.",
+      "slurry_preparation": {
+        "abrasive_material": "CeO2",
+        "abrasive_nominal_size": {
+          "value": 400,
+          "unit": "nm"
+        },
+        "abrasive_supplier": "Treibacher Industry AG",
+        "abrasive_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "additives": null,
+        "initial_slurry_ph": {
+          "value": "~6.8",
+          "unit": null
+        },
+        "final_slurry_ph": {
+          "value": 9.86,
+          "unit": null,
+          "measurement_method_used": "pH meter (Fig 4)"
+        }
+      },
+      "characterization": {
+        "zeta_potential": {
+          "value": -32,
+          "unit": "mV",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)"
+        },
+        "particle_size_distribution": {
+          "d50_value": 600,
+          "unit": "nm",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)",
+          "aggregation_notes": "Aggregation observed at 8-12 min (D50 ~1300nm), stabilized around D50 ~600nm after 60 min. Some sedimentation noted (Fig 7c)."
+        },
+        "particle_morphology": "Mainly dispersed particles with minor aggregation observed in SEM (Fig 9).",
+        "sedimentation_rate": "Minimal sedimentation observed over 270 min. Correlates with relatively high zeta potential (Fig 8)."
+      },
+      "cmp_performance": {
+        "substrate_material": "Soda-lime glass",
+        "substrate_dimensions": {
+          "value": "7x7",
+          "unit": "cm"
+        },
+        "substrate_composition": {
+          "SiO2": { "value": 72.80, "unit": "wt%" },
+          "Na2O": { "value": 13.07, "unit": "wt%" },
+          "MgO": { "value": 4.21, "unit": "wt%" },
+          "Al2O3": { "value": 0.48, "unit": "wt%" },
+          "K2O": { "value": 0.28, "unit": "wt%" },
+          "CaO": { "value": 8.80, "unit": "wt%" },
+          "TiO2": { "value": 0.03, "unit": "wt%" },
+          "Fe2O3": { "value": 0.08, "unit": "wt%" }
+        },
+        "polishing_time": {
+          "value": 8,
+          "unit": "min"
+        },
+        "polishing_pressure": {
+          "value": 12.2,
+          "unit": "kPa"
+        },
+        "plate_rotation_speed": {
+          "value": 150,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 12,
+          "unit": "ml/min"
+        },
+        "pad_composition": "LP-66 polyurethane pad",
+        "equipment_model": "Struers Rotopol polishing machine",
+        "material_removal_rate": {
+          "value": 1.35,
+          "unit": "mg/min",
+          "calculation_notes": "Calculated from total mass removal of 10.8 mg (Fig 2) over 8 min."
+        },
+        "pre_cmp_surface_roughness": {
+          "value": 19.85,
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra)"
+        },
+        "post_cmp_surface_roughness": {
+          "value": "~1.5",
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra, estimated from Fig 3)"
+        }
+      },
+      "instrument_device_model": {
+        "Weighing scale": "AUW220D (Shimadzu Corp.)",
+        "Surface profiler": "Alpha-Step IQ surface profiler",
+        "SEM": "Auriga 60 Crossbeam (Carl Zeiss AG)",
+        "Zetasizer": "Zetasizer Nano (Malvern Panalytical GmbH)",
+        "Polishing machine": "Struers Rotopol polishing machine"
+      }
+    },
+    {
+      "sample_id": "BS400",
+      "experiment_context": "400 nm ceria particle slurry after polishing borosilicate glass for 8 min.",
+      "slurry_preparation": {
+        "abrasive_material": "CeO2",
+        "abrasive_nominal_size": {
+          "value": 400,
+          "unit": "nm"
+        },
+        "abrasive_supplier": "Treibacher Industry AG",
+        "abrasive_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "additives": null,
+        "initial_slurry_ph": {
+          "value": "~6.8",
+          "unit": null
+        },
+        "final_slurry_ph": {
+          "value": 8.43,
+          "unit": null,
+          "measurement_method_used": "pH meter (Fig 4)"
+        }
+      },
+      "characterization": {
+        "zeta_potential": {
+          "value": -37,
+          "unit": "mV",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)"
+        },
+        "particle_size_distribution": {
+          "d50_value": 450,
+          "unit": "nm",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)",
+          "aggregation_notes": "Stable PSD (D50 ~450nm) throughout observation period (up to 1h). Good dispersion noted (Fig 7d)."
+        },
+        "particle_morphology": "Mainly dispersed particles with minor aggregation observed in SEM (Fig 9).",
+        "sedimentation_rate": "Minimal sedimentation observed over 270 min. Correlates with high zeta potential (Fig 8)."
+      },
+      "cmp_performance": {
+        "substrate_material": "Borosilicate glass",
+        "substrate_dimensions": {
+          "value": "7x7",
+          "unit": "cm"
+        },
+        "substrate_composition": {
+          "SiO2": { "value": 75.00, "unit": "wt%" },
+          "Na2O": { "value": 8.00, "unit": "wt%" },
+          "Al2O3": { "value": 1.00, "unit": "wt%" },
+          "B2O3": { "value": 14.00, "unit": "wt%" },
+          "CaO": { "value": 2.00, "unit": "wt%" }
+        },
+        "polishing_time": {
+          "value": 8,
+          "unit": "min"
+        },
+        "polishing_pressure": {
+          "value": 12.2,
+          "unit": "kPa"
+        },
+        "plate_rotation_speed": {
+          "value": 150,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 12,
+          "unit": "ml/min"
+        },
+        "pad_composition": "LP-66 polyurethane pad",
+        "equipment_model": "Struers Rotopol polishing machine",
+        "material_removal_rate": {
+          "value": 0.5,
+          "unit": "mg/min",
+          "calculation_notes": "Calculated from total mass removal of 4.0 mg (Fig 2) over 8 min."
+        },
+        "pre_cmp_surface_roughness": {
+          "value": 17.27,
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra)"
+        },
+        "post_cmp_surface_roughness": {
+          "value": "~1.2",
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra, estimated from Fig 3)"
+        }
+      },
+      "instrument_device_model": {
+        "Weighing scale": "AUW220D (Shimadzu Corp.)",
+        "Surface profiler": "Alpha-Step IQ surface profiler",
+        "SEM": "Auriga 60 Crossbeam (Carl Zeiss AG)",
+        "Zetasizer": "Zetasizer Nano (Malvern Panalytical GmbH)",
+        "Polishing machine": "Struers Rotopol polishing machine"
+      }
+    },
+    {
+      "sample_id": "FS400",
+      "experiment_context": "400 nm ceria particle slurry after polishing fused silica glass for 8 min.",
+      "slurry_preparation": {
+        "abrasive_material": "CeO2",
+        "abrasive_nominal_size": {
+          "value": 400,
+          "unit": "nm"
+        },
+        "abrasive_supplier": "Treibacher Industry AG",
+        "abrasive_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "additives": null,
+        "initial_slurry_ph": {
+          "value": "~6.8",
+          "unit": null
+        },
+        "final_slurry_ph": {
+          "value": "~6.8",
+          "unit": null,
+          "measurement_method_used": "pH meter (Fig 4, stable pH)"
+        }
+      },
+      "characterization": {
+        "zeta_potential": {
+          "value": -0.65,
+          "unit": "mV",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)"
+        },
+        "particle_size_distribution": {
+          "d50_value": null,
+          "unit": "nm",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)",
+          "aggregation_notes": "High aggregation. Bimodal distribution (~650nm and ~1900nm at 6min post-sonication). Average size increased to ~5000nm after 60min. Correlates with near-zero zeta potential (Fig 7b)."
+        },
+        "particle_morphology": "Significant aggregate formation observed in SEM (Fig 9).",
+        "sedimentation_rate": "Noticeable sedimentation after 60 min, pronounced after 270 min. Correlates with low zeta potential (Fig 8)."
+      },
+      "cmp_performance": {
+        "substrate_material": "Fused silica glass",
+        "substrate_dimensions": {
+          "value": "7x7",
+          "unit": "cm"
+        },
+        "substrate_composition": {
+          "SiO2": { "value": 99.99, "unit": "wt%" }
+        },
+        "polishing_time": {
+          "value": 8,
+          "unit": "min"
+        },
+        "polishing_pressure": {
+          "value": 12.2,
+          "unit": "kPa"
+        },
+        "plate_rotation_speed": {
+          "value": 150,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 12,
+          "unit": "ml/min"
+        },
+        "pad_composition": "LP-66 polyurethane pad",
+        "equipment_model": "Struers Rotopol polishing machine",
+        "material_removal_rate": {
+          "value": 0.66,
+          "unit": "mg/min",
+          "calculation_notes": "Calculated from total mass removal of 5.3 mg (Fig 2) over 8 min."
+        },
+        "pre_cmp_surface_roughness": {
+          "value": 15.64,
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra)"
+        },
+        "post_cmp_surface_roughness": {
+          "value": "~1.8",
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra, estimated from Fig 3)"
+        }
+      },
+      "instrument_device_model": {
+        "Weighing scale": "AUW220D (Shimadzu Corp.)",
+        "Surface profiler": "Alpha-Step IQ surface profiler",
+        "SEM": "Auriga 60 Crossbeam (Carl Zeiss AG)",
+        "Zetasizer": "Zetasizer Nano (Malvern Panalytical GmbH)",
+        "Polishing machine": "Struers Rotopol polishing machine"
+      }
+    },
+    {
+      "sample_id": "OS80",
+      "experiment_context": "Original 80 nm ceria particle slurry (commercial, Pieplow & Brandt GmbH) before polishing process.",
+      "slurry_preparation": {
+        "abrasive_material": "CeO2",
+        "abrasive_nominal_size": {
+          "value": 80,
+          "unit": "nm"
+        },
+        "abrasive_supplier": "Pieplow&Brandt GmbH",
+        "abrasive_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "additives": [
+          {
+            "name": "Stabilization agents",
+            "type": "Buffering/Dispersion",
+            "concentration": null,
+            "details": "Mentioned in Sec 3.2a, specific agents not identified."
+          }
+        ],
+        "initial_slurry_ph": {
+          "value": "~8.5",
+          "unit": null,
+          "measurement_method_used": "pH meter (inferred from Fig 4)"
+        },
+        "final_slurry_ph": null
+      },
+      "characterization": {
+        "zeta_potential": {
+          "value": -53.5,
+          "unit": "mV",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)"
+        },
+        "particle_size_distribution": {
+          "d50_value": null,
+          "unit": "nm",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)",
+          "aggregation_notes": "Measured D50 size between 170-220 nm (higher than nominal 80nm due to measurement effects/slight aggregation). Stable PSD observed (Fig 6)."
+        },
+        "particle_morphology": "Well-dispersed particles with minimal aggregate formation observed in SEM (Fig 9).",
+        "sedimentation_rate": "Excellent dispersion, no visible sedimentation over 270 min. Correlates with high zeta potential (Fig 8)."
+      },
+      "cmp_performance": null,
+      "instrument_device_model": {
+        "Zetasizer": "Zetasizer Nano (Malvern Panalytical GmbH)",
+        "SEM": "Auriga 60 Crossbeam (Carl Zeiss AG)"
+      }
+    },
+    {
+      "sample_id": "SL80",
+      "experiment_context": "80 nm ceria particle slurry after polishing soda-lime glass for 8 min.",
+      "slurry_preparation": {
+        "abrasive_material": "CeO2",
+        "abrasive_nominal_size": {
+          "value": 80,
+          "unit": "nm"
+        },
+        "abrasive_supplier": "Pieplow&Brandt GmbH",
+        "abrasive_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "additives": [
+          {
+            "name": "Stabilization agents",
+            "type": "Buffering/Dispersion",
+            "concentration": null,
+            "details": "Assumed present as in OS80."
+          }
+        ],
+        "initial_slurry_ph": {
+          "value": "~8.5",
+          "unit": null
+        },
+        "final_slurry_ph": {
+          "value": "~8.5",
+          "unit": null,
+          "measurement_method_used": "pH meter (Fig 4, stable pH)"
+        }
+      },
+      "characterization": {
+        "zeta_potential": {
+          "value": -54.4,
+          "unit": "mV",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)"
+        },
+        "particle_size_distribution": {
+          "d50_value": null,
+          "unit": "nm",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)",
+          "aggregation_notes": "Stable PSD (D50 size between 170-220 nm), no significant difference from OS80 (Fig 6)."
+        },
+        "particle_morphology": "Well-dispersed particles with minimal aggregate formation observed in SEM (Fig 9).",
+        "sedimentation_rate": "Excellent dispersion, no visible sedimentation over 270 min (Fig 8)."
+      },
+      "cmp_performance": {
+        "substrate_material": "Soda-lime glass",
+        "substrate_dimensions": {
+          "value": "7x7",
+          "unit": "cm"
+        },
+        "substrate_composition": {
+          "SiO2": { "value": 72.80, "unit": "wt%" },
+          "Na2O": { "value": 13.07, "unit": "wt%" },
+          "MgO": { "value": 4.21, "unit": "wt%" },
+          "Al2O3": { "value": 0.48, "unit": "wt%" },
+          "K2O": { "value": 0.28, "unit": "wt%" },
+          "CaO": { "value": 8.80, "unit": "wt%" },
+          "TiO2": { "value": 0.03, "unit": "wt%" },
+          "Fe2O3": { "value": 0.08, "unit": "wt%" }
+        },
+        "polishing_time": {
+          "value": 8,
+          "unit": "min"
+        },
+        "polishing_pressure": {
+          "value": 12.2,
+          "unit": "kPa"
+        },
+        "plate_rotation_speed": {
+          "value": 150,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 12,
+          "unit": "ml/min"
+        },
+        "pad_composition": "LP-66 polyurethane pad",
+        "equipment_model": "Struers Rotopol polishing machine",
+        "material_removal_rate": {
+          "value": 0.09,
+          "unit": "mg/min",
+          "calculation_notes": "Calculated from total mass removal of ~0.7 mg (Fig 2) over 8 min."
+        },
+        "pre_cmp_surface_roughness": {
+          "value": 19.85,
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra)"
+        },
+        "post_cmp_surface_roughness": {
+          "value": "~0.8",
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra, estimated from Fig 3)"
+        }
+      },
+      "instrument_device_model": {
+        "Weighing scale": "AUW220D (Shimadzu Corp.)",
+        "Surface profiler": "Alpha-Step IQ surface profiler",
+        "SEM": "Auriga 60 Crossbeam (Carl Zeiss AG)",
+        "Zetasizer": "Zetasizer Nano (Malvern Panalytical GmbH)",
+        "Polishing machine": "Struers Rotopol polishing machine"
+      }
+    },
+    {
+      "sample_id": "BS80",
+      "experiment_context": "80 nm ceria particle slurry after polishing borosilicate glass for 8 min.",
+      "slurry_preparation": {
+        "abrasive_material": "CeO2",
+        "abrasive_nominal_size": {
+          "value": 80,
+          "unit": "nm"
+        },
+        "abrasive_supplier": "Pieplow&Brandt GmbH",
+        "abrasive_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "additives": [
+          {
+            "name": "Stabilization agents",
+            "type": "Buffering/Dispersion",
+            "concentration": null,
+            "details": "Assumed present as in OS80."
+          }
+        ],
+        "initial_slurry_ph": {
+          "value": "~8.5",
+          "unit": null
+        },
+        "final_slurry_ph": {
+          "value": "~8.5",
+          "unit": null,
+          "measurement_method_used": "pH meter (Fig 4, stable pH)"
+        }
+      },
+      "characterization": {
+        "zeta_potential": {
+          "value": -55.9,
+          "unit": "mV",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)"
+        },
+        "particle_size_distribution": {
+          "d50_value": null,
+          "unit": "nm",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)",
+          "aggregation_notes": "Stable PSD (D50 size between 170-220 nm), no significant difference from OS80 (Fig 6)."
+        },
+        "particle_morphology": "Well-dispersed particles with minimal aggregate formation observed in SEM (Fig 9).",
+        "sedimentation_rate": "Excellent dispersion, no visible sedimentation over 270 min (Fig 8)."
+      },
+      "cmp_performance": {
+        "substrate_material": "Borosilicate glass",
+        "substrate_dimensions": {
+          "value": "7x7",
+          "unit": "cm"
+        },
+        "substrate_composition": {
+          "SiO2": { "value": 75.00, "unit": "wt%" },
+          "Na2O": { "value": 8.00, "unit": "wt%" },
+          "Al2O3": { "value": 1.00, "unit": "wt%" },
+          "B2O3": { "value": 14.00, "unit": "wt%" },
+          "CaO": { "value": 2.00, "unit": "wt%" }
+        },
+        "polishing_time": {
+          "value": 8,
+          "unit": "min"
+        },
+        "polishing_pressure": {
+          "value": 12.2,
+          "unit": "kPa"
+        },
+        "plate_rotation_speed": {
+          "value": 150,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 12,
+          "unit": "ml/min"
+        },
+        "pad_composition": "LP-66 polyurethane pad",
+        "equipment_model": "Struers Rotopol polishing machine",
+        "material_removal_rate": {
+          "value": 0.23,
+          "unit": "mg/min",
+          "calculation_notes": "Calculated from total mass removal of ~1.8 mg (Fig 2) over 8 min."
+        },
+        "pre_cmp_surface_roughness": {
+          "value": 17.27,
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra)"
+        },
+        "post_cmp_surface_roughness": {
+          "value": "~0.6",
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra, estimated from Fig 3)"
+        }
+      },
+      "instrument_device_model": {
+        "Weighing scale": "AUW220D (Shimadzu Corp.)",
+        "Surface profiler": "Alpha-Step IQ surface profiler",
+        "SEM": "Auriga 60 Crossbeam (Carl Zeiss AG)",
+        "Zetasizer": "Zetasizer Nano (Malvern Panalytical GmbH)",
+        "Polishing machine": "Struers Rotopol polishing machine"
+      }
+    },
+    {
+      "sample_id": "FS80",
+      "experiment_context": "80 nm ceria particle slurry after polishing fused silica glass for 8 min.",
+      "slurry_preparation": {
+        "abrasive_material": "CeO2",
+        "abrasive_nominal_size": {
+          "value": 80,
+          "unit": "nm"
+        },
+        "abrasive_supplier": "Pieplow&Brandt GmbH",
+        "abrasive_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "additives": [
+          {
+            "name": "Stabilization agents",
+            "type": "Buffering/Dispersion",
+            "concentration": null,
+            "details": "Assumed present as in OS80."
+          }
+        ],
+        "initial_slurry_ph": {
+          "value": "~8.5",
+          "unit": null
+        },
+        "final_slurry_ph": {
+          "value": "~8.5",
+          "unit": null,
+          "measurement_method_used": "pH meter (Fig 4, stable pH)"
+        }
+      },
+      "characterization": {
+        "zeta_potential": {
+          "value": -51.7,
+          "unit": "mV",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)"
+        },
+        "particle_size_distribution": {
+          "d50_value": null,
+          "unit": "nm",
+          "measurement_method_used": "Zetasizer Nano (Malvern Panalytical GmbH)",
+          "aggregation_notes": "Stable PSD (D50 size between 170-220 nm), no significant difference from OS80 (Fig 6)."
+        },
+        "particle_morphology": "Well-dispersed particles with minimal aggregate formation observed in SEM (Fig 9).",
+        "sedimentation_rate": "Excellent dispersion, no visible sedimentation over 270 min (Fig 8)."
+      },
+      "cmp_performance": {
+        "substrate_material": "Fused silica glass",
+        "substrate_dimensions": {
+          "value": "7x7",
+          "unit": "cm"
+        },
+        "substrate_composition": {
+          "SiO2": { "value": 99.99, "unit": "wt%" }
+        },
+        "polishing_time": {
+          "value": 8,
+          "unit": "min"
+        },
+        "polishing_pressure": {
+          "value": 12.2,
+          "unit": "kPa"
+        },
+        "plate_rotation_speed": {
+          "value": 150,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 12,
+          "unit": "ml/min"
+        },
+        "pad_composition": "LP-66 polyurethane pad",
+        "equipment_model": "Struers Rotopol polishing machine",
+        "material_removal_rate": {
+          "value": 0.15,
+          "unit": "mg/min",
+          "calculation_notes": "Calculated from total mass removal of ~1.2 mg (Fig 2) over 8 min."
+        },
+        "pre_cmp_surface_roughness": {
+          "value": 15.64,
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra)"
+        },
+        "post_cmp_surface_roughness": {
+          "value": "~0.7",
+          "unit": "nm",
+          "measurement_method_used": "Alpha-Step IQ surface profiler (Ra, estimated from Fig 3)"
+        }
+      },
+      "instrument_device_model": {
+        "Weighing scale": "AUW220D (Shimadzu Corp.)",
+        "Surface profiler": "Alpha-Step IQ surface profiler",
+        "SEM": "Auriga 60 Crossbeam (Carl Zeiss AG)",
+        "Zetasizer": "Zetasizer Nano (Malvern Panalytical GmbH)",
+        "Polishing machine": "Struers Rotopol polishing machine"
+      }
+    }
+  ]
+}

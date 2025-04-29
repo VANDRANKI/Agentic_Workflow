@@ -1,0 +1,540 @@
+{
+  "doi": "10.3390/polym16243593",
+  "title": "The Stability Evaluation of Ceria Slurry Using Polymer Dispersants with Varying Contents for Chemical Mechanical Polishing Process",
+  "year_published": "2024",
+  "journal": "Polymers",
+  "abrasive_synthesis": {
+    "starting_material": "Cerium carbonate hydrate (Ce₂(CO₃)₃)·6H₂O",
+    "supplier": "Sigma-Aldrich",
+    "purity": "99.9%",
+    "process": "Calcination",
+    "temperature": {
+      "value": "800",
+      "unit": "°C"
+    },
+    "output_abrasive": "Cerium oxide (CeO₂) powder"
+  },
+  "instrument_details": {
+    "pH_meter": "Thermo Fisher Scientific Orionstars A215",
+    "conductivity_meter": "Thermo Fisher Scientific Orionstars A215",
+    "viscometer": "Brookfield DVNext Cone/Plate Rheometer",
+    "zeta_potential_analyzer": "Microtrac Nanotrac Wave II",
+    "DLS": "ELS-2000 (Otsuka Electronics)",
+    "ATR-IR": "Thermo Fisher Scientific Nicolet Summit X",
+    "SEM": "JEOL-7800F",
+    "TEM": "NEOARM JEM-ARM 200F",
+    "thickness_gauge": "ST2000D LXn (SJT Ltd.)",
+    "polisher": "AP-300"
+  },
+  "samples": [
+    {
+      "sample_id": "Commercial",
+      "experiment_context": "Commercial ceria slurry used as a reference.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Commercial Dispersant",
+            "type": "Polymer Dispersant",
+            "concentration": {
+              "value": null,
+              "unit": null
+            },
+            "supplier": null
+          }
+        ],
+        "solvent": {
+          "name": "DI water",
+          "supplier": "aquapuri 5 series by YOUNG IN SCIENTIFIC, Co., Ltd.",
+          "quantity": {
+            "value": "Adjusted to 100 wt% total",
+            "unit": null
+          }
+        },
+        "milling_details": null,
+        "solid_content_dispersant": {
+          "value": "5.1210",
+          "unit": "wt%"
+        },
+        "initial_slurry_ph": {
+           "value": "8.48",
+           "unit": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "269.4",
+          "error": "7.76",
+          "unit": "nm",
+          "measurement_method_used": "DLS (D90)"
+        },
+        "particle_morphology": "SEM: < 1 µm. TEM: Uniform orientation.",
+        "zeta_potential": {
+          "value": "49.2",
+          "unit": "mV"
+        },
+        "conductivity": {
+          "value": "604.1",
+          "unit": "µS/cm"
+        },
+        "contact_angle": {
+          "value": "4.77",
+          "unit": "°"
+        },
+        "viscosity_behavior": "Shear-thinning",
+        "shear_stress_behavior": "Increases around 10 s⁻¹",
+        "atr_ir_peaks": {
+          "notes": "Peaks observed at similar positions to prepared samples."
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "4706",
+          "unit": "Å/min",
+          "material": "PETEOS"
+        },
+        "uniformity": {
+          "value": "6.82",
+          "unit": "%"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "9",
+          "unit": "psi"
+        },
+        "pad_conditioning_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "equipment_model": "AP-300 polisher",
+        "pad_composition": "IC1010 TM A6 PAD",
+        "pad_rotation_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "mL/min"
+        },
+        "wafer_details": {
+          "material": "PETEOS",
+          "diameter": {
+            "value": "200",
+            "unit": "mm"
+          }
+        },
+        "polishing_ph_range": {
+          "min": 7,
+          "max": 8
+        }
+      }
+    },
+    {
+      "sample_id": "D5",
+      "experiment_context": "Prepared ceria slurry using 5 wt% zinc salt of ethylene acrylic acid (EAA) copolymer dispersant.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Zinc salt of ethylene acrylic acid (EAA) copolymer",
+            "type": "Polymer Dispersant",
+            "concentration": {
+              "value": "5",
+              "unit": "wt%"
+            },
+            "supplier": "Vanderbilt Minerals, LLC"
+          }
+        ],
+        "solvent": {
+          "name": "DI water",
+          "supplier": "aquapuri 5 series by YOUNG IN SCIENTIFIC, Co., Ltd.",
+          "quantity": {
+            "value": "Adjusted to 100 wt% total",
+            "unit": null
+          }
+        },
+        "milling_details": {
+          "equipment": "Basket-mill (Tedi, JS Basket-mill Mill)",
+          "speed": {
+            "value": "1500",
+            "unit": "rpm"
+          },
+          "duration": {
+            "value": "3",
+            "unit": "h"
+          },
+          "beads_size": {
+            "value": "0.2",
+            "unit": "mm"
+          },
+          "beads_filling_ratio": {
+            "value": "60",
+            "unit": "%"
+          }
+        },
+        "solid_content_dispersant": {
+          "value": "4.9531",
+          "unit": "wt%"
+        },
+        "initial_slurry_ph": {
+           "value": "9.46",
+           "unit": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "281.6",
+          "error": "13.3",
+          "unit": "nm",
+          "measurement_method_used": "DLS (D90)"
+        },
+        "particle_morphology": "SEM: < 1 µm. TEM: Uniform orientation.",
+        "zeta_potential": {
+          "value": "42.9",
+          "unit": "mV"
+        },
+        "conductivity": {
+          "value": "423.2",
+          "unit": "µS/cm"
+        },
+        "contact_angle": {
+          "value": "7.04",
+          "unit": "°"
+        },
+        "viscosity_behavior": "Unstable, high viscosity around shear rate of 8 s⁻¹.",
+        "shear_stress_behavior": "< 30 Pa",
+        "atr_ir_peaks": {
+          "C-O_carboxyl": "~1100 cm⁻¹",
+          "C-H_hydrocarbon": "~2800 cm⁻¹",
+          "C-H_stretch_Zn_EAA": "~2900 cm⁻¹"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "4224",
+          "unit": "Å/min",
+          "material": "PETEOS"
+        },
+        "uniformity": {
+          "value": "9.95",
+          "unit": "%"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "9",
+          "unit": "psi"
+        },
+        "pad_conditioning_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "equipment_model": "AP-300 polisher",
+        "pad_composition": "IC1010 TM A6 PAD",
+        "pad_rotation_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "mL/min"
+        },
+        "wafer_details": {
+          "material": "PETEOS",
+          "diameter": {
+            "value": "200",
+            "unit": "mm"
+          }
+        },
+        "polishing_ph_range": {
+          "min": 7,
+          "max": 8
+        }
+      }
+    },
+    {
+      "sample_id": "D6",
+      "experiment_context": "Prepared ceria slurry using 6 wt% zinc salt of ethylene acrylic acid (EAA) copolymer dispersant.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Zinc salt of ethylene acrylic acid (EAA) copolymer",
+            "type": "Polymer Dispersant",
+            "concentration": {
+              "value": "6",
+              "unit": "wt%"
+            },
+            "supplier": "Vanderbilt Minerals, LLC"
+          }
+        ],
+        "solvent": {
+          "name": "DI water",
+          "supplier": "aquapuri 5 series by YOUNG IN SCIENTIFIC, Co., Ltd.",
+          "quantity": {
+            "value": "Adjusted to 100 wt% total",
+            "unit": null
+          }
+        },
+        "milling_details": {
+          "equipment": "Basket-mill (Tedi, JS Basket-mill Mill)",
+          "speed": {
+            "value": "1500",
+            "unit": "rpm"
+          },
+          "duration": {
+            "value": "3",
+            "unit": "h"
+          },
+          "beads_size": {
+            "value": "0.2",
+            "unit": "mm"
+          },
+          "beads_filling_ratio": {
+            "value": "60",
+            "unit": "%"
+          }
+        },
+        "solid_content_dispersant": {
+          "value": "6.1489",
+          "unit": "wt%"
+        },
+        "initial_slurry_ph": {
+           "value": "9.51",
+           "unit": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "251.8",
+          "error": "17.1",
+          "unit": "nm",
+          "measurement_method_used": "DLS (D90)"
+        },
+        "particle_morphology": "SEM: < 1 µm. TEM: Uniform orientation.",
+        "zeta_potential": {
+          "value": "45.3",
+          "unit": "mV"
+        },
+        "conductivity": {
+          "value": "508.4",
+          "unit": "µS/cm"
+        },
+        "contact_angle": {
+          "value": "5.90",
+          "unit": "°"
+        },
+        "viscosity_behavior": "Viscosity decreases as shear rate increases.",
+        "shear_stress_behavior": "< 20 Pa",
+        "atr_ir_peaks": {
+          "C-O_carboxyl": "~1100 cm⁻¹",
+          "C-H_hydrocarbon": "~2800 cm⁻¹",
+          "C-H_stretch_Zn_EAA": "~2900 cm⁻¹"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "4538",
+          "unit": "Å/min",
+          "material": "PETEOS"
+        },
+        "uniformity": {
+          "value": "7.31",
+          "unit": "%"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "9",
+          "unit": "psi"
+        },
+        "pad_conditioning_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "equipment_model": "AP-300 polisher",
+        "pad_composition": "IC1010 TM A6 PAD",
+        "pad_rotation_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "mL/min"
+        },
+        "wafer_details": {
+          "material": "PETEOS",
+          "diameter": {
+            "value": "200",
+            "unit": "mm"
+          }
+        },
+        "polishing_ph_range": {
+          "min": 7,
+          "max": 8
+        }
+      }
+    },
+    {
+      "sample_id": "D7",
+      "experiment_context": "Prepared ceria slurry using 7 wt% zinc salt of ethylene acrylic acid (EAA) copolymer dispersant.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Zinc salt of ethylene acrylic acid (EAA) copolymer",
+            "type": "Polymer Dispersant",
+            "concentration": {
+              "value": "7",
+              "unit": "wt%"
+            },
+            "supplier": "Vanderbilt Minerals, LLC"
+          }
+        ],
+        "solvent": {
+          "name": "DI water",
+          "supplier": "aquapuri 5 series by YOUNG IN SCIENTIFIC, Co., Ltd.",
+          "quantity": {
+            "value": "Adjusted to 100 wt% total",
+            "unit": null
+          }
+        },
+        "milling_details": {
+          "equipment": "Basket-mill (Tedi, JS Basket-mill Mill)",
+          "speed": {
+            "value": "1500",
+            "unit": "rpm"
+          },
+          "duration": {
+            "value": "3",
+            "unit": "h"
+          },
+          "beads_size": {
+            "value": "0.2",
+            "unit": "mm"
+          },
+          "beads_filling_ratio": {
+            "value": "60",
+            "unit": "%"
+          }
+        },
+        "solid_content_dispersant": {
+          "value": "7.1379",
+          "unit": "wt%"
+        },
+        "initial_slurry_ph": {
+           "value": "9.49",
+           "unit": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "227.2",
+          "error": "0.57",
+          "unit": "nm",
+          "measurement_method_used": "DLS (D90)"
+        },
+        "particle_morphology": "SEM: Several tens to hundreds of nm. TEM: Uniform orientation, polymer adsorbed ~5 nm thick.",
+        "zeta_potential": {
+          "value": "52.1",
+          "unit": "mV"
+        },
+        "conductivity": {
+          "value": "701.8",
+          "unit": "µS/cm"
+        },
+        "contact_angle": {
+          "value": "4.32",
+          "unit": "°"
+        },
+        "viscosity_behavior": "Low viscosity, stable, Newtonian-like behavior.",
+        "shear_stress_behavior": "< 20 Pa, lowest stress.",
+        "atr_ir_peaks": {
+          "C-O_carboxyl": "~1100 cm⁻¹",
+          "C-H_hydrocarbon": "~2800 cm⁻¹",
+          "C-H_stretch_Zn_EAA": "~2900 cm⁻¹",
+          "notes": "Strongest peak intensity among prepared samples."
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "4712",
+          "unit": "Å/min",
+          "material": "PETEOS"
+        },
+        "uniformity": {
+          "value": "5.48",
+          "unit": "%"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "9",
+          "unit": "psi"
+        },
+        "pad_conditioning_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "equipment_model": "AP-300 polisher",
+        "pad_composition": "IC1010 TM A6 PAD",
+        "pad_rotation_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "mL/min"
+        },
+        "wafer_details": {
+          "material": "PETEOS",
+          "diameter": {
+            "value": "200",
+            "unit": "mm"
+          }
+        },
+        "polishing_ph_range": {
+          "min": 7,
+          "max": 8
+        }
+      }
+    }
+  ]
+}

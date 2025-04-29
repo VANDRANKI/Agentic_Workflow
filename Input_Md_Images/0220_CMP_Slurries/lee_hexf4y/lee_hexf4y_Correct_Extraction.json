@@ -1,0 +1,562 @@
+{
+  "doi": null,
+  "title": "Effect of Diluted Colloidal Silica Slurry Mixed with Ceria Abrasives on CMP Characteristic",
+  "year_published": "2015",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "DSS_Baseline_pH_11-12.5",
+      "experiment_context": "Baseline: Colloidal silica slurry (pH 11) diluted 1:10 in DIW. No added Ceria. pH likely around 11-12.5 based on context.",
+      "slurry_preparation": {
+        "base_slurry": {
+          "type": "Colloidal Silica",
+          "initial_ph": 11,
+          "dilution_ratio": "1:10",
+          "solvent": "DIW"
+        },
+        "abrasives": [
+          {
+            "type": "Silica",
+            "source": "Base Slurry",
+            "particle_size": {
+              "value": "100-150",
+              "unit": "nm"
+            },
+            "measurement_method_used": "Zeta potentiometer"
+          }
+        ],
+        "additives": [],
+        "target_final_slurry_ph": null 
+      },
+      "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { 
+          "material": "Thermal Oxide", 
+          "initial_thickness": { "value": 20000, "unit": "Å" }, 
+          "wafer_size": { "value": 4, "unit": "inch" } 
+        },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 1360, "unit": "Å/min" },
+        "within_wafer_non_uniformity": null,
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": { 
+          "metric": "Rpv", 
+          "value": 5.2, 
+          "unit": "nm", 
+          "measurement_method_used": "AFM (PSIA, XE-100)",
+          "figure_reference": "Fig. 6c, Fig. 7c" 
+        }
+      }
+    },
+    {
+      "sample_id": "DSS_0.1wtCeO2_pH12.5",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 0.1 wt% Ceria added. pH adjusted to 12-12.5 (based on Fig 2 caption).",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 0.1, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [], 
+        "target_final_slurry_ph": 12.5 
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 1500, "unit": "Å/min", "figure_reference": "Fig. 2" },
+        "within_wafer_non_uniformity": { "value": 3.5, "unit": "%", "figure_reference": "Fig. 3" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": null
+      }
+    },
+        {
+      "sample_id": "DSS_0.5wtCeO2_pH12.5",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 0.5 wt% Ceria added. pH adjusted to 12-12.5 (based on Fig 2 caption).",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 0.5, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [], 
+        "target_final_slurry_ph": 12.5 
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 2000, "unit": "Å/min", "figure_reference": "Fig. 2" },
+        "within_wafer_non_uniformity": { "value": 4.5, "unit": "%", "figure_reference": "Fig. 3" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": null
+      }
+    },
+    {
+      "sample_id": "DSS_1wtCeO2_pH12.5",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 1 wt% Ceria added. pH adjusted to 12-12.5 (based on Fig 2 caption).",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 1, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [], 
+        "target_final_slurry_ph": 12.5 
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 4500, "unit": "Å/min", "figure_reference": "Fig. 2" },
+        "within_wafer_non_uniformity": { "value": 6.0, "unit": "%", "figure_reference": "Fig. 3" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": null
+      }
+    },
+    {
+      "sample_id": "DSS_3wtCeO2_pH12.5",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 3 wt% Ceria added. pH adjusted to 12-12.5 (based on Fig 2 caption).",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 3, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [], 
+        "target_final_slurry_ph": 12.5 
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 6000, "unit": "Å/min", "figure_reference": "Fig. 2" },
+        "within_wafer_non_uniformity": { "value": 7.5, "unit": "%", "figure_reference": "Fig. 3" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": null
+      }
+    },
+    {
+      "sample_id": "DSS_5wtCeO2_pH12.5",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 5 wt% Ceria added. pH adjusted to 12-12.5 (based on Fig 2 caption).",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 5, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [], 
+        "target_final_slurry_ph": 12.5 
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 7000, "unit": "Å/min", "figure_reference": "Fig. 2" },
+        "within_wafer_non_uniformity": { "value": 8.5, "unit": "%", "figure_reference": "Fig. 3" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": null
+      }
+    },
+    {
+      "sample_id": "DSS_7wtCeO2_pH12.5",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 7 wt% Ceria added. pH adjusted to 12-12.5 (based on Fig 2 caption).",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 7, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [], 
+        "target_final_slurry_ph": 12.5 
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 7800, "unit": "Å/min", "figure_reference": "Fig. 2" },
+        "within_wafer_non_uniformity": { "value": 9.5, "unit": "%", "figure_reference": "Fig. 3" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": null
+      }
+    },
+    {
+      "sample_id": "DSS_9wtCeO2_pH12.5",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 9 wt% Ceria added. pH adjusted to 12-12.5 (based on Fig 2 caption). This represents the 9wt% condition before specific pH adjustments in later experiments.",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 9, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [], 
+        "target_final_slurry_ph": 12.5 
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 8800, "unit": "Å/min", "figure_reference": "Fig. 2" },
+        "within_wafer_non_uniformity": { "value": 10.5, "unit": "%", "figure_reference": "Fig. 3" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": null 
+      }
+    },
+    {
+      "sample_id": "DSS_9wtCeO2_pH10",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 9 wt% Ceria added. pH adjusted to 10 using KOH/HNO3.",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 9, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [ { "name": "KOH or HNO3", "type": "pH Adjuster" } ],
+        "target_final_slurry_ph": 10
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 8400, "unit": "Å/min", "figure_reference": "Fig. 4" },
+        "within_wafer_non_uniformity": { "value": 8.0, "unit": "%", "figure_reference": "Fig. 5" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": { 
+          "metric": "Rpv", 
+          "value": 5.5, 
+          "unit": "nm", 
+          "measurement_method_used": "AFM (PSIA, XE-100)",
+          "figure_reference": "Fig. 6d, Fig. 7d" 
+        }
+      }
+    },
+    {
+      "sample_id": "DSS_9wtCeO2_pH8",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 9 wt% Ceria added. pH adjusted to 8 using KOH/HNO3.",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 9, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [ { "name": "KOH or HNO3", "type": "pH Adjuster" } ],
+        "target_final_slurry_ph": 8
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 8700, "unit": "Å/min", "figure_reference": "Fig. 4" },
+        "within_wafer_non_uniformity": { "value": 6.0, "unit": "%", "figure_reference": "Fig. 5" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": { 
+          "metric": "Rpv", 
+          "value": 6.2, 
+          "unit": "nm", 
+          "measurement_method_used": "AFM (PSIA, XE-100)",
+          "figure_reference": "Fig. 6e, Fig. 7e" 
+        }
+      }
+    },
+    {
+      "sample_id": "DSS_9wtCeO2_pH6",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 9 wt% Ceria added. pH adjusted to 6 using KOH/HNO3.",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 9, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [ { "name": "KOH or HNO3", "type": "pH Adjuster" } ],
+        "target_final_slurry_ph": 6
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 7000, "unit": "Å/min", "figure_reference": "Fig. 4" },
+        "within_wafer_non_uniformity": { "value": 4.5, "unit": "%", "figure_reference": "Fig. 5" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": { 
+          "metric": "Rpv", 
+          "value": 4.8, 
+          "unit": "nm", 
+          "measurement_method_used": "AFM (PSIA, XE-100)",
+          "figure_reference": "Fig. 6f, Fig. 7f" 
+        }
+      }
+    },
+    {
+      "sample_id": "DSS_9wtCeO2_pH5",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 9 wt% Ceria added. pH adjusted to 5 using KOH/HNO3.",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 9, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [ { "name": "KOH or HNO3", "type": "pH Adjuster" } ],
+        "target_final_slurry_ph": 5
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 4500, "unit": "Å/min", "figure_reference": "Fig. 4" },
+        "within_wafer_non_uniformity": { "value": 3.5, "unit": "%", "figure_reference": "Fig. 5" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": { 
+          "metric": "Rpv", 
+          "value": 7.8, 
+          "unit": "nm", 
+          "measurement_method_used": "AFM (PSIA, XE-100)",
+          "figure_reference": "Fig. 6g, Fig. 7g" 
+        }
+      }
+    },
+    {
+      "sample_id": "DSS_9wtCeO2_pH4",
+      "experiment_context": "Diluted Silica Slurry (1:10) with 9 wt% Ceria added. pH adjusted to 4 using KOH/HNO3.",
+      "slurry_preparation": {
+        "base_slurry": { "type": "Colloidal Silica", "initial_ph": 11, "dilution_ratio": "1:10", "solvent": "DIW" },
+        "abrasives": [
+          { "type": "Silica", "source": "Base Slurry", "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" },
+          { "type": "Ceria", "concentration": { "value": 9, "unit": "wt%" }, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [ { "name": "KOH or HNO3", "type": "pH Adjuster" } ],
+        "target_final_slurry_ph": 4
+      },
+       "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" },
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": { "value": 1500, "unit": "Å/min", "figure_reference": "Fig. 4" },
+        "within_wafer_non_uniformity": { "value": 3.0, "unit": "%", "figure_reference": "Fig. 5" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": { 
+          "metric": "Rpv", 
+          "value": 6.8, 
+          "unit": "nm", 
+          "measurement_method_used": "AFM (PSIA, XE-100)",
+          "figure_reference": "Fig. 6h, Fig. 7h" 
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_Baseline_Slurry",
+      "experiment_context": "Baseline Ceria slurry (undiluted, conditions not fully specified but used for comparison).",
+      "slurry_preparation": {
+        "base_slurry": null,
+        "abrasives": [
+          { "type": "Ceria", "concentration": null, "particle_size": { "value": "200-250", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [],
+        "target_final_slurry_ph": null 
+      },
+      "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Ceria", "value": "200-250", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": null, 
+        "within_wafer_non_uniformity": null,
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": { 
+          "metric": "Rpv", 
+          "value": 3.8, 
+          "unit": "nm", 
+          "measurement_method_used": "AFM (PSIA, XE-100)",
+          "figure_reference": "Fig. 6a, Fig. 7a" 
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_Baseline_Slurry",
+      "experiment_context": "Baseline Silica slurry (undiluted, pH 11, used for comparison).",
+      "slurry_preparation": {
+        "base_slurry": null, 
+        "abrasives": [
+          { "type": "Silica", "concentration": null, "particle_size": { "value": "100-150", "unit": "nm" }, "measurement_method_used": "Zeta potentiometer" }
+        ],
+        "additives": [],
+        "target_final_slurry_ph": 11 
+      },
+      "characterization": {
+         "particle_size_distribution": [
+           { "abrasive_type": "Silica", "value": "100-150", "unit": "nm", "measurement_method_used": "Zeta potentiometer" }
+         ]
+      },
+      "cmp_performance": {
+        "substrate": { "material": "Thermal Oxide", "initial_thickness": { "value": 20000, "unit": "Å" }, "wafer_size": { "value": 4, "unit": "inch" } },
+        "polishing_time": { "value": 60, "unit": "sec" },
+        "material_removal_rate": null, 
+        "within_wafer_non_uniformity": null,
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "table_speed": { "value": 80, "unit": "rpm" },
+        "head_speed": { "value": 80, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 120, "unit": "mL/min" },
+        "equipment_model": "G&P POLI-500 CMP polisher",
+        "pad_composition": "IC-1400 (Dow Electronic Materials)",
+        "pad_conditioner": "Diamond pad conditioner",
+        "post_cmp_surface_roughness": { 
+          "metric": "Rpv", 
+          "value": 4.2, 
+          "unit": "nm", 
+          "measurement_method_used": "AFM (PSIA, XE-100)",
+          "figure_reference": "Fig. 6b, Fig. 7b" 
+        }
+      }
+    }
+  ]
+}

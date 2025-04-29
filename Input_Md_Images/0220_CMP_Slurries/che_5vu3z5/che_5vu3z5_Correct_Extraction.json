@@ -1,0 +1,465 @@
+{
+  "doi": "10.1016/j.apsusc.2019.144668",
+  "title": "RE (La, Nd and Yb) doped CeO2 abrasive particles for chemical mechanical polishing of dielectric materials: Experimental and computational analysis",
+  "year_published": "2020", 
+  "journal": "Applied Surface Science",
+  "samples": [
+    {
+      "sample_id": "Pristine_CeO2",
+      "experiment_context": "Pristine CeO2 nanoparticles used as a baseline for comparison.",
+      "material_source": {
+        "supplier": "Sigma-Aldrich Corporation",
+        "purity": "99.95%",
+        "initial_particle_size_spec": "<50 nm" 
+      },
+      "synthesis_details": null, 
+      "characterization": {
+        "average_particle_size_xrd": {
+          "value": 19.8, 
+          "unit": "nm"
+        },
+        "lattice_constant_xrd": {
+          "value": 5.41051,
+          "unit": "Å"
+        },
+        "lattice_constant_dft": {
+          "value": 5.42751,
+          "unit": "Å"
+        },
+        "oxygen_vacancy_formation_energy_dft": {
+          "value": 3.27,
+          "unit": "eV"
+        },
+        "ce3_concentration_xps": {
+          "value": 0.146,
+          "unit": "fraction"
+        },
+        "morphology_tem": "Near-spherical",
+        "zeta_potential_vs_ph": {
+          "data_points": "Refer to Fig. 8",
+          "isoelectric_point": "~6.5" 
+        },
+        "crystallinity_phase_composition": "Fluorite cubic CeO2 structure (JCPDS No. 65-5923)"
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.25,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "ph_conditions_tested": [5.0, 9.5]
+      },
+      "cmp_performance": {
+        "equipment_model": "Universal-150 CMP machine (Tianjin Hwatsing Technology Co.)",
+        "wafer_details": "2 in. SiO2 blanket wafer (PECVD)",
+        "pad_composition": "Politex (Dow Chemical)",
+        "polishing_pressure": {
+          "value": 2,
+          "unit": "psi"
+        },
+        "head_platen_speed": {
+          "value": "100/100",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 100,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 1.5,
+          "unit": "min"
+        },
+        "pad_conditioning": "Ex-situ, 30 s",
+        "material_removal_rate": [
+          {
+            "condition_ph": 5.0,
+            "value": 80.0, 
+            "unit": "Å/min"
+          },
+          {
+            "condition_ph": 9.5,
+            "value": 28.0, 
+            "unit": "Å/min"
+          }
+        ],
+        "surface_roughness_sa": {
+          "condition_ph": 9.5, 
+          "value": 1.08, 
+          "unit": "nm"
+        },
+        "within_wafer_non_uniformity_wwnu": {
+           "condition_ph": 9.5,
+           "value": "8.5", 
+           "unit": "%"
+        }
+      }
+    },
+    {
+      "sample_id": "La_CeO2",
+      "experiment_context": "CeO2 nanoparticles surface-doped with 5% Lanthanum (La) via modified incipient impregnation.",
+      "material_source": {
+         "base_material": "Pristine CeO2 (Sigma-Aldrich, 99.95%, <50 nm)",
+         "dopant_precursor": "La(NO3)2·6H2O (Aladdin, 99.99%)"
+      },
+      "synthesis_details": {
+        "method": "Modified incipient impregnation",
+        "dopant_load": {
+          "value": 5,
+          "unit": "%"
+        },
+        "impregnation_volume_ratio": "0.280 g/1 g CeO2",
+        "aging_time": {
+          "value": 12,
+          "unit": "h"
+        },
+        "drying_conditions": "120°C for 12 h",
+        "calcination_conditions": "400°C for 2 h (heating rate 5°C/min)",
+        "post_treatment": "Grinding in agate mortar"
+      },
+      "characterization": {
+        "average_particle_size_xrd": {
+          "value": 18.8,
+          "unit": "nm"
+        },
+        "lattice_constant_xrd": {
+          "value": 5.42264,
+          "unit": "Å"
+        },
+        "lattice_constant_dft": {
+          "value": 5.43696,
+          "unit": "Å"
+        },
+        "oxygen_vacancy_formation_energy_dft": {
+          "value": 1.10,
+          "unit": "eV"
+        },
+        "ce3_concentration_xps": {
+          "value": 0.194,
+          "unit": "fraction"
+        },
+        "morphology_tem": "Near-spherical",
+        "elemental_distribution_eds_tem": "Uniform surface doping (Fig. 3a)",
+        "crystallinity_phase_composition": "Fluorite cubic CeO2 structure (JCPDS No. 65-5923)"
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.25,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "ph_conditions_tested": [5.0, 9.5]
+      },
+      "cmp_performance": {
+        "equipment_model": "Universal-150 CMP machine (Tianjin Hwatsing Technology Co.)",
+        "wafer_details": "2 in. SiO2 blanket wafer (PECVD)",
+        "pad_composition": "Politex (Dow Chemical)",
+        "polishing_pressure": {
+          "value": 2,
+          "unit": "psi"
+        },
+        "head_platen_speed": {
+          "value": "100/100",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 100,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 1.5,
+          "unit": "min"
+        },
+        "pad_conditioning": "Ex-situ, 30 s",
+        "material_removal_rate": [
+          {
+            "condition_ph": 5.0,
+            "value": 48.0, 
+            "unit": "Å/min"
+          },
+          {
+            "condition_ph": 9.5,
+            "value": 34.0, 
+            "unit": "Å/min"
+          }
+        ],
+        "surface_roughness_sa": {
+          "condition_ph": 9.5,
+          "value": 1.01, 
+          "unit": "nm"
+        },
+         "within_wafer_non_uniformity_wwnu": {
+           "condition_ph": 9.5,
+           "value": "7.5", 
+           "unit": "%"
+        }
+      }
+    },
+    {
+      "sample_id": "Nd_CeO2",
+      "experiment_context": "CeO2 nanoparticles surface-doped with 5% Neodymium (Nd) via modified incipient impregnation.",
+       "material_source": {
+         "base_material": "Pristine CeO2 (Sigma-Aldrich, 99.95%, <50 nm)",
+         "dopant_precursor": "Nd(NO3)2·6H2O (MACKLIN, 99.9%)"
+      },
+      "synthesis_details": {
+        "method": "Modified incipient impregnation",
+        "dopant_load": {
+          "value": 5,
+          "unit": "%"
+        },
+        "impregnation_volume_ratio": "0.280 g/1 g CeO2",
+        "aging_time": {
+          "value": 12,
+          "unit": "h"
+        },
+        "drying_conditions": "120°C for 12 h",
+        "calcination_conditions": "400°C for 2 h (heating rate 5°C/min)",
+        "post_treatment": "Grinding in agate mortar"
+      },
+      "characterization": {
+        "average_particle_size_xrd": {
+          "value": 19.4,
+          "unit": "nm"
+        },
+        "lattice_constant_xrd": {
+          "value": 5.41734,
+          "unit": "Å"
+        },
+        "lattice_constant_dft": {
+          "value": 5.43151,
+          "unit": "Å"
+        },
+        "oxygen_vacancy_formation_energy_dft": {
+          "value": 1.00,
+          "unit": "eV"
+        },
+        "ce3_concentration_xps": {
+          "value": 0.235,
+          "unit": "fraction"
+        },
+        "morphology_tem": "Near-spherical",
+        "elemental_distribution_eds_tem": "Uniform surface doping (Fig. 3b, Fig. 5)",
+        "crystallinity_phase_composition": "Fluorite cubic CeO2 structure (JCPDS No. 65-5923)"
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.25,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "ph_conditions_tested": [5.0, 9.5]
+      },
+      "cmp_performance": {
+        "equipment_model": "Universal-150 CMP machine (Tianjin Hwatsing Technology Co.)",
+        "wafer_details": "2 in. SiO2 blanket wafer (PECVD)",
+        "pad_composition": "Politex (Dow Chemical)",
+        "polishing_pressure": {
+          "value": 2,
+          "unit": "psi"
+        },
+        "head_platen_speed": {
+          "value": "100/100",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 100,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 1.5,
+          "unit": "min"
+        },
+        "pad_conditioning": "Ex-situ, 30 s",
+        "material_removal_rate": [
+          {
+            "condition_ph": 5.0,
+            "value": 39.8, 
+            "unit": "Å/min"
+          },
+          {
+            "condition_ph": 9.5,
+            "value": 36.5, 
+            "unit": "Å/min"
+          }
+        ],
+        "surface_roughness_sa": {
+          "condition_ph": 9.5,
+          "value": 0.96, 
+          "unit": "nm"
+        },
+         "within_wafer_non_uniformity_wwnu": {
+           "condition_ph": 9.5,
+           "value": "6.2", 
+           "unit": "%"
+        }
+      }
+    },
+    {
+      "sample_id": "Yb_CeO2",
+      "experiment_context": "CeO2 nanoparticles surface-doped with 5% Ytterbium (Yb) via modified incipient impregnation.",
+       "material_source": {
+         "base_material": "Pristine CeO2 (Sigma-Aldrich, 99.95%, <50 nm)",
+         "dopant_precursor": "Yb(NO3)2·5H2O (Aladdin, 99.9%)"
+      },
+      "synthesis_details": {
+        "method": "Modified incipient impregnation",
+        "dopant_load": {
+          "value": 5,
+          "unit": "%"
+        },
+        "impregnation_volume_ratio": "0.280 g/1 g CeO2",
+        "aging_time": {
+          "value": 12,
+          "unit": "h"
+        },
+        "drying_conditions": "120°C for 12 h",
+        "calcination_conditions": "400°C for 2 h (heating rate 5°C/min)",
+        "post_treatment": "Grinding in agate mortar"
+      },
+      "characterization": {
+        "average_particle_size_xrd": {
+          "value": 19.7,
+          "unit": "nm"
+        },
+        "lattice_constant_xrd": {
+          "value": 5.41750,
+          "unit": "Å"
+        },
+        "lattice_constant_dft": {
+          "value": 5.42595,
+          "unit": "Å"
+        },
+        "oxygen_vacancy_formation_energy_dft": {
+          "value": -1.26,
+          "unit": "eV"
+        },
+        "ce3_concentration_xps": {
+          "value": 0.264,
+          "unit": "fraction"
+        },
+        "morphology_tem": "Near-spherical",
+        "elemental_distribution_eds_tem": "Uniform surface doping (Fig. 3c)",
+        "crystallinity_phase_composition": "Fluorite cubic CeO2 structure (JCPDS No. 65-5923)"
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.25,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "ph_conditions_tested": [5.0, 9.5]
+      },
+      "cmp_performance": {
+        "equipment_model": "Universal-150 CMP machine (Tianjin Hwatsing Technology Co.)",
+        "wafer_details": "2 in. SiO2 blanket wafer (PECVD)",
+        "pad_composition": "Politex (Dow Chemical)",
+        "polishing_pressure": {
+          "value": 2,
+          "unit": "psi"
+        },
+        "head_platen_speed": {
+          "value": "100/100",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 100,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 1.5,
+          "unit": "min"
+        },
+        "pad_conditioning": "Ex-situ, 30 s",
+        "material_removal_rate": [
+          {
+            "condition_ph": 5.0,
+            "value": 40.2, 
+            "unit": "Å/min"
+          },
+          {
+            "condition_ph": 9.5,
+            "value": 29.2, 
+            "unit": "Å/min"
+          }
+        ],
+        "surface_roughness_sa": {
+          "condition_ph": 9.5,
+          "value": 1.05, 
+          "unit": "nm"
+        },
+         "within_wafer_non_uniformity_wwnu": {
+           "condition_ph": 9.5,
+           "value": "7.0", 
+           "unit": "%"
+        }
+      }
+    },
+     {
+      "sample_id": "Commercial_1815",
+      "experiment_context": "Commercial CeO2 abrasive particle (No. 1815 based on Fig 10 label/caption, text mentions 2815) used for comparison.",
+      "material_source": {
+        "supplier": "Unknown (Commercial)",
+        "purity": null,
+        "initial_particle_size_spec": null
+      },
+      "synthesis_details": null, 
+      "characterization": null, 
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.25, 
+          "unit": "wt%" 
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "ph_conditions_tested": [9.5] 
+      },
+      "cmp_performance": {
+        "equipment_model": "Universal-150 CMP machine (Tianjin Hwatsing Technology Co.)",
+        "wafer_details": "2 in. SiO2 blanket wafer (PECVD)",
+        "pad_composition": "Politex (Dow Chemical)",
+        "polishing_pressure": {
+          "value": 2,
+          "unit": "psi"
+        },
+        "head_platen_speed": {
+          "value": "100/100",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 100,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 1.5,
+          "unit": "min"
+        },
+        "pad_conditioning": "Ex-situ, 30 s",
+        "material_removal_rate": null, 
+        "surface_roughness_sa": {
+          "condition_ph": 9.5, 
+          "value": 1.41, 
+          "unit": "nm"
+        },
+         "within_wafer_non_uniformity_wwnu": {
+           "condition_ph": 9.5,
+           "value": "9.2", 
+           "unit": "%"
+        }
+      }
+    }
+  ]
+}

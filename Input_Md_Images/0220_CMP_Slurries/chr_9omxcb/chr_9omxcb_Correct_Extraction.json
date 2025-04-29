@@ -1,0 +1,1437 @@
+{
+  "doi": null,
+  "title": "Maximizing the Chemical Removal of Ceria Abrasives in CMP for Silicon Oxide and Metal Polishing",
+  "year_published": "2020",
+  "journal": "PhD Thesis, SUNY Polytechnic Institute",
+  "samples": [
+    {
+      "sample_id": "Ce1_AsReceived_XPS",
+      "experiment_context": "XPS characterization of as-received Ce1 ceria powder (Sigma-Aldrich) to determine initial Ce3+ concentration.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": {
+          "value": "68 \u00b1 10",
+          "unit": "nm",
+          "measurement_method_used": "SEM/ImageJ"
+        },
+        "solvent": {
+          "name": "DI water (for slurry prep before drying for XPS)",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Faceted (Implied from Fig 3.8a description)",
+        "surface_ce3_percent_xps": {
+          "value": "12 \u00b1 1.4",
+          "unit": "%",
+          "measurement_method_used": "XPS",
+          "conditions": "As-received, dried powder"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce2_AsReceived_XPS",
+      "experiment_context": "XPS characterization of as-received Ce2 ceria powder (Sky Spring Nanomaterials) to determine initial Ce3+ concentration.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sky Spring Nanomaterials Powder",
+        "abrasive_particle_size": {
+          "value": "20 \u00b1 5.5",
+          "unit": "nm",
+          "measurement_method_used": "SEM/ImageJ"
+        },
+        "solvent": {
+          "name": "DI water (for slurry prep before drying for XPS)",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Rounded (Implied from Fig 3.8b description)",
+        "surface_ce3_percent_xps": {
+          "value": "26 \u00b1 1.2",
+          "unit": "%",
+          "measurement_method_used": "XPS",
+          "conditions": "As-received, dried powder"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce3_AsReceived_XPS",
+      "experiment_context": "XPS characterization of as-received Ce3 ceria dispersion (Sigma-Aldrich) to determine initial Ce3+ concentration.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Dispersion (20 wt%)",
+        "abrasive_particle_size": {
+          "value": "5 \u00b1 1.8",
+          "unit": "nm",
+          "measurement_method_used": "SEM/ImageJ"
+        },
+        "solvent": {
+          "name": "DI water (as received)",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Rounded (Implied from Fig 3.8c description)",
+        "surface_ce3_percent_xps": {
+          "value": "31 \u00b1 1.2",
+          "unit": "%",
+          "measurement_method_used": "XPS",
+          "conditions": "As-received, dried dispersion"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce1_pH_Study",
+      "experiment_context": "XPS study on the effect of pH (2-12) on Ce3+ concentration for Ce1 (68nm) particles.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "additives": [
+          {"name": "KOH or HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph_range": "2-12",
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "surface_ce3_percent_xps": {
+          "value": "~12",
+          "unit": "%",
+          "measurement_method_used": "XPS",
+          "conditions": "Dried powder, pH 2-12 (negligible change observed, value from Fig 3.10)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce2_pH_Study",
+      "experiment_context": "XPS study on the effect of pH (2-12) on Ce3+ concentration for Ce2 (20nm) particles.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sky Spring Nanomaterials Powder",
+        "abrasive_particle_size": { "value": "20", "unit": "nm" },
+        "additives": [
+          {"name": "KOH or HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph_range": "2-12",
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "surface_ce3_percent_xps": {
+          "value": "~26",
+          "unit": "%",
+          "measurement_method_used": "XPS",
+          "conditions": "Dried powder, pH 2-12 (negligible change observed, value from Fig 3.10)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce3_pH_Study",
+      "experiment_context": "XPS study on the effect of pH (2-12) on Ce3+ concentration for Ce3 (5nm) particles.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Dispersion",
+        "abrasive_particle_size": { "value": "5", "unit": "nm" },
+        "additives": [
+          {"name": "KOH or HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph_range": "2-12",
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "surface_ce3_percent_xps": {
+          "value": "~31",
+          "unit": "%",
+          "measurement_method_used": "XPS",
+          "conditions": "Dried powder, pH 2-12 (negligible change observed, value from Fig 3.10)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce1_H2O2_Study",
+      "experiment_context": "XPS study on the effect of H2O2 concentration (0-3 wt%) on Ce3+ concentration for Ce1 (68nm) particles.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration_range": {"min_value": "0", "max_value": "3", "unit": "wt%"}}
+        ],
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "surface_ce3_percent_xps_vs_h2o2": [
+          {"h2o2_concentration": {"value": "0", "unit": "wt%"}, "ce3_percent": {"value": "~12", "unit": "%"}},
+          {"h2o2_concentration": {"value": "0.5", "unit": "wt%"}, "ce3_percent": {"value": "~26", "unit": "%"}},
+          {"h2o2_concentration": {"value": "1.0", "unit": "wt%"}, "ce3_percent": {"value": "~20", "unit": "%"}},
+          {"h2o2_concentration": {"value": "2.0", "unit": "wt%"}, "ce3_percent": {"value": "~15", "unit": "%"}},
+          {"h2o2_concentration": {"value": "3.0", "unit": "wt%"}, "ce3_percent": {"value": "~12", "unit": "%"}}
+        ],
+        "measurement_method_used": "XPS",
+        "conditions": "Dried powder (Values estimated from Fig 3.11)"
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce2_H2O2_Study",
+      "experiment_context": "XPS study on the effect of H2O2 concentration (0-3 wt%) on Ce3+ concentration for Ce2 (20nm) particles.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sky Spring Nanomaterials Powder",
+        "abrasive_particle_size": { "value": "20", "unit": "nm" },
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration_range": {"min_value": "0", "max_value": "3", "unit": "wt%"}}
+        ],
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "surface_ce3_percent_xps_vs_h2o2": [
+          {"h2o2_concentration": {"value": "0", "unit": "wt%"}, "ce3_percent": {"value": "~26", "unit": "%"}},
+          {"h2o2_concentration": {"value": "0.5", "unit": "wt%"}, "ce3_percent": {"value": "~20", "unit": "%"}},
+          {"h2o2_concentration": {"value": "1.0", "unit": "wt%"}, "ce3_percent": {"value": "~15", "unit": "%"}},
+          {"h2o2_concentration": {"value": "2.0", "unit": "wt%"}, "ce3_percent": {"value": "~12", "unit": "%"}},
+          {"h2o2_concentration": {"value": "3.0", "unit": "wt%"}, "ce3_percent": {"value": "~10", "unit": "%"}}
+        ],
+        "measurement_method_used": "XPS",
+        "conditions": "Dried powder (Values estimated from Fig 3.11)"
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce3_H2O2_Study",
+      "experiment_context": "XPS study on the effect of H2O2 concentration (0-3 wt%) on Ce3+ concentration for Ce3 (5nm) particles.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Dispersion",
+        "abrasive_particle_size": { "value": "5", "unit": "nm" },
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration_range": {"min_value": "0", "max_value": "3", "unit": "wt%"}}
+        ],
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "surface_ce3_percent_xps_vs_h2o2": [
+          {"h2o2_concentration": {"value": "0", "unit": "wt%"}, "ce3_percent": {"value": "~31", "unit": "%"}},
+          {"h2o2_concentration": {"value": "0.5", "unit": "wt%"}, "ce3_percent": {"value": "~25", "unit": "%"}},
+          {"h2o2_concentration": {"value": "1.0", "unit": "wt%"}, "ce3_percent": {"value": "~20", "unit": "%"}},
+          {"h2o2_concentration": {"value": "2.0", "unit": "wt%"}, "ce3_percent": {"value": "~18", "unit": "%"}},
+          {"h2o2_concentration": {"value": "3.0", "unit": "wt%"}, "ce3_percent": {"value": "~15", "unit": "%"}}
+        ],
+        "measurement_method_used": "XPS",
+        "conditions": "Dried powder (Values estimated from Fig 3.11)"
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce1_Surfactant_NoH2O2_Study",
+      "experiment_context": "XPS study on the effect of surfactants (SDS, PVP, CTAB, Glycine at various concentrations) on Ce3+ concentration for Ce1 (68nm) particles without H2O2.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "additives": [
+          {"name": "SDS", "type": "Surfactant"},
+          {"name": "PVP", "type": "Surfactant"},
+          {"name": "CTAB", "type": "Surfactant"},
+          {"name": "Glycine", "type": "Surfactant"}
+        ],
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "surface_ce3_percent_xps": {
+          "value": "~12",
+          "unit": "%",
+          "measurement_method_used": "XPS",
+          "conditions": "Dried powder, no H2O2, various surfactant concentrations (negligible change observed, value from Fig 3.13a)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Ce1_Surfactant_WithH2O2_Study",
+      "experiment_context": "XPS study on the effect of surfactants (SDS, PVP, CTAB, Glycine at 0.5 wt%) on Ce3+ concentration for Ce1 (68nm) particles with 0.5 wt% H2O2.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "SDS", "type": "Surfactant", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "PVP", "type": "Surfactant", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "CTAB", "type": "Surfactant", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "Glycine", "type": "Surfactant", "concentration": {"value": "0.5", "unit": "wt%"}}
+        ],
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "surface_ce3_percent_xps_by_surfactant": [
+          {"surfactant": "None", "ce3_percent": {"value": "~26", "unit": "%"}},
+          {"surfactant": "SDS", "ce3_percent": {"value": "~24", "unit": "%"}},
+          {"surfactant": "CTAB", "ce3_percent": {"value": "~25", "unit": "%"}},
+          {"surfactant": "Glycine", "ce3_percent": {"value": "~15", "unit": "%"}},
+          {"surfactant": "PVP", "ce3_percent": {"value": "~18", "unit": "%"}}
+        ],
+        "measurement_method_used": "XPS",
+        "conditions": "Dried powder, 0.5 wt% H2O2, 0.5 wt% surfactant (Values estimated from Fig 3.13b)"
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "CommercialSlurry_SiO2_Polish",
+      "experiment_context": "Baseline polishing of thermal silicon oxide using a commercial ceria slurry.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial (NY CREATES)",
+        "abrasive_particle_size": { "value": "~40", "unit": "nm", "note": "Nominal average mentioned in text" },
+        "target_final_slurry_ph": {"value": "7.8", "unit": ""},
+        "solvent": { "name": "Unknown", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~5", "unit": "nm/min", "source": "Fig 4.2a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.6", "unit": "nm", "source": "Fig 4.2b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.1", "unit": "nm", "source": "Fig 4.2b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_pH8_0H2O2_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, pH 8, with 0 wt% H2O2.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~10", "unit": "nm/min", "source": "Fig 4.2a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.0", "unit": "nm", "source": "Fig 4.2b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.25", "unit": "nm", "source": "Fig 4.2b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_pH8_0.5H2O2_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, pH 8, with 0.5 wt% H2O2 (optimal Ce3+).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~28", "unit": "nm/min", "source": "Fig 4.2a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.4", "unit": "nm", "source": "Fig 4.2b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.08", "unit": "nm", "source": "Fig 4.2b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_pH8_1.0H2O2_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, pH 8, with 1.0 wt% H2O2.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "1.0", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~20", "unit": "nm/min", "source": "Fig 4.2a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.6", "unit": "nm", "source": "Fig 4.2b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.1", "unit": "nm", "source": "Fig 4.2b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_pH8_2.0H2O2_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, pH 8, with 2.0 wt% H2O2.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "2.0", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~15", "unit": "nm/min", "source": "Fig 4.2a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.6", "unit": "nm", "source": "Fig 4.2b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.1", "unit": "nm", "source": "Fig 4.2b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_pH4_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, adjusted to pH 4.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "4", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~20", "unit": "nm/min", "source": "Fig 4.3a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.8", "unit": "nm", "source": "Fig 4.3b estimate, significant pitting observed (Fig 4.4)" },
+        "post_polish_roughness_rrms": { "value": "~0.3", "unit": "nm", "source": "Fig 4.3b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_pH6_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, adjusted to pH 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "HNO3/KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "6", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~5", "unit": "nm/min", "source": "Fig 4.3a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.6", "unit": "nm", "source": "Fig 4.3b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.1", "unit": "nm", "source": "Fig 4.3b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_pH10_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, adjusted to pH 10.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "10", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~25", "unit": "nm/min", "source": "Fig 4.3a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.5", "unit": "nm", "source": "Fig 4.3b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.12", "unit": "nm", "source": "Fig 4.3b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_pH12_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, adjusted to pH 12.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "12", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~20", "unit": "nm/min", "source": "Fig 4.3a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.6", "unit": "nm", "source": "Fig 4.3b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.15", "unit": "nm", "source": "Fig 4.3b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce2_1wt_pH8_OptH2O2_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce2 (20nm) slurry at 1.0 wt%, pH 8, with optimal H2O2 for Ce3+.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sky Spring Nanomaterials Powder",
+        "abrasive_particle_size": { "value": "20", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "Unknown", "unit": "wt%", "note": "Concentration for max Ce3+ used, not specified in Fig 4.5 text"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~20", "unit": "nm/min", "source": "Fig 4.5a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.4", "unit": "nm", "source": "Fig 4.5b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.08", "unit": "nm", "source": "Fig 4.5b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce3_1wt_pH8_OptH2O2_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce3 (5nm) slurry at 1.0 wt%, pH 8, with optimal H2O2 for Ce3+.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Dispersion",
+        "abrasive_particle_size": { "value": "5", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "Unknown", "unit": "wt%", "note": "Concentration for max Ce3+ used, not specified in Fig 4.5 text"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~18", "unit": "nm/min", "source": "Fig 4.5a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.4", "unit": "nm", "source": "Fig 4.5b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.08", "unit": "nm", "source": "Fig 4.5b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_pH8_0.5H2O2_CTAB_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, pH 8, 0.5 wt% H2O2, with 0.5 wt% CTAB surfactant.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "CTAB", "type": "Surfactant (Micellular)", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~5", "unit": "nm/min", "source": "Fig 4.6a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.2", "unit": "nm", "source": "Fig 4.6b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.2", "unit": "nm", "source": "Fig 4.6b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_pH8_0.5H2O2_PVP_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using Ce1 (68nm) slurry at 1.0 wt%, pH 8, 0.5 wt% H2O2, with 0.5 wt% PVP surfactant.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "PVP", "type": "Surfactant (Linear)", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~20", "unit": "nm/min", "source": "Fig 4.6a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.6", "unit": "nm", "source": "Fig 4.6b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.1", "unit": "nm", "source": "Fig 4.6b estimate" }
+      }
+    },
+    {
+      "sample_id": "Silica_80_30nm_SiO2_Polish",
+      "experiment_context": "Polishing thermal silicon oxide using a mix of 80nm and 30nm silica particles for comparison.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+        "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "Unknown", "unit": "wt%", "note": "Concentration not specified in Fig 4.8 text/caption"},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Thermal Silicon Oxide",
+        "material_removal_rate": { "value": "~6", "unit": "nm/min", "source": "Fig 4.8 estimate" }
+      }
+    },
+    {
+      "sample_id": "CommercialSlurry_SiN_Polish",
+      "experiment_context": "Baseline polishing of PECVD silicon nitride using a commercial ceria slurry for selectivity measurement.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial (NY CREATES)",
+        "abrasive_particle_size": { "value": "~40", "unit": "nm", "note": "Nominal average mentioned in text" },
+        "target_final_slurry_ph": {"value": "7.8", "unit": ""},
+        "solvent": { "name": "Unknown", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "PECVD Silicon Nitride",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~5", "unit": "nm/min", "source": "Fig 4.9 estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "selectivity_oxide_nitride": {"value": "~1:1", "source": "Fig 4.9"}
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_pH8_0.5H2O2_SiN_Polish",
+      "experiment_context": "Polishing PECVD silicon nitride using Ce1 (68nm) slurry at 1.0 wt%, pH 8, 0.5 wt% H2O2 for selectivity measurement.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "PECVD Silicon Nitride",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~9", "unit": "nm/min", "source": "Fig 4.9 estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "selectivity_oxide_nitride": {"value": "~3:1", "source": "Fig 4.9"}
+      }
+    },
+    {
+      "sample_id": "Silica_1wt_3H2O2_pH8_Ru_Polish",
+      "experiment_context": "Polishing Ruthenium using standard silica slurry (80/30nm mix, 1.0 wt%, 3.0 wt% H2O2, pH 8).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+        "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "3.0", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Ruthenium",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~150", "unit": "\u00c5/min", "source": "Fig 5.5a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.5", "unit": "nm", "source": "Fig 5.5b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.3", "unit": "nm", "source": "Fig 5.5b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_pH8_Ru_Polish",
+      "experiment_context": "Polishing Ruthenium using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, pH 8.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Ruthenium",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~450", "unit": "\u00c5/min", "source": "Fig 5.5a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.8", "unit": "nm", "source": "Fig 5.5b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.1", "unit": "nm", "source": "Fig 5.5b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_0.5wt_0.25H2O2_pH8_Ru_Polish",
+      "experiment_context": "Polishing Ruthenium using Ce1 (68nm) slurry at 0.5 wt%, 0.25 wt% H2O2, pH 8.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "0.5", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.25", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Ruthenium",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~350", "unit": "\u00c5/min", "source": "Fig 5.7a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~0.9", "unit": "nm", "source": "Fig 5.7b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.12", "unit": "nm", "source": "Fig 5.7b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_0.1wt_0.05H2O2_pH8_Ru_Polish",
+      "experiment_context": "Polishing Ruthenium using Ce1 (68nm) slurry at 0.1 wt%, 0.05 wt% H2O2, pH 8 (Cost-equivalent benchmark).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "0.1", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.05", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Ruthenium",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~300", "unit": "\u00c5/min", "source": "Fig 5.7a, 5.8a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.0", "unit": "nm", "source": "Fig 5.7b, 5.8b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.15", "unit": "nm", "source": "Fig 5.7b, 5.8b estimate" }
+      }
+    },
+    {
+      "sample_id": "Silica_5wt_3H2O2_pH8_Ru_Polish",
+      "experiment_context": "Polishing Ruthenium using silica slurry (80/30nm mix) at 5.0 wt%, 3.0 wt% H2O2, pH 8.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+        "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "5.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "3.0", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Ruthenium",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~250", "unit": "\u00c5/min", "source": "Fig 5.8a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.5", "unit": "nm", "source": "Fig 5.8b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.2", "unit": "nm", "source": "Fig 5.8b estimate" }
+      }
+    },
+    {
+      "sample_id": "Silica_15wt_3H2O2_pH8_Ru_Polish",
+      "experiment_context": "Polishing Ruthenium using silica slurry (80/30nm mix) at 15.0 wt%, 3.0 wt% H2O2, pH 8.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+        "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "15.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "3.0", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Ruthenium",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~300", "unit": "\u00c5/min", "source": "Fig 5.8a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.5", "unit": "nm", "source": "Fig 5.8b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.15", "unit": "nm", "source": "Fig 5.8b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_pH4_W_Polish",
+      "experiment_context": "Polishing Tungsten using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, adjusted to pH 4.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "4", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Tungsten",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~4", "unit": "\u00c5/min", "source": "Text description for Fig 5.9 (undetectable in 1 min, ~4 A/min after 1 hr)" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_pH2_W_Polish",
+      "experiment_context": "Polishing Tungsten using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, adjusted to pH 2.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "2", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Tungsten",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~600", "unit": "\u00c5/min", "source": "Fig 5.9b estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_pH1.8_W_Polish",
+      "experiment_context": "Polishing Tungsten using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, adjusted to pH 1.8 (High Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "1.8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Tungsten",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1200", "unit": "\u00c5/min", "source": "Fig 5.9c, 5.10 estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.5", "unit": "nm", "source": "Fig 5.11a estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.3", "unit": "nm", "source": "Fig 5.11a estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_0.5wt_0.25H2O2_pH1.8_W_Polish",
+      "experiment_context": "Polishing Tungsten using Ce1 (68nm) slurry at 0.5 wt%, 0.25 wt% H2O2, pH 1.8 (Medium Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "0.5", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.25", "unit": "wt%"}},
+          {"name": "HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "1.8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Tungsten",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~800", "unit": "\u00c5/min", "source": "Fig 5.10 estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~2.0", "unit": "nm", "source": "Fig 5.11a estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.4", "unit": "nm", "source": "Fig 5.11a estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_0.1wt_0.05H2O2_pH1.8_W_Polish",
+      "experiment_context": "Polishing Tungsten using Ce1 (68nm) slurry at 0.1 wt%, 0.05 wt% H2O2, pH 1.8 (Low Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "0.1", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.05", "unit": "wt%"}},
+          {"name": "HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "1.8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Tungsten",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~200", "unit": "\u00c5/min", "source": "Fig 5.10 estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~2.5", "unit": "nm", "source": "Fig 5.11a estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.5", "unit": "nm", "source": "Fig 5.11a estimate" }
+      }
+    },
+    {
+      "sample_id": "Silica_10wt_3H2O2_pH1.8_W_Polish",
+      "experiment_context": "Polishing Tungsten using silica slurry at 10.0 wt%, 3.0 wt% H2O2, pH 1.8 (High Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+        "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "10.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "3.0", "unit": "wt%"}},
+          {"name": "HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "1.8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Tungsten",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1000", "unit": "\u00c5/min", "source": "Fig 5.10 estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~2.5", "unit": "nm", "source": "Fig 5.11b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.5", "unit": "nm", "source": "Fig 5.11b estimate" }
+      }
+    },
+    {
+      "sample_id": "Silica_5wt_3H2O2_pH1.8_W_Polish",
+      "experiment_context": "Polishing Tungsten using silica slurry at 5.0 wt%, 3.0 wt% H2O2, pH 1.8 (Medium Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+        "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "5.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "3.0", "unit": "wt%"}},
+          {"name": "HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "1.8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Tungsten",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~800", "unit": "\u00c5/min", "source": "Fig 5.10 estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~2.8", "unit": "nm", "source": "Fig 5.11b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.6", "unit": "nm", "source": "Fig 5.11b estimate" }
+      }
+    },
+    {
+      "sample_id": "Silica_1wt_3H2O2_pH1.8_W_Polish",
+      "experiment_context": "Polishing Tungsten using silica slurry at 1.0 wt%, 3.0 wt% H2O2, pH 1.8 (Low Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+        "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "3.0", "unit": "wt%"}},
+          {"name": "HNO3", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "1.8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Tungsten",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~400", "unit": "\u00c5/min", "source": "Fig 5.10 estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~3.0", "unit": "nm", "source": "Fig 5.11b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.7", "unit": "nm", "source": "Fig 5.11b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_GlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, 0.01M Glycine, 0.01M BTA, pH 8 (High Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "Glycine", "type": "Complexing Agent", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "BTA", "type": "Inhibitor", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "characterization": {
+         "surface_ce3_percent_xps": {
+          "value": "~12",
+          "unit": "%",
+          "measurement_method_used": "XPS",
+          "conditions": "With Glycine/BTA (Fig 5.14b estimate)"
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~2500", "unit": "\u00c5/min", "source": "Fig 5.15a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.2", "unit": "nm", "source": "Fig 5.15b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.25", "unit": "nm", "source": "Fig 5.15b estimate" }
+      }
+    },
+     {
+      "sample_id": "Ce1_0.5wt_0.25H2O2_GlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using Ce1 (68nm) slurry at 0.5 wt%, 0.25 wt% H2O2, 0.01M Glycine, 0.01M BTA, pH 8 (Medium Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "0.5", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.25", "unit": "wt%"}},
+          {"name": "Glycine", "type": "Complexing Agent", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "BTA", "type": "Inhibitor", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~2200", "unit": "\u00c5/min", "source": "Fig 5.15a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    },
+     {
+      "sample_id": "Ce1_0.1wt_0.05H2O2_GlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using Ce1 (68nm) slurry at 0.1 wt%, 0.05 wt% H2O2, 0.01M Glycine, 0.01M BTA, pH 8 (Low Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "0.1", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.05", "unit": "wt%"}},
+          {"name": "Glycine", "type": "Complexing Agent", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "BTA", "type": "Inhibitor", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1800", "unit": "\u00c5/min", "source": "Fig 5.15a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    },
+    {
+      "sample_id": "Silica_10wt_1H2O2_GlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using silica slurry at 10.0 wt%, 1.0 wt% H2O2, 0.01M Glycine, 0.01M BTA, pH 8 (High Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+         "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "10.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "1.0", "unit": "wt%"}},
+          {"name": "Glycine", "type": "Complexing Agent", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "BTA", "type": "Inhibitor", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1400", "unit": "\u00c5/min", "source": "Fig 5.15a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.0", "unit": "nm", "source": "Fig 5.15b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.2", "unit": "nm", "source": "Fig 5.15b estimate" }
+      }
+    },
+    {
+      "sample_id": "Silica_5wt_1H2O2_GlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using silica slurry at 5.0 wt%, 1.0 wt% H2O2, 0.01M Glycine, 0.01M BTA, pH 8 (Medium Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+         "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "5.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "1.0", "unit": "wt%"}},
+          {"name": "Glycine", "type": "Complexing Agent", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "BTA", "type": "Inhibitor", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1200", "unit": "\u00c5/min", "source": "Fig 5.15a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    },
+    {
+      "sample_id": "Silica_1wt_1H2O2_GlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using silica slurry at 1.0 wt%, 1.0 wt% H2O2, 0.01M Glycine, 0.01M BTA, pH 8 (Low Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+         "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "1.0", "unit": "wt%"}},
+          {"name": "Glycine", "type": "Complexing Agent", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "BTA", "type": "Inhibitor", "concentration": {"value": "0.01", "unit": "M"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1000", "unit": "\u00c5/min", "source": "Fig 5.15a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    },
+    {
+      "sample_id": "Ce1_1wt_0.5H2O2_NoGlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using Ce1 (68nm) slurry at 1.0 wt%, 0.5 wt% H2O2, pH 8, without Glycine/BTA (High Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.5", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~2000", "unit": "\u00c5/min", "source": "Fig 5.16a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.0", "unit": "nm", "source": "Fig 5.16b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.15", "unit": "nm", "source": "Fig 5.16b estimate" }
+      }
+    },
+    {
+      "sample_id": "Ce1_0.5wt_0.25H2O2_NoGlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using Ce1 (68nm) slurry at 0.5 wt%, 0.25 wt% H2O2, pH 8, without Glycine/BTA (Medium Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "0.5", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.25", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1800", "unit": "\u00c5/min", "source": "Fig 5.16a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    },
+    {
+      "sample_id": "Ce1_0.1wt_0.05H2O2_NoGlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using Ce1 (68nm) slurry at 0.1 wt%, 0.05 wt% H2O2, pH 8, without Glycine/BTA (Low Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Sigma-Aldrich Powder",
+        "abrasive_particle_size": { "value": "68", "unit": "nm" },
+        "abrasive_ceria_concentration": {"value": "0.1", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "0.05", "unit": "wt%"}},
+          {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": "25 cm3 total" }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1400", "unit": "\u00c5/min", "source": "Fig 5.16a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    },
+    {
+      "sample_id": "Silica_10wt_1H2O2_NoGlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using silica slurry at 10.0 wt%, 1.0 wt% H2O2, pH 8, without Glycine/BTA (High Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+         "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "10.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "1.0", "unit": "wt%"}},
+           {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1400", "unit": "\u00c5/min", "source": "Fig 5.16a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)",
+        "post_polish_roughness_rz": { "value": "~1.0", "unit": "nm", "source": "Fig 5.16b estimate" },
+        "post_polish_roughness_rrms": { "value": "~0.25", "unit": "nm", "source": "Fig 5.16b estimate" }
+      }
+    },
+    {
+      "sample_id": "Silica_5wt_1H2O2_NoGlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using silica slurry at 5.0 wt%, 1.0 wt% H2O2, pH 8, without Glycine/BTA (Medium Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+         "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "5.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "1.0", "unit": "wt%"}},
+           {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1200", "unit": "\u00c5/min", "source": "Fig 5.16a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    },
+    {
+      "sample_id": "Silica_1wt_1H2O2_NoGlyBTA_pH8_Cu_Polish",
+      "experiment_context": "Polishing Copper using silica slurry at 1.0 wt%, 1.0 wt% H2O2, pH 8, without Glycine/BTA (Low Conc. Cost Equivalent).",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Allied High Tech",
+         "abrasive_particle_size": [
+            {"value": "80", "unit": "nm"},
+            {"value": "30", "unit": "nm"}
+        ],
+        "abrasive_silica_concentration": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizing Agent", "concentration": {"value": "1.0", "unit": "wt%"}},
+           {"name": "KOH", "type": "pH adjustment"}
+        ],
+        "target_final_slurry_ph": {"value": "8", "unit": ""},
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "cmp_performance": {
+        "polished_material": "Copper",
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": { "value": "~1000", "unit": "\u00c5/min", "source": "Fig 5.16a estimate" },
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "rotation_speeds": {"platen": "40 rpm CW", "head": "20 rpm CCW", "oscillation": "8 rpm"},
+        "pad_composition": "ChemPol\u2122 non-woven polishing pad",
+        "equipment_model": "Multiprep benchtop polisher (Allied High Tech)"
+      }
+    }
+  ]
+}

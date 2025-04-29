@@ -1,0 +1,529 @@
+{
+  "doi": "10.1016/j.apsusc.2024.160123",
+  "title": "Particle size dependence of nanoclustered ceria abrasives on surface activity and chemical mechanical planarization performance",
+  "year_published": "2024",
+  "journal": "Applied Surface Science",
+  "instrument_device_model": {
+    "FESEM": "JEOL JSM 7401F",
+    "HRTEM": "JEOL JEM-2100F",
+    "XRD": "Rigaku Smart Lab SE",
+    "BET": "Micromeritics TriStar II 3020",
+    "XPS": "ESCALAB 250",
+    "Zeta_potential_DLS": "Zetasizer Nano-ZS",
+    "Reflectometer": "ST4000-DLX"
+  },
+  "samples": [
+    {
+      "sample_id": "NC51",
+      "experiment_context": "Commercial nanoclustered ceria abrasive (BOC S40 from Bead Origin, Inc.) with average diameter 51.4 nm, used in CMP slurry.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "details": "Synthesized in liquid phase (Ref [6], [12])",
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+         "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4 to 4.6",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "51.4",
+          "unit": "nm",
+          "measurement_method_used": "TEM",
+          "std_dev_nm": 6.04
+        },
+        "crystallite_size": {
+          "value": "5.40",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer)"
+        },
+        "crystallinity_phase_composition": {
+          "value": "70.6",
+          "unit": "%",
+          "measurement_method_used": "XRD (Ruland-Vonk)"
+        },
+        "surface_composition_xps": {
+          "Ce3_percent": 45.0,
+          "Ce4_percent": 55.0,
+          "Ce3_Ce4_ratio_percent": 81.7,
+          "OH_percent": 82.4,
+          "O2_lattice_percent": 17.6
+        },
+        "elemental_composition": null,
+        "particle_morphology": "Round surface morphology, Nanoclustered structure consisting of fine granules measuring 4-6 nm",
+        "specific_surface_area_bet": {
+          "value": "136.2",
+          "unit": "m²/g"
+        },
+        "zeta_potential": {
+          "value": ">30",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "hydrodynamic_radius_dls": {
+          "value": "~51.4",
+          "unit": "nm",
+          "conditions": "pH 4"
+        },
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)",
+          "(222)",
+          "(400)",
+          "(331)",
+          "(420)"
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "5394",
+          "unit": "Å/min",
+          "substrate": "SiO2"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CMP polisher (GNP POLI-400L, G&P Technology Inc., Korea)",
+        "pad_composition": "Polyurethane (HD-319C, SKC Inc., Korea)",
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "mL/min"
+        },
+        "rotation_speed": {
+          "pad": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "wafer": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "wafer_details": {
+          "material": "SiO2",
+          "size": "40x40 mm^2 coupon",
+          "initial_thickness": {
+            "value": "30000",
+            "unit": "Å"
+          }
+        },
+        "conditioner_details": "CI-45, Saesol Diamond Co., Ltd., Korea",
+        "pad_conditioning_time": {
+          "value": "5",
+          "unit": "min"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "NC69",
+      "experiment_context": "Commercial nanoclustered ceria abrasive (BOC S70 from Bead Origin, Inc.) with average diameter 68.6 nm, used in CMP slurry.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "details": "Synthesized in liquid phase (Ref [6], [12])",
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+         "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4 to 4.6",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "68.6",
+          "unit": "nm",
+          "measurement_method_used": "TEM",
+          "std_dev_nm": 9.42
+        },
+        "crystallite_size": {
+          "value": "5.86",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer)"
+        },
+        "crystallinity_phase_composition": {
+          "value": "70.6",
+          "unit": "%",
+          "measurement_method_used": "XRD (Ruland-Vonk)"
+        },
+        "surface_composition_xps": {
+          "Ce3_percent": 41.0,
+          "Ce4_percent": 59.0,
+          "Ce3_Ce4_ratio_percent": 69.4,
+          "OH_percent": 76.8,
+          "O2_lattice_percent": 23.2
+        },
+        "elemental_composition": null,
+        "particle_morphology": "Round surface morphology, Nanoclustered structure consisting of fine granules measuring 4-6 nm",
+        "specific_surface_area_bet": {
+          "value": "~100.0",
+          "unit": "m²/g"
+        },
+        "zeta_potential": {
+          "value": ">30",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "hydrodynamic_radius_dls": {
+          "value": "~68.6",
+          "unit": "nm",
+          "conditions": "pH 4"
+        },
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)",
+          "(222)",
+          "(400)",
+          "(331)",
+          "(420)"
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "4392",
+          "unit": "Å/min",
+          "substrate": "SiO2"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CMP polisher (GNP POLI-400L, G&P Technology Inc., Korea)",
+        "pad_composition": "Polyurethane (HD-319C, SKC Inc., Korea)",
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "mL/min"
+        },
+        "rotation_speed": {
+          "pad": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "wafer": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "wafer_details": {
+          "material": "SiO2",
+          "size": "40x40 mm^2 coupon",
+          "initial_thickness": {
+            "value": "30000",
+            "unit": "Å"
+          }
+        },
+        "conditioner_details": "CI-45, Saesol Diamond Co., Ltd., Korea",
+        "pad_conditioning_time": {
+          "value": "5",
+          "unit": "min"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "NC108",
+      "experiment_context": "Commercial nanoclustered ceria abrasive (BOC M10 from Bead Origin, Inc.) with average diameter 108.0 nm, used in CMP slurry.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "details": "Synthesized in liquid phase (Ref [6], [12])",
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+         "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4 to 4.6",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "108.0",
+          "unit": "nm",
+          "measurement_method_used": "TEM",
+          "std_dev_nm": 10.3
+        },
+        "crystallite_size": {
+          "value": "4.36",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer)"
+        },
+        "crystallinity_phase_composition": {
+          "value": "70.6",
+          "unit": "%",
+          "measurement_method_used": "XRD (Ruland-Vonk)"
+        },
+        "surface_composition_xps": {
+          "Ce3_percent": 32.6,
+          "Ce4_percent": 67.4,
+          "Ce3_Ce4_ratio_percent": 48.4,
+          "OH_percent": 69.4,
+          "O2_lattice_percent": 30.6
+        },
+        "elemental_composition": null,
+        "particle_morphology": "Round surface morphology, Nanoclustered structure consisting of fine granules measuring 4-6 nm",
+        "specific_surface_area_bet": {
+          "value": "53.5",
+          "unit": "m²/g"
+        },
+        "zeta_potential": {
+          "value": ">30",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "hydrodynamic_radius_dls": {
+          "value": "~108.0",
+          "unit": "nm",
+          "conditions": "pH 4"
+        },
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)",
+          "(222)",
+          "(400)",
+          "(331)",
+          "(420)"
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "3546",
+          "unit": "Å/min",
+          "substrate": "SiO2"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CMP polisher (GNP POLI-400L, G&P Technology Inc., Korea)",
+        "pad_composition": "Polyurethane (HD-319C, SKC Inc., Korea)",
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "mL/min"
+        },
+        "rotation_speed": {
+          "pad": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "wafer": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "wafer_details": {
+          "material": "SiO2",
+          "size": "40x40 mm^2 coupon",
+          "initial_thickness": {
+            "value": "30000",
+            "unit": "Å"
+          }
+        },
+        "conditioner_details": "CI-45, Saesol Diamond Co., Ltd., Korea",
+        "pad_conditioning_time": {
+          "value": "5",
+          "unit": "min"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "HC60",
+      "experiment_context": "Commercial cubic fluorite ceria abrasive (Zenus® HC60 from Solvay, Ltd.) used as reference.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4 to 4.6",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~117.0",
+          "unit": "nm",
+          "measurement_method_used": "Inferred from text (Sec 3.2)",
+          "std_dev_nm": null
+        },
+        "crystallite_size": {
+          "value": "45.5",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer)"
+        },
+        "crystallinity_phase_composition": {
+          "value": "95.8",
+          "unit": "%",
+          "measurement_method_used": "XRD (Ruland-Vonk)"
+        },
+        "surface_composition_xps": {
+          "Ce3_percent": null,
+          "Ce4_percent": null,
+          "Ce3_Ce4_ratio_percent": null,
+          "OH_percent": 47.3,
+          "O2_lattice_percent": null
+        },
+        "elemental_composition": null,
+        "particle_morphology": "Cubic fluorite structure, sharp edges (Fig. S1 description)",
+        "specific_surface_area_bet": {
+          "value": "10.6",
+          "unit": "m²/g"
+        },
+        "zeta_potential": {
+          "value": ">30",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "hydrodynamic_radius_dls": {
+          "value": null,
+          "unit": "nm",
+          "conditions": "pH 4"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "2197",
+          "unit": "Å/min",
+          "substrate": "SiO2"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CMP polisher (GNP POLI-400L, G&P Technology Inc., Korea)",
+        "pad_composition": "Polyurethane (HD-319C, SKC Inc., Korea)",
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "mL/min"
+        },
+        "rotation_speed": {
+          "pad": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "wafer": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "wafer_details": {
+          "material": "SiO2",
+          "size": "40x40 mm^2 coupon",
+          "initial_thickness": {
+            "value": "30000",
+            "unit": "Å"
+          }
+        },
+        "conditioner_details": "CI-45, Saesol Diamond Co., Ltd., Korea",
+        "pad_conditioning_time": {
+          "value": "5",
+          "unit": "min"
+        }
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

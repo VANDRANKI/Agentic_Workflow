@@ -1,0 +1,170 @@
+{
+  "doi": "10.1016/j.apsusc.2015.10.158",
+  "title": "Performance of colloidal silica and ceria based slurries on CMP of Si-face 6H-SiC substrates",
+  "year_published": "2015",
+  "journal": "Applied Surface Science",
+  "samples": [
+    {
+      "sample_id": "SiO2_pH6_KMnO4",
+      "experiment_context": "CMP of Si-face 6H-SiC using colloidal silica slurry with KMnO4 oxidizer at optimal pH 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica (SiO2)",
+        "abrasive_concentration": {
+          "value": "6",
+          "unit": "wt%"
+        },
+        "abrasive_particle_size": {
+          "value": "50",
+          "unit": "nm"
+        },
+        "oxidizer": {
+          "name": "KMnO4",
+          "concentration": {
+            "value": "0.05",
+            "unit": "M"
+          }
+        },
+        "ph": 6,
+        "solvent": "DI water"
+      },
+      "cmp_performance": {
+        "substrate": "Si-face 6H-SiC",
+        "polishing_time": {
+          "value": "20",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "185",
+          "unit": "nm/h"
+        },
+        "surface_roughness_ra": {
+          "value": "0.254",
+          "unit": "nm"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": "90",
+          "unit": "ml/min"
+        },
+        "platen_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "carrier_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "equipment_model": "CETR CP-4",
+        "pad_composition": "IC-1000 K-Groove",
+        "pad_conditioning": "Ex situ"
+      },
+      "characterization": {
+        "zeta_potential_description": "Silica particles negatively charged at pH 6 (based on Fig 5).",
+        "xps_analysis": {
+          "c_si_ratio": 3.1,
+          "o_si_ratio": 0.5,
+          "relative_atomic_concentration_si2p": {
+            "Si-C": 53.8,
+            "Si-C-O": 30.8,
+            "SiOxCy": 15.4
+          },
+          "relative_atomic_concentration_c1s": {
+            "Si-C": 14.8,
+            "Si4C4-xO2": 21.6,
+            "Si4C4O4": 38.1,
+            "C-O": 22.0,
+            "C=O": 3.6
+          }
+        },
+        "afm_morphology": {
+          "description": "Excellent surface",
+          "image_ref": "Fig 3 (img-2.jpeg)"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_pH2_KMnO4",
+      "experiment_context": "CMP of Si-face 6H-SiC using colloidal ceria slurry with KMnO4 oxidizer at optimal pH 2.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria (CeO2)",
+        "abrasive_concentration": {
+          "value": "2",
+          "unit": "wt%"
+        },
+        "abrasive_particle_size": {
+          "value": "140",
+          "unit": "nm"
+        },
+        "oxidizer": {
+          "name": "KMnO4",
+          "concentration": {
+            "value": "0.05",
+            "unit": "M"
+          }
+        },
+        "ph": 2,
+        "solvent": "DI water"
+      },
+      "cmp_performance": {
+        "substrate": "Si-face 6H-SiC",
+        "polishing_time": {
+          "value": "20",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "1089",
+          "unit": "nm/h"
+        },
+        "surface_roughness_ra": {
+          "value": "0.11",
+          "unit": "nm"
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": "90",
+          "unit": "ml/min"
+        },
+        "platen_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "carrier_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "equipment_model": "CETR CP-4",
+        "pad_composition": "IC-1000 K-Groove",
+        "pad_conditioning": "Ex situ"
+      },
+      "characterization": {
+        "zeta_potential_description": "Ceria particles positively charged at pH 2 (based on Fig 5).",
+        "xps_analysis": {
+          "c_si_ratio": 3.5,
+          "o_si_ratio": 0.5,
+          "relative_atomic_concentration_si2p": {
+            "Si-C": 36.9,
+            "Si-C-O": 42.7,
+            "SiOxCy": 20.4
+          },
+          "relative_atomic_concentration_c1s": {
+            "Si-C": 17.3,
+            "Si4C4-xO2": 21.9,
+            "Si4C4O4": 41.7,
+            "C-O": 16.7,
+            "C=O": 2.4
+          }
+        },
+        "afm_morphology": {
+          "description": "Smoother surface",
+          "image_ref": "Fig 4 (img-3.jpeg)"
+        }
+      }
+    }
+  ]
+}

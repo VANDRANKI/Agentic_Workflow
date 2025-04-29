@@ -1,0 +1,1873 @@
+{
+  "doi": null,
+  "title": "Study on the effect of ceria concentration on the silicon oxide removal rate in chemical mechanical planarization",
+  "year_published": null,
+  "journal": null,
+  "general_instrumentation": {
+    "TEM": "JEM-2100 F (JEOL, Japan)",
+    "Zeta_sizer": "ELSZ-2000 (Otsuka Electronics, Japan)",
+    "SMPS": "TSI 3080 (TSI, USA)",
+    "SEM": "JSM7600 F (JEOL, Japan)",
+    "Digital_microscope": "Dino lite Edge (AnMo Electronics Corporation, Taiwan)"
+  },
+  "samples": [
+    {
+      "sample_id": "Ceria_0.5wt%_pH4_4psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 0.5 wt% concentration, adjusted to pH 4, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        },
+        "particle_size_distribution_smp": {
+          "measurement_method_used": "SMPS (TSI 3080)",
+          "observation": "Mode peak shift of ~4 nm observed in waste slurry compared to raw slurry, indicating active particles bonded to silicon oxide.",
+          "source": "Fig. 14, Fig. 15, Section 3.4"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 3300,
+          "unit": "Å/min",
+          "source": "Fig. 2 / Fig. 12"
+        },
+        "coefficient_of_friction": {
+          "value": 0.48,
+          "unit": null,
+          "source": "Fig. 2"
+        },
+        "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Ceria",
+          "surface_morphology_sem": {
+            "description": "Lowest particle count among Ceria samples",
+            "source": "Fig. 4a"
+          },
+          "surface_morphology_om": {
+            "description": "Narrowest band-shaped adsorption layer among Ceria samples",
+            "source": "Fig. 6"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_1.0wt%_pH4_4psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 1.0 wt% concentration, adjusted to pH 4, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 1.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 2800,
+          "unit": "Å/min",
+          "source": "Fig. 2"
+        },
+        "coefficient_of_friction": {
+          "value": 0.45,
+          "unit": null,
+          "source": "Fig. 2"
+        },
+        "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Ceria",
+          "surface_morphology_sem": {
+            "description": "Increased particle count compared to 0.5 wt%",
+            "source": "Fig. 4b"
+          },
+          "surface_morphology_om": {
+            "description": "Wider band-shaped adsorption layer compared to 0.5 wt%",
+            "source": "Fig. 6"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_2.0wt%_pH4_4psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 2.0 wt% concentration, adjusted to pH 4, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 2.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 2300,
+          "unit": "Å/min",
+          "source": "Fig. 2"
+        },
+        "coefficient_of_friction": {
+          "value": 0.42,
+          "unit": null,
+          "source": "Fig. 2"
+        },
+        "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Ceria",
+          "surface_morphology_sem": {
+            "description": "Increased particle count compared to 1.0 wt%",
+            "source": "Fig. 4c"
+          },
+          "surface_morphology_om": {
+            "description": "Wider band-shaped adsorption layer compared to 1.0 wt%",
+            "source": "Fig. 6"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_4.0wt%_pH4_4psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 4.0 wt% concentration, adjusted to pH 4, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1800,
+          "unit": "Å/min",
+          "source": "Fig. 2 / Fig. 13"
+        },
+        "coefficient_of_friction": {
+          "value": 0.38,
+          "unit": null,
+          "source": "Fig. 2"
+        },
+        "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Ceria",
+           "adsorption_area_percent": {
+              "value": 33.71,
+              "unit": "%",
+              "source": "Text Section 3.2"
+            },
+          "surface_morphology_sem": {
+            "description": "Highest particle count among Ceria samples",
+            "source": "Fig. 4d"
+          },
+          "surface_morphology_om": {
+            "description": "Widest band-shaped adsorption layer, most of wafer cloudy",
+            "source": "Fig. 6"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_1wt%_pH10_4psi",
+      "experiment_context": "CMP using commercial colloidal Silica slurry at 1 wt% concentration, adjusted to pH 10, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": null,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Text Section 3.3 implies negative zeta potential above pH 3"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 6700,
+          "unit": "Å/min",
+          "source": "Fig. 3 / Old JSON"
+        },
+        "coefficient_of_friction": {
+          "value": 0.52,
+          "unit": null,
+          "source": "Fig. 3"
+        },
+        "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Silica",
+          "surface_morphology_sem": {
+            "description": "Lowest particle count among Silica samples",
+            "source": "Fig. 5a"
+          },
+          "surface_morphology_om": {
+            "description": "Little surface adsorption",
+            "source": "Fig. 7"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_5wt%_pH10_4psi",
+      "experiment_context": "CMP using commercial colloidal Silica slurry at 5 wt% concentration, adjusted to pH 10, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": null,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Text Section 3.3 implies negative zeta potential above pH 3"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 5800,
+          "unit": "Å/min",
+          "source": "Fig. 3 / Old JSON"
+        },
+        "coefficient_of_friction": {
+          "value": 0.58,
+          "unit": null,
+          "source": "Fig. 3"
+        },
+        "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Silica",
+          "surface_morphology_sem": {
+            "description": "Increased particle count compared to 1 wt%",
+            "source": "Fig. 5b"
+          },
+          "surface_morphology_om": {
+            "description": "Little surface adsorption",
+            "source": "Fig. 7"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_10wt%_pH10_4psi",
+      "experiment_context": "CMP using commercial colloidal Silica slurry at 10 wt% concentration, adjusted to pH 10, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 10,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": null,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Text Section 3.3 implies negative zeta potential above pH 3"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 4600,
+          "unit": "Å/min",
+          "source": "Fig. 3 / Old JSON"
+        },
+        "coefficient_of_friction": {
+          "value": 0.62,
+          "unit": null,
+          "source": "Fig. 3"
+        },
+        "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Silica",
+          "surface_morphology_sem": {
+            "description": "Increased particle count compared to 5 wt%",
+            "source": "Fig. 5c"
+          },
+          "surface_morphology_om": {
+            "description": "Little surface adsorption",
+            "source": "Fig. 7"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_15wt%_pH10_4psi",
+      "experiment_context": "CMP using commercial colloidal Silica slurry at 15 wt% concentration, adjusted to pH 10, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Silica",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 15,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": null,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Text Section 3.3 implies negative zeta potential above pH 3"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 3800,
+          "unit": "Å/min",
+          "source": "Fig. 3 / Old JSON"
+        },
+        "coefficient_of_friction": {
+          "value": 0.65,
+          "unit": null,
+          "source": "Fig. 3"
+        },
+        "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Silica",
+          "adsorption_area_percent": {
+              "value": 4.28,
+              "unit": "%",
+              "source": "Text Section 3.2"
+            },
+          "surface_morphology_sem": {
+            "description": "Highest particle count among Silica samples, but still small amount",
+            "source": "Fig. 5d"
+          },
+          "surface_morphology_om": {
+            "description": "Little surface adsorption",
+            "source": "Fig. 7"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_0.5wt%_pH10_4psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 0.5 wt% concentration, adjusted to pH 10, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        },
+         "particle_size_distribution_smp": {
+          "measurement_method_used": "SMPS (TSI 3080)",
+          "observation": "Mode peak shift of ~4 nm observed in waste slurry compared to raw slurry, indicating active particles bonded to silicon oxide.",
+          "source": "Fig. 14, Fig. 15, Section 3.4"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1500,
+          "unit": "Å/min",
+          "source": "Fig. 9 / Fig. 12"
+        },
+        "coefficient_of_friction": null,
+        "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Ceria",
+          "surface_morphology_sem": {
+            "description": "Adsorption observed despite negative charge",
+            "source": "Fig. 10 (Concentration not 0.5wt%, but trend applies)"
+          },
+          "surface_morphology_om": {
+            "description": "Adsorption observed despite negative charge",
+            "source": "Fig. 11 (Concentration not 0.5wt%, but trend applies)"
+          }
+        }
+      }
+    },
+     {
+      "sample_id": "Ceria_1.0wt%_pH10_4psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 1.0 wt% concentration, adjusted to pH 10, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 1.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1300,
+          "unit": "Å/min",
+          "source": "Fig. 9"
+        },
+        "coefficient_of_friction": null,
+         "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Ceria",
+          "surface_morphology_sem": {
+            "description": "Adsorption observed despite negative charge",
+            "source": "Fig. 10a"
+          },
+          "surface_morphology_om": {
+            "description": "Adsorption observed despite negative charge",
+            "source": "Fig. 11"
+          }
+        }
+      }
+    },
+     {
+      "sample_id": "Ceria_2.0wt%_pH10_4psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 2.0 wt% concentration, adjusted to pH 10, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 2.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1100,
+          "unit": "Å/min",
+          "source": "Fig. 9"
+        },
+        "coefficient_of_friction": null,
+         "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Ceria",
+          "surface_morphology_sem": {
+            "description": "Adsorption observed despite negative charge (Fig 10 shows 1, 5, 10, 15 wt%, inferring for 2 wt%)",
+            "source": "Fig. 10 (inferred)"
+          },
+          "surface_morphology_om": {
+            "description": "Adsorption observed despite negative charge",
+            "source": "Fig. 11"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_4.0wt%_pH10_4psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 4.0 wt% concentration, adjusted to pH 10, with 4 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 4,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1000,
+          "unit": "Å/min",
+          "source": "Fig. 9 / Fig. 13"
+        },
+        "coefficient_of_friction": null,
+         "post_cmp_surface_analysis": {
+          "adsorption_observed": true,
+          "adsorbed_particle": "Ceria",
+          "surface_morphology_sem": {
+            "description": "Adsorption observed despite negative charge (Fig 10 shows 1, 5, 10, 15 wt%, inferring for 4 wt%)",
+            "source": "Fig. 10 (inferred)"
+          },
+          "surface_morphology_om": {
+            "description": "Adsorption observed despite negative charge",
+            "source": "Fig. 11"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_0.5wt%_pH4_1psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 0.5 wt% concentration, adjusted to pH 4, with 1 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        },
+         "particle_size_distribution_smp": {
+          "measurement_method_used": "SMPS (TSI 3080)",
+          "observation": "Mode peak shift of ~4 nm observed in waste slurry compared to raw slurry, indicating active particles bonded to silicon oxide.",
+          "source": "Fig. 14, Fig. 15, Section 3.4"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1000,
+          "unit": "Å/min",
+          "source": "Fig. 12"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+    {
+      "sample_id": "Ceria_0.5wt%_pH4_2psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 0.5 wt% concentration, adjusted to pH 4, with 2 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        },
+         "particle_size_distribution_smp": {
+          "measurement_method_used": "SMPS (TSI 3080)",
+          "observation": "Mode peak shift of ~4 nm observed in waste slurry compared to raw slurry, indicating active particles bonded to silicon oxide.",
+          "source": "Fig. 14, Fig. 15, Section 3.4"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 2,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1800,
+          "unit": "Å/min",
+          "source": "Fig. 12"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+    {
+      "sample_id": "Ceria_0.5wt%_pH4_3psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 0.5 wt% concentration, adjusted to pH 4, with 3 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        },
+         "particle_size_distribution_smp": {
+          "measurement_method_used": "SMPS (TSI 3080)",
+          "observation": "Mode peak shift of ~4 nm observed in waste slurry compared to raw slurry, indicating active particles bonded to silicon oxide.",
+          "source": "Fig. 14, Fig. 15, Section 3.4"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 2600,
+          "unit": "Å/min",
+          "source": "Fig. 12"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+     {
+      "sample_id": "Ceria_0.5wt%_pH10_1psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 0.5 wt% concentration, adjusted to pH 10, with 1 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        },
+         "particle_size_distribution_smp": {
+          "measurement_method_used": "SMPS (TSI 3080)",
+          "observation": "Mode peak shift of ~4 nm observed in waste slurry compared to raw slurry, indicating active particles bonded to silicon oxide.",
+          "source": "Fig. 14, Fig. 15, Section 3.4"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 500,
+          "unit": "Å/min",
+          "source": "Fig. 12"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+     {
+      "sample_id": "Ceria_0.5wt%_pH10_2psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 0.5 wt% concentration, adjusted to pH 10, with 2 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        },
+         "particle_size_distribution_smp": {
+          "measurement_method_used": "SMPS (TSI 3080)",
+          "observation": "Mode peak shift of ~4 nm observed in waste slurry compared to raw slurry, indicating active particles bonded to silicon oxide.",
+          "source": "Fig. 14, Fig. 15, Section 3.4"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 2,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 900,
+          "unit": "Å/min",
+          "source": "Fig. 12"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+     {
+      "sample_id": "Ceria_0.5wt%_pH10_3psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 0.5 wt% concentration, adjusted to pH 10, with 3 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        },
+         "particle_size_distribution_smp": {
+          "measurement_method_used": "SMPS (TSI 3080)",
+          "observation": "Mode peak shift of ~4 nm observed in waste slurry compared to raw slurry, indicating active particles bonded to silicon oxide.",
+          "source": "Fig. 14, Fig. 15, Section 3.4"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1200,
+          "unit": "Å/min",
+          "source": "Fig. 12"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+    {
+      "sample_id": "Ceria_4.0wt%_pH4_1psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 4.0 wt% concentration, adjusted to pH 4, with 1 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 750,
+          "unit": "Å/min",
+          "source": "Fig. 13"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+    {
+      "sample_id": "Ceria_4.0wt%_pH4_2psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 4.0 wt% concentration, adjusted to pH 4, with 2 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 2,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1100,
+          "unit": "Å/min",
+          "source": "Fig. 13"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+    {
+      "sample_id": "Ceria_4.0wt%_pH4_3psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 4.0 wt% concentration, adjusted to pH 4, with 3 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 4,
+          "acid": "Nitric acid",
+          "base": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": 55,
+          "unit": "mV",
+          "ph": 4,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 1500,
+          "unit": "Å/min",
+          "source": "Fig. 13"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+    {
+      "sample_id": "Ceria_4.0wt%_pH10_1psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 4.0 wt% concentration, adjusted to pH 10, with 1 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 500,
+          "unit": "Å/min",
+          "source": "Fig. 13"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+    {
+      "sample_id": "Ceria_4.0wt%_pH10_2psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 4.0 wt% concentration, adjusted to pH 10, with 2 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 2,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 700,
+          "unit": "Å/min",
+          "source": "Fig. 13"
+        },
+        "coefficient_of_friction": null
+      }
+    },
+    {
+      "sample_id": "Ceria_4.0wt%_pH10_3psi",
+      "experiment_context": "CMP using commercial colloidal Ceria slurry at 4.0 wt% concentration, adjusted to pH 10, with 3 psi polishing pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_source": "Commercial colloidal",
+        "abrasive_concentration": {
+          "value": 4.0,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "DI water"
+        },
+        "ph_adjustment": {
+          "target_ph": 10,
+          "acid": null,
+          "base": "Ammonium hydroxide"
+        }
+      },
+      "characterization": {
+        "particle_morphology": {
+          "description": "Spherical colloidal nanoparticles",
+          "source": "Fig. 1"
+        },
+        "zeta_potential": {
+          "value": -35,
+          "unit": "mV",
+          "ph": 10,
+          "source": "Fig. 8"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "PETEOS wafer (4-inch)",
+        "equipment_model": "Mini polisher (Poli-400, GnP Technology, Korea)",
+        "pad_composition": "HD-300 (SKC, Korea)",
+        "conditioner_model": "20PPW60EBC0 (SAESOLDIAMOND, Korea)",
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "pad_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "pad_conditioning_rpm": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "value": 850,
+          "unit": "Å/min",
+          "source": "Fig. 13"
+        },
+        "coefficient_of_friction": null
+      }
+    }
+  ]
+}

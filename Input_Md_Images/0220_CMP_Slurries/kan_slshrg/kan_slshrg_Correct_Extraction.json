@@ -1,0 +1,951 @@
+{
+  "doi": "10.1557/JMR.2007.0097",
+  "title": "Effects of abrasive particle size and molecular weight of poly(acrylic acid) in ceria slurry on removal selectivity of SiO2/Si3N4 films in shallow trench isolation chemical mechanical planarization",
+  "year_published": "2007",
+  "journal": "Journal of Materials Research",
+  "samples": [
+    {
+      "sample_id": "800C_PAA30k_0wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with 0 wt% PAA (MW 30,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0, "unit": "wt%" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" },
+        "preparation_steps": "Ultrasonic treatment (2x 15 min, ice bath), Aging (12h room temp, shaker), Final ultrasonic (15 min)"
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure",
+        "secondary_particle_size_median_d50": { "value": null, "unit": "nm", "measurement_method_used": "Acoustic Attenuation Spectroscopy", "notes": "Baseline size before PAA addition. Fig 4b shows trend." }
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 254.2, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 60.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 4.2
+      }
+    },
+    {
+      "sample_id": "800C_PAA30k_0.1wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with ~0.1 wt% PAA (MW 30,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0.1, "unit": "wt%", "notes": "Approximate value from Fig 5" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 240.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 55.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 4.4
+      }
+    },
+    {
+      "sample_id": "800C_PAA30k_0.3wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with ~0.3 wt% PAA (MW 30,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0.3, "unit": "wt%", "notes": "Approximate value from Fig 5" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 210.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 10.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 21.0
+      }
+    },
+    {
+      "sample_id": "800C_PAA30k_0.42wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with 0.42 wt% PAA (MW 30,000). Tested on blanket and patterned wafers.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0.42, "unit": "wt%", "notes": "Value used for patterned wafer tests (Fig 6)" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket & Patterned (SKW-3)",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2_blanket": { "value": 200.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4_blanket": { "value": 5.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4_blanket": 40.0,
+        "removed_amount_si3n4_patterned_10density": { "value": 11.0, "unit": "nm", "source": "Fig 6b estimate (110 Å)" },
+        "si3n4_erosion_patterned_5um_pitch_50density": { "notes": "Higher erosion compared to higher MW PAA (Fig 7b vs 7c, 7d). Order: C < B < A < D" },
+        "sio2_dishing_patterned_wide_field": { "notes": "Higher dishing compared to higher MW PAA (Fig 8a)" },
+        "surface_roughness_rms_si3n4_patterned_10density": { "value": 0.280, "unit": "nm", "source": "Fig 9a text/image" },
+        "surface_roughness_rms_sio2_patterned": { "notes": "Low value maintained (Fig 8b)" }
+      }
+    },
+    {
+      "sample_id": "800C_PAA30k_0.57wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with ~0.57 wt% PAA (MW 30,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0.57, "unit": "wt%", "notes": "Approximate value from Fig 5 / Table I max" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 190.1, "unit": "nm/min", "source": "Fig 5a text/estimate" },
+        "material_removal_rate_si3n4": { "value": 3.7, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 51.4
+      }
+    },
+    {
+      "sample_id": "800C_PAA50k_0wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with 0 wt% PAA (MW 50,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 50000,
+            "concentration": { "value": 0, "unit": "wt%" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 254.2, "unit": "nm/min", "source": "Fig 5a estimate (same as 0wt% baseline)" },
+        "material_removal_rate_si3n4": { "value": 60.0, "unit": "nm/min", "source": "Fig 5b estimate (same as 0wt% baseline)" },
+        "removal_selectivity_sio2_si3n4": 4.2
+      }
+    },
+        {
+      "sample_id": "800C_PAA50k_0.1wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with ~0.1 wt% PAA (MW 50,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 50000,
+            "concentration": { "value": 0.1, "unit": "wt%", "notes": "Approximate value from Fig 5" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 230.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 20.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 11.5
+      }
+    },
+    {
+      "sample_id": "800C_PAA50k_0.3wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with ~0.3 wt% PAA (MW 50,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 50000,
+            "concentration": { "value": 0.3, "unit": "wt%", "notes": "Approximate value from Fig 5" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 150.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 3.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 50.0
+      }
+    },
+    {
+      "sample_id": "800C_PAA50k_0.42wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with 0.42 wt% PAA (MW 50,000). Tested on blanket and patterned wafers.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 50000,
+            "concentration": { "value": 0.42, "unit": "wt%", "notes": "Value used for patterned wafer tests (Fig 6)" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket & Patterned (SKW-3)",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2_blanket": { "value": 120.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4_blanket": { "value": 2.5, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4_blanket": 48.0,
+        "removed_amount_si3n4_patterned_10density": { "value": 7.0, "unit": "nm", "source": "Fig 6b estimate (70 Å)" },
+        "si3n4_erosion_patterned_5um_pitch_50density": { "notes": "Lower erosion than 30k MW PAA (Fig 7c vs 7b). Order: C < B < A < D" },
+        "sio2_dishing_patterned_wide_field": { "notes": "Lower dishing than 30k MW PAA (Fig 8a)" },
+        "surface_roughness_rms_si3n4_patterned_10density": { "value": null, "unit": "nm", "source": "Fig 9b image shown, value not stated" },
+        "surface_roughness_rms_sio2_patterned": { "notes": "Low value maintained (Fig 8b)" }
+      }
+    },
+    {
+      "sample_id": "800C_PAA50k_0.57wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with ~0.57 wt% PAA (MW 50,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 50000,
+            "concentration": { "value": 0.57, "unit": "wt%", "notes": "Approximate value from Fig 5 / Table I max" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 100.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 2.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 50.0
+      }
+    },
+    {
+      "sample_id": "800C_PAA90k_0wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with 0 wt% PAA (MW 90,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 90000,
+            "concentration": { "value": 0, "unit": "wt%" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 254.2, "unit": "nm/min", "source": "Fig 5a estimate (same as 0wt% baseline)" },
+        "material_removal_rate_si3n4": { "value": 60.0, "unit": "nm/min", "source": "Fig 5b estimate (same as 0wt% baseline)" },
+        "removal_selectivity_sio2_si3n4": 4.2
+      }
+    },
+    {
+      "sample_id": "800C_PAA90k_0.1wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with ~0.1 wt% PAA (MW 90,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 90000,
+            "concentration": { "value": 0.1, "unit": "wt%", "notes": "Approximate value from Fig 5" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 218.4, "unit": "nm/min", "source": "Fig 5a text/estimate" },
+        "material_removal_rate_si3n4": { "value": 21.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 10.4
+      }
+    },
+    {
+      "sample_id": "800C_PAA90k_0.3wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with ~0.3 wt% PAA (MW 90,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 90000,
+            "concentration": { "value": 0.3, "unit": "wt%", "notes": "Approximate value from Fig 5" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 80.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 6.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 13.3
+      }
+    },
+    {
+      "sample_id": "800C_PAA90k_0.42wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with 0.42 wt% PAA (MW 90,000). Tested on blanket and patterned wafers.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 90000,
+            "concentration": { "value": 0.42, "unit": "wt%", "notes": "Value used for patterned wafer tests (Fig 6)" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket & Patterned (SKW-3)",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2_blanket": { "value": 60.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4_blanket": { "value": 4.5, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4_blanket": 13.3,
+        "removed_amount_si3n4_patterned_10density": { "value": 5.0, "unit": "nm", "source": "Fig 6b estimate (50 Å)" },
+        "si3n4_erosion_patterned_5um_pitch_50density": { "notes": "Least erosion among tested slurries (Fig 7d). Order: C < B < A < D" },
+        "sio2_dishing_patterned_wide_field": { "notes": "Least dishing among tested slurries (Fig 8a)" },
+        "surface_roughness_rms_si3n4_patterned_10density": { "value": 0.355, "unit": "nm", "source": "Fig 9c text/image" },
+        "surface_roughness_rms_sio2_patterned": { "notes": "Low value maintained (Fig 8b)" }
+      }
+    },
+    {
+      "sample_id": "800C_PAA90k_0.57wt",
+      "experiment_context": "Ceria abrasive calcined at 800°C (primary size ~36nm) in slurry with ~0.57 wt% PAA (MW 90,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 800, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (4h), Wet ball mill (35h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 90000,
+            "concentration": { "value": 0.57, "unit": "wt%", "notes": "Approximate value from Fig 5 / Table I max" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 36, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively high crystallinity, well-defined grains, uniformly distributed medium size",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 53.7, "unit": "nm/min", "source": "Fig 5a text/estimate" },
+        "material_removal_rate_si3n4": { "value": 4.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 13.4
+      }
+    },
+    {
+      "sample_id": "700C_PAA30k_0wt",
+      "experiment_context": "Ceria abrasive calcined at 700°C (primary size ~27nm) in slurry with 0 wt% PAA (MW 30,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 700, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (2h), Wet ball mill (32h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0, "unit": "wt%" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 27, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively low crystallinity, wider size distribution (medium + small primary particles)",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure",
+        "secondary_particle_size_distribution": { "notes": "Higher range of large particles (>3µm) compared to 800C slurry without PAA (Fig 4a)" }
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 230.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 55.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 4.2
+      }
+    },
+    {
+      "sample_id": "700C_PAA30k_0.1wt",
+      "experiment_context": "Ceria abrasive calcined at 700°C (primary size ~27nm) in slurry with ~0.1 wt% PAA (MW 30,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 700, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (2h), Wet ball mill (32h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0.1, "unit": "wt%", "notes": "Approximate value from Fig 5" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 27, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively low crystallinity, wider size distribution",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 220.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 50.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 4.4
+      }
+    },
+    {
+      "sample_id": "700C_PAA30k_0.3wt",
+      "experiment_context": "Ceria abrasive calcined at 700°C (primary size ~27nm) in slurry with ~0.3 wt% PAA (MW 30,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 700, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (2h), Wet ball mill (32h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0.3, "unit": "wt%", "notes": "Approximate value from Fig 5" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 27, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively low crystallinity, wider size distribution",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 180.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 15.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 12.0
+      }
+    },
+    {
+      "sample_id": "700C_PAA30k_0.42wt",
+      "experiment_context": "Ceria abrasive calcined at 700°C (primary size ~27nm) in slurry with 0.42 wt% PAA (MW 30,000). Tested on blanket and patterned wafers.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 700, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (2h), Wet ball mill (32h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0.42, "unit": "wt%", "notes": "Value used for patterned wafer tests (Fig 6)" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 27, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively low crystallinity, wider size distribution",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket & Patterned (SKW-3)",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2_blanket": { "value": 160.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4_blanket": { "value": 10.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4_blanket": 16.0,
+        "removed_amount_si3n4_patterned_10density": { "value": 14.0, "unit": "nm", "source": "Fig 6b estimate (140 Å)" },
+        "si3n4_erosion_patterned_5um_pitch_50density": { "notes": "Highest erosion among tested slurries (Fig 7e). Order: C < B < A < D" },
+        "sio2_dishing_patterned_wide_field": { "notes": "Not shown in Fig 8a, but likely higher than 800C/30k PAA" },
+        "surface_roughness_rms_si3n4_patterned_10density": { "value": null, "unit": "nm", "source": "Fig 9d image shown, value not stated, but visually similar to 800C/30k PAA" },
+        "surface_roughness_rms_sio2_patterned": { "notes": "Low value maintained (Fig 8b)" }
+      }
+    },
+    {
+      "sample_id": "700C_PAA30k_0.57wt",
+      "experiment_context": "Ceria abrasive calcined at 700°C (primary size ~27nm) in slurry with ~0.57 wt% PAA (MW 30,000). Tested on blanket wafer.",
+      "abrasive_synthesis": {
+        "precursor_chemical": "Cerium carbonate",
+        "calcination_temperature": { "value": 700, "unit": "°C" },
+        "calcination_time": { "value": 4, "unit": "h" },
+        "milling_details": "Dry jet mill (2h), Wet ball mill (32h)"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1, "unit": "wt%" },
+        "dispersants": [
+          { "name": "PMAA", "type": "Dispersant", "concentration": { "value": 100, "unit": "ppm" } },
+          { "name": "Darvan C", "type": "Dispersant (Ammonium salt)", "concentration": { "value": 1, "unit": "wt%" }, "molecular_weight": 10000 }
+        ],
+        "additives": [
+          {
+            "name": "PAA",
+            "type": "Anionic organic additive",
+            "molecular_weight": 30000,
+            "concentration": { "value": 0.57, "unit": "wt%", "notes": "Approximate value from Fig 5 / Table I max" },
+            "ph": 6.5
+          }
+        ],
+        "target_final_slurry_ph": "6.0-7.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "primary_grain_size": { "value": 27, "unit": "nm", "measurement_method_used": "XRD (Debye-Scherrer)" },
+        "particle_morphology": "Polycrystalline, relatively low crystallinity, wider size distribution",
+        "crystallinity_phase_composition": "Single-phase CeO₂ fluorite structure"
+      },
+      "cmp_performance": {
+        "wafer_type": "Blanket",
+        "polished_material": ["PETEOS SiO2", "LPCVD Si3N4"],
+        "polishing_time": { "value": 30, "unit": "s" },
+        "polishing_pressure": { "value": 4, "unit": "psi" },
+        "relative_velocity": { "value": 0.539, "unit": "m/s" },
+        "equipment_model": "Strasbaugh 6EC polisher",
+        "pad_composition": "IC1000/Suba IV stacked pad (Rodel)",
+        "process_temperature": { "value": "RT", "unit": "" },
+        "material_removal_rate_sio2": { "value": 150.0, "unit": "nm/min", "source": "Fig 5a estimate" },
+        "material_removal_rate_si3n4": { "value": 8.0, "unit": "nm/min", "source": "Fig 5b estimate" },
+        "removal_selectivity_sio2_si3n4": 18.8
+      }
+    }
+  ]
+}

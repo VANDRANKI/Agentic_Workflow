@@ -1,0 +1,480 @@
+{
+  "doi": "10.1149/2.0091502jss",
+  "title": "Ceria-Based Slurries for Non-Prestonian Removal of Silicon Dioxide Films",
+  "year_published": "2014",
+  "journal": "ECS Journal of Solid State Science and Technology",
+  "samples": [
+    {
+      "sample_id": "TEOS_pH4_0mM_DADMAC",
+      "experiment_context": "Polishing of PECVD TEOS SiO2 films using 1 wt% ceria slurry with 0 mM DADMAC at pH 4.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_source": "Ferro Corp, USA",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "140",
+          "unit": "nm",
+          "measurement_method_used": "d_mean (source not specified in text)"
+        },
+        "zeta_potential": {
+          "value": "+73.5",
+          "unit": "mV",
+          "conditions": "1 wt% ceria, pH 4, no DADMAC"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "PECVD TEOS SiO2",
+        "substrate_details": "Blanket films on 8\" diameter silicon wafers",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+          {
+            "polishing_pressure": { "value": "1", "unit": "psi" },
+            "mrr": { "value": "180", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "2", "unit": "psi" },
+            "mrr": { "value": "330", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "3", "unit": "psi" },
+            "mrr": { "value": "480", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "4", "unit": "psi" },
+            "mrr": { "value": "620", "unit": "nm/min" }
+          }
+        ],
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure_range": {
+          "value": "1-4",
+          "unit": "psi"
+        },
+        "carrier_platen_speed": {
+          "carrier": { "value": "87", "unit": "rpm" },
+          "platen": { "value": "93", "unit": "rpm" }
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G & P technology, South Korea)",
+        "pad_composition": "IC1000, K-groove (Dow Electronic Materials)",
+        "pad_conditioning": {
+          "method": "in-situ",
+          "conditioner_details": "4\" S60 diamond grid pad conditioner (3M Inc.)"
+        }
+      }
+    },
+    {
+      "sample_id": "TEOS_pH4_5mM_DADMAC",
+      "experiment_context": "Polishing of PECVD TEOS SiO2 films using 1 wt% ceria slurry with 5 mM DADMAC at pH 4.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_source": "Ferro Corp, USA",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DADMAC",
+            "type": "Cationic additive/Quaternary ammonium compound",
+            "concentration": {
+              "value": "5",
+              "unit": "mM"
+            },
+            "source": "SigmaAldrich"
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "140",
+          "unit": "nm",
+          "measurement_method_used": "d_mean (source not specified in text)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "PECVD TEOS SiO2",
+        "substrate_details": "Blanket films on 8\" diameter silicon wafers",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+          {
+            "polishing_pressure": { "value": "1", "unit": "psi" },
+            "mrr": { "value": "50", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "2", "unit": "psi" },
+            "mrr": { "value": "150", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "3", "unit": "psi" },
+            "mrr": { "value": "250", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "4", "unit": "psi" },
+            "mrr": { "value": "350", "unit": "nm/min" }
+          }
+        ],
+        "threshold_pressure": {
+          "value": "~0.6",
+          "unit": "psi"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure_range": {
+          "value": "1-4",
+          "unit": "psi"
+        },
+        "carrier_platen_speed": {
+          "carrier": { "value": "87", "unit": "rpm" },
+          "platen": { "value": "93", "unit": "rpm" }
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G & P technology, South Korea)",
+        "pad_composition": "IC1000, K-groove (Dow Electronic Materials)",
+        "pad_conditioning": {
+          "method": "in-situ",
+          "conditioner_details": "4\" S60 diamond grid pad conditioner (3M Inc.)"
+        }
+      }
+    },
+    {
+      "sample_id": "TEOS_pH4_7.5mM_DADMAC",
+      "experiment_context": "Polishing of PECVD TEOS SiO2 films using 1 wt% ceria slurry with 7.5 mM DADMAC at pH 4.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_source": "Ferro Corp, USA",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DADMAC",
+            "type": "Cationic additive/Quaternary ammonium compound",
+            "concentration": {
+              "value": "7.5",
+              "unit": "mM"
+            },
+            "source": "SigmaAldrich"
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "140",
+          "unit": "nm",
+          "measurement_method_used": "d_mean (source not specified in text)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "PECVD TEOS SiO2",
+        "substrate_details": "Blanket films on 8\" diameter silicon wafers",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+          {
+            "polishing_pressure": { "value": "1", "unit": "psi" },
+            "mrr": { "value": "0", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "2", "unit": "psi" },
+            "mrr": { "value": "60", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "3", "unit": "psi" },
+            "mrr": { "value": "150", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "4", "unit": "psi" },
+            "mrr": { "value": "260", "unit": "nm/min" }
+          }
+        ],
+        "threshold_pressure": {
+          "value": "~1",
+          "unit": "psi"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure_range": {
+          "value": "1-4",
+          "unit": "psi"
+        },
+        "carrier_platen_speed": {
+          "carrier": { "value": "87", "unit": "rpm" },
+          "platen": { "value": "93", "unit": "rpm" }
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G & P technology, South Korea)",
+        "pad_composition": "IC1000, K-groove (Dow Electronic Materials)",
+        "pad_conditioning": {
+          "method": "in-situ",
+          "conditioner_details": "4\" S60 diamond grid pad conditioner (3M Inc.)"
+        }
+      }
+    },
+    {
+      "sample_id": "TEOS_pH4_15mM_DADMAC",
+      "experiment_context": "Polishing of PECVD TEOS SiO2 films using 1 wt% ceria slurry with 15 mM DADMAC at pH 4.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_source": "Ferro Corp, USA",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DADMAC",
+            "type": "Cationic additive/Quaternary ammonium compound",
+            "concentration": {
+              "value": "15",
+              "unit": "mM"
+            },
+            "source": "SigmaAldrich"
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "140",
+          "unit": "nm",
+          "measurement_method_used": "d_mean (source not specified in text)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "PECVD TEOS SiO2",
+        "substrate_details": "Blanket films on 8\" diameter silicon wafers",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+          {
+            "polishing_pressure": { "value": "1", "unit": "psi" },
+            "mrr": { "value": "0", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "2", "unit": "psi" },
+            "mrr": { "value": "30", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "3", "unit": "psi" },
+            "mrr": { "value": "60", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "4", "unit": "psi" },
+            "mrr": { "value": "150", "unit": "nm/min" }
+          }
+        ],
+        "threshold_pressure": {
+          "value": "~2",
+          "unit": "psi"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure_range": {
+          "value": "1-4",
+          "unit": "psi"
+        },
+        "carrier_platen_speed": {
+          "carrier": { "value": "87", "unit": "rpm" },
+          "platen": { "value": "93", "unit": "rpm" }
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G & P technology, South Korea)",
+        "pad_composition": "IC1000, K-groove (Dow Electronic Materials)",
+        "pad_conditioning": {
+          "method": "in-situ",
+          "conditioner_details": "4\" S60 diamond grid pad conditioner (3M Inc.)"
+        }
+      }
+    },
+    {
+      "sample_id": "TEOS_pH4_25mM_DADMAC",
+      "experiment_context": "Polishing of PECVD TEOS SiO2 films using 1 wt% ceria slurry with 25 mM DADMAC at pH 4. Resulted in complete suppression of removal rate up to 4 psi.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_source": "Ferro Corp, USA",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DADMAC",
+            "type": "Cationic additive/Quaternary ammonium compound",
+            "concentration": {
+              "value": "25",
+              "unit": "mM"
+            },
+            "source": "SigmaAldrich"
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "140",
+          "unit": "nm",
+          "measurement_method_used": "d_mean (source not specified in text)"
+        },
+        "zeta_potential": {
+          "value": "+33.2",
+          "unit": "mV",
+          "conditions": "1 wt% ceria + 25 mM DADMAC, pH 4"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "PECVD TEOS SiO2",
+        "substrate_details": "Blanket films on 8\" diameter silicon wafers",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+          {
+            "polishing_pressure": { "value": "1", "unit": "psi" },
+            "mrr": { "value": "0", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "2", "unit": "psi" },
+            "mrr": { "value": "0", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "3", "unit": "psi" },
+            "mrr": { "value": "0", "unit": "nm/min" }
+          },
+          {
+            "polishing_pressure": { "value": "4", "unit": "psi" },
+            "mrr": { "value": "0", "unit": "nm/min" }
+          }
+        ],
+        "threshold_pressure": {
+          "value": ">4",
+          "unit": "psi"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure_range": {
+          "value": "1-4",
+          "unit": "psi"
+        },
+        "carrier_platen_speed": {
+          "carrier": { "value": "87", "unit": "rpm" },
+          "platen": { "value": "93", "unit": "rpm" }
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "POLI-500 polisher (G & P technology, South Korea)",
+        "pad_composition": "IC1000, K-groove (Dow Electronic Materials)",
+        "pad_conditioning": {
+          "method": "in-situ",
+          "conditioner_details": "4\" S60 diamond grid pad conditioner (3M Inc.)"
+        }
+      }
+    }
+  ],
+  "additional_characterization_data": {
+    "zeta_potential_silica_pH4": {
+      "no_DADMAC": { "value": "-46.4", "unit": "mV" },
+      "with_25mM_DADMAC": { "value": "+14.3", "unit": "mV" },
+      "after_1_wash_25mM": null,
+      "after_3_wash_25mM": { "value": "~16", "unit": "mV" },
+      "after_5_wash_25mM": { "value": "~16", "unit": "mV" }
+    },
+    "zeta_potential_ceria_pH4": {
+      "no_DADMAC": { "value": "+73.5", "unit": "mV" },
+      "with_25mM_DADMAC": { "value": "+33.2", "unit": "mV" },
+      "after_1_wash_25mM": { "value": "64.2", "unit": "mV" },
+      "after_3_wash_25mM": null,
+      "after_5_wash_25mM": null
+    },
+    "tga_weight_loss_normalized": [
+      { "material": "Silica", "DADMAC_conc": "10 mM", "weight_loss": { "value": "0.07", "unit": "%" } },
+      { "material": "Ceria", "DADMAC_conc": "10 mM", "weight_loss": { "value": "0.01", "unit": "%" } },
+      { "material": "Silica", "DADMAC_conc": "50 mM", "weight_loss": { "value": "0.8", "unit": "%" } },
+      { "material": "Ceria", "DADMAC_conc": "50 mM", "weight_loss": { "value": "0.15", "unit": "%" } },
+      { "material": "Silica", "DADMAC_conc": "100 mM", "weight_loss": { "value": "1.7", "unit": "%" } },
+      { "material": "Ceria", "DADMAC_conc": "100 mM", "weight_loss": { "value": "0.19", "unit": "%" } }
+    ],
+    "uv_vis_spectroscopy": {
+      "condition": "Supernatant after centrifuging 1 wt% particles with 7.5 mM DADMAC, mixed with 5 ppm Eosin Y dye",
+      "peak_absorbance_516nm_region": {
+        "ceria_supernatant": "Low (similar to 7.5 mM DADMAC ref)",
+        "silica_supernatant": "High (similar to no DADMAC ref)"
+      },
+      "interpretation": "Suggests DADMAC desorbs readily from ceria but remains adsorbed on silica."
+    },
+    "instrument_details": {
+      "Polisher": "POLI-500 (G & P Technology)",
+      "Pad": "IC1000 K-groove (Dow Electronic Materials)",
+      "Pad_Conditioner": "4\" S60 diamond grid (3M Inc.)",
+      "Thickness_Measurement": "Filmetrics F-20 interferometer",
+      "Zeta_Potential_Analyzer": "Matec Applied Science model 9800 Electro Acoustic analyzer",
+      "TGA": "Perkin-Elmer Pyris 1 Thermogravimetric analyzer",
+      "UV_Vis_Spectrometer": "Perkin Elmer Lambda 35"
+    }
+  }
+}

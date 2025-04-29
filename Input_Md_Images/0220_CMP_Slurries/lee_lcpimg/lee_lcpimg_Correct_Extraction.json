@@ -1,0 +1,1142 @@
+{
+  "doi": null,
+  "title": "Analysis of Removal Mechanism on Oxide CMP using Mixed Abrasive Slurry",
+  "year_published": "2015",
+  "journal": "Int. J. Precis. Eng. Manuf.",
+  "samples": [
+    {
+      "sample_id": "D30_P100_V60_C30",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 100 g/cm^2 pressure, 60 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 3.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 100, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 200, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+      "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D30_P300_V60_C30",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 300 g/cm^2 pressure, 60 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 3.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 500, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D30_P500_V60_C30",
+      "experiment_context": "CMP of SiO2 using D30 slurry at reference 500 g/cm^2 pressure, 60 rpm velocity, and 30 wt% concentration. Data from Fig 3, 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 1900, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.038, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D30_P700_V60_C30",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 700 g/cm^2 pressure, 60 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 3.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 700, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 1000, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D70_P100_V60_C30",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 100 g/cm^2 pressure, 60 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 3.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 100, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 250, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D70_P300_V60_C30",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 300 g/cm^2 pressure, 60 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 3.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 300, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 850, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D70_P500_V60_C30",
+      "experiment_context": "CMP of SiO2 using D70 slurry at reference 500 g/cm^2 pressure, 60 rpm velocity, and 30 wt% concentration. Data from Fig 3, 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 3100, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.051, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D70_P700_V60_C30",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 700 g/cm^2 pressure, 60 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 3.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 700, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 2000, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D30_P500_V30_C30",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 500 g/cm^2 pressure, 30 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 4.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 30, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 250, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D30_P500_V90_C30",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 500 g/cm^2 pressure, 90 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 4.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 90, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 1000, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D30_P500_V120_C30",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 500 g/cm^2 pressure, 120 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 4.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 120, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 1450, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D70_P500_V30_C30",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 500 g/cm^2 pressure, 30 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 4.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 30, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 750, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+     {
+      "sample_id": "D70_P500_V90_C30",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 500 g/cm^2 pressure, 90 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 4.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 90, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 2000, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D70_P500_V120_C30",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 500 g/cm^2 pressure, 120 rpm velocity, and 30 wt% concentration (assumed concentration based on MAS experiments). Data from Fig 4.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 30, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 120, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 2400, "unit": "Å/min" },
+        "coefficient_of_friction": null
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D30_P500_V60_C1",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 1 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 1, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 0, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.003, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D30_P500_V60_C5",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 5 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 5, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 50, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.025, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D30_P500_V60_C10",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 10 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 10, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 300, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.052, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D30_P500_V60_C15",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 15 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 15, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 600, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.054, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D30_P500_V60_C20",
+      "experiment_context": "CMP of SiO2 using D30 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 20 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 20, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 1000, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.048, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1a)"
+      }
+    },
+    {
+      "sample_id": "D70_P500_V60_C1",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 1 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 1, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 50, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.009, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D70_P500_V60_C5",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 5 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 5, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 150, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.040, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D70_P500_V60_C10",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 10 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 10, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 700, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.065, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D70_P500_V60_C15",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 15 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 15, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 1450, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.069, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "D70_P500_V60_C20",
+      "experiment_context": "CMP of SiO2 using D70 slurry at 500 g/cm^2 pressure, 60 rpm velocity, and 20 wt% concentration. Data from Fig 5, 6.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 20, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 2200, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.060, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical (from Fig 1b)"
+      }
+    },
+    {
+      "sample_id": "MAS_1:1_P500_V60_C30",
+      "experiment_context": "CMP of SiO2 using MAS slurry (D30:D70 = 1:1) at 500 g/cm^2 pressure, 60 rpm velocity, and 30 wt% total concentration. Data from Fig 7.",
+      "slurry_preparation": {
+        "abrasive_type": "Mixed Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 15, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          },
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 15, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "mixing_ratio_d30_d70": "1:1",
+        "total_concentration": { "value": 30, "unit": "wt%" },
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 2700, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.025, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical"
+      }
+    },
+    {
+      "sample_id": "MAS_1:2_P500_V60_C30",
+      "experiment_context": "CMP of SiO2 using MAS slurry (D30:D70 = 1:2) at 500 g/cm^2 pressure, 60 rpm velocity, and 30 wt% total concentration. Data from Fig 7.",
+      "slurry_preparation": {
+        "abrasive_type": "Mixed Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 10, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          },
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 20, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "mixing_ratio_d30_d70": "1:2",
+        "total_concentration": { "value": 30, "unit": "wt%" },
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 2650, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.022, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical"
+      }
+    },
+    {
+      "sample_id": "MAS_2:1_P500_V60_C30",
+      "experiment_context": "CMP of SiO2 using MAS slurry (D30:D70 = 2:1) at 500 g/cm^2 pressure, 60 rpm velocity, and 30 wt% total concentration. Data from Fig 7.",
+      "slurry_preparation": {
+        "abrasive_type": "Mixed Colloidal Silica",
+        "abrasive_details": [
+          {
+            "name": "D30",
+            "mean_particle_size": { "value": 26.6, "unit": "nm" },
+            "concentration": { "value": 20, "unit": "wt%" },
+            "viscosity": { "value": 6.4, "unit": "cps" },
+            "specific_gravity": { "value": 1.204, "unit": "g/cc" }
+          },
+          {
+            "name": "D70",
+            "mean_particle_size": { "value": 67.4, "unit": "nm" },
+            "concentration": { "value": 10, "unit": "wt%" },
+            "viscosity": { "value": 2.61, "unit": "cps" },
+            "specific_gravity": { "value": 1.197, "unit": "g/cc" }
+          }
+        ],
+        "mixing_ratio_d30_d70": "2:1",
+        "total_concentration": { "value": 30, "unit": "wt%" },
+        "base_chemical": "KOH",
+        "initial_ph": { "value": 9.7, "unit": "", "temperature": {"value": 20, "unit": "°C"} },
+        "target_final_slurry_ph": { "value": 11, "unit": "" },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_process": {
+        "work_material": "SiO2 film on 4-inch wafer",
+        "film_thickness": { "value": 1, "unit": "µm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "polishing_pressure": { "value": 500, "unit": "g/cm²" },
+        "polishing_velocity": { "value": 60, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 150, "unit": "mL/min" },
+        "equipment_model": "POLI-400 polisher (G&P Technology, Korea)",
+        "pad_composition": "IC1000/SubaIV stacked pad (Nitta Haas Inc., Japan)",
+        "pad_conditioning": { "type": "ex-situ", "pressure": {"value": 120, "unit": "g/cm²"}, "conditioner_disk_velocity": {"value": 60, "unit": "rpm"}, "platen_velocity": {"value": 83, "unit": "rpm"} }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 3100, "unit": "Å/min" },
+        "coefficient_of_friction": { "value": 0.030, "unit": "" }
+      },
+       "characterization": {
+         "particle_size_measurement_method": "Particle size analyzer (ELS-Z, Otsuka Electronics Co.)",
+         "film_thickness_measurement_method": "Reflectometer (K-MAC ST5030-SL, Korea)",
+         "friction_measurement_system": { "sensor": "Kistler Type 9135B", "amplifier": "Kistler Type 5039A" },
+         "particle_morphology": "Spherical"
+      }
+    }
+  ]
+}

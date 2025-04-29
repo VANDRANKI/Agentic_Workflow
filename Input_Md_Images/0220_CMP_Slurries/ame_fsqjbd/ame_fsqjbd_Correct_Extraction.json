@@ -1,0 +1,658 @@
+{
+  "doi": "10.1149/1.1817870",
+  "title": "Slurry Additive Effects on the Suppression of Silicon Nitride Removal during CMP",
+  "year_published": "2004",
+  "journal": "Electrochemical and Solid-State Letters",
+  "samples": [
+    {
+      "sample_id": "Arginine_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% Arginine additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Arginine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 1,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 23,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 23,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Lysine_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% Lysine additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Lysine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 1,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 71,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 71,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Proline_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% Proline additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Proline",
+            "type": "Amino acid",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 2,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 456,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 228,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "N-methylglycine_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% N-methylglycine additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "N-methylglycine",
+            "type": "Derivatized amino acid",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 12,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 467,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 38.9,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Alanine_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% Alanine additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Alanine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 18,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 455,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 30.3,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Glycine_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% Glycine additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 18,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 435,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 24.2,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Picolinic_acid_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% Picolinic acid additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Picolinic acid",
+            "type": "Pyridine derivative",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 65,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 423,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 6.5,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "N,N-dimethylglycine_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% N,N-dimethylglycine additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "N,N-dimethylglycine",
+            "type": "Derivatized amino acid",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 68,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 438,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 6.4,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "3-Aminobutyric_acid_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% 3-Aminobutyric acid additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "3-Aminobutyric acid",
+            "type": "Amino acid derivative",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 72,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 442,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 6.1,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Isonicotinic_acid_Additive",
+      "experiment_context": "CMP using 1 wt% Ceria (Ferro SRS 521) slurry with 2 wt% Isonicotinic acid additive in DI water, adjusted to pH 9.6 ± 0.1 with KOH.",
+      "slurry_preparation": {
+        "abrasive_material": "Ceria (Ferro SRS 521)",
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Isonicotinic acid",
+            "type": "Pyridine derivative",
+            "concentration": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.6 ± 0.1",
+        "ph_adjuster": "1 N KOH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Silicon Nitride", "TEOS Oxide (PECVD)"],
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "silicon_nitride": {
+            "value": 71,
+            "unit": "nm/min"
+          },
+          "teos_oxide": {
+            "value": 441,
+            "unit": "nm/min"
+          }
+        },
+        "selectivity_teos_nitride": 6.2,
+        "polishing_pressure": {
+          "value": 5,
+          "unit": "psi"
+        },
+        "spindle_speed": {
+          "value": 50,
+          "unit": "rpm"
+        },
+        "pad_velocity": {
+          "value": 75,
+          "unit": "cm/s"
+        },
+        "slurry_flow_rate": {
+          "value": 150,
+          "unit": "mL/min"
+        },
+        "equipment_model": "Strashaugh 6DS-SP or Westech 372",
+        "pad_composition": "Rodel IC1400",
+        "pad_conditioning": "Conditioned initially and after each wafer"
+      },
+      "characterization": null,
+      "theoretical_analysis": null
+    }
+  ]
+}

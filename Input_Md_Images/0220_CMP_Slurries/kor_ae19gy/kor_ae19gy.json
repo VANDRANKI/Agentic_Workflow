@@ -28,11 +28,10 @@
     "polishing_time": "1 min",
     "interfacial_gap": null,
     "material_removal_rate_mrr": {
-      "0 mM DADMAC": { "1 psi": 180, "2 psi": 330, "3 psi": 480, "4 psi": 620 },
-      "5 mM DADMAC": { "1 psi": 50,  "2 psi": 150, "3 psi": 250, "4 psi": 350 },
-      "7.5 mM DADMAC": { "1 psi": 0,   "2 psi": 60,  "3 psi": 150, "4 psi": 260 },
-      "15 mM DADMAC": { "1 psi": 0,   "2 psi": 30,  "3 psi": 60,  "4 psi": 150 },
-      "25 mM DADMAC": { "1 psi": 0,   "2 psi": 0,   "3 psi": 0,   "4 psi": 0   }
+    "0 mM DADMAC":   { "1 psi": 180, "2 psi": 330, "3 psi": 495, "4 psi": 630 },
+    "5 mM DADMAC":   { "1 psi":  50, "2 psi": 150, "3 psi": 250, "4 psi": 400 },
+    "7.5 mM DADMAC": { "1 psi":   0, "2 psi":  60, "3 psi": 150, "4 psi": 260 },
+    "15 mM DADMAC":  { "1 psi":   0, "2 psi":   0, "3 psi":  50, "4 psi": 150 }
     },
     "process_temperature": "Room temperature",
     "pad_conditioning_pressure": null,

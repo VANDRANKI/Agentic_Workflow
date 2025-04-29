@@ -1,0 +1,678 @@
+{
+  "doi": null,
+  "title": "Synthesis, characterization and CMP property of neat and doped mesoporous ceria as defective active particle abrasives",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "mCeO2_CMP",
+      "experiment_context": "Neat mesoporous CeO2 (mCeO2) synthesized via protective etching, tested under conventional CMP conditions.",
+      "synthesis_details": {
+        "method": "Modified protective etching",
+        "precursor_chemical": "Ce(NO3)3·6H2O",
+        "precursor_amount": { "value": 2.2, "unit": "g" },
+        "dopant_chemical": null,
+        "dopant_molar_percentage": null,
+        "reagents": [
+          { "name": "PVP", "amount": { "value": 3.5, "unit": "g" } },
+          { "name": "Ethylene Glycol (EG)", "amount": { "value": 20, "unit": "mL" } },
+          { "name": "HCl", "concentration": { "value": 12, "unit": "M" }, "amount": { "value": 0.7, "unit": "mL" } }
+        ],
+        "reaction_temperature": [
+          { "value": 70, "unit": "°C", "duration": null },
+          { "value": 155, "unit": "°C", "duration": { "value": 1, "unit": "h" } },
+          { "value": 120, "unit": "°C", "duration": { "value": 1.5, "unit": "h" }, "step": "Etching" }
+        ],
+        "reaction_time": null, 
+        "synthesis_conditions": {
+          "atmosphere": "N2 protection",
+          "stirring": "Magnetic stirring",
+          "ph_during_reaction": null
+        },
+        "post_synthesis_treatment": {
+          "collection_method": "Centrifugation",
+          "centrifugation_speed": { "value": 10000, "unit": "rpm" },
+          "washing": ["DI water", "ethanol"],
+          "drying_temperature": { "value": 80, "unit": "°C" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1.0, "unit": "wt%" },
+        "solvent": { "name": "DI water" },
+        "additives": [
+          { "name": "KPS", "concentration": { "value": 5, "unit": "mM" } },
+          { "name": "PVP K30", "concentration": { "value": 1.0, "unit": "wt%" } }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "ph_adjustment_agent": "0.1 M NaOH"
+      },
+      "characterization": {
+        "crystallinity_phase_composition": "Cubic fluorite",
+        "measurement_method_used": "XRD",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "lattice_parameter": { "value": 5.457, "unit": "Å" },
+        "crystallite_size": { "value": 10.75, "unit": "nm", "measurement_method_used": "XRD (Scherrer Eq.)" },
+        "raman_peaks_cm-1": ["450-460 (F2g)", "~600 (Defect)"],
+        "raman_intensity_ratio_ID_IF2g": 0.1451,
+        "particle_morphology": "Monodisperse spherical mesoporous nanospheres assembled from small nanocrystalline domains",
+        "particle_size_distribution": { "value": 79, "unit": "nm", "std_dev": 8, "measurement_method_used": "SEM (Nano Measurer)" },
+        "hr_tem_lattice_fringe": { "value": "0.32-0.34", "unit": "nm", "plane": "(111)" },
+        "elemental_composition_distribution": "Uniform dispersion (Ce, O)",
+        "measurement_method_used_elemental": "STEM-EDX",
+        "specific_surface_area_bet": { "value": 42.02, "unit": "m²/g" },
+        "pore_volume_bjh": { "value": 0.07, "unit": "cm³/g" },
+        "pore_diameter_bjh": { "value": 8.25, "unit": "nm" },
+        "nitrogen_adsorption_isotherm_type": "Type IV with H3 hysteresis loop",
+        "uv_vis_absorption_range_nm": "Strong UV (200-400 nm)",
+        "optical_band_gap_Eg": { "value": 2.90, "unit": "eV", "measurement_method_used": "UV-Vis DRS (Kubelka-Munk from Table 1)" },
+        "surface_ce3_percent_xps": { "value": 42.98, "unit": "%" },
+        "oxygen_vacancy_percent_vo": { "value": 10.74, "unit": "%", "calculation_method": "From Ce3+ XPS" },
+        "surface_oxygen_species_percent_xps": { "O_ads/(O_ads+O_lat)": { "value": 76.67, "unit": "%" } }
+      },
+      "cmp_performance": {
+        "polishing_condition": "CMP",
+        "substrate_material": "Silicon wafer with 1200 nm thermal SiO2 layer",
+        "substrate_dimensions": "2.0 cm x 2.0 cm",
+        "polishing_time": { "value": 2, "unit": "min" },
+        "slurry_supply_rate": { "value": 50, "unit": "mL/min" },
+        "platen_speed": { "value": 90, "unit": "rpm" },
+        "head_speed": { "value": 120, "unit": "rpm" },
+        "polishing_pressure": { "value": 3.0, "unit": "psi" },
+        "equipment_model": "TegraForce-1 / TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane MD-Chem pad (Struers)",
+        "uv_source_details": null,
+        "material_removal_rate_mrr": { "value": 48, "unit": "nm/min", "measurement_method_used": "Weight loss" },
+        "pre_cmp_surface_roughness": { "Ra": { "value": 7.84, "unit": "Å" }, "Rq": { "value": 9.18, "unit": "Å" }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "post_cmp_surface_roughness": { "Ra": { "value": 1.25, "unit": "Å", "std_dev": 0.13 }, "Rq": { "value": 1.59, "unit": "Å", "std_dev": 0.16 }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "surface_quality_description": "Ultra-smooth, scratch-free, angstrom-level accuracy"
+      }
+    },
+    {
+      "sample_id": "mCeO2_UV-CMP",
+      "experiment_context": "Neat mesoporous CeO2 (mCeO2) synthesized via protective etching, tested under UV-assisted CMP conditions.",
+      "synthesis_details": {
+        "method": "Modified protective etching",
+        "precursor_chemical": "Ce(NO3)3·6H2O",
+        "precursor_amount": { "value": 2.2, "unit": "g" },
+        "dopant_chemical": null,
+        "dopant_molar_percentage": null,
+        "reagents": [
+          { "name": "PVP", "amount": { "value": 3.5, "unit": "g" } },
+          { "name": "Ethylene Glycol (EG)", "amount": { "value": 20, "unit": "mL" } },
+          { "name": "HCl", "concentration": { "value": 12, "unit": "M" }, "amount": { "value": 0.7, "unit": "mL" } }
+        ],
+        "reaction_temperature": [
+          { "value": 70, "unit": "°C", "duration": null },
+          { "value": 155, "unit": "°C", "duration": { "value": 1, "unit": "h" } },
+          { "value": 120, "unit": "°C", "duration": { "value": 1.5, "unit": "h" }, "step": "Etching" }
+        ],
+        "reaction_time": null, 
+        "synthesis_conditions": {
+          "atmosphere": "N2 protection",
+          "stirring": "Magnetic stirring",
+          "ph_during_reaction": null
+        },
+        "post_synthesis_treatment": {
+          "collection_method": "Centrifugation",
+          "centrifugation_speed": { "value": 10000, "unit": "rpm" },
+          "washing": ["DI water", "ethanol"],
+          "drying_temperature": { "value": 80, "unit": "°C" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1.0, "unit": "wt%" },
+        "solvent": { "name": "DI water" },
+        "additives": [
+          { "name": "KPS", "concentration": { "value": 5, "unit": "mM" } },
+          { "name": "PVP K30", "concentration": { "value": 1.0, "unit": "wt%" } }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "ph_adjustment_agent": "0.1 M NaOH"
+      },
+      "characterization": {
+        "crystallinity_phase_composition": "Cubic fluorite",
+        "measurement_method_used": "XRD",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "lattice_parameter": { "value": 5.457, "unit": "Å" },
+        "crystallite_size": { "value": 10.75, "unit": "nm", "measurement_method_used": "XRD (Scherrer Eq.)" },
+        "raman_peaks_cm-1": ["450-460 (F2g)", "~600 (Defect)"],
+        "raman_intensity_ratio_ID_IF2g": 0.1451,
+        "particle_morphology": "Monodisperse spherical mesoporous nanospheres assembled from small nanocrystalline domains",
+        "particle_size_distribution": { "value": 79, "unit": "nm", "std_dev": 8, "measurement_method_used": "SEM (Nano Measurer)" },
+        "hr_tem_lattice_fringe": { "value": "0.32-0.34", "unit": "nm", "plane": "(111)" },
+        "elemental_composition_distribution": "Uniform dispersion (Ce, O)",
+        "measurement_method_used_elemental": "STEM-EDX",
+        "specific_surface_area_bet": { "value": 42.02, "unit": "m²/g" },
+        "pore_volume_bjh": { "value": 0.07, "unit": "cm³/g" },
+        "pore_diameter_bjh": { "value": 8.25, "unit": "nm" },
+        "nitrogen_adsorption_isotherm_type": "Type IV with H3 hysteresis loop",
+        "uv_vis_absorption_range_nm": "Strong UV (200-400 nm)",
+        "optical_band_gap_Eg": { "value": 2.90, "unit": "eV", "measurement_method_used": "UV-Vis DRS (Kubelka-Munk from Table 1)" },
+        "surface_ce3_percent_xps": { "value": 42.98, "unit": "%" },
+        "oxygen_vacancy_percent_vo": { "value": 10.74, "unit": "%", "calculation_method": "From Ce3+ XPS" },
+        "surface_oxygen_species_percent_xps": { "O_ads/(O_ads+O_lat)": { "value": 76.67, "unit": "%" } }
+      },
+      "cmp_performance": {
+        "polishing_condition": "UV-CMP",
+        "substrate_material": "Silicon wafer with 1200 nm thermal SiO2 layer",
+        "substrate_dimensions": "2.0 cm x 2.0 cm",
+        "polishing_time": { "value": 2, "unit": "min" },
+        "slurry_supply_rate": { "value": 50, "unit": "mL/min" },
+        "platen_speed": { "value": 90, "unit": "rpm" },
+        "head_speed": { "value": 120, "unit": "rpm" },
+        "polishing_pressure": { "value": 3.0, "unit": "psi" },
+        "equipment_model": "TegraForce-1 / TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane MD-Chem pad (Struers)",
+        "uv_source_details": { "power": { "value": 250, "unit": "W" }, "type": "Halogen lamp", "wavelength": { "value": 365, "unit": "nm" } },
+        "material_removal_rate_mrr": { "value": 83, "unit": "nm/min", "measurement_method_used": "Weight loss (estimated from Fig 20)" },
+        "pre_cmp_surface_roughness": { "Ra": { "value": 7.84, "unit": "Å" }, "Rq": { "value": 9.18, "unit": "Å" }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "post_cmp_surface_roughness": { "Ra": { "value": 1.20, "unit": "Å", "std_dev": 0.08 }, "Rq": { "value": 1.57, "unit": "Å", "std_dev": 0.12 }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "surface_quality_description": "Ultra-smooth, scratch-free, angstrom-level accuracy"
+      }
+    },
+    {
+      "sample_id": "mCeO2-Gd_CMP",
+      "experiment_context": "Gd-doped (15%) mesoporous CeO2 (mCeO2-Gd) synthesized via protective etching, tested under conventional CMP conditions.",
+      "synthesis_details": {
+        "method": "Modified protective etching",
+        "precursor_chemical": "Ce(NO3)3·6H2O",
+        "precursor_amount": null, 
+        "dopant_chemical": "Gd(NO3)3·6H2O",
+        "dopant_molar_percentage": { "value": 15, "unit": "%", "basis": "Gd/(Ce+Gd)" },
+        "reagents": [
+          { "name": "PVP", "amount": { "value": 3.5, "unit": "g" } },
+          { "name": "Ethylene Glycol (EG)", "amount": { "value": 20, "unit": "mL" } },
+          { "name": "HCl", "concentration": { "value": 12, "unit": "M" }, "amount": { "value": 0.7, "unit": "mL" } }
+        ],
+        "reaction_temperature": [
+          { "value": 70, "unit": "°C", "duration": null },
+          { "value": 155, "unit": "°C", "duration": { "value": 1, "unit": "h" } },
+          { "value": 120, "unit": "°C", "duration": { "value": 1.5, "unit": "h" }, "step": "Etching" }
+        ],
+        "reaction_time": null,
+        "synthesis_conditions": {
+          "atmosphere": "N2 protection",
+          "stirring": "Magnetic stirring",
+          "ph_during_reaction": null
+        },
+        "post_synthesis_treatment": {
+          "collection_method": "Centrifugation",
+          "centrifugation_speed": { "value": 10000, "unit": "rpm" },
+          "washing": ["DI water", "ethanol"],
+          "drying_temperature": { "value": 80, "unit": "°C" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1.0, "unit": "wt%" },
+        "solvent": { "name": "DI water" },
+        "additives": [
+          { "name": "KPS", "concentration": { "value": 5, "unit": "mM" } },
+          { "name": "PVP K30", "concentration": { "value": 1.0, "unit": "wt%" } }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "ph_adjustment_agent": "0.1 M NaOH"
+      },
+      "characterization": {
+        "crystallinity_phase_composition": "Cubic fluorite (Ce-Gd-O solid solution)",
+        "measurement_method_used": "XRD",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "lattice_parameter": { "value": 5.408, "unit": "Å" },
+        "crystallite_size": { "value": 9.12, "unit": "nm", "measurement_method_used": "XRD (Scherrer Eq.)" },
+        "raman_peaks_cm-1": ["450-460 (F2g, blue-shifted)", "~600 (Defect)"],
+        "raman_intensity_ratio_ID_IF2g": 0.1568,
+        "particle_morphology": "Monodisperse spherical mesoporous nanospheres assembled from small nanocrystalline domains",
+        "particle_size_distribution": { "value": 78, "unit": "nm", "std_dev": 16, "measurement_method_used": "SEM (Nano Measurer)" },
+        "hr_tem_lattice_fringe": { "value": "0.32-0.34", "unit": "nm", "plane": "(111)" },
+        "elemental_composition_distribution": "Uniform dispersion (Ce, O, Gd)",
+        "measurement_method_used_elemental": "STEM-EDX",
+        "specific_surface_area_bet": { "value": 47.25, "unit": "m²/g" },
+        "pore_volume_bjh": { "value": 0.11, "unit": "cm³/g" },
+        "pore_diameter_bjh": { "value": 10.08, "unit": "nm" },
+        "nitrogen_adsorption_isotherm_type": "Type IV with H3 hysteresis loop",
+        "uv_vis_absorption_range_nm": "Strong UV (200-400 nm) with red shift",
+        "optical_band_gap_Eg": { "value": 2.78, "unit": "eV", "measurement_method_used": "UV-Vis DRS (Kubelka-Munk from Table 1)" },
+        "surface_ce3_percent_xps": { "value": 48.95, "unit": "%" },
+        "oxygen_vacancy_percent_vo": { "value": 12.23, "unit": "%", "calculation_method": "From Ce3+ XPS" },
+        "surface_oxygen_species_percent_xps": { "O_ads/(O_ads+O_lat)": { "value": 89.32, "unit": "%" } },
+        "dopant_xps_peaks": { "Gd 4d5/2": { "value": 141.9, "unit": "eV" }, "Gd 4d3/2": { "value": 147.1, "unit": "eV" } }
+      },
+      "cmp_performance": {
+        "polishing_condition": "CMP",
+        "substrate_material": "Silicon wafer with 1200 nm thermal SiO2 layer",
+        "substrate_dimensions": "2.0 cm x 2.0 cm",
+        "polishing_time": { "value": 2, "unit": "min" },
+        "slurry_supply_rate": { "value": 50, "unit": "mL/min" },
+        "platen_speed": { "value": 90, "unit": "rpm" },
+        "head_speed": { "value": 120, "unit": "rpm" },
+        "polishing_pressure": { "value": 3.0, "unit": "psi" },
+        "equipment_model": "TegraForce-1 / TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane MD-Chem pad (Struers)",
+        "uv_source_details": null,
+        "material_removal_rate_mrr": { "value": 74, "unit": "nm/min", "measurement_method_used": "Weight loss (from old JSON)" },
+        "pre_cmp_surface_roughness": { "Ra": { "value": 7.84, "unit": "Å" }, "Rq": { "value": 9.18, "unit": "Å" }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "post_cmp_surface_roughness": { "Ra": { "value": 1.20, "unit": "Å", "std_dev": 0.07 }, "Rq": { "value": 1.93, "unit": "Å", "std_dev": 0.38 }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "surface_quality_description": "Ultra-smooth, scratch-free, angstrom-level accuracy"
+      }
+    },
+    {
+      "sample_id": "mCeO2-Gd_UV-CMP",
+      "experiment_context": "Gd-doped (15%) mesoporous CeO2 (mCeO2-Gd) synthesized via protective etching, tested under UV-assisted CMP conditions.",
+      "synthesis_details": {
+        "method": "Modified protective etching",
+        "precursor_chemical": "Ce(NO3)3·6H2O",
+        "precursor_amount": null,
+        "dopant_chemical": "Gd(NO3)3·6H2O",
+        "dopant_molar_percentage": { "value": 15, "unit": "%", "basis": "Gd/(Ce+Gd)" },
+        "reagents": [
+          { "name": "PVP", "amount": { "value": 3.5, "unit": "g" } },
+          { "name": "Ethylene Glycol (EG)", "amount": { "value": 20, "unit": "mL" } },
+          { "name": "HCl", "concentration": { "value": 12, "unit": "M" }, "amount": { "value": 0.7, "unit": "mL" } }
+        ],
+        "reaction_temperature": [
+          { "value": 70, "unit": "°C", "duration": null },
+          { "value": 155, "unit": "°C", "duration": { "value": 1, "unit": "h" } },
+          { "value": 120, "unit": "°C", "duration": { "value": 1.5, "unit": "h" }, "step": "Etching" }
+        ],
+        "reaction_time": null,
+        "synthesis_conditions": {
+          "atmosphere": "N2 protection",
+          "stirring": "Magnetic stirring",
+          "ph_during_reaction": null
+        },
+        "post_synthesis_treatment": {
+          "collection_method": "Centrifugation",
+          "centrifugation_speed": { "value": 10000, "unit": "rpm" },
+          "washing": ["DI water", "ethanol"],
+          "drying_temperature": { "value": 80, "unit": "°C" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1.0, "unit": "wt%" },
+        "solvent": { "name": "DI water" },
+        "additives": [
+          { "name": "KPS", "concentration": { "value": 5, "unit": "mM" } },
+          { "name": "PVP K30", "concentration": { "value": 1.0, "unit": "wt%" } }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "ph_adjustment_agent": "0.1 M NaOH"
+      },
+      "characterization": {
+        "crystallinity_phase_composition": "Cubic fluorite (Ce-Gd-O solid solution)",
+        "measurement_method_used": "XRD",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "lattice_parameter": { "value": 5.408, "unit": "Å" },
+        "crystallite_size": { "value": 9.12, "unit": "nm", "measurement_method_used": "XRD (Scherrer Eq.)" },
+        "raman_peaks_cm-1": ["450-460 (F2g, blue-shifted)", "~600 (Defect)"],
+        "raman_intensity_ratio_ID_IF2g": 0.1568,
+        "particle_morphology": "Monodisperse spherical mesoporous nanospheres assembled from small nanocrystalline domains",
+        "particle_size_distribution": { "value": 78, "unit": "nm", "std_dev": 16, "measurement_method_used": "SEM (Nano Measurer)" },
+        "hr_tem_lattice_fringe": { "value": "0.32-0.34", "unit": "nm", "plane": "(111)" },
+        "elemental_composition_distribution": "Uniform dispersion (Ce, O, Gd)",
+        "measurement_method_used_elemental": "STEM-EDX",
+        "specific_surface_area_bet": { "value": 47.25, "unit": "m²/g" },
+        "pore_volume_bjh": { "value": 0.11, "unit": "cm³/g" },
+        "pore_diameter_bjh": { "value": 10.08, "unit": "nm" },
+        "nitrogen_adsorption_isotherm_type": "Type IV with H3 hysteresis loop",
+        "uv_vis_absorption_range_nm": "Strong UV (200-400 nm) with red shift",
+        "optical_band_gap_Eg": { "value": 2.78, "unit": "eV", "measurement_method_used": "UV-Vis DRS (Kubelka-Munk from Table 1)" },
+        "surface_ce3_percent_xps": { "value": 48.95, "unit": "%" },
+        "oxygen_vacancy_percent_vo": { "value": 12.23, "unit": "%", "calculation_method": "From Ce3+ XPS" },
+        "surface_oxygen_species_percent_xps": { "O_ads/(O_ads+O_lat)": { "value": 89.32, "unit": "%" } },
+        "dopant_xps_peaks": { "Gd 4d5/2": { "value": 141.9, "unit": "eV" }, "Gd 4d3/2": { "value": 147.1, "unit": "eV" } }
+      },
+      "cmp_performance": {
+        "polishing_condition": "UV-CMP",
+        "substrate_material": "Silicon wafer with 1200 nm thermal SiO2 layer",
+        "substrate_dimensions": "2.0 cm x 2.0 cm",
+        "polishing_time": { "value": 2, "unit": "min" },
+        "slurry_supply_rate": { "value": 50, "unit": "mL/min" },
+        "platen_speed": { "value": 90, "unit": "rpm" },
+        "head_speed": { "value": 120, "unit": "rpm" },
+        "polishing_pressure": { "value": 3.0, "unit": "psi" },
+        "equipment_model": "TegraForce-1 / TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane MD-Chem pad (Struers)",
+        "uv_source_details": { "power": { "value": 250, "unit": "W" }, "type": "Halogen lamp", "wavelength": { "value": 365, "unit": "nm" } },
+        "material_removal_rate_mrr": { "value": 117, "unit": "nm/min", "measurement_method_used": "Weight loss (estimated from Fig 20)" },
+        "pre_cmp_surface_roughness": { "Ra": { "value": 7.84, "unit": "Å" }, "Rq": { "value": 9.18, "unit": "Å" }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "post_cmp_surface_roughness": { "Ra": { "value": 1.13, "unit": "Å", "std_dev": 0.09 }, "Rq": { "value": 1.76, "unit": "Å", "std_dev": 0.38 }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "surface_quality_description": "Ultra-smooth, scratch-free, angstrom-level accuracy"
+      }
+    },
+    {
+      "sample_id": "mCeO2-Y_CMP",
+      "experiment_context": "Y-doped (15%) mesoporous CeO2 (mCeO2-Y) synthesized via protective etching, tested under conventional CMP conditions.",
+      "synthesis_details": {
+        "method": "Modified protective etching",
+        "precursor_chemical": "Ce(NO3)3·6H2O",
+        "precursor_amount": null,
+        "dopant_chemical": "Y(NO3)3·6H2O",
+        "dopant_molar_percentage": { "value": 15, "unit": "%", "basis": "Y/(Ce+Y)" },
+        "reagents": [
+          { "name": "PVP", "amount": { "value": 3.5, "unit": "g" } },
+          { "name": "Ethylene Glycol (EG)", "amount": { "value": 20, "unit": "mL" } },
+          { "name": "HCl", "concentration": { "value": 12, "unit": "M" }, "amount": { "value": 0.7, "unit": "mL" } }
+        ],
+        "reaction_temperature": [
+          { "value": 70, "unit": "°C", "duration": null },
+          { "value": 155, "unit": "°C", "duration": { "value": 1, "unit": "h" } },
+          { "value": 120, "unit": "°C", "duration": { "value": 1.5, "unit": "h" }, "step": "Etching" }
+        ],
+        "reaction_time": null,
+        "synthesis_conditions": {
+          "atmosphere": "N2 protection",
+          "stirring": "Magnetic stirring",
+          "ph_during_reaction": null
+        },
+        "post_synthesis_treatment": {
+          "collection_method": "Centrifugation",
+          "centrifugation_speed": { "value": 10000, "unit": "rpm" },
+          "washing": ["DI water", "ethanol"],
+          "drying_temperature": { "value": 80, "unit": "°C" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1.0, "unit": "wt%" },
+        "solvent": { "name": "DI water" },
+        "additives": [
+          { "name": "KPS", "concentration": { "value": 5, "unit": "mM" } },
+          { "name": "PVP K30", "concentration": { "value": 1.0, "unit": "wt%" } }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "ph_adjustment_agent": "0.1 M NaOH"
+      },
+      "characterization": {
+        "crystallinity_phase_composition": "Cubic fluorite (Ce-Y-O solid solution)",
+        "measurement_method_used": "XRD",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "lattice_parameter": { "value": 5.390, "unit": "Å" },
+        "crystallite_size": { "value": 9.10, "unit": "nm", "measurement_method_used": "XRD (Scherrer Eq.)" },
+        "raman_peaks_cm-1": ["450-460 (F2g, blue-shifted)", "~600 (Defect)"],
+        "raman_intensity_ratio_ID_IF2g": 0.1560,
+        "particle_morphology": "Monodisperse spherical mesoporous nanospheres assembled from small nanocrystalline domains",
+        "particle_size_distribution": { "value": 77, "unit": "nm", "std_dev": 13, "measurement_method_used": "SEM (Nano Measurer)" },
+        "hr_tem_lattice_fringe": { "value": "0.32-0.34", "unit": "nm", "plane": "(111)" },
+        "elemental_composition_distribution": "Uniform dispersion (Ce, O, Y)",
+        "measurement_method_used_elemental": "STEM-EDX",
+        "specific_surface_area_bet": { "value": 43.69, "unit": "m²/g" },
+        "pore_volume_bjh": { "value": 0.08, "unit": "cm³/g" },
+        "pore_diameter_bjh": { "value": 8.47, "unit": "nm" },
+        "nitrogen_adsorption_isotherm_type": "Type IV with H3 hysteresis loop",
+        "uv_vis_absorption_range_nm": "Strong UV (200-400 nm) with red shift",
+        "optical_band_gap_Eg": { "value": 2.61, "unit": "eV", "measurement_method_used": "UV-Vis DRS (Kubelka-Munk from Table 1)" },
+        "surface_ce3_percent_xps": { "value": 45.59, "unit": "%" },
+        "oxygen_vacancy_percent_vo": { "value": 11.39, "unit": "%", "calculation_method": "From Ce3+ XPS" },
+        "surface_oxygen_species_percent_xps": { "O_ads/(O_ads+O_lat)": { "value": 83.02, "unit": "%" } },
+        "dopant_xps_peaks": { "Y 3d5/2": { "value": 157.3, "unit": "eV" }, "Y 3d3/2": { "value": 159.5, "unit": "eV" } }
+      },
+      "cmp_performance": {
+        "polishing_condition": "CMP",
+        "substrate_material": "Silicon wafer with 1200 nm thermal SiO2 layer",
+        "substrate_dimensions": "2.0 cm x 2.0 cm",
+        "polishing_time": { "value": 2, "unit": "min" },
+        "slurry_supply_rate": { "value": 50, "unit": "mL/min" },
+        "platen_speed": { "value": 90, "unit": "rpm" },
+        "head_speed": { "value": 120, "unit": "rpm" },
+        "polishing_pressure": { "value": 3.0, "unit": "psi" },
+        "equipment_model": "TegraForce-1 / TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane MD-Chem pad (Struers)",
+        "uv_source_details": null,
+        "material_removal_rate_mrr": { "value": 61, "unit": "nm/min", "measurement_method_used": "Weight loss (from old JSON)" },
+        "pre_cmp_surface_roughness": { "Ra": { "value": 7.84, "unit": "Å" }, "Rq": { "value": 9.18, "unit": "Å" }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "post_cmp_surface_roughness": { "Ra": { "value": 1.59, "unit": "Å", "std_dev": 0.02 }, "Rq": { "value": 2.28, "unit": "Å", "std_dev": 0.22 }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "surface_quality_description": "Ultra-smooth, scratch-free, angstrom-level accuracy"
+      }
+    },
+    {
+      "sample_id": "mCeO2-Y_UV-CMP",
+      "experiment_context": "Y-doped (15%) mesoporous CeO2 (mCeO2-Y) synthesized via protective etching, tested under UV-assisted CMP conditions.",
+      "synthesis_details": {
+        "method": "Modified protective etching",
+        "precursor_chemical": "Ce(NO3)3·6H2O",
+        "precursor_amount": null,
+        "dopant_chemical": "Y(NO3)3·6H2O",
+        "dopant_molar_percentage": { "value": 15, "unit": "%", "basis": "Y/(Ce+Y)" },
+        "reagents": [
+          { "name": "PVP", "amount": { "value": 3.5, "unit": "g" } },
+          { "name": "Ethylene Glycol (EG)", "amount": { "value": 20, "unit": "mL" } },
+          { "name": "HCl", "concentration": { "value": 12, "unit": "M" }, "amount": { "value": 0.7, "unit": "mL" } }
+        ],
+        "reaction_temperature": [
+          { "value": 70, "unit": "°C", "duration": null },
+          { "value": 155, "unit": "°C", "duration": { "value": 1, "unit": "h" } },
+          { "value": 120, "unit": "°C", "duration": { "value": 1.5, "unit": "h" }, "step": "Etching" }
+        ],
+        "reaction_time": null,
+        "synthesis_conditions": {
+          "atmosphere": "N2 protection",
+          "stirring": "Magnetic stirring",
+          "ph_during_reaction": null
+        },
+        "post_synthesis_treatment": {
+          "collection_method": "Centrifugation",
+          "centrifugation_speed": { "value": 10000, "unit": "rpm" },
+          "washing": ["DI water", "ethanol"],
+          "drying_temperature": { "value": 80, "unit": "°C" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1.0, "unit": "wt%" },
+        "solvent": { "name": "DI water" },
+        "additives": [
+          { "name": "KPS", "concentration": { "value": 5, "unit": "mM" } },
+          { "name": "PVP K30", "concentration": { "value": 1.0, "unit": "wt%" } }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "ph_adjustment_agent": "0.1 M NaOH"
+      },
+      "characterization": {
+        "crystallinity_phase_composition": "Cubic fluorite (Ce-Y-O solid solution)",
+        "measurement_method_used": "XRD",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "lattice_parameter": { "value": 5.390, "unit": "Å" },
+        "crystallite_size": { "value": 9.10, "unit": "nm", "measurement_method_used": "XRD (Scherrer Eq.)" },
+        "raman_peaks_cm-1": ["450-460 (F2g, blue-shifted)", "~600 (Defect)"],
+        "raman_intensity_ratio_ID_IF2g": 0.1560,
+        "particle_morphology": "Monodisperse spherical mesoporous nanospheres assembled from small nanocrystalline domains",
+        "particle_size_distribution": { "value": 77, "unit": "nm", "std_dev": 13, "measurement_method_used": "SEM (Nano Measurer)" },
+        "hr_tem_lattice_fringe": { "value": "0.32-0.34", "unit": "nm", "plane": "(111)" },
+        "elemental_composition_distribution": "Uniform dispersion (Ce, O, Y)",
+        "measurement_method_used_elemental": "STEM-EDX",
+        "specific_surface_area_bet": { "value": 43.69, "unit": "m²/g" },
+        "pore_volume_bjh": { "value": 0.08, "unit": "cm³/g" },
+        "pore_diameter_bjh": { "value": 8.47, "unit": "nm" },
+        "nitrogen_adsorption_isotherm_type": "Type IV with H3 hysteresis loop",
+        "uv_vis_absorption_range_nm": "Strong UV (200-400 nm) with red shift",
+        "optical_band_gap_Eg": { "value": 2.61, "unit": "eV", "measurement_method_used": "UV-Vis DRS (Kubelka-Munk from Table 1)" },
+        "surface_ce3_percent_xps": { "value": 45.59, "unit": "%" },
+        "oxygen_vacancy_percent_vo": { "value": 11.39, "unit": "%", "calculation_method": "From Ce3+ XPS" },
+        "surface_oxygen_species_percent_xps": { "O_ads/(O_ads+O_lat)": { "value": 83.02, "unit": "%" } },
+        "dopant_xps_peaks": { "Y 3d5/2": { "value": 157.3, "unit": "eV" }, "Y 3d3/2": { "value": 159.5, "unit": "eV" } }
+      },
+      "cmp_performance": {
+        "polishing_condition": "UV-CMP",
+        "substrate_material": "Silicon wafer with 1200 nm thermal SiO2 layer",
+        "substrate_dimensions": "2.0 cm x 2.0 cm",
+        "polishing_time": { "value": 2, "unit": "min" },
+        "slurry_supply_rate": { "value": 50, "unit": "mL/min" },
+        "platen_speed": { "value": 90, "unit": "rpm" },
+        "head_speed": { "value": 120, "unit": "rpm" },
+        "polishing_pressure": { "value": 3.0, "unit": "psi" },
+        "equipment_model": "TegraForce-1 / TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane MD-Chem pad (Struers)",
+        "uv_source_details": { "power": { "value": 250, "unit": "W" }, "type": "Halogen lamp", "wavelength": { "value": 365, "unit": "nm" } },
+        "material_removal_rate_mrr": { "value": 105, "unit": "nm/min", "measurement_method_used": "Weight loss (estimated from Fig 20)" },
+        "pre_cmp_surface_roughness": { "Ra": { "value": 7.84, "unit": "Å" }, "Rq": { "value": 9.18, "unit": "Å" }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "post_cmp_surface_roughness": { "Ra": { "value": 1.17, "unit": "Å", "std_dev": 0.02 }, "Rq": { "value": 1.48, "unit": "Å", "std_dev": 0.02 }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "surface_quality_description": "Ultra-smooth, scratch-free, angstrom-level accuracy"
+      }
+    },
+    {
+      "sample_id": "mCeO2-Zn_CMP",
+      "experiment_context": "Zn-doped (15%) mesoporous CeO2 (mCeO2-Zn) synthesized via protective etching, tested under conventional CMP conditions.",
+      "synthesis_details": {
+        "method": "Modified protective etching",
+        "precursor_chemical": "Ce(NO3)3·6H2O",
+        "precursor_amount": null,
+        "dopant_chemical": "Zn(CH3COO)2·2H2O",
+        "dopant_molar_percentage": { "value": 15, "unit": "%", "basis": "Zn/(Ce+Zn)" },
+        "reagents": [
+          { "name": "PVP", "amount": { "value": 3.5, "unit": "g" } },
+          { "name": "Ethylene Glycol (EG)", "amount": { "value": 20, "unit": "mL" } },
+          { "name": "HCl", "concentration": { "value": 12, "unit": "M" }, "amount": { "value": 0.7, "unit": "mL" } }
+        ],
+        "reaction_temperature": [
+          { "value": 70, "unit": "°C", "duration": null },
+          { "value": 155, "unit": "°C", "duration": { "value": 1, "unit": "h" } },
+          { "value": 120, "unit": "°C", "duration": { "value": 1.5, "unit": "h" }, "step": "Etching" }
+        ],
+        "reaction_time": null,
+        "synthesis_conditions": {
+          "atmosphere": "N2 protection",
+          "stirring": "Magnetic stirring",
+          "ph_during_reaction": null
+        },
+        "post_synthesis_treatment": {
+          "collection_method": "Centrifugation",
+          "centrifugation_speed": { "value": 10000, "unit": "rpm" },
+          "washing": ["DI water", "ethanol"],
+          "drying_temperature": { "value": 80, "unit": "°C" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1.0, "unit": "wt%" },
+        "solvent": { "name": "DI water" },
+        "additives": [
+          { "name": "KPS", "concentration": { "value": 5, "unit": "mM" } },
+          { "name": "PVP K30", "concentration": { "value": 1.0, "unit": "wt%" } }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "ph_adjustment_agent": "0.1 M NaOH"
+      },
+      "characterization": {
+        "crystallinity_phase_composition": "Cubic fluorite (Ce-Zn-O solid solution)",
+        "measurement_method_used": "XRD",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "lattice_parameter": { "value": 5.435, "unit": "Å" },
+        "crystallite_size": { "value": 9.60, "unit": "nm", "measurement_method_used": "XRD (Scherrer Eq.)" },
+        "raman_peaks_cm-1": ["450-460 (F2g, blue-shifted)", "~600 (Defect)"],
+        "raman_intensity_ratio_ID_IF2g": 0.1592,
+        "particle_morphology": "Monodisperse spherical mesoporous nanospheres assembled from small nanocrystalline domains",
+        "particle_size_distribution": { "value": 79, "unit": "nm", "std_dev": 12, "measurement_method_used": "SEM (Nano Measurer)" },
+        "hr_tem_lattice_fringe": { "value": "0.32-0.34", "unit": "nm", "plane": "(111)" },
+        "elemental_composition_distribution": "Uniform dispersion (Ce, O, Zn)",
+        "measurement_method_used_elemental": "STEM-EDX",
+        "specific_surface_area_bet": { "value": 50.25, "unit": "m²/g" },
+        "pore_volume_bjh": { "value": 0.13, "unit": "cm³/g" },
+        "pore_diameter_bjh": { "value": 11.24, "unit": "nm" },
+        "nitrogen_adsorption_isotherm_type": "Type IV with H3 hysteresis loop",
+        "uv_vis_absorption_range_nm": "Strong UV (200-400 nm) with red shift",
+        "optical_band_gap_Eg": { "value": 2.71, "unit": "eV", "measurement_method_used": "UV-Vis DRS (Kubelka-Munk from Table 1)" },
+        "surface_ce3_percent_xps": { "value": 45.32, "unit": "%" },
+        "oxygen_vacancy_percent_vo": { "value": 11.33, "unit": "%", "calculation_method": "From Ce3+ XPS" },
+        "surface_oxygen_species_percent_xps": { "O_ads/(O_ads+O_lat)": { "value": 88.99, "unit": "%" } },
+        "dopant_xps_peaks": { "Zn 2p3/2": { "value": 1022.7, "unit": "eV" }, "Zn 2p1/2": { "value": 1044.8, "unit": "eV" } }
+      },
+      "cmp_performance": {
+        "polishing_condition": "CMP",
+        "substrate_material": "Silicon wafer with 1200 nm thermal SiO2 layer",
+        "substrate_dimensions": "2.0 cm x 2.0 cm",
+        "polishing_time": { "value": 2, "unit": "min" },
+        "slurry_supply_rate": { "value": 50, "unit": "mL/min" },
+        "platen_speed": { "value": 90, "unit": "rpm" },
+        "head_speed": { "value": 120, "unit": "rpm" },
+        "polishing_pressure": { "value": 3.0, "unit": "psi" },
+        "equipment_model": "TegraForce-1 / TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane MD-Chem pad (Struers)",
+        "uv_source_details": null,
+        "material_removal_rate_mrr": { "value": 59, "unit": "nm/min", "measurement_method_used": "Weight loss (from old JSON)" },
+        "pre_cmp_surface_roughness": { "Ra": { "value": 7.84, "unit": "Å" }, "Rq": { "value": 9.18, "unit": "Å" }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "post_cmp_surface_roughness": { "Ra": { "value": 1.18, "unit": "Å", "std_dev": 0.08 }, "Rq": { "value": 1.81, "unit": "Å", "std_dev": 0.44 }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "surface_quality_description": "Ultra-smooth, scratch-free, angstrom-level accuracy"
+      }
+    },
+    {
+      "sample_id": "mCeO2-Zn_UV-CMP",
+      "experiment_context": "Zn-doped (15%) mesoporous CeO2 (mCeO2-Zn) synthesized via protective etching, tested under UV-assisted CMP conditions.",
+      "synthesis_details": {
+        "method": "Modified protective etching",
+        "precursor_chemical": "Ce(NO3)3·6H2O",
+        "precursor_amount": null,
+        "dopant_chemical": "Zn(CH3COO)2·2H2O",
+        "dopant_molar_percentage": { "value": 15, "unit": "%", "basis": "Zn/(Ce+Zn)" },
+        "reagents": [
+          { "name": "PVP", "amount": { "value": 3.5, "unit": "g" } },
+          { "name": "Ethylene Glycol (EG)", "amount": { "value": 20, "unit": "mL" } },
+          { "name": "HCl", "concentration": { "value": 12, "unit": "M" }, "amount": { "value": 0.7, "unit": "mL" } }
+        ],
+        "reaction_temperature": [
+          { "value": 70, "unit": "°C", "duration": null },
+          { "value": 155, "unit": "°C", "duration": { "value": 1, "unit": "h" } },
+          { "value": 120, "unit": "°C", "duration": { "value": 1.5, "unit": "h" }, "step": "Etching" }
+        ],
+        "reaction_time": null,
+        "synthesis_conditions": {
+          "atmosphere": "N2 protection",
+          "stirring": "Magnetic stirring",
+          "ph_during_reaction": null
+        },
+        "post_synthesis_treatment": {
+          "collection_method": "Centrifugation",
+          "centrifugation_speed": { "value": 10000, "unit": "rpm" },
+          "washing": ["DI water", "ethanol"],
+          "drying_temperature": { "value": 80, "unit": "°C" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": 1.0, "unit": "wt%" },
+        "solvent": { "name": "DI water" },
+        "additives": [
+          { "name": "KPS", "concentration": { "value": 5, "unit": "mM" } },
+          { "name": "PVP K30", "concentration": { "value": 1.0, "unit": "wt%" } }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "ph_adjustment_agent": "0.1 M NaOH"
+      },
+      "characterization": {
+        "crystallinity_phase_composition": "Cubic fluorite (Ce-Zn-O solid solution)",
+        "measurement_method_used": "XRD",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "lattice_parameter": { "value": 5.435, "unit": "Å" },
+        "crystallite_size": { "value": 9.60, "unit": "nm", "measurement_method_used": "XRD (Scherrer Eq.)" },
+        "raman_peaks_cm-1": ["450-460 (F2g, blue-shifted)", "~600 (Defect)"],
+        "raman_intensity_ratio_ID_IF2g": 0.1592,
+        "particle_morphology": "Monodisperse spherical mesoporous nanospheres assembled from small nanocrystalline domains",
+        "particle_size_distribution": { "value": 79, "unit": "nm", "std_dev": 12, "measurement_method_used": "SEM (Nano Measurer)" },
+        "hr_tem_lattice_fringe": { "value": "0.32-0.34", "unit": "nm", "plane": "(111)" },
+        "elemental_composition_distribution": "Uniform dispersion (Ce, O, Zn)",
+        "measurement_method_used_elemental": "STEM-EDX",
+        "specific_surface_area_bet": { "value": 50.25, "unit": "m²/g" },
+        "pore_volume_bjh": { "value": 0.13, "unit": "cm³/g" },
+        "pore_diameter_bjh": { "value": 11.24, "unit": "nm" },
+        "nitrogen_adsorption_isotherm_type": "Type IV with H3 hysteresis loop",
+        "uv_vis_absorption_range_nm": "Strong UV (200-400 nm) with red shift",
+        "optical_band_gap_Eg": { "value": 2.71, "unit": "eV", "measurement_method_used": "UV-Vis DRS (Kubelka-Munk from Table 1)" },
+        "surface_ce3_percent_xps": { "value": 45.32, "unit": "%" },
+        "oxygen_vacancy_percent_vo": { "value": 11.33, "unit": "%", "calculation_method": "From Ce3+ XPS" },
+        "surface_oxygen_species_percent_xps": { "O_ads/(O_ads+O_lat)": { "value": 88.99, "unit": "%" } },
+        "dopant_xps_peaks": { "Zn 2p3/2": { "value": 1022.7, "unit": "eV" }, "Zn 2p1/2": { "value": 1044.8, "unit": "eV" } }
+      },
+      "cmp_performance": {
+        "polishing_condition": "UV-CMP",
+        "substrate_material": "Silicon wafer with 1200 nm thermal SiO2 layer",
+        "substrate_dimensions": "2.0 cm x 2.0 cm",
+        "polishing_time": { "value": 2, "unit": "min" },
+        "slurry_supply_rate": { "value": 50, "unit": "mL/min" },
+        "platen_speed": { "value": 90, "unit": "rpm" },
+        "head_speed": { "value": 120, "unit": "rpm" },
+        "polishing_pressure": { "value": 3.0, "unit": "psi" },
+        "equipment_model": "TegraForce-1 / TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane MD-Chem pad (Struers)",
+        "uv_source_details": { "power": { "value": 250, "unit": "W" }, "type": "Halogen lamp", "wavelength": { "value": 365, "unit": "nm" } },
+        "material_removal_rate_mrr": { "value": 108, "unit": "nm/min", "measurement_method_used": "Weight loss (estimated from Fig 20)" },
+        "pre_cmp_surface_roughness": { "Ra": { "value": 7.84, "unit": "Å" }, "Rq": { "value": 9.18, "unit": "Å" }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "post_cmp_surface_roughness": { "Ra": { "value": 1.16, "unit": "Å", "std_dev": 0.12 }, "Rq": { "value": 1.48, "unit": "Å", "std_dev": 0.16 }, "measurement_method_used": "AFM (5x5 µm²)" },
+        "surface_quality_description": "Ultra-smooth, scratch-free, angstrom-level accuracy"
+      }
+    }
+  ]
+}
