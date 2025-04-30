@@ -1,0 +1,837 @@
+{
+  "doi": null,
+  "title": "Effect of lanthanum doping in ceria abrasives on chemical mechanical polishing selectivity for shallow trench isolation",
+  "year_published": "2015",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "ceria-SG_no_additive",
+      "experiment_context": "Pure ceria abrasive synthesized via sol-gel (ceria-SG) used in slurry without any amino acid additive.",
+      "synthesis_details": {
+        "method": "Sol-gel",
+        "precursors": [
+          {"chemical": "Ce(NO₃)₃·6H₂O", "supplier": "Alfa Aesar, UK"},
+          {"chemical": "C₆H₈O₇ (Citric Acid)", "supplier": "Merck, India"},
+          {"chemical": "NH₄OH (Aqueous Ammonia)", "supplier": "Fischer Scientific, India"}
+        ],
+        "molar_ratio_reactant": "Ce(NO₃)₃ : Citric Acid = 1:3",
+        "synthesis_ph": 7,
+        "stirring_time": {"value": "1", "unit": "h"},
+        "dehydration_temperature": {"value": ">150", "unit": "°C"},
+        "calcination": [
+          {"temperature": {"value": "350", "unit": "°C"}, "time": {"value": "12", "unit": "h"}},
+          {"temperature": {"value": "900", "unit": "°C"}, "time": {"value": "12", "unit": "h"}}
+        ],
+        "post_synthesis_treatment": {
+           "milling": {
+              "duration": {"value": "3", "unit": "h"},
+              "equipment": "Pulverisette 6, Fritsch GmbH, Germany",
+              "media": "Tungsten carbide balls",
+              "ball_to_powder_ratio": "10:1",
+              "medium": "Toluene"
+           },
+           "drying": {"temperature": {"value": "85", "unit": "°C"}, "time": {"value": "4", "unit": "h"}}
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "characterization": {
+         "particle_morphology": "Highly agglomerated polycrystalline particles",
+         "crystallinity_phase_composition": {"value": "Cubic fluorite", "measurement_method_used": "XRD"},
+         "mean_agglomerate_size": {"value": "8.6", "unit": "µm", "measurement_method_used": "Laser Diffraction"},
+         "elemental_composition_eds": {
+            "O": {"value": "70", "unit": "at%"},
+            "Ce": {"value": "30", "unit": "at%"},
+            "La": {"value": "0", "unit": "at%"}
+         },
+         "surface_ce3_fraction_xps": {"value": "0.34", "unit": ""},
+         "xrd_analysis": {"instrument": "X'pert Pro PANalytical", "radiation": "CuKα", "wavelength": {"value": "1.54", "unit": "Å"}, "scan_range_2theta": "20-80°"},
+         "tem_analysis": {"instrument": "Philips CM20", "voltage_range": "20-200 kV"},
+         "laser_diffraction_analysis": {"instrument": "Horiba LA-950 V2"},
+         "xps_analysis": {"instrument": "Sigma probe (Thermo, UK)", "source": "AlKα", "energy": {"value": "1486.6", "unit": "eV"}, "base_pressure": {"value": "<10⁻⁹", "unit": "mbar"}},
+         "eds_analysis": {"instrument": "Horiba EMAX"},
+         "tga_analysis": {"instrument": "TA Instruments SDT Q600"}
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers Labopol-5/Laboforce-3",
+        "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+        "wafer_supplier": "Semi-wafer Inc., Taiwan",
+        "carrier_speed": {"value": "250", "unit": "rpm"},
+        "turntable_speed": {"value": "100", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+        "polishing_time": {"value": "1", "unit": "min"},
+        "pad_conditioning": "Silicon carbide grit paper",
+        "thickness_measurement_instrument": "F20UV thin film analyzer",
+        "material_removal_rate": {
+          "oxide": {"value": "70", "unit": "nm/min"},
+          "nitride": {"value": "22", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": 3.18
+      }
+    },
+    {
+      "sample_id": "ceria-SGL_no_additive",
+      "experiment_context": "Lanthanum-doped ceria abrasive synthesized via sol-gel (ceria-SGL) used in slurry without any amino acid additive.",
+       "synthesis_details": {
+        "method": "Sol-gel",
+        "precursors": [
+          {"chemical": "Ce(NO₃)₃·6H₂O", "supplier": "Alfa Aesar, UK"},
+          {"chemical": "La(NO₃)₃·6H₂O", "supplier": "Alfa Aesar, UK"},
+          {"chemical": "C₆H₈O₇ (Citric Acid)", "supplier": "Merck, India"},
+          {"chemical": "NH₄OH (Aqueous Ammonia)", "supplier": "Fischer Scientific, India"}
+        ],
+        "molar_ratio_reactant": ["Ce(NO₃)₃ : Citric Acid = 1:3", "La(NO₃)₃ : Ce(NO₃)₃ = 1:9"],
+        "synthesis_ph": 7,
+        "stirring_time": {"value": "1", "unit": "h"},
+        "dehydration_temperature": {"value": ">150", "unit": "°C"},
+        "calcination": [
+          {"temperature": {"value": "350", "unit": "°C"}, "time": {"value": "12", "unit": "h"}},
+          {"temperature": {"value": "900", "unit": "°C"}, "time": {"value": "12", "unit": "h"}}
+        ],
+        "post_synthesis_treatment": {
+           "milling": {
+              "duration": {"value": "3", "unit": "h"},
+              "equipment": "Pulverisette 6, Fritsch GmbH, Germany",
+              "media": "Tungsten carbide balls",
+              "ball_to_powder_ratio": "10:1",
+              "medium": "Toluene"
+           },
+           "drying": {"temperature": {"value": "85", "unit": "°C"}, "time": {"value": "4", "unit": "h"}}
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "characterization": {
+         "particle_morphology": "Highly agglomerated polycrystalline particles (primary particle size smaller than ceria-SG)",
+         "crystallinity_phase_composition": {"value": "Cubic fluorite (peaks shifted to lower angles vs ceria-SG)", "measurement_method_used": "XRD"},
+         "mean_agglomerate_size": {"value": "8.1", "unit": "µm", "measurement_method_used": "Laser Diffraction"},
+         "elemental_composition_eds": {
+            "O": {"value": "69", "unit": "at%"},
+            "Ce": {"value": "28", "unit": "at%"},
+            "La": {"value": "3", "unit": "at%"}
+         },
+         "surface_ce3_fraction_xps": {"value": "0.4", "unit": ""},
+         "xps_la3d_peaks": [{"value": "~836", "unit": "eV"}, {"value": "~854", "unit": "eV"}],
+         "xrd_analysis": {"instrument": "X'pert Pro PANalytical", "radiation": "CuKα", "wavelength": {"value": "1.54", "unit": "Å"}, "scan_range_2theta": "20-80°"},
+         "tem_analysis": {"instrument": "Philips CM20", "voltage_range": "20-200 kV"},
+         "laser_diffraction_analysis": {"instrument": "Horiba LA-950 V2"},
+         "xps_analysis": {"instrument": "Sigma probe (Thermo, UK)", "source": "AlKα", "energy": {"value": "1486.6", "unit": "eV"}, "base_pressure": {"value": "<10⁻⁹", "unit": "mbar"}},
+         "eds_analysis": {"instrument": "Horiba EMAX"},
+         "tga_analysis": {"instrument": "TA Instruments SDT Q600"}
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers Labopol-5/Laboforce-3",
+        "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+        "wafer_supplier": "Semi-wafer Inc., Taiwan",
+        "carrier_speed": {"value": "250", "unit": "rpm"},
+        "turntable_speed": {"value": "100", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+        "polishing_time": {"value": "1", "unit": "min"},
+        "pad_conditioning": "Silicon carbide grit paper",
+        "thickness_measurement_instrument": "F20UV thin film analyzer",
+        "material_removal_rate": {
+          "oxide": {"value": "84", "unit": "nm/min"},
+          "nitride": {"value": "18", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": 4.67
+      }
+    },
+    {
+      "sample_id": "ceria-SG_glutamic_acid_20mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 20 mM Glutamic acid additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Glutamic acid", "concentration": {"value": "20", "unit": "mM"}, "type": "Amino acid (Polar, negatively charged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "110", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+      "adsorption_analysis_tga": {
+         "notes": "Derivative thermogram did not show strong peaks, possibly due to low concentration (20 mM)."
+      }
+    },
+     {
+      "sample_id": "ceria-SGL_glutamic_acid_20mM",
+      "experiment_context": "La-doped ceria abrasive (ceria-SGL) with 20 mM Glutamic acid additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Glutamic acid", "concentration": {"value": "20", "unit": "mM"}, "type": "Amino acid (Polar, negatively charged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "110", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+       "adsorption_analysis_tga": {
+         "notes": "Derivative thermogram did not show strong peaks, possibly due to low concentration (20 mM)."
+      }
+    },
+    {
+      "sample_id": "ceria-SG_aspartic_acid_20mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 20 mM Aspartic acid additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Aspartic acid", "concentration": {"value": "20", "unit": "mM"}, "type": "Amino acid (Polar, negatively charged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "110", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+         "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+       "adsorption_analysis_tga": {
+         "notes": "Surface coverage not estimated due to low concentration (20 mM)."
+      }
+    },
+     {
+      "sample_id": "ceria-SGL_aspartic_acid_20mM",
+      "experiment_context": "La-doped ceria abrasive (ceria-SGL) with 20 mM Aspartic acid additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Aspartic acid", "concentration": {"value": "20", "unit": "mM"}, "type": "Amino acid (Polar, negatively charged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "110", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+         "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+       "adsorption_analysis_tga": {
+         "notes": "Surface coverage not estimated due to low concentration (20 mM)."
+      }
+    },
+    {
+      "sample_id": "ceria-SG_serine_200mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 200 mM Serine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Serine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Polar, uncharged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "120", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+      "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.2,
+         "monolayers_on_si3n4": 2.8,
+         "monolayers_on_ceria_sg": 0.3,
+         "ratio_adsorption_ceria_sg_sgl": 0.6,
+         "ratio_adsorption_si3n4_sio2": 2.4
+      }
+    },
+    {
+      "sample_id": "ceria-SGL_serine_200mM",
+      "experiment_context": "La-doped ceria abrasive (ceria-SGL) with 200 mM Serine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Serine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Polar, uncharged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "120", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+       "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.2,
+         "monolayers_on_si3n4": 2.8,
+         "monolayers_on_ceria_sgl": 0.5,
+         "ratio_adsorption_ceria_sg_sgl": 0.6,
+         "ratio_adsorption_si3n4_sio2": 2.4
+      }
+    },
+     {
+      "sample_id": "ceria-SG_asparagine_200mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 200 mM Asparagine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Asparagine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Polar, uncharged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "120", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+      "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.2,
+         "monolayers_on_si3n4": 4.2,
+         "monolayers_on_ceria_sg": 1.3,
+         "ratio_adsorption_ceria_sg_sgl": 0.4,
+         "ratio_adsorption_si3n4_sio2": 3.4
+      }
+    },
+    {
+      "sample_id": "ceria-SGL_asparagine_200mM",
+      "experiment_context": "La-doped ceria abrasive (ceria-SGL) with 200 mM Asparagine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Asparagine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Polar, uncharged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "120", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+       "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.2,
+         "monolayers_on_si3n4": 4.2,
+         "monolayers_on_ceria_sgl": 3.5,
+         "ratio_adsorption_ceria_sg_sgl": 0.4,
+         "ratio_adsorption_si3n4_sio2": 3.4
+      }
+    },
+     {
+      "sample_id": "ceria-SG_alanine_200mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 200 mM Alanine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Alanine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aliphatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "170", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+      "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.1,
+         "monolayers_on_si3n4": 3.5,
+         "monolayers_on_ceria_sg": 0.8,
+         "ratio_adsorption_ceria_sg_sgl": 0.8,
+         "ratio_adsorption_si3n4_sio2": 3.2
+      }
+    },
+    {
+      "sample_id": "ceria-SGL_alanine_200mM",
+      "experiment_context": "La-doped ceria abrasive (ceria-SGL) with 200 mM Alanine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Alanine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aliphatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "170", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+       "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.1,
+         "monolayers_on_si3n4": 3.5,
+         "monolayers_on_ceria_sgl": 0.9,
+         "ratio_adsorption_ceria_sg_sgl": 0.8,
+         "ratio_adsorption_si3n4_sio2": 3.2
+      }
+    },
+     {
+      "sample_id": "ceria-SG_phenylalanine_200mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 200 mM Phenylalanine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Phenylalanine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aromatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "170", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+      "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 4.2,
+         "monolayers_on_si3n4": 24.1,
+         "monolayers_on_ceria_sg": 120.8,
+         "ratio_adsorption_ceria_sg_sgl": 0.9,
+         "ratio_adsorption_si3n4_sio2": 5.7,
+         "tga_peaks_celsius": [250, 350]
+      }
+    },
+    {
+      "sample_id": "ceria-SGL_phenylalanine_200mM",
+      "experiment_context": "La-doped ceria abrasive (ceria-SGL) with 200 mM Phenylalanine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Phenylalanine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aromatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "170", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+       "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 4.2,
+         "monolayers_on_si3n4": 24.1,
+         "monolayers_on_ceria_sgl": 127.8,
+         "ratio_adsorption_ceria_sg_sgl": 0.9,
+         "ratio_adsorption_si3n4_sio2": 5.7,
+         "tga_peaks_celsius": [250, 350]
+      }
+    },
+     {
+      "sample_id": "ceria-SG_valine_200mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 200 mM Valine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Valine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aliphatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "170", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+      "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.5,
+         "monolayers_on_si3n4": 3.7,
+         "monolayers_on_ceria_sg": 0.3,
+         "ratio_adsorption_ceria_sg_sgl": 0.5,
+         "ratio_adsorption_si3n4_sio2": 2.5
+      }
+    },
+    {
+      "sample_id": "ceria-SGL_valine_200mM",
+      "experiment_context": "La-doped ceria abrasive (ceria-SGL) with 200 mM Valine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Valine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aliphatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "170", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+       "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.5,
+         "monolayers_on_si3n4": 3.7,
+         "monolayers_on_ceria_sgl": 0.6,
+         "ratio_adsorption_ceria_sg_sgl": 0.5,
+         "ratio_adsorption_si3n4_sio2": 2.5
+      }
+    },
+     {
+      "sample_id": "ceria-SG_proline_200mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 200 mM L-Proline additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "L-Proline", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aliphatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "113", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+      "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.6,
+         "monolayers_on_si3n4": 3.9,
+         "monolayers_on_ceria_sg": 1.8,
+         "ratio_adsorption_ceria_sg_sgl": 1.8,
+         "ratio_adsorption_si3n4_sio2": 2.5,
+         "tga_peaks_celsius": ["~200 (sharp)", "300-400 (broad)"]
+      }
+    },
+    {
+      "sample_id": "ceria-SGL_proline_200mM",
+      "experiment_context": "La-doped ceria abrasive (ceria-SGL) with 200 mM L-Proline additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "L-Proline", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aliphatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "124", "unit": "nm/min"},
+          "nitride": {"value": "37", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": 3.35
+      },
+       "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 1.6,
+         "monolayers_on_si3n4": 3.9,
+         "monolayers_on_ceria_sgl": 1.0,
+         "ratio_adsorption_ceria_sg_sgl": 1.8,
+         "ratio_adsorption_si3n4_sio2": 2.5,
+         "tga_peaks_celsius": ["300-400 (broad)"],
+         "notes": "Peak near 200°C absent compared to ceria-SG."
+      }
+    },
+     {
+      "sample_id": "ceria-SG_glycine_200mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 200 mM Glycine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Glycine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aliphatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "128", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed)"
+      },
+      "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 0.8,
+         "monolayers_on_si3n4": 2.3,
+         "monolayers_on_ceria_sg": 0.5,
+         "ratio_adsorption_ceria_sg_sgl": 1.2,
+         "ratio_adsorption_si3n4_sio2": 3.0,
+         "tga_peaks_celsius": ["~210", "~260"]
+      }
+    },
+    {
+      "sample_id": "ceria-SGL_glycine_200mM",
+      "experiment_context": "La-doped ceria abrasive (ceria-SGL) with 200 mM Glycine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SGL",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Glycine", "concentration": {"value": "200", "unit": "mM"}, "type": "Amino acid (Non-polar, aliphatic R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "112", "unit": "nm/min"},
+          "nitride": {"value": "24", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": 4.67
+      },
+       "adsorption_analysis_tga": {
+         "monolayers_on_sio2": 0.8,
+         "monolayers_on_si3n4": 2.3,
+         "monolayers_on_ceria_sgl": 0.4,
+         "ratio_adsorption_ceria_sg_sgl": 1.2,
+         "ratio_adsorption_si3n4_sio2": 3.0,
+         "tga_peaks_celsius": ["~260"],
+         "notes": "Peak near 210°C absent compared to ceria-SG."
+      }
+    },
+    {
+      "sample_id": "ceria-SG_lysine_20mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 20 mM Lysine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Lysine", "concentration": {"value": "20", "unit": "mM"}, "type": "Amino acid (Polar, positively charged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "30", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed, but low oxide rate)"
+      }
+    },
+    {
+      "sample_id": "ceria-SG_lysine_10mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 10 mM Lysine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Lysine", "concentration": {"value": "10", "unit": "mM"}, "type": "Amino acid (Polar, positively charged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "34", "unit": "nm/min"},
+          "nitride": {"value": "0", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": "High (Nitride removal suppressed, but low oxide rate)"
+      }
+    },
+    {
+      "sample_id": "ceria-SG_lysine_5mM",
+      "experiment_context": "Pure ceria abrasive (ceria-SG) with 5 mM Lysine additive.",
+      "slurry_preparation": {
+        "abrasive_type": "ceria-SG",
+        "abrasive_concentration": {"value": "0.25", "unit": "wt%"},
+        "additives": [
+          {"name": "Lysine", "concentration": {"value": "5", "unit": "mM"}, "type": "Amino acid (Polar, positively charged R group)"}
+        ],
+        "target_final_slurry_ph": 5,
+        "ph_adjustment_chemicals": ["KOH", "H₂SO₄"],
+        "solvent": {"name": "DI water"}
+      },
+      "cmp_performance": {
+         "equipment_model": "Struers Labopol-5/Laboforce-3",
+         "wafers_polished": ["Silicon dioxide", "Silicon nitride"],
+         "carrier_speed": {"value": "250", "unit": "rpm"},
+         "turntable_speed": {"value": "100", "unit": "rpm"},
+         "slurry_flow_rate": {"value": "60", "unit": "ml/min"},
+         "polishing_time": {"value": "1", "unit": "min"},
+         "material_removal_rate": {
+          "oxide": {"value": "60", "unit": "nm/min"},
+          "nitride": {"value": "9", "unit": "nm/min"}
+        },
+        "selectivity_oxide_nitride": 6.67
+      }
+    }
+  ]
+}

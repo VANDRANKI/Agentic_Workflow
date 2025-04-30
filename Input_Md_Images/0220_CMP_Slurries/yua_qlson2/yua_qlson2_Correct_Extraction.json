@@ -1,0 +1,884 @@
+{
+  "doi": null,
+  "title": "Synthesis, characterization of CeO₂ @ ZIF-8 composite abrasives and their chemical mechanical polishing behavior on glass substrate",
+  "year_published": null,
+  "journal": null,
+  "instrument_device_model": {
+    "FT-IR": "Nicolet AVATAR 370",
+    "SEM": "JSM-7500F",
+    "TEM": "JSM-2010F (15 kV)",
+    "Particle_size_analyzer": "Zetasizer3000HS (Malvern)",
+    "XRD": "D/max-2500 diffractometer (Rigaku, Japan) (Cu Kα, 18 kW, λ=1.5418 Å, 40 kV, 40 mA)",
+    "N2_physisorption_analyzer": "Autosorb-IQ2 (Quantachrome Corporation, USA)",
+    "Surface_profilometer": "S neox 090 3D (Sensofar, Spain) (Accuracy 0.5%, Vert res 0.1 nm, Lat res 0.14 nm, Z range 0.1 nm - 34 mm, Area 500 µm x 500 µm)",
+    "Contact_angle_analyzer": "Theta Flex (Biolin, Sweden)",
+    "XPS": "ESCALAB 250Xi (Monochromatized Al Kα, Calibrated C 1s 284.6 eV)"
+  },
+  "samples": [
+    {
+      "sample_id": "Pristine_CeO2",
+      "experiment_context": "Pristine commercial cerium oxide powder used as baseline.",
+      "precursor_chemical": "CeO₂ (Commercial powder, Zibo Baosteel Lingzhi Rare Earth Hi-tech Co., Ltd.)",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": "10",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": "500",
+            "unit": "g"
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "1",
+          "unit": "µm",
+          "details": "Average particle size from text (Sec 2.1). Fig 4e shows broad distribution.",
+          "measurement_method_used": "Malvern Zetasizer3000HS"
+        },
+        "crystallinity_phase_composition": {
+          "value": "cubic fluorite-phase",
+          "details": "PDF#81-0792 (Fig 3)"
+        },
+        "surface_functional_groups": {
+          "Ce-O": {
+            "ftir_peak_present": true,
+            "wavenumber_cm-1": 470
+          },
+          "OH_hydrated": {
+            "ftir_peak_present": true,
+            "wavenumber_cm-1": 3400
+          }
+        },
+        "elemental_composition": {
+          "Ce": {
+            "xps_present": true,
+            "eds_present": true
+          },
+          "O": {
+            "xps_present": true,
+            "eds_present": true
+          },
+          "C": {
+            "xps_present": true
+          }
+        },
+        "particle_morphology": "Angulated shape, severe aggregation (Fig 4c description)",
+        "specific_surface_area_bet": {
+          "value": "27.172",
+          "unit": "m²/g"
+        },
+        "total_pore_volume_dft": {
+          "value": "0.034",
+          "unit": "cc/g"
+        },
+        "pore_diameter": {
+          "value": "2.382",
+          "unit": "nm"
+        },
+        "surface_ce3_percent_xps": {
+          "value": "26.4",
+          "unit": "%"
+        },
+        "xrd_peaks": {
+          "peaks_2theta_degrees": ["28.5", "33.1", "47.5", "56.3", "59.1", "69.4"],
+          "radiation": "Cu Kα"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "17.34",
+          "unit": "µm/h"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": "",
+          "details": "Assumed Room Temperature, not specified"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "kg",
+          "details": "Specified as Down force in Table 1"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1000S (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "Soda lime glass",
+          "dimensions": "50 mm diameter",
+          "density_g_cm3": 2.5,
+          "initial_state": "pristine"
+        },
+        "slurry_supplying_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "wafer_rotation_speed": {
+          "value": "30",
+          "unit": "rpm"
+        },
+        "pad_rotation_speed": {
+          "value": "60",
+          "unit": "rpm"
+        },
+        "post_cmp_surface_roughness_sa": {
+          "value": "1.55",
+          "unit": "nm"
+        },
+        "pre_cmp_surface_roughness_sa": {
+          "value": "1.96",
+          "unit": "nm"
+        },
+        "contact_angle": {
+          "value": "65.8",
+          "unit": "°"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2-COOH",
+      "experiment_context": "Commercial CeO₂ modified with KH550 and glutaric anhydride.",
+      "synthesis_modification": {
+        "starting_material": "Commercial CeO₂ (40 g)",
+        "modification_reagents": [
+          {"name": "KH550 (3-aminopropyl triethoxysilane)", "quantity": {"value": "5", "unit": "g"}},
+          {"name": "Glutaric anhydride", "quantity": {"value": "3", "unit": "g"}}
+        ],
+        "solvent": [
+            {"name": "DMF (N, N-dimethylformamide)", "quantity": {"value": "180", "unit": "mL"}},
+            {"name": "H₂O", "quantity": {"value": "30", "unit": "mL"}}
+        ],
+        "reaction_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "reaction_time": [
+            {"step": "KH550 + Glutaric anhydride in DMF", "duration": {"value": "3", "unit": "h"}},
+            {"step": "Addition of CeO2 suspension", "duration": {"value": "5", "unit": "h"}}
+        ],
+        "stirring_conditions": "Stirred until clarified, then continuous stirring"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (5000 rpm, 5 min)",
+          "solvent": ["DI water (twice)", "anhydrous ethanol (once)"]
+        },
+        "drying": {
+          "temperature": {
+            "value": "60",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": "10",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": "500",
+            "unit": "g"
+          }
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+         "crystallinity_phase_composition": null,
+         "surface_functional_groups": {
+          "C=O": {
+            "ftir_peak_present": true,
+            "wavenumber_cm-1": 1651
+          },
+          "C-N": {
+            "ftir_peak_present": true,
+            "wavenumber_cm-1": 1454
+          },
+          "OH/NH2_modified": {
+            "ftir_peak_present": true,
+            "wavenumber_cm-1": 3424
+          },
+          "Ce-O": {
+            "ftir_peak_present": true,
+            "wavenumber_cm-1": 470
+          }
+        },
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "specific_surface_area_bet": null,
+        "total_pore_volume_dft": null,
+        "pore_diameter": null,
+        "surface_ce3_percent_xps": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "~18.2",
+          "unit": "µm/h",
+          "source": "Estimated from Fig 7 (lower than CeO2@ZIF-8 0.50wt%)"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": "",
+          "details": "Assumed Room Temperature, not specified"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "kg",
+          "details": "Specified as Down force in Table 1"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1000S (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "Soda lime glass",
+          "dimensions": "50 mm diameter",
+          "density_g_cm3": 2.5,
+          "initial_state": "pristine"
+        },
+        "slurry_supplying_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "wafer_rotation_speed": {
+          "value": "30",
+          "unit": "rpm"
+        },
+        "pad_rotation_speed": {
+          "value": "60",
+          "unit": "rpm"
+        },
+        "post_cmp_surface_roughness_sa": null,
+        "pre_cmp_surface_roughness_sa": {
+          "value": "1.96",
+          "unit": "nm"
+        },
+        "contact_angle": null
+      }
+    },
+    {
+      "sample_id": "CeO2@ZIF-8_0.50wt%",
+      "experiment_context": "CeO₂-COOH coated with ZIF-8 (0.50 wt% theoretical loading).",
+      "synthesis_modification": {
+        "starting_material": "CeO₂-COOH (10 g)",
+        "reagents": [
+          {"name": "Zinc nitrate hexahydrate (Zn(NO₃)₂·6H₂O)", "quantity": {"value": "125", "unit": "g solution"}, "concentration": {"value": "0.019", "unit": "M"}},
+          {"name": "2-methylimidazole", "quantity": {"value": "375", "unit": "g solution"}, "concentration": {"value": "0.389", "unit": "M"}}
+        ],
+        "solvent": "Aqueous solution / DI water",
+        "reaction_temperature": {
+          "value": "70",
+          "unit": "°C",
+          "details": "Water bath, then cooled to RT"
+        },
+        "reaction_time": [
+            {"step": "Ultrasonication + Stirring CeO2-COOH in Zn solution", "duration": {"value": "10 + 30", "unit": "min"}},
+            {"step": "Stirring after 2-methylimidazole addition", "duration": {"value": "20", "unit": "min"}}
+        ],
+        "stirring_conditions": "Ultrasonicated, stirred in water bath, stirred after addition"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (5000 rpm, 5 min)",
+          "solvent": ["DI water (twice)", "C₂H₅OH (once)"]
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": "10",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": "500",
+            "unit": "g"
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "<1",
+          "unit": "µm",
+          "details": "Slightly smaller avg size than pristine CeO₂, narrower distribution (Fig 4e)",
+          "measurement_method_used": "Malvern Zetasizer3000HS"
+        },
+        "crystallinity_phase_composition": {
+          "CeO2_phase": "cubic fluorite-phase",
+          "ZIF-8_phase": "zeolitic imidazolate framework",
+          "details": "Weak ZIF-8 peaks due to low loading (Fig 3)"
+        },
+        "surface_functional_groups": {
+          "ZIF-8_imidazole": {
+            "ftir_peak_present": true,
+            "wavenumber_range_cm-1": "700-1500"
+          },
+          "Ce-O": {
+            "ftir_peak_present": true,
+            "wavenumber_cm-1": 470
+          }
+        },
+        "elemental_composition": {
+          "Ce": {
+            "xps_present": true,
+            "eds_present": true
+          },
+          "O": {
+            "xps_present": true,
+            "eds_present": true
+          },
+          "C": {
+            "xps_present": true
+          },
+          "Zn": {
+            "xps_present": true,
+            "eds_present": true
+          },
+          "N": {
+            "xps_present": true
+          },
+          "Si": {
+            "eds_present": true,
+            "details": "Likely from KH550 linker"
+          }
+        },
+        "particle_morphology": "Uneven and soft ZIF-8 material on the surface, edge not as sharp as pure CeO₂, ZIF-8 anchored over CeO₂ hosts (Fig 4d, Fig 5c)",
+        "specific_surface_area_bet": {
+          "value": "36.569",
+          "unit": "m²/g"
+        },
+        "total_pore_volume_dft": {
+          "value": "0.041",
+          "unit": "cc/g"
+        },
+        "pore_diameter": {
+          "value": "1.682",
+          "unit": "nm",
+          "details": "Microporous peak (d<2nm) due to ZIF-8 (Fig 6b)"
+        },
+        "surface_ce3_percent_xps": {
+          "value": "28.6",
+          "unit": "%"
+        },
+        "xrd_peaks": {
+          "peaks_2theta_degrees": ["28.5", "33.1", "47.5", "56.3", "59.1", "69.4"],
+          "radiation": "Cu Kα",
+          "details": "Weak ZIF-8 peaks also present (Fig 3)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "19.24",
+          "unit": "µm/h"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": "",
+          "details": "Assumed Room Temperature, not specified"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "kg",
+          "details": "Specified as Down force in Table 1"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1000S (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "Soda lime glass",
+          "dimensions": "50 mm diameter",
+          "density_g_cm3": 2.5,
+          "initial_state": "pristine"
+        },
+        "slurry_supplying_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "wafer_rotation_speed": {
+          "value": "30",
+          "unit": "rpm"
+        },
+        "pad_rotation_speed": {
+          "value": "60",
+          "unit": "rpm"
+        },
+        "post_cmp_surface_roughness_sa": {
+          "value": "1.50",
+          "unit": "nm"
+        },
+        "pre_cmp_surface_roughness_sa": {
+          "value": "1.96",
+          "unit": "nm"
+        },
+        "contact_angle": {
+          "value": "~63",
+          "unit": "°",
+          "source": "Estimated from Fig 11"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2@ZIF-8_1.95wt%",
+      "experiment_context": "CeO₂-COOH coated with ZIF-8 (1.95 wt% theoretical loading).",
+      "synthesis_modification": {
+        "starting_material": "CeO₂-COOH (10 g)",
+        "reagents": [
+          {"name": "Zinc nitrate hexahydrate (Zn(NO₃)₂·6H₂O)", "quantity": {"value": "125", "unit": "g solution"}, "concentration": {"value": "0.075", "unit": "M"}},
+          {"name": "2-methylimidazole", "quantity": {"value": "375", "unit": "g solution"}, "concentration": {"value": "0.389", "unit": "M"}}
+        ],
+        "solvent": "Aqueous solution / DI water",
+        "reaction_temperature": {
+          "value": "70",
+          "unit": "°C",
+          "details": "Water bath, then cooled to RT"
+        },
+        "reaction_time": [
+            {"step": "Ultrasonication + Stirring CeO2-COOH in Zn solution", "duration": {"value": "10 + 30", "unit": "min"}},
+            {"step": "Stirring after 2-methylimidazole addition", "duration": {"value": "20", "unit": "min"}}
+        ],
+        "stirring_conditions": "Ultrasonicated, stirred in water bath, stirred after addition"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (5000 rpm, 5 min)",
+          "solvent": ["DI water (twice)", "C₂H₅OH (once)"]
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": "10",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": "500",
+            "unit": "g"
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "<1",
+          "unit": "µm",
+          "details": "Narrow distribution (Fig 4e)",
+          "measurement_method_used": "Malvern Zetasizer3000HS"
+        },
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce": {"xps_present": true},
+          "O": {"xps_present": true},
+          "C": {"xps_present": true},
+          "Zn": {"xps_present": true},
+          "N": {"xps_present": true}
+        },
+        "particle_morphology": null,
+        "specific_surface_area_bet": null,
+        "total_pore_volume_dft": null,
+        "pore_diameter": null,
+        "surface_ce3_percent_xps": {
+          "value": "37.5",
+          "unit": "%"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "22.15",
+          "unit": "µm/h",
+          "details": "Value from Fig 8. Abstract mentions 22.2 µm/h."
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": "",
+          "details": "Assumed Room Temperature, not specified"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "kg",
+          "details": "Specified as Down force in Table 1"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1000S (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "Soda lime glass",
+          "dimensions": "50 mm diameter",
+          "density_g_cm3": 2.5,
+          "initial_state": "pristine"
+        },
+        "slurry_supplying_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "wafer_rotation_speed": {
+          "value": "30",
+          "unit": "rpm"
+        },
+        "pad_rotation_speed": {
+          "value": "60",
+          "unit": "rpm"
+        },
+        "post_cmp_surface_roughness_sa": {
+          "value": "1.23",
+          "unit": "nm"
+        },
+        "pre_cmp_surface_roughness_sa": {
+          "value": "1.96",
+          "unit": "nm"
+        },
+        "contact_angle": {
+          "value": "~60",
+          "unit": "°",
+          "source": "Estimated from Fig 11"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2@ZIF-8_3.76wt%",
+      "experiment_context": "CeO₂-COOH coated with ZIF-8 (3.76 wt% theoretical loading).",
+      "synthesis_modification": {
+        "starting_material": "CeO₂-COOH (10 g)",
+        "reagents": [
+          {"name": "Zinc nitrate hexahydrate (Zn(NO₃)₂·6H₂O)", "quantity": {"value": "125", "unit": "g solution"}, "concentration": {"value": "0.145", "unit": "M"}},
+          {"name": "2-methylimidazole", "quantity": {"value": "375", "unit": "g solution"}, "concentration": {"value": "0.389", "unit": "M"}}
+        ],
+        "solvent": "Aqueous solution / DI water",
+        "reaction_temperature": {
+          "value": "70",
+          "unit": "°C",
+          "details": "Water bath, then cooled to RT"
+        },
+        "reaction_time": [
+            {"step": "Ultrasonication + Stirring CeO2-COOH in Zn solution", "duration": {"value": "10 + 30", "unit": "min"}},
+            {"step": "Stirring after 2-methylimidazole addition", "duration": {"value": "20", "unit": "min"}}
+        ],
+        "stirring_conditions": "Ultrasonicated, stirred in water bath, stirred after addition"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (5000 rpm, 5 min)",
+          "solvent": ["DI water (twice)", "C₂H₅OH (once)"]
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": "10",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": "500",
+            "unit": "g"
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "<1",
+          "unit": "µm",
+          "details": "Narrow distribution (Fig 4e)",
+          "measurement_method_used": "Malvern Zetasizer3000HS"
+        },
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce": {"xps_present": true},
+          "O": {"xps_present": true},
+          "C": {"xps_present": true},
+          "Zn": {"xps_present": true},
+          "N": {"xps_present": true}
+        },
+        "particle_morphology": null,
+        "specific_surface_area_bet": null,
+        "total_pore_volume_dft": null,
+        "pore_diameter": null,
+        "surface_ce3_percent_xps": {
+          "value": "42.0",
+          "unit": "%"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "~21",
+          "unit": "µm/h",
+          "source": "Estimated from Fig 8"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": "",
+          "details": "Assumed Room Temperature, not specified"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "kg",
+          "details": "Specified as Down force in Table 1"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1000S (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "Soda lime glass",
+          "dimensions": "50 mm diameter",
+          "density_g_cm3": 2.5,
+          "initial_state": "pristine"
+        },
+        "slurry_supplying_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "wafer_rotation_speed": {
+          "value": "30",
+          "unit": "rpm"
+        },
+        "pad_rotation_speed": {
+          "value": "60",
+          "unit": "rpm"
+        },
+        "post_cmp_surface_roughness_sa": {
+          "value": "1.44",
+          "unit": "nm"
+        },
+        "pre_cmp_surface_roughness_sa": {
+          "value": "1.96",
+          "unit": "nm"
+        },
+        "contact_angle": {
+          "value": "~58",
+          "unit": "°",
+          "source": "Estimated from Fig 11"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2@ZIF-8_7.52wt%",
+      "experiment_context": "CeO₂-COOH coated with ZIF-8 (7.52 wt% theoretical loading).",
+      "synthesis_modification": {
+        "starting_material": "CeO₂-COOH (10 g)",
+        "reagents": [
+          {"name": "Zinc nitrate hexahydrate (Zn(NO₃)₂·6H₂O)", "quantity": {"value": "125", "unit": "g solution"}, "concentration": {"value": "0.290", "unit": "M"}},
+          {"name": "2-methylimidazole", "quantity": {"value": "375", "unit": "g solution"}, "concentration": {"value": "0.389", "unit": "M"}}
+        ],
+        "solvent": "Aqueous solution / DI water",
+        "reaction_temperature": {
+          "value": "70",
+          "unit": "°C",
+          "details": "Water bath, then cooled to RT"
+        },
+        "reaction_time": [
+            {"step": "Ultrasonication + Stirring CeO2-COOH in Zn solution", "duration": {"value": "10 + 30", "unit": "min"}},
+            {"step": "Stirring after 2-methylimidazole addition", "duration": {"value": "20", "unit": "min"}}
+        ],
+        "stirring_conditions": "Ultrasonicated, stirred in water bath, stirred after addition"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (5000 rpm, 5 min)",
+          "solvent": ["DI water (twice)", "C₂H₅OH (once)"]
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": "10",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": "500",
+            "unit": "g"
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "<1",
+          "unit": "µm",
+          "details": "Narrow distribution (Fig 4e)",
+          "measurement_method_used": "Malvern Zetasizer3000HS"
+        },
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce": {"xps_present": true},
+          "O": {"xps_present": true},
+          "C": {"xps_present": true},
+          "Zn": {"xps_present": true},
+          "N": {"xps_present": true}
+        },
+        "particle_morphology": null,
+        "specific_surface_area_bet": null,
+        "total_pore_volume_dft": null,
+        "pore_diameter": null,
+        "surface_ce3_percent_xps": {
+          "value": "46.3",
+          "unit": "%"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "~19.5",
+          "unit": "µm/h",
+          "source": "Estimated from Fig 8"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": "",
+          "details": "Assumed Room Temperature, not specified"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "kg",
+          "details": "Specified as Down force in Table 1"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1000S (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "Soda lime glass",
+          "dimensions": "50 mm diameter",
+          "density_g_cm3": 2.5,
+          "initial_state": "pristine"
+        },
+        "slurry_supplying_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "wafer_rotation_speed": {
+          "value": "30",
+          "unit": "rpm"
+        },
+        "pad_rotation_speed": {
+          "value": "60",
+          "unit": "rpm"
+        },
+        "post_cmp_surface_roughness_sa": {
+          "value": "1.63",
+          "unit": "nm"
+        },
+        "pre_cmp_surface_roughness_sa": {
+          "value": "1.96",
+          "unit": "nm"
+        },
+        "contact_angle": {
+          "value": "~56",
+          "unit": "°",
+          "source": "Estimated from Fig 11"
+        }
+      }
+    }
+  ]
+}

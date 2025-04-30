@@ -1,0 +1,625 @@
+{
+  "doi": null,
+  "title": "Development of Zr - and Gd -doped porous ceria (pCeO₂) abrasives for achieving high-quality and high-efficiency oxide chemical mechanical polishing",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "pCeO2",
+      "experiment_context": "Pure porous ceria (pCeO₂) synthesized via a solvothermal approach followed by calcination.",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "precursor_amount": {
+        "value": "1.5",
+        "unit": "g"
+      },
+      "precursor_concentration": null,
+      "solvent_synthesis": [
+        {
+          "name": "Ethylene Glycol (EG)",
+          "volume": {
+            "value": "45",
+            "unit": "mL"
+          }
+        },
+        {
+          "name": "Deionized Water",
+          "volume": {
+            "value": "1.5",
+            "unit": "mL"
+          }
+        }
+      ],
+      "precipitant_type": "CH₃COOH",
+      "precipitant_amount": {
+        "value": "1.5",
+        "unit": "mL"
+      },
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "180",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "3",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "ultrasonication_duration": {
+            "value": "5",
+            "unit": "min"
+        },
+        "environmental_conditions": "Sealed solvothermal reaction"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (10000 r/min), washed with deionized water and ethanol"
+        },
+        "drying": {
+            "temperature": {
+                "value": "80",
+                "unit": "°C"
+            },
+            "duration": "overnight",
+            "atmosphere": "air"
+        },
+        "calcination": {
+            "temperature": {
+                "value": "500",
+                "unit": "°C"
+            },
+            "duration": {
+                "value": "1",
+                "unit": "h"
+            },
+            "atmosphere": "air"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8.5",
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "pretreatment": "Sonication for 10 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "70-90",
+          "unit": "nm",
+          "measurement_method_used": "FESEM"
+        },
+        "crystallite_size": {
+          "value": "7.2",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) plane)"
+        },
+        "crystallinity_phase_composition": {
+          "value": "cubic fluorite",
+          "unit": null,
+          "measurement_method_used": "XRD (JCPDS 34-0394)"
+        },
+        "lattice_parameter_a": {
+            "value": "5.422",
+            "unit": "Å",
+            "measurement_method_used": "XRD"
+        },
+        "raman_peaks_cm-1": ["~462", "~600"],
+        "raman_defect_ratio_i600_i460": "0.048",
+        "uv_vis_absorption_edge_nm": "426",
+        "uv_vis_band_gap_ev": {
+            "value": "3.12",
+            "unit": "eV",
+            "measurement_method_used": "UV-vis DRS (Kubelka-Munk)"
+        },
+        "specific_surface_area_bet": {
+            "value": "195",
+            "unit": "m²/g",
+            "measurement_method_used": "N₂ adsorption-desorption"
+        },
+        "pore_size_distribution_avg": {
+            "value": "5.1",
+            "unit": "nm",
+            "measurement_method_used": "N₂ adsorption-desorption (BJH)"
+        },
+        "particle_morphology": "Uniform spherical nanospheres composed of ~5 nm CeO₂ nanoparticles with mesoporous structure",
+        "hr_tem_interplanar_distance_111": {
+            "value": "0.32",
+            "unit": "nm"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)"]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "61",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "Ambient",
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TegraPol-15 polisher (Struers, Denmark)",
+        "pad_composition": "Porous polyurethane pad (MD-Chem, Struers)",
+        "rotation_speed_pad": {
+            "value": "90",
+            "unit": "rpm"
+        },
+        "rotation_speed_head": {
+            "value": "120",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "50",
+            "unit": "mL/min"
+        },
+        "substrate_material": "SiO₂ thermal oxide film on 4-inch silicon wafer",
+        "pre_cmp_surface_roughness_ra": {
+            "value": "0.99",
+            "unit": "nm",
+            "measurement_area": "1.0 x 1.0 µm²",
+            "measurement_method_used": "AFM"
+        },
+        "pre_cmp_surface_roughness_rms": {
+            "value": "1.25",
+            "unit": "nm",
+            "measurement_area": "1.0 x 1.0 µm²",
+            "measurement_method_used": "AFM"
+        },
+        "post_cmp_surface_roughness_ra": {
+            "value": "0.11 ± 0.02",
+            "unit": "nm",
+            "measurement_area": "5.0 x 5.0 µm²",
+            "measurement_method_used": "AFM"
+        },
+        "post_cmp_surface_roughness_rms": {
+            "value": "0.14 ± 0.03",
+            "unit": "nm",
+            "measurement_area": "5.0 x 5.0 µm²",
+            "measurement_method_used": "AFM"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "pCeZrO2",
+      "experiment_context": "Zr-doped porous ceria (pCe₀.₈₅Zr₀.₁₅O₂) synthesized via a solvothermal approach followed by calcination.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "ZrO(NO₃)₂·xH₂O"],
+      "precursor_amount": [
+        {
+          "chemical": "Ce(NO₃)₃·6H₂O",
+          "value": "1.7",
+          "unit": "g"
+        },
+        {
+          "chemical": "ZrO(NO₃)₂·xH₂O",
+          "value": "0.16",
+          "unit": "g"
+        }
+      ],
+      "precursor_concentration": null,
+      "dopant_element": "Zr",
+      "dopant_molar_ratio_x": "0.15",
+      "solvent_synthesis": [
+        {
+          "name": "Ethylene Glycol (EG)",
+          "volume": {
+            "value": "45",
+            "unit": "mL"
+          }
+        },
+        {
+          "name": "Deionized Water",
+          "volume": {
+            "value": "1.5",
+            "unit": "mL"
+          }
+        }
+      ],
+      "precipitant_type": "CH₃COOH",
+      "precipitant_amount": {
+        "value": "1.5",
+        "unit": "mL"
+      },
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "180",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "3",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "ultrasonication_duration": {
+            "value": "5",
+            "unit": "min"
+        },
+        "environmental_conditions": "Sealed solvothermal reaction"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (10000 r/min), washed with deionized water and ethanol"
+        },
+        "drying": {
+            "temperature": {
+                "value": "80",
+                "unit": "°C"
+            },
+            "duration": "overnight",
+            "atmosphere": "air"
+        },
+        "calcination": {
+            "temperature": {
+                "value": "500",
+                "unit": "°C"
+            },
+            "duration": {
+                "value": "1",
+                "unit": "h"
+            },
+            "atmosphere": "air"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8.5",
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "pretreatment": "Sonication for 10 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "60-80",
+          "unit": "nm",
+          "measurement_method_used": "FESEM/TEM"
+        },
+        "crystallite_size": {
+          "value": "6.8",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) plane)"
+        },
+        "crystallinity_phase_composition": {
+          "value": "cubic fluorite",
+          "unit": null,
+          "measurement_method_used": "XRD (JCPDS 34-0394)"
+        },
+        "lattice_parameter_a": {
+            "value": "5.413",
+            "unit": "Å",
+            "measurement_method_used": "XRD"
+        },
+        "raman_peaks_cm-1": ["~464", "~600"],
+        "raman_defect_ratio_i600_i460": "0.099",
+        "uv_vis_absorption_edge_nm": "433",
+        "uv_vis_band_gap_ev": {
+            "value": "3.04",
+            "unit": "eV",
+            "measurement_method_used": "UV-vis DRS (Kubelka-Munk)"
+        },
+        "specific_surface_area_bet": {
+            "value": "176",
+            "unit": "m²/g",
+            "measurement_method_used": "N₂ adsorption-desorption"
+        },
+        "pore_size_distribution_avg": {
+            "value": "6.9",
+            "unit": "nm",
+            "measurement_method_used": "N₂ adsorption-desorption (BJH)"
+        },
+        "particle_morphology": "Uniform spherical nanospheres composed of ~5 nm CeO₂ nanoparticles with mesoporous structure",
+        "hr_tem_interplanar_distance_111": {
+            "value": "0.31",
+            "unit": "nm"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)"]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "88",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "Ambient",
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TegraPol-15 polisher (Struers, Denmark)",
+        "pad_composition": "Porous polyurethane pad (MD-Chem, Struers)",
+        "rotation_speed_pad": {
+            "value": "90",
+            "unit": "rpm"
+        },
+        "rotation_speed_head": {
+            "value": "120",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "50",
+            "unit": "mL/min"
+        },
+        "substrate_material": "SiO₂ thermal oxide film on 4-inch silicon wafer",
+        "pre_cmp_surface_roughness_ra": {
+            "value": "0.99",
+            "unit": "nm",
+            "measurement_area": "1.0 x 1.0 µm²",
+            "measurement_method_used": "AFM"
+        },
+        "pre_cmp_surface_roughness_rms": {
+            "value": "1.25",
+            "unit": "nm",
+            "measurement_area": "1.0 x 1.0 µm²",
+            "measurement_method_used": "AFM"
+        },
+        "post_cmp_surface_roughness_ra": {
+            "value": "0.11 ± 0.01",
+            "unit": "nm",
+            "measurement_area": "5.0 x 5.0 µm²",
+            "measurement_method_used": "AFM"
+        },
+        "post_cmp_surface_roughness_rms": {
+            "value": "0.13 ± 0.01",
+            "unit": "nm",
+            "measurement_area": "5.0 x 5.0 µm²",
+            "measurement_method_used": "AFM"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "pCeGdO2",
+      "experiment_context": "Gd-doped porous ceria (pCe₀.₈₅Gd₀.₁₅O₂) synthesized via a solvothermal approach followed by calcination.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Gd(NO₃)₃·6H₂O"],
+      "precursor_amount": [
+        {
+          "chemical": "Ce(NO₃)₃·6H₂O",
+          "value": "1.7",
+          "unit": "g"
+        },
+        {
+          "chemical": "Gd(NO₃)₃·6H₂O",
+          "value": "0.31",
+          "unit": "g"
+        }
+      ],
+      "precursor_concentration": null,
+      "dopant_element": "Gd",
+      "dopant_molar_ratio_x": "0.15",
+      "solvent_synthesis": [
+        {
+          "name": "Ethylene Glycol (EG)",
+          "volume": {
+            "value": "45",
+            "unit": "mL"
+          }
+        },
+        {
+          "name": "Deionized Water",
+          "volume": {
+            "value": "1.5",
+            "unit": "mL"
+          }
+        }
+      ],
+      "precipitant_type": "CH₃COOH",
+      "precipitant_amount": {
+        "value": "1.5",
+        "unit": "mL"
+      },
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "180",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "3",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "ultrasonication_duration": {
+            "value": "5",
+            "unit": "min"
+        },
+        "environmental_conditions": "Sealed solvothermal reaction"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (10000 r/min), washed with deionized water and ethanol"
+        },
+        "drying": {
+            "temperature": {
+                "value": "80",
+                "unit": "°C"
+            },
+            "duration": "overnight",
+            "atmosphere": "air"
+        },
+        "calcination": {
+            "temperature": {
+                "value": "500",
+                "unit": "°C"
+            },
+            "duration": {
+                "value": "1",
+                "unit": "h"
+            },
+            "atmosphere": "air"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8.5",
+        "solvent": {
+          "name": "Deionized water"
+        },
+        "pretreatment": "Sonication for 10 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "60-80",
+          "unit": "nm",
+          "measurement_method_used": "TEM" 
+        },
+        "crystallite_size": {
+          "value": "7.1",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) plane)"
+        },
+        "crystallinity_phase_composition": {
+          "value": "cubic fluorite",
+          "unit": null,
+          "measurement_method_used": "XRD (JCPDS 34-0394)"
+        },
+        "lattice_parameter_a": {
+            "value": "5.419",
+            "unit": "Å",
+            "measurement_method_used": "XRD"
+        },
+        "raman_peaks_cm-1": ["~464", "~600"],
+        "raman_defect_ratio_i600_i460": "0.104",
+        "uv_vis_absorption_edge_nm": "441",
+        "uv_vis_band_gap_ev": {
+            "value": "3.01",
+            "unit": "eV",
+            "measurement_method_used": "UV-vis DRS (Kubelka-Munk)"
+        },
+        "specific_surface_area_bet": {
+            "value": "110",
+            "unit": "m²/g",
+            "measurement_method_used": "N₂ adsorption-desorption"
+        },
+        "pore_size_distribution_avg": {
+            "value": "8.1",
+            "unit": "nm",
+            "measurement_method_used": "N₂ adsorption-desorption (BJH)"
+        },
+        "particle_morphology": "Uniform spherical nanospheres composed of ~5 nm CeO₂ nanoparticles with mesoporous structure",
+        "hr_tem_interplanar_distance_111": {
+            "value": "0.31",
+            "unit": "nm"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)"]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "109",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "Ambient",
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TegraPol-15 polisher (Struers, Denmark)",
+        "pad_composition": "Porous polyurethane pad (MD-Chem, Struers)",
+        "rotation_speed_pad": {
+            "value": "90",
+            "unit": "rpm"
+        },
+        "rotation_speed_head": {
+            "value": "120",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "50",
+            "unit": "mL/min"
+        },
+        "substrate_material": "SiO₂ thermal oxide film on 4-inch silicon wafer",
+        "pre_cmp_surface_roughness_ra": {
+            "value": "0.99",
+            "unit": "nm",
+            "measurement_area": "1.0 x 1.0 µm²",
+            "measurement_method_used": "AFM"
+        },
+        "pre_cmp_surface_roughness_rms": {
+            "value": "1.25",
+            "unit": "nm",
+            "measurement_area": "1.0 x 1.0 µm²",
+            "measurement_method_used": "AFM"
+        },
+        "post_cmp_surface_roughness_ra": {
+            "value": "0.14 ± 0.03",
+            "unit": "nm",
+            "measurement_area": "5.0 x 5.0 µm²",
+            "measurement_method_used": "AFM"
+        },
+        "post_cmp_surface_roughness_rms": {
+            "value": "0.17 ± 0.03",
+            "unit": "nm",
+            "measurement_area": "5.0 x 5.0 µm²",
+            "measurement_method_used": "AFM"
+        }
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

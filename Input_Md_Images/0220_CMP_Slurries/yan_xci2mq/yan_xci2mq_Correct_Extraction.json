@@ -1,0 +1,1051 @@
+{
+  "doi": null,
+  "title": "Effects of electrolyte type and concentration on the anodic oxidation of 4H-SiC (0001) in slurryless electrochemical mechanical polishing",
+  "year_published": "2024",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "NaOH_0.01wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer (TankeBlue, ~350 µm, 0.015-0.028 Ω-cm) using NaOH electrolyte at 0.01 wt% concentration for 20 min.",
+      "substrate": {
+        "material": "N-type 4H-SiC",
+        "orientation": "(0001)",
+        "supplier": "TankeBlue Semiconductor Co. Ltd.",
+        "thickness": { "value": "~350", "unit": "µm" },
+        "specific_resistance": { "value": "0.015-0.028", "unit": "Ω-cm" },
+        "initial_surface_condition": "CMP-processed, cleaned via wet chemical method [19]"
+      },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaOH",
+        "electrolyte_concentration": { "value": "0.01", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~0.05", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~100", "unit": "nm" },
+        "measurement_method_used": "SWLI (NewView 8300, Zygn) after HF etch"
+      },
+      "characterization": {
+         "measurement_instruments": [
+            {"instrument": "SEM", "model": "Hitachi S-4800"},
+            {"instrument": "Nanoindenter", "model": "ENT-2100 (Elionix Inc)"},
+            {"instrument": "SWLI", "model": "NewView 8300 (Zygn)"},
+            {"instrument": "Stylus profiler", "model": "Surfcom 1400D (Tokyo Seimitsu)"}
+         ]
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaOH_0.02wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaOH electrolyte at 0.02 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaOH",
+        "electrolyte_concentration": { "value": "0.02", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~0.1", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~130", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaOH_0.05wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaOH electrolyte at 0.05 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaOH",
+        "electrolyte_concentration": { "value": "0.05", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~0.2", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~115", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaOH_0.1wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaOH electrolyte at 0.1 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaOH",
+        "electrolyte_concentration": { "value": "0.1", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~80", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaOH_0.2wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaOH electrolyte at 0.2 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaOH",
+        "electrolyte_concentration": { "value": "0.2", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~50", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaOH_0.5wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaOH electrolyte at 0.5 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaOH",
+        "electrolyte_concentration": { "value": "0.5", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~30", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaOH_1wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaOH electrolyte at 1 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaOH",
+        "electrolyte_concentration": { "value": "1", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~25", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaOH_2wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaOH electrolyte at 2 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaOH",
+        "electrolyte_concentration": { "value": "2", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~20", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaOH_5wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaOH electrolyte at 5 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaOH",
+        "electrolyte_concentration": { "value": "5", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~10", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~18", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.01wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.01 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.01", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~0.02", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~70", "unit": "nm" },
+        "initial_current_density": { "value": "~1", "unit": "mA/cm²" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.02wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.02 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.02", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~0.04", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~100", "unit": "nm" },
+        "initial_current_density": { "value": "~2", "unit": "mA/cm²" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.05wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.05 wt% concentration for 20 min. Max AO rate condition for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.05", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~0.1", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~135", "unit": "nm" },
+        "initial_current_density": { "value": "~4", "unit": "mA/cm²" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.1wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.1 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.1", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~110", "unit": "nm" },
+        "initial_current_density": { "value": "~7", "unit": "mA/cm²" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.2wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.2 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.2", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~70", "unit": "nm" },
+        "initial_current_density": { "value": "~10", "unit": "mA/cm²" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.5wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.5 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.5", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~35", "unit": "nm" },
+        "initial_current_density": { "value": "~15", "unit": "mA/cm²" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_1wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 1 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "1", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~28", "unit": "nm" },
+        "initial_current_density": { "value": "~18", "unit": "mA/cm²" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_2wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 2 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "2", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~20", "unit": "nm" },
+         "initial_current_density": { "value": "~20", "unit": "mA/cm²" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_5wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 5 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "5", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~7", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~18", "unit": "nm" },
+        "initial_current_density": { "value": "~22", "unit": "mA/cm²" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaNO3_0.01wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaNO3 electrolyte at 0.01 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaNO3",
+        "electrolyte_concentration": { "value": "0.01", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~0.015", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~60", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaNO3_0.02wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaNO3 electrolyte at 0.02 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaNO3",
+        "electrolyte_concentration": { "value": "0.02", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~0.03", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~90", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaNO3_0.05wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaNO3 electrolyte at 0.05 wt% concentration for 20 min. Max AO rate condition for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaNO3",
+        "electrolyte_concentration": { "value": "0.05", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~0.08", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~130", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+     {
+      "sample_id": "NaNO3_0.1wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaNO3 electrolyte at 0.1 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaNO3",
+        "electrolyte_concentration": { "value": "0.1", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~105", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+     {
+      "sample_id": "NaNO3_0.2wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaNO3 electrolyte at 0.2 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaNO3",
+        "electrolyte_concentration": { "value": "0.2", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~65", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+     {
+      "sample_id": "NaNO3_0.5wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaNO3 electrolyte at 0.5 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaNO3",
+        "electrolyte_concentration": { "value": "0.5", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~35", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+     {
+      "sample_id": "NaNO3_1wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaNO3 electrolyte at 1 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaNO3",
+        "electrolyte_concentration": { "value": "1", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~28", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+     {
+      "sample_id": "NaNO3_2wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaNO3 electrolyte at 2 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaNO3",
+        "electrolyte_concentration": { "value": "2", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": null, "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~20", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+     {
+      "sample_id": "NaNO3_5wt%_AO_20min",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaNO3 electrolyte at 5 wt% concentration for 20 min.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaNO3",
+        "electrolyte_concentration": { "value": "5", "unit": "wt%" },
+        "electrolyte_conductivity": { "value": "~6", "unit": "S/m" },
+        "oxidation_time": { "value": "20", "unit": "min" },
+        "oxidation_depth": { "value": "~18", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.01wt%_AO_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.01 wt% concentration for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.01", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "oxidation_depth": { "value": "~40", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": {
+        "surface_morphology": "Random oxide protrusions, non-uniform oxidation (Fig 4a)",
+        "surface_roughness_after_etching": {
+            "Sq": {"value": "~1.8", "unit": "nm"},
+            "Sz": {"value": "~25", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 7a, 7j)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.02wt%_AO_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.02 wt% concentration for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.02", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "oxidation_depth": { "value": "~70", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": {
+        "surface_morphology": "Increased number of oxide protrusions (Fig 4b)",
+        "surface_roughness_after_etching": {
+            "Sq": {"value": "~1.2", "unit": "nm"},
+            "Sz": {"value": "~18", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 7b, 7j)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.05wt%_AO_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.05 wt% concentration for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.05", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "oxidation_depth": { "value": "~100", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": {
+        "surface_morphology": "More oxide protrusions (Fig 4c)",
+         "surface_roughness_after_etching": {
+            "Sq": {"value": "~0.8", "unit": "nm"},
+            "Sz": {"value": "~12", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 7c, 7j)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.1wt%_AO_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.1 wt% concentration for 30 s. Max AO rate condition for 30s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.1", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "oxidation_depth": { "value": "~110", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": {
+        "surface_morphology": "Entire surface covered by oxide protrusions (Fig 4d)",
+         "surface_roughness_after_etching": {
+            "Sq": {"value": "~0.6", "unit": "nm"},
+            "Sz": {"value": "~10", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 7d, 7j)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.2wt%_AO_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.2 wt% concentration for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.2", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "oxidation_depth": { "value": "~90", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": {
+        "surface_morphology": "Connected oxide protrusions (Fig 4e)",
+         "surface_roughness_after_etching": {
+            "Sq": {"value": "~0.5", "unit": "nm"},
+            "Sz": {"value": "~8", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 7e, 7j)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.5wt%_AO_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.5 wt% concentration for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.5", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "oxidation_depth": { "value": "~70", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": {
+        "surface_morphology": "Merging oxide protrusions (Fig 4f)",
+         "surface_roughness_after_etching": {
+            "Sq": {"value": "~0.4", "unit": "nm"},
+            "Sz": {"value": "~7", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 7f, 7j)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_1wt%_AO_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 1 wt% concentration for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "1", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "oxidation_depth": { "value": "~60", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": {
+        "surface_morphology": "Smoother surface (Fig 4g)",
+         "surface_roughness_after_etching": {
+            "Sq": {"value": "~0.35", "unit": "nm"},
+            "Sz": {"value": "~6", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 7g, 7j)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_2wt%_AO_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 2 wt% concentration for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "2", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "oxidation_depth": { "value": "~50", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": {
+        "surface_morphology": "Smoother surface (Fig 4h)",
+         "surface_roughness_after_etching": {
+            "Sq": {"value": "~0.3", "unit": "nm"},
+            "Sz": {"value": "~5", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 7h, 7j)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_5wt%_AO_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 5 wt% concentration for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "5", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "oxidation_depth": { "value": "~45", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch"
+      },
+      "characterization": {
+        "surface_morphology": "Flat and smooth oxidized surface (Fig 4i)",
+         "surface_roughness_after_etching": {
+            "Sq": {"value": "~0.25", "unit": "nm"},
+            "Sz": {"value": "~4", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 7i, 7j)"
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.01wt%_AO_5s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.01 wt% concentration for 5 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.01", "unit": "wt%" },
+        "oxidation_time": { "value": "5", "unit": "s" },
+        "oxidation_depth": { "value": "~20", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (inferred from Fig 3)"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.02wt%_AO_5s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.02 wt% concentration for 5 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.02", "unit": "wt%" },
+        "oxidation_time": { "value": "5", "unit": "s" },
+        "oxidation_depth": { "value": "~35", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (inferred from Fig 3)"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.05wt%_AO_5s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.05 wt% concentration for 5 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.05", "unit": "wt%" },
+        "oxidation_time": { "value": "5", "unit": "s" },
+        "oxidation_depth": { "value": "~60", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (inferred from Fig 3)"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.1wt%_AO_5s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.1 wt% concentration for 5 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.1", "unit": "wt%" },
+        "oxidation_time": { "value": "5", "unit": "s" },
+        "oxidation_depth": { "value": "~75", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (inferred from Fig 3)"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.2wt%_AO_5s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.2 wt% concentration for 5 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.2", "unit": "wt%" },
+        "oxidation_time": { "value": "5", "unit": "s" },
+        "oxidation_depth": { "value": "~85", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (inferred from Fig 3)"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.5wt%_AO_5s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.5 wt% concentration for 5 s. Max AO rate condition for 5s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.5", "unit": "wt%" },
+        "oxidation_time": { "value": "5", "unit": "s" },
+        "oxidation_depth": { "value": "~90", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (inferred from Fig 3)"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_1wt%_AO_5s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 1 wt% concentration for 5 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "1", "unit": "wt%" },
+        "oxidation_time": { "value": "5", "unit": "s" },
+        "oxidation_depth": { "value": "~70", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (inferred from Fig 3)"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_2wt%_AO_5s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 2 wt% concentration for 5 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "2", "unit": "wt%" },
+        "oxidation_time": { "value": "5", "unit": "s" },
+        "oxidation_depth": { "value": "~48", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (inferred from Fig 3)"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_5wt%_AO_5s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 5 wt% concentration for 5 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "5", "unit": "wt%" },
+        "oxidation_time": { "value": "5", "unit": "s" },
+        "oxidation_depth": { "value": "~45", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (inferred from Fig 3)"
+      },
+      "characterization": null, "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.01wt%_AO_30min_Structure",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.01 wt% concentration for 30 min for structural analysis.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.01", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "min" }
+      },
+      "characterization": {
+         "oxide_layer_thickness": {"value": "~670", "unit": "nm"},
+         "oxide_layer_morphology": "Porous, rough interface with bulk SiC",
+         "oxide_layer_hardness": {"value": "~4", "unit": "GPa"},
+         "measurement_method_used": "Cross-sectional SEM (Fig 5c), Nanoindentation (Fig 6)"
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.1wt%_AO_30min_Structure",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 0.1 wt% concentration for 30 min for structural analysis.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.1", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "min" }
+      },
+      "characterization": {
+         "oxide_layer_thickness": {"value": "~800-900", "unit": "nm"},
+         "oxide_layer_morphology": "Fewer/smaller pores, smoother interface than 0.01 wt%",
+         "oxide_layer_hardness": {"value": "~6", "unit": "GPa"},
+         "measurement_method_used": "Cross-sectional SEM (Fig 5d), Nanoindentation (Fig 6)"
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_5wt%_AO_30min_Structure",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using NaCl electrolyte at 5 wt% concentration for 30 min for structural analysis.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "5", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "min" }
+      },
+      "characterization": {
+         "oxide_layer_thickness": {"value": "~600-700", "unit": "nm"},
+         "oxide_layer_morphology": "No visible pores, considerably smooth interface, dense layer",
+         "oxide_layer_hardness": {"value": "~10", "unit": "GPa"},
+         "measurement_method_used": "Cross-sectional SEM (Fig 5e), Nanoindentation (Fig 6)"
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_VariableConc_AO_3mA_cm2_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using various NaCl electrolyte concentrations (0.01-5 wt%) at a constant current density of 3 mA/cm² for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": null,
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.01-5", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "current_density": { "value": "3", "unit": "mA/cm²" },
+        "oxidation_depth": { "value": "~45", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (Fig 8c)"
+      },
+      "characterization": {
+        "surface_roughness_after_etching": {
+            "Sq": {"value": "~1", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 8d)"
+        },
+        "surface_morphology_after_etching": "Pits observed, caused by non-uniform oxidation (Fig 8a)"
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_VariableConc_AO_10mA_cm2_30s",
+      "experiment_context": "Anodic oxidation (AO) of N-type 4H-SiC (0001) wafer using various NaCl electrolyte concentrations (0.01-5 wt%) at a constant current density of 10 mA/cm² for 30 s.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": null,
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.01-5", "unit": "wt%" },
+        "oxidation_time": { "value": "30", "unit": "s" },
+        "current_density": { "value": "10", "unit": "mA/cm²" },
+        "oxidation_depth": { "value": "~90", "unit": "nm" },
+        "measurement_method_used": "SWLI after HF etch (Fig 8c)"
+      },
+      "characterization": {
+        "surface_roughness_after_etching": {
+            "Sq": {"value": "~0.45", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 8d)"
+        },
+        "surface_morphology_after_etching": "Pits observed, shallower than 3 mA/cm² (Fig 8b)"
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "NaCl_0.01wt%_ECMP_60min",
+      "experiment_context": "Slurryless Electrochemical Mechanical Polishing (ECMP) of N-type 4H-SiC (0001) wafer using 0.01 wt% NaCl electrolyte.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.01", "unit": "wt%" }
+      },
+      "characterization": {
+        "surface_morphology": "Polishing marks observed, less uniform. Many pits from non-uniform oxidation. Residual oxide in pits (EDX Fig 13). (Fig 11a, 12a)",
+        "surface_roughness": {
+            "Sq": {"value": "~0.6", "unit": "nm"},
+            "Sz": {"value": "~10", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 11c)"
+        },
+        "elemental_composition": {
+            "pit_area": "Higher O peak compared to C",
+            "platform_area": "Very weak O peak",
+            "measurement_method_used": "EDX (Fig 13)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "min" },
+        "material_removal_rate": { "value": "1.5", "unit": "µm/h" },
+        "polishing_pressure": { "value": "70", "unit": "kPa" },
+        "grinding_stone_rotation_speed": { "value": "1500", "unit": "rpm" },
+        "oscillation_rate": { "value": "10", "unit": "mm/s" },
+        "oscillation_distance": { "value": "7", "unit": "mm" },
+        "grinding_stone": {
+            "material": "Vitrified bonded ceria",
+            "abrasive_particle_size": { "value": "0.5-2.0", "unit": "µm" },
+            "average_abrasive_particle_size": { "value": "1.0", "unit": "µm" }
+        },
+        "measurement_method_used": "Stylus profiler (Surfcom 1400D) for MRR (polishing depth), SWLI/SEM for topography"
+      }
+    },
+     {
+      "sample_id": "NaCl_0.02wt%_ECMP_60min",
+      "experiment_context": "Slurryless Electrochemical Mechanical Polishing (ECMP) of N-type 4H-SiC (0001) wafer using 0.02 wt% NaCl electrolyte.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.02", "unit": "wt%" }
+      },
+      "characterization": {
+        "surface_morphology": "Pits observed, smaller than 0.01 wt% (Fig 12b)",
+        "surface_roughness": {
+            "Sq": {"value": "~0.5", "unit": "nm"},
+            "Sz": {"value": "~8", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 11c)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "min" },
+        "material_removal_rate": { "value": "3.0", "unit": "µm/h" },
+        "polishing_pressure": { "value": "70", "unit": "kPa" },
+        "grinding_stone_rotation_speed": { "value": "1500", "unit": "rpm" },
+        "oscillation_rate": { "value": "10", "unit": "mm/s" },
+        "oscillation_distance": { "value": "7", "unit": "mm" },
+        "grinding_stone": {
+            "material": "Vitrified bonded ceria",
+            "abrasive_particle_size": { "value": "0.5-2.0", "unit": "µm" }
+        },
+        "measurement_method_used": "Stylus profiler for MRR, SWLI/SEM for topography"
+      }
+    },
+     {
+      "sample_id": "NaCl_0.05wt%_ECMP_60min",
+      "experiment_context": "Slurryless Electrochemical Mechanical Polishing (ECMP) of N-type 4H-SiC (0001) wafer using 0.05 wt% NaCl electrolyte.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.05", "unit": "wt%" }
+      },
+      "characterization": {
+        "surface_morphology": "Pits observed, smaller than 0.02 wt% (Fig 12c)",
+        "surface_roughness": {
+            "Sq": {"value": "~0.4", "unit": "nm"},
+            "Sz": {"value": "~6", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 11c)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "min" },
+        "material_removal_rate": { "value": "5.2", "unit": "µm/h" },
+        "polishing_pressure": { "value": "70", "unit": "kPa" },
+        "grinding_stone_rotation_speed": { "value": "1500", "unit": "rpm" },
+        "oscillation_rate": { "value": "10", "unit": "mm/s" },
+        "oscillation_distance": { "value": "7", "unit": "mm" },
+        "grinding_stone": {
+            "material": "Vitrified bonded ceria",
+            "abrasive_particle_size": { "value": "0.5-2.0", "unit": "µm" }
+        },
+        "measurement_method_used": "Stylus profiler for MRR, SWLI/SEM for topography"
+      }
+    },
+     {
+      "sample_id": "NaCl_0.1wt%_ECMP_60min",
+      "experiment_context": "Slurryless Electrochemical Mechanical Polishing (ECMP) of N-type 4H-SiC (0001) wafer using 0.1 wt% NaCl electrolyte. Max MRR condition.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.1", "unit": "wt%" }
+      },
+      "characterization": {
+        "surface_morphology": "Pits overlapping (Fig 12d)",
+        "surface_roughness": {
+            "Sq": {"value": "~0.35", "unit": "nm"},
+            "Sz": {"value": "~5", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 11c)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "min" },
+        "material_removal_rate": { "value": "6.0", "unit": "µm/h" },
+        "polishing_pressure": { "value": "70", "unit": "kPa" },
+        "grinding_stone_rotation_speed": { "value": "1500", "unit": "rpm" },
+        "oscillation_rate": { "value": "10", "unit": "mm/s" },
+        "oscillation_distance": { "value": "7", "unit": "mm" },
+        "grinding_stone": {
+            "material": "Vitrified bonded ceria",
+            "abrasive_particle_size": { "value": "0.5-2.0", "unit": "µm" }
+        },
+        "measurement_method_used": "Stylus profiler for MRR, SWLI/SEM for topography"
+      }
+    },
+     {
+      "sample_id": "NaCl_0.5wt%_ECMP_60min",
+      "experiment_context": "Slurryless Electrochemical Mechanical Polishing (ECMP) of N-type 4H-SiC (0001) wafer using 0.5 wt% NaCl electrolyte.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "0.5", "unit": "wt%" }
+      },
+      "characterization": {
+        "surface_morphology": "Pit boundaries disappearing (Fig 12e)",
+        "surface_roughness": {
+            "Sq": {"value": "~0.3", "unit": "nm"},
+            "Sz": {"value": "~4", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 11c)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "min" },
+        "material_removal_rate": { "value": "4.8", "unit": "µm/h" },
+        "polishing_pressure": { "value": "70", "unit": "kPa" },
+        "grinding_stone_rotation_speed": { "value": "1500", "unit": "rpm" },
+        "oscillation_rate": { "value": "10", "unit": "mm/s" },
+        "oscillation_distance": { "value": "7", "unit": "mm" },
+        "grinding_stone": {
+            "material": "Vitrified bonded ceria",
+            "abrasive_particle_size": { "value": "0.5-2.0", "unit": "µm" }
+        },
+        "measurement_method_used": "Stylus profiler for MRR, SWLI/SEM for topography"
+      }
+    },
+     {
+      "sample_id": "NaCl_1wt%_ECMP_60min",
+      "experiment_context": "Slurryless Electrochemical Mechanical Polishing (ECMP) of N-type 4H-SiC (0001) wafer using 1 wt% NaCl electrolyte.",
+      "substrate": { "material": "N-type 4H-SiC", "orientation": "(0001)" },
+      "anodic_oxidation_parameters": {
+        "potential": { "value": "25", "unit": "V" },
+        "electrolyte_type": "NaCl",
+        "electrolyte_concentration": { "value": "1", "unit": "wt%" }
+      },
+      "characterization": {
+        "surface_morphology": "Smooth surface obtained (Fig 11b, 12f)",
+        "surface_roughness": {
+            "Sq": {"value": "~0.25", "unit": "nm"},
+            "Sz": {"value": "~3.5", "unit": "nm"},
+            "measurement_method_used": "SWLI (Fig 11c)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "min" },
+        "material_removal_rate": { "value": "4.5", "unit": "µm/h" },
+        "polishing_pressure": { "value": "70", "unit": "kPa" },
+        "grinding_stone_rotation_speed": { "value": "1500", "unit": "rpm" },
+        "oscillation_rate": { "value": "10", "unit": "mm/s" },
+        "oscillation_distance": { "value": "7", "unit": "mm" },
+        "grinding_stone": {
+            "material": "Vitrified bonded ceria",
+            "abrasive_particle_size": { "value": "0.5-2.0", "unit": "µm" }
+        },
+        "measurement_method_used": "Stylus profiler for MRR, SWLI/SEM for topography"
+      }
+    }
+  ]
+}

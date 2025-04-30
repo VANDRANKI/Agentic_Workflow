@@ -1,0 +1,1503 @@
+{
+  "doi": null,
+  "title": "Mechanism of high selectivity in ceria based shallow trench isolation chemical mechanical polishing slurries",
+  "year_published": "2010",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH2_15.2kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 2, Pressure 15.2 kPa, Turntable Speed 100 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "15.2",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "0.4",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "0.3",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "1.3",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH2_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 2, Pressure 31.0 kPa, Turntable Speed 100 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "0.3",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "0.3",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "1.0",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH2_46.2kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 2, Pressure 46.2 kPa, Turntable Speed 100 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "46.2",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "2.7",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "0.8",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "3.4",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH2_31.0kPa_50rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 2, Pressure 31.0 kPa, Turntable Speed 50 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "50",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "0.3",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "0.1",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "3.0",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+     {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH2_31.0kPa_150rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 2, Pressure 31.0 kPa, Turntable Speed 150 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "150",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "3.1",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "0.4",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "7.8",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH5_15.2kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 5, Pressure 15.2 kPa, Turntable Speed 100 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "15.2",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "13.2",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "0.8",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "16.5",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (Standard condition for Figs 2, 3)",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "64.6",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "0.9",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "71.8",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH5_46.2kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 5, Pressure 46.2 kPa, Turntable Speed 100 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "46.2",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "112",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "5",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "22.4",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH5_31.0kPa_50rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 5, Pressure 31.0 kPa, Turntable Speed 50 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "50",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "26.7",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "0.4",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "66.8",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH5_31.0kPa_150rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 5, Pressure 31.0 kPa, Turntable Speed 150 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "150",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "135",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "1.7",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "79.5",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH8_15.2kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 8, Pressure 15.2 kPa, Turntable Speed 100 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "15.2",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "12.6",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "3.1",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "4.1",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH8_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 8, Pressure 31.0 kPa, Turntable Speed 100 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "77.2",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "17.2",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "4.5",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH8_46.2kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 8, Pressure 46.2 kPa, Turntable Speed 100 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "46.2",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "145",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "33.3",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "4.3",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH8_31.0kPa_50rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 8, Pressure 31.0 kPa, Turntable Speed 50 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "50",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "30.2",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "6.7",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "4.5",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_0.25wt%_pH8_31.0kPa_150rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid at pH 8, Pressure 31.0 kPa, Turntable Speed 150 rpm.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "150",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "152",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "25.5",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "5.9",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sodiff_0.1wt%_NoAdditive_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, no additive at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "115",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "25",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "4.6",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+     {
+      "sample_id": "Ceria_Sodiff_0.1wt%_Aspartic_1wt%_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sodiff Ceria, 1 wt% DL-aspartic acid at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+       "characterization": {
+         "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3"
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "39",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "<1",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": ">39",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sigma_0.1wt%_NoAdditive_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sigma Aldrich Ceria, no additive at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "Sigma Aldrich (Analytical grade)",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "35",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "11",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "3.2",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Ceria_Sigma_0.1wt%_Aspartic_1wt%_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 0.1 wt% Sigma Aldrich Ceria, 1 wt% DL-aspartic acid at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "Sigma Aldrich (Analytical grade)",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "21",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "<1",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": ">21",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Alumina_1wt%_NoAdditive_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 1 wt% Alumina (Sigma Aldrich), no additive at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Alumina",
+        "abrasive_brand_source": "Sigma Aldrich (Analytical grade)",
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "12",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "5",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "2.4",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Alumina_1wt%_Aspartic_1wt%_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 1 wt% Alumina (Sigma Aldrich), 1 wt% DL-aspartic acid at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Alumina",
+        "abrasive_brand_source": "Sigma Aldrich (Analytical grade)",
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "2",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "1",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "2.0",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "SiC_1wt%_NoAdditive_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 1 wt% Silicon Carbide (Sigma Aldrich), no additive at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Silicon Carbide",
+        "abrasive_brand_source": "Sigma Aldrich (Analytical grade)",
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "11",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "6",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "1.8",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "SiC_1wt%_Aspartic_1wt%_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 1 wt% Silicon Carbide (Sigma Aldrich), 1 wt% DL-aspartic acid at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Silicon Carbide",
+        "abrasive_brand_source": "Sigma Aldrich (Analytical grade)",
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "11",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "6",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "1.8",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Silica_M5_5wt%_NoAdditive_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 5 wt% Fumed Silica (Cab-o-sil M5), no additive at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Fumed Silica",
+        "abrasive_brand_source": "Cab-o-sil M5 Cabot Sanmar, India",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "3",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "28",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "0.11",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Silica_M5_5wt%_Aspartic_1wt%_pH5_31.0kPa_100rpm",
+      "experiment_context": "Polishing with 5 wt% Fumed Silica (Cab-o-sil M5), 1 wt% DL-aspartic acid at pH 5, Pressure 31.0 kPa, Turntable Speed 100 rpm. (From Table 2)",
+      "slurry_preparation": {
+        "abrasive_type": "Fumed Silica",
+        "abrasive_brand_source": "Cab-o-sil M5 Cabot Sanmar, India",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "DL-aspartic acid",
+            "type": "Selectivity enhancer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "31.0",
+          "unit": "kPa"
+        },
+        "turntable_speed": {
+          "value": "100",
+          "unit": "rpm"
+        },
+        "wafer_holder_speed": {
+          "value": "250",
+          "unit": "rpm"
+        },
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "5",
+            "unit": "nm/min"
+          },
+          "Si3N4": {
+            "value": "9",
+            "unit": "nm/min"
+          }
+        },
+        "selectivity": "0.56",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Fig2_pH_Variation",
+      "experiment_context": "Data from Fig. 2 showing effect of pH (range ~2-10) on MRR for 0.1 wt% Sodiff Ceria, 0.25 wt% DL-aspartic acid, 31.0 kPa, 100 rpm turntable. Precise values require graph analysis.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": { "value": "0.1", "unit": "wt%" },
+        "additives": [{ "name": "DL-aspartic acid", "type": "Selectivity enhancer", "concentration": { "value": "0.25", "unit": "wt%" } }],
+        "target_final_slurry_ph": "Variable (2-10)",
+        "solvent": { "name": "DI water (assumed)", "quantity": null }
+      },
+      "characterization": { "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3" },
+      "cmp_performance": {
+        "polishing_pressure": { "value": "31.0", "unit": "kPa" },
+        "turntable_speed": { "value": "100", "unit": "rpm" },
+        "wafer_holder_speed": { "value": "250", "unit": "rpm" },
+        "material_removal_rate": {
+          "SiO2": { "value": "Trend: Suppressed below pH 3, increases pH 3-5, stable/slight decrease above pH 5. Value at pH 5 is 64.6 nm/min (from Table 1).", "unit": "nm/min" },
+          "Si3N4": { "value": "Trend: Suppressed below pH 5, increases significantly above pH 5. Value at pH 5 is 0.9 nm/min (from Table 1).", "unit": "nm/min" }
+        },
+        "selectivity": "Trend: Very high (order of 100) in pH 4-5 range, low otherwise.",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Fig3_Additive_Concentration_Variation",
+      "experiment_context": "Data from Fig. 3 showing effect of DL-aspartic acid concentration (range ~0-0.5 wt%) on MRR for 0.1 wt% Sodiff Ceria at pH 5, 31.0 kPa, 100 rpm turntable. Precise values require graph analysis.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": { "value": "0.1", "unit": "wt%" },
+        "additives": [{ "name": "DL-aspartic acid", "type": "Selectivity enhancer", "concentration": { "value": "Variable (0-0.5+)", "unit": "wt%" } }],
+        "target_final_slurry_ph": "5",
+        "solvent": { "name": "DI water (assumed)", "quantity": null }
+      },
+      "characterization": { "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3" },
+      "cmp_performance": {
+        "polishing_pressure": { "value": "31.0", "unit": "kPa" },
+        "turntable_speed": { "value": "100", "unit": "rpm" },
+        "wafer_holder_speed": { "value": "250", "unit": "rpm" },
+        "material_removal_rate": {
+          "SiO2": { "value": "Trend: Decreases rapidly up to 0.25 wt% additive, slight decrease thereafter. Value at 0 wt% is 115 nm/min (Table 2). Value at 0.25 wt% is 64.6 nm/min (Table 1). Value at 1 wt% is 39 nm/min (Table 2).", "unit": "nm/min" },
+          "Si3N4": { "value": "Trend: Decreases with additive, completely suppressed at/above 0.25 wt%. Value at 0 wt% is 25 nm/min (Table 2). Value at 0.25 wt% is 0.9 nm/min (Table 1). Value at 1 wt% is <1 nm/min (Table 2).", "unit": "nm/min" }
+        },
+        "selectivity": "Trend: Increases significantly with additive, highest at 0.25 wt% and above.",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    },
+    {
+      "sample_id": "Fig4_Fig5_Ceria_Concentration_Variation",
+      "experiment_context": "Data from Figs. 4 & 5 showing effect of Ceria concentration (range 0.1-2 wt%) and DL-aspartic acid (0, 0.1, 0.15, 0.25 wt%) on MRR at pH 5, 31.0 kPa, 100 rpm turntable. Precise values require graph analysis.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_brand_source": "DCP-73A, Sodiff Inc., Korea",
+        "abrasive_concentration": { "value": "Variable (0.1-2)", "unit": "wt%" },
+        "additives": [{ "name": "DL-aspartic acid", "type": "Selectivity enhancer", "concentration": { "value": "Variable (0, 0.1, 0.15, 0.25)", "unit": "wt%" } }],
+        "target_final_slurry_ph": "5",
+        "solvent": { "name": "DI water (assumed)", "quantity": null }
+      },
+      "characterization": { "abrasive_purity": "Minimum 90% total rare earth oxides (minimum 60% CeO2), trace Fe2O3" },
+      "cmp_performance": {
+        "polishing_pressure": { "value": "31.0", "unit": "kPa" },
+        "turntable_speed": { "value": "100", "unit": "rpm" },
+        "wafer_holder_speed": { "value": "250", "unit": "rpm" },
+        "material_removal_rate": {
+          "SiO2": { "value": "Trend: Increases with Ceria concentration for all additive levels. Suppressed by additive compared to no additive. Values for 0.1 wt% Ceria: 115 (0% add), ~80 (0.1% add), ~70 (0.15% add), 64.6 (0.25% add). Values for 2 wt% Ceria: 435 (0% add), ~300 (0.1% add), ~250 (0.15% add), ~200 (0.25% add).", "unit": "nm/min" },
+          "Si3N4": { "value": "Trend: Increases with Ceria concentration without additive. Suppressed by additive. At 0.1 wt% additive, moderate suppression. At 0.15 wt% additive, suppressed at low Ceria conc, significant at >=1.5 wt%. At 0.25 wt% additive, completely suppressed for all Ceria conc. Values for 0.1 wt% Ceria: 25 (0% add), ~10 (0.1% add), <1 (0.15% add), 0.9 (0.25% add). Values for 2 wt% Ceria: ~60 (0% add), ~30 (0.1% add), ~15 (0.15% add), <1 (0.25% add).", "unit": "nm/min" }
+        },
+        "selectivity": "Trend: Generally decreases with increasing Ceria concentration (except at 0.25 wt% additive where Si3N4 is suppressed). Highest selectivity at 0.25 wt% additive.",
+        "equipment_model": "Struers Labopol-5 and Laboforce-3",
+        "pad_composition": "SUBA IV (Rohm and Haas, USA)",
+        "polished_material_oxide": "Thermal silicon dioxide wafer (SemiWafer Inc., Taiwan)",
+        "polished_material_nitride": "Low pressure chemical vapor deposition silicon nitride wafer (SemiWafer Inc., Taiwan)"
+      }
+    }
+  ]
+}

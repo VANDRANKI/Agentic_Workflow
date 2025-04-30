@@ -1,0 +1,419 @@
+{
+  "doi": null,
+  "title": "Study on the effect of residual ceria slurry on chemical mechanical planarization (CMP)",
+  "year_published": 2021,
+  "journal": null,
+  "materials_and_methods": {
+    "abrasive_details": {
+      "type": "Commercial colloidal ceria",
+      "particle_size_distribution": {
+        "value": "≈100",
+        "unit": "nm",
+        "measurement_method_used": "SMPS (TSI3080), SEM (JSM7600 F)"
+      },
+      "particle_morphology": "Polyhedral",
+      "zeta_potential": {
+        "value": "≈40",
+        "unit": "mV",
+        "condition": "at pH 4"
+      }
+    },
+    "slurry_preparation": {
+      "abrasive_ceria_concentration": {
+        "value": "0.5",
+        "unit": "wt%"
+      },
+      "solvent": {
+        "name": "DIW"
+      },
+      "ph_adjustment": {
+        "target_ph": {
+          "value": 4,
+          "unit": ""
+        },
+        "adjusting_agent": "Nitric acid (HNO₃)"
+      }
+    },
+    "diw_preparation": {
+      "ph_adjustment": {
+        "target_ph": {
+          "value": 4,
+          "unit": ""
+        },
+        "adjusting_agent": "Nitric acid (HNO₃)"
+      }
+    },
+    "substrate": {
+      "material": "PE-TEOS SiO₂ films",
+      "initial_thickness": {
+        "value": "15000",
+        "unit": "Å"
+      },
+      "size": "4 cm x 4 cm coupon wafer",
+      "zeta_potential": {
+        "value": "-40",
+        "unit": "mV",
+        "condition": "at pH 4 (Silica, cited [5])"
+      }
+    },
+    "cmp_equipment_and_conditions": {
+      "equipment_model": "4-in polisher Poli-400 (G&P Technology, Korea)",
+      "pad_composition": "Polyurethane (HD 300, SKC, Korea)",
+      "pad_speed": {
+        "value": 93,
+        "unit": "rpm"
+      },
+      "head_speed": {
+        "value": 87,
+        "unit": "rpm"
+      },
+      "polishing_pressure": {
+        "value": 2,
+        "unit": "psi"
+      },
+      "flow_rate_slurry_diw": {
+        "value": 150,
+        "unit": "mL/min"
+      },
+      "pad_conditioning": {
+        "speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "force": {
+          "value": 3,
+          "unit": "kgf"
+        },
+        "duration": {
+          "value": 600,
+          "unit": "s",
+          "condition": "before each polishing process"
+        }
+      },
+      "total_polishing_time": {
+        "value": 60,
+        "unit": "s"
+      }
+    },
+    "characterization_instruments": {
+      "SMPS": "TSI3080 (TSI, USA)",
+      "Zeta_potential_analyzer": "ELSZ-2000 (Otsuka, Japan)",
+      "pH_meter": "MCU710 (KEM, Japan)",
+      "Reflectometer": "ST5030-SL (K-MAC, Korea)",
+      "AFM": "NX10 (Park Systems, Korea)",
+      "SEM": "JSM7600 F (JEOL, Japan)",
+      "ICP_MS": "NexION 30D (PerkinElmer, USA)",
+      "DMA": "DMA 3081 (TSI, USA)",
+      "UCPC": "Model 3776 (TSI, USA)",
+      "Friction_sensor": "Integrated in Polisher Program"
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "Ceria_10s_DIW_50s",
+      "experiment_context": "Combined CMP process: 10 seconds ceria slurry (pH 4) followed by 50 seconds DIW (pH 4). Total time 60s.",
+      "polishing_step_1_ceria_time": {
+        "value": 10,
+        "unit": "s"
+      },
+      "polishing_step_2_diw_time": {
+        "value": 50,
+        "unit": "s"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": 150,
+          "unit": "Å/min",
+          "note": "Calculated from total removal amount over 60s total process time (Fig 3a)."
+        },
+        "non_uniformity_nu": {
+          "value": 6.5,
+          "unit": "%",
+          "note": "Estimated from Fig 3a."
+        },
+        "coefficient_of_friction_cof": {
+          "value": 0.32,
+          "unit": "",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "process_temperature": {
+          "value": 24.8,
+          "unit": "°C",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "surface_roughness_rms": {
+          "value": 19.5,
+          "unit": "Å",
+          "measurement_area": "5 µm x 5 µm",
+          "measurement_method_used": "AFM (Fig 6a)."
+        },
+        "post_cmp_particle_area_ratio": {
+          "value": 1.5,
+          "unit": "%",
+          "measurement_method_used": "SEM with ImageJ (Fig 7g)."
+        },
+        "post_cmp_cerium_ion_concentration": {
+          "value": 18,
+          "unit": "ppb",
+          "note": "Unit assumed, estimated from Fig 7h.",
+          "measurement_method_used": "ICP-MS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_20s_DIW_40s",
+      "experiment_context": "Combined CMP process: 20 seconds ceria slurry (pH 4) followed by 40 seconds DIW (pH 4). Total time 60s.",
+      "polishing_step_1_ceria_time": {
+        "value": 20,
+        "unit": "s"
+      },
+      "polishing_step_2_diw_time": {
+        "value": 40,
+        "unit": "s"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": 300,
+          "unit": "Å/min",
+          "note": "Calculated from total removal amount over 60s total process time (Fig 3a)."
+        },
+        "non_uniformity_nu": {
+          "value": 6.0,
+          "unit": "%",
+          "note": "Estimated from Fig 3a."
+        },
+        "coefficient_of_friction_cof": {
+          "value": 0.38,
+          "unit": "",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "process_temperature": {
+          "value": 25.3,
+          "unit": "°C",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "surface_roughness_rms": {
+          "value": 21.0,
+          "unit": "Å",
+          "measurement_area": "5 µm x 5 µm",
+          "measurement_method_used": "AFM (Fig 6b)."
+        },
+        "post_cmp_particle_area_ratio": {
+          "value": 1.2,
+          "unit": "%",
+          "measurement_method_used": "SEM with ImageJ (Fig 7g)."
+        },
+        "post_cmp_cerium_ion_concentration": {
+          "value": 12,
+          "unit": "ppb",
+          "note": "Unit assumed, estimated from Fig 7h.",
+          "measurement_method_used": "ICP-MS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_30s_DIW_30s",
+      "experiment_context": "Combined CMP process: 30 seconds ceria slurry (pH 4) followed by 30 seconds DIW (pH 4). Total time 60s.",
+      "polishing_step_1_ceria_time": {
+        "value": 30,
+        "unit": "s"
+      },
+      "polishing_step_2_diw_time": {
+        "value": 30,
+        "unit": "s"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": 450,
+          "unit": "Å/min",
+          "note": "Calculated from total removal amount over 60s total process time (Fig 3a)."
+        },
+        "non_uniformity_nu": {
+          "value": 5.5,
+          "unit": "%",
+          "note": "Estimated from Fig 3a."
+        },
+        "coefficient_of_friction_cof": {
+          "value": 0.43,
+          "unit": "",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "process_temperature": {
+          "value": 25.8,
+          "unit": "°C",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "surface_roughness_rms": {
+          "value": 18.5,
+          "unit": "Å",
+          "measurement_area": "5 µm x 5 µm",
+          "measurement_method_used": "AFM (Fig 6c)."
+        },
+        "post_cmp_particle_area_ratio": {
+          "value": 1.0,
+          "unit": "%",
+          "measurement_method_used": "SEM with ImageJ (Fig 7g)."
+        },
+        "post_cmp_cerium_ion_concentration": {
+          "value": 8,
+          "unit": "ppb",
+          "note": "Unit assumed, estimated from Fig 7h.",
+          "measurement_method_used": "ICP-MS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_40s_DIW_20s_Optimal",
+      "experiment_context": "Combined CMP process: 40 seconds ceria slurry (pH 4) followed by 20 seconds DIW (pH 4). Identified as optimal. Total time 60s.",
+      "polishing_step_1_ceria_time": {
+        "value": 40,
+        "unit": "s"
+      },
+      "polishing_step_2_diw_time": {
+        "value": 20,
+        "unit": "s"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": 580,
+          "unit": "Å/min",
+          "note": "Calculated from total removal amount over 60s total process time (Fig 3a)."
+        },
+        "non_uniformity_nu": {
+          "value": 5.0,
+          "unit": "%",
+          "note": "Estimated from Fig 3a."
+        },
+        "coefficient_of_friction_cof": {
+          "value": 0.45,
+          "unit": "",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "process_temperature": {
+          "value": 26.0,
+          "unit": "°C",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "surface_roughness_rms": {
+          "value": 20.5,
+          "unit": "Å",
+          "measurement_area": "5 µm x 5 µm",
+          "measurement_method_used": "AFM (Fig 6d)."
+        },
+        "post_cmp_particle_area_ratio": {
+          "value": 0.839,
+          "unit": "%",
+          "measurement_method_used": "SEM with ImageJ (Fig 7g, text value)."
+        },
+        "post_cmp_cerium_ion_concentration": {
+          "value": 5,
+          "unit": "ppb",
+          "note": "Unit assumed, estimated from Fig 7h.",
+          "measurement_method_used": "ICP-MS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_50s_DIW_10s",
+      "experiment_context": "Combined CMP process: 50 seconds ceria slurry (pH 4) followed by 10 seconds DIW (pH 4). Total time 60s.",
+      "polishing_step_1_ceria_time": {
+        "value": 50,
+        "unit": "s"
+      },
+      "polishing_step_2_diw_time": {
+        "value": 10,
+        "unit": "s"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": 590,
+          "unit": "Å/min",
+          "note": "Calculated from total removal amount over 60s total process time (Fig 3a)."
+        },
+        "non_uniformity_nu": {
+          "value": 5.0,
+          "unit": "%",
+          "note": "Estimated from Fig 3a."
+        },
+        "coefficient_of_friction_cof": {
+          "value": 0.45,
+          "unit": "",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "process_temperature": {
+          "value": 26.0,
+          "unit": "°C",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "surface_roughness_rms": {
+          "value": 19.0,
+          "unit": "Å",
+          "measurement_area": "5 µm x 5 µm",
+          "measurement_method_used": "AFM (Fig 6e)."
+        },
+        "post_cmp_particle_area_ratio": {
+          "value": 0.9,
+          "unit": "%",
+          "measurement_method_used": "SEM with ImageJ (Fig 7g)."
+        },
+        "post_cmp_cerium_ion_concentration": {
+          "value": 6,
+          "unit": "ppb",
+          "note": "Unit assumed, estimated from Fig 7h.",
+          "measurement_method_used": "ICP-MS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_60s_DIW_0s_Control",
+      "experiment_context": "Control CMP process: 60 seconds ceria slurry (pH 4) only. Total time 60s.",
+      "polishing_step_1_ceria_time": {
+        "value": 60,
+        "unit": "s"
+      },
+      "polishing_step_2_diw_time": {
+        "value": 0,
+        "unit": "s"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": 600,
+          "unit": "Å/min",
+          "note": "Calculated from total removal amount over 60s total process time (Fig 3a)."
+        },
+        "non_uniformity_nu": {
+          "value": 5.0,
+          "unit": "%",
+          "note": "Estimated from Fig 3a."
+        },
+        "coefficient_of_friction_cof": {
+          "value": 0.45,
+          "unit": "",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "process_temperature": {
+          "value": 26.0,
+          "unit": "°C",
+          "note": "Mean value during process (Fig 3b)."
+        },
+        "surface_roughness_rms": {
+          "value": 20.0,
+          "unit": "Å",
+          "measurement_area": "5 µm x 5 µm",
+          "measurement_method_used": "AFM (Fig 6f)."
+        },
+        "post_cmp_particle_area_ratio": {
+          "value": 9.035,
+          "unit": "%",
+          "measurement_method_used": "SEM with ImageJ (Fig 7g, text value)."
+        },
+        "post_cmp_cerium_ion_concentration": {
+          "value": 140,
+          "unit": "ppb",
+          "note": "Unit assumed, estimated from Fig 7h.",
+          "measurement_method_used": "ICP-MS"
+        }
+      }
+    }
+  ]
+}

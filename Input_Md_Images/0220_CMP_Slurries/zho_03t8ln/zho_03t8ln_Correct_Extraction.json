@@ -1,0 +1,523 @@
+{
+  "doi": "10.1016/j.ceramint.2021.08.048",
+  "title": "Chemical-mechanical polishing performance of core-shell structured polystyrene@ceria/nanodiamond ternary abrasives on sapphire wafer",
+  "year_published": "2021",
+  "journal": "Ceramics International",
+  "substrate_information": {
+    "material": "Single crystal sapphire (α-Al2O3)",
+    "size": "φ25.4 mm x 0.45 mm",
+    "hardness_mohs": 9,
+    "initial_surface_roughness_ra": {
+      "value": "3.23",
+      "unit": "nm"
+    },
+    "supplier": "Sichuan Xintong New Material Co., Ltd."
+  },
+  "instrument_device_models": {
+    "FESEM": "TESCAN MIRA3 with Oxford X-Max20",
+    "TEM": "Tecnai G2OST (FEI)",
+    "Zeta_potential_particle_size": "Zetasizer Nano ZS (Malvern)",
+    "XRD": "DX-2700 (Dandong Haoyuan)",
+    "TG_DTA": "DSC Q2000 (TA Instruments)",
+    "FTIR": "Nexus 670 (Nicolet)",
+    "XPS": "Thermo Scientific K-Alpha+",
+    "Polishing_machine": "ZDHP-30 B (Nanjing Lisheng)",
+    "AFM": "Multimode V (Veeco)"
+  },
+  "samples": [
+    {
+      "sample_id": "PS@CeO2",
+      "experiment_context": "Core-shell composite abrasive with Polystyrene (PS) core and Ceria (CeO2) shell, synthesized using 0.0115 mol L⁻¹ Ce(NO3)3·6H2O.",
+      "synthesis_ps_core": {
+        "method": "Soap-free emulsion polymerization",
+        "monomer": "Styrene (C6H6)",
+        "initiator": "K2S2O8 (KPS)",
+        "initiator_concentration": {
+          "value": "0.2",
+          "unit": "g",
+          "in_volume": "210 mL total (10 mL styrene + 200 mL water)"
+        },
+        "reaction_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "reaction_time": {
+          "value": "21",
+          "unit": "h"
+        },
+        "environmental_conditions": "N2 atmosphere"
+      },
+      "synthesis_shell_coating": {
+        "method": "Chemical precipitation",
+        "ps_core_suspension_input": {
+          "volume": "4",
+          "unit": "mL",
+          "concentration": "30 g L⁻¹",
+          "in_solvent_volume": "200 mL DI water"
+        },
+        "precursor_chemical": "Ce(NO3)3·6H2O",
+        "precursor_concentration": {
+          "value": "0.0115",
+          "unit": "mol L⁻¹"
+        },
+        "precipitant_type": "Hexamethylenetetramine (HMT)",
+        "molar_ratio_precursor_precipitant": "1:5",
+        "reaction_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "reaction_time": {
+          "value": "2.5",
+          "unit": "h"
+        },
+        "synthesis_conditions": {
+          "ph_during_reaction": null,
+          "stirring_speed": null,
+          "environmental_conditions": "Aqueous dispersion, stirred"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with DI water and anhydrous alcohol",
+          "times": 3
+        },
+        "drying": {
+          "temperature": {
+            "value": "100",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~500",
+          "unit": "nm",
+          "measurement_method_used": "SEM/TEM"
+        },
+        "crystallite_size": {
+          "value": "~10",
+          "unit": "nm",
+          "material": "CeO2",
+          "measurement_method_used": "HRTEM"
+        },
+        "crystallinity_phase_composition": {
+          "PS_core": "Amorphous",
+          "CeO2_shell": "Cubic fluorite (fcc)"
+        },
+        "composition_percent_wt_tg_dta": {
+          "PS": 27.16,
+          "CeO2": 66.42,
+          "Structural_H2O": 6.42
+        },
+        "particle_morphology": "Spherical core-shell particles (~500 nm diameter) with grainy CeO2 shell (~10 nm crystallites). Shell thickness ~50 nm.",
+        "xrd_peaks_ceria": [
+          {"two_theta": 28.6, "plane": "(111)"},
+          {"two_theta": 33.1, "plane": "(200)"},
+          {"two_theta": 47.6, "plane": "(220)"},
+          {"two_theta": 56.3, "plane": "(311)"},
+          {"two_theta": 59.1, "plane": "(222)"}
+        ],
+        "ftir_analysis_notes": "Shows typical PS bands and Ce-O stretching vibration band (425-523 cm⁻¹).",
+        "eds_analysis": {
+          "elements_present": ["C", "O", "Ce"],
+          "atomic_percent": {
+            "Ce": 6.09,
+            "O": 16.37
+          },
+          "notes": "Ce:O ratio ~1:2.69, close to CeO2. C% not reliable due to PS core."
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "20",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "1.17",
+          "unit": "µm h⁻¹",
+          "conditions": "Down force 4 kg"
+        },
+        "surface_roughness_ra_post_cmp": {
+          "value": "1.25",
+          "unit": "nm"
+        },
+        "process_temperature": {
+          "value": "Room temperature",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "kg"
+        },
+        "pad_rotating_speed": {
+          "value": "60-150",
+          "unit": "rpm",
+          "value_for_reported_mrr_ra": null
+        },
+        "slurry_flow_rate": {
+          "value": "50",
+          "unit": "mL min⁻¹"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ZDHP-30 B polisher",
+        "pad_composition": "Porous polyurethane"
+      }
+    },
+    {
+      "sample_id": "PS@DND",
+      "experiment_context": "Core-shell composite abrasive with Polystyrene (PS) core and Detonation Nanodiamond (DND) shell, synthesized using 0.75 g L⁻¹ DND.",
+      "synthesis_ps_core": {
+        "method": "Soap-free emulsion polymerization",
+        "monomer": "Styrene (C6H6)",
+        "initiator": "K2S2O8 (KPS)",
+        "initiator_concentration": {
+          "value": "0.2",
+          "unit": "g",
+          "in_volume": "210 mL total (10 mL styrene + 200 mL water)"
+        },
+        "reaction_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "reaction_time": {
+          "value": "21",
+          "unit": "h"
+        },
+        "environmental_conditions": "N2 atmosphere"
+      },
+      "synthesis_shell_coating": {
+        "method": "Electrostatic self-assembly",
+        "ps_core_suspension_input": {
+          "volume": null,
+          "unit": null,
+          "concentration": null,
+          "in_solvent_volume": "200 mL DI water"
+        },
+        "precursor_chemical": "Detonation nanodiamond (DND)",
+        "precursor_treatment": "Ground, deagglomerated, modified with CTAB (2 x 10⁻³ mol L⁻¹)",
+        "precursor_concentration": {
+          "value": "0.75",
+          "unit": "g L⁻¹",
+          "notes": "Added as a 5 g L⁻¹ suspension"
+        },
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "reaction_time": {
+          "value": "2.5",
+          "unit": "h"
+        },
+        "synthesis_conditions": {
+          "ph_during_reaction": {
+            "value": "10-11",
+            "unit": "",
+            "adjusted_with": "NaOH (0.1 mol L⁻¹)"
+          },
+          "stirring_speed": null,
+          "environmental_conditions": "Aqueous dispersion, stirred"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with DI water and anhydrous alcohol",
+          "times": 3
+        },
+        "drying": {
+          "temperature": {
+            "value": "100",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~500",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": {
+          "value": "~5",
+          "unit": "nm",
+          "material": "DND",
+          "measurement_method_used": "HRTEM"
+        },
+        "crystallinity_phase_composition": {
+          "PS_core": "Amorphous",
+          "DND_shell": "FCC diamond"
+        },
+        "composition_percent_wt_tg_dta": {
+          "PS": 63.55,
+          "DND": 35.49
+        },
+        "particle_morphology": "Spherical core-shell particles (~500 nm diameter) with rougher DND shell composed of ~5 nm crystallites. Shell thickness ~50 nm.",
+        "xrd_peaks_dnd": [
+          {"two_theta": -42.3, "plane": "(111)"}
+        ],
+        "ftir_analysis_notes": "Shows typical PS bands, intensified O-H, C=O, and carboxylate bands.",
+        "eds_analysis": {
+          "elements_present": ["C", "O"],
+          "atomic_percent": {
+            "C": 95.85
+          },
+          "notes": "O likely from functional groups or adsorbed CTAB."
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "20",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "1.61",
+          "unit": "µm h⁻¹",
+          "conditions": "Down force 4 kg"
+        },
+        "surface_roughness_ra_post_cmp": {
+          "value": "0.63",
+          "unit": "nm"
+        },
+        "process_temperature": {
+          "value": "Room temperature",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "kg"
+        },
+        "pad_rotating_speed": {
+          "value": "60-150",
+          "unit": "rpm",
+          "value_for_reported_mrr_ra": null
+        },
+        "slurry_flow_rate": {
+          "value": "50",
+          "unit": "mL min⁻¹"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ZDHP-30 B polisher",
+        "pad_composition": "Porous polyurethane"
+      }
+    },
+    {
+      "sample_id": "PS@CeO2/DND",
+      "experiment_context": "Core-shell composite abrasive with Polystyrene (PS) core and a mixed Ceria (CeO2) / Detonation Nanodiamond (DND) shell.",
+      "synthesis_ps_core": {
+        "method": "Soap-free emulsion polymerization",
+        "monomer": "Styrene (C6H6)",
+        "initiator": "K2S2O8 (KPS)",
+        "initiator_concentration": {
+          "value": "0.2",
+          "unit": "g",
+          "in_volume": "210 mL total (10 mL styrene + 200 mL water)"
+        },
+        "reaction_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "reaction_time": {
+          "value": "21",
+          "unit": "h"
+        },
+        "environmental_conditions": "N2 atmosphere"
+      },
+      "synthesis_shell_coating": {
+        "method": "Sequential deposition: Chemical precipitation (CeO2) followed by Electrostatic self-assembly (DND)",
+        "ps_core_suspension_input": {
+          "volume": null,
+          "unit": null,
+          "concentration": null,
+          "in_solvent_volume": "200 mL DI water"
+        },
+        "precursor_chemical_ceria": "Ce(NO3)3·6H2O",
+        "precursor_concentration_ceria": {
+          "value": "0.0115",
+          "unit": "mol L⁻¹"
+        },
+        "precipitant_type_ceria": "Hexamethylenetetramine (HMT)",
+        "molar_ratio_ceria_precipitant": "1:5",
+        "reaction_temperature_ceria": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "reaction_time_ceria": {
+          "value": "2.5",
+          "unit": "h"
+        },
+        "precursor_chemical_dnd": "Detonation nanodiamond (DND)",
+        "precursor_treatment_dnd": "Ground, deagglomerated, modified with CTAB (2 x 10⁻³ mol L⁻¹)",
+        "precursor_input_dnd": {
+          "volume": "30",
+          "unit": "mL",
+          "concentration": "5 g L⁻¹",
+          "notes": "Added to the 200mL PS@CeO2 suspension"
+        },
+        "reaction_temperature_dnd": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "reaction_time_dnd": {
+          "value": "2.5",
+          "unit": "h"
+        },
+        "synthesis_conditions": {
+          "ph_during_reaction": {
+            "value": "10-11",
+            "unit": "",
+            "adjusted_with": "NaOH (0.1 mol L⁻¹)",
+            "notes": "Adjusted after CeO2 deposition, before DND addition"
+          },
+          "stirring_speed": null,
+          "environmental_conditions": "Aqueous dispersion, stirred"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with DI water and anhydrous alcohol",
+          "times": 3
+        },
+        "drying": {
+          "temperature": {
+            "value": "100",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~500",
+          "unit": "nm",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": {
+          "CeO2": {"value": "~10", "unit": "nm"},
+          "DND": {"value": "~5", "unit": "nm"},
+          "measurement_method_used": "HRTEM"
+        },
+        "crystallinity_phase_composition": {
+          "PS_core": "Amorphous",
+          "CeO2_shell": "Cubic fluorite (fcc)",
+          "DND_shell": "FCC diamond"
+        },
+        "composition_percent_wt_tg_dta": {
+          "PS": 41.29,
+          "CeO2": 24.36,
+          "DND": 27.06,
+          "Structural_H2O_CeO2": 7.29
+        },
+        "particle_morphology": "Spherical core-shell particles (~500 nm diameter). Uniform CeO2 layer (~10nm crystallites) coated first, then unevenly attached small DND clusters (~5nm crystallites). Rougher surface than PS@CeO2. Shell thickness ~50 nm.",
+        "xrd_peaks": {
+          "CeO2": [
+            {"two_theta": 28.6, "plane": "(111)"},
+            {"two_theta": 33.1, "plane": "(200)"},
+            {"two_theta": 47.6, "plane": "(220)"},
+            {"two_theta": 56.3, "plane": "(311)"},
+            {"two_theta": 59.1, "plane": "(222)"}
+          ],
+          "DND": [
+            {"two_theta": -42.3, "plane": "(111)"}
+          ]
+        },
+        "ftir_analysis_notes": "Shows typical PS bands, Ce-O stretching, intensified O-H, C=O, and carboxylate bands.",
+        "eds_analysis": {
+          "elements_present": ["C", "O", "Ce"],
+          "notes": "O% higher than PS@CeO2, suggests more oxygen-containing groups."
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "20",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "2.05",
+          "unit": "µm h⁻¹",
+          "conditions": "Down force 4 kg"
+        },
+        "surface_roughness_ra_post_cmp": {
+          "value": "0.52",
+          "unit": "nm"
+        },
+        "process_temperature": {
+          "value": "Room temperature",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "kg"
+        },
+        "pad_rotating_speed": {
+          "value": "60-150",
+          "unit": "rpm",
+          "value_for_reported_mrr_ra": null
+        },
+        "slurry_flow_rate": {
+          "value": "50",
+          "unit": "mL min⁻¹"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ZDHP-30 B polisher",
+        "pad_composition": "Porous polyurethane"
+      },
+      "polishing_mechanism_notes": {
+        "chemical_reactions": [
+          "Al2O3 + H2O = 2AlOOH",
+          "AlOOH + H2O = Al(OH)3",
+          "CeO2 + Al2O3 = CeAlxOy"
+        ],
+        "xps_detritus_analysis": "Detected C-C (PS), C-C (DND), C-O, C=O/C-OH, CeO2, Al2O3, AlOOH, Al(OH)3, CeAlxOy, Ce3+, Ce4+.",
+        "synergistic_effect": "Elastic PS core increases contact area/duration. Dense CeO2/DND shell provides chemical (CeO2) and mechanical (DND) polishing."
+      }
+    }
+  ]
+}

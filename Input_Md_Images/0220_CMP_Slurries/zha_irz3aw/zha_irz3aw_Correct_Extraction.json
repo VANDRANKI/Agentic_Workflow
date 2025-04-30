@@ -1,0 +1,390 @@
+{
+  "doi": null,
+  "title": "Synthesis of Al₂O₃@MnO₂ composite abrasives and their chemical mechanical polishing performance on silicon carbide (SiC)",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Al2O3_Pure",
+      "experiment_context": "Pure Al₂O₃ abrasive used as a baseline reference.",
+      "synthesis_details": {
+        "base_material": "Al₂O₃",
+        "source": "Shanghai Yingzhi Abrasive Materials Co., Ltd (China)",
+        "coating_material": null,
+        "coating_wt_percent": {
+          "value": 0,
+          "unit": "wt%"
+        },
+        "synthesis_method": "Base material, not synthesized in this study beyond initial acquisition."
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 1.5,
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": {
+            "value": 400,
+            "unit": "mL"
+          },
+          "abrasive_mass": {
+             "value": 6,
+             "unit": "g"
+          }
+        },
+        "additives": [
+          {
+            "name": "KMnO₄",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": 4,
+              "unit": "g"
+            }
+          },
+           {
+            "name": "HNO₃",
+            "type": "pH regulator",
+            "concentration": {
+              "value": 3,
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 2,
+        "ultrasound_time": {
+            "value": 20,
+            "unit": "min"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "peak_value_approx": {
+             "value": 350,
+             "unit": "nm"
+          },
+          "description": "Broader peak compared to composites",
+          "measurement_method_used": "Nano ZS90 Zetasizer",
+          "conditions": "pH = 2"
+        },
+        "particle_morphology": "Irregular polygonal particles, significant aggregation (SEM Fig 2a)",
+        "crystallinity_phase_composition": {
+           "phase": "α-Al₂O₃",
+           "crystal_system": "Tripartite",
+           "space_group": "R3c",
+           "pdf_card": "PDF#10-0173"
+        },
+        "zeta_potential_iep": {
+          "value": 9.2,
+          "unit": "pH"
+        },
+        "xrd_peaks_2theta_degrees": [25.6, 35.2, 37.8, 43.4, 46.2, 52.5, 57.5, 59.7, 61.3, 66.5, 68.2, 76.9]
+      },
+      "cmp_performance": {
+        "substrate": {
+            "material": "4H-SiC",
+            "orientation": "(0001)",
+            "diameter": { "value": 2, "unit": "inches" },
+            "source": "Shandong SICC Co., Ltd. China",
+            "density": { "value": 3.16, "unit": "g/cm³"}
+        },
+        "polishing_conditions": {
+          "load_pressure": {
+            "value": 6,
+            "unit": "kg"
+          },
+          "polishing_pad_rotation_speed": {
+            "value": 70,
+            "unit": "r/min"
+          },
+          "polishing_time": {
+            "value": 1,
+            "unit": "h"
+          }
+        },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Co., Ltd., China)",
+        "pad_composition": "Suba 800 (Dow Chemical Co., Ltd., USA)",
+        "material_removal_rate": {
+          "value": 364.50,
+          "unit": "nm/h"
+        },
+        "pre_cmp_surface_roughness_sa": {
+            "value": 3.31,
+            "unit": "nm"
+        },
+        "post_cmp_surface_roughness_sa": {
+          "value": 2.70,
+          "unit": "nm",
+          "notes": "Obvious scratches observed (Fig 6b)"
+        },
+        "surface_roughness_measurement": {
+            "instrument": "Optical profilometer (Sensofar S neox 090)",
+            "area": "500 µm x 500 µm"
+        }
+      },
+      "interfacial_properties": {
+        "contact_angle": {
+          "value": 65.90,
+          "unit": "°",
+          "measurement_method_used": "BIOLIN Theta Flex"
+        },
+        "dynamic_friction_coefficient": {
+          "value": 0.18,
+          "unit": null,
+          "measurement_method_used": "Byes-550 friction meter"
+        }
+      },
+      "polishing_mechanism_notes": null
+    },
+    {
+      "sample_id": "Al2O3@MnO2_0.01wt%",
+      "experiment_context": "Al₂O₃ abrasive coated with 0.01 wt% MnO₂.",
+      "synthesis_details": {
+        "base_material": "Al₂O₃ (15g)",
+        "coating_material": "MnO₂",
+        "coating_wt_percent": {
+          "value": 0.01,
+          "unit": "wt%"
+        },
+        "synthesis_method": "Chemical deposition",
+        "reagents": [
+            {"name": "Al₂O₃ suspension", "details": "15g Al₂O₃ in 100g DI water, ultrasound 25 min"},
+            {"name": "KMnO₄", "details": "Amount varied to achieve target wt%"},
+            {"name": "HCl", "details": "5 mL of 3 mol/L solution"},
+            {"name": "Deionized water", "details": "Solvent and washing"},
+            {"name": "Absolute ethanol", "details": "Washing"}
+        ],
+        "reaction_temperature": { "value": 50, "unit": "°C" },
+        "reaction_time": { "value": 30, "unit": "min", "condition": "Magnetic agitation" },
+        "post_synthesis_treatment": {
+            "centrifugation": { "speed": 5000, "unit": "rpm", "duration": {"value": 5, "unit": "min"} },
+            "washing": "3 times with DI water and absolute ethanol",
+            "drying": { "temperature": {"value": 60, "unit": "°C"}, "duration": {"value": 12, "unit": "h"} }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 1.5, "unit": "wt%" },
+        "solvent": { "name": "Deionized water", "quantity": { "value": 400, "unit": "mL" }, "abrasive_mass": { "value": 6, "unit": "g" } },
+        "additives": [
+          { "name": "KMnO₄", "type": "Oxidizer", "concentration": { "value": 4, "unit": "g" } },
+          { "name": "HNO₃", "type": "pH regulator", "concentration": { "value": 3, "unit": "mol/L" } }
+        ],
+        "target_final_slurry_ph": 2,
+        "ultrasound_time": { "value": 20, "unit": "min" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "peak_value_approx_range": {
+             "min": 240,
+             "max": 300,
+             "unit": "nm"
+          },
+          "description": "Narrow peak, smaller than pure Al₂O₃",
+          "measurement_method_used": "Nano ZS90 Zetasizer",
+          "conditions": "pH = 2"
+        },
+        "particle_morphology": "Improved dispersion compared to pure Al₂O₃ (SEM Fig 2b)",
+        "crystallinity_phase_composition": [
+           {"phase": "α-Al₂O₃", "crystal_system": "Tripartite", "space_group": "R3c", "pdf_card": "PDF#10-0173"},
+           {"phase": "α-MnO₂", "crystal_system": "Tetragonal", "space_group": "I4/m", "pdf_card": "PDF#44-0141", "notes": "Low intensity peaks, weak crystallinity"}
+        ],
+        "zeta_potential_iep": null,
+        "xrd_peaks_2theta_degrees": {
+            "Al2O3": [25.6, 35.2, 37.8, 43.4, 46.2, 52.5, 57.5, 59.7, 61.3, 66.5, 68.2, 76.9],
+            "MnO2": [25.7, 37.5, 65.1]
+        }
+      },
+      "cmp_performance": {
+        "substrate": { "material": "4H-SiC", "orientation": "(0001)", "diameter": { "value": 2, "unit": "inches" }, "source": "Shandong SICC Co., Ltd. China", "density": { "value": 3.16, "unit": "g/cm³"} },
+        "polishing_conditions": { "load_pressure": { "value": 6, "unit": "kg" }, "polishing_pad_rotation_speed": { "value": 70, "unit": "r/min" }, "polishing_time": { "value": 1, "unit": "h" } },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Co., Ltd., China)",
+        "pad_composition": "Suba 800 (Dow Chemical Co., Ltd., USA)",
+        "material_removal_rate": { "value": 440, "unit": "nm/h" },
+        "pre_cmp_surface_roughness_sa": { "value": 3.31, "unit": "nm" },
+        "post_cmp_surface_roughness_sa": null,
+        "surface_roughness_measurement": { "instrument": "Optical profilometer (Sensofar S neox 090)", "area": "500 µm x 500 µm" }
+      },
+      "interfacial_properties": {
+        "contact_angle": { "value": 51.23, "unit": "°", "measurement_method_used": "BIOLIN Theta Flex" },
+        "dynamic_friction_coefficient": { "value": 0.196, "unit": null, "measurement_method_used": "Byes-550 friction meter" }
+      },
+      "polishing_mechanism_notes": null
+    },
+    {
+      "sample_id": "Al2O3@MnO2_0.03wt%",
+      "experiment_context": "Al₂O₃ abrasive coated with 0.03 wt% MnO₂.",
+      "synthesis_details": {
+        "base_material": "Al₂O₃ (15g)", "coating_material": "MnO₂", "coating_wt_percent": { "value": 0.03, "unit": "wt%" }, "synthesis_method": "Chemical deposition",
+        "reagents": [ {"name": "Al₂O₃ suspension", "details": "15g Al₂O₃ in 100g DI water, ultrasound 25 min"}, {"name": "KMnO₄", "details": "Amount varied to achieve target wt%"}, {"name": "HCl", "details": "5 mL of 3 mol/L solution"}, {"name": "Deionized water", "details": "Solvent and washing"}, {"name": "Absolute ethanol", "details": "Washing"} ],
+        "reaction_temperature": { "value": 50, "unit": "°C" }, "reaction_time": { "value": 30, "unit": "min", "condition": "Magnetic agitation" },
+        "post_synthesis_treatment": { "centrifugation": { "speed": 5000, "unit": "rpm", "duration": {"value": 5, "unit": "min"} }, "washing": "3 times with DI water and absolute ethanol", "drying": { "temperature": {"value": 60, "unit": "°C"}, "duration": {"value": 12, "unit": "h"} } }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 1.5, "unit": "wt%" }, "solvent": { "name": "Deionized water", "quantity": { "value": 400, "unit": "mL" }, "abrasive_mass": { "value": 6, "unit": "g" } },
+        "additives": [ { "name": "KMnO₄", "type": "Oxidizer", "concentration": { "value": 4, "unit": "g" } }, { "name": "HNO₃", "type": "pH regulator", "concentration": { "value": 3, "unit": "mol/L" } } ],
+        "target_final_slurry_ph": 2, "ultrasound_time": { "value": 20, "unit": "min" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "peak_value_approx_range": { "min": 240, "max": 300, "unit": "nm" }, "description": "Narrow peak, smaller than pure Al₂O₃", "measurement_method_used": "Nano ZS90 Zetasizer", "conditions": "pH = 2" },
+        "particle_morphology": "Improved dispersion compared to pure Al₂O₃",
+        "crystallinity_phase_composition": [ {"phase": "α-Al₂O₃", "crystal_system": "Tripartite", "space_group": "R3c", "pdf_card": "PDF#10-0173"}, {"phase": "α-MnO₂", "crystal_system": "Tetragonal", "space_group": "I4/m", "pdf_card": "PDF#44-0141", "notes": "Low intensity peaks, weak crystallinity"} ],
+        "zeta_potential_iep": null,
+        "xrd_peaks_2theta_degrees": { "Al2O3": [25.6, 35.2, 37.8, 43.4, 46.2, 52.5, 57.5, 59.7, 61.3, 66.5, 68.2, 76.9], "MnO2": [25.7, 37.5, 65.1] }
+      },
+      "cmp_performance": {
+        "substrate": { "material": "4H-SiC", "orientation": "(0001)", "diameter": { "value": 2, "unit": "inches" }, "source": "Shandong SICC Co., Ltd. China", "density": { "value": 3.16, "unit": "g/cm³"} },
+        "polishing_conditions": { "load_pressure": { "value": 6, "unit": "kg" }, "polishing_pad_rotation_speed": { "value": 70, "unit": "r/min" }, "polishing_time": { "value": 1, "unit": "h" } },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Co., Ltd., China)", "pad_composition": "Suba 800 (Dow Chemical Co., Ltd., USA)",
+        "material_removal_rate": { "value": 480, "unit": "nm/h" },
+        "pre_cmp_surface_roughness_sa": { "value": 3.31, "unit": "nm" }, "post_cmp_surface_roughness_sa": null,
+        "surface_roughness_measurement": { "instrument": "Optical profilometer (Sensofar S neox 090)", "area": "500 µm x 500 µm" }
+      },
+      "interfacial_properties": {
+        "contact_angle": { "value": 47.26, "unit": "°", "measurement_method_used": "BIOLIN Theta Flex" },
+        "dynamic_friction_coefficient": { "value": 0.205, "unit": null, "measurement_method_used": "Byes-550 friction meter" }
+      },
+      "polishing_mechanism_notes": null
+    },
+    {
+      "sample_id": "Al2O3@MnO2_0.05wt%",
+      "experiment_context": "Al₂O₃ abrasive coated with 0.05 wt% MnO₂. This sample showed the best CMP performance.",
+      "synthesis_details": {
+        "base_material": "Al₂O₃ (15g)", "coating_material": "MnO₂", "coating_wt_percent": { "value": 0.05, "unit": "wt%" }, "synthesis_method": "Chemical deposition",
+        "reagents": [ {"name": "Al₂O₃ suspension", "details": "15g Al₂O₃ in 100g DI water, ultrasound 25 min"}, {"name": "KMnO₄", "details": "Amount varied to achieve target wt%"}, {"name": "HCl", "details": "5 mL of 3 mol/L solution"}, {"name": "Deionized water", "details": "Solvent and washing"}, {"name": "Absolute ethanol", "details": "Washing"} ],
+        "reaction_temperature": { "value": 50, "unit": "°C" }, "reaction_time": { "value": 30, "unit": "min", "condition": "Magnetic agitation" },
+        "post_synthesis_treatment": { "centrifugation": { "speed": 5000, "unit": "rpm", "duration": {"value": 5, "unit": "min"} }, "washing": "3 times with DI water and absolute ethanol", "drying": { "temperature": {"value": 60, "unit": "°C"}, "duration": {"value": 12, "unit": "h"} } }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 1.5, "unit": "wt%" }, "solvent": { "name": "Deionized water", "quantity": { "value": 400, "unit": "mL" }, "abrasive_mass": { "value": 6, "unit": "g" } },
+        "additives": [ { "name": "KMnO₄", "type": "Oxidizer", "concentration": { "value": 4, "unit": "g" } }, { "name": "HNO₃", "type": "pH regulator", "concentration": { "value": 3, "unit": "mol/L" } } ],
+        "target_final_slurry_ph": 2, "ultrasound_time": { "value": 20, "unit": "min" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "peak_value_approx_range": { "min": 240, "max": 300, "unit": "nm" }, "description": "Narrow peak, smaller than pure Al₂O₃", "measurement_method_used": "Nano ZS90 Zetasizer", "conditions": "pH = 2" },
+        "particle_morphology": "Improved dispersion compared to pure Al₂O₃",
+        "crystallinity_phase_composition": [ {"phase": "α-Al₂O₃", "crystal_system": "Tripartite", "space_group": "R3c", "pdf_card": "PDF#10-0173"}, {"phase": "α-MnO₂", "crystal_system": "Tetragonal", "space_group": "I4/m", "pdf_card": "PDF#44-0141", "notes": "Low intensity peaks, weak crystallinity"} ],
+        "zeta_potential_iep": null,
+        "xrd_peaks_2theta_degrees": { "Al2O3": [25.6, 35.2, 37.8, 43.4, 46.2, 52.5, 57.5, 59.7, 61.3, 66.5, 68.2, 76.9], "MnO2": [25.7, 37.5, 65.1] }
+      },
+      "cmp_performance": {
+        "substrate": { "material": "4H-SiC", "orientation": "(0001)", "diameter": { "value": 2, "unit": "inches" }, "source": "Shandong SICC Co., Ltd. China", "density": { "value": 3.16, "unit": "g/cm³"} },
+        "polishing_conditions": { "load_pressure": { "value": 6, "unit": "kg" }, "polishing_pad_rotation_speed": { "value": 70, "unit": "r/min" }, "polishing_time": { "value": 1, "unit": "h" } },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Co., Ltd., China)", "pad_composition": "Suba 800 (Dow Chemical Co., Ltd., USA)",
+        "material_removal_rate": { "value": 640.47, "unit": "nm/h" },
+        "pre_cmp_surface_roughness_sa": { "value": 3.31, "unit": "nm" },
+        "post_cmp_surface_roughness_sa": { "value": 1.50, "unit": "nm", "notes": "Reduced scratches and holes (Fig 6c)" },
+        "surface_roughness_measurement": { "instrument": "Optical profilometer (Sensofar S neox 090)", "area": "500 µm x 500 µm" }
+      },
+      "interfacial_properties": {
+        "contact_angle": { "value": 37.54, "unit": "°", "measurement_method_used": "BIOLIN Theta Flex", "notes": "Minimum contact angle observed" },
+        "dynamic_friction_coefficient": { "value": 0.242, "unit": null, "measurement_method_used": "Byes-550 friction meter", "notes": "Maximum friction coefficient observed" }
+      },
+      "polishing_mechanism_notes": "XPS analysis after CMP showed SiC surface oxidation (increased Si-C-O, SiO₄Cp, Si₄C₄O₄, Si₄C₄-xO₂ peaks) and formation of Mn-O-Si bonds (Mn 2p peak at 641.9 eV). Suggests synergistic chemical (oxidation, Mn-O-Si bond formation) and mechanical removal."
+    },
+    {
+      "sample_id": "Al2O3@MnO2_0.10wt%",
+      "experiment_context": "Al₂O₃ abrasive coated with 0.10 wt% MnO₂.",
+      "synthesis_details": {
+        "base_material": "Al₂O₃ (15g)", "coating_material": "MnO₂", "coating_wt_percent": { "value": 0.10, "unit": "wt%" }, "synthesis_method": "Chemical deposition",
+        "reagents": [ {"name": "Al₂O₃ suspension", "details": "15g Al₂O₃ in 100g DI water, ultrasound 25 min"}, {"name": "KMnO₄", "details": "Amount varied to achieve target wt%"}, {"name": "HCl", "details": "5 mL of 3 mol/L solution"}, {"name": "Deionized water", "details": "Solvent and washing"}, {"name": "Absolute ethanol", "details": "Washing"} ],
+        "reaction_temperature": { "value": 50, "unit": "°C" }, "reaction_time": { "value": 30, "unit": "min", "condition": "Magnetic agitation" },
+        "post_synthesis_treatment": { "centrifugation": { "speed": 5000, "unit": "rpm", "duration": {"value": 5, "unit": "min"} }, "washing": "3 times with DI water and absolute ethanol", "drying": { "temperature": {"value": 60, "unit": "°C"}, "duration": {"value": 12, "unit": "h"} } }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 1.5, "unit": "wt%" }, "solvent": { "name": "Deionized water", "quantity": { "value": 400, "unit": "mL" }, "abrasive_mass": { "value": 6, "unit": "g" } },
+        "additives": [ { "name": "KMnO₄", "type": "Oxidizer", "concentration": { "value": 4, "unit": "g" } }, { "name": "HNO₃", "type": "pH regulator", "concentration": { "value": 3, "unit": "mol/L" } } ],
+        "target_final_slurry_ph": 2, "ultrasound_time": { "value": 20, "unit": "min" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "peak_value_approx_range": { "min": 240, "max": 300, "unit": "nm" }, "description": "Narrow peak, smaller than pure Al₂O₃", "measurement_method_used": "Nano ZS90 Zetasizer", "conditions": "pH = 2" },
+        "particle_morphology": "Improved dispersion compared to pure Al₂O₃",
+        "crystallinity_phase_composition": [ {"phase": "α-Al₂O₃", "crystal_system": "Tripartite", "space_group": "R3c", "pdf_card": "PDF#10-0173"}, {"phase": "α-MnO₂", "crystal_system": "Tetragonal", "space_group": "I4/m", "pdf_card": "PDF#44-0141", "notes": "Low intensity peaks, weak crystallinity"} ],
+        "zeta_potential_iep": null,
+        "xrd_peaks_2theta_degrees": { "Al2O3": [25.6, 35.2, 37.8, 43.4, 46.2, 52.5, 57.5, 59.7, 61.3, 66.5, 68.2, 76.9], "MnO2": [25.7, 37.5, 65.1] }
+      },
+      "cmp_performance": {
+        "substrate": { "material": "4H-SiC", "orientation": "(0001)", "diameter": { "value": 2, "unit": "inches" }, "source": "Shandong SICC Co., Ltd. China", "density": { "value": 3.16, "unit": "g/cm³"} },
+        "polishing_conditions": { "load_pressure": { "value": 6, "unit": "kg" }, "polishing_pad_rotation_speed": { "value": 70, "unit": "r/min" }, "polishing_time": { "value": 1, "unit": "h" } },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Co., Ltd., China)", "pad_composition": "Suba 800 (Dow Chemical Co., Ltd., USA)",
+        "material_removal_rate": { "value": 510, "unit": "nm/h" },
+        "pre_cmp_surface_roughness_sa": { "value": 3.31, "unit": "nm" }, "post_cmp_surface_roughness_sa": null,
+        "surface_roughness_measurement": { "instrument": "Optical profilometer (Sensofar S neox 090)", "area": "500 µm x 500 µm" }
+      },
+      "interfacial_properties": {
+        "contact_angle": { "value": 46.32, "unit": "°", "measurement_method_used": "BIOLIN Theta Flex" },
+        "dynamic_friction_coefficient": { "value": 0.236, "unit": null, "measurement_method_used": "Byes-550 friction meter" }
+      },
+      "polishing_mechanism_notes": null
+    },
+    {
+      "sample_id": "Al2O3@MnO2_0.30wt%",
+      "experiment_context": "Al₂O₃ abrasive coated with 0.30 wt% MnO₂.",
+      "synthesis_details": {
+        "base_material": "Al₂O₃ (15g)", "coating_material": "MnO₂", "coating_wt_percent": { "value": 0.30, "unit": "wt%" }, "synthesis_method": "Chemical deposition",
+        "reagents": [ {"name": "Al₂O₃ suspension", "details": "15g Al₂O₃ in 100g DI water, ultrasound 25 min"}, {"name": "KMnO₄", "details": "Amount varied to achieve target wt%"}, {"name": "HCl", "details": "5 mL of 3 mol/L solution"}, {"name": "Deionized water", "details": "Solvent and washing"}, {"name": "Absolute ethanol", "details": "Washing"} ],
+        "reaction_temperature": { "value": 50, "unit": "°C" }, "reaction_time": { "value": 30, "unit": "min", "condition": "Magnetic agitation" },
+        "post_synthesis_treatment": { "centrifugation": { "speed": 5000, "unit": "rpm", "duration": {"value": 5, "unit": "min"} }, "washing": "3 times with DI water and absolute ethanol", "drying": { "temperature": {"value": 60, "unit": "°C"}, "duration": {"value": 12, "unit": "h"} } }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 1.5, "unit": "wt%" }, "solvent": { "name": "Deionized water", "quantity": { "value": 400, "unit": "mL" }, "abrasive_mass": { "value": 6, "unit": "g" } },
+        "additives": [ { "name": "KMnO₄", "type": "Oxidizer", "concentration": { "value": 4, "unit": "g" } }, { "name": "HNO₃", "type": "pH regulator", "concentration": { "value": 3, "unit": "mol/L" } } ],
+        "target_final_slurry_ph": 2, "ultrasound_time": { "value": 20, "unit": "min" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "peak_value_approx_range": { "min": 240, "max": 300, "unit": "nm" }, "description": "Narrow peak, smaller than pure Al₂O₃", "measurement_method_used": "Nano ZS90 Zetasizer", "conditions": "pH = 2" },
+        "particle_morphology": "Improved dispersion compared to pure Al₂O₃",
+        "crystallinity_phase_composition": [ {"phase": "α-Al₂O₃", "crystal_system": "Tripartite", "space_group": "R3c", "pdf_card": "PDF#10-0173"}, {"phase": "α-MnO₂", "crystal_system": "Tetragonal", "space_group": "I4/m", "pdf_card": "PDF#44-0141", "notes": "Low intensity peaks, weak crystallinity"} ],
+        "zeta_potential_iep": null,
+        "xrd_peaks_2theta_degrees": { "Al2O3": [25.6, 35.2, 37.8, 43.4, 46.2, 52.5, 57.5, 59.7, 61.3, 66.5, 68.2, 76.9], "MnO2": [25.7, 37.5, 65.1] }
+      },
+      "cmp_performance": {
+        "substrate": { "material": "4H-SiC", "orientation": "(0001)", "diameter": { "value": 2, "unit": "inches" }, "source": "Shandong SICC Co., Ltd. China", "density": { "value": 3.16, "unit": "g/cm³"} },
+        "polishing_conditions": { "load_pressure": { "value": 6, "unit": "kg" }, "polishing_pad_rotation_speed": { "value": 70, "unit": "r/min" }, "polishing_time": { "value": 1, "unit": "h" } },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Co., Ltd., China)", "pad_composition": "Suba 800 (Dow Chemical Co., Ltd., USA)",
+        "material_removal_rate": { "value": 495, "unit": "nm/h" },
+        "pre_cmp_surface_roughness_sa": { "value": 3.31, "unit": "nm" }, "post_cmp_surface_roughness_sa": null,
+        "surface_roughness_measurement": { "instrument": "Optical profilometer (Sensofar S neox 090)", "area": "500 µm x 500 µm" }
+      },
+      "interfacial_properties": {
+        "contact_angle": { "value": 48.06, "unit": "°", "measurement_method_used": "BIOLIN Theta Flex" },
+        "dynamic_friction_coefficient": { "value": 0.221, "unit": null, "measurement_method_used": "Byes-550 friction meter" }
+      },
+      "polishing_mechanism_notes": null
+    },
+    {
+      "sample_id": "Al2O3@MnO2_0.50wt%",
+      "experiment_context": "Al₂O₃ abrasive coated with 0.50 wt% MnO₂.",
+      "synthesis_details": {
+        "base_material": "Al₂O₃ (15g)", "coating_material": "MnO₂", "coating_wt_percent": { "value": 0.50, "unit": "wt%" }, "synthesis_method": "Chemical deposition",
+        "reagents": [ {"name": "Al₂O₃ suspension", "details": "15g Al₂O₃ in 100g DI water, ultrasound 25 min"}, {"name": "KMnO₄", "details": "0.1669 g (explicitly stated for this sample)"}, {"name": "HCl", "details": "5 mL of 3 mol/L solution"}, {"name": "Deionized water", "details": "Solvent and washing"}, {"name": "Absolute ethanol", "details": "Washing"} ],
+        "reaction_temperature": { "value": 50, "unit": "°C" }, "reaction_time": { "value": 30, "unit": "min", "condition": "Magnetic agitation" },
+        "post_synthesis_treatment": { "centrifugation": { "speed": 5000, "unit": "rpm", "duration": {"value": 5, "unit": "min"} }, "washing": "3 times with DI water and absolute ethanol", "drying": { "temperature": {"value": 60, "unit": "°C"}, "duration": {"value": 12, "unit": "h"} } }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 1.5, "unit": "wt%" }, "solvent": { "name": "Deionized water", "quantity": { "value": 400, "unit": "mL" }, "abrasive_mass": { "value": 6, "unit": "g" } },
+        "additives": [ { "name": "KMnO₄", "type": "Oxidizer", "concentration": { "value": 4, "unit": "g" } }, { "name": "HNO₃", "type": "pH regulator", "concentration": { "value": 3, "unit": "mol/L" } } ],
+        "target_final_slurry_ph": 2, "ultrasound_time": { "value": 20, "unit": "min" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "peak_value_approx": null, "description": "Wide peak, indicates aggregation", "measurement_method_used": "Nano ZS90 Zetasizer", "conditions": "pH = 2" },
+        "particle_morphology": "Improved dispersion compared to pure Al₂O₃, but potential aggregation at higher coating % (SEM Fig 2b, Size Dist Fig 3)",
+        "crystallinity_phase_composition": [ {"phase": "α-Al₂O₃", "crystal_system": "Tripartite", "space_group": "R3c", "pdf_card": "PDF#10-0173"}, {"phase": "α-MnO₂", "crystal_system": "Tetragonal", "space_group": "I4/m", "pdf_card": "PDF#44-0141", "notes": "Low intensity peaks, weak crystallinity"} ],
+        "zeta_potential_iep": { "value": 8.6, "unit": "pH" },
+        "xrd_peaks_2theta_degrees": { "Al2O3": [25.6, 35.2, 37.8, 43.4, 46.2, 52.5, 57.5, 59.7, 61.3, 66.5, 68.2, 76.9], "MnO2": [25.7, 37.5, 65.1] }
+      },
+      "cmp_performance": {
+        "substrate": { "material": "4H-SiC", "orientation": "(0001)", "diameter": { "value": 2, "unit": "inches" }, "source": "Shandong SICC Co., Ltd. China", "density": { "value": 3.16, "unit": "g/cm³"} },
+        "polishing_conditions": { "load_pressure": { "value": 6, "unit": "kg" }, "polishing_pad_rotation_speed": { "value": 70, "unit": "r/min" }, "polishing_time": { "value": 1, "unit": "h" } },
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Co., Ltd., China)", "pad_composition": "Suba 800 (Dow Chemical Co., Ltd., USA)",
+        "material_removal_rate": { "value": 405, "unit": "nm/h" },
+        "pre_cmp_surface_roughness_sa": { "value": 3.31, "unit": "nm" }, "post_cmp_surface_roughness_sa": null,
+        "surface_roughness_measurement": { "instrument": "Optical profilometer (Sensofar S neox 090)", "area": "500 µm x 500 µm" }
+      },
+      "interfacial_properties": {
+        "contact_angle": { "value": 54.31, "unit": "°", "measurement_method_used": "BIOLIN Theta Flex" },
+        "dynamic_friction_coefficient": { "value": 0.217, "unit": null, "measurement_method_used": "Byes-550 friction meter" }
+      },
+      "polishing_mechanism_notes": null
+    }
+  ]
+}

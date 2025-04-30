@@ -1,0 +1,351 @@
+{
+  "doi": null,
+  "title": "Ceria concentration effect on chemical mechanical polishing of optical glass",
+  "year_published": "2006",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "CeO2_1wt%",
+      "experiment_context": "Optical glass CMP using commercial ceria slurry at 1 wt% concentration.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_type": "Ceria (CeO₂)",
+        "abrasive_source": "Shanghai Gona Powder Technology Co. Ltd.",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "dispersant",
+            "type": "dispersant",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_adjustment_agent": "0.1 M nitric acid",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "preparation_details": "Abrasives dispersed and treated by ultrasound for 10 min."
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "40-80",
+          "unit": "nm",
+          "measurement_method_used": "SEM",
+          "details": "Most particles around 80 nm, some 40 nm exist (Fig. 3)."
+        },
+        "particle_morphology": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "surface_ce_valence_state": {
+            "description": "High absorption peaks for both Ce³⁺ and Ce⁴⁺ observed (Fig. 5).",
+            "Ce3+_peak_nm": 342,
+            "Ce4+_peak_nm": "357-377"
+        },
+        "instrument_device_model": {
+            "SEM": "FESEM, s-4700 type, Hitachi",
+            "Spectrophotometer": "V-570 UV/VIS/NIR Spectrophotometer (JASCO, Japan)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "Optical glass",
+        "substrate_size": {
+            "value": "2.5",
+            "unit": "in"
+        },
+        "polishing_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "250",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "pad_rotation_speed": {
+            "value": "150",
+            "unit": "rpm"
+        },
+        "wafer_rotation_speed": {
+            "value": "150",
+            "unit": "rpm"
+        },
+        "slurry_feed_rate": {
+            "value": "100",
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CMP Tester (CETR CP-4)",
+        "pad_composition": "IC 1000/Suba IV stacked pad (Rodel)",
+        "pre_cmp_surface_roughness_rms": {
+            "value": "9.7",
+            "unit": "Å",
+            "measurement_area": "1 µm x 1 µm",
+            "measurement_method_used": "AFM"
+        },
+        "post_cmp_surface_roughness_rms": {
+            "value": "4.85",
+            "unit": "Å",
+            "details": "Approximated midpoint of range 4.7-5.0 Å mentioned for 0.25-1 wt% slurries.",
+            "measurement_area": "1 µm x 1 µm",
+            "measurement_method_used": "AFM"
+        },
+        "instrument_device_model": {
+            "AFM": "Q-Scope 250 (Quesant Instrument Corporation, USA)"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "CeO2_0.5wt%",
+      "experiment_context": "Optical glass CMP using commercial ceria slurry at 0.5 wt% concentration.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_type": "Ceria (CeO₂)",
+        "abrasive_source": "Shanghai Gona Powder Technology Co. Ltd.",
+        "abrasive_ceria_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "dispersant",
+            "type": "dispersant",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_adjustment_agent": "0.1 M nitric acid",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "preparation_details": "Abrasives dispersed and treated by ultrasound for 10 min."
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "40-80",
+          "unit": "nm",
+          "measurement_method_used": "SEM",
+          "details": "Most particles around 80 nm, some 40 nm exist (Fig. 3)."
+        },
+        "particle_morphology": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+         "surface_ce_valence_state": {
+            "description": "Ratio of Ce³⁺ to Ce⁴⁺ increased compared to 1 wt% (Fig. 5).",
+            "Ce3+_peak_nm": 342,
+            "Ce4+_peak_nm": "357-377"
+        },
+        "instrument_device_model": {
+            "SEM": "FESEM, s-4700 type, Hitachi",
+            "Spectrophotometer": "V-570 UV/VIS/NIR Spectrophotometer (JASCO, Japan)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "Optical glass",
+         "substrate_size": {
+            "value": "2.5",
+            "unit": "in"
+        },
+        "polishing_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "375",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "pad_rotation_speed": {
+            "value": "150",
+            "unit": "rpm"
+        },
+        "wafer_rotation_speed": {
+            "value": "150",
+            "unit": "rpm"
+        },
+        "slurry_feed_rate": {
+            "value": "100",
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CMP Tester (CETR CP-4)",
+        "pad_composition": "IC 1000/Suba IV stacked pad (Rodel)",
+        "pre_cmp_surface_roughness_rms": {
+            "value": "9.7",
+            "unit": "Å",
+            "measurement_area": "1 µm x 1 µm",
+            "measurement_method_used": "AFM"
+        },
+        "post_cmp_surface_roughness_rms": {
+            "value": "4.85",
+            "unit": "Å",
+            "details": "Approximated midpoint of range 4.7-5.0 Å mentioned for 0.25-1 wt% slurries.",
+            "measurement_area": "1 µm x 1 µm",
+            "measurement_method_used": "AFM"
+        },
+         "instrument_device_model": {
+            "AFM": "Q-Scope 250 (Quesant Instrument Corporation, USA)"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "CeO2_0.25wt%",
+      "experiment_context": "Optical glass CMP using commercial ceria slurry at 0.25 wt% concentration.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_type": "Ceria (CeO₂)",
+        "abrasive_source": "Shanghai Gona Powder Technology Co. Ltd.",
+        "abrasive_ceria_concentration": {
+          "value": "0.25",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "dispersant",
+            "type": "dispersant",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_adjustment_agent": "0.1 M nitric acid",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "preparation_details": "Abrasives dispersed and treated by ultrasound for 10 min."
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "40-80",
+          "unit": "nm",
+          "measurement_method_used": "SEM",
+          "details": "Most particles around 80 nm, some 40 nm exist (Fig. 3)."
+        },
+        "particle_morphology": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+         "surface_ce_valence_state": {
+            "description": "Almost no maximum absorption for Ce⁴⁺ ions, while Ce³⁺ absorption peak remained high (Fig. 5).",
+            "Ce3+_peak_nm": 342,
+            "Ce4+_peak_nm": "357-377"
+        },
+        "instrument_device_model": {
+            "SEM": "FESEM, s-4700 type, Hitachi",
+            "Spectrophotometer": "V-570 UV/VIS/NIR Spectrophotometer (JASCO, Japan)"
+        }
+      },
+      "cmp_performance": {
+        "substrate_material": "Optical glass",
+         "substrate_size": {
+            "value": "2.5",
+            "unit": "in"
+        },
+        "polishing_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "675",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "pad_rotation_speed": {
+            "value": "150",
+            "unit": "rpm"
+        },
+        "wafer_rotation_speed": {
+            "value": "150",
+            "unit": "rpm"
+        },
+        "slurry_feed_rate": {
+            "value": "100",
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CMP Tester (CETR CP-4)",
+        "pad_composition": "IC 1000/Suba IV stacked pad (Rodel)",
+        "pre_cmp_surface_roughness_rms": {
+            "value": "9.7",
+            "unit": "Å",
+            "measurement_area": "1 µm x 1 µm",
+            "measurement_method_used": "AFM"
+        },
+        "post_cmp_surface_roughness_rms": {
+            "value": "4.7",
+            "unit": "Å",
+            "measurement_area": "1 µm x 1 µm",
+            "measurement_method_used": "AFM"
+        },
+         "instrument_device_model": {
+            "AFM": "Q-Scope 250 (Quesant Instrument Corporation, USA)"
+        }
+      },
+      "theoretical_analysis": {
+          "mechanism_notes": "Increased MRR at lower concentration attributed to: 1) Better abrasive dispersion/uniformity leading to higher proportion of functioning particles. 2) Quantum effect: Lower concentration facilitates Ce⁴⁺ -> Ce³⁺ reduction on abrasive surface (promoted by ultrasound and potentially impurities), forming a beneficial Ce(OH)₃ hydration layer."
+      }
+    }
+  ]
+}

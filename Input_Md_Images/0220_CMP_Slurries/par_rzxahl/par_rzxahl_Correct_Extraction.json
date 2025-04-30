@@ -1,0 +1,197 @@
+{
+  "doi": null,
+  "title": "Effect of Ceria Abrasives on Planarization Efficiency in STI CMP Process",
+  "year_published": "2009",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Silica_Slurry_STI_CMP",
+      "experiment_context": "Standard fumed silica-based slurry used for comparison in Shallow Trench Isolation (STI) Chemical Mechanical Polishing (CMP) planarization efficiency study.",
+      "slurry_preparation": {
+        "abrasive_type": "Fumed Silica",
+        "abrasive_concentration": {
+          "value": "12",
+          "unit": "wt%"
+        },
+        "target_final_slurry_ph": "10.9",
+        "solvent": {
+          "name": "Aqueous Alkaline Solution",
+          "quantity": null
+        },
+        "additives": []
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+         "crystallite_size": null,
+         "crystallinity_phase_composition": null,
+         "particle_morphology": null
+      },
+      "cmp_performance": {
+        "polishing_substrate": "Thermal Oxide Wafer",
+        "substrate_details": "4 inch thermal oxide wafers of 1 um thickness (for P/V tests); Oxide patterned wafer ~7000 A thickness (for planarization tests)",
+        "polishing_conditions_tested": {
+          "pressure_range": {
+            "values": [60, 100, 300, 500, 700],
+            "unit": "g/cm^2"
+          },
+          "relative_velocity_range": {
+            "values": [22.1, 44.3, 66.4, 88.5, 110.7],
+            "unit": "m/min"
+          },
+          "rotational_velocity_range": {
+            "values": ["30/30", "60/60", "90/90", "120/120", "150/150"],
+            "unit": "rpm (carrier/platen)"
+          },
+          "slurry_flow_rate": {
+            "value": 150,
+            "unit": "cc/min"
+          },
+           "polishing_time": {
+             "value": null,
+             "unit": "s",
+             "notes": "Varied up to 180s in patterned wafer tests (Fig 2)."
+           }
+        },
+        "removal_rate_model": {
+          "equation": "RR = k_s * P^alpha * V^beta",
+          "k_s": {
+            "value": "10^-0.75",
+            "unit": "A/min / (g/cm^2)^1.05 / (m/min)^0.79"
+          },
+          "alpha": 1.05,
+          "beta": 0.79,
+          "fitting_reliability": 0.99,
+          "notes": "Units derived from text and Table II note. RR unit A/min."
+        },
+        "friction_force_model": {
+          "equation": "F = k_s' * P^a * V^b",
+          "k_s_prime": {
+            "value": "10^-1.16",
+            "unit": "kgf / (g/cm^2)^0.81 / (m/min)^-0.03"
+          },
+          "a": 0.81,
+          "b": -0.03,
+          "fitting_reliability": 0.97,
+          "notes": "Units derived from text and Table II note. F unit kgf assumed from kg_b."
+        },
+        "chemical_contribution_model": {
+          "equation": "ChemContrib = RR / (F * V)",
+          "proportionality": "P^0.24 * V^-0.18"
+        },
+        "planarization_efficiency_notes": "Lower efficiency compared to ceria slurry at shorter polishing times (See Figure 2).",
+        "equipment_model": "GNP POLI400 polisher (G&P Technology Inc.) with Type 9135B Kistler force sensor",
+        "pad_composition": "Polyurethane with micro pores (IC1400, Nitta-Haas)",
+        "pad_conditioning": {
+          "method": "ex situ",
+          "pressure": {
+            "value": 60,
+            "unit": "g/cm^2"
+          },
+          "velocity": {
+            "value": 60,
+            "unit": "rpm"
+          },
+          "conditioner_type": "diamond segment type"
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_Slurry_STI_CMP",
+      "experiment_context": "Ceria-based slurry used to study planarization efficiency in Shallow Trench Isolation (STI) Chemical Mechanical Polishing (CMP), compared against silica-based slurry.",
+      "slurry_preparation": {
+        "abrasive_type": "Ceria",
+        "abrasive_concentration": {
+          "value": "1.95",
+          "unit": "wt%"
+        },
+        "target_final_slurry_ph": "6.34",
+        "solvent": {
+          "name": "Aqueous Neutral Solution",
+          "quantity": null
+        },
+        "additives": [
+           {
+            "name": "Poly-acrylic acid (PAA)",
+            "type": "Anionic organic additive",
+            "concentration": null,
+            "notes": "Mentioned in introduction/discussion context related to 'self-stopping' characteristic."
+           }
+        ]
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+         "crystallite_size": null,
+         "crystallinity_phase_composition": null,
+         "particle_morphology": null
+      },
+      "cmp_performance": {
+        "polishing_substrate": "Thermal Oxide Wafer",
+        "substrate_details": "4 inch thermal oxide wafers of 1 um thickness (for P/V tests); Oxide patterned wafer ~7000 A thickness (for planarization tests)",
+        "polishing_conditions_tested": {
+          "pressure_range": {
+            "values": [60, 100, 300, 500, 700],
+            "unit": "g/cm^2"
+          },
+          "relative_velocity_range": {
+            "values": [22.1, 44.3, 66.4, 88.5, 110.7],
+            "unit": "m/min"
+          },
+          "rotational_velocity_range": {
+            "values": ["30/30", "60/60", "90/90", "120/120", "150/150"],
+            "unit": "rpm (carrier/platen)"
+          },
+          "slurry_flow_rate": {
+            "value": 150,
+            "unit": "cc/min"
+          },
+           "polishing_time": {
+             "value": null,
+             "unit": "s",
+             "notes": "Varied up to 180s in patterned wafer tests (Fig 2)."
+           }
+        },
+        "removal_rate_model": {
+          "equation": "RR = k_c * P^alpha * V^beta",
+          "k_c": {
+            "value": "10^-3.78",
+            "unit": "A/min / (g/cm^2)^2.06 / (m/min)^0.98"
+          },
+          "alpha": 2.06,
+          "beta": 0.98,
+          "fitting_reliability": 0.97,
+          "notes": "Units derived from text and Table II note. RR unit A/min."
+        },
+        "friction_force_model": {
+          "equation": "F = k_c' * P^a * V^b",
+          "k_c_prime": {
+            "value": "10^-1.68",
+            "unit": "kgf / (g/cm^2)^1.11 / (m/min)^-0.10"
+          },
+          "a": 1.11,
+          "b": -0.10,
+          "fitting_reliability": 0.99,
+          "notes": "Units derived from text and Table II note. F unit kgf assumed from kg_b."
+        },
+        "chemical_contribution_model": {
+          "equation": "ChemContrib = RR / (F * V)",
+          "proportionality": "P^0.95 * V^0.08"
+        },
+        "planarization_efficiency_notes": "Higher efficiency compared to silica slurry at shorter polishing times due to high pressure dependency (alpha > 1) (See Figure 2).",
+        "equipment_model": "GNP POLI400 polisher (G&P Technology Inc.) with Type 9135B Kistler force sensor",
+        "pad_composition": "Polyurethane with micro pores (IC1400, Nitta-Haas)",
+        "pad_conditioning": {
+          "method": "ex situ",
+          "pressure": {
+            "value": 60,
+            "unit": "g/cm^2"
+          },
+          "velocity": {
+            "value": 60,
+            "unit": "rpm"
+          },
+          "conditioner_type": "diamond segment type"
+        }
+      }
+    }
+  ]
+}

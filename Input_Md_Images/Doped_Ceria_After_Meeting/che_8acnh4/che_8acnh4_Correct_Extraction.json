@@ -1,0 +1,1516 @@
+{
+  "doi": null,
+  "title": "Review on chemical mechanical polishing for atomic surfaces using advanced rare earth abrasives",
+  "year_published": "2025",
+  "journal": "J. Phys. D: Appl. Phys.",
+  "samples": [
+    {
+      "sample_id": "SiO2_pCeO2_Ref[48]",
+      "experiment_context": "Polishing of SiO2 using porous ceria (pCeO2) abrasives. Data from Figure 3.",
+      "abrasive_type": "Porous Ceria (pCeO2)",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "surface_roughness": {
+          "value": "~0.1",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[48]"
+    },
+    {
+      "sample_id": "SiO2_pCeZrO2_Ref[48]",
+      "experiment_context": "Polishing of SiO2 using Zr-doped porous ceria (pCeZrO2) abrasives. Data from Figure 3.",
+      "abrasive_type": "Zr-doped Porous Ceria (pCeZrO2)",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "surface_roughness": {
+          "value": "~0.15",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[48]"
+    },
+    {
+      "sample_id": "SiO2_pCeGdO2_Ref[48]",
+      "experiment_context": "Polishing of SiO2 using Gd-doped porous ceria (pCeGdO2) abrasives. Data from Figure 3.",
+      "abrasive_type": "Gd-doped Porous Ceria (pCeGdO2)",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "surface_roughness": {
+          "value": "~0.15",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[48]"
+    },
+    {
+      "sample_id": "SiO2_CeO2-Air_Ref[49]",
+      "experiment_context": "Polishing of SiO2 using CeO2 synthesized in air. Data from Figure 3.",
+      "abrasive_type": "CeO2-Air",
+      "synthesis_conditions": {
+        "environmental_conditions": "Air"
+      },
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "~400",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "~0.4",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[49]"
+    },
+    {
+      "sample_id": "SiO2_CeO2-Ar_Ref[49]",
+      "experiment_context": "Polishing of SiO2 using CeO2 synthesized in Ar. Data from Figure 3.",
+      "abrasive_type": "CeO2-Ar",
+      "synthesis_conditions": {
+        "environmental_conditions": "Ar"
+      },
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "~450",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "~0.3",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[49]"
+    },
+    {
+      "sample_id": "SiO2_CeO2-Ar/H2_Ref[49]",
+      "experiment_context": "Polishing of SiO2 using CeO2 synthesized in Ar/H2. Data from Figure 3.",
+      "abrasive_type": "CeO2-Ar/H2",
+      "synthesis_conditions": {
+        "environmental_conditions": "Ar/H2"
+      },
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "~500",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "~0.25",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[49]"
+    },
+    {
+      "sample_id": "SiO2_Ce0.9La0.1O2_Ref[50]",
+      "experiment_context": "Polishing of SiO2 using Ce0.9La0.1O2 abrasives. Data from Figure 3.",
+      "abrasive_type": "Ce0.9La0.1O2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "~550",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "~0.65",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[50]"
+    },
+    {
+      "sample_id": "SiO2_Ce0.8La0.2O2_Ref[50]",
+      "experiment_context": "Polishing of SiO2 using Ce0.8La0.2O2 abrasives. Data from Figure 3.",
+      "abrasive_type": "Ce0.8La0.2O2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "~580",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "~0.6",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[50]"
+    },
+    {
+      "sample_id": "SiO2_Ce0.7La0.3O2_Ref[50]",
+      "experiment_context": "Polishing of SiO2 using Ce0.7La0.3O2 abrasives. Data from Figure 3.",
+      "abrasive_type": "Ce0.7La0.3O2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "~600",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "~0.55",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[50]"
+    },
+    {
+      "sample_id": "SiO2_Ce0.96Y0.02Pr0.02O2_Ref[19]",
+      "experiment_context": "Polishing of SiO2 using Ce0.96Y0.02Pr0.02O2 abrasives. Data from Figure 3.",
+      "abrasive_type": "Ce0.96Y0.02Pr0.02O2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "~650",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "~0.36",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[19]"
+    },
+    {
+      "sample_id": "FusedGlass_CeO2_AxisFeedGrinding_Ref[56]",
+      "experiment_context": "Axis-feed grinding of fused glass assisted by pure CeO2 atomizing liquid. Data from Figure 4.",
+      "abrasive_type": "Pure CeO2 atomizing liquid",
+      "polished_material": "Fused glass",
+      "cmp_performance": {
+        "feed_rate": {
+          "value": "1",
+          "unit": "mm/min"
+        },
+        "grinding_depth": {
+          "value": "20",
+          "unit": "um"
+        },
+        "surface_roughness": {
+          "value": "1.05",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[56]"
+    },
+    {
+      "sample_id": "SiO2_PS-PANI-CeO2_Ref[64]",
+      "experiment_context": "Polishing of SiO2 using PS/PANI/CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "PS/PANI/CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "81",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.122",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[64]"
+    },
+    {
+      "sample_id": "SiO2_PMMA-CeO2_Ref[65]",
+      "experiment_context": "Polishing of SiO2 using PMMA/CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "PMMA/CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "266.2",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.154",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[65]"
+    },
+    {
+      "sample_id": "SiO2_mSiO2-CdS-CeO2_Ref[66]",
+      "experiment_context": "Polishing of SiO2 using mSiO2@CdS@CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "mSiO2@CdS@CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "surface_roughness": {
+          "value": "0.134",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[66]"
+    },
+    {
+      "sample_id": "SiO2_mSiO2-CeGdO2_Ref[67]",
+      "experiment_context": "Polishing of SiO2 using mSiO2@CeGdO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "mSiO2@CeGdO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "surface_roughness": {
+          "value": "0.137",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[67]"
+    },
+    {
+      "sample_id": "SiO2_CS-CeO2_Ref[68]",
+      "experiment_context": "Polishing of SiO2 using CS/CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "CS/CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "93-127",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.11",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[68]"
+    },
+    {
+      "sample_id": "SiO2_CS-CeYO2_Ref[68]",
+      "experiment_context": "Polishing of SiO2 using CS/CeYO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "CS/CeYO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "128-150",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.10",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[68]"
+    },
+    {
+      "sample_id": "SiO2_mSiO2-CeO2_Ref[69]",
+      "experiment_context": "Polishing of SiO2 using mSiO2/CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "mSiO2/CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "38-66",
+          "unit": "nm/min"
+        },
+        "surface_roughness": null
+      },
+      "reference_info": "[69]"
+    },
+    {
+      "sample_id": "SiO2_mSiO2-Ce0.81Et0.17O2_Ref[69]",
+      "experiment_context": "Polishing of SiO2 using mSiO2/Ce0.81Et0.17O2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "mSiO2/Ce0.81Et0.17O2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "71-99",
+          "unit": "nm/min"
+        },
+        "surface_roughness": null
+      },
+      "reference_info": "[69]"
+    },
+    {
+      "sample_id": "SiO2_PS-CeO2_Ref[70]",
+      "experiment_context": "Polishing of SiO2 using PS/CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "PS/CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "26",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.11",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[70]"
+    },
+    {
+      "sample_id": "SiO2_D-mSiO2-CeO2_Ref[70]",
+      "experiment_context": "Polishing of SiO2 using D-mSiO2/CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "D-mSiO2/CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "85",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.15",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[70]"
+    },
+    {
+      "sample_id": "SiO2_Ce0.92La0.08O2_Ref[71]",
+      "experiment_context": "Polishing of SiO2 using Ce0.92La0.08O2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "Ce0.92La0.08O2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "562.66",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.648",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[71]"
+    },
+    {
+      "sample_id": "SiO2_Ce0.92Pr0.08O2_Ref[71]",
+      "experiment_context": "Polishing of SiO2 using Ce0.92Pr0.08O2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "Ce0.92Pr0.08O2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "578.74",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.628",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[71]"
+    },
+    {
+      "sample_id": "SiO2_Ce0.92Y0.08O2_Ref[71]",
+      "experiment_context": "Polishing of SiO2 using Ce0.92Y0.08O2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "Ce0.92Y0.08O2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "626.97",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.509",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[71]"
+    },
+    {
+      "sample_id": "SiC_SiO2-CeO2_Ref[72]",
+      "experiment_context": "Polishing of Si-Face 6H-SiC using SiO2/CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "SiO2/CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "Si-Face 6H-SiC",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "20.12",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.216",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[72]"
+    },
+    {
+      "sample_id": "UTG_PS-CeO2-La_Ref[73]",
+      "experiment_context": "Polishing of UTG using PS@CeO2/La core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "PS@CeO2/La",
+      "particle_morphology": "Core-shell",
+      "polished_material": "UTG",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "480.22",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.32",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[73]"
+    },
+    {
+      "sample_id": "Sapphire_PS-CeO2-DND_Ref[74]",
+      "experiment_context": "Polishing of Sapphire wafer using PS@CeO2/DND core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "PS@CeO2/DND",
+      "particle_morphology": "Core-shell",
+      "polished_material": "Sapphire wafer",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "23.33-28.33",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.52",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[74]"
+    },
+    {
+      "sample_id": "SiC_PU-CeO2_Ref[75]",
+      "experiment_context": "Polishing of SiC using Polyurethane-CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "Polyurethane-CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "50-66.67",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.51",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "720x540 um^2"
+        }
+      },
+      "reference_info": "[75]"
+    },
+    {
+      "sample_id": "RB-SiC_CeO2-TiO2_Ref[32]",
+      "experiment_context": "Polishing of RB-SiC using CeO2-TiO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "CeO2-TiO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "RB-SiC",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "9.817",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "1.112",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[32]"
+    },
+    {
+      "sample_id": "RB-SiC_PS-CeO2_Ref[32]",
+      "experiment_context": "Polishing of RB-SiC using PS/CeO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "PS/CeO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "RB-SiC",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "14.633",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.589",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "2.5x2.5 um^2"
+        }
+      },
+      "reference_info": "[32]"
+    },
+    {
+      "sample_id": "RB-SiC_PS-CeO2-TiO2_Ref[32]",
+      "experiment_context": "Polishing of RB-SiC using PS/CeO2-TiO2 core-shell abrasives. Data from Table 1.",
+      "abrasive_type": "PS/CeO2-TiO2",
+      "particle_morphology": "Core-shell",
+      "polished_material": "RB-SiC",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "20.383",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.497",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "2.5x2.5 um^2"
+        }
+      },
+      "reference_info": "[32]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_Na2CO3_DIW_Ref[98]",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry with Na2CO3 and DIW. Data from Table 2.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "Na2CO3" }
+        ],
+        "solvent": { "name": "DIW" }
+      },
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "125.34",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.093",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "20x20 um^2"
+        }
+      },
+      "reference_info": "[98]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_hBN_KOL_DIW_Ref[99]",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry with h-BN nanoflakes, KOL, and DIW. Data from Table 2.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "h-BN nanoflakes", "type": "Lubricant" },
+          { "name": "KOL" }
+        ],
+        "solvent": { "name": "DIW" }
+      },
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "532",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.124",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "10x10 um^2"
+        }
+      },
+      "reference_info": "[99]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_LaOF_K4P2O7_SNLS_PAAS_DIW_Ref[100]",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry with LaOF, K4P2O7, SNLS, PAAS and DIW. Data from Table 2.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "LaOF" },
+          { "name": "K4P2O7" },
+          { "name": "SNLS", "type": "Dispersant" },
+          { "name": "PAAS", "type": "Dispersant" }
+        ],
+        "solvent": { "name": "DIW" }
+      },
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "530.52",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.23",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "50x50 um^2"
+        }
+      },
+      "reference_info": "[100]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_SA_SDS_DIW_Ref[21]",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry with SA, SDS and DIW. Data from Table 2.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "SA" },
+          { "name": "SDS" }
+        ],
+        "solvent": { "name": "DIW" }
+      },
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "553.58",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.08",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "20x20 um^2"
+        }
+      },
+      "reference_info": "[21]"
+    },
+    {
+      "sample_id": "6H-SiC_ColloidalCeria_KMnO4_pH2_Ref[101]",
+      "experiment_context": "Polishing of 6H-SiC using Colloidal ceria slurry with KMnO4 at pH 2. Data from Table 2.",
+      "abrasive_type": "Colloidal ceria",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "KMnO4", "type": "Oxidizer" }
+        ],
+        "target_final_slurry_ph": "2"
+      },
+      "polished_material": "6H-SiC",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "18.15",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.11",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "2x2 um^2"
+        }
+      },
+      "reference_info": "[101]"
+    },
+    {
+      "sample_id": "P-Si(100)_CeO2_NaPO3_CH3COOH_Ref[102]",
+      "experiment_context": "Polishing of P-Si (100) using CeO2 slurry with (NaPO3)6 and CH3COOH. Data from Table 2.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "(NaPO3)6" },
+          { "name": "CH3COOH" }
+        ]
+      },
+      "polished_material": "P-Si (100)",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "412",
+          "unit": "nm/min"
+        },
+        "surface_roughness": null
+      },
+      "reference_info": "[102]"
+    },
+    {
+      "sample_id": "STI_CeO2_DIW_Acrylic_Ref[103]",
+      "experiment_context": "Polishing of STI using CeO2 slurry with DIW and acrylic. Data from Table 2.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "acrylic" }
+        ],
+        "solvent": { "name": "DIW" }
+      },
+      "polished_material": "STI",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "288.3",
+          "unit": "nm/min"
+        },
+        "surface_roughness": null
+      },
+      "reference_info": "[103]"
+    },
+    {
+      "sample_id": "KDP_CeO2_CornOil_Na2CO3_Polysorbate_Ref[104]",
+      "experiment_context": "Polishing of KDP using CeO2 slurry with Corn oil, Na2CO3 solution, and polysorbate. Data from Table 2.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "Corn oil" },
+          { "name": "Na2CO3 solution" },
+          { "name": "polysorbate" }
+        ]
+      },
+      "polished_material": "KDP",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "644",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.648",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "100x100 um^2"
+        }
+      },
+      "reference_info": "[104]"
+    },
+    {
+      "sample_id": "Cu_CeO2_SiO2_H2O2_NaHCO3_PolyasparticAcid_DIW_Ref[105]",
+      "experiment_context": "Polishing of Cu using CeO2/SiO2 slurry with H2O2, NaHCO3, Polyaspartic acid and DIW. Data from Table 2.",
+      "abrasive_type": "CeO2, SiO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "H2O2", "type": "Oxidizer" },
+          { "name": "NaHCO3" },
+          { "name": "Polyaspartic acid" }
+        ],
+        "solvent": { "name": "DIW" }
+      },
+      "polished_material": "Cu",
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "surface_roughness": {
+          "value": "0.092",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "50x50 um^2"
+        }
+      },
+      "reference_info": "[105]"
+    },
+    {
+      "sample_id": "Cu_SiO2-CeO2_H2O2_GLY_BTA_NaOH_Ref[106]",
+      "experiment_context": "Polishing of Cu using SiO2/CeO2 slurry with H2O2, GLY, BTA, NaOH. Data from Table 2.",
+      "abrasive_type": "SiO2/CeO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "H2O2", "type": "Oxidizer" },
+          { "name": "GLY" },
+          { "name": "BTA" },
+          { "name": "NaOH", "type": "pH adjuster" }
+        ]
+      },
+      "polished_material": "Cu",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "279",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "0.363",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[106]"
+    },
+    {
+      "sample_id": "LimeGlass_CeO2_HCl_Ref[107]",
+      "experiment_context": "Polishing of Lime glass using CeO2 slurry with H2O and dilute HCl. Data from Table 2.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "dilute hydrochloric acid", "type": "pH adjuster" }
+        ],
+        "solvent": { "name": "H2O" }
+      },
+      "polished_material": "Lime glass",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "365.5",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "1.56",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "500x500 um^2"
+        }
+      },
+      "reference_info": "[107]"
+    },
+    {
+      "sample_id": "LimeGlass_CeO2-NH2_HCl_Ref[107]",
+      "experiment_context": "Polishing of Lime glass using CeO2-NH2 slurry with H2O and dilute HCl. Data from Table 2.",
+      "abrasive_type": "CeO2-NH2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "dilute hydrochloric acid", "type": "pH adjuster" }
+        ],
+        "solvent": { "name": "H2O" }
+      },
+      "polished_material": "Lime glass",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "370.33",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "1.53",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "500x500 um^2"
+        }
+      },
+      "reference_info": "[107]"
+    },
+    {
+      "sample_id": "LimeGlass_CeO2-EDTA_HCl_Ref[107]",
+      "experiment_context": "Polishing of Lime glass using CeO2-EDTA slurry with H2O and dilute HCl. Data from Table 2.",
+      "abrasive_type": "CeO2-EDTA",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "dilute hydrochloric acid", "type": "pH adjuster" }
+        ],
+        "solvent": { "name": "H2O" }
+      },
+      "polished_material": "Lime glass",
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "490.5",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "1.31",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "500x500 um^2"
+        }
+      },
+      "reference_info": "[107]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_pH6_Ref[113]",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry at pH 6.0. Data from Table 3.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "target_final_slurry_ph": "6.0"
+      },
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "27.6", "unit": "kPa" },
+        "pad_speed": { "value": "50", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "100", "unit": "ml/min" },
+        "polishing_time": { "value": "5", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.02",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[113]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_Na2CO3_DIW_Ref[98]_Params",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry with Na2CO3 and DIW. Process parameters from Table 3.",
+      "abrasive_type": "CeO2",
+      "slurry_preparation": {
+        "additives": [ { "name": "Na2CO3" } ],
+        "solvent": { "name": "DIW" }
+      },
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "30", "unit": "kPa" },
+        "pad_speed": { "value": "160", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "5", "unit": "ml/min" },
+        "polishing_time": null,
+        "surface_roughness": {
+          "value": "0.093",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "20x20 um^2"
+        }
+      },
+      "reference_info": "[98]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_Ref[144]_Params",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry. Process parameters from Table 3.",
+      "abrasive_type": "CeO2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "23.8", "unit": "kPa" },
+        "pad_speed": { "value": "87", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "300", "unit": "ml/min" },
+        "polishing_time": { "value": "1", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.45",
+          "unit": "nm",
+          "type": "Sq",
+          "measuring_range": "10x10 um^2"
+        }
+      },
+      "reference_info": "[144]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_Ref[145]_Params",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry. Process parameters from Table 3.",
+      "abrasive_type": "CeO2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "20.7", "unit": "kPa" },
+        "pad_speed": { "value": "87", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "120", "unit": "ml/min" },
+        "polishing_time": { "value": "1", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.183",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[145]"
+    },
+    {
+      "sample_id": "SiO2_NanoclusteredCeria_Ref[42]_Params",
+      "experiment_context": "Polishing of SiO2 using nanoclustered ceria abrasives. Process parameters from Table 3.",
+      "abrasive_type": "Nanoclustered Ceria",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "27.6", "unit": "kPa" },
+        "pad_speed": { "value": "93", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "150", "unit": "ml/min" },
+        "polishing_time": { "value": "1", "unit": "min" },
+        "surface_roughness": null
+      },
+      "reference_info": "[42]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_Ref[146]_Params",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry. Process parameters from Table 3.",
+      "abrasive_type": "CeO2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "200", "unit": "kPa" },
+        "pad_speed": { "value": "80", "unit": "rpm" },
+        "slurry_flow_rate": null,
+        "polishing_time": { "value": "90", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.52",
+          "unit": "nm",
+          "type": "Rq",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[146]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_Ref[147]_Params",
+      "experiment_context": "Polishing of SiO2 using CeO2 slurry. Process parameters from Table 3.",
+      "abrasive_type": "CeO2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "20", "unit": "kPa" },
+        "pad_speed": { "value": "90", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "100", "unit": "ml/min" },
+        "polishing_time": { "value": "1", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.36",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[147]"
+    },
+    {
+      "sample_id": "SiO2_CeO2_YPrDoped_Ref[19]_Params",
+      "experiment_context": "Polishing of SiO2 using Y/Pr co-doped CeO2 abrasives. Process parameters from Table 3.",
+      "abrasive_type": "CeO2 (Y/Pr co-doped)",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "109.28", "unit": "kPa" },
+        "pad_speed": { "value": "80", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "25", "unit": "ml/min" },
+        "polishing_time": { "value": "3", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.36",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[19]"
+    },
+    {
+      "sample_id": "STI_CeO2_Ref[45]_Params",
+      "experiment_context": "Polishing of STI using CeO2 abrasives. Process parameters from Table 3.",
+      "abrasive_type": "CeO2",
+      "polished_material": "STI",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "27.6", "unit": "kPa" },
+        "pad_speed": { "value": "40", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "50", "unit": "ml/min" },
+        "polishing_time": { "value": "0.33", "unit": "min" },
+        "surface_roughness": null
+      },
+      "reference_info": "[45]"
+    },
+    {
+      "sample_id": "Cu_CeO2_Ref[140]_Params",
+      "experiment_context": "Polishing of Cu using CeO2 slurry. Process parameters from Table 3.",
+      "abrasive_type": "CeO2",
+      "polished_material": "Cu",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "15", "unit": "kPa" },
+        "pad_speed": { "value": "60", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "8", "unit": "ml/min" },
+        "polishing_time": { "value": "15", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.099",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "50x50 um^2"
+        }
+      },
+      "reference_info": "[140]"
+    },
+    {
+      "sample_id": "Cu_SiO2-CeO2_Ref[106]_Params",
+      "experiment_context": "Polishing of Cu using SiO2/CeO2 slurry. Process parameters from Table 3.",
+      "abrasive_type": "SiO2/CeO2",
+      "polished_material": "Cu",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "6.9", "unit": "kPa" },
+        "pad_speed": { "value": "93", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "90", "unit": "ml/min" },
+        "polishing_time": { "value": "3", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.363",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[106]"
+    },
+    {
+      "sample_id": "4H-SiC_CeO2_ECMP_Ref[148]_Params",
+      "experiment_context": "ECMP of 4H-SiC using CeO2 composite pad. Process parameters from Table 3.",
+      "abrasive_type": "CeO2 composite pad",
+      "polished_material": "4H-SiC",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "14.5-21.3", "unit": "kPa" },
+        "pad_speed": { "value": "30-110", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "1.5", "unit": "ml/min" },
+        "polishing_time": { "value": "10", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.084",
+          "unit": "nm",
+          "type": "Sa",
+          "measuring_range": "1x1 um^2"
+        }
+      },
+      "reference_info": "[148]"
+    },
+    {
+      "sample_id": "6H-SiC_ColloidalCeria_Ref[101]_Params",
+      "experiment_context": "Polishing of 6H-SiC using Colloidal ceria slurry. Process parameters from Table 3.",
+      "abrasive_type": "Colloidal ceria",
+      "polished_material": "6H-SiC",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "27.6", "unit": "kPa" },
+        "pad_speed": { "value": "90", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "90", "unit": "ml/min" },
+        "polishing_time": { "value": "20", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.11",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "2x2 um^2"
+        }
+      },
+      "reference_info": "[101]"
+    },
+    {
+      "sample_id": "Al2O3_PS-CeO2-DND_Ref[74]_Params",
+      "experiment_context": "Polishing of Al2O3 using PS@CeO2/DND abrasives. Process parameters from Table 3.",
+      "abrasive_type": "PS@CeO2/DND",
+      "polished_material": "Al2O3",
+      "cmp_performance": {
+        "polishing_pressure": { "value": "33", "unit": "kPa" },
+        "pad_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "50", "unit": "ml/min" },
+        "polishing_time": { "value": "20", "unit": "min" },
+        "surface_roughness": {
+          "value": "0.52",
+          "unit": "nm",
+          "type": "Ra",
+          "measuring_range": "5x5 um^2"
+        }
+      },
+      "reference_info": "[74]"
+    },
+    {
+      "sample_id": "Si_CeO2_Ref[163]",
+      "experiment_context": "Polishing of single-crystal silicon using CeO2-based slurry. Data from Figure 11.",
+      "abrasive_type": "CeO2",
+      "polished_material": "Single-crystal silicon",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.067",
+          "unit": "nm",
+          "type": "Sa"
+        }
+      },
+      "reference_info": "[163]"
+    },
+    {
+      "sample_id": "FS_SiO2_CeO2_STP_pH8_Ref[173]",
+      "experiment_context": "Shear thickening polishing (STP) of fused silica (FS) using SiO2 and colloidal CeO2 at pH 8. Data from Figure 12.",
+      "abrasive_type": "SiO2, Colloidal CeO2",
+      "polished_material": "Fused Silica (FS)",
+      "slurry_preparation": {
+        "target_final_slurry_ph": "8"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "121.6 or 126.2",
+          "unit": "nm/min"
+        },
+        "surface_roughness": {
+          "value": "2.3 or 2.1",
+          "unit": "nm",
+          "type": "Ra"
+        },
+        "pre_cmp_surface_roughness": {
+          "value": "120 +/- 10",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[173]"
+    },
+    {
+      "sample_id": "SiC_AOMP_Ref[184]",
+      "experiment_context": "Anodic oxidation and mechanical polishing (AOMP) of SiC. Data from Figure 14.",
+      "polishing_method": "AOMP",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "1.06",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[184]"
+    },
+    {
+      "sample_id": "Cu_CeO2_SiO2_TartaricAcid_Ref[122]",
+      "experiment_context": "Green CMP of Copper using CeO2/SiO2 composite abrasives and tartaric acid. Data from Figure 15.",
+      "abrasive_type": "CeO2, SiO2",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "Tartaric Acid", "type": "pH adjuster/Chelator" }
+        ]
+      },
+      "polished_material": "Copper",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.1",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[122]"
+    },
+    {
+      "sample_id": "OFC_CeO2_SiO2_Ref[105]",
+      "experiment_context": "CMP of Oxygen-Free Copper (OFC) using CeO2/SiO2 slurry. Data from text Section 3.5.",
+      "abrasive_type": "CeO2 NPs, SiO2 NPs",
+      "slurry_preparation": {
+        "additives": [
+          { "name": "H2O2", "type": "Oxidizer" },
+          { "name": "NaHCO3" },
+          { "name": "Polyaspartic acid" }
+        ],
+        "solvent": { "name": "DIW" }
+      },
+      "polished_material": "Oxygen-Free Copper (OFC)",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.092",
+          "unit": "nm",
+          "type": "Average Roughness"
+        }
+      },
+      "reference_info": "[105]"
+    },
+    {
+      "sample_id": "SiO2_PCMP_Ref[210]",
+      "experiment_context": "PCMP of SiO2. Data from Table 4.",
+      "polishing_method": "PCMP",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.132",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[210]"
+    },
+    {
+      "sample_id": "SiO2_PCMP_mSiO2-CeGdO2_Ref[67]",
+      "experiment_context": "PCMP of SiO2 using mSiO2@CeGdO2 abrasives. Data from Table 4.",
+      "polishing_method": "PCMP",
+      "abrasive_type": "mSiO2@CeGdO2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.137",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[67]"
+    },
+    {
+      "sample_id": "SiO2_PCMP_CS-CeO2_Ref[68]",
+      "experiment_context": "PCMP of SiO2 using CS/CeO2 abrasives. Data from Table 4.",
+      "polishing_method": "PCMP",
+      "abrasive_type": "CS/CeO2",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.12",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[68]"
+    },
+    {
+      "sample_id": "SiO2_PCMP_Ref[211]",
+      "experiment_context": "PCMP of SiO2. Data from Table 4.",
+      "polishing_method": "PCMP",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.16",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[211]"
+    },
+    {
+      "sample_id": "SiO2_PCMP_Ref[147]",
+      "experiment_context": "PCMP of SiO2. Data from Table 4.",
+      "polishing_method": "PCMP",
+      "polished_material": "SiO2",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.36",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[147]"
+    },
+    {
+      "sample_id": "SiC_ECMP_Ref[212]",
+      "experiment_context": "ECMP of SiC. Data from Table 4.",
+      "polishing_method": "ECMP",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.853",
+          "unit": "nm",
+          "type": "Sa"
+        }
+      },
+      "reference_info": "[212]"
+    },
+    {
+      "sample_id": "SiC_ECMP_PU-CeO2_Ref[75]",
+      "experiment_context": "ECMP of SiC using PU-CeO2 abrasives. Data from Table 4.",
+      "polishing_method": "ECMP",
+      "abrasive_type": "Polyurethane-CeO2",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.51",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[75]"
+    },
+    {
+      "sample_id": "SiC_ECMP_Ref[213]",
+      "experiment_context": "ECMP of SiC. Data from Table 4.",
+      "polishing_method": "ECMP",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.5",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[213]"
+    },
+    {
+      "sample_id": "SiC_ECMP_CeO2Pad_Ref[148]",
+      "experiment_context": "ECMP of SiC using CeO2 composite pad. Data from Table 4.",
+      "polishing_method": "ECMP",
+      "abrasive_type": "CeO2 composite pad",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.084",
+          "unit": "nm",
+          "type": "Sa"
+        }
+      },
+      "reference_info": "[148]"
+    },
+    {
+      "sample_id": "SiC_ECMP_CeO2Slurry_Ref[214]",
+      "experiment_context": "ECMP of SiC using CeO2 slurry. Data from Table 4 and Figure 20.",
+      "polishing_method": "ECMP",
+      "abrasive_type": "CeO2 slurry",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.23",
+          "unit": "nm",
+          "type": "RMS"
+        }
+      },
+      "reference_info": "[214]"
+    },
+    {
+      "sample_id": "SiC_PECMP_CeO2-TiO2_PS-CeO2_Ref[215]",
+      "experiment_context": "PECMP of SiC using CeO2-TiO2 photocatalysts and PS/CeO2 abrasives. Data from Table 4 and Figure 21.",
+      "polishing_method": "PECMP",
+      "abrasive_type": "PS/CeO2 core/shell",
+      "photocatalyst": "CeO2-TiO2 composite",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.738",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[215]"
+    },
+    {
+      "sample_id": "SiC_PAP_Ref[216]",
+      "experiment_context": "PAP of SiC. Data from Table 4.",
+      "polishing_method": "PAP",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.277",
+          "unit": "nm",
+          "type": "Ra"
+        }
+      },
+      "reference_info": "[216]"
+    },
+    {
+      "sample_id": "SiC_PAP_Ref[217]",
+      "experiment_context": "PAP of SiC. Data from Table 4.",
+      "polishing_method": "PAP",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.3",
+          "unit": "nm",
+          "type": "RMS"
+        }
+      },
+      "reference_info": "[217]"
+    },
+    {
+      "sample_id": "SiC_PAP_Ref[218]",
+      "experiment_context": "PAP of SiC. Data from Table 4.",
+      "polishing_method": "PAP",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.1",
+          "unit": "nm",
+          "type": "RMS"
+        }
+      },
+      "reference_info": "[218]"
+    },
+    {
+      "sample_id": "SiC_PAP_Ref[219]",
+      "experiment_context": "PAP of SiC. Data from Table 4.",
+      "polishing_method": "PAP",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.28",
+          "unit": "nm",
+          "type": "RMS"
+        }
+      },
+      "reference_info": "[219]"
+    },
+    {
+      "sample_id": "SiC_PAP_Ref[220]",
+      "experiment_context": "PAP of SiC. Data from Table 4.",
+      "polishing_method": "PAP",
+      "polished_material": "SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.1",
+          "unit": "nm",
+          "type": "RMS"
+        }
+      },
+      "reference_info": "[220]"
+    },
+    {
+      "sample_id": "4H-SiC_PAP_CeO2_Ref[231]",
+      "experiment_context": "PAP of 4H-SiC using CeO2 abrasive. Data from Figure 22.",
+      "polishing_method": "PAP",
+      "abrasive_type": "CeO2",
+      "polished_material": "4H-SiC",
+      "cmp_performance": {
+        "surface_roughness": {
+          "value": "0.1",
+          "unit": "nm",
+          "type": "RMS"
+        }
+      },
+      "reference_info": "[231]"
+    }
+  ]
+}

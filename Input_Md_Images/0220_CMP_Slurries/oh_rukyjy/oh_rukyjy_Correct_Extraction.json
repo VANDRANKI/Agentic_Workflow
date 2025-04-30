@@ -1,0 +1,668 @@
+{
+  "doi": null,
+  "title": "Effect of ionic strength on amorphous carbon during chemical mechanical planarization",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Silica_5wt%_pH8_Baseline",
+      "experiment_context": "Baseline CMP using 5 wt% colloidal silica slurry at pH 8 without oxidants or electrolytes.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "stirring_time": {
+            "value": "12",
+            "unit": "h"
+        },
+        "stirring_method": "ball mill"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~110",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Hydrodynamic Diameter)",
+          "figure_reference": "Fig. 8"
+        },
+        "zeta_potential": {
+          "value": "~-55",
+          "unit": "mV",
+          "measurement_method_used": "ELSZ-2000",
+          "figure_reference": "Fig. 10"
+        },
+        "xps_analysis": {
+          "condition_details": "Post-CMP surface analysis at pH 8",
+          "c1s_peaks_percent": {
+            "C=C (284.6 eV)": 63.16,
+            "C-C (285.9 eV)": 15.13,
+            "C-O (287.1 eV)": 4.91,
+            "C=O (288.2 eV)": 2.72,
+            "x-x (289.2 eV)": 1.51
+          },
+          "o1s_peaks_percent": {
+            "O-C (530.9 eV)": 1.81,
+            "O=C (532.1 eV)": 8.41,
+            "O=C-O (533.4 eV)": 1.65
+          },
+          "table_reference": ["Table 2", "Table 3"],
+          "figure_reference": ["Fig. 6(b)", "Fig. 7(b)"]
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Amorphous carbon on Si substrate",
+        "polishing_time": {
+          "value": "120",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "30",  
+          "unit": "nm/min",
+          "measurement_method_used": "SEM",
+          "note": "Estimated from text stating 300 Å/min for 5 wt% silica before oxidant addition."
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "plate_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "87",
+            "unit": "rpm"
+        },
+        "flow_rate": {
+            "value": "180",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "POLI 400 CMP system (GnP Technology)",
+        "pad_composition": "Polyurethane IC-1010 K-groove pad (Dow Chemical Corporation)",
+        "conditioner_details": "SAESOL-diamond conditioner, 20PPW60EBC0 diamond grit",
+        "surface_roughness_post_cmp": {
+            "Ra": { "value": "1.096", "unit": "nm" },
+            "Rq": { "value": "1.411", "unit": "nm" },
+            "measurement_method_used": "AFM (Park Systems NX10)",
+            "scan_area": "5x5 µm²",
+            "figure_reference": "Fig. 11(b)"
+        },
+        "pre_cmp_surface_roughness": {
+            "Ra": { "value": "1.454", "unit": "nm" },
+            "Rq": { "value": "1.858", "unit": "nm" },
+            "figure_reference": "Fig. 11(a)"
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_5wt%_H2O2_1wt%_pH8",
+      "experiment_context": "CMP using 5 wt% colloidal silica slurry with 1 wt% H2O2 oxidant at pH 8.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            },
+            "source": "SigmaAldrich"
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+         "stirring_time": {
+            "value": "12",
+            "unit": "h"
+        },
+        "stirring_method": "ball mill"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~110",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Hydrodynamic Diameter)",
+          "figure_reference": "Fig. 8"
+        },
+        "zeta_potential": {
+            "value": null,
+            "unit": "mV",
+            "measurement_method_used": "ELSZ-2000",
+            "note": "Measurement complicated by bubble formation (Fig. 10 caption)."
+        },
+        "xps_analysis": {
+          "condition_details": "Post-CMP surface analysis at pH 8",
+          "c1s_peaks_percent": {
+            "C=C (284.6 eV)": 62.77,
+            "C-C (285.9 eV)": 14.6,
+            "C-O (287.1 eV)": 5.85,
+            "C=O (288.2 eV)": 3.32,
+            "x-x (289.2 eV)": 1.29
+          },
+          "o1s_peaks_percent": {
+            "O-C (530.9 eV)": 5.53,
+            "O=C (532.1 eV)": 4.92,
+            "O=C-O (533.4 eV)": 1.49
+          },
+          "table_reference": ["Table 2", "Table 3"],
+          "figure_reference": ["Fig. 6(c)", "Fig. 7(c)"]
+        },
+        "uv_vis_spectroscopy": {
+            "result": "Confirmed conversion of 4-hydroxybenzonic acid to 2,3-dihydrobenzoic acid, indicating OH radical generation.",
+            "figure_reference": "Fig. 3"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Amorphous carbon on Si substrate",
+        "polishing_time": {
+          "value": "120",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "~45",
+          "unit": "nm/min",
+          "measurement_method_used": "SEM",
+          "figure_reference": "Fig. 2(a)",
+          "note": "Estimated from graph at pH 8, 1 wt% H2O2 (~450 Å/min)."
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "plate_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "87",
+            "unit": "rpm"
+        },
+        "flow_rate": {
+            "value": "180",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "POLI 400 CMP system (GnP Technology)",
+        "pad_composition": "Polyurethane IC-1010 K-groove pad (Dow Chemical Corporation)",
+        "conditioner_details": "SAESOL-diamond conditioner, 20PPW60EBC0 diamond grit",
+        "surface_roughness_post_cmp": {
+            "Ra": { "value": "1.288", "unit": "nm" },
+            "Rq": { "value": "1.616", "unit": "nm" },
+            "measurement_method_used": "AFM (Park Systems NX10)",
+            "scan_area": "5x5 µm²",
+            "figure_reference": "Fig. 11(c)"
+        },
+         "pre_cmp_surface_roughness": {
+            "Ra": { "value": "1.454", "unit": "nm" },
+            "Rq": { "value": "1.858", "unit": "nm" },
+            "figure_reference": "Fig. 11(a)"
+        }
+      }
+    },
+        {
+      "sample_id": "Silica_5wt%_KNO3_1wt%_pH8",
+      "experiment_context": "CMP using 5 wt% colloidal silica slurry with 1 wt% KNO3 electrolyte/oxidant at pH 8.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KNO₃",
+            "type": "Electrolyte / Oxidant",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            },
+            "source": "SigmaAldrich"
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+         "stirring_time": {
+            "value": "12",
+            "unit": "h"
+        },
+        "stirring_method": "ball mill"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~105",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Hydrodynamic Diameter)",
+          "figure_reference": "Fig. 8"
+        },
+        "zeta_potential": {
+            "value": "~-45",
+            "unit": "mV",
+            "measurement_method_used": "ELSZ-2000",
+            "figure_reference": "Fig. 10"
+        },
+        "xps_analysis": {
+          "condition_details": "Post-CMP surface analysis at pH 8",
+          "c1s_peaks_percent": {
+            "C=C (284.6 eV)": 48.05,
+            "C-C (285.9 eV)": 32.6,
+            "C-O (287.1 eV)": 7.57,
+            "C=O (288.2 eV)": 2.34,
+            "x-x (289.2 eV)": 1.74
+          },
+          "o1s_peaks_percent": {
+            "O-C (530.9 eV)": 0.91,
+            "O=C (532.1 eV)": 5.43,
+            "O=C-O (533.4 eV)": 1.37
+          },
+          "table_reference": ["Table 2", "Table 3"],
+          "figure_reference": ["Fig. 6(d)", "Fig. 7(d)"]
+        },
+         "uv_vis_spectroscopy": {
+            "result": "Confirmed conversion of 4-hydroxybenzonic acid to 2,3-dihydrobenzoic acid, indicating OH radical generation.",
+            "figure_reference": "Fig. 3"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Amorphous carbon on Si substrate",
+        "polishing_time": {
+          "value": "120",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "~60",
+          "unit": "nm/min",
+          "measurement_method_used": "SEM",
+          "figure_reference": "Fig. 2(b)",
+           "note": "Estimated from graph at pH 8, 1 wt% KNO3 (~600 Å/min)."
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "plate_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "87",
+            "unit": "rpm"
+        },
+        "flow_rate": {
+            "value": "180",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "POLI 400 CMP system (GnP Technology)",
+        "pad_composition": "Polyurethane IC-1010 K-groove pad (Dow Chemical Corporation)",
+        "conditioner_details": "SAESOL-diamond conditioner, 20PPW60EBC0 diamond grit",
+        "surface_roughness_post_cmp": {
+            "Ra": { "value": "0.26", "unit": "nm" },
+            "Rq": { "value": "0.367", "unit": "nm" },
+            "measurement_method_used": "AFM (Park Systems NX10)",
+            "scan_area": "5x5 µm²",
+            "figure_reference": "Fig. 11(d)"
+        },
+         "pre_cmp_surface_roughness": {
+            "Ra": { "value": "1.454", "unit": "nm" },
+            "Rq": { "value": "1.858", "unit": "nm" },
+            "figure_reference": "Fig. 11(a)"
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_5wt%_H2O2_1wt%_KNO3_1wt%_pH8",
+      "experiment_context": "CMP using 5 wt% colloidal silica slurry with 1 wt% H2O2 oxidant and 1 wt% KNO3 electrolyte at pH 8 (Mixed Slurry).",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            },
+            "source": "SigmaAldrich"
+          },
+           {
+            "name": "KNO₃",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            },
+            "source": "SigmaAldrich"
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+         "stirring_time": {
+            "value": "12",
+            "unit": "h"
+        },
+        "stirring_method": "ball mill"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~105",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Hydrodynamic Diameter)",
+          "figure_reference": "Fig. 8"
+        },
+        "zeta_potential": {
+            "value": null,
+            "unit": "mV",
+            "measurement_method_used": "ELSZ-2000",
+            "note": "Not explicitly shown for mixed slurry in Fig. 10, H2O2 complicates measurement."
+        },
+        "xps_analysis": {
+          "condition_details": "Post-CMP surface analysis at pH 8",
+          "c1s_peaks_percent": {
+            "C=C (284.6 eV)": 45.46,
+            "C-C (285.9 eV)": 33.74,
+            "C-O (287.1 eV)": 7.52,
+            "C=O (288.2 eV)": 2.73,
+            "x-x (289.2 eV)": 1.95
+          },
+          "o1s_peaks_percent": {
+            "O-C (530.9 eV)": 1.03,
+            "O=C (532.1 eV)": 6.46,
+            "O=C-O (533.4 eV)": 1.11
+          },
+          "table_reference": ["Table 2", "Table 3"],
+          "figure_reference": ["Fig. 6(e)", "Fig. 7(e)"]
+        },
+         "uv_vis_spectroscopy": {
+            "result": "Confirmed conversion of 4-hydroxybenzonic acid to 2,3-dihydrobenzoic acid, indicating OH radical generation, facilitated by electrolyte.",
+            "figure_reference": "Fig. 3"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Amorphous carbon on Si substrate",
+        "polishing_time": {
+          "value": "120",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "85.221",
+          "unit": "nm/min",
+          "measurement_method_used": "SEM",
+          "figure_reference": "Fig. 2(c)",
+          "note": "Explicitly stated as 852.21 Å/min."
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "plate_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "87",
+            "unit": "rpm"
+        },
+        "flow_rate": {
+            "value": "180",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "POLI 400 CMP system (GnP Technology)",
+        "pad_composition": "Polyurethane IC-1010 K-groove pad (Dow Chemical Corporation)",
+        "conditioner_details": "SAESOL-diamond conditioner, 20PPW60EBC0 diamond grit",
+        "surface_roughness_post_cmp": {
+            "Ra": { "value": "0.147", "unit": "nm" },
+            "Rq": { "value": "0.264", "unit": "nm" },
+            "measurement_method_used": "AFM (Park Systems NX10)",
+            "scan_area": "5x5 µm²",
+            "figure_reference": "Fig. 11(e)"
+        },
+         "pre_cmp_surface_roughness": {
+            "Ra": { "value": "1.454", "unit": "nm" },
+            "Rq": { "value": "1.858", "unit": "nm" },
+            "figure_reference": "Fig. 11(a)"
+        }
+      }
+    },
+     {
+      "sample_id": "Silica_5wt%_H2O2_1wt%_KCl_1wt%_pH8",
+      "experiment_context": "CMP using 5 wt% colloidal silica slurry with 1 wt% H2O2 oxidant and 1 wt% KCl electrolyte at pH 8 (Ionic Strength Comparison).",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            },
+            "source": "SigmaAldrich"
+          },
+           {
+            "name": "KCl",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "1", 
+              "unit": "wt%",
+              "note": "Assumed 1 wt% based on comparison context in Fig. 4"
+            },
+            "source": "SigmaAldrich",
+            "ionic_strength_calculated": {
+                "value": "0.067",
+                "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+         "stirring_time": {
+            "value": "12",
+            "unit": "h"
+        },
+        "stirring_method": "ball mill"
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+         "zeta_potential": null,
+         "xps_analysis": null,
+         "uv_vis_spectroscopy": null
+      },
+      "cmp_performance": {
+        "substrate": "Amorphous carbon on Si substrate",
+        "polishing_time": {
+          "value": "120",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "~61.3", 
+          "unit": "nm/min",
+          "measurement_method_used": "SEM",
+          "figure_reference": "Fig. 4",
+          "note": "Calculated from normalized rate (1.3630) relative to H2O2 baseline (~45 nm/min)."
+        },
+         "normalized_material_removal_rate": {
+            "value": "1.3630",
+            "unit": "",
+            "reference_condition": "5 wt% Silica + 1 wt% H2O2 at pH 8",
+            "figure_reference": "Fig. 4"
+         },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "plate_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "87",
+            "unit": "rpm"
+        },
+        "flow_rate": {
+            "value": "180",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "POLI 400 CMP system (GnP Technology)",
+        "pad_composition": "Polyurethane IC-1010 K-groove pad (Dow Chemical Corporation)",
+        "conditioner_details": "SAESOL-diamond conditioner, 20PPW60EBC0 diamond grit",
+        "surface_roughness_post_cmp": null,
+         "pre_cmp_surface_roughness": {
+            "Ra": { "value": "1.454", "unit": "nm" },
+            "Rq": { "value": "1.858", "unit": "nm" },
+            "figure_reference": "Fig. 11(a)"
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_5wt%_H2O2_1wt%_K2SO4_1wt%_pH8",
+      "experiment_context": "CMP using 5 wt% colloidal silica slurry with 1 wt% H2O2 oxidant and 1 wt% K2SO4 electrolyte at pH 8 (Ionic Strength Comparison).",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Silica",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            },
+            "source": "SigmaAldrich"
+          },
+           {
+            "name": "K₂SO₄",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "1", 
+              "unit": "wt%",
+               "note": "Assumed 1 wt% based on comparison context in Fig. 4"
+            },
+            "source": "SigmaAldrich",
+             "ionic_strength_calculated": {
+                "value": "0.172",
+                "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+         "stirring_time": {
+            "value": "12",
+            "unit": "h"
+        },
+        "stirring_method": "ball mill"
+      },
+       "characterization": {
+         "particle_size_distribution": null,
+         "zeta_potential": null,
+         "xps_analysis": null,
+         "uv_vis_spectroscopy": null
+      },
+      "cmp_performance": {
+        "substrate": "Amorphous carbon on Si substrate",
+        "polishing_time": {
+          "value": "120",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "~66.4", 
+          "unit": "nm/min",
+          "measurement_method_used": "SEM",
+          "figure_reference": "Fig. 4",
+          "note": "Calculated from normalized rate (1.4748) relative to H2O2 baseline (~45 nm/min)."
+        },
+         "normalized_material_removal_rate": {
+            "value": "1.4748",
+            "unit": "",
+            "reference_condition": "5 wt% Silica + 1 wt% H2O2 at pH 8",
+            "figure_reference": "Fig. 4"
+         },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "plate_speed": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "87",
+            "unit": "rpm"
+        },
+        "flow_rate": {
+            "value": "180",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": "3",
+          "unit": "kgf"
+        },
+        "equipment_model": "POLI 400 CMP system (GnP Technology)",
+        "pad_composition": "Polyurethane IC-1010 K-groove pad (Dow Chemical Corporation)",
+        "conditioner_details": "SAESOL-diamond conditioner, 20PPW60EBC0 diamond grit",
+        "surface_roughness_post_cmp": null,
+         "pre_cmp_surface_roughness": {
+            "Ra": { "value": "1.454", "unit": "nm" },
+            "Rq": { "value": "1.858", "unit": "nm" },
+            "figure_reference": "Fig. 11(a)"
+        }
+      }
+    }
+  ]
+}

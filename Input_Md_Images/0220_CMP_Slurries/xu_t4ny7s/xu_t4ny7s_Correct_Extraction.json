@@ -1,0 +1,868 @@
+{
+  "doi": "10.1016/j.powtec.2021.09.070",
+  "title": "Preparation of the rod-shaped SiO₂@C abrasive and effects of its microstructure on the polishing of zirconia ceramics",
+  "year_published": "2021",
+  "journal": "Powder Technology",
+  "samples": [
+    {
+      "sample_id": "SS",
+      "experiment_context": "Conventional Spherical Silica abrasive used for comparison.",
+      "synthesis_details": {
+        "source": "Zhejiang DeLiXin Micro/Nano Science and Technology Co., Ltd., China",
+        "method": null,
+        "precursors": [],
+        "conditions": []
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Spherical",
+        "particle_size_distribution": null,
+        "specific_surface_area_bet": null,
+        "pore_diameter_bjh": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "tga_weight_loss_percent": null,
+        "youngs_modulus_afm": null,
+        "contact_angle": {
+          "value": "~48",
+          "unit": "°",
+          "notes": "Estimated from Fig. 12"
+        },
+        "coefficient_of_friction": {
+          "static": {
+            "value": "0.31",
+            "unit": null
+          },
+          "dynamic": {
+            "value": "0.265",
+            "unit": null
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Zirconia ceramic",
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "142.3",
+          "unit": "nm/h"
+        },
+        "surface_roughness_ra": {
+          "initial": {
+            "value": "6.51",
+            "unit": "nm"
+          },
+          "final": {
+            "value": "~2.58",
+            "unit": "nm",
+            "notes": "Estimated from Fig. 8a"
+          }
+        },
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg"
+        },
+        "pad_table_speed": {
+          "upturn": {
+            "value": "30",
+            "unit": "rpm"
+          },
+          "downturn": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "equipment_model": "UNIPOL-1000S CMP polishing machine",
+        "pad_composition": "Rodel porous polyurethane pad"
+      }
+    },
+    {
+      "sample_id": "F-SiO2",
+      "experiment_context": "Pure rod-shaped silica abrasive, calcined for 12h (0 wt% carbon).",
+      "synthesis_details": {
+        "method": "Multi-step: W/O microemulsion for seeds, O/W microemulsion for texturing, freeze-drying, calcination.",
+        "precursors": [
+          {"name": "PVP", "amount": "15 g", "role": "Stabilizer/Template"},
+          {"name": "n-pentanol", "amount": "150 ml", "role": "Solvent (W/O)"},
+          {"name": "Ethanol", "amount": "15 ml", "role": "Solvent"},
+          {"name": "DI water", "amount": "4.2 ml + 1000 ml", "role": "Solvent"},
+          {"name": "Sodium citrate", "amount": "1.5 ml", "concentration": "0.18 mol/l", "role": "Stabilizer"},
+          {"name": "Aqueous ammonia solution", "amount": "3 ml", "concentration": "30%", "role": "Catalyst"},
+          {"name": "TEOS", "amount": "2 ml", "role": "Silica precursor"},
+          {"name": "Active silicic acid", "amount": "1600 ml", "concentration": "2.5 wt%", "role": "Silica precursor (texturing)"},
+          {"name": "NaOH", "concentration": "3 wt%", "role": "pH adjuster (texturing)"}
+        ],
+        "conditions": [
+          {"step": "Seed formation", "temperature": "RT", "time": "24 h", "stirring": "High speed initially, then static"},
+          {"step": "Texturing", "temperature": "Boiling", "time": "Duration of silicic acid addition (6.7 ml/min)", "pH": "~10", "stirring": "Yes"},
+          {"step": "Calcination", "temperature": "500 °C", "time": "12 h", "atmosphere": "Air"}
+        ],
+        "post_treatment": ["Freeze-drying", "Ball grinding in DI water"]
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Rod-shaped, textured surface",
+        "particle_size_distribution": {
+          "diameter": {
+            "value": "150-200",
+            "unit": "nm"
+          },
+          "length": {
+            "value": "3",
+            "unit": "µm"
+          }
+        },
+        "specific_surface_area_bet": {
+          "value": "102.02",
+          "unit": "m²/g"
+        },
+        "pore_diameter_bjh": {
+          "value": "13.15",
+          "unit": "nm"
+        },
+        "crystallinity_phase_composition": "Amorphous SiO₂",
+        "surface_functional_groups": ["Si-OH", "Si-O-Si"],
+        "elemental_composition": ["Si", "O"],
+        "tga_weight_loss_percent": {
+          "value": "0",
+          "unit": "wt%",
+          "notes": "Carbon content"
+        },
+        "youngs_modulus_afm": {
+          "value": "53.5",
+          "unit": "GPa",
+          "error": "1.2"
+        },
+        "contact_angle": {
+          "value": "~45",
+          "unit": "°",
+          "notes": "Estimated from Fig. 12"
+        },
+        "coefficient_of_friction": {
+          "static": {
+            "value": "0.513",
+            "unit": null
+          },
+          "dynamic": {
+            "value": "0.417",
+            "unit": null
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Zirconia ceramic",
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "243.8",
+          "unit": "nm/h"
+        },
+        "surface_roughness_ra": {
+          "initial": {
+            "value": "6.51",
+            "unit": "nm"
+          },
+          "final": {
+            "value": "~2.55",
+            "unit": "nm",
+            "notes": "Estimated from Fig. 8a"
+          }
+        },
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg"
+        },
+        "pad_table_speed": {
+          "upturn": {
+            "value": "30",
+            "unit": "rpm"
+          },
+          "downturn": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "equipment_model": "UNIPOL-1000S CMP polishing machine",
+        "pad_composition": "Rodel porous polyurethane pad"
+      }
+    },
+    {
+      "sample_id": "A-SiO2@C",
+      "experiment_context": "Rod-shaped SiO₂@C abrasive with 3.4 wt% carbon coating.",
+      "synthesis_details": {
+        "method": "Multi-step: W/O microemulsion for seeds, O/W microemulsion for texturing, PVP addition, freeze-drying, calcination.",
+        "precursors": [
+          {"name": "PVP", "amount": "15 g + additional amount for coating", "role": "Stabilizer/Template/Carbon source"},
+          {"name": "n-pentanol", "amount": "150 ml", "role": "Solvent (W/O)"},
+          {"name": "Ethanol", "amount": "15 ml", "role": "Solvent"},
+          {"name": "DI water", "amount": "4.2 ml + 1000 ml", "role": "Solvent"},
+          {"name": "Sodium citrate", "amount": "1.5 ml", "concentration": "0.18 mol/l", "role": "Stabilizer"},
+          {"name": "Aqueous ammonia solution", "amount": "3 ml", "concentration": "30%", "role": "Catalyst"},
+          {"name": "TEOS", "amount": "2 ml", "role": "Silica precursor"},
+          {"name": "Active silicic acid", "amount": "1600 ml", "concentration": "2.5 wt%", "role": "Silica precursor (texturing)"},
+          {"name": "NaOH", "concentration": "3 wt%", "role": "pH adjuster (texturing)"}
+        ],
+        "conditions": [
+          {"step": "Seed formation", "temperature": "RT", "time": "24 h", "stirring": "High speed initially, then static"},
+          {"step": "Texturing", "temperature": "Boiling", "time": "Duration of silicic acid addition (6.7 ml/min)", "pH": "~10", "stirring": "Yes"},
+          {"step": "Calcination", "temperature": "500 °C", "time": "2 h", "atmosphere": "Air"}
+        ],
+        "post_treatment": ["Freeze-drying", "Ball grinding in DI water"]
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Rod-shaped, core-shell (SiO₂ core, C shell), mesoporous shell",
+        "particle_size_distribution": {
+          "diameter": {
+            "value": "150-200",
+            "unit": "nm"
+          },
+          "length": {
+            "value": "3",
+            "unit": "µm"
+          }
+        },
+        "specific_surface_area_bet": {
+          "value": "102.57",
+          "unit": "m²/g"
+        },
+        "pore_diameter_bjh": {
+          "value": "13.18",
+          "unit": "nm"
+        },
+        "crystallinity_phase_composition": "Amorphous SiO₂ core, Amorphous C shell",
+        "surface_functional_groups": ["Si-OH", "Si-O-Si", "C=O", "aromatic C-N", "Carbon D/G bands"],
+        "elemental_composition": ["Si", "O", "C"],
+        "tga_weight_loss_percent": {
+          "value": "3.4",
+          "unit": "wt%",
+          "notes": "Carbon content"
+        },
+        "youngs_modulus_afm": null,
+        "contact_angle": {
+          "value": "~42",
+          "unit": "°",
+          "notes": "Estimated from Fig. 12"
+        },
+        "coefficient_of_friction": {
+          "static": {
+            "value": "0.427",
+            "unit": null
+          },
+          "dynamic": {
+            "value": "0.355",
+            "unit": null
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Zirconia ceramic",
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "196.5",
+          "unit": "nm/h"
+        },
+        "surface_roughness_ra": {
+          "initial": {
+            "value": "6.51",
+            "unit": "nm"
+          },
+          "final": {
+            "value": "2.49",
+            "unit": "nm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg"
+        },
+        "pad_table_speed": {
+          "upturn": {
+            "value": "30",
+            "unit": "rpm"
+          },
+          "downturn": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "equipment_model": "UNIPOL-1000S CMP polishing machine",
+        "pad_composition": "Rodel porous polyurethane pad"
+      }
+    },
+    {
+      "sample_id": "B-SiO2@C",
+      "experiment_context": "Rod-shaped SiO₂@C abrasive with 3.7 wt% carbon coating.",
+      "synthesis_details": {
+        "method": "Multi-step: W/O microemulsion for seeds, O/W microemulsion for texturing, PVP addition, freeze-drying, calcination.",
+        "precursors": [
+          {"name": "PVP", "amount": "15 g + additional amount for coating", "role": "Stabilizer/Template/Carbon source"}
+        ],
+        "conditions": [
+           {"step": "Calcination", "temperature": "500 °C", "time": "2 h", "atmosphere": "Air"}
+        ],
+        "post_treatment": ["Freeze-drying", "Ball grinding in DI water"]
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Rod-shaped, core-shell (SiO₂ core, C shell), mesoporous shell",
+         "particle_size_distribution": {
+          "diameter": {
+            "value": "150-200",
+            "unit": "nm"
+          },
+          "length": {
+            "value": "3",
+            "unit": "µm"
+          }
+        },
+        "specific_surface_area_bet": {
+          "value": "104.80",
+          "unit": "m²/g"
+        },
+        "pore_diameter_bjh": {
+          "value": "10.01",
+          "unit": "nm"
+        },
+        "crystallinity_phase_composition": "Amorphous SiO₂ core, Amorphous C shell",
+        "surface_functional_groups": ["Si-OH", "Si-O-Si", "C=O", "aromatic C-N", "Carbon D/G bands"],
+        "elemental_composition": ["Si", "O", "C"],
+        "tga_weight_loss_percent": {
+          "value": "3.7",
+          "unit": "wt%",
+          "notes": "Carbon content"
+        },
+        "youngs_modulus_afm": null,
+        "contact_angle": {
+          "value": "~38",
+          "unit": "°",
+          "notes": "Estimated from Fig. 12"
+        },
+        "coefficient_of_friction": {
+          "static": {
+            "value": "0.461",
+            "unit": null
+          },
+          "dynamic": {
+            "value": "0.353",
+            "unit": null
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Zirconia ceramic",
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "~215",
+          "unit": "nm/h",
+          "notes": "Estimated from Fig. 7b"
+        },
+        "surface_roughness_ra": {
+          "initial": {
+            "value": "6.51",
+            "unit": "nm"
+          },
+          "final": {
+            "value": "~2.3",
+            "unit": "nm",
+            "notes": "Estimated from Fig. 8b"
+          }
+        },
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg"
+        },
+        "pad_table_speed": {
+          "upturn": {
+            "value": "30",
+            "unit": "rpm"
+          },
+          "downturn": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "equipment_model": "UNIPOL-1000S CMP polishing machine",
+        "pad_composition": "Rodel porous polyurethane pad"
+      }
+    },
+        {
+      "sample_id": "C-SiO2@C",
+      "experiment_context": "Rod-shaped SiO₂@C abrasive with 4.3 wt% carbon coating.",
+      "synthesis_details": {
+        "method": "Multi-step: W/O microemulsion for seeds, O/W microemulsion for texturing, PVP addition, freeze-drying, calcination.",
+        "precursors": [
+          {"name": "PVP", "amount": "15 g + additional amount for coating", "role": "Stabilizer/Template/Carbon source"}
+        ],
+        "conditions": [
+           {"step": "Calcination", "temperature": "500 °C", "time": "2 h", "atmosphere": "Air"}
+        ],
+        "post_treatment": ["Freeze-drying", "Ball grinding in DI water"]
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Rod-shaped, core-shell (SiO₂ core, C shell), mesoporous shell",
+         "particle_size_distribution": {
+          "diameter": {
+            "value": "150-200",
+            "unit": "nm"
+          },
+          "length": {
+            "value": "3",
+            "unit": "µm"
+          }
+        },
+        "specific_surface_area_bet": {
+          "value": "117.65",
+          "unit": "m²/g"
+        },
+        "pore_diameter_bjh": {
+          "value": "10.06",
+          "unit": "nm"
+        },
+        "crystallinity_phase_composition": "Amorphous SiO₂ core, Amorphous C shell",
+        "surface_functional_groups": ["Si-OH", "Si-O-Si", "C=O", "aromatic C-N", "Carbon D/G bands"],
+        "elemental_composition": ["Si", "O", "C"],
+        "tga_weight_loss_percent": {
+          "value": "4.3",
+          "unit": "wt%",
+          "notes": "Carbon content"
+        },
+        "youngs_modulus_afm": null,
+        "contact_angle": {
+          "value": "~35",
+          "unit": "°",
+          "notes": "Estimated from Fig. 12"
+        },
+        "coefficient_of_friction": {
+          "static": {
+            "value": "0.47",
+            "unit": null
+          },
+          "dynamic": {
+            "value": "0.351",
+            "unit": null
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Zirconia ceramic",
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "~225",
+          "unit": "nm/h",
+          "notes": "Estimated from Fig. 7b"
+        },
+        "surface_roughness_ra": {
+          "initial": {
+            "value": "6.51",
+            "unit": "nm"
+          },
+          "final": {
+            "value": "~2.1",
+            "unit": "nm",
+            "notes": "Estimated from Fig. 8b"
+          }
+        },
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg"
+        },
+        "pad_table_speed": {
+          "upturn": {
+            "value": "30",
+            "unit": "rpm"
+          },
+          "downturn": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "equipment_model": "UNIPOL-1000S CMP polishing machine",
+        "pad_composition": "Rodel porous polyurethane pad"
+      }
+    },
+    {
+      "sample_id": "D-SiO2@C",
+      "experiment_context": "Rod-shaped SiO₂@C abrasive with 4.8 wt% carbon coating.",
+      "synthesis_details": {
+        "method": "Multi-step: W/O microemulsion for seeds, O/W microemulsion for texturing, PVP addition, freeze-drying, calcination.",
+        "precursors": [
+          {"name": "PVP", "amount": "15 g + additional amount for coating", "role": "Stabilizer/Template/Carbon source"}
+        ],
+        "conditions": [
+           {"step": "Calcination", "temperature": "500 °C", "time": "2 h", "atmosphere": "Air"}
+        ],
+        "post_treatment": ["Freeze-drying", "Ball grinding in DI water"]
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Rod-shaped, core-shell (SiO₂ core, C shell), mesoporous shell",
+         "particle_size_distribution": {
+          "diameter": {
+            "value": "150-200",
+            "unit": "nm"
+          },
+          "length": {
+            "value": "3",
+            "unit": "µm"
+          }
+        },
+        "specific_surface_area_bet": {
+          "value": "150.12",
+          "unit": "m²/g"
+        },
+        "pore_diameter_bjh": {
+          "value": "8.99",
+          "unit": "nm"
+        },
+        "crystallinity_phase_composition": "Amorphous SiO₂ core, Amorphous C shell",
+        "surface_functional_groups": ["Si-OH", "Si-O-Si", "C=O", "aromatic C-N", "Carbon D/G bands"],
+        "elemental_composition": ["Si", "O", "C"],
+        "tga_weight_loss_percent": {
+          "value": "4.8",
+          "unit": "wt%",
+          "notes": "Carbon content"
+        },
+        "youngs_modulus_afm": null,
+        "contact_angle": {
+          "value": "~32",
+          "unit": "°",
+          "notes": "Estimated from Fig. 12"
+        },
+        "coefficient_of_friction": {
+          "static": {
+            "value": "0.471",
+            "unit": null
+          },
+          "dynamic": {
+            "value": "0.358",
+            "unit": null
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Zirconia ceramic",
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "~238",
+          "unit": "nm/h",
+          "notes": "Estimated from Fig. 7b"
+        },
+        "surface_roughness_ra": {
+          "initial": {
+            "value": "6.51",
+            "unit": "nm"
+          },
+          "final": {
+            "value": "~1.95",
+            "unit": "nm",
+            "notes": "Estimated from Fig. 8b"
+          }
+        },
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg"
+        },
+        "pad_table_speed": {
+          "upturn": {
+            "value": "30",
+            "unit": "rpm"
+          },
+          "downturn": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "equipment_model": "UNIPOL-1000S CMP polishing machine",
+        "pad_composition": "Rodel porous polyurethane pad"
+      }
+    },
+    {
+      "sample_id": "E-SiO2@C",
+      "experiment_context": "Rod-shaped SiO₂@C abrasive with 5.8 wt% carbon coating.",
+      "synthesis_details": {
+        "method": "Multi-step: W/O microemulsion for seeds, O/W microemulsion for texturing, PVP addition, freeze-drying, calcination.",
+        "precursors": [
+          {"name": "PVP", "amount": "15 g + additional amount for coating", "role": "Stabilizer/Template/Carbon source"}
+        ],
+        "conditions": [
+           {"step": "Calcination", "temperature": "500 °C", "time": "2 h", "atmosphere": "Air"}
+        ],
+        "post_treatment": ["Freeze-drying", "Ball grinding in DI water"]
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Rod-shaped, core-shell (SiO₂ core, C shell), mesoporous shell",
+         "particle_size_distribution": {
+          "diameter": {
+            "value": "150-200",
+            "unit": "nm"
+          },
+          "length": {
+            "value": "3",
+            "unit": "µm"
+          }
+        },
+        "specific_surface_area_bet": {
+          "value": "151.63",
+          "unit": "m²/g"
+        },
+        "pore_diameter_bjh": {
+          "value": "10.10",
+          "unit": "nm"
+        },
+        "crystallinity_phase_composition": "Amorphous SiO₂ core, Amorphous C shell",
+        "surface_functional_groups": ["Si-OH", "Si-O-Si", "C=O", "aromatic C-N", "Carbon D/G bands"],
+        "elemental_composition": ["Si", "O", "C"],
+        "tga_weight_loss_percent": {
+          "value": "5.8",
+          "unit": "wt%",
+          "notes": "Carbon content"
+        },
+        "youngs_modulus_afm": {
+          "value": "3.9",
+          "unit": "GPa",
+          "error": "0.7"
+        },
+        "contact_angle": {
+          "value": "~29",
+          "unit": "°",
+          "notes": "Estimated from Fig. 12"
+        },
+        "coefficient_of_friction": {
+          "static": {
+            "value": "0.453",
+            "unit": null
+          },
+          "dynamic": {
+            "value": "0.347",
+            "unit": null
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Zirconia ceramic",
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "242.5",
+          "unit": "nm/h"
+        },
+        "surface_roughness_ra": {
+          "initial": {
+            "value": "6.51",
+            "unit": "nm"
+          },
+          "final": {
+            "value": "1.86",
+            "unit": "nm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg"
+        },
+        "pad_table_speed": {
+          "upturn": {
+            "value": "30",
+            "unit": "rpm"
+          },
+          "downturn": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "180",
+          "unit": "ml/min"
+        },
+        "equipment_model": "UNIPOL-1000S CMP polishing machine",
+        "pad_composition": "Rodel porous polyurethane pad"
+      }
+    }
+  ]
+}

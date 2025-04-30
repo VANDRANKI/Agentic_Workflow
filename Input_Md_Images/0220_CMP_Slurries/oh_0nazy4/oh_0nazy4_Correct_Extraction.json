@@ -1,0 +1,696 @@
+{
+  "doi": null,
+  "title": "Polishing behaviors of single crystalline ceria abrasives on silicon dioxide and silicon nitride CMP",
+  "year_published": "2010",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Slurry_A_62nm",
+      "experiment_context": "Single crystalline ceria abrasive slurry with 62 nm primary particle size, synthesized hydrothermally at pH 3.0, 220°C.",
+      "synthesis_details": {
+        "method": "Hydrothermal",
+        "precursors": [
+          {
+            "chemical": "Ce(NO₃)₃·6H₂O",
+            "concentration": {
+              "value": "0.5",
+              "unit": "M"
+            }
+          },
+          {
+            "chemical": "KOH",
+            "concentration": {
+              "value": "0.5",
+              "unit": "M"
+            }
+          }
+        ],
+        "precipitant_type": "KOH",
+        "reaction_conditions": [
+           {
+             "stage": "Precipitation",
+             "temperature": {
+               "value": "50",
+               "unit": "°C"
+             },
+             "time": {
+               "value": "12",
+               "unit": "h"
+             },
+             "stirring_speed": {
+               "value": "100",
+               "unit": "rpm"
+             },
+             "environment": "Air bubbled",
+             "solvent_system": "DI water and ethylene glycol (3:2 volume ratio)"
+           },
+           {
+             "stage": "Hydrothermal",
+             "temperature": {
+               "value": "220",
+               "unit": "°C"
+             },
+             "time": {
+               "value": "6",
+               "unit": "h"
+             },
+             "ph_adjusted_to": {
+               "value": "3.0",
+               "unit": ""
+             },
+             "acid_used_for_ph_adjustment": "HNO₃",
+             "initial_ph_range_before_adjustment": "0.5-3.0",
+             "reactor_details": "2 L autoclave, 3/4 filled"
+           }
+        ]
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with distilled water",
+          "times": 3
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly acrylic acid (PAA)",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            },
+            "details": "Mw 4000, LG Chem."
+          }
+        ],
+        "target_final_slurry_ph": "6.5-6.7",
+        "ph_adjustment_agent": "NH₄OH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "62",
+          "unit": "nm",
+          "measurement_method_used": "FESEM"
+        },
+        "secondary_particle_size_distribution": {
+          "value": "178",
+          "unit": "nm",
+          "measurement_method_used": "Light scattering (UPA 150)"
+        },
+        "crystallite_size": {
+          "value": "29",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, from (111) peak)"
+        },
+        "crystallinity_phase_composition": "Single crystalline, Cubic fluorite structure",
+        "particle_morphology": "Spherical",
+        "specific_surface_area_bet": {
+          "value": "22.12",
+          "unit": "m²/g"
+        },
+        "xrd_peaks_info": "Cubic fluorite structure confirmed, (111) peak used for size calculation"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Dioxide (SiO₂)",
+            "value": "1174.4",
+            "unit": "Å/min",
+            "error": "105.1"
+          },
+          {
+            "material": "Silicon Nitride (Si₃N₄)",
+            "value": "46.4",
+            "unit": "Å/min",
+            "error": "3.3"
+          }
+        ],
+        "removal_selectivity_oxide_nitride": {
+          "value": "25.3",
+          "unit": "",
+          "error": "0.5"
+        },
+        "within_wafer_nonuniformity_wiwnu": {
+          "material": "Silicon Dioxide (SiO₂)",
+          "value": "3.0",
+          "unit": "%"
+        },
+        "polishing_pressure": {
+          "value": "280",
+          "unit": "g/cm²"
+        },
+        "rotation_speed_pad_wafer": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "mL/min"
+        },
+        "equipment_model": "GNP POLI 400 (G&P technology)",
+        "pad_composition": "IC 1000/SUBA IV stacked pads (Rodel Inc.)",
+        "substrate_details": [
+           {
+             "material": "Silicon Dioxide (SiO₂)",
+             "thickness": {
+               "value": "2",
+               "unit": "µm"
+             },
+             "deposition_method": "PECVD",
+             "substrate": "4-in. p-type silicon (001)"
+           },
+           {
+             "material": "Silicon Nitride (Si₃N₄)",
+             "deposition_method": "LPCVD"
+           }
+        ]
+      }
+    },
+    {
+      "sample_id": "Slurry_B_116nm",
+      "experiment_context": "Single crystalline ceria abrasive slurry with 116 nm primary particle size, synthesized hydrothermally at pH 3.0, 230°C.",
+      "synthesis_details": {
+        "method": "Hydrothermal",
+        "precursors": [
+          {
+            "chemical": "Ce(NO₃)₃·6H₂O",
+            "concentration": {
+              "value": "0.5",
+              "unit": "M"
+            }
+          },
+          {
+            "chemical": "KOH",
+            "concentration": {
+              "value": "0.5",
+              "unit": "M"
+            }
+          }
+        ],
+        "precipitant_type": "KOH",
+        "reaction_conditions": [
+           {
+             "stage": "Precipitation",
+             "temperature": {
+               "value": "50",
+               "unit": "°C"
+             },
+             "time": {
+               "value": "12",
+               "unit": "h"
+             },
+             "stirring_speed": {
+               "value": "100",
+               "unit": "rpm"
+             },
+             "environment": "Air bubbled",
+             "solvent_system": "DI water and ethylene glycol (3:2 volume ratio)"
+           },
+           {
+             "stage": "Hydrothermal",
+             "temperature": {
+               "value": "230",
+               "unit": "°C"
+             },
+             "time": {
+               "value": "6",
+               "unit": "h"
+             },
+             "ph_adjusted_to": {
+               "value": "3.0",
+               "unit": ""
+             },
+             "acid_used_for_ph_adjustment": "HNO₃",
+             "initial_ph_range_before_adjustment": "0.5-3.0",
+             "reactor_details": "2 L autoclave, 3/4 filled"
+           }
+        ]
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with distilled water",
+          "times": 3
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly acrylic acid (PAA)",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            },
+            "details": "Mw 4000, LG Chem."
+          }
+        ],
+        "target_final_slurry_ph": "6.5-6.7",
+        "ph_adjustment_agent": "NH₄OH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "116",
+          "unit": "nm",
+          "measurement_method_used": "FESEM"
+        },
+        "secondary_particle_size_distribution": {
+          "value": "273",
+          "unit": "nm",
+          "measurement_method_used": "Light scattering (UPA 150)"
+        },
+        "crystallite_size": {
+          "value": "40",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, from (111) peak)"
+        },
+        "crystallinity_phase_composition": "Single crystalline, Cubic fluorite structure",
+        "particle_morphology": "Spherical",
+        "specific_surface_area_bet": {
+          "value": "16.37",
+          "unit": "m²/g"
+        },
+        "xrd_peaks_info": "Cubic fluorite structure confirmed, (111) peak used for size calculation"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Dioxide (SiO₂)",
+            "value": "1794.2",
+            "unit": "Å/min",
+            "error": "125.5"
+          },
+          {
+            "material": "Silicon Nitride (Si₃N₄)",
+            "value": "47.3",
+            "unit": "Å/min",
+            "error": "3.7"
+          }
+        ],
+        "removal_selectivity_oxide_nitride": {
+          "value": "38.0",
+          "unit": "",
+          "error": "0.6"
+        },
+        "within_wafer_nonuniformity_wiwnu": {
+          "material": "Silicon Dioxide (SiO₂)",
+          "value": "5.5",
+          "unit": "%"
+        },
+        "polishing_pressure": {
+          "value": "280",
+          "unit": "g/cm²"
+        },
+        "rotation_speed_pad_wafer": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "mL/min"
+        },
+        "equipment_model": "GNP POLI 400 (G&P technology)",
+        "pad_composition": "IC 1000/SUBA IV stacked pads (Rodel Inc.)",
+         "substrate_details": [
+           {
+             "material": "Silicon Dioxide (SiO₂)",
+             "thickness": {
+               "value": "2",
+               "unit": "µm"
+             },
+             "deposition_method": "PECVD",
+             "substrate": "4-in. p-type silicon (001)"
+           },
+           {
+             "material": "Silicon Nitride (Si₃N₄)",
+             "deposition_method": "LPCVD"
+           }
+        ]
+      }
+    },
+    {
+      "sample_id": "Slurry_C_163nm",
+      "experiment_context": "Single crystalline ceria abrasive slurry with 163 nm primary particle size, synthesized hydrothermally at pH 1.5, 230°C.",
+      "synthesis_details": {
+        "method": "Hydrothermal",
+        "precursors": [
+          {
+            "chemical": "Ce(NO₃)₃·6H₂O",
+            "concentration": {
+              "value": "0.5",
+              "unit": "M"
+            }
+          },
+          {
+            "chemical": "KOH",
+            "concentration": {
+              "value": "0.5",
+              "unit": "M"
+            }
+          }
+        ],
+        "precipitant_type": "KOH",
+        "reaction_conditions": [
+           {
+             "stage": "Precipitation",
+             "temperature": {
+               "value": "50",
+               "unit": "°C"
+             },
+             "time": {
+               "value": "12",
+               "unit": "h"
+             },
+             "stirring_speed": {
+               "value": "100",
+               "unit": "rpm"
+             },
+             "environment": "Air bubbled",
+             "solvent_system": "DI water and ethylene glycol (3:2 volume ratio)"
+           },
+           {
+             "stage": "Hydrothermal",
+             "temperature": {
+               "value": "230",
+               "unit": "°C"
+             },
+             "time": {
+               "value": "6",
+               "unit": "h"
+             },
+             "ph_adjusted_to": {
+               "value": "1.5",
+               "unit": ""
+             },
+             "acid_used_for_ph_adjustment": "HNO₃",
+             "initial_ph_range_before_adjustment": "0.5-3.0",
+             "reactor_details": "2 L autoclave, 3/4 filled"
+           }
+        ]
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with distilled water",
+          "times": 3
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly acrylic acid (PAA)",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            },
+            "details": "Mw 4000, LG Chem."
+          }
+        ],
+        "target_final_slurry_ph": "6.5-6.7",
+        "ph_adjustment_agent": "NH₄OH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "163",
+          "unit": "nm",
+          "measurement_method_used": "FESEM"
+        },
+        "secondary_particle_size_distribution": {
+          "value": "326",
+          "unit": "nm",
+          "measurement_method_used": "Light scattering (UPA 150)"
+        },
+        "crystallite_size": {
+          "value": "45",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, from (111) peak)"
+        },
+        "crystallinity_phase_composition": "Single crystalline, Cubic fluorite structure",
+        "particle_morphology": "Transitional (Spherical to Square)",
+        "specific_surface_area_bet": {
+          "value": "11.44",
+          "unit": "m²/g"
+        },
+        "xrd_peaks_info": "Cubic fluorite structure confirmed, (111) peak used for size calculation"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Dioxide (SiO₂)",
+            "value": "2369.4",
+            "unit": "Å/min",
+            "error": "194.3"
+          },
+          {
+            "material": "Silicon Nitride (Si₃N₄)",
+            "value": "52.4",
+            "unit": "Å/min",
+            "error": "4.3"
+          }
+        ],
+        "removal_selectivity_oxide_nitride": {
+          "value": "45.2",
+          "unit": "",
+          "error": "0.1"
+        },
+        "within_wafer_nonuniformity_wiwnu": {
+          "material": "Silicon Dioxide (SiO₂)",
+          "value": "8.1",
+          "unit": "%"
+        },
+        "polishing_pressure": {
+          "value": "280",
+          "unit": "g/cm²"
+        },
+        "rotation_speed_pad_wafer": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "mL/min"
+        },
+        "equipment_model": "GNP POLI 400 (G&P technology)",
+        "pad_composition": "IC 1000/SUBA IV stacked pads (Rodel Inc.)",
+         "substrate_details": [
+           {
+             "material": "Silicon Dioxide (SiO₂)",
+             "thickness": {
+               "value": "2",
+               "unit": "µm"
+             },
+             "deposition_method": "PECVD",
+             "substrate": "4-in. p-type silicon (001)"
+           },
+           {
+             "material": "Silicon Nitride (Si₃N₄)",
+             "deposition_method": "LPCVD"
+           }
+        ]
+      }
+    },
+    {
+      "sample_id": "Slurry_D_232nm",
+      "experiment_context": "Single crystalline ceria abrasive slurry with 232 nm primary particle size, synthesized hydrothermally at pH 0.5, 230°C.",
+      "synthesis_details": {
+        "method": "Hydrothermal",
+        "precursors": [
+          {
+            "chemical": "Ce(NO₃)₃·6H₂O",
+            "concentration": {
+              "value": "0.5",
+              "unit": "M"
+            }
+          },
+          {
+            "chemical": "KOH",
+            "concentration": {
+              "value": "0.5",
+              "unit": "M"
+            }
+          }
+        ],
+        "precipitant_type": "KOH",
+        "reaction_conditions": [
+           {
+             "stage": "Precipitation",
+             "temperature": {
+               "value": "50",
+               "unit": "°C"
+             },
+             "time": {
+               "value": "12",
+               "unit": "h"
+             },
+             "stirring_speed": {
+               "value": "100",
+               "unit": "rpm"
+             },
+             "environment": "Air bubbled",
+             "solvent_system": "DI water and ethylene glycol (3:2 volume ratio)"
+           },
+           {
+             "stage": "Hydrothermal",
+             "temperature": {
+               "value": "230",
+               "unit": "°C"
+             },
+             "time": {
+               "value": "6",
+               "unit": "h"
+             },
+             "ph_adjusted_to": {
+               "value": "0.5",
+               "unit": ""
+             },
+             "acid_used_for_ph_adjustment": "HNO₃",
+             "initial_ph_range_before_adjustment": "0.5-3.0",
+             "reactor_details": "2 L autoclave, 3/4 filled"
+           }
+        ]
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with distilled water",
+          "times": 3
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly acrylic acid (PAA)",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            },
+            "details": "Mw 4000, LG Chem."
+          }
+        ],
+        "target_final_slurry_ph": "6.5-6.7",
+        "ph_adjustment_agent": "NH₄OH",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "232",
+          "unit": "nm",
+          "measurement_method_used": "FESEM"
+        },
+        "secondary_particle_size_distribution": {
+          "value": "484",
+          "unit": "nm",
+          "measurement_method_used": "Light scattering (UPA 150)"
+        },
+        "crystallite_size": {
+          "value": "66",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, from (111) peak)"
+        },
+        "crystallinity_phase_composition": "Single crystalline, Cubic fluorite structure",
+        "particle_morphology": "Square",
+        "specific_surface_area_bet": {
+          "value": "7.48",
+          "unit": "m²/g"
+        },
+        "xrd_peaks_info": "Cubic fluorite structure confirmed, (111) peak used for size calculation"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Dioxide (SiO₂)",
+            "value": "2674.1",
+            "unit": "Å/min",
+            "error": "201.8"
+          },
+          {
+            "material": "Silicon Nitride (Si₃N₄)",
+            "value": "61.6",
+            "unit": "Å/min",
+            "error": "5.3"
+          }
+        ],
+        "removal_selectivity_oxide_nitride": {
+          "value": "43.4",
+          "unit": "",
+          "error": "0.5"
+        },
+        "within_wafer_nonuniformity_wiwnu": {
+          "material": "Silicon Dioxide (SiO₂)",
+          "value": "11.89",
+          "unit": "%"
+        },
+        "polishing_pressure": {
+          "value": "280",
+          "unit": "g/cm²"
+        },
+        "rotation_speed_pad_wafer": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "100",
+          "unit": "mL/min"
+        },
+        "equipment_model": "GNP POLI 400 (G&P technology)",
+        "pad_composition": "IC 1000/SUBA IV stacked pads (Rodel Inc.)",
+         "substrate_details": [
+           {
+             "material": "Silicon Dioxide (SiO₂)",
+             "thickness": {
+               "value": "2",
+               "unit": "µm"
+             },
+             "deposition_method": "PECVD",
+             "substrate": "4-in. p-type silicon (001)"
+           },
+           {
+             "material": "Silicon Nitride (Si₃N₄)",
+             "deposition_method": "LPCVD"
+           }
+        ]
+      }
+    }
+  ]
+}

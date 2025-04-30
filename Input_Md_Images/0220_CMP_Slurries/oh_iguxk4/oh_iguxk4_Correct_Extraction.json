@@ -1,0 +1,268 @@
+{
+  "doi": null,
+  "title": "Polishing behaviors of ceria abrasives on silicon dioxide and silicon nitride CMP",
+  "year_published": "2010",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Slurry A",
+      "experiment_context": "Ceria abrasives synthesized via flux method using KOH accelerator. Calcined at 800°C with 0.5 wt% KOH.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "KOH"],
+      "precursor_concentration": [
+        {"chemical": "Ce(NO₃)₃·6H₂O", "value": "0.5", "unit": "M"},
+        {"chemical": "KOH", "value": "1.0", "unit": "M"}
+      ],
+      "precipitant_type": "KOH (used in initial precipitation and as flux/accelerator)",
+      "molar_ratio_precursor_precipitant": "1:2 (initial precipitation)",
+      "reaction_temperature": {"value": "50", "unit": "°C", "step": "Initial Precipitation"},
+      "reaction_time": {"value": "12", "unit": "h", "step": "Initial Precipitation"},
+      "synthesis_conditions": {
+        "hydrothermal_reaction": {"temperature": {"value": "230", "unit": "°C"}, "time": {"value": "6", "unit": "h"}},
+        "sintering": {"temperature": {"value": "800", "unit": "°C"}, "time": {"value": "2", "unit": "h"}, "koh_concentration_wt_percent": 0.5},
+        "stirring_speed": {"value": "100", "unit": "rpm", "step": "Initial Precipitation"},
+        "environmental_conditions": "Air bubbled during initial precipitation"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with distilled water",
+          "count": 3,
+          "conductivity_threshold": {"value": "0.5", "unit": "µS"} 
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "2.0", "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Poly acrylic acid (PAA)",
+            "type": "dispersant",
+            "concentration": {"value": "2", "unit": "wt.%"},
+            "details": "Mw 4000, LG Chem."
+          }
+        ],
+        "target_final_slurry_ph": "6.5-6.7",
+        "solvent": {"name": "DI water"}
+      },
+      "characterization": {
+        "primary_particle_size_sem": {"value": "84", "unit": "nm", "measurement_method_used": "SEM"},
+        "slurry_mean_size_upa": {"value": "165", "unit": "nm", "measurement_method_used": "UPA"},
+        "crystallite_size": {"value": "38", "unit": "nm", "measurement_method_used": "XRD (Scherrer, (111) peak)"},
+        "crystallinity_phase_composition": {"phase": "cubic fluorite structure"},
+        "particle_morphology": "crystalline grains with a well-defined morphology",
+        "specific_surface_area_bet": {"value": "20.53", "unit": "m²/g"},
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)"],
+        "tga_analysis": "Performed, showed polymer decomposition at 200-260°C (details in Fig. 9)"
+      },
+      "cmp_performance": {
+        "substrate_polished": ["Silicon Dioxide (PECVD)", "Silicon Nitride (LPCVD)"],
+        "polishing_time": {"value": "1", "unit": "min"},
+        "material_removal_rate_oxide": {"value": "1661", "unit": "Å/min", "std_dev": 77},
+        "material_removal_rate_nitride": {"value": "79", "unit": "Å/min", "std_dev": 6},
+        "removal_selectivity_oxide_nitride": {"value": "21", "unit": null, "std_dev": 0.9},
+        "process_temperature": null,
+        "polishing_pressure": {"value": "280", "unit": "g/cm²"},
+        "rotation_speed_pad": {"value": "90", "unit": "rpm"},
+        "rotation_speed_wafer": {"value": "90", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "100", "unit": "mL/min"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "GNP POLI 400 CMP machine (G&P Technology)",
+        "pad_composition": "IC 1000/SUBA IV stacked pads (Rodel Inc.)",
+        "wiwnu_oxide": {"value": "7.9", "unit": "%"}
+      }
+    },
+    {
+      "sample_id": "Slurry B",
+      "experiment_context": "Ceria abrasives synthesized via flux method using KOH accelerator. Calcined at 850°C with 0.2 wt% KOH.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "KOH"],
+      "precursor_concentration": [
+        {"chemical": "Ce(NO₃)₃·6H₂O", "value": "0.5", "unit": "M"},
+        {"chemical": "KOH", "value": "1.0", "unit": "M"}
+      ],
+      "precipitant_type": "KOH (used in initial precipitation and as flux/accelerator)",
+      "molar_ratio_precursor_precipitant": "1:2 (initial precipitation)",
+      "reaction_temperature": {"value": "50", "unit": "°C", "step": "Initial Precipitation"},
+      "reaction_time": {"value": "12", "unit": "h", "step": "Initial Precipitation"},
+      "synthesis_conditions": {
+        "hydrothermal_reaction": {"temperature": {"value": "230", "unit": "°C"}, "time": {"value": "6", "unit": "h"}},
+        "sintering": {"temperature": {"value": "850", "unit": "°C"}, "time": {"value": "2", "unit": "h"}, "koh_concentration_wt_percent": 0.2},
+        "stirring_speed": {"value": "100", "unit": "rpm", "step": "Initial Precipitation"},
+        "environmental_conditions": "Air bubbled during initial precipitation"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with distilled water",
+          "count": 3,
+          "conductivity_threshold": {"value": "0.5", "unit": "µS"} 
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "2.0", "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Poly acrylic acid (PAA)",
+            "type": "dispersant",
+            "concentration": {"value": "2", "unit": "wt.%"},
+            "details": "Mw 4000, LG Chem."
+          }
+        ],
+        "target_final_slurry_ph": "6.5-6.7",
+        "solvent": {"name": "DI water"}
+      },
+      "characterization": {
+        "primary_particle_size_sem": {"value": "166", "unit": "nm", "measurement_method_used": "SEM"},
+        "slurry_mean_size_upa": {"value": "278", "unit": "nm", "measurement_method_used": "UPA"},
+        "crystallite_size": {"value": "43", "unit": "nm", "measurement_method_used": "XRD (Scherrer, (111) peak)"},
+        "crystallinity_phase_composition": {"phase": "cubic fluorite structure"},
+        "particle_morphology": "crystalline grains with a well-defined morphology",
+        "specific_surface_area_bet": {"value": "14.06", "unit": "m²/g"},
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)"],
+        "tga_analysis": null
+      },
+      "cmp_performance": {
+        "substrate_polished": ["Silicon Dioxide (PECVD)", "Silicon Nitride (LPCVD)"],
+        "polishing_time": {"value": "1", "unit": "min"},
+        "material_removal_rate_oxide": {"value": "3390", "unit": "Å/min", "std_dev": 103},
+        "material_removal_rate_nitride": {"value": "117", "unit": "Å/min", "std_dev": 8},
+        "removal_selectivity_oxide_nitride": {"value": "29", "unit": null, "std_dev": 1.0},
+        "process_temperature": null,
+        "polishing_pressure": {"value": "280", "unit": "g/cm²"},
+        "rotation_speed_pad": {"value": "90", "unit": "rpm"},
+        "rotation_speed_wafer": {"value": "90", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "100", "unit": "mL/min"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "GNP POLI 400 CMP machine (G&P Technology)",
+        "pad_composition": "IC 1000/SUBA IV stacked pads (Rodel Inc.)",
+        "wiwnu_oxide": {"value": "11.0", "unit": "%"}
+      }
+    },
+    {
+      "sample_id": "Slurry C",
+      "experiment_context": "Ceria abrasives synthesized via flux method using KOH accelerator. Calcined at 850°C with 0.5 wt% KOH.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "KOH"],
+      "precursor_concentration": [
+        {"chemical": "Ce(NO₃)₃·6H₂O", "value": "0.5", "unit": "M"},
+        {"chemical": "KOH", "value": "1.0", "unit": "M"}
+      ],
+      "precipitant_type": "KOH (used in initial precipitation and as flux/accelerator)",
+      "molar_ratio_precursor_precipitant": "1:2 (initial precipitation)",
+      "reaction_temperature": {"value": "50", "unit": "°C", "step": "Initial Precipitation"},
+      "reaction_time": {"value": "12", "unit": "h", "step": "Initial Precipitation"},
+      "synthesis_conditions": {
+        "hydrothermal_reaction": {"temperature": {"value": "230", "unit": "°C"}, "time": {"value": "6", "unit": "h"}},
+        "sintering": {"temperature": {"value": "850", "unit": "°C"}, "time": {"value": "2", "unit": "h"}, "koh_concentration_wt_percent": 0.5},
+        "stirring_speed": {"value": "100", "unit": "rpm", "step": "Initial Precipitation"},
+        "environmental_conditions": "Air bubbled during initial precipitation"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with distilled water",
+          "count": 3,
+          "conductivity_threshold": {"value": "0.5", "unit": "µS"} 
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "2.0", "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Poly acrylic acid (PAA)",
+            "type": "dispersant",
+            "concentration": {"value": "2", "unit": "wt.%"},
+            "details": "Mw 4000, LG Chem."
+          }
+        ],
+        "target_final_slurry_ph": "6.5-6.7",
+        "solvent": {"name": "DI water"}
+      },
+      "characterization": {
+        "primary_particle_size_sem": {"value": "295", "unit": "nm", "measurement_method_used": "SEM"},
+        "slurry_mean_size_upa": {"value": "483", "unit": "nm", "measurement_method_used": "UPA"},
+        "crystallite_size": {"value": "57", "unit": "nm", "measurement_method_used": "XRD (Scherrer, (111) peak)"},
+        "crystallinity_phase_composition": {"phase": "cubic fluorite structure"},
+        "particle_morphology": "crystalline grains with a well-defined morphology",
+        "specific_surface_area_bet": {"value": "12.70", "unit": "m²/g"},
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)"],
+        "tga_analysis": null
+      },
+      "cmp_performance": {
+        "substrate_polished": ["Silicon Dioxide (PECVD)", "Silicon Nitride (LPCVD)"],
+        "polishing_time": {"value": "1", "unit": "min"},
+        "material_removal_rate_oxide": {"value": "3989", "unit": "Å/min", "std_dev": 91},
+        "material_removal_rate_nitride": {"value": "127", "unit": "Å/min", "std_dev": 6},
+        "removal_selectivity_oxide_nitride": {"value": "32", "unit": null, "std_dev": 1.3},
+        "process_temperature": null,
+        "polishing_pressure": {"value": "280", "unit": "g/cm²"},
+        "rotation_speed_pad": {"value": "90", "unit": "rpm"},
+        "rotation_speed_wafer": {"value": "90", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "100", "unit": "mL/min"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "GNP POLI 400 CMP machine (G&P Technology)",
+        "pad_composition": "IC 1000/SUBA IV stacked pads (Rodel Inc.)",
+        "wiwnu_oxide": {"value": "14.6", "unit": "%"}
+      }
+    },
+    {
+      "sample_id": "Slurry D",
+      "experiment_context": "Ceria abrasives synthesized via flux method using KOH accelerator. Calcined at 900°C with 0.5 wt% KOH.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "KOH"],
+      "precursor_concentration": [
+        {"chemical": "Ce(NO₃)₃·6H₂O", "value": "0.5", "unit": "M"},
+        {"chemical": "KOH", "value": "1.0", "unit": "M"}
+      ],
+      "precipitant_type": "KOH (used in initial precipitation and as flux/accelerator)",
+      "molar_ratio_precursor_precipitant": "1:2 (initial precipitation)",
+      "reaction_temperature": {"value": "50", "unit": "°C", "step": "Initial Precipitation"},
+      "reaction_time": {"value": "12", "unit": "h", "step": "Initial Precipitation"},
+      "synthesis_conditions": {
+        "hydrothermal_reaction": {"temperature": {"value": "230", "unit": "°C"}, "time": {"value": "6", "unit": "h"}},
+        "sintering": {"temperature": {"value": "900", "unit": "°C"}, "time": {"value": "2", "unit": "h"}, "koh_concentration_wt_percent": 0.5},
+        "stirring_speed": {"value": "100", "unit": "rpm", "step": "Initial Precipitation"},
+        "environmental_conditions": "Air bubbled during initial precipitation"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with distilled water",
+          "count": 3,
+          "conductivity_threshold": {"value": "0.5", "unit": "µS"} 
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "2.0", "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Poly acrylic acid (PAA)",
+            "type": "dispersant",
+            "concentration": {"value": "2", "unit": "wt.%"},
+            "details": "Mw 4000, LG Chem."
+          }
+        ],
+        "target_final_slurry_ph": "6.5-6.7",
+        "solvent": {"name": "DI water"}
+      },
+      "characterization": {
+        "primary_particle_size_sem": {"value": "417", "unit": "nm", "measurement_method_used": "SEM"},
+        "slurry_mean_size_upa": {"value": "742", "unit": "nm", "measurement_method_used": "UPA"},
+        "crystallite_size": {"value": "88", "unit": "nm", "measurement_method_used": "XRD (Scherrer, (111) peak)"},
+        "crystallinity_phase_composition": {"phase": "cubic fluorite structure"},
+        "particle_morphology": "crystalline grains with a well-defined morphology",
+        "specific_surface_area_bet": {"value": "5.58", "unit": "m²/g"},
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)"],
+        "tga_analysis": "Performed, showed polymer decomposition at 200-260°C (details in Fig. 9)"
+      },
+      "cmp_performance": {
+        "substrate_polished": ["Silicon Dioxide (PECVD)", "Silicon Nitride (LPCVD)"],
+        "polishing_time": {"value": "1", "unit": "min"},
+        "material_removal_rate_oxide": {"value": "4343", "unit": "Å/min", "std_dev": 136},
+        "material_removal_rate_nitride": {"value": "155", "unit": "Å/min", "std_dev": 13},
+        "removal_selectivity_oxide_nitride": {"value": "28", "unit": null, "std_dev": 1.4},
+        "process_temperature": null,
+        "polishing_pressure": {"value": "280", "unit": "g/cm²"},
+        "rotation_speed_pad": {"value": "90", "unit": "rpm"},
+        "rotation_speed_wafer": {"value": "90", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "100", "unit": "mL/min"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "GNP POLI 400 CMP machine (G&P Technology)",
+        "pad_composition": "IC 1000/SUBA IV stacked pads (Rodel Inc.)",
+        "wiwnu_oxide": {"value": "16.7", "unit": "%"}
+      }
+    }
+  ]
+}

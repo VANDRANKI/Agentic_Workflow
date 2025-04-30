@@ -1,0 +1,1755 @@
+{
+  "doi": null,
+  "title": "Chemical effect on the material removal rate in the CMP of silicon wafers",
+  "year_published": "2010",
+  "journal": null,
+  "substrate": {
+    "material": "Silicon",
+    "orientation": "(100)",
+    "vendor": "Commercially available",
+    "size": "20 mm x 15 mm"
+  },
+  "samples": [
+    {
+      "sample_id": "Al2O3_Flow20_pH7_Ox0.4",
+      "experiment_context": "Effect of flow rate on MRR using Al₂O₃ abrasive slurry. Conditions: 20 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 100,
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+        "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "Al2O3_Flow40_pH7_Ox0.4",
+      "experiment_context": "Effect of flow rate on MRR using Al₂O₃ abrasive slurry. Conditions: 40 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 40,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 128,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "Al2O3_Flow80_pH7_Ox0.4",
+      "experiment_context": "Effect of flow rate on MRR using Al₂O₃ abrasive slurry. Conditions: 80 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 80,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 170,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "Al2O3_Flow100_pH7_Ox0.4",
+      "experiment_context": "Effect of flow rate on MRR using Al₂O₃ abrasive slurry. Conditions: 100 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 100,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 168,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+     {
+      "sample_id": "CeO2_Flow20_pH7_Ox0.4",
+      "experiment_context": "Effect of flow rate on MRR using CeO₂ abrasive slurry. Conditions: 20 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "spectroscopy_analysis": {
+            "conditions": "pH=7, 0.4% H₂O₂",
+            "dominant_ion": "Ce³⁺",
+            "transmittance_peak_nm": "~340",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5a: Ce³⁺ ions dominant."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 67,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow40_pH7_Ox0.4",
+      "experiment_context": "Effect of flow rate on MRR using CeO₂ abrasive slurry. Conditions: 40 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=7, 0.4% H₂O₂",
+            "dominant_ion": "Ce³⁺",
+            "transmittance_peak_nm": "~340",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5a: Ce³⁺ ions dominant."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 40,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 83,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow80_pH7_Ox0.4",
+      "experiment_context": "Effect of flow rate on MRR using CeO₂ abrasive slurry. Conditions: 80 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=7, 0.4% H₂O₂",
+            "dominant_ion": "Ce³⁺",
+            "transmittance_peak_nm": "~340",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5a: Ce³⁺ ions dominant."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 80,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 105,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow100_pH7_Ox0.4",
+      "experiment_context": "Effect of flow rate on MRR using CeO₂ abrasive slurry. Conditions: 100 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=7, 0.4% H₂O₂",
+            "dominant_ion": "Ce³⁺",
+            "transmittance_peak_nm": "~340",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5a: Ce³⁺ ions dominant."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 100,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 99,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "Al2O3_Flow70_pH7_Ox0.2",
+      "experiment_context": "Effect of oxidizer concentration on MRR using Al₂O₃ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 0.2% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.2,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 120,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "Al2O3_Flow70_pH7_Ox0.4",
+      "experiment_context": "Effect of oxidizer concentration on MRR using Al₂O₃ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 175,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "Al2O3_Flow70_pH7_Ox1.0",
+      "experiment_context": "Effect of oxidizer concentration on MRR using Al₂O₃ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 1.0% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 1.0,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 140,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "Al2O3_Flow70_pH7_Ox2.0",
+      "experiment_context": "Effect of oxidizer concentration on MRR using Al₂O₃ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 2.0% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 2.0,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 115,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow70_pH7_Ox0.2",
+      "experiment_context": "Effect of oxidizer concentration on MRR using CeO₂ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 0.2% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.2,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=7, 0.4% H₂O₂ (closest condition analyzed)",
+            "dominant_ion": "Ce³⁺",
+            "transmittance_peak_nm": "~340",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5a: Ce³⁺ ions dominant at 0.4% H₂O₂, likely similar at 0.2%."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 82,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow70_pH7_Ox0.4",
+      "experiment_context": "Effect of oxidizer concentration on MRR using CeO₂ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=7, 0.4% H₂O₂",
+            "dominant_ion": "Ce³⁺",
+            "transmittance_peak_nm": "~340",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5a: Ce³⁺ ions dominant."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 105,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow70_pH7_Ox1.0",
+      "experiment_context": "Effect of oxidizer concentration on MRR using CeO₂ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 1.0% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 1.0,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=7, 1% H₂O₂",
+            "dominant_ion": "Ce⁴⁺",
+            "transmittance_peak_nm": "~360",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5c: Ce³⁺ ions oxidized to Ce⁴⁺."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 250,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow70_pH7_Ox2.0",
+      "experiment_context": "Effect of oxidizer concentration on MRR using CeO₂ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 2.0% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 2.0,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=7, 2% H₂O₂",
+            "dominant_ion": "Ce⁴⁺",
+            "transmittance_peak_nm": "~360",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5d: Ce³⁺ ions oxidized to Ce⁴⁺."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 110,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+     {
+      "sample_id": "Al2O3_Flow70_pH7_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using Al₂O₃ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 170,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+     {
+      "sample_id": "Al2O3_Flow70_pH9_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using Al₂O₃ abrasive slurry. Conditions: 70 ml/min flow rate, pH 9, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 9,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 90,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+     {
+      "sample_id": "Al2O3_Flow70_pH10_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using Al₂O₃ abrasive slurry. Conditions: 70 ml/min flow rate, pH 10, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 10,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 110,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+     {
+      "sample_id": "Al2O3_Flow70_pH11_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using Al₂O₃ abrasive slurry. Conditions: 70 ml/min flow rate, pH 11, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 11,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 200,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+     {
+      "sample_id": "Al2O3_Flow70_pH12_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using Al₂O₃ abrasive slurry. Conditions: 70 ml/min flow rate, pH 12, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Al₂O₃",
+        "abrasive_source": "Logitech Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 12,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 190,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow70_pH7_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using CeO₂ abrasive slurry. Conditions: 70 ml/min flow rate, pH 7, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 7,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=7, 0.4% H₂O₂",
+            "dominant_ion": "Ce³⁺",
+            "transmittance_peak_nm": "~340",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5a: Ce³⁺ ions dominant. Lowest MRR for CeO₂ observed at this pH."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 100,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow70_pH9_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using CeO₂ abrasive slurry. Conditions: 70 ml/min flow rate, pH 9, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 9,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 330,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow70_pH10_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using CeO₂ abrasive slurry. Conditions: 70 ml/min flow rate, pH 10, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 10,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=10, 0.4% H₂O₂",
+            "dominant_ion": "Ce³⁺",
+            "transmittance_peak_nm": "~340",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5b: Ce³⁺ ions mainly exist. Highest MRR observed around this pH."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 370,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow70_pH11_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using CeO₂ abrasive slurry. Conditions: 70 ml/min flow rate, pH 11, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 11,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+         "spectroscopy_analysis": {
+            "conditions": "pH=11, 0.4% H₂O₂",
+            "dominant_ion": "Ce⁴⁺",
+            "transmittance_peak_nm": "~360",
+            "instrument": "Cary 5E UV/VIS/NIR spectrophotometry",
+            "notes": "Fig 5e: Increased pH reduces requirement to oxidize Ce³⁺, leading to more Ce⁴⁺, potentially decreasing MRR compared to pH 10 despite graph showing similar value."
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 370,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_Flow70_pH12_Ox0.4",
+      "experiment_context": "Effect of pH on MRR using CeO₂ abrasive slurry. Conditions: 70 ml/min flow rate, pH 12, 0.4% Vol H₂O₂, 20 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "H.K. YiheI Trading Co.",
+        "abrasive_concentration": {
+          "value": 2.5,
+          "unit": "%Vol"
+        },
+        "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidizer",
+            "source": "Sigma Co. (Analytically pure grade)",
+            "concentration": {
+              "value": 0.4,
+              "unit": "%Vol"
+            }
+          }
+        ],
+        "ph_adjusters": ["NaOH", "HCl"],
+        "target_final_slurry_ph": 12,
+        "solvent": {
+          "name": "De-ionized water"
+        }
+      },
+       "characterization": {
+         "particle_size_distribution": {
+          "value": 50,
+          "unit": "nm",
+          "measurement_method_used": "Vendor specification (normal diameter)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": 20,
+          "unit": "kPa"
+        },
+        "slurry_flow_rate": {
+          "value": 70,
+          "unit": "ml/min"
+        },
+        "material_removal_rate": {
+          "value": 375,
+          "unit": "nm/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": null
+        },
+        "equipment_model": "PM5 auto-lap precision lapping/polishing machine (Logitech Co.)",
+        "pad_composition": "Chemicloth Polishing Cloths, SKU:0CON-352 (Logitech)",
+         "pad_properties": {
+            "diameter_mm": 300,
+            "material": "Urethane"
+        }
+      }
+    }
+  ]
+}

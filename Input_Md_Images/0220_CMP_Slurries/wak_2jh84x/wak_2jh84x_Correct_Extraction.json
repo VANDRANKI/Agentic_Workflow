@@ -1,0 +1,1661 @@
+{
+  "doi": null,
+  "title": "CMP characteristics of quartz glass substrate by aggregated colloidal ceria slurry",
+  "year_published": "2019",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Calcined_CeO2_HOROX-A20_0.5wt%_8kPa",
+      "experiment_context": "Baseline CMP with Calcined Ceria (HOROX-A20) at 0.5 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Calcined Ceria",
+        "abrasive_source": "HOROX-A20",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "200-5000", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Irregular polyhedral, aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~40",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.1",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": null,
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Calcined_CeO2_HOROX-A20_1.0wt%_8kPa",
+      "experiment_context": "Baseline CMP with Calcined Ceria (HOROX-A20) at 1.0 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Calcined Ceria",
+        "abrasive_source": "HOROX-A20",
+        "abrasive_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "200-5000",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Irregular polyhedral, aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~75",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.2",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": null,
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Calcined_CeO2_HOROX-A20_2.5wt%_8kPa",
+      "experiment_context": "Baseline CMP with Calcined Ceria (HOROX-A20) at 2.5 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Calcined Ceria",
+        "abrasive_source": "HOROX-A20",
+        "abrasive_concentration": {
+          "value": "2.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "200-5000",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Irregular polyhedral, aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~100",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.5",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Many large and small scratches",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Calcined_CeO2_HOROX-A20_5.0wt%_8kPa",
+      "experiment_context": "Baseline CMP with Calcined Ceria (HOROX-A20) at 5.0 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Calcined Ceria",
+        "abrasive_source": "HOROX-A20",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "200-5000",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Irregular polyhedral, aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~105",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.5",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Many large and small scratches",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Calcined_CeO2_HOROX-A20_7.5wt%_8kPa",
+      "experiment_context": "Baseline CMP with Calcined Ceria (HOROX-A20) at 7.5 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Calcined Ceria",
+        "abrasive_source": "HOROX-A20",
+        "abrasive_concentration": {
+          "value": "7.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "200-5000",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Irregular polyhedral, aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~105",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.5",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Many large and small scratches",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_0.5wt%_8kPa",
+      "experiment_context": "Baseline CMP with original Colloidal Ceria (Zenus HC60) at 0.5 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~10",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~0.8",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": null,
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_1.0wt%_8kPa",
+      "experiment_context": "Baseline CMP with original Colloidal Ceria (Zenus HC60) at 1.0 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~15",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~0.9",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": null,
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_2.5wt%_8kPa",
+      "experiment_context": "Baseline CMP with original Colloidal Ceria (Zenus HC60) at 2.5 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "2.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~25",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.0",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Almost no scratch",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5.0wt%_8kPa",
+      "experiment_context": "Baseline CMP with original Colloidal Ceria (Zenus HC60) at 5.0 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~25",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.0",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Almost no scratch",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_7.5wt%_8kPa",
+      "experiment_context": "Baseline CMP with original Colloidal Ceria (Zenus HC60) at 7.5 wt% concentration and 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "7.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~25",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.0",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Almost no scratch",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.001M_8kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%) with 0.001 M KOH additive at 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0", 
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.001",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Aggregated, precipitated after 3 days (Fig 7)"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": { 
+          "value": 20, 
+          "unit": "mL/min" 
+        },
+        "material_removal_rate": {
+          "value": "~25",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.0",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Almost no scratch",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.005M_8kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%) with 0.005 M KOH additive at 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.005",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Weakly aggregated, redispersed after sonication (Fig 8, 9)"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~25",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.05",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Almost no scratch",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.01M_8kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%) with 0.01 M KOH additive at 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Weakly aggregated, redispersed after sonication (Fig 8, 9, 10)"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~25",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.1",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Almost no scratch",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.05M_8kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%) with 0.05 M KOH additive at 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.05",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Aggregated" 
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20,
+          "unit": "mL/min"
+        },
+        "material_removal_rate": {
+          "value": "~75",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.15",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Almost no scratch",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.1M_8kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%) with 0.1 M KOH additive at 8 kPa pressure.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated, did not redisperse after sonication (Fig 8, 9, 11)"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min" 
+        },
+        "material_removal_rate": {
+          "value": "~100",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "~1.2",
+          "unit": "nm",
+          "measurement_method_used": "CLSM"
+        },
+        "surface_defects": "Almost no scratch",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.1M_4.0kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%, 0.1 M KOH) at varied pressure: 4.0 kPa.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "4.0",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~50",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": null,
+        "surface_defects": "High quality surface, almost no scratch (Fig 14a)",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+        {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.1M_12.0kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%, 0.1 M KOH) at varied pressure: 12.0 kPa.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "12.0",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~150",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": null,
+        "surface_defects": null,
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.1M_16.0kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%, 0.1 M KOH) at varied pressure: 16.0 kPa.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "16.0",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~190",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": null,
+        "surface_defects": "No scratches, slight amount of slurry residues at the edge (Fig 14b)",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.1M_20.3kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%, 0.1 M KOH) at varied pressure: 20.3 kPa.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "20.3",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~225",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": null,
+        "surface_defects": null,
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.1M_25.0kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%, 0.1 M KOH) at varied pressure: 25.0 kPa.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "25.0",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~240",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": null,
+        "surface_defects": null,
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_5wt%_KOH_0.1M_31.4kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 5 wt%, 0.1 M KOH) at varied pressure: 31.4 kPa.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "5.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "31.4",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~250",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": null,
+        "surface_defects": "Large amount of slurry residue stacks at the edge and on the surface (Fig 14c)",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_1wt%_KOH_0.1M_31.4kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 1 wt%, 0.1 M KOH) at high pressure (31.4 kPa) to reduce residue.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "31.4",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~180",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": null,
+        "surface_defects": "Slurry residue hardly adhered (Fig 15a)",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_2wt%_KOH_0.1M_4.0kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 2 wt%, 0.1 M KOH) at low pressure (4.0 kPa).",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "2.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "4.0",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~35",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "0.183",
+          "unit": "nm",
+          "measurement_method_used": "AFM"
+        },
+        "surface_defects": "High quality, few scratches (Fig 16a)",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_2wt%_KOH_0.1M_31.4kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 2 wt%, 0.1 M KOH) at high pressure (31.4 kPa) to reduce residue.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "2.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "31.4",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~225",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": {
+          "value": "0.251",
+          "unit": "nm",
+          "measurement_method_used": "AFM"
+        },
+        "surface_defects": "Slurry residue hardly adhered (Fig 15b). Lot of shallow scratches, but high quality surface (Fig 16b)",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    },
+    {
+      "sample_id": "Colloidal_CeO2_HC60_3wt%_KOH_0.1M_31.4kPa",
+      "experiment_context": "Aggregated Colloidal Ceria (Zenus HC60, 3 wt%, 0.1 M KOH) at high pressure (31.4 kPa) to reduce residue.",
+      "slurry_preparation": {
+        "abrasive_type": "Colloidal Ceria",
+        "abrasive_source": "Zenus HC60",
+        "abrasive_concentration": {
+          "value": "3.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "KOH",
+            "type": "Aggregating agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": {
+          "value": "~80", 
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "particle_morphology": "Regular, close to spherical, uniform, polyhedral",
+        "aggregation_state": "Strongly aggregated"
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "substrate_dimensions": {
+          "diameter": {
+            "value": 76.2,
+            "unit": "mm"
+          },
+          "thickness": {
+            "value": 0.5,
+            "unit": "mm"
+          }
+        },
+        "polishing_pressure": {
+          "value": "31.4",
+          "unit": "kPa"
+        },
+        "platen_rotational_speed": {
+          "value": 60,
+          "unit": "min⁻¹"
+        },
+        "slurry_flow_rate": {
+          "value": 20, 
+          "unit": "mL/min",
+          "details": "10 mL/min CeO2 + 10 mL/min KOH"
+        },
+        "material_removal_rate": {
+          "value": "~260",
+          "unit": "nm/min"
+        },
+        "surface_roughness_ra": null,
+        "surface_defects": "Slurry residue hardly adhered (Fig 15c)",
+        "equipment_model": "NF-300 (Nano Factor Co, Ltd)",
+        "pad_composition": "IC1000 (Nitta-Haas:XY-groove)"
+      }
+    }
+  ]
+}

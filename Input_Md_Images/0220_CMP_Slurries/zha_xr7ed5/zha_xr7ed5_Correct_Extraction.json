@@ -1,0 +1,1038 @@
+{
+  "doi": null,
+  "title": "Enhancing ceria slurry performance for shallow trench isolation chemical mechanical polishing through non-ionic surfactant addition",
+  "year_published": "2023",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "PVP-K30_pH4",
+      "experiment_context": "CeO2 slurry with PVP-K30 non-ionic surfactant at pH 4.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PVP-K30",
+            "type": "Non-ionic surfactant",
+            "concentration": null 
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~250", 
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Individual CeO₂ particles, significant separation",
+          "size": {
+             "value": "~60",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~+5",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "adsorption_mass": [
+           {
+             "substrate": "SiO2", 
+             "value": "240", 
+             "unit": "ng", 
+             "measurement_method_used": "Quartz crystal microbalance (Q-sense)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "198", 
+             "unit": "ng", 
+             "measurement_method_used": "Quartz crystal microbalance (Q-sense)"
+           }
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "0.9", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "22.6", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~26",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.21", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.10", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~12", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.5", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~10", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.45", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null, 
+        "polishing_pressure": null, 
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    },
+    {
+      "sample_id": "PVP-K30_pH6",
+      "experiment_context": "CeO2 slurry with PVP-K30 non-ionic surfactant at pH 6.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PVP-K30",
+            "type": "Non-ionic surfactant",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "6",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~350",
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Individual CeO₂ particles, significant separation",
+          "size": {
+             "value": "~60",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~+3",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "tga_analysis": {
+          "decomposition_onset_temp": {"value": ">350", "unit": "°C"}, 
+          "atmosphere": "N2",
+          "temp_range": {"value": "0-750", "unit": "°C"},
+          "measurement_method_used": "TGA"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "5.9", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "33.9", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~6",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.20", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.08", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~10", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": null, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~8", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": null, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    },
+    {
+      "sample_id": "PVP-K30_pH7",
+      "experiment_context": "CeO2 slurry with PVP-K30 non-ionic surfactant at pH 7.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PVP-K30",
+            "type": "Non-ionic surfactant",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "7",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~220",
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Individual CeO₂ particles, significant separation",
+          "size": {
+             "value": "~60",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~0",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "4.1", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "27.1", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~7",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.25", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.12", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~8", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.45", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~6", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.40", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    },
+    {
+      "sample_id": "PVP-K30_pH10",
+      "experiment_context": "CeO2 slurry with PVP-K30 non-ionic surfactant at pH 10.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PVP-K30",
+            "type": "Non-ionic surfactant",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~250",
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Individual CeO₂ particles, significant separation",
+          "size": {
+             "value": "~60",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~-15",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "2.6", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "32.7", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~13",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.32", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.16", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~4", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.7", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~3", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.40", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    },
+    {
+      "sample_id": "PVP-K30_pH12",
+      "experiment_context": "CeO2 slurry with PVP-K30 non-ionic surfactant at pH 12.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PVP-K30",
+            "type": "Non-ionic surfactant",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "12",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~300",
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Individual CeO₂ particles, significant separation",
+          "size": {
+             "value": "~60",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~-20",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "2.1", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "53.4", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~25",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.28", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.14", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~3", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": null, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~2", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": null, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    },
+    {
+      "sample_id": "PEG_pH4",
+      "experiment_context": "CeO2 slurry with PEG non-ionic surfactant at pH 4.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PEG",
+            "type": "Non-ionic surfactant",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~550",
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Aggregated particles",
+          "size": {
+             "value": "~60-150",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~+10",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "adsorption_mass": [
+           {
+             "substrate": "SiO2", 
+             "value": "104", 
+             "unit": "ng", 
+             "measurement_method_used": "Quartz crystal microbalance (Q-sense)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "73", 
+             "unit": "ng", 
+             "measurement_method_used": "Quartz crystal microbalance (Q-sense)"
+           }
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "20.2", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "74.1", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~4",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.22", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.11", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~13", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.4", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~11", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.3", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    },
+    {
+      "sample_id": "PEG_pH6",
+      "experiment_context": "CeO2 slurry with PEG non-ionic surfactant at pH 6.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PEG",
+            "type": "Non-ionic surfactant",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "6",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~250",
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Aggregated particles",
+          "size": {
+             "value": "~60-150",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~+30",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "tga_analysis": {
+          "decomposition_onset_temp": {"value": ">250", "unit": "°C"}, 
+          "atmosphere": "N2",
+          "temp_range": {"value": "0-750", "unit": "°C"},
+          "measurement_method_used": "TGA"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "9.7", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "148.9", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~15",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.21", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.09", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~11", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": null, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~9", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": null, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    },
+    {
+      "sample_id": "PEG_pH7",
+      "experiment_context": "CeO2 slurry with PEG non-ionic surfactant at pH 7.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PEG",
+            "type": "Non-ionic surfactant",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "7",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~650",
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Aggregated particles",
+          "size": {
+             "value": "~60-150",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~0",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "6.1", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "142.2", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~23",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.26", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.13", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~9", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.7", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~7", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.35", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    },
+    {
+      "sample_id": "PEG_pH10",
+      "experiment_context": "CeO2 slurry with PEG non-ionic surfactant at pH 10.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PEG",
+            "type": "Non-ionic surfactant",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~550",
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Aggregated particles",
+          "size": {
+             "value": "~60-150",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~-10",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "6.7", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "63.5", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~9",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.30", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.15", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~5", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.5", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~4", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": {"value": "~0.45", "unit": "nm"}, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    },
+    {
+      "sample_id": "PEG_pH12",
+      "experiment_context": "CeO2 slurry with PEG non-ionic surfactant at pH 12.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO2 bonded abrasive",
+        "abrasive_ceria_concentration": null,
+        "preparation_details": "Ball milling (12h) with mass ratio zirconia:abrasive:surfactant:DIW = 5:1:1:32, followed by 100x dilution with DIW.",
+        "additives": [
+          {
+            "name": "PEG",
+            "type": "Non-ionic surfactant",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "12",
+        "solvent": {
+          "name": "DIW",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~300",
+          "unit": "nm",
+          "measurement_method_used": "Z-average via Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        },
+        "particle_morphology": {
+          "description": "Aggregated particles",
+          "size": {
+             "value": "~60-150",
+             "unit": "nm"
+          },
+          "measurement_method_used": "SEM (SU8220, Hitachi)"
+        },
+        "zeta_potential": {
+          "value": "~-50",
+          "unit": "mV",
+          "measurement_method_used": "Laser particle size analyzer (Nano-ZS90, Malvern Instrument)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+           {
+             "substrate": "Si3N4", 
+             "value": "4.7", 
+             "unit": "nm/min"
+           },
+           {
+             "substrate": "SiO2", 
+             "value": "35.0", 
+             "unit": "nm/min"
+           }
+        ],
+        "removal_selectivity_sio2_si3n4": {
+          "value": "~7",
+          "unit": ""
+        },
+        "surface_roughness_ra": [
+           {
+             "substrate": "SiO2", 
+             "value": "~0.29", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "value": "~0.14", 
+             "unit": "nm", 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "surface_scratches": [
+           {
+             "substrate": "SiO2", 
+             "count_per_area": {"value": "~4", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": null, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           },
+           {
+             "substrate": "Si3N4", 
+             "count_per_area": {"value": "~3", "unit": "count / (5x5 µm²)"}, 
+             "max_depth": null, 
+             "measurement_method_used": "AFM (Dimension ICON, Bruker)"
+           }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "platen_speed": {"value": "93", "unit": "rpm"},
+        "carrier_speed": {"value": "87", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "150", "unit": "mL/min"},
+        "pad_conditioning": {"duration": {"value": "600", "unit": "s"}, "tool": "diamond disk"},
+        "equipment_model": "Universal 150 Plus Polisher (Hwasting Technology)",
+        "pad_composition": "DH3002-T80D30-S20M3S1 rigid polishing pad"
+      }
+    }
+  ]
+}

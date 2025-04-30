@@ -1,0 +1,274 @@
+{
+  "doi": null,
+  "title": "Preparation of spherical ceria coated silica nanoparticle abrasives for CMP application",
+  "year_published": "2015",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Silica_Microemulsion",
+      "experiment_context": "Bare silica nanoparticles synthesized via microemulsion method to be used as core particles.",
+      "precursor_chemical": "TEOS (Tetraethyl orthosilicate)",
+      "synthesis_method": "Microemulsion",
+      "synthesis_conditions": {
+        "surfactant": "Triton X-100",
+        "co_surfactant": "Hexanol",
+        "organic_phase": "Cyclohexane",
+        "catalyst": "NH4OH",
+        "reaction_time": {
+          "value": "24",
+          "unit": "h"
+        },
+        "other_conditions": "Sonication during mixing"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, washed twice with ethanol and DI water"
+        },
+        "drying_heating": {
+          "temperature": {
+            "value": "250",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          },
+          "purpose": "Remove surfactant molecules"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Spherical, mono-dispersed, well-separated (Fig 1b, 1d, Fig 2b)",
+        "zeta_potential": {
+          "value": "-31",
+          "unit": "mV",
+          "medium": "Aqueous"
+        },
+        "ftir_analysis": {
+          "peaks_cm-1": [
+            {"wavenumber": 1085, "assignment": "Asymmetrical stretching Si-O-Si"},
+            {"wavenumber": 965, "assignment": "Si-O stretching / Si-OH"},
+            {"wavenumber": 3400, "assignment": "O-H stretching (water/hydroxyl)"},
+            {"wavenumber": 1630, "assignment": "O-H scissor bending (water/hydroxyl)"}
+          ],
+          "reference": "Fig 7"
+        },
+        "xrd_analysis": {
+            "phase": "Amorphous",
+            "reference": "Fig 6"
+        }
+      }
+    },
+    {
+      "sample_id": "Ceria_Precipitation",
+      "experiment_context": "Bare ceria nanoparticles synthesized via precipitation method (used for coating silica).",
+      "precursor_chemical": "Ce(NO3)3",
+      "precipitant_type": "NH4OH",
+      "synthesis_method": "Precipitation",
+      "characterization": {
+        "particle_morphology": "Fig 2d",
+        "zeta_potential": {
+          "value": "+50",
+          "unit": "mV",
+          "medium": "Aqueous"
+        },
+        "ftir_analysis": {
+          "peaks_cm-1": [
+            {"wavenumber": 533, "assignment": "Ce-O stretching"},
+            {"wavenumber": 3400, "assignment": "O-H stretching (water/hydroxyl)"},
+            {"wavenumber": 1630, "assignment": "O-H scissor bending (water/hydroxyl)"}
+          ],
+          "reference": "Fig 7"
+        },
+        "xrd_analysis": {
+            "phase": "Crystalline CeO2",
+            "reference": "Fig 6"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_SiO2_pH4.5_RT",
+      "experiment_context": "Ceria coating on microemulsion silica via precipitation at acidic pH (3-5) and room temperature.",
+      "core_material_details": {
+          "material": "Silica",
+          "synthesis_method": "Microemulsion (see sample Silica_Microemulsion)"
+      },
+      "coating_material_details":{
+          "material": "Ceria",
+          "precursor": "Ce(NO3)3"
+      },
+      "synthesis_method": "Chemical Precipitation Coating",
+      "precipitant_type": "NH4OH",
+      "reaction_temperature": {
+        "value": "RT",
+        "unit": ""
+      },
+      "reaction_time": {
+        "value": "12",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": "3-5 (Acidic)",
+        "stirring": "Continuous stirring"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, washed repeatedly with de-ionized water"
+        }
+      },
+      "characterization": {
+        "coating_quality": "Partial coating (Fig 3a)",
+        "adherence": "Poor, coating removed after polishing (Fig 8a, 8b)",
+        "xrd_analysis": {
+            "notes": "Shows weaker Ceria peaks compared to pH 10 sample",
+            "reference": "Fig 4"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_SiO2_pH4.5_95C",
+      "experiment_context": "Ceria coating on microemulsion silica via precipitation at acidic pH (3-5) and 95°C.",
+      "core_material_details": {
+          "material": "Silica",
+          "synthesis_method": "Microemulsion (see sample Silica_Microemulsion)"
+      },
+      "coating_material_details":{
+          "material": "Ceria",
+          "precursor": "Ce(NO3)3"
+      },
+      "synthesis_method": "Chemical Precipitation Coating",
+      "precipitant_type": "NH4OH",
+      "reaction_temperature": {
+        "value": "95",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "12",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": "3-5 (Acidic)",
+        "stirring": "Continuous stirring"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, washed repeatedly with de-ionized water"
+        }
+      },
+      "characterization": {
+        "coating_quality": "Partial coating (Fig 3b)",
+        "adherence": "Poor, coating removed after polishing (Fig 8a, 8b)",
+        "xrd_analysis": {
+            "notes": "Shows weaker Ceria peaks compared to pH 10 sample",
+            "reference": "Fig 4"
+        }
+      }
+    },
+    {
+      "sample_id": "CeO2_SiO2_pH10_95C_Optimized",
+      "experiment_context": "Optimized ceria coating on microemulsion silica via precipitation at basic pH (>10) and 95°C, followed by annealing. Used for CMP tests.",
+      "core_material_details": {
+          "material": "Silica",
+          "synthesis_method": "Microemulsion (see sample Silica_Microemulsion)"
+      },
+      "coating_material_details":{
+          "material": "Ceria",
+          "precursor": "Ce(NO3)3"
+      },
+      "synthesis_method": "Chemical Precipitation Coating",
+      "precipitant_type": "NH4OH",
+      "reaction_temperature": {
+        "value": "95",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "12",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": ">10 (Basic)",
+        "stirring": "Continuous stirring"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, washed repeatedly with de-ionized water"
+        },
+        "annealing": {
+          "temperature": {
+            "value": "150",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "2",
+            "unit": "h"
+          },
+          "purpose": "Enhance adhesion of ceria onto silica core"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Aqueous medium / DI water"
+        },
+        "preparation_steps": "Sonicated for 30 min, placed on roller miller"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "70-80",
+          "unit": "nm",
+          "measurement_method_used": "SEM/TEM"
+        },
+        "particle_morphology": "Spherical (Fig 3c, 3d, 5a)",
+        "coating_quality": "Complete, uniform coating, ~10 nm thickness (Fig 3c, 3d)",
+        "crystallinity_phase_composition": "Crystalline CeO2 coating over amorphous SiO2 core (Fig 6)",
+        "zeta_potential": {
+          "value": "+13.8",
+          "unit": "mV",
+          "medium": "Aqueous"
+        },
+        "edx_analysis": {
+            "elements_detected": ["Ce", "O", "Si"],
+            "reference": "Fig 5b"
+        },
+        "ftir_analysis": {
+          "peaks_cm-1": [
+            {"wavenumber": 1085, "assignment": "Asymmetrical stretching Si-O-Si"},
+            {"wavenumber": 971, "assignment": "Si-O-Ce (overlaps with Si-OH at 965)"},
+            {"wavenumber": 533, "assignment": "Ce-O stretching (weak)"},
+            {"wavenumber": 3400, "assignment": "O-H stretching (water/hydroxyl)"},
+            {"wavenumber": 1630, "assignment": "O-H scissor bending (water/hydroxyl)"}
+          ],
+          "reference": "Fig 7"
+        },
+        "xrd_analysis": {
+            "notes": "Confirms crystalline ceria coating over amorphous silica",
+            "reference": "Fig 6"
+        },
+        "adherence": "Good, stable after polishing (Fig 8c, 8d)"
+      },
+      "cmp_performance": {
+        "substrate_materials": ["Thermally grown SiO2 on Si wafer", "Nitride (SiN) film on Si wafer"],
+        "equipment_model": "Ecomet 4+ Automet polishing machine (Buehler)",
+        "pad_composition": "IC-1400K Groove pads (Polyurethane, Rodel Inc.)",
+        "pad_conditioning": {
+            "duration": {"value": 1, "unit": "min"},
+            "conditioner": "Diamond grit conditioner",
+            "lubricant": "Deionized water"
+        },
+        "polishing_parameters": {
+            "pad_rotation_speed": {"value": 80, "unit": "rpm"},
+            "applied_load": {"value": 15, "unit": "lbs"},
+            "slurry_flow_rate": {"value": 100, "unit": "ml/min"}
+        },
+        "selectivity": {
+            "ratio": "SiO2:SiN",
+            "value": "12"
+        },
+        "measurement_method": "Ellipsometry (JOBIN-YVON SPEX)"
+      }
+    }
+  ]
+}

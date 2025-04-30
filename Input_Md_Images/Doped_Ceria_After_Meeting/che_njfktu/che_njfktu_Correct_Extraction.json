@@ -1,0 +1,454 @@
+{
+  "doi": null,
+  "title": "Oxygen vacancy self-doping strategy efficiently enhanced Ce³⁺ and chemical-mechanical polishing properties of CeO₂",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "CeO2_Control",
+      "experiment_context": "Control sample. Synthesized via hydrothermal method (Ce(NO₃)₅·6H₂O + PVP + urea, 100°C, 4h), followed by annealing in air at 500°C for 4h.",
+      "precursor_chemical": "Ce(NO₃)₅·6H₂O",
+      "precursor_concentration": null,
+      "precipitant_type": "urea",
+      "molar_ratio_precursor_precipitant": "1:60",
+      "additives_surfactant_dispersant": [
+        {
+          "name": "PVP",
+          "quantity": {
+            "value": "4.5",
+            "unit": "g"
+          },
+          "role": "Surfactant/Dispersant"
+        }
+      ],
+      "reaction_temperature": {
+        "value": "100",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Hydrothermal"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with ethanol and deionized water",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": {
+            "value": "60",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "10",
+            "unit": "h"
+          },
+          "stage": "After hydrothermal synthesis (CeOHCO₃ precursor)"
+        },
+        "annealing": {
+          "temperature": {
+            "value": "500",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          },
+          "atmosphere": "Air"
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "12.51",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer)"
+        },
+        "crystallite_size": {
+          "value": "12.51",
+          "unit": "nm"
+        },
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite",
+          "unit": "structure",
+          "pdf_card": "PDF-34-0394"
+        },
+        "lattice_constant": {
+          "value": "5.407",
+          "unit": "Å"
+        },
+        "crystal_plane_spacing_111": {
+          "value": "0.306",
+          "unit": "nm"
+        },
+        "particle_morphology": "Spherical nanoparticles",
+        "raman_peaks_cm-1": [
+          465
+        ],
+        "raman_intensity_ratio_I600_I463": 0.02,
+        "xps_ce3_percent": 22.32,
+        "xps_oxygen_species_percent": {
+          "O1_surface_adsorbed": null,
+          "O2_vacancy_adsorbed": null,
+          "O3_lattice": null,
+          "Vo_calculated_percent": 26.51
+        },
+        "band_gap_ev": 3.08,
+        "pl_peak_wavelength_nm": "480-510",
+        "epr_g_value": 2.00
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": {
+        "dft_band_gap_ev": 2.38
+      }
+    },
+    {
+      "sample_id": "ACeO2_AirAnneal",
+      "experiment_context": "Synthesized via hydrothermal method (Ce(NO₃)₅·6H₂O + PVP + urea, 100°C, 4h), treated with H₂O₂ (0.75 M) at 75°C for 2h, followed by annealing in air at 500°C for 4h.",
+      "precursor_chemical": "Ce(NO₃)₅·6H₂O",
+      "precursor_concentration": null,
+      "precipitant_type": "urea",
+      "molar_ratio_precursor_precipitant": "1:60",
+      "additives_surfactant_dispersant": [
+         {
+          "name": "PVP",
+          "quantity": {
+            "value": "4.5",
+            "unit": "g"
+          },
+          "role": "Surfactant/Dispersant"
+        }
+      ],
+      "reaction_temperature": {
+        "value": "100",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Hydrothermal"
+      },
+      "intermediate_treatment": {
+        "reagent": "H₂O₂",
+        "concentration": {
+          "value": "0.75",
+          "unit": "M"
+        },
+        "temperature": {
+          "value": "75",
+          "unit": "°C"
+        },
+        "duration": {
+          "value": "2",
+          "unit": "h"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with ethanol and deionized water",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": {
+            "value": "60",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "12",
+            "unit": "h"
+          },
+          "stage": "After H₂O₂ treatment"
+        },
+        "annealing": {
+          "temperature": {
+            "value": "500",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          },
+          "atmosphere": "Air"
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "12.49",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer)"
+        },
+        "crystallite_size": {
+          "value": "12.49",
+          "unit": "nm"
+        },
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite",
+          "unit": "structure",
+          "pdf_card": "PDF-34-0394"
+        },
+        "lattice_constant": {
+          "value": "5.409",
+          "unit": "Å"
+        },
+        "crystal_plane_spacing_111": {
+          "value": "0.308",
+          "unit": "nm"
+        },
+        "particle_morphology": "Spherical nanoparticles",
+        "raman_peaks_cm-1": [
+          465,
+          600,
+          1174
+        ],
+        "raman_intensity_ratio_I600_I463": 0.028,
+        "xps_ce3_percent": 27.31,
+        "xps_oxygen_species_percent": {
+          "O1_surface_adsorbed": null,
+          "O2_vacancy_adsorbed": null,
+          "O3_lattice": null,
+          "Vo_calculated_percent": 45.82
+        },
+        "band_gap_ev": 2.98,
+        "pl_peak_wavelength_nm": "480-510",
+        "epr_g_value": 2.00
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "NCeO2_N2Anneal",
+      "experiment_context": "Synthesized via hydrothermal method (Ce(NO₃)₅·6H₂O + PVP + urea, 100°C, 4h), treated with H₂O₂ (0.75 M) at 75°C for 2h, followed by annealing in Nitrogen (N₂) at 500°C for 4h.",
+      "precursor_chemical": "Ce(NO₃)₅·6H₂O",
+      "precursor_concentration": null,
+      "precipitant_type": "urea",
+      "molar_ratio_precursor_precipitant": "1:60",
+       "additives_surfactant_dispersant": [
+         {
+          "name": "PVP",
+          "quantity": {
+            "value": "4.5",
+            "unit": "g"
+          },
+          "role": "Surfactant/Dispersant"
+        }
+      ],
+      "reaction_temperature": {
+        "value": "100",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Hydrothermal"
+      },
+      "intermediate_treatment": {
+        "reagent": "H₂O₂",
+        "concentration": {
+          "value": "0.75",
+          "unit": "M"
+        },
+        "temperature": {
+          "value": "75",
+          "unit": "°C"
+        },
+        "duration": {
+          "value": "2",
+          "unit": "h"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with ethanol and deionized water",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": {
+            "value": "60",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "12",
+            "unit": "h"
+          },
+          "stage": "After H₂O₂ treatment"
+        },
+        "annealing": {
+          "temperature": {
+            "value": "500",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          },
+          "atmosphere": "Nitrogen (N₂)"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "2.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Na₂CO₃",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "0.1",
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "ultrasonic_treatment": {
+          "duration": {
+            "value": "20",
+            "unit": "min"
+          },
+          "temperature": "RT"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "10.81",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer)"
+        },
+        "crystallite_size": {
+          "value": "10.81",
+          "unit": "nm"
+        },
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite",
+          "unit": "structure",
+          "pdf_card": "PDF-34-0394"
+        },
+        "lattice_constant": {
+          "value": "5.412",
+          "unit": "Å"
+        },
+        "crystal_plane_spacing_111": {
+          "value": "0.313",
+          "unit": "nm"
+        },
+        "particle_morphology": "Spherical nanoparticles",
+        "raman_peaks_cm-1": [
+          465,
+          600,
+          1174
+        ],
+        "raman_intensity_ratio_I600_I463": 0.044,
+        "xps_ce3_percent": 33.59,
+        "xps_oxygen_species_percent": {
+          "O1_surface_adsorbed": null,
+          "O2_vacancy_adsorbed": null,
+          "O3_lattice": null,
+          "Vo_calculated_percent": 48.51
+        },
+        "band_gap_ev": 2.86,
+        "pl_peak_wavelength_nm": "480-510",
+        "epr_g_value": 2.00
+      },
+      "cmp_performance": {
+        "polishing_substrate": "Quartz glass (20 mm * 2 mm)",
+        "substrate_density": {
+            "value": "2.2",
+            "unit": "g/cm³"
+        },
+        "equipment_model": "UNIPOL-1200S precision polishing machine (Shenyang Kejing Co., Ltd., China)",
+        "pad_composition": null,
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "N"
+        },
+        "polishing_time": {
+          "value": "4",
+          "unit": "min"
+        },
+        "head_speed": {
+          "value": "60",
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": "60",
+          "unit": "rpm"
+        },
+        "pre_cmp_surface_roughness": {
+          "Ra": {
+            "value": "0.957",
+            "unit": "nm",
+            "std_dev": "0.02"
+          },
+          "RMS": {
+            "value": "1.263",
+            "unit": "nm",
+            "std_dev": "0.03"
+          }
+        },
+        "post_cmp_surface_roughness": {
+          "condition": "CMP",
+          "Ra": {
+            "value": "0.471",
+            "unit": "nm",
+            "std_dev": "0.02"
+          },
+          "RMS": {
+            "value": "0.773",
+            "unit": "nm",
+            "std_dev": "0.06"
+          }
+        },
+        "material_removal_rate": {
+          "condition": "CMP",
+          "value": "289.52",
+          "unit": "nm/min"
+        },
+        "photocatalytic_conditions": {
+          "source": "250 W halogen lamp",
+          "wavelength_nm": 365,
+          "pre_irradiation_time_min": 30
+        },
+        "post_pcmp_surface_roughness": {
+          "condition": "PCMP",
+          "Ra": {
+            "value": "0.217",
+            "unit": "nm",
+            "std_dev": "0.007"
+          },
+          "RMS": {
+            "value": "0.279",
+            "unit": "nm",
+            "std_dev": "0.01"
+          }
+        },
+        "material_removal_rate_pcmp": {
+          "condition": "PCMP",
+          "value": "361.89",
+          "unit": "nm/min"
+        }
+      },
+      "theoretical_analysis": {
+        "dft_band_gap_ev_with_vacancy": 2.31,
+        "dft_band_gap_ev_with_25_percent_vacancy": null 
+      }
+    }
+  ]
+}

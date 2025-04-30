@@ -1,0 +1,867 @@
+{
+  "doi": "10.1149/2.0241709jos",
+  "title": "Trace Metals Optimization in Ceria Abrasive for Material Removal Rate Enhancement during ILD CMP",
+  "year_published": "2017",
+  "journal": "ECS Journal of Solid State Science and Technology",
+  "samples": [
+    {
+      "sample_id": "Ceria_Baseline",
+      "experiment_context": "Baseline commercial ceria slurry without added trace metals, used for SiO₂ CMP.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "49.6",
+          "unit": "nm",
+          "measurement_method_used": "SMPS (TSI, USA)",
+          "description": "Mode particle size"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+        "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+        "measurement_method_used": "SEM (JEOL, Japan)",
+        "uv_vis_spectroscopy": {
+           "absorption_peak_nm": 295,
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "5123.86",
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": {
+          "value": "0.473",
+          "unit": "nm",
+          "measurement_method_used": "AFM (Innova, Bruker, USA)",
+          "scan_area": "2 µm x 2 µm",
+          "mode": "Tapping mode"
+        },
+        "post_cmp_surface_analysis": {
+           "method": "SIMS (TOFSIMS-5, ION-TOF, Germany)",
+           "details": "Ce and K detected on SiO₂ surface. Positive method, 25 keV, 1.000 pA, 40x40 µm² area."
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ceria_FeCl2_10ppm",
+      "experiment_context": "Commercial ceria slurry with 10 ppm FeCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "FeCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "10",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "No noticeable change in particle mode size compared to baseline.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": 295,
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "5621",
+          "unit": "Å/min"
+        },
+         "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": {
+          "value": "0.441",
+          "unit": "nm",
+          "measurement_method_used": "AFM (Innova, Bruker, USA)",
+          "scan_area": "2 µm x 2 µm",
+          "mode": "Tapping mode"
+        },
+        "post_cmp_surface_analysis": {
+           "method": "SIMS (TOFSIMS-5, ION-TOF, Germany)",
+           "details": "Ce, K, and Fe detected on SiO₂ surface. No noticeable change in Ce permeation compared to baseline."
+        }
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Fe²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "0.67",
+              "unit": "V/SHE"
+          }
+      }
+    },
+    {
+      "sample_id": "Ceria_FeCl2_50ppm",
+      "experiment_context": "Commercial ceria slurry with 50 ppm FeCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "FeCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "50",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "No noticeable change in particle mode size compared to baseline.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": 295,
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)",
+           "observation": "Maximum absorption peak intensity observed at this concentration for FeCl₂."
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": null,
+        "post_cmp_surface_analysis": null
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Fe²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "0.67",
+              "unit": "V/SHE"
+          }
+      }
+    },
+    {
+      "sample_id": "Ceria_FeCl2_100ppm",
+      "experiment_context": "Commercial ceria slurry with 100 ppm FeCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "FeCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "No noticeable change in particle mode size compared to baseline.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": 295,
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": null,
+        "post_cmp_surface_analysis": null
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Fe²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "0.67",
+              "unit": "V/SHE"
+          }
+      }
+    },
+        {
+      "sample_id": "Ceria_FeCl2_500ppm",
+      "experiment_context": "Commercial ceria slurry with 500 ppm FeCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "FeCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "500",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "Number of particles drastically decreased.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": 295,
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": null,
+        "post_cmp_surface_analysis": null
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Fe²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "0.67",
+              "unit": "V/SHE"
+          }
+      }
+    },
+    {
+      "sample_id": "Ceria_FeCl2_1000ppm",
+      "experiment_context": "Commercial ceria slurry with 1000 ppm FeCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "FeCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "observation": "Solution became transparent."
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "Number of particles drastically decreased.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": null,
+           "observation": "No absorption peak at 295 nm.",
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": null,
+        "post_cmp_surface_analysis": null
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Fe²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "0.67",
+              "unit": "V/SHE"
+          }
+      }
+    },
+    {
+      "sample_id": "Ceria_CrCl2_10ppm",
+      "experiment_context": "Commercial ceria slurry with 10 ppm CrCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "CrCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "10",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "No noticeable change in particle mode size compared to baseline.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": 295,
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": null,
+        "post_cmp_surface_analysis": null
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Cr²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "2.18",
+              "unit": "V/SHE"
+          }
+      }
+    },
+    {
+      "sample_id": "Ceria_CrCl2_50ppm",
+      "experiment_context": "Commercial ceria slurry with 50 ppm CrCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "CrCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "50",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "No noticeable change in particle mode size compared to baseline.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": 295,
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)",
+           "observation": "Maximum absorption peak intensity observed at this concentration for CrCl₂."
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "6522.91",
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": {
+          "value": "0.390",
+          "unit": "nm",
+          "measurement_method_used": "AFM (Innova, Bruker, USA)",
+          "scan_area": "2 µm x 2 µm",
+          "mode": "Tapping mode"
+        },
+        "post_cmp_surface_analysis": {
+           "method": "SIMS (TOFSIMS-5, ION-TOF, Germany)",
+           "details": "Ce, K, and Cr detected on SiO₂ surface. Ce deeply permeated compared to baseline."
+        }
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Cr²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "2.18",
+              "unit": "V/SHE"
+          }
+      }
+    },
+    {
+      "sample_id": "Ceria_CrCl2_100ppm",
+      "experiment_context": "Commercial ceria slurry with 100 ppm CrCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "CrCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "No noticeable change in particle mode size compared to baseline.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": 295,
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": {
+            "value": "0.390",
+            "unit": "nm",
+            "measurement_method_used": "AFM (Innova, Bruker, USA)",
+            "scan_area": "2 µm x 2 µm",
+            "mode": "Tapping mode",
+            "source_comment": "Value taken from Fig 4c caption/label which refers to 100 ppm CrCl₂, though text associates 0.390 nm with 50 ppm CrCl₂."
+        },
+        "post_cmp_surface_analysis": null
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Cr²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "2.18",
+              "unit": "V/SHE"
+          }
+      }
+    },
+    {
+      "sample_id": "Ceria_CrCl2_500ppm",
+      "experiment_context": "Commercial ceria slurry with 500 ppm CrCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "CrCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "500",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "observation": "Solution became transparent."
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "Number of particles drastically decreased.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": null,
+           "observation": "No absorption peak at 295 nm.",
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": null,
+        "post_cmp_surface_analysis": null
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Cr²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "2.18",
+              "unit": "V/SHE"
+          }
+      }
+    },
+    {
+      "sample_id": "Ceria_CrCl2_1000ppm",
+      "experiment_context": "Commercial ceria slurry with 1000 ppm CrCl₂ added, used for SiO₂ CMP.",
+      "slurry_preparation": {
+        "abrasive_source": "Commercially available calcined ceria abrasive slurry (KCS1300MS, KCTech Co., South Korea)",
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "CrCl₂",
+            "type": "Trace metal",
+            "source": "anhydrous, 99.99%, Sigma-Aldrich Inc., USA",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "KOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "observation": "Solution became transparent."
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "description": "Number of particles drastically decreased.",
+          "measurement_method_used": "SMPS (TSI, USA)"
+        },
+        "zeta_potential": {
+          "value": "< -30",
+          "unit": "mV",
+          "conditions": "pH 10",
+          "measurement_method_used": "Zetasizer Nano ZS (Malvern, England)"
+        },
+         "particle_morphology": "Agglomeration observed via SEM despite low zeta potential.",
+         "measurement_method_used": "SEM (JEOL, Japan)",
+         "uv_vis_spectroscopy": {
+           "absorption_peak_nm": null,
+           "observation": "No absorption peak at 295 nm.",
+           "conditions": "pH 10",
+           "measurement_method_used": "Cary 5000 (Varian, Australia)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ wafer (Semiroad Co., South Korea)",
+        "substrate_dimensions": "40 mm x 40 mm",
+        "polishing_time": {
+          "value": "2",
+          "unit": "min"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+            "value": "Room temperature",
+            "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CP-4 polisher (Bruker, USA)",
+        "mrr_measurement_equipment": "Reflectometer (ST4000-DLX, K-MAC, South Korea)",
+        "pad_composition": null,
+        "post_cmp_surface_roughness_rms": null,
+        "post_cmp_surface_analysis": null
+      },
+      "theoretical_analysis": {
+          "redox_potential_pair": "Cr²⁺/Ce⁴⁺",
+          "standard_electrode_potential": {
+              "value": "2.18",
+              "unit": "V/SHE"
+          }
+      }
+    }
+  ]
+}

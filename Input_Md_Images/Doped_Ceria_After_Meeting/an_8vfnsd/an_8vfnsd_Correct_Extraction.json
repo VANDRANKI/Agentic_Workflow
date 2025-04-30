@@ -1,0 +1,526 @@
+{
+  "doi": null,
+  "title": "Experimental study and DFT+U calculations on the impact of Rare-Earth ion (La³⁺, Sm³⁺, Y³⁺, Yb³⁺) doped CeO₂ Core-Shell abrasives on polishing performance",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "CS@CeO2_N2",
+      "experiment_context": "Undoped Ceria coated Carbon Spheres (CS@CeO2), synthesized via hydrothermal (CS core) and chemical precipitation (CeO2 shell), followed by calcination in N2.",
+      "synthesis_conditions": {
+        "core_synthesis": {
+          "method": "Hydrothermal",
+          "carbon_source": "D(+)-Glucose monohydrate",
+          "concentration": "8-10 g glucose in 60 g DI water",
+          "temperature": { "value": "180", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "atmosphere": null
+        },
+        "shell_synthesis": {
+          "method": "Chemical Precipitation",
+          "precursors": [
+            {"chemical": "Cerium nitrate hexahydrate (Ce(NO₃)₃·6H₂O)", "concentration": "0.7812 g in 50 g DI water"},
+            {"chemical": "Urea (CO(NH₂)₂)", "concentration": "10.40 g in 50 g DI water"}
+          ],
+          "temperature": { "value": "90", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "stirring_speed": { "value": "300", "unit": "rpm" },
+          "precipitant_type": "Urea",
+          "molar_ratio_precursor_precipitant": null
+        },
+        "calcination": {
+          "temperature": { "value": "550", "unit": "°C" },
+          "time": { "value": "4", "unit": "h" },
+          "atmosphere": "Nitrogen (N₂)"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Repeated ultrasonic centrifugation, washed with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": { "value": "60", "unit": "°C" },
+          "duration": "Overnight"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "additives": [
+          {"name": "Na₂CO₃", "type": "pH adjuster", "concentration": {"value": "0.1", "unit": "mol/L"}}
+        ],
+        "target_final_slurry_ph": "10.0",
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "230", "unit": "nm", "measurement_method_used": "SEM (average)" },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": { "value": "Cubic fluorite-type CeO₂ (low crystallinity)", "unit": null },
+        "particle_morphology": "Spherical core-shell structure with relatively rough surface",
+        "shell_thickness": { "value": "12.5-18", "unit": "nm" },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "lattice_constant": { "value": "5.413", "unit": "Å" },
+        "crystal_spacing_111": { "value": "3.125", "unit": "Å" },
+        "raman_analysis": {
+          "f2g_peak_cm-1": "440-459",
+          "d_band_cm-1": "1320",
+          "g_band_cm-1": "1600",
+          "vo_peak_cm-1": "576-587",
+          "vo_ratio_i2_i1": 0.11
+        },
+        "xps_analysis": {
+          "surface_ce3_percent": 30.5,
+          "oxygen_species_percent": { "Vo": 16.67 }
+        },
+        "ftir_analysis": {
+          "identified_bonds_cm-1": ["O-H (3405.1)", "C-H (2923, 2852)", "C=O (1718.2)", "C=C (1557.5)", "Ce-O-C (1384.6, 1128.1, 1047.1)", "Ce-O-Ce (835)", "Ce-O (490-500)"]
+        },
+        "elemental_composition": null,
+        "specific_surface_area_bet": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass (20mm diameter, 2mm thick)",
+        "pre_cmp_surface_roughness_ra": { "value": "1.619", "unit": "nm" },
+        "pre_cmp_surface_roughness_rms": { "value": "2.836", "unit": "nm" },
+        "polishing_time": { "value": "4", "unit": "min" },
+        "material_removal_rate": { "value": "144.6", "unit": "nm/min" },
+        "post_cmp_surface_roughness_ra": { "value": "0.43", "unit": "nm" },
+        "post_cmp_surface_roughness_rms": { "value": "0.61", "unit": "nm" },
+        "post_cmp_surface_roughness_sr": { "value": "4.0", "unit": "nm" },
+        "equipment_model": "UNIPOL-1200S automatic pressure polishing machine",
+        "pad_composition": "Polyurethane polishing pad (China Shenyang Kejing Instrument Co., Ltd.)",
+        "polishing_load": { "value": "3.0", "unit": "kg" },
+        "rotation_speed_disk": { "value": "60", "unit": "rpm" },
+        "rotation_speed_holder": { "value": "60", "unit": "rpm", "direction": "Opposite" },
+        "slurry_supply_rate": { "value": "10", "unit": "mL/min" }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "CS@Ce0.9La0.1O2",
+      "experiment_context": "10% La³⁺-doped Ceria coated Carbon Spheres (CS@Ce0.9La0.1O2), synthesized via hydrothermal (CS core) and chemical precipitation (doped CeO2 shell), followed by calcination in N2.",
+      "synthesis_conditions": {
+        "core_synthesis": {
+          "method": "Hydrothermal",
+          "carbon_source": "D(+)-Glucose monohydrate",
+          "concentration": "8-10 g glucose in 60 g DI water",
+          "temperature": { "value": "180", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "atmosphere": null
+        },
+        "shell_synthesis": {
+          "method": "Chemical Precipitation",
+          "precursors": [
+            {"chemical": "Cerium nitrate hexahydrate (Ce(NO₃)₃·6H₂O)", "concentration": "0.7812 g in 50 g DI water"},
+            {"chemical": "Lanthanum nitrate hexahydrate (La(NO₃)₃·6H₂O)", "concentration": "0.07 g in 50 g DI water"},
+            {"chemical": "Urea (CO(NH₂)₂)", "concentration": "10.40 g in 50 g DI water"}
+          ],
+          "temperature": { "value": "90", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "stirring_speed": { "value": "300", "unit": "rpm" },
+          "precipitant_type": "Urea",
+          "molar_ratio_dopant": "La/(Ce+La) = 0.10"
+        },
+        "calcination": {
+          "temperature": { "value": "550", "unit": "°C" },
+          "time": { "value": "4", "unit": "h" },
+          "atmosphere": "Nitrogen (N₂)"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Repeated ultrasonic centrifugation, washed with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": { "value": "60", "unit": "°C" },
+          "duration": "Overnight"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "additives": [
+          {"name": "Na₂CO₃", "type": "pH adjuster", "concentration": {"value": "0.1", "unit": "mol/L"}}
+        ],
+        "target_final_slurry_ph": "10.0",
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "measured_doping_concentration_icp": { "value": "10.6", "unit": "%" },
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": { "value": "Cubic fluorite-type CeO₂ (low crystallinity)", "unit": null },
+        "particle_morphology": "Spherical core-shell structure",
+        "shell_thickness": { "value": "12.5-18", "unit": "nm" },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "xrd_peak_shift_111": "Lower angle",
+        "lattice_constant": { "value": "5.458", "unit": "Å" },
+        "crystal_spacing_111": { "value": "3.151", "unit": "Å" },
+        "tem_interplanar_spacing_111": { "value": "0.316", "unit": "nm" },
+        "raman_analysis": {
+          "f2g_peak_shift": "Lower wavenumber",
+          "vo_ratio_i2_i1": 0.13
+        },
+        "xps_analysis": {
+          "surface_ce3_percent": 39.78,
+          "oxygen_species_percent": { "Vo": 21.23 }
+        },
+        "ftir_analysis": null,
+        "elemental_composition": null,
+        "specific_surface_area_bet": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": { "value": "4", "unit": "min" },
+        "material_removal_rate": { "value": "157.89", "unit": "nm/min" },
+        "post_cmp_surface_roughness_ra": { "value": "0.45", "unit": "nm" },
+        "post_cmp_surface_roughness_rms": { "value": "0.63", "unit": "nm" },
+        "post_cmp_surface_roughness_sr": { "value": "1.0", "unit": "nm" },
+        "equipment_model": "UNIPOL-1200S automatic pressure polishing machine",
+        "pad_composition": "Polyurethane polishing pad",
+        "polishing_load": { "value": "3.0", "unit": "kg" },
+        "rotation_speed_disk": { "value": "60", "unit": "rpm" },
+        "rotation_speed_holder": { "value": "60", "unit": "rpm", "direction": "Opposite" },
+        "slurry_supply_rate": { "value": "10", "unit": "mL/min" }
+      },
+      "theoretical_analysis": {
+        "method": "DFT+U",
+        "compensated_vacancy_formation_energy_evac": { "value": "-0.895", "unit": "eV" },
+        "active_vacancy_formation_energy_delta_ea": { "value": "2.825", "unit": "eV" }
+      }
+    },
+    {
+      "sample_id": "CS@Ce0.9Sm0.1O2",
+      "experiment_context": "10% Sm³⁺-doped Ceria coated Carbon Spheres (CS@Ce0.9Sm0.1O2), synthesized via hydrothermal (CS core) and chemical precipitation (doped CeO2 shell), followed by calcination in N2.",
+      "synthesis_conditions": {
+        "core_synthesis": {
+          "method": "Hydrothermal",
+          "carbon_source": "D(+)-Glucose monohydrate",
+          "concentration": "8-10 g glucose in 60 g DI water",
+          "temperature": { "value": "180", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "atmosphere": null
+        },
+        "shell_synthesis": {
+          "method": "Chemical Precipitation",
+          "precursors": [
+            {"chemical": "Cerium nitrate hexahydrate (Ce(NO₃)₃·6H₂O)", "concentration": "0.7812 g in 50 g DI water"},
+            {"chemical": "Samarium nitrate hexahydrate (Sm(NO₃)₃·6H₂O)", "concentration": null},
+            {"chemical": "Urea (CO(NH₂)₂)", "concentration": "10.40 g in 50 g DI water"}
+          ],
+          "temperature": { "value": "90", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "stirring_speed": { "value": "300", "unit": "rpm" },
+          "precipitant_type": "Urea",
+          "molar_ratio_dopant": "Sm/(Ce+Sm) = 0.10"
+        },
+        "calcination": {
+          "temperature": { "value": "550", "unit": "°C" },
+          "time": { "value": "4", "unit": "h" },
+          "atmosphere": "Nitrogen (N₂)"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Repeated ultrasonic centrifugation, washed with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": { "value": "60", "unit": "°C" },
+          "duration": "Overnight"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "additives": [
+          {"name": "Na₂CO₃", "type": "pH adjuster", "concentration": {"value": "0.1", "unit": "mol/L"}}
+        ],
+        "target_final_slurry_ph": "10.0",
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "measured_doping_concentration_icp": { "value": "10.6", "unit": "%" },
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": { "value": "Cubic fluorite-type CeO₂ (low crystallinity)", "unit": null },
+        "particle_morphology": "Spherical core-shell structure",
+        "shell_thickness": { "value": "12.5-18", "unit": "nm" },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "xrd_peak_shift_111": "Lower angle",
+        "lattice_constant": { "value": "5.430", "unit": "Å" },
+        "crystal_spacing_111": { "value": "3.136", "unit": "Å" },
+        "tem_interplanar_spacing_111": { "value": "0.314", "unit": "nm" },
+        "raman_analysis": {
+          "f2g_peak_shift": "Lower wavenumber",
+          "vo_ratio_i2_i1": 0.12
+        },
+        "xps_analysis": {
+          "surface_ce3_percent": 36.03,
+          "oxygen_species_percent": { "Vo": 21.23 }
+        },
+        "ftir_analysis": null,
+        "elemental_composition": null,
+        "specific_surface_area_bet": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": { "value": "4", "unit": "min" },
+        "material_removal_rate": { "value": "108.5", "unit": "nm/min" },
+        "post_cmp_surface_roughness_ra": { "value": "0.41", "unit": "nm" },
+        "post_cmp_surface_roughness_rms": { "value": "0.71", "unit": "nm" },
+        "post_cmp_surface_roughness_sr": { "value": "2.9", "unit": "nm" },
+        "equipment_model": "UNIPOL-1200S automatic pressure polishing machine",
+        "pad_composition": "Polyurethane polishing pad",
+        "polishing_load": { "value": "3.0", "unit": "kg" },
+        "rotation_speed_disk": { "value": "60", "unit": "rpm" },
+        "rotation_speed_holder": { "value": "60", "unit": "rpm", "direction": "Opposite" },
+        "slurry_supply_rate": { "value": "10", "unit": "mL/min" }
+      },
+      "theoretical_analysis": {
+        "method": "DFT+U",
+        "compensated_vacancy_formation_energy_evac": { "value": "-0.915", "unit": "eV" },
+        "active_vacancy_formation_energy_delta_ea": { "value": "2.845", "unit": "eV" }
+      }
+    },
+    {
+      "sample_id": "CS@Ce0.9Y0.1O2",
+      "experiment_context": "10% Y³⁺-doped Ceria coated Carbon Spheres (CS@Ce0.9Y0.1O2), synthesized via hydrothermal (CS core) and chemical precipitation (doped CeO2 shell), followed by calcination in N2.",
+      "synthesis_conditions": {
+        "core_synthesis": {
+          "method": "Hydrothermal",
+          "carbon_source": "D(+)-Glucose monohydrate",
+          "concentration": "8-10 g glucose in 60 g DI water",
+          "temperature": { "value": "180", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "atmosphere": null
+        },
+        "shell_synthesis": {
+          "method": "Chemical Precipitation",
+          "precursors": [
+            {"chemical": "Cerium nitrate hexahydrate (Ce(NO₃)₃·6H₂O)", "concentration": "0.7812 g in 50 g DI water"},
+            {"chemical": "Yttrium nitrate hexahydrate (Y(NO₃)₃·6H₂O)", "concentration": null},
+            {"chemical": "Urea (CO(NH₂)₂)", "concentration": "10.40 g in 50 g DI water"}
+          ],
+          "temperature": { "value": "90", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "stirring_speed": { "value": "300", "unit": "rpm" },
+          "precipitant_type": "Urea",
+          "molar_ratio_dopant": "Y/(Ce+Y) = 0.10"
+        },
+        "calcination": {
+          "temperature": { "value": "550", "unit": "°C" },
+          "time": { "value": "4", "unit": "h" },
+          "atmosphere": "Nitrogen (N₂)"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Repeated ultrasonic centrifugation, washed with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": { "value": "60", "unit": "°C" },
+          "duration": "Overnight"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "additives": [
+          {"name": "Na₂CO₃", "type": "pH adjuster", "concentration": {"value": "0.1", "unit": "mol/L"}}
+        ],
+        "target_final_slurry_ph": "10.0",
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "measured_doping_concentration_icp": { "value": "10.5", "unit": "%" },
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": { "value": "Cubic fluorite-type CeO₂ (low crystallinity)", "unit": null },
+        "particle_morphology": "Spherical core-shell structure",
+        "shell_thickness": { "value": "12.5-18", "unit": "nm" },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "xrd_peak_shift_111": "Higher angle",
+        "lattice_constant": { "value": "5.410", "unit": "Å" },
+        "crystal_spacing_111": { "value": "3.124", "unit": "Å" },
+        "tem_interplanar_spacing_111": { "value": "0.308", "unit": "nm" },
+        "raman_analysis": {
+          "f2g_peak_shift": "Lower wavenumber (due to Ce3+ increase)",
+          "vo_ratio_i2_i1": 0.21
+        },
+        "xps_analysis": {
+          "surface_ce3_percent": 46.23,
+          "oxygen_species_percent": { "Vo": 25.39 }
+        },
+        "ftir_analysis": null,
+        "elemental_composition": null,
+        "specific_surface_area_bet": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": { "value": "4", "unit": "min" },
+        "material_removal_rate": { "value": "221.04", "unit": "nm/min" },
+        "post_cmp_surface_roughness_ra": { "value": "0.26", "unit": "nm" },
+        "post_cmp_surface_roughness_rms": { "value": "0.36", "unit": "nm" },
+        "post_cmp_surface_roughness_sr": { "value": "1.4", "unit": "nm" },
+        "equipment_model": "UNIPOL-1200S automatic pressure polishing machine",
+        "pad_composition": "Polyurethane polishing pad",
+        "polishing_load": { "value": "3.0", "unit": "kg" },
+        "rotation_speed_disk": { "value": "60", "unit": "rpm" },
+        "rotation_speed_holder": { "value": "60", "unit": "rpm", "direction": "Opposite" },
+        "slurry_supply_rate": { "value": "10", "unit": "mL/min" }
+      },
+      "theoretical_analysis": {
+        "method": "DFT+U",
+        "compensated_vacancy_formation_energy_evac": { "value": "-1.225", "unit": "eV" },
+        "active_vacancy_formation_energy_delta_ea": { "value": "2.685", "unit": "eV" }
+      }
+    },
+    {
+      "sample_id": "CS@Ce0.9Yb0.1O2",
+      "experiment_context": "10% Yb³⁺-doped Ceria coated Carbon Spheres (CS@Ce0.9Yb0.1O2), synthesized via hydrothermal (CS core) and chemical precipitation (doped CeO2 shell), followed by calcination in N2.",
+      "synthesis_conditions": {
+        "core_synthesis": {
+          "method": "Hydrothermal",
+          "carbon_source": "D(+)-Glucose monohydrate",
+          "concentration": "8-10 g glucose in 60 g DI water",
+          "temperature": { "value": "180", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "atmosphere": null
+        },
+        "shell_synthesis": {
+          "method": "Chemical Precipitation",
+          "precursors": [
+            {"chemical": "Cerium nitrate hexahydrate (Ce(NO₃)₃·6H₂O)", "concentration": "0.7812 g in 50 g DI water"},
+            {"chemical": "Ytterbium nitrate hexahydrate (Yb(NO₃)₃·6H₂O)", "concentration": null},
+            {"chemical": "Urea (CO(NH₂)₂)", "concentration": "10.40 g in 50 g DI water"}
+          ],
+          "temperature": { "value": "90", "unit": "°C" },
+          "time": { "value": "3", "unit": "h" },
+          "stirring_speed": { "value": "300", "unit": "rpm" },
+          "precipitant_type": "Urea",
+          "molar_ratio_dopant": "Yb/(Ce+Yb) = 0.10"
+        },
+        "calcination": {
+          "temperature": { "value": "550", "unit": "°C" },
+          "time": { "value": "4", "unit": "h" },
+          "atmosphere": "Nitrogen (N₂)"
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Repeated ultrasonic centrifugation, washed with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": { "value": "60", "unit": "°C" },
+          "duration": "Overnight"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "additives": [
+          {"name": "Na₂CO₃", "type": "pH adjuster", "concentration": {"value": "0.1", "unit": "mol/L"}}
+        ],
+        "target_final_slurry_ph": "10.0",
+        "solvent": { "name": "DI water", "quantity": null }
+      },
+      "characterization": {
+        "measured_doping_concentration_icp": { "value": "9.6", "unit": "%" },
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": { "value": "Cubic fluorite-type CeO₂ (low crystallinity)", "unit": null },
+        "particle_morphology": "Spherical core-shell structure",
+        "shell_thickness": { "value": "12.5-18", "unit": "nm" },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(400)", "(331)"],
+        "xrd_peak_shift_111": "Higher angle",
+        "lattice_constant": { "value": "5.409", "unit": "Å" },
+        "crystal_spacing_111": { "value": "3.124", "unit": "Å" },
+        "tem_interplanar_spacing_111": { "value": "0.314", "unit": "nm" },
+        "raman_analysis": {
+          "f2g_peak_shift": "Higher wavenumber",
+          "vo_ratio_i2_i1": 0.17
+        },
+        "xps_analysis": {
+          "surface_ce3_percent": 41.2,
+          "oxygen_species_percent": { "Vo": 17.36 }
+        },
+        "ftir_analysis": null,
+        "elemental_composition": null,
+        "specific_surface_area_bet": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": { "value": "4", "unit": "min" },
+        "material_removal_rate": { "value": "192.9", "unit": "nm/min" },
+        "post_cmp_surface_roughness_ra": { "value": "0.42", "unit": "nm" },
+        "post_cmp_surface_roughness_rms": { "value": "0.68", "unit": "nm" },
+        "post_cmp_surface_roughness_sr": { "value": "1.5", "unit": "nm" },
+        "equipment_model": "UNIPOL-1200S automatic pressure polishing machine",
+        "pad_composition": "Polyurethane polishing pad",
+        "polishing_load": { "value": "3.0", "unit": "kg" },
+        "rotation_speed_disk": { "value": "60", "unit": "rpm" },
+        "rotation_speed_holder": { "value": "60", "unit": "rpm", "direction": "Opposite" },
+        "slurry_supply_rate": { "value": "10", "unit": "mL/min" }
+      },
+      "theoretical_analysis": {
+        "method": "DFT+U",
+        "compensated_vacancy_formation_energy_evac": { "value": "-1.065", "unit": "eV" },
+        "active_vacancy_formation_energy_delta_ea": { "value": "2.535", "unit": "eV" }
+      }
+    },
+    {
+      "sample_id": "Simple_Commercial",
+      "experiment_context": "Commercial abrasive used for comparison.",
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": null,
+        "target_final_slurry_ph": null,
+        "solvent": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "pre_cmp_surface_roughness_ra": { "value": "1.619", "unit": "nm" },
+        "pre_cmp_surface_roughness_rms": { "value": "2.836", "unit": "nm" },
+        "polishing_time": { "value": "4", "unit": "min" },
+        "material_removal_rate": { "value": "277.3", "unit": "nm/min" },
+        "post_cmp_surface_roughness_ra": { "value": "0.77", "unit": "nm" },
+        "post_cmp_surface_roughness_rms": { "value": "1.02", "unit": "nm" },
+        "post_cmp_surface_roughness_sr": { "value": "8.3", "unit": "nm" },
+        "equipment_model": "UNIPOL-1200S automatic pressure polishing machine",
+        "pad_composition": "Polyurethane polishing pad",
+        "polishing_load": { "value": "3.0", "unit": "kg" },
+        "rotation_speed_disk": { "value": "60", "unit": "rpm" },
+        "rotation_speed_holder": { "value": "60", "unit": "rpm", "direction": "Opposite" },
+        "slurry_supply_rate": { "value": "10", "unit": "mL/min" }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "CeO2_Air",
+      "experiment_context": "Reference CeO2 calcined in Air, used for Raman/XPS comparison.",
+      "synthesis_conditions": {
+         "calcination": {
+          "temperature": null,
+          "time": null,
+          "atmosphere": "Air"
+        }
+      },
+      "post_synthesis_treatment": null,
+      "slurry_preparation": null,
+      "characterization": {
+         "raman_analysis": {
+          "vo_ratio_i2_i1": 0.08
+        },
+        "xps_analysis": {
+          "surface_ce3_percent": 24.89,
+          "oxygen_species_percent": { "Vo": 15.43 }
+        }
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    }
+  ]
+}

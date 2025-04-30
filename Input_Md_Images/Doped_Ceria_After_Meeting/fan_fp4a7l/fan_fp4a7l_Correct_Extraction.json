@@ -1,0 +1,436 @@
+{
+  "doi": null,
+  "title": "Nd-doped porous CeO₂ abrasives for chemical mechanical polishing of SiO₂ films",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "pCeO2_600C",
+      "experiment_context": "Monodisperse porous CeO2 nanospheres synthesized via hydrothermal method (180°C, 240 min) using Ce(NO3)3·6H2O precursor in ethylene glycol/water/acetic acid, followed by calcination at 600°C for 2h.",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "precursor_concentration": {
+        "value": "1.5 g in 1.5 mL DI water + 45 mL ethylene glycol + 1.5 mL acetic acid",
+        "unit": null
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "180",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "240",
+        "unit": "min"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": "Thorough stirring mentioned",
+          "unit": null
+        },
+        "environmental_conditions": "Hydrothermal synthesis in polytetrafluoroethylene liner"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (12000 rpm, 10 min) with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "12",
+            "unit": "h"
+          }
+        },
+        "calcination": {
+          "temperature": {
+            "value": "600",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "2",
+            "unit": "h"
+          },
+          "atmosphere": "Muffle furnace (air implied)"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "1.0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "NaOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "pre_treatment": "Ultrasonically treated for 30 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "194",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Zetasizer Nano ZS)"
+        },
+        "aggregate_particle_size_range": {
+            "value": "80-180",
+            "unit": "nm",
+            "measurement_method_used": "SEM"
+        },
+        "primary_particle_size": {
+            "value": "~5",
+            "unit": "nm",
+            "measurement_method_used": "TEM"
+        },
+        "crystallite_size": {
+          "value": "6.318",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula on (111) peak)"
+        },
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite-type CeO₂ (JCPDS No. 34-0394)",
+          "unit": null,
+          "measurement_method_used": "XRD"
+        },
+        "lattice_parameters": {
+            "interplanar_spacing_111": {
+                "value": "3.122",
+                "unit": "Å",
+                "measurement_method_used": "XRD (Table 1)"
+            },
+            "lattice_constant": {
+                "value": "5.407",
+                "unit": "Å",
+                "measurement_method_used": "XRD (Table 1)"
+            }
+        },
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Monodisperse porous nanospheres with uniform spherical morphology (SEM/TEM)",
+        "specific_surface_area_bet": {
+          "value": "143.5",
+          "unit": "m²/g",
+          "measurement_method_used": "N₂ adsorption-desorption"
+        },
+        "pore_size_distribution": {
+          "average_pore_size": {
+            "value": "5.665",
+            "unit": "nm",
+            "measurement_method_used": "BJH (N₂ adsorption)"
+          }
+        },
+        "band_gap_energy": {
+            "value": "3.28",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Tauc plot)"
+        },
+        "raman_analysis": {
+            "F2g_peak_position": {
+                "value": "~460",
+                "unit": "cm⁻¹"
+            },
+            "defect_peak_position": {
+                "value": "~600",
+                "unit": "cm⁻¹"
+            },
+            "I600_I460_ratio": {
+                "value": "~0.04",
+                "unit": null
+            }
+        },
+        "xps_analysis": {
+            "Ce3_plus_percentage": {
+                "value": "31",
+                "unit": "%"
+            },
+            "oxygen_species_percentage": {
+                "O_beta_Vo_percentage": {
+                    "value": "43.9",
+                    "unit": "%"
+                }
+            }
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(331)"]
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ films on wafer",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "80.8 ± 8.7",
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "N"
+        },
+        "head_rotation_speed": {
+            "value": "120",
+            "unit": "rpm"
+        },
+        "pad_rotation_speed": {
+            "value": "90",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "100",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Bruker Universal Mechanical Tester (UMT TriboLab)",
+        "pad_composition": null,
+        "pre_cmp_surface_roughness_Ra": {
+            "value": "0.813 ± 0.02",
+            "unit": "nm",
+            "measurement_area": "3x3 µm²",
+            "measurement_method_used": "AFM (Nanoman VS)"
+        },
+        "post_cmp_surface_roughness_Ra": {
+            "value": "0.296 ± 0.02",
+            "unit": "nm",
+            "measurement_area": "3x3 µm²",
+            "measurement_method_used": "AFM (Nanoman VS)"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "pCeO2-Nd_0.141_600C",
+      "experiment_context": "Neodymium-doped (0.141g Nd(NO3)3·6H2O added) monodisperse porous CeO2 nanospheres synthesized via hydrothermal method (180°C, 240 min) using Ce(NO3)3·6H2O precursor in ethylene glycol/water/acetic acid, followed by calcination at 600°C for 2h.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Nd(NO₃)₃·6H₂O"],
+      "precursor_concentration": {
+        "value": "1.5 g Ce(NO3)3·6H2O + 0.141 g Nd(NO3)3·6H2O in 1.5 mL DI water + 45 mL ethylene glycol + 1.5 mL acetic acid",
+        "unit": null
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "dopant_details": {
+          "dopant_element": "Nd",
+          "dopant_precursor": "Nd(NO₃)₃·6H₂O",
+          "doping_amount_relative": "0.141 g Nd precursor added to 1.5 g Ce precursor solution (selected based on morphology)"
+      },
+      "reaction_temperature": {
+        "value": "180",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "240",
+        "unit": "min"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": "Thorough stirring mentioned",
+          "unit": null
+        },
+        "environmental_conditions": "Hydrothermal synthesis in polytetrafluoroethylene liner"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged (12000 rpm, 10 min) with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "12",
+            "unit": "h"
+          }
+        },
+        "calcination": {
+          "temperature": {
+            "value": "600",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "2",
+            "unit": "h"
+          },
+          "atmosphere": "Muffle furnace (air implied)"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "1.0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjustment_agent": "NaOH",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "pre_treatment": "Ultrasonically treated for 30 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "157",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Zetasizer Nano ZS)"
+        },
+        "aggregate_particle_size_range": {
+            "value": "80-180",
+            "unit": "nm",
+            "measurement_method_used": "SEM"
+        },
+         "primary_particle_size": {
+            "value": "~5",
+            "unit": "nm",
+            "measurement_method_used": "TEM"
+        },
+        "crystallite_size": {
+          "value": "6.491",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula on (111) peak)"
+        },
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite-type CeO₂ (JCPDS No. 34-0394)",
+          "unit": null,
+          "measurement_method_used": "XRD"
+        },
+        "lattice_parameters": {
+            "interplanar_spacing_111": {
+                "value": "3.126",
+                "unit": "Å",
+                "measurement_method_used": "XRD (Table 1)"
+            },
+             "lattice_constant": {
+                "value": "5.414",
+                "unit": "Å",
+                "measurement_method_used": "XRD (Table 1)"
+            },
+            "hr_tem_111_spacing": {
+                "value": "0.375",
+                "unit": "nm"
+            }
+        },
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "elements_detected": ["Ce", "O", "Nd"],
+            "distribution": "Uniformly distributed",
+            "measurement_method_used": "EDS Mapping"
+        },
+        "particle_morphology": "Monodisperse porous nanospheres with intact spherical particles (SEM/TEM)",
+        "specific_surface_area_bet": {
+          "value": "98.49",
+          "unit": "m²/g",
+          "measurement_method_used": "N₂ adsorption-desorption"
+        },
+        "pore_size_distribution": {
+          "average_pore_size": {
+            "value": "1.927",
+            "unit": "nm",
+            "measurement_method_used": "BJH (N₂ adsorption)"
+          }
+        },
+         "band_gap_energy": {
+            "value": "3.16",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Tauc plot)"
+        },
+        "raman_analysis": {
+            "F2g_peak_position": {
+                "value": "~460",
+                "unit": "cm⁻¹"
+            },
+            "defect_peak_position": {
+                "value": "~600",
+                "unit": "cm⁻¹"
+            },
+            "I600_I460_ratio": {
+                "value": "~0.10",
+                "unit": null
+            }
+        },
+        "xps_analysis": {
+            "Nd_3d_peaks_eV": ["982.3 (3d3/2)", "1005.8 (3d5/2)"],
+            "Ce3_plus_percentage": {
+                "value": "39",
+                "unit": "%"
+            },
+            "oxygen_species_percentage": {
+                "O_beta_Vo_percentage": {
+                    "value": "58.3",
+                    "unit": "%"
+                }
+            }
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(331)"]
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ films on wafer",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "126.3 ± 17.5",
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "8",
+          "unit": "N"
+        },
+         "head_rotation_speed": {
+            "value": "120",
+            "unit": "rpm"
+        },
+        "pad_rotation_speed": {
+            "value": "90",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "100",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Bruker Universal Mechanical Tester (UMT TriboLab)",
+        "pad_composition": null,
+        "pre_cmp_surface_roughness_Ra": {
+            "value": "0.813 ± 0.02",
+            "unit": "nm",
+            "measurement_area": "3x3 µm²",
+            "measurement_method_used": "AFM (Nanoman VS)"
+        },
+        "post_cmp_surface_roughness_Ra": {
+            "value": "0.542 ± 0.03",
+            "unit": "nm",
+            "measurement_area": "3x3 µm²",
+            "measurement_method_used": "AFM (Nanoman VS)"
+        }
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "doi": "10.1016/j.colsurfa.2022.130508",
+  "title": "Preparation of lanthanide-doped polystyrene/ CeO2 abrasives and investigation of slurry stability and photochemical mechanical polishing performance",
+  "year_published": "2023",
+  "journal": "Colloids and Surfaces A: Physicochemical and Engineering Aspects",
+  "samples": [
+    {
+      "sample_id": "PS-Ce",
+      "experiment_context": "Undoped Polystyrene/CeO2 core-shell abrasive synthesized by modified in situ chemical precipitation.",
+      "synthesis_method": "Modified in situ chemical precipitation on PS core",
+      "core_material": {
+        "name": "Polystyrene (PS)",
+        "synthesis_method": "Soap-free emulsion polymerization",
+        "size": {
+          "value": "85",
+          "unit": "nm"
+        }
+      },
+      "precursor_chemical": [
+        "Ce(NO3)3·6H2O"
+      ],
+      "precursor_concentration": [
+        {
+          "chemical": "Ce(NO3)3·6H2O",
+          "value": "0.8",
+          "unit": "g"
+        }
+      ],
+      "precipitant_type": "Hexamethylenetetramine (HMT)",
+      "precipitant_concentration": {
+        "value": "2",
+        "unit": "g"
+      },
+      "reaction_temperature": {
+        "value": "75",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "3",
+        "unit": "h"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Filtered and washed several times with deionized water and ethanol"
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          }
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Spherical core-shell particles (85 nm PS core, 10 nm CeO2 shell)",
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO2",
+          "jcpds": "34-0394"
+        },
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)",
+          "(222)",
+          "(400)",
+          "(331)",
+          "(420)"
+        ],
+        "crystallite_size": {
+          "value": "8.304",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Debye-Scherrer)"
+        },
+        "lattice_constant": {
+          "value": "5.387",
+          "unit": "Å",
+          "measurement_method_used": "XRD (111)"
+        },
+        "crystal_spacing": {
+          "value": "3.110",
+          "unit": "Å",
+          "measurement_method_used": "XRD (111)"
+        },
+        "band_gap_Eg": {
+          "value": "3.24",
+          "unit": "eV",
+          "measurement_method_used": "UV-vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "absorption_wavelength_threshold": {
+          "value": "405",
+          "unit": "nm",
+          "measurement_method_used": "UV-vis DRS"
+        },
+        "surface_ce3_percent_xps": {
+          "value": "49",
+          "unit": "%",
+          "measurement_method_used": "XPS"
+        },
+        "oxygen_vacancy_concentration_ratio_Io_I460": {
+          "value": "0.11",
+          "unit": "",
+          "measurement_method_used": "Raman"
+        },
+        "raman_peaks_cm-1": [
+          460
+        ],
+        "instrument_device_model": {
+          "XRD": "Powder X‑ray diffractometer (Cu Kα, λ=1.4518 Å, 0.15°/s, 2θ 10–90°)",
+          "SEM": "Hitachi S4800",
+          "TEM": "JEOL JEM‑2010 EX",
+          "UV‑vis DRS": "Shimadzu UV3600",
+          "PL": "Fluorolog 3 modular spectrofluorometer",
+          "XPS": "PHI VersaProbe III",
+          "Raman": "HORIBA T64000"
+        }
+      }
+    },
+    {
+      "sample_id": "PS-Ce-La",
+      "experiment_context": "La-doped Polystyrene/CeO2 core-shell abrasive synthesized by modified in situ chemical precipitation.",
+      "synthesis_method": "Modified in situ chemical precipitation on PS core",
+      "core_material": {
+        "name": "Polystyrene (PS)",
+        "synthesis_method": "Soap-free emulsion polymerization",
+        "size": {
+          "value": "85",
+          "unit": "nm"
+        }
+      },
+      "precursor_chemical": [
+        "Ce(NO3)3·6H2O",
+        "La(NO3)3·6H2O"
+      ],
+      "precursor_concentration": [
+        {
+          "chemical": "Ce(NO3)3·6H2O",
+          "value": "0.8",
+          "unit": "g"
+        },
+        {
+          "chemical": "La(NO3)3·6H2O",
+          "value": "0.2",
+          "unit": "g"
+        }
+      ],
+      "precipitant_type": "Hexamethylenetetramine (HMT)",
+      "precipitant_concentration": {
+        "value": "2",
+        "unit": "g"
+      },
+      "reaction_temperature": {
+        "value": "75",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "3",
+        "unit": "h"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Filtered and washed several times with deionized water and ethanol"
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          }
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Spherical core-shell particles (85 nm PS core), shell attached as block material, strawberry-like surface",
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO2",
+          "jcpds": "34-0394",
+          "dopant": "La"
+        },
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)",
+          "(222)",
+          "(400)",
+          "(331)",
+          "(420)"
+        ],
+        "crystallite_size": {
+          "value": "5.963",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Debye-Scherrer)"
+        },
+        "lattice_constant": {
+          "value": "5.402",
+          "unit": "Å",
+          "measurement_method_used": "XRD (111)"
+        },
+        "crystal_spacing": {
+          "value": "3.119",
+          "unit": "Å",
+          "measurement_method_used": "XRD (111)"
+        },
+        "band_gap_Eg": {
+          "value": "3.23",
+          "unit": "eV",
+          "measurement_method_used": "UV-vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "absorption_wavelength_threshold": {
+          "value": "407",
+          "unit": "nm",
+          "measurement_method_used": "UV-vis DRS"
+        },
+        "photoluminescence_intensity": "Lower than PS-Ce",
+        "instrument_device_model": {
+          "XRD": "Powder X‑ray diffractometer (Cu Kα, λ=1.4518 Å, 0.15°/s, 2θ 10–90°)",
+          "SEM": "Hitachi S4800",
+          "TEM": "JEOL JEM‑2010 EX",
+          "UV‑vis DRS": "Shimadzu UV3600",
+          "PL": "Fluorolog 3 modular spectrofluorometer",
+          "XPS": "PHI VersaProbe III",
+          "Raman": "HORIBA T64000"
+        }
+      }
+    },
+    {
+      "sample_id": "PS-Ce-Nd",
+      "experiment_context": "Nd-doped Polystyrene/CeO2 core-shell abrasive synthesized by modified in situ chemical precipitation. Used for CMP and PCMP tests.",
+      "synthesis_method": "Modified in situ chemical precipitation on PS core",
+      "core_material": {
+        "name": "Polystyrene (PS)",
+        "synthesis_method": "Soap-free emulsion polymerization",
+        "size": {
+          "value": "85",
+          "unit": "nm"
+        }
+      },
+      "precursor_chemical": [
+        "Ce(NO3)3·6H2O",
+        "Nd(NO3)3·6H2O"
+      ],
+      "precursor_concentration": [
+        {
+          "chemical": "Ce(NO3)3·6H2O",
+          "value": "0.8",
+          "unit": "g"
+        },
+        {
+          "chemical": "Nd(NO3)3·6H2O",
+          "value": "0.2",
+          "unit": "g"
+        }
+      ],
+      "precipitant_type": "Hexamethylenetetramine (HMT)",
+      "precipitant_concentration": {
+        "value": "2",
+        "unit": "g"
+      },
+      "reaction_temperature": {
+        "value": "75",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "3",
+        "unit": "h"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Filtered and washed several times with deionized water and ethanol"
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Non-ionic surfactant / Stabilizing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_adjuster": "Aminomethyl propanol (AMP)",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": "100",
+            "unit": "g"
+          }
+        },
+        "zeta_potential": {
+          "value": "-12.3",
+          "unit": "mV"
+        },
+        "particle_size_distribution": {
+          "average_size": {
+            "value": "330",
+            "unit": "nm"
+          },
+          "span": {
+            "value": "0.64",
+            "unit": ""
+          },
+          "measurement_method_used": "DLS"
+        },
+        "stability": "Remained remarkably stable for 7 days"
+      },
+      "characterization": {
+        "particle_morphology": "Spherical core-shell particles (85 nm PS core), complete coating",
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO2",
+          "jcpds": "34-0394",
+          "dopant": "Nd"
+        },
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)",
+          "(222)",
+          "(400)",
+          "(331)",
+          "(420)"
+        ],
+        "crystallite_size": {
+          "value": "6.901",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Debye-Scherrer)"
+        },
+        "lattice_constant": {
+          "value": "5.429",
+          "unit": "Å",
+          "measurement_method_used": "XRD (111)"
+        },
+        "crystal_spacing": {
+          "value": "3.134",
+          "unit": "Å",
+          "measurement_method_used": "XRD (111)"
+        },
+        "band_gap_Eg": {
+          "value": "3.20",
+          "unit": "eV",
+          "measurement_method_used": "UV-vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "absorption_wavelength_threshold": {
+          "value": "419",
+          "unit": "nm",
+          "measurement_method_used": "UV-vis DRS"
+        },
+        "photoluminescence_intensity": "Lower than PS-Ce",
+        "surface_ce3_percent_xps": {
+          "value": "56",
+          "unit": "%",
+          "measurement_method_used": "XPS"
+        },
+        "oxygen_vacancy_concentration_ratio_Io_I460": {
+          "value": "0.22",
+          "unit": "",
+          "measurement_method_used": "Raman"
+        },
+        "raman_peaks_cm-1": [
+          460,
+          560
+        ],
+        "xps_analysis": {
+          "Nd_3d_peaks_eV": [
+            982.6,
+            1004.9
+          ]
+        },
+        "photocatalytic_activity_test": {
+          "method": "Congo Red (CR) degradation under Xenon lamp (365 nm)",
+          "result": "Significantly superior to PS-Ce"
+        },
+        "instrument_device_model": {
+          "XRD": "Powder X‑ray diffractometer (Cu Kα, λ=1.4518 Å, 0.15°/s, 2θ 10–90°)",
+          "SEM": "Hitachi S4800",
+          "TEM": "JEOL JEM‑2010 EX",
+          "UV‑vis DRS": "Shimadzu UV3600",
+          "PL": "Fluorolog 3 modular spectrofluorometer",
+          "XPS": "PHI VersaProbe III",
+          "Raman": "HORIBA T64000",
+          "DLS/Zeta": "Zetasizer Nano ZS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Thermally oxidized silicon wafers (SiO2 layer)",
+        "target_layer_thickness": {
+          "value": "1000",
+          "unit": "nm"
+        },
+        "wafer_size": "1.5 cm x 2.0 cm",
+        "equipment_model": "Bruker Universal Mechanical Tester (UMT TriboLab)",
+        "pad_rotation_speed": {
+          "value": "90",
+          "unit": "r/min"
+        },
+        "wafer_rotation_speed": {
+          "value": "120",
+          "unit": "r/min"
+        },
+        "slurry_injection_rate": {
+          "value": "100",
+          "unit": "ml/min"
+        },
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "N"
+        },
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "pre_cmp_surface_roughness_Ra": {
+          "value": "0.82",
+          "unit": "nm",
+          "error": "0.01"
+        },
+        "post_cmp_cleaning": "Sonicated with SC1 (NH2·H2O/H2O2/H2O=1:1:5), DI water, ethanol; dried with N2",
+        "cmp_results": {
+          "material_removal_rate_mrr": {
+            "value": "65.8",
+            "unit": "nm/min",
+            "error": "3.7"
+          },
+          "post_cmp_surface_roughness_Ra": {
+            "value": "0.46",
+            "unit": "nm",
+            "error": "0.01"
+          }
+        },
+        "pcmp_conditions": {
+          "light_source": "OLED lamp (20 W)",
+          "wavelength": {
+            "value": "365",
+            "unit": "nm"
+          },
+          "pre_polishing_treatment": "Slurry light-treated for 1 h"
+        },
+        "pcmp_results": {
+          "material_removal_rate_mrr": {
+            "value": "174.3",
+            "unit": "nm/min",
+            "error": "7.6"
+          },
+          "post_pcmp_surface_roughness_Ra": {
+            "value": "0.36",
+            "unit": "nm",
+            "error": "0.05"
+          }
+        },
+        "instrument_device_model": {
+          "Polisher": "Bruker Universal Mechanical Tester (UMT TriboLab)",
+          "Balance": "Mettler Toledo XS105 (exact to 0.01 mg)",
+          "AFM": "Nanoman VS (OLTESPAR3 probe, 70 kHz, 2 N/m, 7 nm tip)"
+        }
+      }
+    },
+    {
+      "sample_id": "PS-Ce-Eu",
+      "experiment_context": "Eu-doped Polystyrene/CeO2 core-shell abrasive synthesized by modified in situ chemical precipitation.",
+      "synthesis_method": "Modified in situ chemical precipitation on PS core",
+      "core_material": {
+        "name": "Polystyrene (PS)",
+        "synthesis_method": "Soap-free emulsion polymerization",
+        "size": {
+          "value": "85",
+          "unit": "nm"
+        }
+      },
+      "precursor_chemical": [
+        "Ce(NO3)3·6H2O",
+        "Eu(NO3)3·6H2O"
+      ],
+      "precursor_concentration": [
+        {
+          "chemical": "Ce(NO3)3·6H2O",
+          "value": "0.8",
+          "unit": "g"
+        },
+        {
+          "chemical": "Eu(NO3)3·6H2O",
+          "value": "0.2",
+          "unit": "g"
+        }
+      ],
+      "precipitant_type": "Hexamethylenetetramine (HMT)",
+      "precipitant_concentration": {
+        "value": "2",
+        "unit": "g"
+      },
+      "reaction_temperature": {
+        "value": "75",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "3",
+        "unit": "h"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Filtered and washed several times with deionized water and ethanol"
+        },
+        "drying": {
+          "temperature": {
+            "value": "80",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "4",
+            "unit": "h"
+          }
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Spherical core-shell particles (85 nm PS core), complete coating",
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO2",
+          "jcpds": "34-0394",
+          "dopant": "Eu"
+        },
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)",
+          "(222)",
+          "(400)",
+          "(331)",
+          "(420)"
+        ],
+        "crystallite_size": {
+          "value": "6.132",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Debye-Scherrer)"
+        },
+        "lattice_constant": {
+          "value": "5.414",
+          "unit": "Å",
+          "measurement_method_used": "XRD (111)"
+        },
+        "crystal_spacing": {
+          "value": "3.126",
+          "unit": "Å",
+          "measurement_method_used": "XRD (111)"
+        },
+        "band_gap_Eg": {
+          "value": "3.22",
+          "unit": "eV",
+          "measurement_method_used": "UV-vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "absorption_wavelength_threshold": {
+          "value": "412",
+          "unit": "nm",
+          "measurement_method_used": "UV-vis DRS"
+        },
+        "photoluminescence_intensity": "Lower than PS-Ce",
+        "instrument_device_model": {
+          "XRD": "Powder X‑ray diffractometer (Cu Kα, λ=1.4518 Å, 0.15°/s, 2θ 10–90°)",
+          "SEM": "Hitachi S4800",
+          "TEM": "JEOL JEM‑2010 EX",
+          "UV‑vis DRS": "Shimadzu UV3600",
+          "PL": "Fluorolog 3 modular spectrofluorometer",
+          "XPS": "PHI VersaProbe III",
+          "Raman": "HORIBA T64000"
+        }
+      }
+    }
+  ]
+}

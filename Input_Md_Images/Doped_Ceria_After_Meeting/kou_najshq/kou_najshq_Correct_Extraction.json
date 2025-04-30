@@ -1,0 +1,757 @@
+{
+  "doi": null,
+  "title": "Trivalent lanthanum and ytterbium doped meso-silica/ceria abrasive systems toward chemical mechanical polishing (CMP) and ultraviolet irradiation-assisted photochemical mechanical polishing (PCMP)",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Commercial_CeO2_CMP",
+      "experiment_context": "Commercial calcined CeO₂ abrasives used for rough polishing/pre-finishing of BK7 quartz glass substrates.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": null
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "100-1000",
+          "unit": "nm",
+          "measurement_method_used": "Vendor specified range"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Calcined CeO₂",
+        "xrd_peaks": null,
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "23.5",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TrgraPol-15 polisher (Struers A/S, Denmark)",
+        "pad_composition": "MD-Chem porous polyurethane (Struers A/S)",
+        "substrate_details": {
+            "material": "BK7 (K9) optical quartz glass",
+            "dimensions": "20.0 x 20.0 x 2.0 mm",
+            "initial_surface_roughness": {
+                "Ra": { "value": "111", "unit": "nm" },
+                "Rq": { "value": "137", "unit": "nm" },
+                "PV": { "value": "344", "unit": "nm" },
+                "measurement_method_used": "AFM"
+            }
+        },
+        "post_polish_surface_roughness": {
+          "Ra": { "value": "3.38", "unit": "Å" },
+          "Rq": { "value": "5.55", "unit": "Å" },
+          "Rs": { "value": "6.65", "unit": "Å" },
+          "measurement_method_used": "AFM"
+        },
+        "surface_defects_observed": ["Rolling/sliding microscratches", "Residual abrasive particles"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "sSiO2_CeO2_CMP",
+      "experiment_context": "Non-porous solid silica (sSiO₂) core / CeO₂ shell composite abrasives used for CMP of BK7 quartz glass.",
+      "precursor_chemical": "Ce(NO₃)₂·6H₂O",
+      "precursor_concentration": null,
+      "precipitant_type": "C₆H₁₂N₄",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "75",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "2",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": "300",
+          "unit": "rpm"
+        },
+        "environmental_conditions": null,
+        "core_material": "Solid SiO₂ (sSiO₂)"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+        "annealing": {
+          "temperature": { "value": "650", "unit": "°C" },
+          "duration": { "value": "2", "unit": "h" },
+          "atmosphere": "Air",
+          "heating_rate": { "value": "10", "unit": "°C/min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": { "value": "1.0", "unit": "wt%" }
+          },
+          {
+            "name": "SDS",
+            "type": "Surfactant/Dispersant",
+            "concentration": { "value": "0.5", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "8.0-8.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": {
+          "value": "3.09",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO₂",
+          "lattice_parameter": { "value": "5.405", "unit": "Å" }
+        },
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Non-porous sSiO₂ core / CeO₂ shell",
+        "xrd_peaks": ["(111)", "(220)", "(311)", "(331)"],
+        "raman_peaks_cm-1": ["~460", "~600"],
+        "raman_intensity_ratio_600_460": 0.14,
+        "surface_ce3_percent_xps": 37.45,
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TrgraPol-15 polisher (Struers A/S, Denmark)",
+        "pad_composition": "MD-Chem porous polyurethane (Struers A/S)",
+         "substrate_details": {
+            "material": "BK7 (K9) optical quartz glass",
+            "dimensions": "20.0 x 20.0 x 2.0 mm"
+        },
+        "post_polish_surface_roughness": {
+          "Ra": { "value": "2.72", "unit": "Å" },
+          "Rq": { "value": "3.92", "unit": "Å" },
+          "Rs": { "value": "3.51", "unit": "Å" },
+          "measurement_method_used": "AFM"
+        },
+        "surface_defects_observed": ["Shallow scratches"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "mSiO2_La-CeO2_CMP",
+      "experiment_context": "Mesoporous silica (mSiO₂) core / La-doped CeO₂ shell composite abrasives used for CMP of BK7 quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₂·6H₂O", "La(NO₃)₂·6H₂O", "TEOS", "CTAB"],
+      "precursor_concentration": [
+        {"chemical": "mSiO₂ core", "value": "0.2", "unit": "g"},
+        {"chemical": "Ce(NO₃)₂·6H₂O", "value": "0.5", "unit": "g"},
+        {"chemical": "La(NO₃)₂·6H₂O", "value": "0.1", "unit": "g"}
+      ],
+      "precipitant_type": "hexamethylenetetramine (C₆H₁₂N₄)",
+      "precipitant_concentration": {"value": "0.96", "unit": "g"},
+      "molar_ratio_precursor_precipitant": null,
+      "doping_details": {
+        "dopant": "La",
+        "target_molar_ratio_Ce_La": "0.85:0.15",
+        "target_doping_percentage": "15%"
+      },
+      "reaction_temperature": {
+        "value": "75",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "2",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": "300",
+          "unit": "rpm"
+        },
+        "environmental_conditions": null,
+        "core_material": "Mesoporous SiO₂ (mSiO₂)",
+        "solvent_core_dispersion": {"name": "ethanol", "value": "47.4", "unit": "g"},
+        "solvent_precursor_solution": {"name": "DI water", "value": "40", "unit": "g"}
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+         "annealing": {
+          "temperature": { "value": "650", "unit": "°C" },
+          "duration": { "value": "2", "unit": "h" },
+          "atmosphere": "Air",
+          "heating_rate": { "value": "10", "unit": "°C/min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": { "value": "1.0", "unit": "wt%" }
+          },
+          {
+            "name": "SDS",
+            "type": "Surfactant/Dispersant",
+            "concentration": { "value": "0.5", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "8.0-8.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": [
+            {"component": "mSiO₂ core", "value": "208.1", "std_dev": "24.9", "unit": "nm", "measurement_method_used": "FESEM"},
+            {"component": "mSiO₂/La-CeO₂ composite", "value": "227.7", "std_dev": "27.1", "unit": "nm", "measurement_method_used": "FESEM"},
+            {"component": "La-CeO₂ shell nanocrystals", "value": "2-5", "unit": "nm", "measurement_method_used": "TEM"}
+        ],
+        "crystallite_size": {
+          "value": "2.60",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO₂",
+          "lattice_parameter": { "value": "5.452", "unit": "Å" }
+        },
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "Ce": {"present": true, "measurement_method_used": "EDS"},
+            "La": {"present": true, "measurement_method_used": "EDS"},
+            "Si": {"present": true, "measurement_method_used": "EDS"},
+            "O": {"present": true, "measurement_method_used": "EDS"}
+        },
+        "particle_morphology": "Spherical mSiO₂ cores with densely packed La-CeO₂ nanoparticles (strawberry-like surface)",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)"],
+        "raman_peaks_cm-1": ["~460", "~600"],
+        "raman_intensity_ratio_600_460": 0.21,
+        "surface_ce3_percent_xps": 44.02,
+        "zeta_potential": {
+            "value": "-43.0",
+            "unit": "mV"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "64.6",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TrgraPol-15 polisher (Struers A/S, Denmark)",
+        "pad_composition": "MD-Chem porous polyurethane (Struers A/S)",
+         "substrate_details": {
+            "material": "BK7 (K9) optical quartz glass",
+            "dimensions": "20.0 x 20.0 x 2.0 mm"
+        },
+        "post_polish_surface_roughness": {
+          "Ra": { "value": "1.54", "std_dev": "0.015", "unit": "Å" },
+          "Rq": { "value": "1.99", "std_dev": "0.023", "unit": "Å" },
+          "Rs": { "value": "2.22", "std_dev": "0.115", "unit": "Å" },
+          "SAD": { "value": "0.0063", "std_dev": "0.000638", "unit": "%" },
+          "measurement_method_used": "AFM"
+        },
+        "surface_defects_observed": ["Ultra-smooth", "Scratch-free"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "mSiO2_La-CeO2_PCMP",
+      "experiment_context": "Mesoporous silica (mSiO₂) core / La-doped CeO₂ shell composite abrasives used for PCMP (UV-assisted) of BK7 quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₂·6H₂O", "La(NO₃)₂·6H₂O", "TEOS", "CTAB"],
+      "precursor_concentration": [
+        {"chemical": "mSiO₂ core", "value": "0.2", "unit": "g"},
+        {"chemical": "Ce(NO₃)₂·6H₂O", "value": "0.5", "unit": "g"},
+        {"chemical": "La(NO₃)₂·6H₂O", "value": "0.1", "unit": "g"}
+      ],
+      "precipitant_type": "hexamethylenetetramine (C₆H₁₂N₄)",
+      "precipitant_concentration": {"value": "0.96", "unit": "g"},
+      "molar_ratio_precursor_precipitant": null,
+      "doping_details": {
+        "dopant": "La",
+        "target_molar_ratio_Ce_La": "0.85:0.15",
+        "target_doping_percentage": "15%"
+      },
+      "reaction_temperature": {
+        "value": "75",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "2",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": "300",
+          "unit": "rpm"
+        },
+        "environmental_conditions": null,
+        "core_material": "Mesoporous SiO₂ (mSiO₂)",
+        "solvent_core_dispersion": {"name": "ethanol", "value": "47.4", "unit": "g"},
+        "solvent_precursor_solution": {"name": "DI water", "value": "40", "unit": "g"}
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+         "annealing": {
+          "temperature": { "value": "650", "unit": "°C" },
+          "duration": { "value": "2", "unit": "h" },
+          "atmosphere": "Air",
+          "heating_rate": { "value": "10", "unit": "°C/min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": { "value": "1.0", "unit": "wt%" }
+          },
+          {
+            "name": "SDS",
+            "type": "Surfactant/Dispersant",
+            "concentration": { "value": "0.5", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "8.0-8.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "pre_irradiation": {
+            "duration": {"value": "10", "unit": "min"},
+            "source": "UV light"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": [
+            {"component": "mSiO₂ core", "value": "208.1", "std_dev": "24.9", "unit": "nm", "measurement_method_used": "FESEM"},
+            {"component": "mSiO₂/La-CeO₂ composite", "value": "227.7", "std_dev": "27.1", "unit": "nm", "measurement_method_used": "FESEM"},
+            {"component": "La-CeO₂ shell nanocrystals", "value": "2-5", "unit": "nm", "measurement_method_used": "TEM"}
+        ],
+        "crystallite_size": {
+          "value": "2.60",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO₂",
+          "lattice_parameter": { "value": "5.452", "unit": "Å" }
+        },
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "Ce": {"present": true, "measurement_method_used": "EDS"},
+            "La": {"present": true, "measurement_method_used": "EDS"},
+            "Si": {"present": true, "measurement_method_used": "EDS"},
+            "O": {"present": true, "measurement_method_used": "EDS"}
+        },
+        "particle_morphology": "Spherical mSiO₂ cores with densely packed La-CeO₂ nanoparticles (strawberry-like surface)",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)"],
+        "raman_peaks_cm-1": ["~460", "~600"],
+        "raman_intensity_ratio_600_460": 0.21,
+        "surface_ce3_percent_xps": 44.02,
+        "zeta_potential": {
+            "value": "-43.0",
+            "unit": "mV"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "121.8",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TrgraPol-15 polisher (Struers A/S, Denmark)",
+        "pad_composition": "MD-Chem porous polyurethane (Struers A/S)",
+        "uv_irradiation_details": {
+            "source": "250-W halogen lamp",
+            "wavelength": {"value": "365", "unit": "nm"}
+        },
+         "substrate_details": {
+            "material": "BK7 (K9) optical quartz glass",
+            "dimensions": "20.0 x 20.0 x 2.0 mm"
+        },
+        "post_polish_surface_roughness": {
+          "Ra": { "value": "1.32", "std_dev": "0.125", "unit": "Å" },
+          "Rq": { "value": "1.68", "std_dev": "0.172", "unit": "Å" },
+          "Rs": { "value": "2.00", "std_dev": "0.178", "unit": "Å" },
+          "SAD": { "value": "0.0045", "std_dev": "0.000559", "unit": "%" },
+          "measurement_method_used": "AFM"
+        },
+        "surface_defects_observed": ["Ultra-smooth", "Scratch-free"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "mSiO2_Yb-CeO2_CMP",
+      "experiment_context": "Mesoporous silica (mSiO₂) core / Yb-doped CeO₂ shell composite abrasives used for CMP of BK7 quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₂·6H₂O", "Yb(NO₃)₂·6H₂O", "TEOS", "CTAB"],
+      "precursor_concentration": [
+        {"chemical": "mSiO₂ core", "value": "0.2", "unit": "g"},
+        {"chemical": "Ce(NO₃)₂·6H₂O", "value": "0.5", "unit": "g"},
+        {"chemical": "Yb(NO₃)₂·6H₂O", "value": "0.1", "unit": "g"}
+      ],
+      "precipitant_type": "hexamethylenetetramine (C₆H₁₂N₄)",
+      "precipitant_concentration": {"value": "0.96", "unit": "g"},
+      "molar_ratio_precursor_precipitant": null,
+      "doping_details": {
+        "dopant": "Yb",
+        "target_molar_ratio_Ce_Yb": "0.85:0.15",
+        "target_doping_percentage": "15%",
+        "measured_atomic_ratio_Yb_Ce_Yb": 0.131
+      },
+      "reaction_temperature": {
+        "value": "75",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "2",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": "300",
+          "unit": "rpm"
+        },
+        "environmental_conditions": null,
+        "core_material": "Mesoporous SiO₂ (mSiO₂)",
+        "solvent_core_dispersion": {"name": "ethanol", "value": "47.4", "unit": "g"},
+        "solvent_precursor_solution": {"name": "DI water", "value": "40", "unit": "g"}
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+         "annealing": {
+          "temperature": { "value": "650", "unit": "°C" },
+          "duration": { "value": "2", "unit": "h" },
+          "atmosphere": "Air",
+          "heating_rate": { "value": "10", "unit": "°C/min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": { "value": "1.0", "unit": "wt%" }
+          },
+          {
+            "name": "SDS",
+            "type": "Surfactant/Dispersant",
+            "concentration": { "value": "0.5", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "8.0-8.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": [
+            {"component": "mSiO₂ core", "value": "208.1", "std_dev": "24.9", "unit": "nm", "measurement_method_used": "FESEM"},
+            {"component": "Yb-CeO₂ shell nanocrystals", "value": "2-5", "unit": "nm", "measurement_method_used": "TEM"}
+        ],
+        "crystallite_size": {
+          "value": "2.61",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO₂",
+          "lattice_parameter": { "value": "5.439", "unit": "Å" }
+        },
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "Ce": {"present": true, "measurement_method_used": "STEM-EDX"},
+            "Yb": {"present": true, "measurement_method_used": "STEM-EDX"},
+            "Si": {"present": true, "measurement_method_used": "STEM-EDX"},
+            "O": {"present": true, "measurement_method_used": "STEM-EDX"}
+        },
+        "particle_morphology": "Spherical mSiO₂ cores with densely packed Yb-CeO₂ nanoparticles (strawberry-like surface)",
+        "xrd_peaks": ["(111)", "(220)", "(311)", "(331)"],
+        "raman_peaks_cm-1": ["~460", "~600"],
+        "raman_intensity_ratio_600_460": 0.17,
+        "surface_ce3_percent_xps": 40.58,
+        "zeta_potential": {
+            "value": "-38.2",
+            "unit": "mV"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "102.2",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TrgraPol-15 polisher (Struers A/S, Denmark)",
+        "pad_composition": "MD-Chem porous polyurethane (Struers A/S)",
+         "substrate_details": {
+            "material": "BK7 (K9) optical quartz glass",
+            "dimensions": "20.0 x 20.0 x 2.0 mm"
+        },
+        "post_polish_surface_roughness": {
+          "Ra": { "value": "1.73", "std_dev": "0.026", "unit": "Å" },
+          "Rq": { "value": "2.24", "std_dev": "0.061", "unit": "Å" },
+          "Rs": { "value": "3.23", "std_dev": "0.227", "unit": "Å" },
+          "SAD": { "value": "0.0109", "std_dev": "0.000794", "unit": "%" },
+          "measurement_method_used": "AFM"
+        },
+        "surface_defects_observed": ["Ultra-smooth", "Scratch-free"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "mSiO2_Yb-CeO2_PCMP",
+      "experiment_context": "Mesoporous silica (mSiO₂) core / Yb-doped CeO₂ shell composite abrasives used for PCMP (UV-assisted) of BK7 quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₂·6H₂O", "Yb(NO₃)₂·6H₂O", "TEOS", "CTAB"],
+      "precursor_concentration": [
+        {"chemical": "mSiO₂ core", "value": "0.2", "unit": "g"},
+        {"chemical": "Ce(NO₃)₂·6H₂O", "value": "0.5", "unit": "g"},
+        {"chemical": "Yb(NO₃)₂·6H₂O", "value": "0.1", "unit": "g"}
+      ],
+      "precipitant_type": "hexamethylenetetramine (C₆H₁₂N₄)",
+      "precipitant_concentration": {"value": "0.96", "unit": "g"},
+      "molar_ratio_precursor_precipitant": null,
+      "doping_details": {
+        "dopant": "Yb",
+        "target_molar_ratio_Ce_Yb": "0.85:0.15",
+        "target_doping_percentage": "15%",
+        "measured_atomic_ratio_Yb_Ce_Yb": 0.131
+      },
+      "reaction_temperature": {
+        "value": "75",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "2",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": "300",
+          "unit": "rpm"
+        },
+        "environmental_conditions": null,
+        "core_material": "Mesoporous SiO₂ (mSiO₂)",
+        "solvent_core_dispersion": {"name": "ethanol", "value": "47.4", "unit": "g"},
+        "solvent_precursor_solution": {"name": "DI water", "value": "40", "unit": "g"}
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifuged with DI water and ethanol",
+          "conductivity_threshold": null
+        },
+         "annealing": {
+          "temperature": { "value": "650", "unit": "°C" },
+          "duration": { "value": "2", "unit": "h" },
+          "atmosphere": "Air",
+          "heating_rate": { "value": "10", "unit": "°C/min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "H₂O₂",
+            "type": "Oxidant",
+            "concentration": { "value": "1.0", "unit": "wt%" }
+          },
+          {
+            "name": "SDS",
+            "type": "Surfactant/Dispersant",
+            "concentration": { "value": "0.5", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "8.0-8.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "pre_irradiation": {
+            "duration": {"value": "10", "unit": "min"},
+            "source": "UV light"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": [
+            {"component": "mSiO₂ core", "value": "208.1", "std_dev": "24.9", "unit": "nm", "measurement_method_used": "FESEM"},
+            {"component": "Yb-CeO₂ shell nanocrystals", "value": "2-5", "unit": "nm", "measurement_method_used": "TEM"}
+        ],
+        "crystallite_size": {
+          "value": "2.61",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO₂",
+          "lattice_parameter": { "value": "5.439", "unit": "Å" }
+        },
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "Ce": {"present": true, "measurement_method_used": "STEM-EDX"},
+            "Yb": {"present": true, "measurement_method_used": "STEM-EDX"},
+            "Si": {"present": true, "measurement_method_used": "STEM-EDX"},
+            "O": {"present": true, "measurement_method_used": "STEM-EDX"}
+        },
+        "particle_morphology": "Spherical mSiO₂ cores with densely packed Yb-CeO₂ nanoparticles (strawberry-like surface)",
+        "xrd_peaks": ["(111)", "(220)", "(311)", "(331)"],
+        "raman_peaks_cm-1": ["~460", "~600"],
+        "raman_intensity_ratio_600_460": 0.17,
+        "surface_ce3_percent_xps": 40.58,
+        "zeta_potential": {
+            "value": "-38.2",
+            "unit": "mV"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "157.4",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TrgraPol-15 polisher (Struers A/S, Denmark)",
+        "pad_composition": "MD-Chem porous polyurethane (Struers A/S)",
+        "uv_irradiation_details": {
+            "source": "250-W halogen lamp",
+            "wavelength": {"value": "365", "unit": "nm"}
+        },
+         "substrate_details": {
+            "material": "BK7 (K9) optical quartz glass",
+            "dimensions": "20.0 x 20.0 x 2.0 mm"
+        },
+        "post_polish_surface_roughness": {
+          "Ra": { "value": "1.60", "std_dev": "0.12", "unit": "Å" },
+          "Rq": { "value": "2.10", "std_dev": "0.15", "unit": "Å" },
+          "Rs": { "value": "3.08", "std_dev": "0.26", "unit": "Å" },
+          "SAD": { "value": "0.0085", "std_dev": "0.00031", "unit": "%" },
+          "measurement_method_used": "AFM"
+        },
+        "surface_defects_observed": ["Ultra-smooth", "Scratch-free"]
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

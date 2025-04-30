@@ -1,0 +1,279 @@
+{
+  "doi": "10.1016/j.apsusc.2019.144041",
+  "title": "Achieving ultralow surface roughness and high material removal rate in fused silica via a novel acid SiO₂ slurry and its chemical-mechanical polishing mechanism",
+  "year_published": "2019",
+  "journal": "Applied Surface Science",
+  "substrate": {
+    "material": "Fused Silica (FS)",
+    "source": "Corning, USA",
+    "dimensions": {
+      "diameter": {
+        "value": "~50.8",
+        "unit": "mm"
+      },
+      "thickness": {
+        "value": "~5",
+        "unit": "mm"
+      }
+    },
+    "density": {
+      "value": "2.2",
+      "unit": "g cm⁻³"
+    },
+    "pre_treatment": "Preliminarily polished by double side lapping"
+  },
+  "cmp_process_parameters": {
+    "equipment_model": "1000 S precision polishing machine (Kengjing Corporation)",
+    "pad_composition": "Polyurethane (PU)",
+    "pad_type": "SURFIN 000 (Fujimi Corporation)",
+    "polishing_pressure": {
+      "value": "100",
+      "unit": "g cm⁻²"
+    },
+    "platen_speed": {
+      "value": "150",
+      "unit": "rpm"
+    },
+    "carrier_speed": {
+      "value": "50",
+      "unit": "rpm"
+    },
+    "slurry_flow_rate": {
+      "value": "30",
+      "unit": "ml min⁻¹"
+    },
+    "polishing_time_per_cycle": {
+      "value": "1",
+      "unit": "h"
+    },
+    "process_temperature": {
+      "value": "25",
+      "unit": "°C"
+    },
+    "pad_conditioning": {
+      "tool": "Diamond grinding disc (3M, US)",
+      "duration": {
+        "value": "5",
+        "unit": "min"
+      },
+      "frequency": "Between each polishing step"
+    },
+    "post_cmp_cleaning": "Ultrasonically rinsed with homemade cleaning agent (Patent CN 108048227 A) for 5 min, dried with air stream"
+  },
+  "samples": [
+    {
+      "sample_id": "Alkaline_CeO2",
+      "experiment_context": "CMP of Fused Silica using alkaline CeO₂ slurry for comparison.",
+      "slurry_preparation": {
+        "abrasive_type": "CeO₂",
+        "abrasive_source": "Baotou City Jiaxin Nanometre Materials Co., Ltd.",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "%"
+        },
+        "additives": [
+          {
+            "name": "Phenol",
+            "concentration": {
+              "value": "~1",
+              "unit": "%"
+            },
+            "purpose": "Added for comparison with SiO2 slurries"
+          },
+          {
+            "name": "NaOH",
+            "purpose": "pH adjustment"
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "Pure water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~1.5",
+          "unit": "µm",
+          "measurement_method_used": "LPSA (NanoS, Malvern)",
+          "notes": "Average size Z due to agglomeration. Slight peaks at ~15 µm and ~85 µm."
+        },
+        "particle_morphology": "Irregular shapes, easily agglomerate (SEM - TESCAN MIRA3)"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "24.1",
+          "unit": "µm h⁻¹"
+        },
+        "surface_roughness_Rq_AFM": {
+          "value": "~0.45",
+          "unit": "nm",
+          "measurement_method_used": "AFM (Bruker Dimension Icon)",
+          "scan_area": "10 µm x 10 µm"
+        },
+        "surface_roughness_Rq_OIP": {
+          "value": "~0.55",
+          "unit": "nm",
+          "measurement_method_used": "OIP (Zygo New View 7200)",
+          "scan_area": "15 µm x 15 µm"
+        },
+        "surface_defects": "Rough surface with significant scratches"
+      }
+    },
+    {
+      "sample_id": "Alkaline_SiO2",
+      "experiment_context": "CMP of Fused Silica using alkaline SiO₂ slurry.",
+      "slurry_preparation": {
+        "abrasive_type": "Amorphous SiO₂",
+        "abrasive_source": "Nalco Co., Ltd. (type Nalco 2360)",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "%"
+        },
+        "additives": [
+          {
+            "name": "Phenol",
+            "concentration": {
+              "value": "~1",
+              "unit": "%"
+            },
+            "purpose": "Added for comparison (less effective in alkaline)"
+          },
+          {
+            "name": "NaOH",
+            "purpose": "pH adjustment"
+          }
+        ],
+        "target_final_slurry_ph": "~10",
+        "solvent": {
+          "name": "Pure water"
+        },
+        "initial_conductivity": {
+            "value": "~1.8",
+            "unit": "mS/cm",
+            "notes": "Estimated from Fig 2f"
+        },
+        "stability_1_month": true
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80",
+          "unit": "nm",
+          "measurement_method_used": "LPSA (NanoS, Malvern)",
+          "notes": "Average size Z. No agglomeration."
+        },
+        "particle_morphology": "Regular round shapes, independent particles (SEM - TESCAN MIRA3)",
+        "TGA": "Mass decreases at a lower rate after 120°C compared to acid version after polishing (STA-449 F3)",
+        "IR_Spectra": "Shows -OH peak, less change after polishing compared to acid version (VERTEX 70, Bruker)",
+        "XPS_C1s": "Different peaks compared to acid version, less change after polishing (PHI Quantera II, Ulvac-Phi Inc.)",
+        "NMR_Spectra": "Different shifts compared to acid version (Avance III 400, Bruker)"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "~1.1",
+          "unit": "µm h⁻¹"
+        },
+        "surface_roughness_Rq_AFM": {
+          "value": "~0.21",
+          "unit": "nm",
+          "measurement_method_used": "AFM (Bruker Dimension Icon)",
+          "scan_area": "10 µm x 10 µm"
+        },
+        "surface_roughness_Rq_OIP": {
+          "value": "~0.25",
+          "unit": "nm",
+          "measurement_method_used": "OIP (Zygo New View 7200)",
+          "scan_area": "15 µm x 15 µm"
+        },
+        "surface_defects": "Much smoother, no obvious damage, some white abrasives adhered",
+        "durability_test_6h": {
+            "MRR_trend": "Stable or slight increase",
+            "pH_trend": "Slight decrease",
+            "conductivity_trend": "Stable",
+            "particle_size_Z_trend": "Slight increase",
+            "PDI_trend": "Slight increase"
+        }
+      }
+    },
+    {
+      "sample_id": "Acid_SiO2",
+      "experiment_context": "CMP of Fused Silica using novel acid SiO₂ slurry.",
+      "slurry_preparation": {
+        "abrasive_type": "Amorphous SiO₂",
+        "abrasive_source": "Nalco Co., Ltd. (type Nalco 2360)",
+        "abrasive_concentration": {
+          "value": "5",
+          "unit": "%"
+        },
+        "additives": [
+          {
+            "name": "Phenol",
+            "type": "Active ingredient",
+            "concentration": {
+              "value": "~1",
+              "unit": "%"
+            },
+            "role": "Provides phenolic hydroxyl (-OH) for high MRR"
+          },
+          {
+            "name": "Tartaric acid",
+            "purpose": "pH adjustment",
+            "concentration": {
+              "value": "~0.3",
+              "unit": "%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~2",
+        "solvent": {
+          "name": "Pure water"
+        },
+        "initial_conductivity": {
+            "value": "~3.5",
+            "unit": "mS/cm",
+            "notes": "Estimated from Fig 2f"
+        },
+        "stability_1_month": true
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~80",
+          "unit": "nm",
+          "measurement_method_used": "LPSA (NanoS, Malvern)",
+          "notes": "Average size Z. No agglomeration."
+        },
+        "particle_morphology": "Regular round shapes, independent particles (SEM - TESCAN MIRA3)",
+        "TGA": "Mass decreases gradually, significant decomposition 120-260°C. Higher decrease rate for new vs used abrasives (STA-449 F3)",
+        "IR_Spectra": "Shows phenolic -OH peak, peak weakens significantly after 6h polishing (VERTEX 70, Bruker)",
+        "XPS_C1s": "Shows C-C, O-C=O, π-π* satellite peaks (phenol). Intensities weaken after 6h polishing (PHI Quantera II, Ulvac-Phi Inc.)",
+        "NMR_Spectra": "Shows shifts related to hydroxyl, aromatic/unsaturated structures (phenol). Changes after 6h polishing indicate product formation (Avance III 400, Bruker)"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {
+          "value": "~10.9",
+          "unit": "µm h⁻¹"
+        },
+        "surface_roughness_Rq_AFM": {
+          "value": "0.193",
+          "unit": "nm",
+          "measurement_method_used": "AFM (Bruker Dimension Icon)",
+          "scan_area": "10 µm x 10 µm"
+        },
+        "surface_roughness_Rq_OIP": {
+          "value": "~0.22",
+          "unit": "nm",
+          "measurement_method_used": "OIP (Zygo New View 7200)",
+          "scan_area": "15 µm x 15 µm"
+        },
+        "surface_defects": "Ultralow roughness, no obvious damage, uncontaminated surface",
+        "durability_test_6h": {
+            "MRR_trend": "Decreases (remains > 5 µm h⁻¹ after 6h)",
+            "pH_trend": "Stable",
+            "conductivity_trend": "Decreases (consumption of active ingredients)",
+            "particle_size_Z_trend": "Increase",
+            "PDI_trend": "Increase"
+        }
+      },
+      "mechanism_notes": "Phenolic hydroxyl (-OH) plays a critical role in high MRR by activating Si-O bond breaking. Reaction: ≡Si-O-Si≡ + -OH → ≡Si-O- + ≡Si-OH. Reaction is thermally activated up to 90°C."
+    }
+  ]
+}

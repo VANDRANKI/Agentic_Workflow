@@ -1,0 +1,809 @@
+{
+  "doi": null,
+  "title": "The mechanism of ceria slurry on chemical mechanical polishing efficiency and surface quality of Gallium nitride",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "SiO2_0.5wt%",
+      "experiment_context": "CMP of GaN using SiO₂ abrasive at 0.5 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "SiO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 0.5, "unit": "wt%" },
+        "hardness_mohs": 7,
+        "morphology": "spherical",
+        "particle_size_distribution_nm": "~50–150"
+      },
+      "slurry_preparation": {
+        "method": "Dilution of original colloidal silica",
+        "ball_milling_details": null,
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 30, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "SiO2_1.0wt%",
+      "experiment_context": "CMP of GaN using SiO₂ abrasive at 1.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "SiO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 1.0, "unit": "wt%" },
+        "hardness_mohs": 7,
+        "morphology": "spherical",
+        "particle_size_distribution_nm": "~50–150"
+      },
+      "slurry_preparation": {
+        "method": "Dilution of original colloidal silica",
+        "ball_milling_details": null,
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 35, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "SiO2_2.0wt%",
+      "experiment_context": "CMP of GaN using SiO₂ abrasive at 2.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant. Surface quality and friction measured at this concentration.",
+      "abrasive_type": "SiO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 2.0, "unit": "wt%" },
+        "hardness_mohs": 7,
+        "morphology": "spherical",
+        "particle_size_distribution_nm": "~50–150"
+      },
+      "slurry_preparation": {
+        "method": "Dilution of original colloidal silica",
+        "ball_milling_details": null,
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 75, "unit": "nm/h" },
+        "surface_roughness_sq": { "value": 1.06, "unit": "nm" },
+        "surface_peak_to_valley": { "value": 29.5, "unit": "nm" },
+        "surface_defect_area_percent": { "value": 7.1, "unit": "%" },
+        "coefficient_of_friction": { "value": 0.25, "unit": null },
+        "pad_surface_temperature": { "value": 24, "unit": "°C" },
+        "surface_morphology_notes": "Scattered pits observed (SEM Fig 5.b1). Surface shows uneven removal leading to higher P-V (Text Sec 3.2, Fig 15)."
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "SiO2_3.0wt%",
+      "experiment_context": "CMP of GaN using SiO₂ abrasive at 3.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant. Max MRR for SiO₂ observed at this concentration.",
+      "abrasive_type": "SiO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 3.0, "unit": "wt%" },
+        "hardness_mohs": 7,
+        "morphology": "spherical",
+        "particle_size_distribution_nm": "~50–150"
+      },
+      "slurry_preparation": {
+        "method": "Dilution of original colloidal silica",
+        "ball_milling_details": null,
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 74.5, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "SiO2_4.0wt%",
+      "experiment_context": "CMP of GaN using SiO₂ abrasive at 4.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "SiO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 4.0, "unit": "wt%" },
+        "hardness_mohs": 7,
+        "morphology": "spherical",
+        "particle_size_distribution_nm": "~50–150"
+      },
+      "slurry_preparation": {
+        "method": "Dilution of original colloidal silica",
+        "ball_milling_details": null,
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 65, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "Al2O3_0.5wt%",
+      "experiment_context": "CMP of GaN using Al₂O₃ abrasive at 0.5 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "Al₂O₃",
+      "abrasive_properties": {
+        "concentration": { "value": 0.5, "unit": "wt%" },
+        "hardness_mohs": 9,
+        "morphology": "irregular/angular",
+        "particle_size_distribution_nm": "~200–650"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "Al₂O₃",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 140, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "Al2O3_1.0wt%",
+      "experiment_context": "CMP of GaN using Al₂O₃ abrasive at 1.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "Al₂O₃",
+      "abrasive_properties": {
+        "concentration": { "value": 1.0, "unit": "wt%" },
+        "hardness_mohs": 9,
+        "morphology": "irregular/angular",
+        "particle_size_distribution_nm": "~200–650"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "Al₂O₃",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 200, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "Al2O3_2.0wt%",
+      "experiment_context": "CMP of GaN using Al₂O₃ abrasive at 2.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant. Max MRR for Al₂O₃ observed at this concentration. Surface quality and friction measured.",
+      "abrasive_type": "Al₂O₃",
+      "abrasive_properties": {
+        "concentration": { "value": 2.0, "unit": "wt%" },
+        "hardness_mohs": 9,
+        "morphology": "irregular/angular",
+        "particle_size_distribution_nm": "~200–650"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "Al₂O₃",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 242.4, "unit": "nm/h" },
+        "surface_roughness_sq": { "value": 0.4, "unit": "nm" },
+        "surface_peak_to_valley": { "value": 10, "unit": "nm" },
+        "surface_defect_area_percent": { "value": 42.3, "unit": "%" },
+        "coefficient_of_friction": { "value": 0.35, "unit": null },
+        "pad_surface_temperature": { "value": 27, "unit": "°C" },
+        "surface_morphology_notes": "Dense, elongated scratches observed (SEM Fig 5.b2). High defect area. Alumina degrades GaN surface after removing oxide layer (Text Sec 3.2, Fig 15)."
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "Al2O3_3.0wt%",
+      "experiment_context": "CMP of GaN using Al₂O₃ abrasive at 3.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "Al₂O₃",
+      "abrasive_properties": {
+        "concentration": { "value": 3.0, "unit": "wt%" },
+        "hardness_mohs": 9,
+        "morphology": "irregular/angular",
+        "particle_size_distribution_nm": "~200–650"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "Al₂O₃",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 230, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "Al2O3_4.0wt%",
+      "experiment_context": "CMP of GaN using Al₂O₃ abrasive at 4.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "Al₂O₃",
+      "abrasive_properties": {
+        "concentration": { "value": 4.0, "unit": "wt%" },
+        "hardness_mohs": 9,
+        "morphology": "irregular/angular",
+        "particle_size_distribution_nm": "~200–650"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "Al₂O₃",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 225, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "CeO2_0.5wt%",
+      "experiment_context": "CMP of GaN using CeO₂ abrasive at 0.5 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "CeO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 0.5, "unit": "wt%" },
+        "hardness_mohs": "5-6",
+        "morphology": "granular/irregular",
+        "particle_size_distribution_nm": "~180–450"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "CeO₂",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 250, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "CeO2_1.0wt%",
+      "experiment_context": "CMP of GaN using CeO₂ abrasive at 1.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "CeO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 1.0, "unit": "wt%" },
+        "hardness_mohs": "5-6",
+        "morphology": "granular/irregular",
+        "particle_size_distribution_nm": "~180–450"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "CeO₂",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 260, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "CeO2_2.0wt%",
+      "experiment_context": "CMP of GaN using CeO₂ abrasive at 2.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant. Max MRR for CeO₂ observed at this concentration. Surface quality and friction measured.",
+      "abrasive_type": "CeO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 2.0, "unit": "wt%" },
+        "hardness_mohs": "5-6",
+        "morphology": "granular/irregular",
+        "particle_size_distribution_nm": "~180–450"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "CeO₂",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 265.3, "unit": "nm/h" },
+        "surface_roughness_sq": { "value": 0.075, "unit": "nm" },
+        "surface_peak_to_valley": { "value": 1.1, "unit": "nm" },
+        "surface_defect_area_percent": { "value": 0, "unit": "%" },
+        "coefficient_of_friction": { "value": 0.45, "unit": null },
+        "pad_surface_temperature": { "value": 30, "unit": "°C" },
+        "surface_morphology_notes": "Ultra-smooth surface, atomic step-terraces observed (AFM Fig 5.a3, Fig 7). No scratches or pits (SEM Fig 5.b3). Achieved ultra-smoothness at atomic scale. Mechanical friction does not damage GaN surface (Text Sec 3.2, Fig 15, Fig 16)."
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "CeO2_3.0wt%",
+      "experiment_context": "CMP of GaN using CeO₂ abrasive at 3.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "CeO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 3.0, "unit": "wt%" },
+        "hardness_mohs": "5-6",
+        "morphology": "granular/irregular",
+        "particle_size_distribution_nm": "~180–450"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "CeO₂",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 265, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    },
+    {
+      "sample_id": "CeO2_4.0wt%",
+      "experiment_context": "CMP of GaN using CeO₂ abrasive at 4.0 wt% concentration in acidic slurry (pH 3.0) with 2.0 wt% K₂S₂O₈ oxidant.",
+      "abrasive_type": "CeO₂",
+      "abrasive_properties": {
+        "concentration": { "value": 4.0, "unit": "wt%" },
+        "hardness_mohs": "5-6",
+        "morphology": "granular/irregular",
+        "particle_size_distribution_nm": "~180–450"
+      },
+      "slurry_preparation": {
+        "method": "High-Energy Ball Milling (HEBM) followed by dilution",
+        "ball_milling_details": {
+          "powder_material": "CeO₂",
+          "initial_powder_mass_g": 60,
+          "ph_solution": 3,
+          "di_water_mass_g": 240,
+          "grinding_ball_material": "Zirconium beads",
+          "grinding_ball_diameter_mm": "0.6-0.8",
+          "ball_to_powder_ratio": "4:1",
+          "rotation_speed_rpm": 700,
+          "total_milling_time_h": 2,
+          "ball_milling_jar": "Polyamide 66",
+          "milling_type": "Wet",
+          "final_concentration_wt%": 20.0
+         },
+        "oxidant": { "name": "K₂S₂O₈", "concentration": { "value": 2.0, "unit": "wt%" } },
+        "ph": { "value": 3.0, "regulator": "HNO₃/KOH" },
+        "solvent": "DI water"
+      },
+      "cmp_process": {
+        "equipment_model": "SSP500 polisher (Wuxi RX Lapping & Polishing Technology Corporation)",
+        "pad_type": "Suba 600 (polyurethane)",
+        "polishing_pressure": { "value": 5.8, "unit": "psi" },
+        "polishing_time": { "value": 30, "unit": "min" },
+        "slurry_flow_rate": { "value": 80, "unit": "ml/min" },
+        "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+        "head_rotation_speed": { "value": 50, "unit": "rpm" }
+      },
+      "cmp_performance": {
+        "material_removal_rate": { "value": 260, "unit": "nm/h" },
+        "surface_roughness_sq": null,
+        "surface_peak_to_valley": null,
+        "surface_defect_area_percent": null,
+        "coefficient_of_friction": null,
+        "pad_surface_temperature": null,
+        "surface_morphology_notes": null
+      },
+      "substrate_info": {
+        "material": "GaN film on sapphire",
+        "growth_method": "HVPE",
+        "thickness_um": "3.5 ± 0.5",
+        "size_inch": 4
+      }
+    }
+  ],
+  "additional_experiments": {
+      "friction_temperature_measurement": {
+          "equipment_model": "POLI-500 polisher (GnP Corporation)",
+          "head_pressure": { "value": 250, "unit": "g/cm²" },
+          "ring_pressure": { "value": 350, "unit": "g/cm²" },
+          "polishing_time": { "value": 5, "unit": "min" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" },
+          "pad_rotation_speed": { "value": 50, "unit": "rpm" },
+          "head_rotation_speed": { "value": 50, "unit": "rpm" },
+          "results": "See Fig 10 for COF and Temperature curves for 2.0 wt% slurries."
+      },
+      "xps_oxidation_study": {
+          "conditions": "GaN samples soaked in 2.0 wt% K₂S₂O₈ solution for 10 min at different temperatures.",
+          "temperatures_tested_celsius": [20, 25, 30],
+          "results": {
+              "20C": {"Ga-O_percent": 15, "Ga-N_percent": 75, "Ga-Ga_percent": 10},
+              "25C": {"Ga-O_percent": 20, "Ga-N_percent": 70, "Ga-Ga_percent": 10},
+              "30C": {"Ga-O_percent": 25, "Ga-N_percent": 65, "Ga-Ga_percent": 10}
+          },
+          "notes": "Higher temperature leads to faster oxidation (higher Ga-O content). See Fig 12."
+      },
+      "mrr_vs_slurry_temperature": {
+          "conditions": "CMP performed with slurries pre-heated to different temperatures.",
+          "temperatures_tested_celsius": [25, 30, 35],
+          "results_mrr_nm_h": {
+              "SiO2": {"25C": 75, "30C": 80, "35C": 85},
+              "Al2O3": {"25C": 240, "30C": 270, "35C": 300},
+              "CeO2": {"25C": 265, "30C": 290, "35C": 300}
+          },
+          "notes": "MRR increases with slurry temperature for all abrasives. See Fig 14."
+      },
+      "mechanical_abrasion_test": {
+          "conditions": "GaN polished with 2.0 wt% abrasive slurry (pH 3.0, no oxidant) for 10 min.",
+          "results_morphology": {
+              "SiO2": "No visible scratches, but pits approx. 8 nm deep observed (AFM Fig 16).",
+              "Al2O3": "Numerous pronounced scratches observed (AFM Fig 16).",
+              "CeO2": "No additional scratches or pits introduced compared to initial surface (AFM Fig 16)."
+          },
+          "notes": "Demonstrates mechanical effect of abrasives without chemical component. See Fig 16."
+      }
+  }
+}

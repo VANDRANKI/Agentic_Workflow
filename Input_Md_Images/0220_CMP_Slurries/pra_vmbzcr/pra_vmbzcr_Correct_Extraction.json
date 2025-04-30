@@ -1,0 +1,1072 @@
+{
+  "doi": null,
+  "title": "Abrasive and additive interactions in high selectivity STI CMP slurries",
+  "year_published": "2013",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "ceria-CM-300C_NoAdditive",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 300°C for 3h, milled. Used in CMP slurry without additives at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 300, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 5, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "No strong peaks observed", "additive_effect": null },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.31, "La": 0.005 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 20,
+        "material_removal_rate_nitride_nm_min": 8,
+        "selectivity_oxide_nitride": 2.5
+      }
+    },
+    {
+      "sample_id": "ceria-CM-400C_NoAdditive",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 400°C for 3h, milled. Used in CMP slurry without additives at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 400, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 7, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "No strong peaks observed", "additive_effect": null },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.31, "La": 0.005 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 35,
+        "material_removal_rate_nitride_nm_min": 8,
+        "selectivity_oxide_nitride": 4.375
+      }
+    },
+    {
+      "sample_id": "ceria-CM-600C_NoAdditive",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 600°C for 3h, milled. Used in CMP slurry without additives at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 600, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 12, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "No strong peaks observed", "additive_effect": null },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.31, "La": 0.005 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 65,
+        "material_removal_rate_nitride_nm_min": 12,
+        "selectivity_oxide_nitride": 5.42
+      }
+    },
+    {
+      "sample_id": "ceria-CM-700C_NoAdditive",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 700°C for 3h, milled. Used in CMP slurry without additives at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 700, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 20, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "No strong peaks observed", "additive_effect": null },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.31, "La": 0.005 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 68,
+        "material_removal_rate_nitride_nm_min": 13,
+        "selectivity_oxide_nitride": 5.23
+      }
+    },
+    {
+      "sample_id": "ceria-CM-800C_NoAdditive",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 800°C for 3h, milled. Used in CMP slurry without additives at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 800, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 25, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "No strong peaks observed", "additive_effect": null },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.31, "La": 0.005 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 68,
+        "material_removal_rate_nitride_nm_min": 13,
+        "selectivity_oxide_nitride": 5.23
+      }
+    },
+    {
+      "sample_id": "ceria-CM-1000C_NoAdditive",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 1000°C for 3h, milled. Used in CMP slurry without additives at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 1000, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 30, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "No strong peaks observed", "additive_effect": null },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.31, "La": 0.005 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 68,
+        "material_removal_rate_nitride_nm_min": 13,
+        "selectivity_oxide_nitride": 5.23
+      }
+    },
+    {
+      "sample_id": "ceria-CM-300C_L-proline_1wt%",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 300°C for 3h, milled. Used in CMP slurry with 1 wt% L-proline additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 300, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-proline", "type": "Amino acid", "concentration": { "value": 1, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 5, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "Very weak peaks barely visible", "additive_effect": "Slight increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.55, "La": 0.007 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 65,
+        "material_removal_rate_nitride_nm_min": 2,
+        "selectivity_oxide_nitride": 32.5
+      }
+    },
+    {
+      "sample_id": "ceria-CM-400C_L-proline_1wt%",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 400°C for 3h, milled. Used in CMP slurry with 1 wt% L-proline additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 400, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-proline", "type": "Amino acid", "concentration": { "value": 1, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 7, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "Very weak peaks barely visible", "additive_effect": "Slight increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.55, "La": 0.007 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 75,
+        "material_removal_rate_nitride_nm_min": 2,
+        "selectivity_oxide_nitride": 37.5
+      }
+    },
+    {
+      "sample_id": "ceria-CM-600C_L-proline_1wt%",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 600°C for 3h, milled. Used in CMP slurry with 1 wt% L-proline additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 600, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-proline", "type": "Amino acid", "concentration": { "value": 1, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 12, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "Very weak peaks barely visible", "additive_effect": "Slight increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.55, "La": 0.007 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 80,
+        "material_removal_rate_nitride_nm_min": 2,
+        "selectivity_oxide_nitride": 40
+      }
+    },
+    {
+      "sample_id": "ceria-CM-700C_L-proline_1wt%",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 700°C for 3h, milled. Used in CMP slurry with 1 wt% L-proline additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 700, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-proline", "type": "Amino acid", "concentration": { "value": 1, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 20, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "Very weak peaks barely visible", "additive_effect": "Slight increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.55, "La": 0.007 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 80,
+        "material_removal_rate_nitride_nm_min": 2,
+        "selectivity_oxide_nitride": 40
+      }
+    },
+    {
+      "sample_id": "ceria-CM-800C_L-proline_1wt%",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 800°C for 3h, milled. Used in CMP slurry with 1 wt% L-proline additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 800, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-proline", "type": "Amino acid", "concentration": { "value": 1, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 25, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "Very weak peaks barely visible", "additive_effect": "Slight increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.55, "La": 0.007 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 80,
+        "material_removal_rate_nitride_nm_min": 2,
+        "selectivity_oxide_nitride": 40
+      }
+    },
+    {
+      "sample_id": "ceria-CM-1000C_L-proline_1wt%",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 1000°C for 3h, milled. Used in CMP slurry with 1 wt% L-proline additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 1000, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-proline", "type": "Amino acid", "concentration": { "value": 1, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 30, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "Very weak peaks barely visible", "additive_effect": "Slight increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.55, "La": 0.007 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 80,
+        "material_removal_rate_nitride_nm_min": 2,
+        "selectivity_oxide_nitride": 40
+      }
+    },
+    {
+      "sample_id": "ceria-SA_NoAdditive",
+      "experiment_context": "Commercial ceria abrasive (ceria-SA, 90% purity) from Sigma-Aldrich, USA. Used in CMP slurry without additives at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-SA",
+        "abrasive_source": "Sigma-Aldrich, USA",
+        "synthesis_details": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": ">=100", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 29, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)", "hexagonal phase (JCPDS 74-0665)", "tetragonal lanthanum (JCPDS 77-1384)"],
+        "specific_surface_area_bet": { "value": 9, "unit": "m²/g" },
+        "elemental_composition_edx": {
+          "Ce": {"value": 53, "unit": "wt%"},
+          "O": {"value": 13, "unit": "wt%"},
+          "La": {"value": 24, "unit": "wt%"},
+          "Al": {"value": 5, "unit": "wt%"},
+          "Si": {"value": 5, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.4,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)", "Additional peaks from hexagonal CeO2 and tetragonal La"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": true, "La_3d_peaks_eV": [835, 854] },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": [275, 320], "description": "Strong peak near 275nm, weaker peak near 320nm", "additive_effect": null },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.29, "La": 0.16 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 30,
+        "material_removal_rate_nitride_nm_min": 5,
+        "selectivity_oxide_nitride": 6
+      }
+    },
+    {
+      "sample_id": "ceria-S_NoAdditive",
+      "experiment_context": "Commercial grade ceria abrasive (ceria-S) from Sodiff Inc, Korea. Used in CMP slurry without additives at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-S",
+        "abrasive_source": "Sodiff Inc, Korea",
+        "synthesis_details": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "nanometers to sub-micron", "unit": null },
+        "crystallite_size_xrd": { "value": 30, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)", "hexagonal phase (JCPDS 74-0665)", "tetragonal lanthanum (JCPDS 77-1384)"],
+        "specific_surface_area_bet": { "value": 6, "unit": "m²/g" },
+        "elemental_composition_edx": {
+          "Ce": {"value": 61, "unit": "wt%"},
+          "O": {"value": 8, "unit": "wt%"},
+          "La": {"value": 31, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Agglomerated (wide size range)",
+        "xrd_peak_intensity_ratio_111_200": 3.3,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)", "Additional peaks from hexagonal CeO2 and tetragonal La"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": true, "La_3d_peaks_eV": [835, 854] },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": [275, 320], "description": "Strong peak near 275nm, weaker peak near 320nm", "additive_effect": null },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.75, "La": 0.01 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 115,
+        "material_removal_rate_nitride_nm_min": 20,
+        "selectivity_oxide_nitride": 5.75
+      }
+    },
+    {
+      "sample_id": "ceria-SA_L-proline_4wt%",
+      "experiment_context": "Commercial ceria abrasive (ceria-SA, 90% purity) from Sigma-Aldrich, USA. Used in CMP slurry with 4 wt% L-proline additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-SA",
+        "abrasive_source": "Sigma-Aldrich, USA",
+        "synthesis_details": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-proline", "type": "Amino acid", "concentration": { "value": 4, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": ">=100", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 29, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)", "hexagonal phase (JCPDS 74-0665)", "tetragonal lanthanum (JCPDS 77-1384)"],
+        "specific_surface_area_bet": { "value": 9, "unit": "m²/g" },
+        "elemental_composition_edx": {
+          "Ce": {"value": 53, "unit": "wt%"},
+          "O": {"value": 13, "unit": "wt%"},
+          "La": {"value": 24, "unit": "wt%"},
+          "Al": {"value": 5, "unit": "wt%"},
+          "Si": {"value": 5, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.4,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)", "Additional peaks from hexagonal CeO2 and tetragonal La"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": true, "La_3d_peaks_eV": [835, 854] },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": [275, 320], "description": "Strong peak near 275nm, weaker peak near 320nm", "additive_effect": "Slight increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 1.03, "La": 7.20 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 32,
+        "material_removal_rate_nitride_nm_min": 5,
+        "selectivity_oxide_nitride": 6.4
+      }
+    },
+    {
+      "sample_id": "ceria-S_L-proline_4wt%",
+      "experiment_context": "Commercial grade ceria abrasive (ceria-S) from Sodiff Inc, Korea. Used in CMP slurry with 4 wt% L-proline additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-S",
+        "abrasive_source": "Sodiff Inc, Korea",
+        "synthesis_details": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-proline", "type": "Amino acid", "concentration": { "value": 4, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "nanometers to sub-micron", "unit": null },
+        "crystallite_size_xrd": { "value": 30, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)", "hexagonal phase (JCPDS 74-0665)", "tetragonal lanthanum (JCPDS 77-1384)"],
+        "specific_surface_area_bet": { "value": 6, "unit": "m²/g" },
+        "elemental_composition_edx": {
+          "Ce": {"value": 61, "unit": "wt%"},
+          "O": {"value": 8, "unit": "wt%"},
+          "La": {"value": 31, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Agglomerated (wide size range)",
+        "xrd_peak_intensity_ratio_111_200": 3.3,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)", "Additional peaks from hexagonal CeO2 and tetragonal La"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": true, "La_3d_peaks_eV": [835, 854] },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": [275, 320], "description": "Strong peak near 275nm, weaker peak near 320nm", "additive_effect": "Slight increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.15, "La": 0.008 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 125,
+        "material_removal_rate_nitride_nm_min": 15,
+        "selectivity_oxide_nitride": 8.33
+      }
+    },
+    {
+      "sample_id": "ceria-CM-600C_L-proline_4wt%",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 600°C for 3h, milled. Used in CMP slurry with 4 wt% L-proline additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 600, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-proline", "type": "Amino acid", "concentration": { "value": 4, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 12, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "Very weak peaks barely visible", "additive_effect": "Slight increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.55, "La": 0.007 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 80,
+        "material_removal_rate_nitride_nm_min": 2,
+        "selectivity_oxide_nitride": 40
+      }
+    },
+    {
+      "sample_id": "ceria-SA_L-glutamic_1wt%",
+      "experiment_context": "Commercial ceria abrasive (ceria-SA, 90% purity) from Sigma-Aldrich, USA. Used in CMP slurry with 1 wt% L-glutamic acid additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-SA",
+        "abrasive_source": "Sigma-Aldrich, USA",
+        "synthesis_details": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-glutamic acid", "type": "Amino acid", "concentration": { "value": 1, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": ">=100", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 29, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)", "hexagonal phase (JCPDS 74-0665)", "tetragonal lanthanum (JCPDS 77-1384)"],
+        "specific_surface_area_bet": { "value": 9, "unit": "m²/g" },
+        "elemental_composition_edx": {
+          "Ce": {"value": 53, "unit": "wt%"},
+          "O": {"value": 13, "unit": "wt%"},
+          "La": {"value": 24, "unit": "wt%"},
+          "Al": {"value": 5, "unit": "wt%"},
+          "Si": {"value": 5, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.4,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)", "Additional peaks from hexagonal CeO2 and tetragonal La"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": true, "La_3d_peaks_eV": [835, 854] },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": [275, 320], "description": "Strong peak near 275nm, weaker peak near 320nm", "additive_effect": "Larger increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 1.47, "La": 4.23 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 25,
+        "material_removal_rate_nitride_nm_min": 3,
+        "selectivity_oxide_nitride": 8.33
+      }
+    },
+    {
+      "sample_id": "ceria-S_L-glutamic_1wt%",
+      "experiment_context": "Commercial grade ceria abrasive (ceria-S) from Sodiff Inc, Korea. Used in CMP slurry with 1 wt% L-glutamic acid additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-S",
+        "abrasive_source": "Sodiff Inc, Korea",
+        "synthesis_details": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-glutamic acid", "type": "Amino acid", "concentration": { "value": 1, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "nanometers to sub-micron", "unit": null },
+        "crystallite_size_xrd": { "value": 30, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)", "hexagonal phase (JCPDS 74-0665)", "tetragonal lanthanum (JCPDS 77-1384)"],
+        "specific_surface_area_bet": { "value": 6, "unit": "m²/g" },
+        "elemental_composition_edx": {
+          "Ce": {"value": 61, "unit": "wt%"},
+          "O": {"value": 8, "unit": "wt%"},
+          "La": {"value": 31, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Agglomerated (wide size range)",
+        "xrd_peak_intensity_ratio_111_200": 3.3,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)", "Additional peaks from hexagonal CeO2 and tetragonal La"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": true, "La_3d_peaks_eV": [835, 854] },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": [275, 320], "description": "Strong peak near 275nm, weaker peak near 320nm", "additive_effect": "Larger increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.59, "La": 0.06 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 105,
+        "material_removal_rate_nitride_nm_min": 3,
+        "selectivity_oxide_nitride": 35
+      }
+    },
+    {
+      "sample_id": "ceria-CM-600C_L-glutamic_1wt%",
+      "experiment_context": "Lab-synthesized ceria (ceria-CM) from Cerium Carbonate precursor, calcined at 600°C for 3h, milled. Used in CMP slurry with 1 wt% L-glutamic acid additive at pH 7.",
+      "abrasive_details": {
+        "abrasive_type": "ceria-CM",
+        "abrasive_source": "Lab-synthesized",
+        "synthesis_details": {
+          "precursor_chemical": "Cerium carbonate",
+          "precursor_source": "RCMPA, India",
+          "synthesis_method": "Solid state displacement reaction",
+          "calcination_temperature": { "value": 600, "unit": "°C" },
+          "calcination_time": { "value": 3, "unit": "h" },
+          "milling": { "method": "Planetary mono mill (Pulverisette 6)", "medium": "Toluene", "balls": "5 mm tungsten carbide", "ball_to_powder_ratio": "10:1", "speed_rpm": 250, "duration_h": 6, "cooling": "Intermittent 30 min every 30 min" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": { "value": 0.25, "unit": "wt%" },
+        "additives": [ { "name": "L-glutamic acid", "type": "Amino acid", "concentration": { "value": 1, "unit": "wt%" } } ],
+        "ph": { "value": 7, "adjustment_method": "KOH" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization": {
+        "particle_size_distribution_tem": { "value": "40-50", "unit": "nm" },
+        "crystallite_size_xrd": { "value": 12, "unit": "nm" },
+        "crystallinity_phase_composition_xrd": ["cubic phase (JCPDS 34-0394)"],
+        "specific_surface_area_bet": { "value": 58, "unit": "m²/g" },
+         "elemental_composition_edx": {
+          "Ce": {"value": 79, "unit": "wt%"},
+          "O": {"value": 21, "unit": "wt%"},
+          "La": {"value": null, "unit": "wt%"}
+        },
+        "particle_morphology_tem": "Spherical, Agglomerated",
+        "xrd_peak_intensity_ratio_111_200": 3.2,
+        "xrd_peaks_identified": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "surface_analysis_xps": { "Ce_states": "Ce3+ and Ce4+ detected", "La_detected": false, "La_3d_peaks_eV": null },
+        "dissolved_species_analysis": {
+          "uv_vis_filtrate": { "peaks_nm": null, "description": "No strong peaks observed", "additive_effect": "Larger increase in absorption" },
+          "icp_oes_filtrate_mg_L": { "Ce": 0.30, "La": 0.07 }
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "Struers polisher (Labopol-5/Laboforce-3)",
+        "pad_composition": "Polyurethane (SUBA IV, Rohm & Haas)",
+        "polishing_time": { "value": 1, "unit": "min" },
+        "applied_force": { "value": 20, "unit": "N" },
+        "table_speed": { "value": 100, "unit": "rpm" },
+        "carrier_speed": { "value": 250, "unit": "rpm" },
+        "slurry_flow_rate": { "value": 60, "unit": "mL/min" },
+        "wafer_details": { "material": ["Thermal SiO2", "LPCVD Si3N4"], "size": "1 inch square coupons", "initial_thickness_nm": [1000, 100] },
+        "pad_conditioning": "ex-situ using silicon carbide grit paper",
+        "material_removal_rate_oxide_nm_min": 65,
+        "material_removal_rate_nitride_nm_min": 3,
+        "selectivity_oxide_nitride": 21.67
+      }
+    }
+  ]
+}

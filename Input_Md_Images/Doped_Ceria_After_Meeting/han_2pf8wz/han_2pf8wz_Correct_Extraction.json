@@ -1,0 +1,939 @@
+{
+  "doi": "10.1016/j.colsurfa.2023.132551",
+  "title": "Research progress on the application of ceria nanoparticles as abrasives in dielectric layer CMP and post cleaning: Structure, morphology, doping, and mechanism",
+  "year_published": "2023",
+  "journal": "Colloids and Surfaces A: Physicochemical and Engineering Aspects",
+  "samples": [
+    {
+      "sample_id": "Calcination_Effect_Study_[13]",
+      "experiment_context": "Study on the effect of calcination temperature on ceria properties and polishing efficiency, cited from [13] (Fig. 7). Specific values for MRR at different temperatures were not explicitly stated numerically in the text, only trends and an approximate peak.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "calcination_temperature_range_studied": "Approx 400°C to 1200°C (inferred from Fig. 7)",
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": null,
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": {
+          "trend_observed": "Increases with calcination temperature, fastest increase at 600-800°C (Fig. 7)",
+          "value": null,
+          "unit": null
+        },
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce3+_concentration": {
+            "trend_observed": "Increases up to approx 1000°C, then decreases (Fig. 7)",
+            "value": null,
+            "unit": "%"
+          }
+        },
+        "particle_morphology": null,
+        "specific_surface_area": {
+           "trend_observed": "Decreases with calcination temperature (Fig. 7)",
+           "value": null,
+           "unit": null
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Glass (implied by context of [13])",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "trend_observed": "Increases up to approx 1000°C calcination temperature, then decreases (Fig. 7)",
+          "value": null,
+          "unit": "efficiency units from Fig. 7"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "ParticleSize_217nm_[14]",
+      "experiment_context": "Hydrothermally synthesized ceria abrasive with controlled size, cited from [14] (Table 1). Polishing fused silica.",
+      "synthesis_method": "Hydrothermal",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "217 ± 24",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Spherical (mentioned in text)"
+      },
+      "cmp_performance": {
+        "substrate": "Fused silica",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "115.606",
+          "unit": "nm/min"
+        },
+        "surface_roughness_rms": {
+            "value": "0.102 ± 0.008",
+            "unit": "nm"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "ParticleSize_166nm_[14]",
+      "experiment_context": "Hydrothermally synthesized ceria abrasive with controlled size, cited from [14] (Table 1). Polishing fused silica.",
+      "synthesis_method": "Hydrothermal",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "166 ± 16",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Spherical (mentioned in text)"
+      },
+      "cmp_performance": {
+        "substrate": "Fused silica",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "124.196",
+          "unit": "nm/min"
+        },
+        "surface_roughness_rms": {
+            "value": "0.142 ± 0.022",
+            "unit": "nm"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "ParticleSize_119nm_[14]",
+      "experiment_context": "Hydrothermally synthesized ceria abrasive with controlled size, cited from [14] (Table 1). Polishing fused silica.",
+      "synthesis_method": "Hydrothermal",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "119 ± 15",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Spherical (mentioned in text)"
+      },
+      "cmp_performance": {
+        "substrate": "Fused silica",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "124.101",
+          "unit": "nm/min"
+        },
+        "surface_roughness_rms": {
+            "value": "0.167 ± 0.019",
+            "unit": "nm"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "ParticleSize_25nm_[14]",
+      "experiment_context": "Hydrothermally synthesized ceria abrasive with controlled size, cited from [14] (Table 1). Polishing fused silica.",
+      "synthesis_method": "Hydrothermal",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "25",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Spherical (mentioned in text)"
+      },
+      "cmp_performance": {
+        "substrate": "Fused silica",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "125.342",
+          "unit": "nm/min"
+        },
+        "surface_roughness_rms": {
+            "value": "0.237 ± 0.044",
+            "unit": "nm"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "H2Reduction_Original_[30]",
+      "experiment_context": "Original ceria sample before hydrogen reduction, cited from [30] (Table 2, Fig. 9). Main particle size 100 nm.",
+      "synthesis_method": null,
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": {
+          "treatment_type": "None (Original)"
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "100",
+          "unit": "nm",
+          "description": "Main particle size",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce3+_concentration": {
+            "value": "20.8",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+          }
+        },
+        "particle_morphology": null
+      },
+      "cmp_performance": {
+        "substrate": "SiO2 films",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": null,  
+          "unit": "Å/min",
+          "source": "Fig. 9a (Value not explicitly stated, only relative comparison)"
+        },
+        "surface_roughness_rms": {
+            "value": null,
+            "unit": "nm",
+            "source": "Fig. 9b (Image provided, no numerical value)"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "H2Reduction_400C_[30]",
+      "experiment_context": "Ceria treated with hydrogen reduction at 400°C, cited from [30] (Table 2, Fig. 9). Main particle size 100 nm.",
+      "synthesis_method": null,
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": {
+          "treatment_type": "Hydrogen Reduction",
+          "temperature": { "value": "400", "unit": "°C" },
+          "time": null,
+          "hydrogen_concentration": null
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "100",
+          "unit": "nm",
+          "description": "Main particle size",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce3+_concentration": {
+            "value": "21.4",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+          }
+        },
+        "particle_morphology": null
+      },
+      "cmp_performance": {
+        "substrate": "SiO2 films",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "Fig. 9a (Value not explicitly stated, only relative comparison)"
+        },
+        "surface_roughness_rms": {
+            "value": null,
+            "unit": "nm",
+            "source": "Fig. 9c (Image provided, no numerical value)"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "H2Reduction_700C_[30]",
+      "experiment_context": "Ceria treated with hydrogen reduction at 700°C, cited from [30] (Table 2, Fig. 9). Main particle size 100 nm.",
+      "synthesis_method": null,
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": {
+          "treatment_type": "Hydrogen Reduction",
+          "temperature": { "value": "700", "unit": "°C" },
+          "time": null,
+          "hydrogen_concentration": null
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "100",
+          "unit": "nm",
+          "description": "Main particle size",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce3+_concentration": {
+            "value": "29.1",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+          }
+        },
+        "particle_morphology": null
+      },
+      "cmp_performance": {
+        "substrate": "SiO2 films",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "Fig. 9a (Value not explicitly stated, only relative comparison)"
+        },
+        "surface_roughness_rms": {
+            "value": null,
+            "unit": "nm",
+            "source": "Fig. 9d (Image provided, no numerical value)"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "H2Reduction_1000C_[30]",
+      "experiment_context": "Ceria treated with hydrogen reduction at 1000°C, cited from [30] (Table 2, Fig. 9). Main particle size 100 nm. MRR increased by 37.7% compared to original.",
+      "synthesis_method": null,
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": {
+          "treatment_type": "Hydrogen Reduction",
+          "temperature": { "value": "1000", "unit": "°C" },
+          "time": null,
+          "hydrogen_concentration": null
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "100",
+          "unit": "nm",
+          "description": "Main particle size",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce3+_concentration": {
+            "value": "33.5",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+          }
+        },
+        "particle_morphology": null
+      },
+      "cmp_performance": {
+        "substrate": "SiO2 films",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "Fig. 9a (Value not explicitly stated, only relative comparison)",
+          "relative_increase_percent": 37.7 
+        },
+        "surface_roughness_rms": {
+            "value": null,
+            "unit": "nm",
+            "source": "Fig. 9e (Image provided, no numerical value)"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+     {
+      "sample_id": "H2O2Treatment_Ultrasonic_[31]",
+      "experiment_context": "Ceria nanoparticles (avg size 32.6 nm) treated with 15 vol% H2O2 and ultrasound, cited from [31]. Focus on Ce3+ concentration and interaction.",
+      "synthesis_method": null,
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": {
+          "treatment_type": "Hydrogen Peroxide + Ultrasonic",
+          "hydrogen_peroxide_concentration": { "value": "15", "unit": "vol%" },
+          "ultrasonic_details": "Ultrasonic treatment"
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "32.6 ± 6.1",
+          "unit": "nm",
+          "description": "Average particle size",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "Ce3+_concentration": {
+            "value": "25.1",
+            "unit": "%",
+            "measurement_method_used": null 
+          }
+        },
+        "particle_morphology": null
+      },
+      "cmp_performance": null, 
+      "interaction_study": {
+          "method": ["AFM", "QCM"],
+          "finding": "Higher Ce3+ concentration leads to stronger interaction between ceria and silica."
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "H2O2Additive_0.5wt%_[32]",
+      "experiment_context": "Ceria slurry (1.0 wt%, avg size 68 nm) with 0.5 wt% H2O2 additive at pH 8, cited from [32] (Fig. 10).",
+      "synthesis_method": null,
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": { "value": "1.0", "unit": "wt%" },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Additive",
+            "concentration": { "value": "0.5", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "68",
+          "unit": "nm",
+          "description": "Average particle size",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null
+      },
+      "cmp_performance": {
+        "substrate": "SiO2, Si3N4",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "1600", 
+            "unit": "Å/min",
+            "source": "Fig. 10 (Value explicitly labeled on axis)"
+          },
+          "Si3N4": {
+             "value": null, 
+             "unit": "Å/min"
+          },
+          "selectivity_SiO2_Si3N4": "3:1"
+        },
+        "surface_roughness_rms": {
+            "SiO2": {
+                "value": "0.25",
+                "unit": "nm",
+                "source": "Fig. 10 (Value explicitly labeled on axis)"
+            }
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Doped_La_5wt%_pH9.5_[38]",
+      "experiment_context": "Ceria nanoparticles doped with 5 wt% La by impregnation method, polished at pH 9.5, cited from [38] (Fig. 12).",
+      "synthesis_method": "Impregnation",
+      "dopant": { "element": "La", "concentration": { "value": "5", "unit": "wt%" } },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+          "target_final_slurry_ph": "9.5"
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "Ce3+_concentration": {
+                "trend_observed": "Increased compared to undoped",
+                "value": null,
+                "unit": "%"
+            }
+        },
+        "particle_morphology": "Close to spherical (Fig. 12)"
+      },
+      "cmp_performance": {
+        "substrate": "Silicon oxide dielectric",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "relative_increase_percent": 20.9,
+          "comparison_basis": "Undoped ceria at pH 9.5",
+          "value": null,
+          "unit": null
+        },
+        "surface_roughness_rms": {
+            "value": "10",
+            "unit": "Å" 
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Doped_Nd_5wt%_pH9.5_[38]",
+      "experiment_context": "Ceria nanoparticles doped with 5 wt% Nd by impregnation method, polished at pH 9.5, cited from [38] (Fig. 12).",
+      "synthesis_method": "Impregnation",
+      "dopant": { "element": "Nd", "concentration": { "value": "5", "unit": "wt%" } },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+          "target_final_slurry_ph": "9.5"
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "Ce3+_concentration": {
+                "trend_observed": "Increased compared to undoped",
+                "value": null,
+                "unit": "%"
+            }
+        },
+        "particle_morphology": "Close to spherical (Fig. 12)"
+      },
+      "cmp_performance": {
+        "substrate": "Silicon oxide dielectric",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "relative_increase_percent": 29.6,
+          "comparison_basis": "Undoped ceria at pH 9.5",
+          "value": null,
+          "unit": null
+        },
+        "surface_roughness_rms": {
+            "value": "10",
+            "unit": "Å" 
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Doped_Yb_5wt%_pH9.5_[38]",
+      "experiment_context": "Ceria nanoparticles doped with 5 wt% Yb by impregnation method, polished at pH 9.5, cited from [38] (Fig. 12).",
+      "synthesis_method": "Impregnation",
+      "dopant": { "element": "Yb", "concentration": { "value": "5", "unit": "wt%" } },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+          "target_final_slurry_ph": "9.5"
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "Ce3+_concentration": {
+                "trend_observed": "Increased compared to undoped",
+                "value": null,
+                "unit": "%"
+            }
+        },
+        "particle_morphology": "Close to spherical (Fig. 12)"
+      },
+      "cmp_performance": {
+        "substrate": "Silicon oxide dielectric",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "relative_increase_percent": 4.3,
+          "comparison_basis": "Undoped ceria at pH 9.5",
+          "value": null,
+          "unit": null
+        },
+        "surface_roughness_rms": {
+            "value": "10",
+            "unit": "Å" 
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Doped_Nd_50pct_pH4.2-4.5_[39]",
+      "experiment_context": "Hydrothermally synthesized ceria doped with 50 mol% Nd (NDC-H), polished at pH 4.2-4.5, cited from [39].",
+      "synthesis_method": "Hydrothermal",
+      "dopant": { "element": "Nd", "concentration": { "value": "50", "unit": "mol%" } },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+          "target_final_slurry_ph": "4.2-4.5"
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "Ce3+_concentration": {
+                "trend_observed": "Increased compared to undoped (Value for 50% not explicitly stated, only for 20%)",
+                "value": null,
+                "unit": "%"
+            }
+        },
+        "particle_morphology": null
+      },
+      "cmp_performance": {
+        "substrate": "SiO2, Si3N4",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "SiO2": {
+            "value": "up to 5000", 
+            "unit": "Å/min"
+          },
+          "Si3N4": {
+             "trend_observed": "Improved, but only by a fraction compared to SiO2 MRR increase",
+             "value": null, 
+             "unit": "Å/min"
+          },
+          "selectivity_SiO2_Si3N4": "Improved (High)"
+        },
+        "surface_roughness_rms": {
+            "SiO2": {
+                "value": "0.135",
+                "unit": "nm"
+            }
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "CoreShell_PS-CeO2_[43]",
+      "experiment_context": "Polystyrene (PS)/ceria core-shell abrasive synthesized by chemical precipitation, cited from [43] (Fig. 14).",
+      "synthesis_method": "Chemical precipitation",
+      "abrasive_type": "Core-shell composite",
+      "core_material": "Polystyrene (PS)",
+      "shell_material": "Ceria (CeO2)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Spherical, maintained after CMP (Fig. 14)"
+      },
+      "cmp_performance": {
+        "substrate": "Dielectric",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "186 ± 29",
+          "unit": "nm/min"
+        },
+        "surface_roughness_rms": {
+            "value": "0.28 ± 0.04",
+            "unit": "nm"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "CoreShell_H-mSiO2-CeO2_[44]",
+      "experiment_context": "Hexagonal mesoporous silica (H-mSiO2)/ceria core-shell abrasive synthesized via solution synthesis, cited from [44].",
+      "synthesis_method": "Solution synthesis",
+      "abrasive_type": "Core-shell composite",
+      "core_material": "Hexagonal mesoporous silica (H-mSiO2)",
+      "shell_material": "Ceria (CeO2)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "particle_density": "Low (mentioned as reason for increased active particles)"
+      },
+      "cmp_performance": {
+        "substrate": "Dielectric",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "203",
+          "unit": "nm/min"
+        },
+        "surface_roughness_rms": {
+            "value": "0.17 ± 0.01",
+            "unit": "nm"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Cleaning_EDTA_0.15wt%_pH11_[52]",
+      "experiment_context": "Post-CMP cleaning study using 0.15 wt% EDTA additive at pH 11, cited from [52] (Fig. 15).",
+      "process_step": "Post-CMP Cleaning",
+      "cleaning_solution": {
+          "base_solvent": "Unknown (likely DI water)",
+          "additives": [
+              { "name": "EDTA", "concentration": { "value": "0.15", "unit": "wt%" } }
+          ],
+          "ph": "11"
+      },
+      "cleaning_method": null, 
+      "substrate": "SiO2",
+      "contaminant": "Ceria particles (residual from CMP)",
+      "performance": {
+          "particle_removal_efficiency_PRE": { "value": "99", "unit": "%" },
+          "surface_roughness_rms": { "value": "0.45", "unit": "nm" }
+      }
+    },
+    {
+      "sample_id": "Cleaning_CO2Water_[54]",
+      "experiment_context": "Post-CMP cleaning study using CO2 dissolved water (pH 3.9), cited from [54] (Fig. 17).",
+      "process_step": "Post-CMP Cleaning",
+      "cleaning_solution": {
+          "type": "Gas-dissolved water",
+          "gas": "CO2",
+          "ph": "3.9"
+      },
+      "cleaning_method": "Buff cleaning (implied)", 
+      "substrate": "Wafer surface",
+      "contaminant": "Ceria particles (residual from CMP, large and small sizes tested)",
+      "performance": {
+          "particle_removal_efficiency_PRE": { 
+              "qualitative": "Highest compared to DIW (pH 6.2) and N2 water (pH 5.2)",
+              "value": null, 
+              "unit": "%" 
+          },
+          "surface_roughness_rms": { 
+              "large_particles": { "value": "0.613 ± 0.025", "unit": "nm" },
+              "small_particles": { "value": "0.077 ± 0.010", "unit": "nm" }
+          },
+          "particle_dispersion": "Relatively dispersed (compared to agglomeration with DIW/N2 water)"
+      }
+    },
+    {
+      "sample_id": "Cleaning_SC1_OptimizedRatio_Ultrasonic_[50]",
+      "experiment_context": "Post-CMP cleaning study using SC1 solution with optimized ratio (H2O2 43%, NH4OH 57%) under ultrasonic conditions, cited from [50] (Fig. 18). Tested on 10, 30, 90 nm ceria.",
+      "process_step": "Post-CMP Cleaning",
+      "cleaning_solution": {
+          "type": "SC1 (NH4OH:H2O2:H2O)",
+          "ratio_description": "Optimized: H2O2 (30 wt%) 43%, NH4OH (30 wt%) 57% (molar concentrations approx equal)",
+          "base_solvent": "H2O"
+      },
+      "cleaning_method": "Ultrasonic cleaning", 
+      "substrate": "Silicon dioxide",
+      "contaminant": "Ceria particles (10 nm, 30 nm, 90 nm)",
+      "performance": {
+          "cleaning_efficiency_CE": { "value": "99", "unit": "%", "for_particle_sizes_nm": [10, 30, 90] }
+      }
+    }
+  ]
+}

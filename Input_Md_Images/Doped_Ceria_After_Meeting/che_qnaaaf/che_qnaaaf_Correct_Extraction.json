@@ -1,0 +1,307 @@
+{
+  "doi": null,
+  "title": "Meso-silica/Erbium-doped ceria binary particles as functionalized abrasives for photochemical mechanical polishing (PCMP)",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Composite-A",
+      "experiment_context": "Meso-silica/ceria binary composite particles (mSiO₂/CeO₂) used as abrasives in CMP and PCMP.",
+      "synthesis_details": {
+        "core_material": {
+          "name": "mSiO₂ spheres",
+          "synthesis_method": "Modified Stöber",
+          "precursors": ["Tetraethyl orthosilicate (TEOS)", "Ammonia solution (NH₃·H₂O)", "Ethanol", "Cetyltrimethylammonium bromide (CTAB)"],
+          "conditions": {
+            "temperature": {"value": "30", "unit": "°C"},
+            "stirring_speed": {"value": "200-300", "unit": "r/min"},
+            "reaction_time": {"value": "2", "unit": "h"},
+            "annealing_temperature": {"value": "550", "unit": "°C"},
+            "annealing_time": {"value": "2", "unit": "h"}
+          }
+        },
+        "shell_material": {
+          "name": "CeO₂ nanoparticles",
+          "synthesis_method": "Chemical precipitation onto mSiO₂ cores",
+          "precursors": ["Cerium nitrate hexahydrate (Ce(NO₃)₃·6H₂O)", "Hexamethylenetetramine (HMT)", "Ethanol", "DI water"],
+          "conditions": {
+            "temperature": {"value": "75", "unit": "°C"},
+            "stirring_speed": {"value": "200-300", "unit": "r/min"},
+            "reaction_time": {"value": "2", "unit": "h"},
+            "annealing_temperature": {"value": "650", "unit": "°C"},
+            "annealing_time": {"value": "2", "unit": "h"}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {"value": "1", "unit": "wt%"},
+        "additives": [
+          {"name": "PVP", "type": "Dispersant/Stabilizer", "concentration": {"value": "2", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "8.5-9.0",
+        "solvent": {"name": "DI water", "quantity": {"value": "100", "unit": "g"}},
+        "sonication_time": {"value": "20", "unit": "min"}
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "249",
+          "unit": "nm",
+          "std_dev": "14",
+          "measurement_method_used": "FESEM"
+        },
+        "core_particle_size": {
+           "value": "212",
+           "unit": "nm",
+           "std_dev": "8",
+           "measurement_method_used": "FESEM"
+        },
+        "shell_thickness_estimated": {
+            "value": "15-20",
+            "unit": "nm"
+        },
+        "particle_morphology": "Spherical core/shell particles with worm-like radial meso-channels in silica core and ceria nanoparticle shell.",
+        "crystallite_size": {
+          "value": "5.2",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite CeO₂ (PDF 34-0394)",
+          "lattice_parameter": {"value": "0.541", "unit": "nm"}
+        },
+        "specific_surface_area_bet": {
+          "value": "1626.53",
+          "unit": "m²/g",
+          "note": "Measured on mSiO₂ cores"
+        },
+        "pore_volume": {
+          "value": "0.81",
+          "unit": "cm³/g",
+          "note": "Measured on mSiO₂ cores"
+        },
+        "pore_size_distribution": {
+          "value": "2.76",
+          "unit": "nm",
+          "measurement_method_used": "BJH (adsorption branch)",
+          "note": "Measured on mSiO₂ cores"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(331)"],
+        "raman_peaks_cm-1": ["460", "620"],
+        "oxygen_vacancy_ratio_raman": {
+            "value": "0.33",
+            "unit": "I₆₂₀/I₄₆₀"
+        },
+        "uv_vis_band_gap_ev": {
+            "value": "3.15",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "band_potentials_calculated": {
+            "conduction_band_ecb": {"value": "-0.50", "unit": "eV"},
+            "valence_band_evb": {"value": "2.65", "unit": "eV"}
+        },
+        "photoluminescence_peaks": {
+            "peaks_nm": ["487"],
+            "relative_intensity_note": "Higher intensity compared to Composite-B"
+        },
+        "surface_ce3_percent_xps": {
+            "value": "31.8",
+            "unit": "%"
+        },
+        "xps_detected_elements": ["Ce 3d", "O 1s", "Si 2p"]
+      },
+      "cmp_performance": {
+        "substrate": "Thermally grown silicon oxide wafers",
+        "equipment_model": "TegraForce-1/TrgraPol-15 (Struers, Denmark)",
+        "pad_composition": "Polyurethane porous pad (MD-Chem, Struers, Denmark)",
+        "polishing_pressure": {"value": "3.3", "unit": "psi"},
+        "platen_speed": {"value": "90", "unit": "r/min"},
+        "carrier_speed": {"value": "120", "unit": "r/min"},
+        "slurry_flow_rate": {"value": "100", "unit": "mL/min"},
+        "polishing_time": {"value": "2", "unit": "min"},
+        "conditions": [
+            {
+                "condition_id": "CMP",
+                "uv_irradiation": false,
+                "material_removal_rate": {"value": "38", "unit": "nm/min", "std_dev": "13"},
+                "surface_roughness_rms": {"value": "0.18", "unit": "nm", "std_dev": "0.01"},
+                "max_asperity_height": {"value": "0.52", "unit": "nm"},
+                "max_valley_depth": {"value": "0.45", "unit": "nm"}
+            },
+            {
+                "condition_id": "PCMP",
+                "uv_irradiation": true,
+                "uv_source": {"type": "Halogen lamp", "power": {"value": "250", "unit": "W"}, "wavelength": {"value": "365", "unit": "nm"}},
+                "material_removal_rate": {"value": "66", "unit": "nm/min", "std_dev": "19"},
+                "surface_roughness_rms": {"value": "0.17", "unit": "nm", "std_dev": "0.01"},
+                "max_asperity_height": {"value": "0.38", "unit": "nm"},
+                "max_valley_depth": {"value": "0.39", "unit": "nm"}
+            }
+        ]
+      },
+      "instrument_device_models": {
+          "FESEM": "SUPRA 55 (Zeiss)",
+          "TEM": "JEM-2100 (JEOL)",
+          "XRD": "Rigaku D/Max 2500 PC",
+          "Nitrogen_Adsorption": "Micromeritics TriStar 3020",
+          "XPS": "Thermo ESCALAB 250",
+          "HADDF_STEM_EDX": "FEI Talos 2005",
+          "Raman": "DXR (ThermoFisher)",
+          "UV_Vis": "UV-3600 (Shimadzu)",
+          "PL": "LS45 (PEI)",
+          "AFM": "Nanoman VS (Digital Instruments)",
+          "Balance": "XS105 (Mettler Toledo)"
+      }
+    },
+    {
+      "sample_id": "Composite-B",
+      "experiment_context": "Meso-silica/Erbium-doped ceria binary composite particles (mSiO₂/Ce₀.₈₃Er₀.₁₇O₂) used as abrasives in CMP and PCMP.",
+       "synthesis_details": {
+        "core_material": {
+          "name": "mSiO₂ spheres",
+          "synthesis_method": "Modified Stöber",
+          "precursors": ["Tetraethyl orthosilicate (TEOS)", "Ammonia solution (NH₃·H₂O)", "Ethanol", "Cetyltrimethylammonium bromide (CTAB)"],
+          "conditions": {
+            "temperature": {"value": "30", "unit": "°C"},
+            "stirring_speed": {"value": "200-300", "unit": "r/min"},
+            "reaction_time": {"value": "2", "unit": "h"},
+            "annealing_temperature": {"value": "550", "unit": "°C"},
+            "annealing_time": {"value": "2", "unit": "h"}
+          }
+        },
+        "shell_material": {
+          "name": "Er³⁺-doped CeO₂ nanoparticles (Ce₀.₈₃Er₀.₁₇O₂ implied by precursor ratio)",
+          "synthesis_method": "Chemical precipitation onto mSiO₂ cores",
+          "precursors": ["Cerium nitrate hexahydrate (Ce(NO₃)₃·6H₂O)", "Erbium nitrate pentahydrate (Er(NO₃)₃·5H₂O)", "Hexamethylenetetramine (HMT)", "Ethanol", "DI water"],
+          "precursor_ratio_Ce_Er": "0.25g Ce(NO₃)₃·6H₂O to 0.05g Er(NO₃)₃·5H₂O",
+          "conditions": {
+            "temperature": {"value": "75", "unit": "°C"},
+            "stirring_speed": {"value": "200-300", "unit": "r/min"},
+            "reaction_time": {"value": "2", "unit": "h"},
+            "annealing_temperature": {"value": "650", "unit": "°C"},
+            "annealing_time": {"value": "2", "unit": "h"}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {"value": "1", "unit": "wt%"},
+        "additives": [
+          {"name": "PVP", "type": "Dispersant/Stabilizer", "concentration": {"value": "2", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "8.5-9.0",
+        "solvent": {"name": "DI water", "quantity": {"value": "100", "unit": "g"}},
+        "sonication_time": {"value": "20", "unit": "min"}
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "251",
+          "unit": "nm",
+          "std_dev": "16",
+          "measurement_method_used": "FESEM"
+        },
+         "core_particle_size": {
+           "value": "212",
+           "unit": "nm",
+           "std_dev": "8",
+           "measurement_method_used": "FESEM"
+        },
+        "shell_thickness_estimated": {
+            "value": "15-20",
+            "unit": "nm"
+        },
+        "particle_morphology": "Spherical core/shell particles with worm-like radial meso-channels in silica core and Er-doped ceria nanoparticle shell.",
+        "crystallite_size": {
+          "value": "5.4",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite Ce-Er-O solid solution",
+          "lattice_parameter": {"value": "0.536", "unit": "nm"}
+        },
+         "specific_surface_area_bet": {
+          "value": "1626.53",
+          "unit": "m²/g",
+          "note": "Measured on mSiO₂ cores"
+        },
+        "pore_volume": {
+          "value": "0.81",
+          "unit": "cm³/g",
+          "note": "Measured on mSiO₂ cores"
+        },
+        "pore_size_distribution": {
+          "value": "2.76",
+          "unit": "nm",
+          "measurement_method_used": "BJH (adsorption branch)",
+          "note": "Measured on mSiO₂ cores"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(331)"],
+        "raman_peaks_cm-1": ["460", "620"],
+        "oxygen_vacancy_ratio_raman": {
+            "value": "0.43",
+            "unit": "I₆₂₀/I₄₆₀"
+        },
+        "uv_vis_band_gap_ev": {
+            "value": "3.10",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Schuster-Kubelka-Munk)"
+        },
+         "band_potentials_calculated": {
+            "conduction_band_ecb": {"value": "-0.48", "unit": "eV"},
+            "valence_band_evb": {"value": "2.62", "unit": "eV"}
+        },
+        "photoluminescence_peaks": {
+            "peaks_nm": ["487"],
+            "relative_intensity_note": "Lower intensity compared to Composite-A"
+        },
+        "surface_ce3_percent_xps": {
+            "value": "34.4",
+            "unit": "%"
+        },
+        "xps_detected_elements": ["Ce 3d", "O 1s", "Si 2p", "Er 4d"]
+      },
+      "cmp_performance": {
+        "substrate": "Thermally grown silicon oxide wafers",
+        "equipment_model": "TegraForce-1/TrgraPol-15 (Struers, Denmark)",
+        "pad_composition": "Polyurethane porous pad (MD-Chem, Struers, Denmark)",
+        "polishing_pressure": {"value": "3.3", "unit": "psi"},
+        "platen_speed": {"value": "90", "unit": "r/min"},
+        "carrier_speed": {"value": "120", "unit": "r/min"},
+        "slurry_flow_rate": {"value": "100", "unit": "mL/min"},
+        "polishing_time": {"value": "2", "unit": "min"},
+        "conditions": [
+             {
+                "condition_id": "CMP",
+                "uv_irradiation": false,
+                "material_removal_rate": {"value": "71", "unit": "nm/min", "std_dev": "23"},
+                "surface_roughness_rms": null,
+                "max_asperity_height": null,
+                "max_valley_depth": null
+            },
+            {
+                "condition_id": "PCMP",
+                "uv_irradiation": true,
+                "uv_source": {"type": "Halogen lamp", "power": {"value": "250", "unit": "W"}, "wavelength": {"value": "365", "unit": "nm"}},
+                "material_removal_rate": {"value": "99", "unit": "nm/min", "std_dev": "18"},
+                "surface_roughness_rms": {"value": "0.16", "unit": "nm", "std_dev": "0.01"},
+                "max_asperity_height": {"value": "0.35", "unit": "nm"},
+                "max_valley_depth": {"value": "0.36", "unit": "nm"}
+            }
+        ]
+      },
+       "instrument_device_models": {
+          "FESEM": "SUPRA 55 (Zeiss)",
+          "TEM": "JEM-2100 (JEOL)",
+          "XRD": "Rigaku D/Max 2500 PC",
+          "Nitrogen_Adsorption": "Micromeritics TriStar 3020",
+          "XPS": "Thermo ESCALAB 250",
+          "HADDF_STEM_EDX": "FEI Talos 2005",
+          "Raman": "DXR (ThermoFisher)",
+          "UV_Vis": "UV-3600 (Shimadzu)",
+          "PL": "LS45 (PEI)",
+          "AFM": "Nanoman VS (Digital Instruments)",
+          "Balance": "XS105 (Mettler Toledo)"
+      }
+    }
+  ]
+}

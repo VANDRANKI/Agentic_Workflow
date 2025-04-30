@@ -1,0 +1,709 @@
+{
+  "doi": "10.1016/j.powtec.2021.11.069",
+  "title": "Effects of trivalent lanthanide (La and Nd) doped ceria abrasives on chemical mechanical polishing",
+  "year_published": "2021",
+  "journal": "Powder Technology",
+  "samples": [
+    {
+      "sample_id": "HTC",
+      "experiment_context": "Undoped ceria nanoparticles synthesized via hydrothermal method.",
+      "synthesis_details": {
+        "method": "Hydrothermal",
+        "precursors": [
+          {"chemical": "CeCl₃·7H₂O", "quantity": {"value": "15", "unit": "mmol"}, "concentration_solution": {"value": "0.0375", "unit": "M", "solvent": "DI water", "volume": {"value": "400", "unit": "mL"}}},
+          {"chemical": "NH₄OH", "quantity": {"value": "10", "unit": "mmol"}, "concentration_solution": {"value": "0.025", "unit": "M", "solvent": "DI water", "volume": {"value": "400", "unit": "mL"}}}
+        ],
+        "precipitant_type": "NH₄OH",
+        "molar_ratio_precursor_precipitant": "3:2 (Ce:NH4OH)",
+        "reaction_steps": [
+          {"temperature": {"value": "RT", "unit": ""}, "time": {"value": "30", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Dissolution"},
+          {"temperature": {"value": "50", "unit": "°C"}, "time": {"value": "15", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Seed formation"},
+          {"temperature": {"value": "210", "unit": "°C"}, "time": {"value": "24", "unit": "h"}, "stirring_speed": {"value": "100", "unit": "rpm"}, "purpose": "Growth (Autoclave)"}
+        ],
+        "synthesis_conditions": {
+           "environmental_conditions": null 
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation (4000 rpm, 1h) with DI water, followed by re-dispersion with sonication (30 min)",
+          "repetitions": 5
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(methacrylic acid)",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+             "name": "Nitric acid",
+             "type": "pH adjuster"
+          }
+        ],
+        "target_final_slurry_ph": "4.2-4.5",
+        "dispersion_method": "Tip sonication (30 min, 20 kHz)",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "32.2",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Fig 1a)"
+        },
+        "crystallite_size": {
+          "value": "23.99",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak, Table 2)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Fluorite cubic CeO₂",
+          "jcpds_card": "034-0394",
+          "measurement_method_used": "XRD (Fig 2a)"
+        },
+        "lattice_parameter": {
+            "value": "5.4017",
+            "unit": "Å",
+            "measurement_method_used": "XRD (Table 2)"
+        },
+        "particle_morphology": "Polyhedral (Fig 1b)",
+        "surface_ce3_percent_xps": {
+            "value": "24.54",
+            "unit": "%",
+            "measurement_method_used": "XPS (Table 4)"
+        },
+        "work_function": {
+            "value": "4.25",
+            "unit": "eV",
+            "measurement_method_used": "KPFM (Estimated from Fig 6a)"
+        },
+        "adhesion_force_vs_sio2": {
+            "value": "1.8",
+            "unit": "nN",
+            "measurement_method_used": "AFM Force Spectroscopy (Estimated from Fig 6b)"
+        },
+        "elemental_composition": null 
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ (1 µm thick on 4x4 cm² coupon wafer)",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "4500",
+          "unit": "Å/min",
+          "measurement_method_used": "Reflectometer (Fig 7a)"
+        },
+        "coefficient_of_friction": {
+            "value": "0.35",
+            "unit": "",
+            "measurement_method_used": "CMP machine sensor (Estimated from Fig 7a)"
+        },
+        "post_cmp_surface_roughness": {
+            "value": "0.16",
+            "unit": "nm",
+            "measurement_method_used": "Ra (Estimated from Fig 7b)"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+            "head": {"value": "87", "unit": "rpm"},
+            "platen": {"value": "93", "unit": "rpm"}
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "pad_conditioning": {
+            "conditioner_model": "20PPW60EBC0 (SAESOI, Diamond, Korea)",
+            "pressure": {"value": "0.5", "unit": "psi"},
+            "rotation_speed": {"value": "87", "unit": "rpm"},
+            "pre_conditioning": "DI water for 10 min, then slurry for 1 min"
+        },
+        "equipment_model": "Poly-400 CMP machine (G&P Technology, Korea)",
+        "pad_composition": "IC1010 polyurethane pad (DuPont, USA)"
+      }
+    },
+    {
+      "sample_id": "NDC-L",
+      "experiment_context": "Neodymium-doped ceria nanoparticles (Low concentration, 4:1 Ce:Nd precursor ratio) synthesized via hydrothermal method.",
+      "synthesis_details": {
+        "method": "Hydrothermal",
+        "precursors": [
+          {"chemical": "CeCl₃·7H₂O", "quantity": {"value": "12", "unit": "mmol"}},
+          {"chemical": "NdCl₃·7H₂O", "quantity": {"value": "3", "unit": "mmol"}},
+          {"chemical": "NH₄OH", "quantity": {"value": "10", "unit": "mmol"}}
+        ],
+        "precipitant_type": "NH₄OH",
+        "molar_ratio_precursor_precipitant": null, 
+        "reaction_steps": [
+          {"temperature": {"value": "RT", "unit": ""}, "time": {"value": "30", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Dissolution"},
+          {"temperature": {"value": "50", "unit": "°C"}, "time": {"value": "15", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Seed formation"},
+          {"temperature": {"value": "210", "unit": "°C"}, "time": {"value": "24", "unit": "h"}, "stirring_speed": {"value": "100", "unit": "rpm"}, "purpose": "Growth (Autoclave)"}
+        ],
+         "synthesis_conditions": {
+           "environmental_conditions": null 
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation (4000 rpm, 1h) with DI water, followed by re-dispersion with sonication (30 min)",
+          "repetitions": 5
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(methacrylic acid)",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+           {
+             "name": "Nitric acid",
+             "type": "pH adjuster"
+          }
+        ],
+        "target_final_slurry_ph": "4.2-4.5",
+        "dispersion_method": "Tip sonication (30 min, 20 kHz)",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "31.5",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Fig 1 caption)"
+        },
+        "crystallite_size": {
+          "value": "22.75",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak, Table 2)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Fluorite cubic CeO₂",
+          "jcpds_card": "034-0394",
+          "measurement_method_used": "XRD (Fig 2a)"
+        },
+         "lattice_parameter": {
+            "value": "5.4212",
+            "unit": "Å",
+            "measurement_method_used": "XRD (Table 2)"
+        },
+        "particle_morphology": "Polyhedral (Fig 1c)",
+        "surface_ce3_percent_xps": {
+            "value": "28.32",
+            "unit": "%",
+            "measurement_method_used": "XPS (Table 4)"
+        },
+         "work_function": {
+            "value": "4.15",
+            "unit": "eV",
+            "measurement_method_used": "KPFM (Estimated from Fig 6a)"
+        },
+        "adhesion_force_vs_sio2": {
+            "value": "2.5",
+            "unit": "nN",
+            "measurement_method_used": "AFM Force Spectroscopy (Estimated from Fig 6b)"
+        },
+        "elemental_composition": {
+            "O": {"value": "75.99", "unit": "at%"},
+            "Ce": {"value": "22.38", "unit": "at%"},
+            "Nd": {"value": "1.63", "unit": "at%"},
+            "measurement_method_used": "EDS (Table 3)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ (1 µm thick on 4x4 cm² coupon wafer)",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "3600",
+          "unit": "Å/min",
+          "measurement_method_used": "Reflectometer (Fig 7a)"
+        },
+         "coefficient_of_friction": {
+            "value": "0.40",
+            "unit": "",
+            "measurement_method_used": "CMP machine sensor (Estimated from Fig 7a)"
+        },
+        "post_cmp_surface_roughness": {
+            "value": null, 
+            "unit": "nm",
+            "measurement_method_used": "Ra"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "rotation_speed": {
+            "head": {"value": "87", "unit": "rpm"},
+            "platen": {"value": "93", "unit": "rpm"}
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "pad_conditioning": {
+            "conditioner_model": "20PPW60EBC0 (SAESOI, Diamond, Korea)",
+            "pressure": {"value": "0.5", "unit": "psi"},
+            "rotation_speed": {"value": "87", "unit": "rpm"},
+            "pre_conditioning": "DI water for 10 min, then slurry for 1 min"
+        },
+        "equipment_model": "Poly-400 CMP machine (G&P Technology, Korea)",
+        "pad_composition": "IC1010 polyurethane pad (DuPont, USA)"
+      }
+    },
+     {
+      "sample_id": "LDC-L",
+      "experiment_context": "Lanthanum-doped ceria nanoparticles (Low concentration, 4:1 Ce:La precursor ratio) synthesized via hydrothermal method.",
+      "synthesis_details": {
+        "method": "Hydrothermal",
+        "precursors": [
+          {"chemical": "CeCl₃·7H₂O", "quantity": {"value": "12", "unit": "mmol"}},
+          {"chemical": "LaCl₃·7H₂O", "quantity": {"value": "3", "unit": "mmol"}},
+          {"chemical": "NH₄OH", "quantity": {"value": "10", "unit": "mmol"}}
+        ],
+        "precipitant_type": "NH₄OH",
+        "molar_ratio_precursor_precipitant": null, 
+        "reaction_steps": [
+          {"temperature": {"value": "RT", "unit": ""}, "time": {"value": "30", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Dissolution"},
+          {"temperature": {"value": "50", "unit": "°C"}, "time": {"value": "15", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Seed formation"},
+          {"temperature": {"value": "210", "unit": "°C"}, "time": {"value": "24", "unit": "h"}, "stirring_speed": {"value": "100", "unit": "rpm"}, "purpose": "Growth (Autoclave)"}
+        ],
+         "synthesis_conditions": {
+           "environmental_conditions": null 
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation (4000 rpm, 1h) with DI water, followed by re-dispersion with sonication (30 min)",
+          "repetitions": 5
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(methacrylic acid)",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+           {
+             "name": "Nitric acid",
+             "type": "pH adjuster"
+          }
+        ],
+        "target_final_slurry_ph": "4.2-4.5",
+        "dispersion_method": "Tip sonication (30 min, 20 kHz)",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "31.9",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Fig 1 caption)"
+        },
+        "crystallite_size": {
+          "value": "18.38",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak, Table 2)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Fluorite cubic CeO₂",
+          "jcpds_card": "034-0394",
+          "measurement_method_used": "XRD (Fig 2a)"
+        },
+         "lattice_parameter": {
+            "value": "5.4297",
+            "unit": "Å",
+            "measurement_method_used": "XRD (Table 2)"
+        },
+        "particle_morphology": "Polyhedral (Fig 1d)",
+        "surface_ce3_percent_xps": {
+            "value": "27.64",
+            "unit": "%",
+            "measurement_method_used": "XPS (Table 4)"
+        },
+         "work_function": {
+            "value": "4.18", 
+            "unit": "eV",
+            "measurement_method_used": "KPFM (Estimated from Fig 6a)"
+        },
+        "adhesion_force_vs_sio2": {
+            "value": "2.1", 
+            "unit": "nN",
+            "measurement_method_used": "AFM Force Spectroscopy (Estimated from Fig 6b)"
+        },
+        "elemental_composition": {
+            "O": {"value": "73.16", "unit": "at%"},
+            "Ce": {"value": "25.11", "unit": "at%"},
+            "La": {"value": "1.73", "unit": "at%"},
+            "measurement_method_used": "EDS (Table 3)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ (1 µm thick on 4x4 cm² coupon wafer)",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "3100",
+          "unit": "Å/min",
+          "measurement_method_used": "Reflectometer (Fig 7a)"
+        },
+         "coefficient_of_friction": {
+            "value": "0.38", 
+            "unit": "",
+            "measurement_method_used": "CMP machine sensor (Estimated from Fig 7a)"
+        },
+         "post_cmp_surface_roughness": {
+            "value": null, 
+            "unit": "nm",
+            "measurement_method_used": "Ra"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "rotation_speed": {
+            "head": {"value": "87", "unit": "rpm"},
+            "platen": {"value": "93", "unit": "rpm"}
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "pad_conditioning": {
+            "conditioner_model": "20PPW60EBC0 (SAESOI, Diamond, Korea)",
+            "pressure": {"value": "0.5", "unit": "psi"},
+            "rotation_speed": {"value": "87", "unit": "rpm"},
+            "pre_conditioning": "DI water for 10 min, then slurry for 1 min"
+        },
+        "equipment_model": "Poly-400 CMP machine (G&P Technology, Korea)",
+        "pad_composition": "IC1010 polyurethane pad (DuPont, USA)"
+      }
+    },
+     {
+      "sample_id": "NDC-H",
+      "experiment_context": "Neodymium-doped ceria nanoparticles (High concentration, 1:1 Ce:Nd precursor ratio) synthesized via hydrothermal method.",
+      "synthesis_details": {
+        "method": "Hydrothermal",
+        "precursors": [
+          {"chemical": "CeCl₃·7H₂O", "quantity": {"value": "7.5", "unit": "mmol"}},
+          {"chemical": "NdCl₃·7H₂O", "quantity": {"value": "7.5", "unit": "mmol"}},
+          {"chemical": "NH₄OH", "quantity": {"value": "10", "unit": "mmol"}} 
+        ],
+        "precipitant_type": "NH₄OH",
+        "molar_ratio_precursor_precipitant": null, 
+        "reaction_steps": [
+          {"temperature": {"value": "RT", "unit": ""}, "time": {"value": "30", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Dissolution"},
+          {"temperature": {"value": "50", "unit": "°C"}, "time": {"value": "15", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Seed formation"},
+          {"temperature": {"value": "210", "unit": "°C"}, "time": {"value": "24", "unit": "h"}, "stirring_speed": {"value": "100", "unit": "rpm"}, "purpose": "Growth (Autoclave)"}
+        ],
+         "synthesis_conditions": {
+           "environmental_conditions": null 
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation (4000 rpm, 1h) with DI water, followed by re-dispersion with sonication (30 min)",
+          "repetitions": 5
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(methacrylic acid)",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+           {
+             "name": "Nitric acid",
+             "type": "pH adjuster"
+          }
+        ],
+        "target_final_slurry_ph": "4.2-4.5",
+        "dispersion_method": "Tip sonication (30 min, 20 kHz)",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null, 
+        "crystallite_size": {
+          "value": "21.87",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak, Table 2)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Fluorite cubic CeO₂",
+          "jcpds_card": "034-0394",
+          "measurement_method_used": "XRD (Fig 2a)"
+        },
+         "lattice_parameter": {
+            "value": "5.4459",
+            "unit": "Å",
+            "measurement_method_used": "XRD (Table 2)"
+        },
+        "particle_morphology": "Polyhedral (Assumed similar to others)",
+        "surface_ce3_percent_xps": {
+            "value": "32.57",
+            "unit": "%",
+            "measurement_method_used": "XPS (Table 4)"
+        },
+         "work_function": {
+            "value": "4.05", 
+            "unit": "eV",
+            "measurement_method_used": "KPFM (Estimated from Fig 6a)"
+        },
+        "adhesion_force_vs_sio2": {
+            "value": "3.6", 
+            "unit": "nN",
+            "measurement_method_used": "AFM Force Spectroscopy (Estimated from Fig 6b)"
+        },
+        "elemental_composition": {
+            "O": {"value": "68.24", "unit": "at%"},
+            "Ce": {"value": "26.87", "unit": "at%"},
+            "Nd": {"value": "4.89", "unit": "at%"},
+            "measurement_method_used": "EDS (Table 3)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ (1 µm thick on 4x4 cm² coupon wafer)",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "5500",
+          "unit": "Å/min",
+          "measurement_method_used": "Reflectometer (Fig 7a)"
+        },
+         "coefficient_of_friction": {
+            "value": "0.45", 
+            "unit": "",
+            "measurement_method_used": "CMP machine sensor (Estimated from Fig 7a)"
+        },
+         "post_cmp_surface_roughness": {
+            "value": "0.16", 
+            "unit": "nm",
+            "measurement_method_used": "Ra (Estimated from Fig 7b)"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "rotation_speed": {
+            "head": {"value": "87", "unit": "rpm"},
+            "platen": {"value": "93", "unit": "rpm"}
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "pad_conditioning": {
+            "conditioner_model": "20PPW60EBC0 (SAESOI, Diamond, Korea)",
+            "pressure": {"value": "0.5", "unit": "psi"},
+            "rotation_speed": {"value": "87", "unit": "rpm"},
+            "pre_conditioning": "DI water for 10 min, then slurry for 1 min"
+        },
+        "equipment_model": "Poly-400 CMP machine (G&P Technology, Korea)",
+        "pad_composition": "IC1010 polyurethane pad (DuPont, USA)"
+      }
+    },
+     {
+      "sample_id": "LDC-H",
+      "experiment_context": "Lanthanum-doped ceria nanoparticles (High concentration, 1:1 Ce:La precursor ratio) synthesized via hydrothermal method.",
+      "synthesis_details": {
+        "method": "Hydrothermal",
+        "precursors": [
+          {"chemical": "CeCl₃·7H₂O", "quantity": {"value": "7.5", "unit": "mmol"}},
+          {"chemical": "LaCl₃·7H₂O", "quantity": {"value": "7.5", "unit": "mmol"}},
+          {"chemical": "NH₄OH", "quantity": {"value": "10", "unit": "mmol"}} 
+        ],
+        "precipitant_type": "NH₄OH",
+        "molar_ratio_precursor_precipitant": null, 
+        "reaction_steps": [
+          {"temperature": {"value": "RT", "unit": ""}, "time": {"value": "30", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Dissolution"},
+          {"temperature": {"value": "50", "unit": "°C"}, "time": {"value": "15", "unit": "min"}, "stirring_speed": {"value": "200", "unit": "rpm"}, "purpose": "Seed formation"},
+          {"temperature": {"value": "210", "unit": "°C"}, "time": {"value": "24", "unit": "h"}, "stirring_speed": {"value": "100", "unit": "rpm"}, "purpose": "Growth (Autoclave)"}
+        ],
+         "synthesis_conditions": {
+           "environmental_conditions": null 
+        }
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation (4000 rpm, 1h) with DI water, followed by re-dispersion with sonication (30 min)",
+          "repetitions": 5
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(methacrylic acid)",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+           {
+             "name": "Nitric acid",
+             "type": "pH adjuster"
+          }
+        ],
+        "target_final_slurry_ph": "4.2-4.5",
+        "dispersion_method": "Tip sonication (30 min, 20 kHz)",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null, 
+        "crystallite_size": {
+          "value": "17.45",
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula, (111) peak, Table 2)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Fluorite cubic CeO₂",
+          "jcpds_card": "034-0394",
+          "measurement_method_used": "XRD (Fig 2a)"
+        },
+         "lattice_parameter": {
+            "value": "5.4555",
+            "unit": "Å",
+            "measurement_method_used": "XRD (Table 2)"
+        },
+        "particle_morphology": "Polyhedral (Assumed similar to others)",
+        "surface_ce3_percent_xps": {
+            "value": "30.40",
+            "unit": "%",
+            "measurement_method_used": "XPS (Table 4)"
+        },
+         "work_function": {
+            "value": "4.10", 
+            "unit": "eV",
+            "measurement_method_used": "KPFM (Estimated from Fig 6a)"
+        },
+        "adhesion_force_vs_sio2": {
+            "value": "2.9", 
+            "unit": "nN",
+            "measurement_method_used": "AFM Force Spectroscopy (Estimated from Fig 6b)"
+        },
+        "elemental_composition": {
+            "O": {"value": "71.25", "unit": "at%"},
+            "Ce": {"value": "25.49", "unit": "at%"},
+            "La": {"value": "3.26", "unit": "at%"},
+            "measurement_method_used": "EDS (Table 3)"
+        }
+      },
+      "cmp_performance": {
+        "substrate": "SiO₂ (1 µm thick on 4x4 cm² coupon wafer)",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "4800",
+          "unit": "Å/min",
+          "measurement_method_used": "Reflectometer (Fig 7a)"
+        },
+         "coefficient_of_friction": {
+            "value": "0.42", 
+            "unit": "",
+            "measurement_method_used": "CMP machine sensor (Estimated from Fig 7a)"
+        },
+         "post_cmp_surface_roughness": {
+            "value": null, 
+            "unit": "nm",
+            "measurement_method_used": "Ra"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+         "rotation_speed": {
+            "head": {"value": "87", "unit": "rpm"},
+            "platen": {"value": "93", "unit": "rpm"}
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "pad_conditioning": {
+            "conditioner_model": "20PPW60EBC0 (SAESOI, Diamond, Korea)",
+            "pressure": {"value": "0.5", "unit": "psi"},
+            "rotation_speed": {"value": "87", "unit": "rpm"},
+            "pre_conditioning": "DI water for 10 min, then slurry for 1 min"
+        },
+        "equipment_model": "Poly-400 CMP machine (G&P Technology, Korea)",
+        "pad_composition": "IC1010 polyurethane pad (DuPont, USA)"
+      }
+    }
+  ]
+}

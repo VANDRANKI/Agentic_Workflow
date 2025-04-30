@@ -1,0 +1,275 @@
+{
+  "doi": "10.1016/j.jmatprotec.2007.10.033",
+  "title": "Pad roughness variation and its effect on material removal profile in ceria-based CMP slurry",
+  "year_published": "2007",
+  "journal": "Journal of Materials Processing Technology",
+  "equipment_model": "R&D GNP POLIS00 polisher",
+  "instrument_device_model": {
+    "Surface Roughness Tester": "Mitutoyo SJ-301",
+    "Surface Profiler": "NanoviewTM (Nanosystem Inc.)",
+    "Force Sensor": "Piezoelectric force sensor"
+  },
+  "pad_details": {
+    "material": "Polyurethane",
+    "model": "IC1400 Nitta-Haas",
+    "initial_Rpk_profile_after_conditioning": {
+      "description": "Slightly concave (Fig. 4)",
+      "center_value": {
+        "value": "~2.3",
+        "unit": "µm"
+      },
+      "edge_value_at_35mm": {
+        "value": "~2.5",
+        "unit": "µm"
+      },
+      "average_value": {
+        "value": "2.4",
+        "unit": "µm"
+      }
+    }
+  },
+  "pad_conditioning_details": {
+    "method": "Ex situ",
+    "conditioner_type": "Hollow type with diamond grits",
+    "pressure": {
+      "value": "60",
+      "unit": "g/cm²"
+    },
+    "conditioner_disk_velocity": {
+      "value": "40",
+      "unit": "rpm"
+    },
+    "platen_velocity": {
+      "value": "60",
+      "unit": "rpm"
+    },
+    "oscillation": "None"
+  },
+  "samples": [
+    {
+      "sample_id": "Silica_1min",
+      "experiment_context": "CMP using alkali-based slurry with fumed silica abrasives for 1 minute on SiO2 wafer.",
+      "slurry_details": {
+        "type": "Silica-based",
+        "base_type": "Alkali-based",
+        "abrasive_type": "Fumed silica",
+        "flow_rate": {
+          "value": "150",
+          "unit": "cc/min"
+        }
+      },
+      "cmp_conditions": {
+        "substrate": "4 in. blanket wafer with thermally grown SiO2 film",
+        "pressure": {
+          "value": "500",
+          "unit": "g/cm²"
+        },
+        "carrier_velocity": {
+          "value": "97",
+          "unit": "rpm"
+        },
+        "platen_velocity": {
+          "value": "103",
+          "unit": "rpm"
+        },
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "oscillation": "None"
+      },
+      "cmp_results": {
+        "material_removal_rate_profile": {
+          "description": "Lower in center, higher at edge (Edge effect, Fig. 5a)",
+          "center_value": {
+            "value": "~110",
+            "unit": "nm/min"
+          },
+          "edge_value_at_35mm": {
+            "value": "~140",
+            "unit": "nm/min"
+          }
+        },
+        "final_pad_Rpk_profile": {
+          "description": "Concave shape, more concave than after conditioning (Fig. 5a)",
+          "center_value": {
+            "value": "~2.1",
+            "unit": "µm"
+          },
+          "edge_value_at_35mm": {
+            "value": "~2.4",
+            "unit": "µm"
+          },
+          "average_value": {
+            "value": "2.3",
+            "unit": "µm"
+          }
+        },
+        "friction_force_trend": "Decreases during polishing (Fig. 8a)"
+      }
+    },
+    {
+      "sample_id": "Ceria_1min",
+      "experiment_context": "CMP using neutral-based slurry with ceria abrasives for 1 minute on SiO2 wafer.",
+      "slurry_details": {
+        "type": "Ceria-based",
+        "base_type": "Neutral-based",
+        "abrasive_type": "Ceria",
+        "flow_rate": {
+          "value": "150",
+          "unit": "cc/min"
+        }
+      },
+      "cmp_conditions": {
+        "substrate": "4 in. blanket wafer with thermally grown SiO2 film",
+        "pressure": {
+          "value": "500",
+          "unit": "g/cm²"
+        },
+        "carrier_velocity": {
+          "value": "97",
+          "unit": "rpm"
+        },
+        "platen_velocity": {
+          "value": "103",
+          "unit": "rpm"
+        },
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "oscillation": "None"
+      },
+      "cmp_results": {
+        "material_removal_rate_profile": {
+          "description": "Higher in center, lower at edge (Center fast, Fig. 5b)",
+          "center_value": {
+            "value": "~160",
+            "unit": "nm/min"
+          },
+          "edge_value_at_35mm": {
+            "value": "~130",
+            "unit": "nm/min"
+          }
+        },
+        "final_pad_Rpk_profile": {
+          "description": "Convex shape (Fig. 5b)",
+          "center_value": {
+            "value": "~2.9",
+            "unit": "µm"
+          },
+          "edge_value_at_35mm": {
+            "value": "~2.6",
+            "unit": "µm"
+          },
+          "average_value": {
+            "value": "2.7",
+            "unit": "µm"
+          }
+        },
+        "friction_force_trend": "Increases during polishing (Fig. 8b)"
+      }
+    },
+    {
+      "sample_id": "Ceria_3min",
+      "experiment_context": "CMP using neutral-based slurry with ceria abrasives for 3 minutes on SiO2 wafer.",
+      "slurry_details": {
+        "type": "Ceria-based",
+        "base_type": "Neutral-based",
+        "abrasive_type": "Ceria",
+        "flow_rate": {
+          "value": "150",
+          "unit": "cc/min"
+        }
+      },
+      "cmp_conditions": {
+        "substrate": "4 in. blanket wafer with thermally grown SiO2 film",
+        "pressure": {
+          "value": "500",
+          "unit": "g/cm²"
+        },
+        "carrier_velocity": {
+          "value": "97",
+          "unit": "rpm"
+        },
+        "platen_velocity": {
+          "value": "103",
+          "unit": "rpm"
+        },
+        "polishing_time": {
+          "value": "3",
+          "unit": "min"
+        },
+        "oscillation": "None"
+      },
+      "cmp_results": {
+        "material_removal_rate_profile": null,
+        "final_pad_Rpk_profile": {
+          "description": "Transformed into smooth and slightly concave surface (Fig. 6)",
+          "center_value": {
+            "value": "~2.6",
+            "unit": "µm"
+          },
+          "edge_value_at_35mm": {
+            "value": "~2.7",
+            "unit": "µm"
+          },
+          "average_value": null
+        },
+        "friction_force_trend": "Increases during polishing (inferred from Fig 8b)"
+      }
+    },
+    {
+      "sample_id": "Ceria_5min",
+      "experiment_context": "CMP using neutral-based slurry with ceria abrasives for 5 minutes on SiO2 wafer.",
+      "slurry_details": {
+        "type": "Ceria-based",
+        "base_type": "Neutral-based",
+        "abrasive_type": "Ceria",
+        "flow_rate": {
+          "value": "150",
+          "unit": "cc/min"
+        }
+      },
+      "cmp_conditions": {
+        "substrate": "4 in. blanket wafer with thermally grown SiO2 film",
+        "pressure": {
+          "value": "500",
+          "unit": "g/cm²"
+        },
+        "carrier_velocity": {
+          "value": "97",
+          "unit": "rpm"
+        },
+        "platen_velocity": {
+          "value": "103",
+          "unit": "rpm"
+        },
+        "polishing_time": {
+          "value": "5",
+          "unit": "min"
+        },
+        "oscillation": "None"
+      },
+      "cmp_results": {
+        "material_removal_rate_profile": null,
+        "final_pad_Rpk_profile": {
+          "description": "Smooth and concave surface (Fig. 6)",
+          "center_value": {
+            "value": "~2.6",
+            "unit": "µm"
+          },
+          "edge_value_at_35mm": {
+            "value": "~2.9",
+            "unit": "µm"
+          },
+          "average_value": {
+            "value": "2.8",
+            "unit": "µm"
+          }
+        },
+        "friction_force_trend": "Increases during polishing (inferred from Fig 8b)"
+      }
+    }
+  ]
+}
