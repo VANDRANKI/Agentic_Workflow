@@ -1,0 +1,494 @@
+{
+  "doi": "10.1016/j.matchemphys.2015.12.026",
+  "title": "Preparation of Ce-doped colloidal SiO₂ composite abrasives and their chemical mechanical polishing behavior on sapphire substrates",
+  "year_published": "2016",
+  "journal": "Materials Chemistry and Physics",
+  "samples": [
+    {
+      "sample_id": "SiO2_0wtCeO2",
+      "experiment_context": "Pure colloidal SiO₂ abrasive (0 wt.% CeO₂) used for CMP on sapphire substrate.",
+      "precursor_chemical": [
+        {"name": "colloidal SiO₂ seed", "source": "Section 2.2.1"},
+        {"name": "active silicic acid solution", "source": "Section 2.2.1"},
+        {"name": "carbamide (CO(NH₂)₂)", "source": "Section 2.1, 2.2.1"},
+        {"name": "ammonia (NH₃·H₂O)", "source": "Section 2.1, 2.2.1"}
+      ],
+      "precursor_concentration": [
+         {"chemical": "crystal silica seed solution", "value": "10", "unit": "wt.%", "note": "Initial seed solution concentration"},
+         {"chemical": "active silicic acid solution", "value": "2.5", "unit": "wt.%", "note": "Added solution concentration"},
+         {"chemical": "CO(NH₂)₂ solution", "value": "0.05", "unit": "wt.%", "note": "Added solution concentration"},
+         {"chemical": "ammonia", "value": "1.5", "unit": "wt.%", "note": "Added solution concentration"}
+      ],
+      "precipitant_type": "ammonia (NH₃·H₂O)",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "100",
+        "unit": "°C"
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": "9.0-11.0",
+        "stirring_speed": {
+            "value": null,
+            "unit": "",
+            "note": "Continuously stirring mentioned, speed not specified"
+        },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+         "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_doping_concentration": {
+          "dopant": "CeO₂",
+          "value": "0",
+          "unit": "wt.%" ,
+          "note": "Mass ratio CeO₂ vs SiO₂"
+        },
+        "final_solid_concentration": {
+            "value": "6",
+            "unit": "wt.%"
+        },
+        "additives": [
+          {
+            "name": "sodium hexametaphosphate",
+            "type": "dispersant",
+            "concentration": {
+              "value": "3.0",
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "filtration": "10 µm pore filter"
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "inerratic spherical shape",
+        "measurement_methods_used": ["SEM (Fig 1a)"],
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "substrate_material": "α-Al₂O₃ sapphire",
+        "substrate_orientation": "c (0001)",
+        "substrate_dimensions": {
+            "diameter": {"value": "50.8", "unit": "mm"},
+            "thickness": {"value": "0.45", "unit": "mm"}
+        },
+         "pre_cmp_surface_roughness": {
+            "parameter": "Ra",
+            "value": "2.535",
+            "unit": "nm"
+         },
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "0.306",
+          "unit": "µm/h"
+        },
+         "post_cmp_surface_roughness": {
+            "parameter": "Ra",
+            "value": "2.197",
+            "unit": "nm"
+         },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg",
+          "note": "Down force"
+        },
+        "platen_speed": {
+            "value": "60",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Instrument Co., LTD, China)",
+        "pad_composition": "Rodel porous polyurethane pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "SiO2_0.5wtCeO2",
+      "experiment_context": "Ce-doped colloidal SiO₂ abrasive (0.5 wt.% CeO₂) used for CMP on sapphire substrate.",
+      "precursor_chemical": [
+        {"name": "ceric ammonium nitrate ((NH₄)₂Ce(NO₃)₆)", "source": "Section 2.1, 2.2.1"},
+        {"name": "colloidal SiO₂ seed", "source": "Section 2.2.1"},
+        {"name": "active silicic acid solution", "source": "Section 2.2.1"},
+        {"name": "carbamide (CO(NH₂)₂)", "source": "Section 2.1, 2.2.1"},
+        {"name": "ammonia (NH₃·H₂O)", "source": "Section 2.1, 2.2.1"}
+      ],
+      "precursor_concentration": [
+         {"chemical": "crystal silica seed solution", "value": "10", "unit": "wt.%", "note": "Initial seed solution concentration"},
+         {"chemical": "active silicic acid solution", "value": "2.5", "unit": "wt.%", "note": "Added solution concentration"},
+         {"chemical": "(NH₄)₂Ce(NO₃)₆ solution", "value": "0.4", "unit": "wt.%", "note": "Added solution concentration, amount varied for doping level"},
+         {"chemical": "CO(NH₂)₂ solution", "value": "0.05", "unit": "wt.%", "note": "Added solution concentration"},
+         {"chemical": "ammonia", "value": "1.5", "unit": "wt.%", "note": "Added solution concentration"}
+      ],
+      "precipitant_type": "ammonia (NH₃·H₂O)",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "100",
+        "unit": "°C"
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": "9.0-11.0",
+        "stirring_speed": {
+            "value": null,
+            "unit": "",
+            "note": "Continuously stirring mentioned, speed not specified"
+        },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+         "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_doping_concentration": {
+          "dopant": "CeO₂",
+          "value": "0.5",
+          "unit": "wt.%" ,
+          "note": "Mass ratio CeO₂ vs SiO₂"
+        },
+        "final_solid_concentration": {
+            "value": "6",
+            "unit": "wt.%"
+        },
+        "additives": [
+          {
+            "name": "sodium hexametaphosphate",
+            "type": "dispersant",
+            "concentration": {
+              "value": "3.0",
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "filtration": "10 µm pore filter"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "note": "Almost no change compared to 0 wt.% (Sec 3.1)"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "inerratic spherical shape",
+        "measurement_methods_used": ["SEM (Fig 1b)"],
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "substrate_material": "α-Al₂O₃ sapphire",
+        "substrate_orientation": "c (0001)",
+        "substrate_dimensions": {
+            "diameter": {"value": "50.8", "unit": "mm"},
+            "thickness": {"value": "0.45", "unit": "mm"}
+        },
+         "pre_cmp_surface_roughness": {
+            "parameter": "Ra",
+            "value": "2.535",
+            "unit": "nm"
+         },
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "0.225",
+          "unit": "µm/h"
+        },
+         "post_cmp_surface_roughness": {
+            "parameter": "Ra",
+            "value": "1.879",
+            "unit": "nm"
+         },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg",
+          "note": "Down force"
+        },
+        "platen_speed": {
+            "value": "60",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Instrument Co., LTD, China)",
+        "pad_composition": "Rodel porous polyurethane pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "SiO2_1.0wtCeO2",
+      "experiment_context": "Ce-doped colloidal SiO₂ abrasive (1.0 wt.% CeO₂) used for CMP on sapphire substrate.",
+      "precursor_chemical": [
+        {"name": "ceric ammonium nitrate ((NH₄)₂Ce(NO₃)₆)", "source": "Section 2.1, 2.2.1"},
+        {"name": "colloidal SiO₂ seed", "source": "Section 2.2.1"},
+        {"name": "active silicic acid solution", "source": "Section 2.2.1"},
+        {"name": "carbamide (CO(NH₂)₂)", "source": "Section 2.1, 2.2.1"},
+        {"name": "ammonia (NH₃·H₂O)", "source": "Section 2.1, 2.2.1"}
+      ],
+      "precursor_concentration": [
+         {"chemical": "crystal silica seed solution", "value": "10", "unit": "wt.%", "note": "Initial seed solution concentration"},
+         {"chemical": "active silicic acid solution", "value": "2.5", "unit": "wt.%", "note": "Added solution concentration"},
+         {"chemical": "(NH₄)₂Ce(NO₃)₆ solution", "value": "0.4", "unit": "wt.%", "note": "Added solution concentration, amount varied for doping level"},
+         {"chemical": "CO(NH₂)₂ solution", "value": "0.05", "unit": "wt.%", "note": "Added solution concentration"},
+         {"chemical": "ammonia", "value": "1.5", "unit": "wt.%", "note": "Added solution concentration"}
+      ],
+      "precipitant_type": "ammonia (NH₃·H₂O)",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "100",
+        "unit": "°C"
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": "9.0-11.0",
+        "stirring_speed": {
+            "value": null,
+            "unit": "",
+            "note": "Continuously stirring mentioned, speed not specified"
+        },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+         "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_doping_concentration": {
+          "dopant": "CeO₂",
+          "value": "1.0",
+          "unit": "wt.%" ,
+          "note": "Mass ratio CeO₂ vs SiO₂"
+        },
+        "final_solid_concentration": {
+            "value": "6",
+            "unit": "wt.%"
+        },
+        "additives": [
+          {
+            "name": "sodium hexametaphosphate",
+            "type": "dispersant",
+            "concentration": {
+              "value": "3.0",
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "filtration": "10 µm pore filter"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "note": "Almost no change compared to 0 wt.% (Sec 3.1)"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "inerratic spherical shape",
+        "measurement_methods_used": ["SEM (Fig 1c)"],
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "substrate_material": "α-Al₂O₃ sapphire",
+        "substrate_orientation": "c (0001)",
+        "substrate_dimensions": {
+            "diameter": {"value": "50.8", "unit": "mm"},
+            "thickness": {"value": "0.45", "unit": "mm"}
+        },
+         "pre_cmp_surface_roughness": {
+            "parameter": "Ra",
+            "value": "2.535",
+            "unit": "nm"
+         },
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "0.368",
+          "unit": "µm/h"
+        },
+         "post_cmp_surface_roughness": {
+            "parameter": "Ra",
+            "value": null,
+            "unit": "nm",
+            "note": "Not reported in Fig 4"
+         },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg",
+          "note": "Down force"
+        },
+        "platen_speed": {
+            "value": "60",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Instrument Co., LTD, China)",
+        "pad_composition": "Rodel porous polyurethane pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "SiO2_1.5wtCeO2",
+      "experiment_context": "Ce-doped colloidal SiO₂ abrasive (1.5 wt.% CeO₂) used for CMP on sapphire substrate.",
+      "precursor_chemical": [
+        {"name": "ceric ammonium nitrate ((NH₄)₂Ce(NO₃)₆)", "source": "Section 2.1, 2.2.1"},
+        {"name": "colloidal SiO₂ seed", "source": "Section 2.2.1"},
+        {"name": "active silicic acid solution", "source": "Section 2.2.1"},
+        {"name": "carbamide (CO(NH₂)₂)", "source": "Section 2.1, 2.2.1"},
+        {"name": "ammonia (NH₃·H₂O)", "source": "Section 2.1, 2.2.1"}
+      ],
+      "precursor_concentration": [
+         {"chemical": "crystal silica seed solution", "value": "10", "unit": "wt.%", "note": "Initial seed solution concentration"},
+         {"chemical": "active silicic acid solution", "value": "2.5", "unit": "wt.%", "note": "Added solution concentration"},
+         {"chemical": "(NH₄)₂Ce(NO₃)₆ solution", "value": "0.4", "unit": "wt.%", "note": "Added solution concentration, amount varied for doping level"},
+         {"chemical": "CO(NH₂)₂ solution", "value": "0.05", "unit": "wt.%", "note": "Added solution concentration"},
+         {"chemical": "ammonia", "value": "1.5", "unit": "wt.%", "note": "Added solution concentration"}
+      ],
+      "precipitant_type": "ammonia (NH₃·H₂O)",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "100",
+        "unit": "°C"
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": "9.0-11.0",
+        "stirring_speed": {
+            "value": null,
+            "unit": "",
+            "note": "Continuously stirring mentioned, speed not specified"
+        },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+         "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_doping_concentration": {
+          "dopant": "CeO₂",
+          "value": "1.5",
+          "unit": "wt.%" ,
+          "note": "Mass ratio CeO₂ vs SiO₂"
+        },
+        "final_solid_concentration": {
+            "value": "6",
+            "unit": "wt.%"
+        },
+        "additives": [
+          {
+            "name": "sodium hexametaphosphate",
+            "type": "dispersant",
+            "concentration": {
+              "value": "3.0",
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        },
+        "filtration": "10 µm pore filter"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "note": "Almost no change compared to 0 wt.% (Sec 3.1)"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+            "Ce_presence_confirmed": true,
+            "Si_presence_confirmed": true,
+            "measurement_method_used": "TOF-SIMS (Fig 2b)"
+        },
+        "particle_morphology": "inerratic spherical shape",
+        "measurement_methods_used": ["SEM (Fig 1d)", "TOF-SIMS (Fig 2b)", "ICP-AES (Table 2, post-polishing)", "XPS (Fig 6, post-polishing)"],
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "substrate_material": "α-Al₂O₃ sapphire",
+        "substrate_orientation": "c (0001)",
+        "substrate_dimensions": {
+            "diameter": {"value": "50.8", "unit": "mm"},
+            "thickness": {"value": "0.45", "unit": "mm"}
+        },
+         "pre_cmp_surface_roughness": {
+            "parameter": "Ra",
+            "value": "2.535",
+            "unit": "nm"
+         },
+        "polishing_time": {
+          "value": "2",
+          "unit": "h"
+        },
+        "material_removal_rate": {
+          "value": "0.387",
+          "unit": "µm/h"
+        },
+         "post_cmp_surface_roughness": {
+            "parameter": "Ra",
+            "value": "1.376",
+            "unit": "nm"
+         },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "6",
+          "unit": "kg",
+          "note": "Down force"
+        },
+        "platen_speed": {
+            "value": "60",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "180",
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "UNIPOL-1502 polisher (Shenyang Kejing Instrument Co., LTD, China)",
+        "pad_composition": "Rodel porous polyurethane pad"
+      },
+      "theoretical_analysis": {
+          "mechanism_notes": [
+              "Solid-state chemical reaction occurs during polishing (Sec 3.3)",
+              "Reaction between sapphire surface (Al₂O₃ -> AlOOH) and SiO₂ to form Al₂SiO₅ (Eq 2, 3)",
+              "Reaction between CeO₂, SiO₂, and Al₂O₃ to form Al₄SiCeO₃ (Eq 4)",
+              "XPS analysis confirms presence of Al₂SiO₅ and Al₄SiCeO₃ post-polishing (Fig 6, Tables 3-5)"
+          ]
+      }
+    }
+  ]
+}

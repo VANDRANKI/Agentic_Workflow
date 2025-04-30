@@ -1,0 +1,826 @@
+{
+  "doi": "10.1016/j.apsusc.2023.156997",
+  "title": "Doping strategy on properties and chemical mechanical polishing performance of CeO₂ Abrasives: A DFT assisted experimental study",
+  "year_published": "2023",
+  "journal": "Applied Surface Science",
+  "samples": [
+    {
+      "sample_id": "Pure_CeO2",
+      "experiment_context": "Pure CeO₂ abrasive (x=0.00) prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O"],
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": 238.10, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Spherical particles",
+        "crystallinity_phase_composition": "Single‑phase cubic fluorite CeO₂",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": {"value": 5.4113, "unit": "Å"},
+        "lattice_volume": {"value": 158.5, "unit": "Å³"},
+        "surface_ce3_percent_xps": {"value": 21.81, "unit": "%"},
+        "elemental_composition_eds": {
+          "O": {"value": 27.47, "unit": "wt%"},
+          "Ce": {"value": 72.53, "unit": "wt%"}
+        }
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": 401.90, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.2", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": {"value": 1.37, "unit": "nm"}
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 3.4985, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.98Y0.02O2",
+      "experiment_context": "Y³⁺ doped CeO₂ (x=0.02) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Y", "concentration_x": 0.02},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Y-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": {"value": 5.4119, "unit": "Å"},
+        "lattice_volume": {"value": 158.5, "unit": "Å³"},
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": 509.10, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.3", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": {"value": "~1.00", "unit": "nm"}
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 0.8517, "unit": "eV"}
+      }
+    },
+        {
+      "sample_id": "Ce0.96Y0.04O2",
+      "experiment_context": "Y³⁺ doped CeO₂ (x=0.04) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Y", "concentration_x": 0.04},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Y-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": {"value": 5.4119, "unit": "Å"},
+        "lattice_volume": {"value": 158.5, "unit": "Å³"},
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": 578.74, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.18", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": {"value": "~1.00", "unit": "nm"}
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 0.8517, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.94Y0.06O2",
+      "experiment_context": "Y³⁺ doped CeO₂ (x=0.06) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Y", "concentration_x": 0.06},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Y-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": {"value": 5.4121, "unit": "Å"},
+        "lattice_volume": {"value": 158.5, "unit": "Å³"},
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": 589.46, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.22", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": {"value": "~1.00", "unit": "nm"}
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 0.8517, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.92Y0.08O2",
+      "experiment_context": "Y³⁺ doped CeO₂ (x=0.08) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Y", "concentration_x": 0.08},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Y-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": {"value": 5.4124, "unit": "Å"},
+        "lattice_volume": {"value": 158.5, "unit": "Å³"},
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": 626.97, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.25", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": {"value": "~1.00", "unit": "nm"}
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 0.8517, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.90Y0.10O2",
+      "experiment_context": "Y³⁺ doped CeO₂ (x=0.10) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Y", "concentration_x": 0.10},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Y-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": {"value": 5.4133, "unit": "Å"},
+        "lattice_volume": {"value": 158.6, "unit": "Å³"},
+        "surface_ce3_percent_xps": {"value": 37.03, "unit": "%"},
+        "elemental_composition_eds": {"Y": {"value": 2.05, "unit": "at%"}}
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": 562.67, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.3", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": {"value": "~1.00", "unit": "nm"}
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 0.8517, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.98La0.02O2",
+      "experiment_context": "La³⁺ doped CeO₂ (x=0.02) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "La(NO₃)₃·nH₂O"],
+      "dopant": {"element": "La", "concentration_x": 0.02},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-La-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": null, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.35", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0228, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.96La0.04O2",
+      "experiment_context": "La³⁺ doped CeO₂ (x=0.04) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "La(NO₃)₃·nH₂O"],
+      "dopant": {"element": "La", "concentration_x": 0.04},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-La-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": null, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.2", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0228, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.94La0.06O2",
+      "experiment_context": "La³⁺ doped CeO₂ (x=0.06) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "La(NO₃)₃·nH₂O"],
+      "dopant": {"element": "La", "concentration_x": 0.06},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-La-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": null, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.25", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0228, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.92La0.08O2",
+      "experiment_context": "La³⁺ doped CeO₂ (x=0.08) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "La(NO₃)₃·nH₂O"],
+      "dopant": {"element": "La", "concentration_x": 0.08},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-La-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": 562.66, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.3", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0228, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.90La0.10O2",
+      "experiment_context": "La³⁺ doped CeO₂ (x=0.10) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "La(NO₃)₃·nH₂O"],
+      "dopant": {"element": "La", "concentration_x": 0.10},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-La-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": {"value": 30.96, "unit": "%"},
+        "elemental_composition_eds": {"La": {"value": 1.11, "unit": "at%"}}
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": null, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.35", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0228, "unit": "eV"}
+      }
+    },
+        {
+      "sample_id": "Ce0.98Pr0.02O2",
+      "experiment_context": "Pr³⁺ doped CeO₂ (x=0.02) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Pr(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Pr", "concentration_x": 0.02},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Pr-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": null, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.4", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0028, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.96Pr0.04O2",
+      "experiment_context": "Pr³⁺ doped CeO₂ (x=0.04) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Pr(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Pr", "concentration_x": 0.04},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Pr-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": null, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.22", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0028, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.94Pr0.06O2",
+      "experiment_context": "Pr³⁺ doped CeO₂ (x=0.06) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Pr(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Pr", "concentration_x": 0.06},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Pr-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": null, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.28", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0028, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.92Pr0.08O2",
+      "experiment_context": "Pr³⁺ doped CeO₂ (x=0.08) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Pr(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Pr", "concentration_x": 0.08},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Pr-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": null,
+        "elemental_composition_eds": null
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": 578.74, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.32", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0028, "unit": "eV"}
+      }
+    },
+    {
+      "sample_id": "Ce0.90Pr0.10O2",
+      "experiment_context": "Pr³⁺ doped CeO₂ (x=0.10) abrasive prepared by molten salt method.",
+      "synthesis_method": "Molten salt method",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Pr(NO₃)₃·6H₂O"],
+      "dopant": {"element": "Pr", "concentration_x": 0.10},
+      "synthesis_conditions": {
+        "salt_type": "KCl - NaCl eutectic salt",
+        "salt_molar_ratio_precursor": "10:1",
+        "total_precursor_molar_amount": {"value": 5, "unit": "mmol"},
+        "mixing_solvent": "absolute ethanol",
+        "drying_temperature": {"value": 80, "unit": "°C"},
+        "calcination_temperature": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {"method": "Washed with hot deionized water"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": 0.5, "unit": "wt%"},
+        "target_final_slurry_ph": 6.0,
+        "ph_adjustment_chemicals": "low-concentration ammonia and nitric acid solution",
+        "dispersion_method": "ball milling",
+        "homogenization_method": "magnetic stirrer"
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": null, "unit": "nm", "measurement_method_used": "SEM"},
+        "particle_morphology": "Octahedron",
+        "crystallinity_phase_composition": "Ce-Pr-O solid solution, cubic fluorite structure",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"],
+        "lattice_constant": null,
+        "lattice_volume": null,
+        "surface_ce3_percent_xps": {"value": 32.85, "unit": "%"},
+        "elemental_composition_eds": {"Pr": {"value": 1.62, "unit": "at%"}}
+      },
+      "cmp_performance": {
+        "substrate": "Quartz glass",
+        "polishing_time": {"value": 3, "unit": "min"},
+        "material_removal_rate": {"value": null, "unit": "nm/min"},
+        "polishing_pressure": {"value": 3.5, "unit": "kg"},
+        "rotation_speed_platen": {"value": 80, "unit": "r/min"},
+        "rotation_speed_carrier": {"value": 80, "unit": "r/min"},
+        "slurry_supplying_rate": {"value": 25, "unit": "mL/min"},
+        "equipment_model": "UNIPOL-1200S automatic pressure grinding and polishing machine (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "pad_composition": "Synthetic leather polishing pad (Shenyang Kejing Auto-instrument, Co. LTD, China)",
+        "post_cmp_surface_roughness_ra": {"value": "~0.4", "unit": "nm"},
+        "post_cmp_surface_roughness_pk_pk": null
+      },
+      "theoretical_analysis": {
+        "dft_oxygen_vacancy_formation_energy": {"value": 1.0028, "unit": "eV"}
+      }
+    }
+  ]
+}

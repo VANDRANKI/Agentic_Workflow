@@ -1,0 +1,291 @@
+{
+  "doi": null,
+  "title": "Development of Ce/Cu co-doped dendritic mesoporous silica nanoparticles (DMSNs) as novel abrasive systems toward high-performance chemical mechanical polishing",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "DMSNs_CMP",
+      "experiment_context": "Polishing of SiO2 wafer using pure DMSNs abrasive in a standard CMP process.",
+      "abrasive_synthesis": {
+        "method": "Biphase stratification approach",
+        "precursors": [
+          {"chemical": "TEOS", "quantity": "7.44 mL", "solvent": "13.8 mL n-hexane"},
+          {"chemical": "CTAB", "quantity": "1.0 g", "solvent": "60 mL DI water"},
+          {"chemical": "TEA", "quantity": "0.18 g", "solvent": "60 mL DI water"}
+        ],
+        "reaction_temperature": {"value": "60", "unit": "°C"},
+        "reaction_time": {"value": "24", "unit": "h"},
+        "synthesis_conditions": {
+          "stirring_speed": {"value": "150", "unit": "r/min"}
+        },
+        "post_synthesis_treatment": {
+          "washing": {"method": "Repeated centrifugation with DI water and ethanol"},
+          "drying": {"temperature": {"value": "75", "unit": "°C"}},
+          "calcination": {"temperature": {"value": "650", "unit": "°C"}, "duration": {"value": "2", "unit": "h"}, "purpose": "Remove CTAB templates"}
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_solid_content": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1.0", "unit": "wt%"}},
+          {"name": "PVP", "type": "Dispersant/Stabilizer", "concentration": {"value": "1.0", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "8.0-8.5",
+        "ph_adjuster": "0.1 M NaOH",
+        "solvent": {"name": "DI water"}
+      },
+      "abrasive_characterization": {
+        "particle_size_distribution": {"value": "72.0", "unit": "nm", "std_dev": "6.5", "measurement_method_used": "SEM (Nano Measurer Software, Fig. 2a)"},
+        "crystallinity_phase_composition": {"value": "Amorphous", "measurement_method_used": "XRD (Fig. 4a)"},
+        "specific_surface_area_bet": {"value": "605.8", "unit": "m²/g", "measurement_method_used": "N2 adsorption (Fig. 7a)"},
+        "pore_volume": {"value": "1.18", "unit": "cm³/g", "measurement_method_used": "N2 adsorption (Fig. 7a)"},
+        "average_pore_diameter": {"value": "9.2", "unit": "nm", "measurement_method_used": "BJH (adsorption branch, Fig. 7b)"},
+        "particle_morphology": "Uniform spherical dendritic mesoporous nanoparticles, relatively smooth surface (Fig. 2a, Fig. 5a)",
+        "xrd_peaks": ["Broad peak at ca. 21.8° 2θ (Fig. 4a)"],
+        "ftir_peaks_cm-1": [3434, 1635, 1083, 968, 806, 468]
+      },
+      "cmp_performance": {
+        "polishing_process": "CMP",
+        "polishing_time": {"value": "2", "unit": "min"},
+        "material_removal_rate": {"value": "68", "unit": "nm/min", "std_dev": "5", "source": "Table 2"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3.0-3.5", "unit": "psi"},
+        "head_rotation_speed": {"value": "120", "unit": "r/min"},
+        "plate_rotation_speed": {"value": "90", "unit": "r/min"},
+        "slurry_flow_rate": {"value": "50", "unit": "mL/min"},
+        "equipment_model": "Tegra-Force-1-TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane (MD-Chem, Struers)",
+        "substrate_material": "Thermally grown SiO2 wafers (ca. 1.2 µm thick)",
+        "post_cmp_surface_roughness": {
+          "Ra": {"value": "0.167", "unit": "nm", "std_dev": "0.008"},
+          "Rq": {"value": "0.223", "unit": "nm", "std_dev": "0.015"},
+          "Rz": {"value": "0.326", "unit": "nm", "std_dev": "0.008"},
+          "measurement_method_used": "AFM (5x5 µm², Table 1, Fig. 11a)"
+        },
+        "surface_area_difference": {"value": "0.00645", "unit": "%", "std_dev": "0.00044", "source": "Table 1"}
+      }
+    },
+    {
+      "sample_id": "Ce-DMSNs_CMP",
+      "experiment_context": "Polishing of SiO2 wafer using Ce single-doped DMSNs abrasive in a standard CMP process.",
+      "abrasive_synthesis": {
+        "method": "Impregnation-Thermolysis",
+        "base_material": "DMSNs (0.30 g)",
+        "precursors": [
+          {"chemical": "Ce(NO₃)₂·6H₂O", "quantity": "0.42 g (0.50 mmol)", "solvent": "20 mL ethanol"}
+        ],
+        "reaction_temperature": [
+          {"value": "RT", "unit": "", "step": "Impregnation"},
+          {"value": "45", "unit": "°C", "step": "Ethanol Evaporation"},
+          {"value": "550", "unit": "°C", "step": "Calcination"}
+        ],
+        "reaction_time": [
+          {"value": "10", "unit": "min", "step": "Ultrasonication"},
+          {"value": "2", "unit": "h", "step": "Aging"},
+          {"value": "2", "unit": "h", "step": "Calcination"}
+        ],
+        "synthesis_conditions": {
+          "stirring_speed": {"value": "200-300", "unit": "r/min", "step": "Aging"}
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_solid_content": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1.0", "unit": "wt%"}},
+          {"name": "PVP", "type": "Dispersant/Stabilizer", "concentration": {"value": "1.0", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "8.0-8.5",
+        "ph_adjuster": "0.1 M NaOH",
+        "solvent": {"name": "DI water"}
+      },
+      "abrasive_characterization": {
+        "particle_size_distribution": {"value": "74.2", "unit": "nm", "std_dev": "6.2", "measurement_method_used": "SEM (Nano Measurer Software, Fig. 2b)"},
+        "crystallinity_phase_composition": {"value": "Amorphous SiO2 + Cubic fluorite CeO2", "measurement_method_used": "XRD (Fig. 4b)"},
+        "specific_surface_area_bet": {"value": "265.9", "unit": "m²/g", "measurement_method_used": "N2 adsorption (Fig. 7c)"},
+        "pore_volume": {"value": "0.60", "unit": "cm³/g", "measurement_method_used": "N2 adsorption (Fig. 7c)"},
+        "average_pore_diameter": {"value": "9.0", "unit": "nm", "measurement_method_used": "BJH (adsorption branch, Fig. 7d)"},
+        "particle_morphology": "Spherical, rougher surface than DMSNs, CeO2 nanoparticles visible (Fig. 2b, Fig. 5b)",
+        "xrd_peaks": ["Broad peak ca. 21.8°", "28.3° (111)", "32.8° (200)", "47.4° (220)", "56.1° (311)", "69.1° (222)", "76.5° (331) (Fig. 4b)"],
+        "ftir_analysis": "Broader peak ca. 1083 cm⁻¹, Increased intensity ca. 968 cm⁻¹ (Si-O-Ce) (Fig. 6)",
+        "tem_lattice_spacing": [{"value": "0.31", "unit": "nm", "plane": "(111)", "material": "CeO2", "source": "Fig. 5b"}],
+        "elemental_composition": {"elements_present": ["Si", "O", "Ce"], "distribution": "Homogeneous", "measurement_method_used": "SEM-EDS (Fig. 3a)"},
+        "surface_ce3_percent_xps": {"value": "32.8", "unit": "%", "source": "Section 3.1, Fig. 8c"},
+        "oxygen_vacancy_percent_xps": {"value": "8.2", "unit": "%", "source": "Section 3.1"}
+      },
+      "cmp_performance": {
+        "polishing_process": "CMP",
+        "polishing_time": {"value": "2", "unit": "min"},
+        "material_removal_rate": {"value": "93", "unit": "nm/min", "std_dev": "4", "source": "Table 2"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3.0-3.5", "unit": "psi"},
+        "head_rotation_speed": {"value": "120", "unit": "r/min"},
+        "plate_rotation_speed": {"value": "90", "unit": "r/min"},
+        "slurry_flow_rate": {"value": "50", "unit": "mL/min"},
+        "equipment_model": "Tegra-Force-1-TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane (MD-Chem, Struers)",
+        "substrate_material": "Thermally grown SiO2 wafers (ca. 1.2 µm thick)",
+        "post_cmp_surface_roughness": {
+          "Ra": {"value": "0.123", "unit": "nm", "std_dev": "0.004"},
+          "Rq": {"value": "0.152", "unit": "nm", "std_dev": "0.008"},
+          "Rz": {"value": "0.173", "unit": "nm", "std_dev": "0.003"},
+          "measurement_method_used": "AFM (5x5 µm², Table 1, Fig. 11b)"
+        },
+        "surface_area_difference": {"value": "0.00355", "unit": "%", "std_dev": "0.00015", "source": "Table 1"}
+      }
+    },
+    {
+      "sample_id": "Ce/Cu-DMSNs_CMP",
+      "experiment_context": "Polishing of SiO2 wafer using Ce/Cu co-doped DMSNs abrasive in a standard CMP process.",
+      "abrasive_synthesis": {
+        "method": "Impregnation-Thermolysis",
+        "base_material": "DMSNs (0.30 g)",
+        "precursors": [
+          {"chemical": "Ce(NO₃)₂·6H₂O", "quantity": "0.21 g (0.25 mmol)", "solvent": "20 mL ethanol"},
+          {"chemical": "Cu(NO₃)₂·3H₂O", "quantity": "0.12 g (0.25 mmol)", "solvent": "20 mL ethanol"}
+        ],
+        "reaction_temperature": [
+          {"value": "RT", "unit": "", "step": "Impregnation"},
+          {"value": "45", "unit": "°C", "step": "Ethanol Evaporation"},
+          {"value": "550", "unit": "°C", "step": "Calcination"}
+        ],
+        "reaction_time": [
+          {"value": "10", "unit": "min", "step": "Ultrasonication"},
+          {"value": "2", "unit": "h", "step": "Aging"},
+          {"value": "2", "unit": "h", "step": "Calcination"}
+        ],
+        "synthesis_conditions": {
+          "stirring_speed": {"value": "200-300", "unit": "r/min", "step": "Aging"}
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_solid_content": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1.0", "unit": "wt%"}},
+          {"name": "PVP", "type": "Dispersant/Stabilizer", "concentration": {"value": "1.0", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "8.0-8.5",
+        "ph_adjuster": "0.1 M NaOH",
+        "solvent": {"name": "DI water"}
+      },
+      "abrasive_characterization": {
+        "particle_size_distribution": {"value": "74.6", "unit": "nm", "std_dev": "7.4", "measurement_method_used": "SEM (Nano Measurer Software, Fig. 2d)"},
+        "crystallinity_phase_composition": {"value": "Amorphous SiO2 + Cubic fluorite CeO2 + Monoclinic CuO", "measurement_method_used": "XRD (Fig. 4d)"},
+        "specific_surface_area_bet": {"value": "299.7", "unit": "m²/g", "measurement_method_used": "N2 adsorption (Fig. 7e)"},
+        "pore_volume": {"value": "0.66", "unit": "cm³/g", "measurement_method_used": "N2 adsorption (Fig. 7e)"},
+        "average_pore_diameter": {"value": "8.9", "unit": "nm", "measurement_method_used": "BJH (adsorption branch, Fig. 7f)"},
+        "particle_morphology": "Spherical, rougher surface than DMSNs, CeO2 and CuO nanoparticles visible (Fig. 2d, Fig. 5c)",
+        "xrd_peaks": ["Broad peak ca. 21.8°", "CeO2 peaks (111, 200, 220, 311, 222, 331)", "CuO peaks (110, -111, 111, -112, -113) (Fig. 4d)"],
+        "ftir_analysis": "Broader peak ca. 1083 cm⁻¹, Increased intensity ca. 968 cm⁻¹ (Si-O-Ce/Cu) (Fig. 6)",
+        "tem_lattice_spacing": [
+          {"value": "0.31", "unit": "nm", "plane": "(111)", "material": "CeO2", "source": "Fig. 5c"},
+          {"value": "0.23", "unit": "nm", "plane": "(111)", "material": "CuO", "source": "Fig. 5c"}
+        ],
+        "elemental_composition": {"elements_present": ["Si", "O", "Ce", "Cu"], "distribution": "Homogeneous", "measurement_method_used": "SEM-EDS (Fig. 3b)"},
+        "surface_ce3_percent_xps": {"value": "39.5", "unit": "%", "source": "Section 3.1, Fig. 8d"},
+        "oxygen_vacancy_percent_xps": {"value": "9.9", "unit": "%", "source": "Section 3.1"},
+        "xps_cu_states": {"coexisting_states": ["Cu(I)", "Cu(II)"], "source": "Fig. 9c"}
+      },
+      "cmp_performance": {
+        "polishing_process": "CMP",
+        "polishing_time": {"value": "2", "unit": "min"},
+        "material_removal_rate": {"value": "152", "unit": "nm/min", "std_dev": "12", "source": "Table 2"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3.0-3.5", "unit": "psi"},
+        "head_rotation_speed": {"value": "120", "unit": "r/min"},
+        "plate_rotation_speed": {"value": "90", "unit": "r/min"},
+        "slurry_flow_rate": {"value": "50", "unit": "mL/min"},
+        "equipment_model": "Tegra-Force-1-TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane (MD-Chem, Struers)",
+        "substrate_material": "Thermally grown SiO2 wafers (ca. 1.2 µm thick)",
+        "post_cmp_surface_roughness": {
+          "Ra": {"value": "0.141", "unit": "nm", "std_dev": "0.009"},
+          "Rq": {"value": "0.172", "unit": "nm", "std_dev": "0.010"},
+          "Rz": {"value": "0.183", "unit": "nm", "std_dev": "0.003"},
+          "measurement_method_used": "AFM (5x5 µm², Table 1, Fig. 12a)"
+        },
+        "surface_area_difference": {"value": "0.00358", "unit": "%", "std_dev": "0.00059", "source": "Table 1"}
+      }
+    },
+    {
+      "sample_id": "Ce/Cu-DMSNs_PCMP",
+      "experiment_context": "Polishing of SiO2 wafer using Ce/Cu co-doped DMSNs abrasive in a UV-assisted PCMP process.",
+      "abrasive_synthesis": {
+        "method": "Impregnation-Thermolysis",
+        "base_material": "DMSNs (0.30 g)",
+        "precursors": [
+          {"chemical": "Ce(NO₃)₂·6H₂O", "quantity": "0.21 g (0.25 mmol)", "solvent": "20 mL ethanol"},
+          {"chemical": "Cu(NO₃)₂·3H₂O", "quantity": "0.12 g (0.25 mmol)", "solvent": "20 mL ethanol"}
+        ],
+        "reaction_temperature": [
+          {"value": "RT", "unit": "", "step": "Impregnation"},
+          {"value": "45", "unit": "°C", "step": "Ethanol Evaporation"},
+          {"value": "550", "unit": "°C", "step": "Calcination"}
+        ],
+        "reaction_time": [
+          {"value": "10", "unit": "min", "step": "Ultrasonication"},
+          {"value": "2", "unit": "h", "step": "Aging"},
+          {"value": "2", "unit": "h", "step": "Calcination"}
+        ],
+        "synthesis_conditions": {
+          "stirring_speed": {"value": "200-300", "unit": "r/min", "step": "Aging"}
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_solid_content": {"value": "1.0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1.0", "unit": "wt%"}},
+          {"name": "PVP", "type": "Dispersant/Stabilizer", "concentration": {"value": "1.0", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "8.0-8.5",
+        "ph_adjuster": "0.1 M NaOH",
+        "solvent": {"name": "DI water"},
+        "slurry_pretreatment": "UV light irradiation for 10 min (Section 2.4)"
+      },
+      "abrasive_characterization": {
+        "particle_size_distribution": {"value": "74.6", "unit": "nm", "std_dev": "7.4", "measurement_method_used": "SEM (Nano Measurer Software, Fig. 2d)"},
+        "crystallinity_phase_composition": {"value": "Amorphous SiO2 + Cubic fluorite CeO2 + Monoclinic CuO", "measurement_method_used": "XRD (Fig. 4d)"},
+        "specific_surface_area_bet": {"value": "299.7", "unit": "m²/g", "measurement_method_used": "N2 adsorption (Fig. 7e)"},
+        "pore_volume": {"value": "0.66", "unit": "cm³/g", "measurement_method_used": "N2 adsorption (Fig. 7e)"},
+        "average_pore_diameter": {"value": "8.9", "unit": "nm", "measurement_method_used": "BJH (adsorption branch, Fig. 7f)"},
+        "particle_morphology": "Spherical, rougher surface than DMSNs, CeO2 and CuO nanoparticles visible (Fig. 2d, Fig. 5c)",
+        "xrd_peaks": ["Broad peak ca. 21.8°", "CeO2 peaks (111, 200, 220, 311, 222, 331)", "CuO peaks (110, -111, 111, -112, -113) (Fig. 4d)"],
+        "ftir_analysis": "Broader peak ca. 1083 cm⁻¹, Increased intensity ca. 968 cm⁻¹ (Si-O-Ce/Cu) (Fig. 6)",
+        "tem_lattice_spacing": [
+          {"value": "0.31", "unit": "nm", "plane": "(111)", "material": "CeO2", "source": "Fig. 5c"},
+          {"value": "0.23", "unit": "nm", "plane": "(111)", "material": "CuO", "source": "Fig. 5c"}
+        ],
+        "elemental_composition": {"elements_present": ["Si", "O", "Ce", "Cu"], "distribution": "Homogeneous", "measurement_method_used": "SEM-EDS (Fig. 3b)"},
+        "surface_ce3_percent_xps": {"value": "39.5", "unit": "%", "source": "Section 3.1, Fig. 8d"},
+        "oxygen_vacancy_percent_xps": {"value": "9.9", "unit": "%", "source": "Section 3.1"},
+        "xps_cu_states": {"coexisting_states": ["Cu(I)", "Cu(II)"], "source": "Fig. 9c"}
+      },
+      "cmp_performance": {
+        "polishing_process": "PCMP (UV-assisted)",
+        "polishing_time": {"value": "2", "unit": "min"},
+        "material_removal_rate": {"value": "184", "unit": "nm/min", "std_dev": "9", "source": "Table 2"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3.0-3.5", "unit": "psi"},
+        "head_rotation_speed": {"value": "120", "unit": "r/min"},
+        "plate_rotation_speed": {"value": "90", "unit": "r/min"},
+        "slurry_flow_rate": {"value": "50", "unit": "mL/min"},
+        "equipment_model": "Tegra-Force-1-TrgraPol-15 polisher (Struers)",
+        "pad_composition": "Porous polyurethane (MD-Chem, Struers)",
+        "substrate_material": "Thermally grown SiO2 wafers (ca. 1.2 µm thick)",
+        "uv_irradiation": {
+          "power": {"value": "250", "unit": "W"},
+          "wavelength": {"value": "365", "unit": "nm"},
+          "distance": {"value": "ca. 30", "unit": "cm"},
+          "source": "Section 2.4, Fig. 1"
+        },
+        "post_cmp_surface_roughness": {
+          "Ra": {"value": "0.120", "unit": "nm", "std_dev": "0.006"},
+          "Rq": {"value": "0.144", "unit": "nm", "std_dev": "0.007"},
+          "Rz": {"value": "0.149", "unit": "nm", "std_dev": "0.009"},
+          "measurement_method_used": "AFM (5x5 µm², Table 1, Fig. 12b)"
+        },
+        "surface_area_difference": {"value": "0.00299", "unit": "%", "std_dev": "0.00031", "source": "Table 1"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,771 @@
+{
+  "doi": null,
+  "title": "Development of carbon sphere/ceria (CS/CeO₂) heterostructured particles and their applications to functional abrasives toward photochemical mechanical polishing",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "CS/CeO2_CMP",
+      "experiment_context": "Undoped Carbon Sphere/Ceria (CS/CeO₂) heterostructured particles used as abrasive in conventional Chemical Mechanical Polishing (CMP). Synthesized via hydrothermal method for CS followed by in-situ chemical precipitation for CeO2 coating.",
+      "precursor_chemical": [
+        "D(+)-Glucose monohydrate",
+        "Ce(NO₃)₃·6H₂O"
+      ],
+      "precursor_concentration": null,
+      "precipitant_type": "hexamethylenetetramine (HMT)",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": [
+        {
+          "stage": "CS Synthesis",
+          "value": 180,
+          "unit": "°C"
+        },
+        {
+          "stage": "CeO2 Grafting",
+          "value": 75,
+          "unit": "°C"
+        }
+      ],
+      "reaction_time": [
+         {
+          "stage": "CS Synthesis",
+          "value": 4,
+          "unit": "h"
+        },
+        {
+          "stage": "CeO2 Grafting",
+          "value": 2,
+          "unit": "h"
+        }
+      ],
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": 300,
+          "unit": "rpm"
+        },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Repeated centrifugation",
+          "solvents": ["DI water", "ethanol"]
+        },
+        "drying": {
+          "temperature": {
+            "value": 80,
+            "unit": "°C"
+          }
+        },
+        "calcination": {
+          "temperature": {
+            "value": 550,
+            "unit": "°C"
+          },
+          "atmosphere": "Nitrogen",
+          "duration": {
+            "value": 2,
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": 100,
+            "unit": "g"
+          }
+        },
+        "preparation_method": "Ultrasonic dispersion"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "range": "50-300",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Fig. 4b)",
+          "notes": "Polydispersed. SEM shows modes around 70-80 nm, 140-150 nm, 250-260 nm (Fig. 4a)."
+        },
+         "shell_thickness": {
+          "range": "10-15",
+          "unit": "nm",
+          "measurement_method_used": "TEM (Fig. 4d)"
+        },
+        "crystallite_size": {
+          "value": 5.47,
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "cubic fluorite CeO₂",
+          "jcpds_no": "34-0394"
+        },
+        "surface_functional_groups": {
+          "ftir_peaks_cm-1": [
+            {"peak": 3435, "assignment": "O-H stretching"},
+            {"peak": 1620, "assignment": "C=C stretching (aromatic carboxylic moiety)"},
+            {"peak": 1384, "assignment": "Ce-O-C stretching"},
+            {"peak": 701, "assignment": "Ce-O-Ce vibration"},
+            {"peak": 486, "assignment": "Ce-O vibration"}
+          ],
+          "measurement_method_used": "FT-IR (Fig. 3)"
+        },
+        "elemental_composition": {
+           "elements_present": ["Ce", "O", "C"],
+           "measurement_method_used": "XPS (Fig. 7a)",
+           "surface_ce3_percent_xps": {
+             "value": 42.6,
+             "unit": "%",
+             "notes": "Calculated from integrated peak areas in Ce 3d spectrum (Fig. 7b, Table 1)."
+           },
+           "c1s_peaks_eV": [
+             {"peak": 283.8, "assignment": "Graphitic carbon (C-C, CHx)"},
+             {"peak": 284.4, "assignment": "Phenolic carbonyl groups (C₆H₅−C₅O)"},
+             {"peak": 284.9, "assignment": "Carbonyl and/or ester groups (C₆O, -COOR)"},
+             {"peak": 286.0, "assignment": "Carbonyl and/or ester groups (C₆O, -COOR)"},
+             {"peak": 288.3, "assignment": "Carbonyl and/or ester groups (C₆O, -COOR)"}
+           ]
+        },
+        "particle_morphology": "Spherical polydispersed core-shell particles with rough appearances (Fig. 4c)",
+        "xrd_peaks": {
+          "peaks_2theta_degrees": [28.4, 47.5, 56.5, 69.2, 77.7],
+          "corresponding_planes": ["(111)", "(220)", "(311)", "(400)", "(331)"],
+          "measurement_method_used": "XRD (Fig. 2)"
+        },
+        "raman_peaks_cm-1": {
+          "D_band": {"value": 1350, "unit": "cm⁻¹"},
+          "G_band": {"value": 1590, "unit": "cm⁻¹"},
+          "F2g_mode": {"value": "455-459", "unit": "cm⁻¹"},
+          "defect_mode": {"value": "576-587", "unit": "cm⁻¹"},
+          "Vo_ratio_I2/I1": 0.09,
+          "measurement_method_used": "Raman Spectroscopy (Fig. 6a)"
+        },
+        "pl_emission_peak_nm": {
+          "value": 447,
+          "unit": "nm",
+          "relative_intensity": "Reduced compared to commercial CeO2",
+          "excitation_wavelength": {"value": 325, "unit": "nm"},
+          "measurement_method_used": "PL Spectroscopy (Fig. 5)"
+        },
+        "lattice_parameters": {
+          "value": 5.44,
+          "unit": "Å",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "lattice_spacing_nm": {
+          "value": 0.33,
+          "unit": "nm",
+          "plane": "(111)",
+          "measurement_method_used": "HRTEM (Fig. 4d inset)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_method": "CMP",
+        "polishing_time": {
+          "value": 2,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 47,
+          "unit": "nm/min",
+          "error": 13
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 3.6,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TrgraPol-15 rotary polishing machine (Struers)",
+        "pad_composition": "MD-Chem porous polyurethane pad (Struers)",
+        "rotation_speeds": {
+          "head": {
+            "value": 120,
+            "unit": "rpm"
+          },
+          "platen": {
+            "value": 90,
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": 50,
+          "unit": "mL/min"
+        },
+        "substrate_material": {
+          "type": "Silicon oxide wafers",
+          "initial_thickness": {
+             "value": 1200,
+             "unit": "nm"
+          },
+          "density": {
+             "value": 2.2,
+             "unit": "g/cm³"
+          }
+        },
+        "post_cmp_surface_roughness": {
+          "Ra": {
+            "value": 0.11,
+            "unit": "nm",
+            "error": 0.006
+          },
+          "RMS": {
+            "value": 0.14,
+            "unit": "nm",
+            "error": 0.008
+          },
+          "scan_area": "5.0 x 5.0 µm²",
+          "measurement_method_used": "AFM (Fig. 9, Table 2)"
+        },
+        "pre_cmp_surface_roughness": {
+          "Ra": {
+            "value": 1.03,
+            "unit": "nm"
+          },
+          "RMS": {
+            "value": 1.37,
+            "unit": "nm"
+          },
+          "scan_area": "5.0 x 5.0 µm²",
+          "measurement_method_used": "AFM (Fig. 8)"
+        },
+        "topographical_variation": {
+           "min_value": -0.26,
+           "max_value": 0.27,
+           "unit": "nm",
+           "measurement_method_used": "AFM Line Profile (Fig. 9)"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "CS/CeO2_PCMP",
+      "experiment_context": "Undoped Carbon Sphere/Ceria (CS/CeO₂) heterostructured particles used as abrasive in Photochemical Mechanical Polishing (PCMP) with UV irradiation.",
+      "precursor_chemical": [
+        "D(+)-Glucose monohydrate",
+        "Ce(NO₃)₃·6H₂O"
+      ],
+      "precursor_concentration": null,
+      "precipitant_type": "hexamethylenetetramine (HMT)",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": [
+        {
+          "stage": "CS Synthesis",
+          "value": 180,
+          "unit": "°C"
+        },
+        {
+          "stage": "CeO2 Grafting",
+          "value": 75,
+          "unit": "°C"
+        }
+      ],
+      "reaction_time": [
+         {
+          "stage": "CS Synthesis",
+          "value": 4,
+          "unit": "h"
+        },
+        {
+          "stage": "CeO2 Grafting",
+          "value": 2,
+          "unit": "h"
+        }
+      ],
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": 300,
+          "unit": "rpm"
+        },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Repeated centrifugation",
+          "solvents": ["DI water", "ethanol"]
+        },
+        "drying": {
+          "temperature": {
+            "value": 80,
+            "unit": "°C"
+          }
+        },
+        "calcination": {
+          "temperature": {
+            "value": 550,
+            "unit": "°C"
+          },
+          "atmosphere": "Nitrogen",
+          "duration": {
+            "value": 2,
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": 100,
+            "unit": "g"
+          }
+        },
+        "preparation_method": "Ultrasonic dispersion, followed by UV irradiation (10 min)"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "range": "50-300",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Fig. 4b)",
+          "notes": "Polydispersed. SEM shows modes around 70-80 nm, 140-150 nm, 250-260 nm (Fig. 4a)."
+        },
+         "shell_thickness": {
+          "range": "10-15",
+          "unit": "nm",
+          "measurement_method_used": "TEM (Fig. 4d)"
+        },
+        "crystallite_size": {
+          "value": 5.47,
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "cubic fluorite CeO₂",
+          "jcpds_no": "34-0394"
+        },
+        "surface_functional_groups": {
+          "ftir_peaks_cm-1": [
+            {"peak": 3435, "assignment": "O-H stretching"},
+            {"peak": 1620, "assignment": "C=C stretching (aromatic carboxylic moiety)"},
+            {"peak": 1384, "assignment": "Ce-O-C stretching"},
+            {"peak": 701, "assignment": "Ce-O-Ce vibration"},
+            {"peak": 486, "assignment": "Ce-O vibration"}
+          ],
+          "measurement_method_used": "FT-IR (Fig. 3)"
+        },
+        "elemental_composition": {
+           "elements_present": ["Ce", "O", "C"],
+           "measurement_method_used": "XPS (Fig. 7a)",
+           "surface_ce3_percent_xps": {
+             "value": 42.6,
+             "unit": "%",
+             "notes": "Calculated from integrated peak areas in Ce 3d spectrum (Fig. 7b, Table 1)."
+           },
+           "c1s_peaks_eV": [
+             {"peak": 283.8, "assignment": "Graphitic carbon (C-C, CHx)"},
+             {"peak": 284.4, "assignment": "Phenolic carbonyl groups (C₆H₅−C₅O)"},
+             {"peak": 284.9, "assignment": "Carbonyl and/or ester groups (C₆O, -COOR)"},
+             {"peak": 286.0, "assignment": "Carbonyl and/or ester groups (C₆O, -COOR)"},
+             {"peak": 288.3, "assignment": "Carbonyl and/or ester groups (C₆O, -COOR)"}
+           ]
+        },
+        "particle_morphology": "Spherical polydispersed core-shell particles with rough appearances (Fig. 4c)",
+        "xrd_peaks": {
+          "peaks_2theta_degrees": [28.4, 47.5, 56.5, 69.2, 77.7],
+          "corresponding_planes": ["(111)", "(220)", "(311)", "(400)", "(331)"],
+          "measurement_method_used": "XRD (Fig. 2)"
+        },
+        "raman_peaks_cm-1": {
+          "D_band": {"value": 1350, "unit": "cm⁻¹"},
+          "G_band": {"value": 1590, "unit": "cm⁻¹"},
+          "F2g_mode": {"value": "455-459", "unit": "cm⁻¹"},
+          "defect_mode": {"value": "576-587", "unit": "cm⁻¹"},
+          "Vo_ratio_I2/I1": 0.09,
+          "measurement_method_used": "Raman Spectroscopy (Fig. 6a)"
+        },
+        "pl_emission_peak_nm": {
+          "value": 447,
+          "unit": "nm",
+          "relative_intensity": "Reduced compared to commercial CeO2",
+          "excitation_wavelength": {"value": 325, "unit": "nm"},
+          "measurement_method_used": "PL Spectroscopy (Fig. 5)"
+        },
+        "lattice_parameters": {
+          "value": 5.44,
+          "unit": "Å",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "lattice_spacing_nm": {
+          "value": 0.33,
+          "unit": "nm",
+          "plane": "(111)",
+          "measurement_method_used": "HRTEM (Fig. 4d inset)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_method": "PCMP",
+        "polishing_time": {
+          "value": 2,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 110,
+          "unit": "nm/min",
+          "error": 17
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 3.6,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TrgraPol-15 rotary polishing machine (Struers)",
+        "pad_composition": "MD-Chem porous polyurethane pad (Struers)",
+        "rotation_speeds": {
+          "head": {
+            "value": 120,
+            "unit": "rpm"
+          },
+          "platen": {
+            "value": 90,
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": 50,
+          "unit": "mL/min"
+        },
+        "substrate_material": {
+          "type": "Silicon oxide wafers",
+          "initial_thickness": {
+             "value": 1200,
+             "unit": "nm"
+          },
+           "density": {
+             "value": 2.2,
+             "unit": "g/cm³"
+          }
+        },
+        "post_cmp_surface_roughness": {
+          "Ra": {
+            "value": 0.13,
+            "unit": "nm",
+            "error": 0.020
+          },
+          "RMS": {
+            "value": 0.16,
+            "unit": "nm",
+            "error": 0.024
+          },
+          "scan_area": "5.0 x 5.0 µm²",
+          "measurement_method_used": "AFM (Fig. 10, Table 2)"
+        },
+        "pre_cmp_surface_roughness": {
+          "Ra": {
+            "value": 1.03,
+            "unit": "nm"
+          },
+          "RMS": {
+            "value": 1.37,
+            "unit": "nm"
+          },
+          "scan_area": "5.0 x 5.0 µm²",
+          "measurement_method_used": "AFM (Fig. 8)"
+        },
+         "topographical_variation": {
+           "min_value": -0.26,
+           "max_value": 0.29,
+           "unit": "nm",
+           "measurement_method_used": "AFM Line Profile (Fig. 10)"
+        },
+        "uv_light_source": {
+          "type": "Halogen lamp",
+          "power": {
+            "value": 250,
+            "unit": "W"
+          },
+          "wavelength": {
+            "value": 365,
+            "unit": "nm"
+          }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "CS/CeYO2_PCMP",
+      "experiment_context": "Yttrium-doped Carbon Sphere/Ceria (CS/CeYO₂) heterostructured particles (Y/(Ce+Y) = 0.1) used as abrasive in Photochemical Mechanical Polishing (PCMP) with UV irradiation.",
+      "precursor_chemical": [
+        "D(+)-Glucose monohydrate",
+        "Ce(NO₃)₃·6H₂O",
+        "Y(NO₃)₃·6H₂O"
+      ],
+      "precursor_concentration": null,
+      "precipitant_type": "hexamethylenetetramine (HMT)",
+      "molar_ratio_y_ce_y": 0.1,
+      "reaction_temperature": [
+        {
+          "stage": "CS Synthesis",
+          "value": 180,
+          "unit": "°C"
+        },
+        {
+          "stage": "CeO2 Grafting",
+          "value": 75,
+          "unit": "°C"
+        }
+      ],
+      "reaction_time": [
+         {
+          "stage": "CS Synthesis",
+          "value": 4,
+          "unit": "h"
+        },
+        {
+          "stage": "CeO2 Grafting",
+          "value": 2,
+          "unit": "h"
+        }
+      ],
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": 300,
+          "unit": "rpm"
+        },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Repeated centrifugation",
+          "solvents": ["DI water", "ethanol"]
+        },
+        "drying": {
+          "temperature": {
+            "value": 80,
+            "unit": "°C"
+          }
+        },
+        "calcination": {
+          "temperature": {
+            "value": 550,
+            "unit": "°C"
+          },
+          "atmosphere": "Nitrogen",
+          "duration": {
+            "value": 2,
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 1,
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "NaOH",
+            "type": "pH adjuster",
+            "concentration": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 8.0,
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": 100,
+            "unit": "g"
+          }
+        },
+        "preparation_method": "Ultrasonic dispersion, followed by UV irradiation (10 min)"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "range": "50-300",
+          "unit": "nm",
+          "measurement_method_used": "DLS (Fig. 4b)",
+          "notes": "Assumed similar to undoped CS. Polydispersed. SEM shows modes around 70-80 nm, 140-150 nm, 250-260 nm (Fig. 4a)."
+        },
+         "shell_thickness": {
+          "range": "10-15",
+          "unit": "nm",
+          "measurement_method_used": "TEM (Fig. 4f)"
+        },
+        "crystallite_size": {
+          "value": 5.33,
+          "unit": "nm",
+          "measurement_method_used": "XRD (Scherrer formula)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "cubic fluorite Y-doped CeO₂",
+          "jcpds_no": "34-0394 (host lattice)"
+        },
+        "surface_functional_groups": {
+           "ftir_peaks_cm-1": null,
+           "notes": "FTIR not shown for doped sample."
+        },
+        "elemental_composition": {
+           "elements_present": ["Ce", "Y", "O", "C"],
+           "measurement_method_used": "Implied by synthesis, XPS not shown for doped sample.",
+           "surface_ce3_percent_xps": null
+        },
+        "particle_morphology": "Spherical polydispersed core-shell particles with rough appearances (Fig. 4e)",
+        "xrd_peaks": {
+          "peaks_2theta_degrees": [28.4, 47.5, 56.5, 69.2, 77.7],
+          "corresponding_planes": ["(111)", "(220)", "(311)", "(400)", "(331)"],
+          "measurement_method_used": "XRD (Fig. 2)",
+          "notes": "No separate Y2O3 peaks detected, slight shift due to doping."
+        },
+        "raman_peaks_cm-1": {
+          "D_band": {"value": 1350, "unit": "cm⁻¹"},
+          "G_band": {"value": 1590, "unit": "cm⁻¹"},
+          "F2g_mode": {"value": "455-459", "unit": "cm⁻¹", "notes": "Slightly shifted to lower wavenumber vs undoped"},
+          "defect_mode": {"value": "576-587", "unit": "cm⁻¹"},
+          "Vo_ratio_I2/I1": 0.20,
+          "measurement_method_used": "Raman Spectroscopy (Fig. 6b)"
+        },
+        "pl_emission_peak_nm": {
+          "value": 447,
+          "unit": "nm",
+          "relative_intensity": "Lower than CS/CeO2",
+          "excitation_wavelength": {"value": 325, "unit": "nm"},
+          "measurement_method_used": "PL Spectroscopy (Fig. 5)"
+        },
+        "lattice_parameters": {
+          "value": 5.41,
+          "unit": "Å",
+          "measurement_method_used": "XRD (Scherrer, (111) peak)"
+        },
+        "lattice_spacing_nm": {
+          "value": 0.31,
+          "unit": "nm",
+          "plane": "(111)",
+          "measurement_method_used": "HRTEM (Fig. 4f inset)"
+        }
+      },
+      "cmp_performance": {
+        "polishing_method": "PCMP",
+        "polishing_time": {
+          "value": 2,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 139,
+          "unit": "nm/min",
+          "error": 11
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 3.6,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "TegraForce-1/TrgraPol-15 rotary polishing machine (Struers)",
+        "pad_composition": "MD-Chem porous polyurethane pad (Struers)",
+        "rotation_speeds": {
+          "head": {
+            "value": 120,
+            "unit": "rpm"
+          },
+          "platen": {
+            "value": 90,
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": 50,
+          "unit": "mL/min"
+        },
+        "substrate_material": {
+          "type": "Silicon oxide wafers",
+          "initial_thickness": {
+             "value": 1200,
+             "unit": "nm"
+          },
+           "density": {
+             "value": 2.2,
+             "unit": "g/cm³"
+          }
+        },
+        "post_cmp_surface_roughness": {
+          "Ra": {
+            "value": 0.10,
+            "unit": "nm",
+            "error": 0.004
+          },
+          "RMS": {
+            "value": 0.15,
+            "unit": "nm",
+            "error": 0.031
+          },
+          "scan_area": "5.0 x 5.0 µm²",
+          "measurement_method_used": "AFM (Fig. 11, Table 2)"
+        },
+        "pre_cmp_surface_roughness": {
+          "Ra": {
+            "value": 1.03,
+            "unit": "nm"
+          },
+          "RMS": {
+            "value": 1.37,
+            "unit": "nm"
+          },
+          "scan_area": "5.0 x 5.0 µm²",
+          "measurement_method_used": "AFM (Fig. 8)"
+        },
+         "topographical_variation": {
+           "min_value": -0.29,
+           "max_value": 0.29,
+           "unit": "nm",
+           "measurement_method_used": "AFM Line Profile (Fig. 11)"
+        },
+        "uv_light_source": {
+          "type": "Halogen lamp",
+          "power": {
+            "value": 250,
+            "unit": "W"
+          },
+          "wavelength": {
+            "value": 365,
+            "unit": "nm"
+          }
+        }
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

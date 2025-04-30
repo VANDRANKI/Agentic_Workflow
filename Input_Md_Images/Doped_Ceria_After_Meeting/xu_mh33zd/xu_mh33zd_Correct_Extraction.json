@@ -1,0 +1,909 @@
+{
+  "doi": null,
+  "title": "The influence of CeO₂ abrasive size on the performance of photocatalytic assisted chemical-mechanical polishing by Y / Pr co-doping strategy",
+  "year_published": null,
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "CeO2_x=0.00",
+      "experiment_context": "Undoped CeO₂ abrasive synthesized by molten salt method (x=0.00).",
+      "synthesis_method": "Molten Salt Method",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "dopant_precursors": [],
+      "doping_concentration_x": {
+          "value": "0.00",
+          "unit": null
+      },
+      "molten_salt_flux": "KCl-KNO₃",
+      "reaction_temperature": {
+        "value": "850",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_stirring_speed": {
+          "value": "400",
+          "unit": "r/min"
+        },
+        "mixing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "drying_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "calcination_atmosphere": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Washed with deionized water",
+          "times": "4-5"
+        }
+      },
+      "slurry_preparation": {
+        "milling": {
+          "method": "Planetary ball mill",
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          },
+          "speed": {
+            "value": "390",
+            "unit": "r/min"
+          }
+        },
+        "abrasive_ceria_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0",
+        "ph_adjustment_agents": ["NH₄OH", "HNO₃"],
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~260.36",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite structure",
+          "unit": null,
+          "measurement_method_used": "XRD (JCPDS 34-0394)"
+        },
+        "surface_ce3_percent_xps": {
+            "value": "33.55",
+            "unit": "%"
+        },
+        "oxygen_species_percent_xps": {
+            "lattice_oxygen_O1": { "value": "45.66", "unit": "%", "binding_energy_ev": 529.17 },
+            "surface_adsorbed_oxygen_O2": { "value": "41.21", "unit": "%", "binding_energy_ev": 532.02 },
+            "vacancy_adsorbed_oxygen_O3_Vo": { "value": "13.13", "unit": "%", "binding_energy_ev": 530.27 }
+        },
+        "oxygen_vacancy_concentration_vo": {
+            "value": "13.13",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+        },
+        "raman_peaks_cm-1": {
+            "F2g": "~465",
+            "defect_alpha": null
+        },
+        "raman_intensity_ratio_Ialpha_IF2g": {
+            "value": "0.03",
+            "unit": null
+        },
+        "band_gap_energy_eg": {
+            "value": "3.05",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "particle_morphology": "Octahedral shape",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "photocatalytic_activity": {
+          "pollutant_tested": "Tetracycline (TC)",
+          "initial_concentration": { "value": "10", "unit": "mg/L" },
+          "catalyst_loading": { "value": "25", "unit": "mg / 50 mL" },
+          "light_source": "300 W xenon lamp (PLS-SXE300)",
+          "irradiation_time": { "value": "60", "unit": "min" },
+          "degradation_efficiency": null,
+          "rate_constant_k": { "value": "0.0099", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "substrate_material": "Quartz glass (SiO₂)",
+        "substrate_dimensions": { "diameter": {"value": "20", "unit": "mm"}, "thickness": {"value": "2", "unit": "mm"} },
+        "initial_surface_roughness_ra": { "value": "1.08", "unit": "nm" },
+        "polishing_time": {
+          "value": "180",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "498.36",
+          "unit": "nm/min"
+        },
+        "final_surface_roughness_ra": {
+          "value": "~0.55",
+          "unit": "nm",
+          "measurement_method_used": "AFM"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": "3.5",
+          "unit": "kg"
+        },
+        "polishing_head_speed": { "value": "80", "unit": "r/min" },
+        "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+        "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+        "equipment_model": "UNIPOL-1200S polisher (China Shenyang Kejing Automobile Instrument Co., LTD)",
+        "pad_composition": "Synthetic leather (Shenyang Kejing Automobile Instrument Co., LTD)"
+      }
+    },
+    {
+      "sample_id": "CeYPrO2_x=0.01",
+      "experiment_context": "Y/Pr co-doped CeO₂ abrasive synthesized by molten salt method (x=0.01).",
+      "synthesis_method": "Molten Salt Method",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "dopant_precursors": [
+          {"chemical": "Y(NO₃)₃·6H₂O", "dopant": "Y"},
+          {"chemical": "Pr(NO₃)₃·6H₂O", "dopant": "Pr"}
+      ],
+      "doping_concentration_x": {
+          "value": "0.01",
+          "unit": null
+      },
+      "molten_salt_flux": "KCl-KNO₃",
+      "reaction_temperature": {
+        "value": "850",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_stirring_speed": {
+          "value": "400",
+          "unit": "r/min"
+        },
+        "mixing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "drying_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "calcination_atmosphere": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Washed with deionized water",
+          "times": "4-5"
+        }
+      },
+      "slurry_preparation": {
+        "milling": {
+          "method": "Planetary ball mill",
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          },
+          "speed": {
+            "value": "390",
+            "unit": "r/min"
+          }
+        },
+        "abrasive_ceria_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0",
+        "ph_adjustment_agents": ["NH₄OH", "HNO₃"],
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": null, 
+          "unit": "nm",
+          "measurement_method_used": "SEM",
+          "description": "Decreased compared to x=0.00"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite structure",
+          "unit": null,
+          "measurement_method_used": "XRD (JCPDS 34-0394)"
+        },
+        "surface_ce3_percent_xps": {
+            "value": "35.08",
+            "unit": "%"
+        },
+        "oxygen_species_percent_xps": {
+            "lattice_oxygen_O1": { "value": "40.57", "unit": "%", "binding_energy_ev": 528.94 },
+            "surface_adsorbed_oxygen_O2": { "value": "43.69", "unit": "%", "binding_energy_ev": 531.97 },
+            "vacancy_adsorbed_oxygen_O3_Vo": { "value": "15.75", "unit": "%", "binding_energy_ev": 529.39 }
+        },
+        "oxygen_vacancy_concentration_vo": {
+            "value": "15.75",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+        },
+        "raman_peaks_cm-1": {
+            "F2g": "~465",
+            "defect_alpha": "~560"
+        },
+        "raman_intensity_ratio_Ialpha_IF2g": {
+            "value": "0.11",
+            "unit": null
+        },
+        "band_gap_energy_eg": {
+            "value": "2.61",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "particle_morphology": "Octahedral shape",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "photocatalytic_activity": {
+          "pollutant_tested": "Tetracycline (TC)",
+          "initial_concentration": { "value": "10", "unit": "mg/L" },
+          "catalyst_loading": { "value": "25", "unit": "mg / 50 mL" },
+          "light_source": "300 W xenon lamp (PLS-SXE300)",
+          "irradiation_time": { "value": "60", "unit": "min" },
+          "degradation_efficiency": { "value": "67.74", "unit": "%" },
+          "rate_constant_k": { "value": "0.0170", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "substrate_material": "Quartz glass (SiO₂)",
+        "substrate_dimensions": { "diameter": {"value": "20", "unit": "mm"}, "thickness": {"value": "2", "unit": "mm"} },
+        "initial_surface_roughness_ra": { "value": "1.08", "unit": "nm" },
+        "polishing_time": {
+          "value": "180",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "568.36",
+          "unit": "nm/min"
+        },
+        "final_surface_roughness_ra": {
+          "value": "~0.45",
+          "unit": "nm",
+          "measurement_method_used": "AFM"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": "3.5",
+          "unit": "kg"
+        },
+        "polishing_head_speed": { "value": "80", "unit": "r/min" },
+        "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+        "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+        "equipment_model": "UNIPOL-1200S polisher (China Shenyang Kejing Automobile Instrument Co., LTD)",
+        "pad_composition": "Synthetic leather (Shenyang Kejing Automobile Instrument Co., LTD)"
+      }
+    },
+    {
+      "sample_id": "CeYPrO2_x=0.02",
+      "experiment_context": "Y/Pr co-doped CeO₂ abrasive synthesized by molten salt method (x=0.02). Optimal performance observed.",
+      "synthesis_method": "Molten Salt Method",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "dopant_precursors": [
+          {"chemical": "Y(NO₃)₃·6H₂O", "dopant": "Y"},
+          {"chemical": "Pr(NO₃)₃·6H₂O", "dopant": "Pr"}
+      ],
+      "doping_concentration_x": {
+          "value": "0.02",
+          "unit": null
+      },
+      "molten_salt_flux": "KCl-KNO₃",
+      "reaction_temperature": {
+        "value": "850",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_stirring_speed": {
+          "value": "400",
+          "unit": "r/min"
+        },
+        "mixing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "drying_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "calcination_atmosphere": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Washed with deionized water",
+          "times": "4-5"
+        }
+      },
+      "slurry_preparation": {
+        "milling": {
+          "method": "Planetary ball mill",
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          },
+          "speed": {
+            "value": "390",
+            "unit": "r/min"
+          }
+        },
+        "abrasive_ceria_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0",
+        "ph_adjustment_agents": ["NH₄OH", "HNO₃"],
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": null,
+          "unit": "nm",
+          "measurement_method_used": "SEM",
+          "description": "Decreased compared to x=0.01, relatively more uniform"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite structure",
+          "unit": null,
+          "measurement_method_used": "XRD (JCPDS 34-0394)"
+        },
+        "surface_ce3_percent_xps": {
+            "value": "36.73",
+            "unit": "%"
+        },
+        "oxygen_species_percent_xps": {
+            "lattice_oxygen_O1": { "value": "33.95", "unit": "%", "binding_energy_ev": 528.68 },
+            "surface_adsorbed_oxygen_O2": { "value": "48.94", "unit": "%", "binding_energy_ev": 531.86 },
+            "vacancy_adsorbed_oxygen_O3_Vo": { "value": "17.10", "unit": "%", "binding_energy_ev": 529.32 }
+        },
+        "oxygen_vacancy_concentration_vo": {
+            "value": "17.10",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+        },
+        "raman_peaks_cm-1": {
+            "F2g": "~465",
+            "defect_alpha": "~560"
+        },
+        "raman_intensity_ratio_Ialpha_IF2g": {
+            "value": "0.22",
+            "unit": null
+        },
+        "band_gap_energy_eg": {
+            "value": "2.54",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "particle_morphology": "Octahedral shape",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "photocatalytic_activity": {
+          "pollutant_tested": "Tetracycline (TC)",
+          "initial_concentration": { "value": "10", "unit": "mg/L" },
+          "catalyst_loading": { "value": "25", "unit": "mg / 50 mL" },
+          "light_source": "300 W xenon lamp (PLS-SXE300)",
+          "irradiation_time": { "value": "60", "unit": "min" },
+          "degradation_efficiency": { "value": "71.45", "unit": "%" },
+          "rate_constant_k": { "value": "0.0175", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "substrate_material": "Quartz glass (SiO₂)",
+        "substrate_dimensions": { "diameter": {"value": "20", "unit": "mm"}, "thickness": {"value": "2", "unit": "mm"} },
+        "initial_surface_roughness_ra": { "value": "1.08", "unit": "nm" },
+        "polishing_time": {
+          "value": "180",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "932.42",
+          "unit": "nm/min"
+        },
+        "final_surface_roughness_ra": {
+          "value": "0.36",
+          "unit": "nm",
+          "measurement_method_used": "AFM"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": "3.5",
+          "unit": "kg"
+        },
+        "polishing_head_speed": { "value": "80", "unit": "r/min" },
+        "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+        "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+        "equipment_model": "UNIPOL-1200S polisher (China Shenyang Kejing Automobile Instrument Co., LTD)",
+        "pad_composition": "Synthetic leather (Shenyang Kejing Automobile Instrument Co., LTD)"
+      }
+    },
+    {
+      "sample_id": "CeYPrO2_x=0.03",
+      "experiment_context": "Y/Pr co-doped CeO₂ abrasive synthesized by molten salt method (x=0.03).",
+      "synthesis_method": "Molten Salt Method",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "dopant_precursors": [
+          {"chemical": "Y(NO₃)₃·6H₂O", "dopant": "Y"},
+          {"chemical": "Pr(NO₃)₃·6H₂O", "dopant": "Pr"}
+      ],
+      "doping_concentration_x": {
+          "value": "0.03",
+          "unit": null
+      },
+      "molten_salt_flux": "KCl-KNO₃",
+      "reaction_temperature": {
+        "value": "850",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_stirring_speed": {
+          "value": "400",
+          "unit": "r/min"
+        },
+        "mixing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "drying_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "calcination_atmosphere": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Washed with deionized water",
+          "times": "4-5"
+        }
+      },
+      "slurry_preparation": {
+        "milling": {
+          "method": "Planetary ball mill",
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          },
+          "speed": {
+            "value": "390",
+            "unit": "r/min"
+          }
+        },
+        "abrasive_ceria_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0",
+        "ph_adjustment_agents": ["NH₄OH", "HNO₃"],
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": null,
+          "unit": "nm",
+          "measurement_method_used": "SEM",
+          "description": "Decreased compared to x=0.02"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite structure",
+          "unit": null,
+          "measurement_method_used": "XRD (JCPDS 34-0394)"
+        },
+        "surface_ce3_percent_xps": {
+            "value": "37.25",
+            "unit": "%"
+        },
+        "oxygen_species_percent_xps": {
+            "lattice_oxygen_O1": { "value": "36.30", "unit": "%", "binding_energy_ev": 528.75 },
+            "surface_adsorbed_oxygen_O2": { "value": "45.34", "unit": "%", "binding_energy_ev": 531.59 },
+            "vacancy_adsorbed_oxygen_O3_Vo": { "value": "18.36", "unit": "%", "binding_energy_ev": 529.06 }
+        },
+        "oxygen_vacancy_concentration_vo": {
+            "value": "18.36",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+        },
+        "raman_peaks_cm-1": {
+            "F2g": "~465",
+            "defect_alpha": "~560"
+        },
+        "raman_intensity_ratio_Ialpha_IF2g": {
+            "value": "0.31",
+            "unit": null
+        },
+        "band_gap_energy_eg": {
+            "value": "2.36",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "particle_morphology": "Octahedral shape",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "photocatalytic_activity": {
+          "pollutant_tested": "Tetracycline (TC)",
+          "initial_concentration": { "value": "10", "unit": "mg/L" },
+          "catalyst_loading": { "value": "25", "unit": "mg / 50 mL" },
+          "light_source": "300 W xenon lamp (PLS-SXE300)",
+          "irradiation_time": { "value": "60", "unit": "min" },
+          "degradation_efficiency": { "value": "73.35", "unit": "%" },
+          "rate_constant_k": { "value": "0.0179", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "substrate_material": "Quartz glass (SiO₂)",
+        "substrate_dimensions": { "diameter": {"value": "20", "unit": "mm"}, "thickness": {"value": "2", "unit": "mm"} },
+        "initial_surface_roughness_ra": { "value": "1.08", "unit": "nm" },
+        "polishing_time": {
+          "value": "180",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "643.05",
+          "unit": "nm/min"
+        },
+        "final_surface_roughness_ra": {
+          "value": "~0.40",
+          "unit": "nm",
+          "measurement_method_used": "AFM"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": "3.5",
+          "unit": "kg"
+        },
+        "polishing_head_speed": { "value": "80", "unit": "r/min" },
+        "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+        "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+        "equipment_model": "UNIPOL-1200S polisher (China Shenyang Kejing Automobile Instrument Co., LTD)",
+        "pad_composition": "Synthetic leather (Shenyang Kejing Automobile Instrument Co., LTD)"
+      }
+    },
+    {
+      "sample_id": "CeYPrO2_x=0.04",
+      "experiment_context": "Y/Pr co-doped CeO₂ abrasive synthesized by molten salt method (x=0.04).",
+      "synthesis_method": "Molten Salt Method",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "dopant_precursors": [
+          {"chemical": "Y(NO₃)₃·6H₂O", "dopant": "Y"},
+          {"chemical": "Pr(NO₃)₃·6H₂O", "dopant": "Pr"}
+      ],
+      "doping_concentration_x": {
+          "value": "0.04",
+          "unit": null
+      },
+      "molten_salt_flux": "KCl-KNO₃",
+      "reaction_temperature": {
+        "value": "850",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_stirring_speed": {
+          "value": "400",
+          "unit": "r/min"
+        },
+        "mixing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "drying_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "calcination_atmosphere": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Washed with deionized water",
+          "times": "4-5"
+        }
+      },
+      "slurry_preparation": {
+        "milling": {
+          "method": "Planetary ball mill",
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          },
+          "speed": {
+            "value": "390",
+            "unit": "r/min"
+          }
+        },
+        "abrasive_ceria_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0",
+        "ph_adjustment_agents": ["NH₄OH", "HNO₃"],
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": null,
+          "unit": "nm",
+          "measurement_method_used": "SEM",
+          "description": "Decreased compared to x=0.03"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite structure",
+          "unit": null,
+          "measurement_method_used": "XRD (JCPDS 34-0394)"
+        },
+        "surface_ce3_percent_xps": {
+            "value": "38.64",
+            "unit": "%"
+        },
+        "oxygen_species_percent_xps": {
+            "lattice_oxygen_O1": { "value": "39.89", "unit": "%", "binding_energy_ev": 528.56 },
+            "surface_adsorbed_oxygen_O2": { "value": "40.79", "unit": "%", "binding_energy_ev": 531.58 },
+            "vacancy_adsorbed_oxygen_O3_Vo": { "value": "19.32", "unit": "%", "binding_energy_ev": 529.61 }
+        },
+        "oxygen_vacancy_concentration_vo": {
+            "value": "19.32",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+        },
+        "raman_peaks_cm-1": {
+            "F2g": "~465",
+            "defect_alpha": "~560"
+        },
+        "raman_intensity_ratio_Ialpha_IF2g": {
+            "value": "0.40",
+            "unit": null
+        },
+        "band_gap_energy_eg": {
+            "value": "2.32",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "particle_morphology": "Octahedral shape",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "photocatalytic_activity": {
+          "pollutant_tested": "Tetracycline (TC)",
+          "initial_concentration": { "value": "10", "unit": "mg/L" },
+          "catalyst_loading": { "value": "25", "unit": "mg / 50 mL" },
+          "light_source": "300 W xenon lamp (PLS-SXE300)",
+          "irradiation_time": { "value": "60", "unit": "min" },
+          "degradation_efficiency": { "value": "75.28", "unit": "%" },
+          "rate_constant_k": { "value": "0.0183", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "substrate_material": "Quartz glass (SiO₂)",
+        "substrate_dimensions": { "diameter": {"value": "20", "unit": "mm"}, "thickness": {"value": "2", "unit": "mm"} },
+        "initial_surface_roughness_ra": { "value": "1.08", "unit": "nm" },
+        "polishing_time": {
+          "value": "180",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "498.36",
+          "unit": "nm/min"
+        },
+        "final_surface_roughness_ra": {
+          "value": "~0.48",
+          "unit": "nm",
+          "measurement_method_used": "AFM"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": "3.5",
+          "unit": "kg"
+        },
+        "polishing_head_speed": { "value": "80", "unit": "r/min" },
+        "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+        "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+        "equipment_model": "UNIPOL-1200S polisher (China Shenyang Kejing Automobile Instrument Co., LTD)",
+        "pad_composition": "Synthetic leather (Shenyang Kejing Automobile Instrument Co., LTD)"
+      }
+    },
+    {
+      "sample_id": "CeYPrO2_x=0.05",
+      "experiment_context": "Y/Pr co-doped CeO₂ abrasive synthesized by molten salt method (x=0.05).",
+      "synthesis_method": "Molten Salt Method",
+      "precursor_chemical": "Ce(NO₃)₃·6H₂O",
+      "dopant_precursors": [
+          {"chemical": "Y(NO₃)₃·6H₂O", "dopant": "Y"},
+          {"chemical": "Pr(NO₃)₃·6H₂O", "dopant": "Pr"}
+      ],
+      "doping_concentration_x": {
+          "value": "0.05",
+          "unit": null
+      },
+      "molten_salt_flux": "KCl-KNO₃",
+      "reaction_temperature": {
+        "value": "850",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_stirring_speed": {
+          "value": "400",
+          "unit": "r/min"
+        },
+        "mixing_time": {
+          "value": "30",
+          "unit": "min"
+        },
+        "drying_temperature": {
+          "value": "80",
+          "unit": "°C"
+        },
+        "calcination_atmosphere": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Washed with deionized water",
+          "times": "4-5"
+        }
+      },
+      "slurry_preparation": {
+        "milling": {
+          "method": "Planetary ball mill",
+          "duration": {
+            "value": "8",
+            "unit": "h"
+          },
+          "speed": {
+            "value": "390",
+            "unit": "r/min"
+          }
+        },
+        "abrasive_ceria_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0",
+        "ph_adjustment_agents": ["NH₄OH", "HNO₃"],
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~197.65",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {
+          "value": "Cubic fluorite structure",
+          "unit": null,
+          "measurement_method_used": "XRD (JCPDS 34-0394)"
+        },
+        "surface_ce3_percent_xps": {
+            "value": "39.94",
+            "unit": "%"
+        },
+        "oxygen_species_percent_xps": {
+            "lattice_oxygen_O1": { "value": "32.48", "unit": "%", "binding_energy_ev": 528.58 },
+            "surface_adsorbed_oxygen_O2": { "value": "43.70", "unit": "%", "binding_energy_ev": 531.68 },
+            "vacancy_adsorbed_oxygen_O3_Vo": { "value": "23.82", "unit": "%", "binding_energy_ev": 529.37 }
+        },
+        "oxygen_vacancy_concentration_vo": {
+            "value": "23.82",
+            "unit": "%",
+            "measurement_method_used": "XPS"
+        },
+        "raman_peaks_cm-1": {
+            "F2g": "~465",
+            "defect_alpha": "~560"
+        },
+        "raman_intensity_ratio_Ialpha_IF2g": {
+            "value": "0.61",
+            "unit": null
+        },
+        "band_gap_energy_eg": {
+            "value": "2.28",
+            "unit": "eV",
+            "measurement_method_used": "UV-Vis DRS (Schuster-Kubelka-Munk)"
+        },
+        "particle_morphology": "Octahedral shape",
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "photocatalytic_activity": {
+          "pollutant_tested": "Tetracycline (TC)",
+          "initial_concentration": { "value": "10", "unit": "mg/L" },
+          "catalyst_loading": { "value": "25", "unit": "mg / 50 mL" },
+          "light_source": "300 W xenon lamp (PLS-SXE300)",
+          "irradiation_time": { "value": "60", "unit": "min" },
+          "degradation_efficiency": { "value": "77.75", "unit": "%" },
+          "rate_constant_k": { "value": "0.0203", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "substrate_material": "Quartz glass (SiO₂)",
+        "substrate_dimensions": { "diameter": {"value": "20", "unit": "mm"}, "thickness": {"value": "2", "unit": "mm"} },
+        "initial_surface_roughness_ra": { "value": "1.08", "unit": "nm" },
+        "polishing_time": {
+          "value": "180",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "482.29",
+          "unit": "nm/min"
+        },
+        "final_surface_roughness_ra": {
+          "value": "~0.52",
+          "unit": "nm",
+          "measurement_method_used": "AFM"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": "3.5",
+          "unit": "kg"
+        },
+        "polishing_head_speed": { "value": "80", "unit": "r/min" },
+        "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+        "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+        "equipment_model": "UNIPOL-1200S polisher (China Shenyang Kejing Automobile Instrument Co., LTD)",
+        "pad_composition": "Synthetic leather (Shenyang Kejing Automobile Instrument Co., LTD)"
+      }
+    }
+  ]
+}

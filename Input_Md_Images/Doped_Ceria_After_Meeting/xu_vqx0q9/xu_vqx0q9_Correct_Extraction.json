@@ -1,0 +1,676 @@
+{
+  "doi": "10.1016/j.mtcomm.2023.107791",
+  "title": "Enhancement mechanism of Y-doped Ce₁₋ₓYₓO₂ for photocatalytic-assisted chemical-mechanical polishing",
+  "year_published": "2023",
+  "journal": "Materials Today Communications",
+  "instrument_device_model": {
+    "XRD": "D8 Advance diffractometer (Bruker)",
+    "SEM": "Regulus 8100 (Hitachi)",
+    "TEM": "Tecnai G2 F20 (FEI)",
+    "UV_Vis_DRS": "Cary 5000 UV-VIS-NIR spectrophotometer (Agilent)",
+    "XPS": "Al Kα XPS (1486.6 eV)",
+    "Raman": "inVia Raman microscope (Renishaw)",
+    "AFM": "Seiko Instruments AFM",
+    "Polisher": "UNIPOL-1200S automatic pressure grinding and polishing instrument (Shenyang Kejing Automobile Instrument Co., LTD.)",
+    "Photocatalytic_lamp": "PLS-SXE300 Xe lamp (Beijing Perfect Light)"
+  },
+  "samples": [
+    {
+      "sample_id": "CeO2_CMP",
+      "experiment_context": "Pure CeO₂ (x=0) synthesized by molten salt method, used for Chemical Mechanical Polishing (CMP) of quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 0,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "187", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "23.3", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "10.85", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.0414", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "3.09", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"] }
+      },
+      "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "65.7", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0149", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "CMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "material_removal_rate": { "value": "176.82", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.65", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    },
+    {
+      "sample_id": "CeO2_PCMP",
+      "experiment_context": "Pure CeO₂ (x=0) synthesized by molten salt method, used for Photocatalytic-assisted Chemical Mechanical Polishing (PCMP) of quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 0,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "187", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "23.3", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "10.85", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.0414", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "3.09", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"] }
+      },
+       "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "65.7", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0149", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "PCMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "photocatalysis_conditions": {
+          "light_source": "300 W xenon lamp (PLS-SXE300, Beijing Perfect Light)",
+          "distance_light_sample": { "value": "20", "unit": "cm" },
+          "spectral_range": "320-780 nm"
+        },
+        "material_removal_rate": { "value": "225.79", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.49", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    },
+    {
+      "sample_id": "Ce0.975Y0.025O2_CMP",
+      "experiment_context": "Y-doped CeO₂ (x=0.025) synthesized by molten salt method, used for Chemical Mechanical Polishing (CMP) of quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 2.5,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "113-148", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "30.2", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "13.48", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.1023", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "3.02", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂", "doping_confirmation": "No other peaks, peak shift indicates doping" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"], "trend": "F2g redshift with doping" }
+      },
+       "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "72.9", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0184", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "CMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "material_removal_rate": { "value": "192.91", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.72", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    },
+    {
+      "sample_id": "Ce0.975Y0.025O2_PCMP",
+      "experiment_context": "Y-doped CeO₂ (x=0.025) synthesized by molten salt method, used for Photocatalytic-assisted Chemical Mechanical Polishing (PCMP) of quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 2.5,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "113-148", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "30.2", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "13.48", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.1023", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "3.02", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂", "doping_confirmation": "No other peaks, peak shift indicates doping" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"], "trend": "F2g redshift with doping" }
+      },
+       "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "72.9", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0184", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "PCMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "photocatalysis_conditions": {
+          "light_source": "300 W xenon lamp (PLS-SXE300, Beijing Perfect Light)",
+          "distance_light_sample": { "value": "20", "unit": "cm" },
+          "spectral_range": "320-780 nm"
+        },
+        "material_removal_rate": { "value": "237.60", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.40", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    },
+    {
+      "sample_id": "Ce0.95Y0.05O2_CMP",
+      "experiment_context": "Y-doped CeO₂ (x=0.05) synthesized by molten salt method, used for Chemical Mechanical Polishing (CMP) of quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 5.0,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "113-148", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "39.0", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "21.43", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.1726", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "2.84", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂", "doping_confirmation": "No other peaks, peak shift indicates doping" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"], "trend": "F2g redshift with doping" }
+      },
+       "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "80.4", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0305", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "CMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "material_removal_rate": { "value": "473.17", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.29", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    },
+    {
+      "sample_id": "Ce0.95Y0.05O2_PCMP",
+      "experiment_context": "Y-doped CeO₂ (x=0.05) synthesized by molten salt method, used for Photocatalytic-assisted Chemical Mechanical Polishing (PCMP) of quartz glass. This sample showed the best performance.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 5.0,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "113-148", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "39.0", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "21.43", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.1726", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "2.84", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂", "doping_confirmation": "No other peaks, peak shift indicates doping" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"], "trend": "F2g redshift with doping" },
+        "electrochemical_impedance_spectroscopy": { "result": "Smallest semicircle, smallest electron transfer resistance (R3)"},
+        "photocurrent_response": { "result": "Significantly improved photocurrent density compared to others"}
+      },
+       "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "80.4", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0305", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "PCMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "photocatalysis_conditions": {
+          "light_source": "300 W xenon lamp (PLS-SXE300, Beijing Perfect Light)",
+          "distance_light_sample": { "value": "20", "unit": "cm" },
+          "spectral_range": "320-780 nm"
+        },
+        "material_removal_rate": { "value": "636.40", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.16", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    },
+    {
+      "sample_id": "Ce0.90Y0.10O2_CMP",
+      "experiment_context": "Y-doped CeO₂ (x=0.10) synthesized by molten salt method, used for Chemical Mechanical Polishing (CMP) of quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 10.0,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "113-148", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "37.0", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "15.51", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.1045", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "2.97", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂", "doping_confirmation": "No other peaks, peak shift indicates doping" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"], "trend": "F2g redshift with doping" }
+      },
+       "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "76.5", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0223", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "CMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "material_removal_rate": { "value": "451.18", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.57", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    },
+    {
+      "sample_id": "Ce0.90Y0.10O2_PCMP",
+      "experiment_context": "Y-doped CeO₂ (x=0.10) synthesized by molten salt method, used for Photocatalytic-assisted Chemical Mechanical Polishing (PCMP) of quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 10.0,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "113-148", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "37.0", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "15.51", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.1045", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "2.97", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂", "doping_confirmation": "No other peaks, peak shift indicates doping" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"], "trend": "F2g redshift with doping" }
+      },
+       "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "76.5", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0223", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "PCMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "photocatalysis_conditions": {
+          "light_source": "300 W xenon lamp (PLS-SXE300, Beijing Perfect Light)",
+          "distance_light_sample": { "value": "20", "unit": "cm" },
+          "spectral_range": "320-780 nm"
+        },
+        "material_removal_rate": { "value": "461.62", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.25", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    },
+    {
+      "sample_id": "Ce0.85Y0.15O2_CMP",
+      "experiment_context": "Y-doped CeO₂ (x=0.15) synthesized by molten salt method, used for Chemical Mechanical Polishing (CMP) of quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 15.0,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "113-148", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "37.2", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "16.45", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.1087", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "2.90", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂", "doping_confirmation": "No other peaks, peak shift indicates doping" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"], "trend": "F2g redshift with doping" }
+      },
+       "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "78.8", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0275", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "CMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "material_removal_rate": { "value": "456.62", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.61", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    },
+    {
+      "sample_id": "Ce0.85Y0.15O2_PCMP",
+      "experiment_context": "Y-doped CeO₂ (x=0.15) synthesized by molten salt method, used for Photocatalytic-assisted Chemical Mechanical Polishing (PCMP) of quartz glass.",
+      "precursor_chemical": ["Ce(NO₃)₃·6H₂O", "Y(NO₃)₃·6H₂O"],
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "y_doping_nominal_atomic_percent": 15.0,
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "salt_composition": "KNO₃:KCl = 0.905:0.095",
+        "precursor_salt_molar_ratio": "1:10",
+        "reaction_temperature": { "value": "800", "unit": "°C" },
+        "reaction_time": { "value": "4", "unit": "h" },
+        "heating_rate": { "value": "5", "unit": "°C/min" },
+        "cooling_process": "Cooled to 400°C at 2°C/min, then natural cooling",
+        "stirring_speed": { "value": "400", "unit": "r/min" },
+        "drying_step": { "temperature": { "value": "80", "unit": "°C" }, "duration": "Until ethanol volatilized" }
+      },
+      "post_synthesis_treatment": {
+        "washing": { "method": "Washed with deionized water", "times": "4-5" }
+      },
+      "slurry_preparation": {
+        "milling": { "method": "Planetary ball mill", "duration": { "value": "8", "unit": "h" }, "speed": { "value": "390", "unit": "r/min" } },
+        "abrasive_ceria_concentration": { "value": "0.5", "unit": "wt%" },
+        "target_final_slurry_ph": "6.0",
+        "solvent": { "name": "Deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "113-148", "unit": "nm", "measurement_method_used": "SEM" },
+        "crystallinity_phase_composition": { "value": "FCC cubic", "reference": "JCPDS 34-0394" },
+        "surface_ce3_percent_xps": { "value": "37.2", "unit": "%" },
+        "oxygen_vacancy_concentration_xps": { "value": "16.45", "unit": "%" },
+        "oxygen_vacancy_concentration_raman": { "value": "0.1087", "unit": "ratio (I_defect / I_F2g)" },
+        "band_gap_energy": { "value": "2.90", "unit": "eV" },
+        "particle_morphology": "Nearly spherical",
+        "xrd_analysis": { "phase": "FCC cubic CeO₂", "doping_confirmation": "No other peaks, peak shift indicates doping" },
+        "raman_analysis": { "F2g_peak_cm-1": "~468", "defect_peaks_cm-1": ["~560 (α)", "~610 (β)"], "trend": "F2g redshift with doping" }
+      },
+       "photocatalytic_performance": {
+         "test_condition": "Degradation of tetracycline (TC) under 300W Xenon lamp",
+         "catalyst_loading": { "value": "25", "unit": "mg" },
+         "tc_solution": { "volume": { "value": "50", "unit": "mL" }, "concentration": { "value": "10", "unit": "mg/L" } },
+         "dark_adsorption_time": { "value": "60", "unit": "min" },
+         "degradation_efficiency_60min": { "value": "78.8", "unit": "%" },
+         "pseudo_first_order_rate_constant_k": { "value": "0.0275", "unit": "min⁻¹" }
+      },
+      "cmp_performance": {
+        "polishing_process": "PCMP",
+        "substrate": { "material": "Quartz glass", "dimensions": { "thickness": { "value": "2", "unit": "mm" }, "diameter": { "value": "20", "unit": "mm" }, "area": {"value": "3.14", "unit": "cm²"}}, "supplier": "Lianyungang Xiongtai Quartz Technology Co., LTD.", "initial_roughness_ra": { "value": "1.08", "unit": "nm" }, "density": {"value": "2.2", "unit": "g/cm³"}},
+        "equipment_model": "UNIPOL-1200S",
+        "pad_composition": "Synthetic leather",
+        "polishing_parameters": {
+          "polishing_head_speed": { "value": "80", "unit": "r/min" },
+          "polishing_platform_speed": { "value": "80", "unit": "r/min" },
+          "polishing_time": { "value": "180", "unit": "s" },
+          "slurry_flow_rate": { "value": "25", "unit": "mL/min" },
+          "polishing_pressure": { "value": "3.5", "unit": "kg" }
+        },
+        "photocatalysis_conditions": {
+          "light_source": "300 W xenon lamp (PLS-SXE300, Beijing Perfect Light)",
+          "distance_light_sample": { "value": "20", "unit": "cm" },
+          "spectral_range": "320-780 nm"
+        },
+        "material_removal_rate": { "value": "483.29", "unit": "nm/min" },
+        "surface_roughness_ra": { "value": "0.37", "unit": "nm", "measurement_area": "5 µm x 5 µm", "measurement_method_used": "AFM" }
+      }
+    }
+  ]
+}

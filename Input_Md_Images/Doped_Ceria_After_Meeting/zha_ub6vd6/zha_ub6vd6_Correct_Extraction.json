@@ -1,0 +1,728 @@
+{
+  "doi": "10.1007/s44251-025-00072-x",
+  "title": "Dual impact of Nd³⁺ doping on CeO₂ abrasives: enhancing chemical and mechanical effects in chemical‑mechanical polishing",
+  "year_published": "2025",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Nd_0%",
+      "experiment_context": "Pure CeO₂ abrasive (0% Nd³⁺ doping) synthesized via molten salt method.",
+      "doping_element": "Nd",
+      "doping_concentration_percent": {
+        "value": 0,
+        "unit": "%"
+      },
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "temperature": {
+          "value": 800,
+          "unit": "°C"
+        },
+        "time": null,
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": 10,
+          "unit": ""
+        },
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": 300,
+            "unit": "ml"
+          }
+        },
+        "dispersion_method": "ultrasonic waves for 10 min, stirring with a magnetic agitator for 5 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 534,
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallinity_phase_composition": "single-phase cubic CeO₂",
+        "particle_morphology": "Polyhedral",
+        "zeta_potential": {
+          "value": -31.2,
+          "unit": "mV"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 22.51,
+          "unit": "%"
+        },
+        "oxygen_vacancy_concentration_xps": {
+          "value": 34.44,
+          "unit": "%"
+        },
+        "oxygen_vacancy_concentration_raman": {
+          "value": 0.58,
+          "unit": "%" 
+        },
+        "contact_angle_slurry_glass": {
+          "value": 30.5,
+          "unit": "°"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 28.18,
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": 3.5,
+          "unit": "kg"
+        },
+        "platen_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "carrier_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "equipment_model": "UNIPOL-10005 polishing machine (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "pristine soda lime glass",
+          "diameter": {
+            "value": 50,
+            "unit": "mm"
+          },
+          "density": {
+            "value": 2.5,
+            "unit": "g/cm³"
+          },
+          "initial_surface_roughness_sa": {
+            "value": 3.12,
+            "unit": "nm"
+          }
+        },
+        "final_surface_roughness_sa": {
+          "value": 2.71,
+          "unit": "nm"
+        },
+        "friction_coefficient": {
+          "value": 0.37,
+          "unit": ""
+        }
+      }
+    },
+    {
+      "sample_id": "Nd_2%",
+      "experiment_context": "CeO₂ abrasive with 2% Nd³⁺ doping (Ce₀.₉₈Nd₀.₀₂O₂) synthesized via molten salt method.",
+      "doping_element": "Nd",
+      "doping_concentration_percent": {
+        "value": 2,
+        "unit": "%"
+      },
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "temperature": {
+          "value": 800,
+          "unit": "°C"
+        },
+        "time": null,
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": 10,
+          "unit": ""
+        },
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": 300,
+            "unit": "ml"
+          }
+        },
+        "dispersion_method": "ultrasonic waves for 10 min, stirring with a magnetic agitator for 5 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 480,
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallinity_phase_composition": "single-phase cubic CeO₂",
+        "particle_morphology": "Transitioning Polyhedral to Octahedral",
+        "zeta_potential": {
+          "value": -35.0,
+          "unit": "mV"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 30.14,
+          "unit": "%"
+        },
+        "oxygen_vacancy_concentration_xps": {
+          "value": 40.5, 
+          "unit": "%" 
+        },
+        "oxygen_vacancy_concentration_raman": {
+          "value": 2.5, 
+          "unit": "%" 
+        },
+        "contact_angle_slurry_glass": {
+          "value": 25.0,
+          "unit": "°"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 43.49,
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": 3.5,
+          "unit": "kg"
+        },
+        "platen_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "carrier_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "equipment_model": "UNIPOL-10005 polishing machine (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "pristine soda lime glass",
+          "diameter": {
+            "value": 50,
+            "unit": "mm"
+          },
+          "density": {
+            "value": 2.5,
+            "unit": "g/cm³"
+          },
+          "initial_surface_roughness_sa": {
+            "value": 3.12,
+            "unit": "nm"
+          }
+        },
+        "final_surface_roughness_sa": {
+          "value": 1.65,
+          "unit": "nm"
+        },
+        "friction_coefficient": {
+          "value": 0.40,
+          "unit": ""
+        }
+      }
+    },
+    {
+      "sample_id": "Nd_4%",
+      "experiment_context": "CeO₂ abrasive with 4% Nd³⁺ doping (Ce₀.₉₆Nd₀.₀₄O₂) synthesized via molten salt method.",
+      "doping_element": "Nd",
+      "doping_concentration_percent": {
+        "value": 4,
+        "unit": "%"
+      },
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "temperature": {
+          "value": 800,
+          "unit": "°C"
+        },
+        "time": null,
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": 10,
+          "unit": ""
+        },
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": 300,
+            "unit": "ml"
+          }
+        },
+        "dispersion_method": "ultrasonic waves for 10 min, stirring with a magnetic agitator for 5 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 400,
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallinity_phase_composition": "single-phase cubic CeO₂",
+        "particle_morphology": "Octahedral",
+        "zeta_potential": {
+          "value": -36.9,
+          "unit": "mV"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 37.68,
+          "unit": "%"
+        },
+        "oxygen_vacancy_concentration_xps": {
+          "value": 45.20,
+          "unit": "%"
+        },
+        "oxygen_vacancy_concentration_raman": {
+          "value": 3.39,
+          "unit": "%"
+        },
+        "contact_angle_slurry_glass": {
+          "value": 22.6,
+          "unit": "°"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 47.87,
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": 3.5,
+          "unit": "kg"
+        },
+        "platen_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "carrier_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "equipment_model": "UNIPOL-10005 polishing machine (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "pristine soda lime glass",
+          "diameter": {
+            "value": 50,
+            "unit": "mm"
+          },
+          "density": {
+            "value": 2.5,
+            "unit": "g/cm³"
+          },
+          "initial_surface_roughness_sa": {
+            "value": 3.12,
+            "unit": "nm"
+          }
+        },
+        "final_surface_roughness_sa": {
+          "value": 1.83,
+          "unit": "nm"
+        },
+        "friction_coefficient": {
+          "value": 0.42,
+          "unit": ""
+        }
+      }
+    },
+    {
+      "sample_id": "Nd_6%",
+      "experiment_context": "CeO₂ abrasive with 6% Nd³⁺ doping (Ce₀.₉₄Nd₀.₀₆O₂) synthesized via molten salt method.",
+      "doping_element": "Nd",
+      "doping_concentration_percent": {
+        "value": 6,
+        "unit": "%"
+      },
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "temperature": {
+          "value": 800,
+          "unit": "°C"
+        },
+        "time": null,
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": 10,
+          "unit": ""
+        },
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": 300,
+            "unit": "ml"
+          }
+        },
+        "dispersion_method": "ultrasonic waves for 10 min, stirring with a magnetic agitator for 5 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 348,
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallinity_phase_composition": "single-phase cubic CeO₂",
+        "particle_morphology": "Octahedral",
+        "zeta_potential": {
+          "value": -36.0,
+          "unit": "mV"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 36.19,
+          "unit": "%"
+        },
+        "oxygen_vacancy_concentration_xps": {
+          "value": 43.5, 
+          "unit": "%" 
+        },
+        "oxygen_vacancy_concentration_raman": {
+          "value": 3.0, 
+          "unit": "%" 
+        },
+        "contact_angle_slurry_glass": {
+          "value": 24.0,
+          "unit": "°"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 42.32,
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": 3.5,
+          "unit": "kg"
+        },
+        "platen_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "carrier_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "equipment_model": "UNIPOL-10005 polishing machine (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "pristine soda lime glass",
+          "diameter": {
+            "value": 50,
+            "unit": "mm"
+          },
+          "density": {
+            "value": 2.5,
+            "unit": "g/cm³"
+          },
+          "initial_surface_roughness_sa": {
+            "value": 3.12,
+            "unit": "nm"
+          }
+        },
+        "final_surface_roughness_sa": {
+          "value": 1.68,
+          "unit": "nm"
+        },
+        "friction_coefficient": {
+          "value": 0.42,
+          "unit": ""
+        }
+      }
+    },
+    {
+      "sample_id": "Nd_8%",
+      "experiment_context": "CeO₂ abrasive with 8% Nd³⁺ doping (Ce₀.₉₂Nd₀.₀₈O₂) synthesized via molten salt method.",
+      "doping_element": "Nd",
+      "doping_concentration_percent": {
+        "value": 8,
+        "unit": "%"
+      },
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "temperature": {
+          "value": 800,
+          "unit": "°C"
+        },
+        "time": null,
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": 10,
+          "unit": ""
+        },
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": 300,
+            "unit": "ml"
+          }
+        },
+        "dispersion_method": "ultrasonic waves for 10 min, stirring with a magnetic agitator for 5 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 303,
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallinity_phase_composition": "single-phase cubic CeO₂",
+        "particle_morphology": "Octahedral",
+        "zeta_potential": {
+          "value": -35.0,
+          "unit": "mV"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 34.63,
+          "unit": "%"
+        },
+        "oxygen_vacancy_concentration_xps": {
+          "value": 41.0, 
+          "unit": "%" 
+        },
+        "oxygen_vacancy_concentration_raman": {
+          "value": 2.8, 
+          "unit": "%" 
+        },
+        "contact_angle_slurry_glass": {
+          "value": 26.5,
+          "unit": "°"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 40.06,
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": 3.5,
+          "unit": "kg"
+        },
+        "platen_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "carrier_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "equipment_model": "UNIPOL-10005 polishing machine (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "pristine soda lime glass",
+          "diameter": {
+            "value": 50,
+            "unit": "mm"
+          },
+          "density": {
+            "value": 2.5,
+            "unit": "g/cm³"
+          },
+          "initial_surface_roughness_sa": {
+            "value": 3.12,
+            "unit": "nm"
+          }
+        },
+        "final_surface_roughness_sa": {
+          "value": 1.38,
+          "unit": "nm"
+        },
+        "friction_coefficient": {
+          "value": 0.41,
+          "unit": ""
+        }
+      }
+    },
+    {
+      "sample_id": "Nd_10%",
+      "experiment_context": "CeO₂ abrasive with 10% Nd³⁺ doping (Ce₀.₉Nd₀.₁O₂) synthesized via molten salt method.",
+      "doping_element": "Nd",
+      "doping_concentration_percent": {
+        "value": 10,
+        "unit": "%"
+      },
+      "synthesis_conditions": {
+        "method": "Molten Salt Method",
+        "temperature": {
+          "value": 800,
+          "unit": "°C"
+        },
+        "time": null,
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": 0.5,
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": {
+          "value": 10,
+          "unit": ""
+        },
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": 300,
+            "unit": "ml"
+          }
+        },
+        "dispersion_method": "ultrasonic waves for 10 min, stirring with a magnetic agitator for 5 min"
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 239.4,
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallinity_phase_composition": "single-phase cubic CeO₂",
+        "particle_morphology": "Octahedral",
+        "zeta_potential": {
+          "value": -34.0,
+          "unit": "mV"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 34.86,
+          "unit": "%"
+        },
+        "oxygen_vacancy_concentration_xps": {
+          "value": 40.0, 
+          "unit": "%" 
+        },
+        "oxygen_vacancy_concentration_raman": {
+          "value": 2.6, 
+          "unit": "%" 
+        },
+        "contact_angle_slurry_glass": {
+          "value": 28.0,
+          "unit": "°"
+        },
+        "xrd_peaks": ["(111)", "(200)", "(220)", "(311)", "(222)", "(400)", "(331)", "(420)"]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 3,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 35.99,
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_load": {
+          "value": 3.5,
+          "unit": "kg"
+        },
+        "platen_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "carrier_rotation_speed": {
+          "value": 80,
+          "unit": "r/min"
+        },
+        "equipment_model": "UNIPOL-10005 polishing machine (Shenyang Kejing Instrument Co., LTD., China)",
+        "pad_composition": "Rodel porous polyurethane pad",
+        "substrate_details": {
+          "material": "pristine soda lime glass",
+          "diameter": {
+            "value": 50,
+            "unit": "mm"
+          },
+          "density": {
+            "value": 2.5,
+            "unit": "g/cm³"
+          },
+          "initial_surface_roughness_sa": {
+            "value": 3.12,
+            "unit": "nm"
+          }
+        },
+        "final_surface_roughness_sa": {
+          "value": 1.56,
+          "unit": "nm"
+        },
+        "friction_coefficient": {
+          "value": 0.40,
+          "unit": ""
+        }
+      }
+    }
+  ]
+}

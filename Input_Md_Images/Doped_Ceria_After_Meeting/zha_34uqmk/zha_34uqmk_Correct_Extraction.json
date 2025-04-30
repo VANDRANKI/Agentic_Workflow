@@ -1,0 +1,908 @@
+{
+  "doi": "10.1016/j.apouse.2024.161236",
+  "title": "Enhanced chemical mechanical polishing (CMP) performance of porous self-assembled spherical cerium oxide via RE(La / Pr / Nd) doping",
+  "year_published": "2024",
+  "journal": "Applied Surface Science",
+  "samples": [
+    {
+      "sample_id": "p-CeO2",
+      "experiment_context": "Pure porous self-assembled spherical CeO₂ synthesized via hydrothermal method followed by calcination.",
+      "precursor_chemical": [
+        "CeCl₂·7H₂O",
+        "NaHCO₃"
+      ],
+      "precursor_concentration": [
+        {
+          "chemical": "CeCl₂·7H₂O",
+          "value": "0.6",
+          "unit": "mol/L"
+        },
+        {
+          "chemical": "NaHCO₃",
+          "value": "0.6",
+          "unit": "mol/L"
+        }
+      ],
+      "precipitant_type": "NaHCO₃",
+      "molar_ratio_precursor_precipitant": "3:1",
+      "reaction_temperature": {
+        "value": "180",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "12",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "stirring_speed": [
+          {
+            "value": "400",
+            "unit": "rpm",
+            "duration_minutes": 5
+          },
+          {
+            "value": "300",
+            "unit": "rpm",
+            "duration_hours": 12,
+            "note": "During hydrothermal step"
+          }
+        ],
+        "environmental_conditions": "Teflon-lined stainless-steel autoclave",
+        "calcination_temperature": {
+          "value": "900",
+          "unit": "°C"
+        },
+        "calcination_cooling_time": {
+          "value": "3",
+          "unit": "h"
+        },
+         "ph_during_reaction": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Deionized water and ethanol",
+          "times": "several"
+        },
+        "drying": {
+          "temperature": {
+            "value": "60",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "12",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Surfactant/Dispersant",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "6.0",
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~200",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallite_size": {
+          "value": 30.1,
+          "unit": "nm",
+          "measurement_method_used": "XRD (Debye-Scherrer)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite",
+          "reference": "PDF#34-0394",
+          "measurement_method_used": "XRD"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 26.4,
+          "unit": "%"
+        },
+        "surface_oxygen_vacancy_percent_xps": {
+          "value": 10.2,
+          "unit": "%"
+        },
+        "raman_peaks_cm-1": [
+          465
+        ],
+        "xanes_analysis": "Mixed Ce³⁺/Ce⁴⁺ state confirmed.",
+        "h2_tpr_analysis": {
+          "total_h2_consumption": {
+            "value": 719.55,
+            "unit": "µmol/g"
+          },
+          "notes": "Shows surface (adsorbed/lattice) and bulk oxygen reduction peaks."
+        },
+        "particle_morphology": "Porous self-assembled spherical nanoparticles, primarily exposing (111) facet.",
+        "specific_surface_area_bet": {
+          "value": 28.09,
+          "unit": "m²/g"
+        },
+        "pore_size_bet": {
+          "value": 14.23,
+          "unit": "nm"
+        },
+        "pore_volume_bet": {
+          "value": 0.079,
+          "unit": "cm³/g"
+        },
+        "zeta_potential": {
+          "value": -37,
+          "unit": "mV",
+          "std_dev": 2.0,
+          "ph": 6.0
+        },
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)"
+        ],
+        "lattice_constant": {
+          "value": 5.4112,
+          "unit": "Å"
+        },
+        "elastic_modulus_afm": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 252,
+          "unit": "nm/min",
+          "std_dev": 6.02,
+          "polished_material": "SiO₂ film"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ProLap-15 polisher (Shenzhen Mayor Yong precision Technology)",
+        "pad_composition": null,
+        "pre_cmp_surface_roughness_ra": {
+          "value": 0.939,
+          "unit": "nm",
+          "std_dev": 0.015,
+          "measurement_method": "AFM",
+          "scan_area": "5x5 µm²"
+        },
+        "post_cmp_surface_roughness_ra": {
+          "value": 0.289,
+          "unit": "nm",
+          "std_dev": 0.009,
+          "measurement_method": "AFM",
+          "scan_area": "5x5 µm²"
+        },
+        "post_cmp_surface_roughness_pv": null
+      },
+      "theoretical_analysis": {
+         "oxygen_vacancy_formation_energy": {
+          "value": 2.53,
+          "unit": "eV",
+          "surface": "(111)",
+          "method": "DFT"
+        }
+      }
+    },
+    {
+      "sample_id": "La-CeO2",
+      "experiment_context": "La-doped (10 wt%) porous self-assembled spherical CeO₂ synthesized via hydrothermal method followed by calcination.",
+      "precursor_chemical": [
+        "CeCl₂·7H₂O",
+        "NaHCO₃",
+        "LaCl₂·7H₂O"
+      ],
+      "precursor_concentration": [
+        {
+          "chemical": "CeCl₂·7H₂O",
+          "value": "0.6",
+          "unit": "mol/L"
+        },
+        {
+          "chemical": "NaHCO₃",
+          "value": "0.6",
+          "unit": "mol/L"
+        },
+        {
+          "chemical": "LaCl₂·7H₂O",
+          "value": "10",
+          "unit": "wt%",
+          "note": "Relative to CeCl₂·7H₂O"
+        }
+      ],
+      "precipitant_type": "NaHCO₃",
+      "molar_ratio_precursor_precipitant": "3:1",
+      "reaction_temperature": {
+        "value": "180",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "12",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "stirring_speed": [
+          {
+            "value": "400",
+            "unit": "rpm",
+            "duration_minutes": 5
+          },
+          {
+            "value": "300",
+            "unit": "rpm",
+            "duration_hours": 12,
+            "note": "During hydrothermal step"
+          }
+        ],
+        "environmental_conditions": "Teflon-lined stainless-steel autoclave",
+        "calcination_temperature": {
+          "value": "900",
+          "unit": "°C"
+        },
+        "calcination_cooling_time": {
+          "value": "3",
+          "unit": "h"
+        },
+         "ph_during_reaction": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Deionized water and ethanol",
+          "times": "several"
+        },
+        "drying": {
+          "temperature": {
+            "value": "60",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "12",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Surfactant/Dispersant",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "6.0",
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~200",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallite_size": {
+          "value": 21.4,
+          "unit": "nm",
+          "measurement_method_used": "XRD (Debye-Scherrer)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite",
+          "reference": "PDF#34-0394",
+          "measurement_method_used": "XRD"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 37.3,
+          "unit": "%"
+        },
+        "surface_oxygen_vacancy_percent_xps": {
+          "value": 28.8,
+          "unit": "%"
+        },
+        "raman_peaks_cm-1": [
+          465,
+          560,
+          600
+        ],
+        "xanes_analysis": "Mixed Ce³⁺/Ce⁴⁺ state confirmed. Lower Ce L₃-edge energy compared to p-CeO₂, Pr-CeO₂, Nd-CeO₂.",
+        "h2_tpr_analysis": {
+          "total_h2_consumption": {
+            "value": 1302.44,
+            "unit": "µmol/g"
+          },
+          "notes": "Shows surface (adsorbed/lattice) and bulk oxygen reduction peaks. Highest H₂ consumption among samples."
+        },
+        "elemental_composition": {
+           "dopant_concentration_icp": {
+              "element": "La",
+              "value": "~10",
+              "unit": "wt%"
+            },
+           "surface_dopant_concentration_xps": {
+              "element": "La",
+              "value": 16.82,
+              "unit": "%"
+            }
+        },
+        "particle_morphology": "Porous self-assembled spherical nanoparticles, primarily exposing (111) facet.",
+        "specific_surface_area_bet": {
+          "value": 59.14,
+          "unit": "m²/g"
+        },
+        "pore_size_bet": {
+          "value": 4.49,
+          "unit": "nm"
+        },
+        "pore_volume_bet": {
+          "value": 0.115,
+          "unit": "cm³/g"
+        },
+        "zeta_potential": {
+          "value": -43,
+          "unit": "mV",
+          "std_dev": 1.4,
+          "ph": 6.0
+        },
+         "elastic_modulus_afm": {
+            "value": 126.45,
+            "unit": "GPa"
+         },
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)"
+        ],
+        "lattice_constant": {
+          "value": 5.4395,
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 338,
+          "unit": "nm/min",
+          "std_dev": 7.54,
+          "polished_material": "SiO₂ film"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ProLap-15 polisher (Shenzhen Mayor Yong precision Technology)",
+        "pad_composition": null,
+         "pre_cmp_surface_roughness_ra": {
+          "value": 0.939,
+          "unit": "nm",
+          "std_dev": 0.015,
+          "measurement_method": "AFM",
+          "scan_area": "5x5 µm²"
+        },
+        "post_cmp_surface_roughness_ra": {
+          "value": 0.201,
+          "unit": "nm",
+          "std_dev": 0.010,
+          "measurement_method": "AFM",
+          "scan_area": "5x5 µm²"
+        },
+        "post_cmp_surface_roughness_pv": {
+           "value": 0.70,
+           "unit": "nm",
+           "measurement_method": "AFM"
+        }
+      },
+      "theoretical_analysis": {
+         "oxygen_vacancy_formation_energy": {
+          "value": 1.38,
+          "unit": "eV",
+          "surface": "(111)",
+          "method": "DFT"
+        },
+        "dopant_formation_energy": [
+           {
+             "location": "surface (111)",
+             "value": 0.72,
+             "unit": "eV",
+             "method": "DFT"
+           },
+           {
+             "location": "subsurface (111)",
+             "value": 0.97,
+             "unit": "eV",
+             "method": "DFT"
+           }
+        ]
+      }
+    },
+     {
+      "sample_id": "Pr-CeO2",
+      "experiment_context": "Pr-doped (10 wt%) porous self-assembled spherical CeO₂ synthesized via hydrothermal method followed by calcination.",
+      "precursor_chemical": [
+        "CeCl₂·7H₂O",
+        "NaHCO₃",
+        "PrCl₂·7H₂O"
+      ],
+      "precursor_concentration": [
+        {
+          "chemical": "CeCl₂·7H₂O",
+          "value": "0.6",
+          "unit": "mol/L"
+        },
+        {
+          "chemical": "NaHCO₃",
+          "value": "0.6",
+          "unit": "mol/L"
+        },
+        {
+          "chemical": "PrCl₂·7H₂O",
+          "value": "10",
+          "unit": "wt%",
+          "note": "Relative to CeCl₂·7H₂O"
+        }
+      ],
+      "precipitant_type": "NaHCO₃",
+      "molar_ratio_precursor_precipitant": "3:1",
+      "reaction_temperature": {
+        "value": "180",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "12",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "stirring_speed": [
+          {
+            "value": "400",
+            "unit": "rpm",
+            "duration_minutes": 5
+          },
+          {
+            "value": "300",
+            "unit": "rpm",
+            "duration_hours": 12,
+            "note": "During hydrothermal step"
+          }
+        ],
+        "environmental_conditions": "Teflon-lined stainless-steel autoclave",
+        "calcination_temperature": {
+          "value": "900",
+          "unit": "°C"
+        },
+        "calcination_cooling_time": {
+          "value": "3",
+          "unit": "h"
+        },
+         "ph_during_reaction": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Deionized water and ethanol",
+          "times": "several"
+        },
+        "drying": {
+          "temperature": {
+            "value": "60",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "12",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Surfactant/Dispersant",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "6.0",
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~200",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallite_size": {
+          "value": 26.1,
+          "unit": "nm",
+          "measurement_method_used": "XRD (Debye-Scherrer)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite",
+          "reference": "PDF#34-0394",
+          "measurement_method_used": "XRD"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 33.4,
+          "unit": "%"
+        },
+        "surface_oxygen_vacancy_percent_xps": {
+          "value": 22.4,
+          "unit": "%"
+        },
+        "raman_peaks_cm-1": [
+          465,
+          560,
+          600
+        ],
+        "xanes_analysis": "Mixed Ce³⁺/Ce⁴⁺ state confirmed. Lower Ce L₃-edge energy compared to p-CeO₂.",
+        "h2_tpr_analysis": {
+          "total_h2_consumption": {
+            "value": 989.39,
+            "unit": "µmol/g"
+          },
+          "notes": "Shows surface (adsorbed/lattice) and bulk oxygen reduction peaks. Minor peak at 381°C suggests potentially more active cerium oxide."
+        },
+        "elemental_composition": {
+           "dopant_concentration_icp": {
+              "element": "Pr",
+              "value": "~10",
+              "unit": "wt%"
+            },
+           "surface_dopant_concentration_xps": {
+              "element": "Pr",
+              "value": 14.02,
+              "unit": "%"
+            }
+        },
+        "particle_morphology": "Porous self-assembled spherical nanoparticles, primarily exposing (111) facet.",
+        "specific_surface_area_bet": {
+          "value": 38.25,
+          "unit": "m²/g"
+        },
+        "pore_size_bet": {
+          "value": 11.82,
+          "unit": "nm"
+        },
+        "pore_volume_bet": {
+          "value": 0.094,
+          "unit": "cm³/g"
+        },
+        "zeta_potential": {
+          "value": -39,
+          "unit": "mV",
+          "std_dev": 1.5,
+          "ph": 6.0
+        },
+        "elastic_modulus_afm": null,
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)"
+        ],
+        "lattice_constant": {
+          "value": 5.4185,
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 306,
+          "unit": "nm/min",
+          "std_dev": 4.04,
+          "polished_material": "SiO₂ film"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ProLap-15 polisher (Shenzhen Mayor Yong precision Technology)",
+        "pad_composition": null,
+         "pre_cmp_surface_roughness_ra": {
+          "value": 0.939,
+          "unit": "nm",
+          "std_dev": 0.015,
+          "measurement_method": "AFM",
+          "scan_area": "5x5 µm²"
+        },
+        "post_cmp_surface_roughness_ra": {
+          "value": 0.231,
+          "unit": "nm",
+          "std_dev": 0.012,
+          "measurement_method": "AFM",
+          "scan_area": "5x5 µm²"
+        },
+        "post_cmp_surface_roughness_pv": null
+      },
+      "theoretical_analysis": {
+         "oxygen_vacancy_formation_energy": {
+          "value": 1.90,
+          "unit": "eV",
+          "surface": "(111)",
+          "method": "DFT"
+        },
+        "dopant_formation_energy": [
+           {
+             "location": "surface (111)",
+             "value": 0.84,
+             "unit": "eV",
+             "method": "DFT"
+           },
+           {
+             "location": "subsurface (111)",
+             "value": 1.22,
+             "unit": "eV",
+             "method": "DFT"
+           }
+        ]
+      }
+    },
+     {
+      "sample_id": "Nd-CeO2",
+      "experiment_context": "Nd-doped (10 wt%) porous self-assembled spherical CeO₂ synthesized via hydrothermal method followed by calcination.",
+      "precursor_chemical": [
+        "CeCl₂·7H₂O",
+        "NaHCO₃",
+        "NdCl₂·6H₂O"
+      ],
+      "precursor_concentration": [
+        {
+          "chemical": "CeCl₂·7H₂O",
+          "value": "0.6",
+          "unit": "mol/L"
+        },
+        {
+          "chemical": "NaHCO₃",
+          "value": "0.6",
+          "unit": "mol/L"
+        },
+        {
+          "chemical": "NdCl₂·6H₂O",
+          "value": "10",
+          "unit": "wt%",
+          "note": "Relative to CeCl₂·7H₂O"
+        }
+      ],
+      "precipitant_type": "NaHCO₃",
+      "molar_ratio_precursor_precipitant": "3:1",
+      "reaction_temperature": {
+        "value": "180",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "12",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "stirring_speed": [
+          {
+            "value": "400",
+            "unit": "rpm",
+            "duration_minutes": 5
+          },
+          {
+            "value": "300",
+            "unit": "rpm",
+            "duration_hours": 12,
+            "note": "During hydrothermal step"
+          }
+        ],
+        "environmental_conditions": "Teflon-lined stainless-steel autoclave",
+        "calcination_temperature": {
+          "value": "900",
+          "unit": "°C"
+        },
+        "calcination_cooling_time": {
+          "value": "3",
+          "unit": "h"
+        },
+         "ph_during_reaction": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Deionized water and ethanol",
+          "times": "several"
+        },
+        "drying": {
+          "temperature": {
+            "value": "60",
+            "unit": "°C"
+          },
+          "duration": {
+            "value": "12",
+            "unit": "h"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Surfactant/Dispersant",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "6.0",
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~200",
+          "unit": "nm",
+          "measurement_method_used": "SEM"
+        },
+        "crystallite_size": {
+          "value": 24.2,
+          "unit": "nm",
+          "measurement_method_used": "XRD (Debye-Scherrer)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "Cubic fluorite",
+          "reference": "PDF#34-0394",
+          "measurement_method_used": "XRD"
+        },
+        "surface_ce3_percent_xps": {
+          "value": 32.2,
+          "unit": "%"
+        },
+        "surface_oxygen_vacancy_percent_xps": {
+          "value": 21.1,
+          "unit": "%"
+        },
+        "raman_peaks_cm-1": [
+          465,
+          560,
+          600
+        ],
+        "xanes_analysis": "Mixed Ce³⁺/Ce⁴⁺ state confirmed. Lower Ce L₃-edge energy compared to p-CeO₂.",
+        "h2_tpr_analysis": {
+          "total_h2_consumption": {
+            "value": 936.88,
+            "unit": "µmol/g"
+          },
+          "notes": "Shows surface (adsorbed/lattice) and bulk oxygen reduction peaks."
+        },
+        "elemental_composition": {
+           "dopant_concentration_icp": {
+              "element": "Nd",
+              "value": "~10",
+              "unit": "wt%"
+            },
+           "surface_dopant_concentration_xps": {
+              "element": "Nd",
+              "value": 13.56,
+              "unit": "%"
+            }
+        },
+        "particle_morphology": "Porous self-assembled spherical nanoparticles, primarily exposing (111) facet.",
+        "specific_surface_area_bet": {
+          "value": 53.02,
+          "unit": "m²/g"
+        },
+        "pore_size_bet": {
+          "value": 5.65,
+          "unit": "nm"
+        },
+        "pore_volume_bet": {
+          "value": 0.105,
+          "unit": "cm³/g"
+        },
+        "zeta_potential": {
+          "value": -41,
+          "unit": "mV",
+          "std_dev": 3.1,
+          "ph": 6.0
+        },
+        "elastic_modulus_afm": null,
+        "xrd_peaks": [
+          "(111)",
+          "(200)",
+          "(220)",
+          "(311)"
+        ],
+        "lattice_constant": {
+          "value": 5.4331,
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 295,
+          "unit": "nm/min",
+          "std_dev": 6.55,
+          "polished_material": "SiO₂ film"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ProLap-15 polisher (Shenzhen Mayor Yong precision Technology)",
+        "pad_composition": null,
+         "pre_cmp_surface_roughness_ra": {
+          "value": 0.939,
+          "unit": "nm",
+          "std_dev": 0.015,
+          "measurement_method": "AFM",
+          "scan_area": "5x5 µm²"
+        },
+        "post_cmp_surface_roughness_ra": {
+          "value": 0.221,
+          "unit": "nm",
+          "std_dev": 0.016,
+          "measurement_method": "AFM",
+          "scan_area": "5x5 µm²"
+        },
+        "post_cmp_surface_roughness_pv": null
+      },
+      "theoretical_analysis": {
+         "oxygen_vacancy_formation_energy": {
+          "value": 2.26,
+          "unit": "eV",
+          "surface": "(111)",
+          "method": "DFT"
+        },
+        "dopant_formation_energy": [
+           {
+             "location": "surface (111)",
+             "value": 0.98,
+             "unit": "eV",
+             "method": "DFT"
+           },
+           {
+             "location": "subsurface (111)",
+             "value": 1.36,
+             "unit": "eV",
+             "method": "DFT"
+           }
+        ]
+      }
+    }
+  ]
+}
