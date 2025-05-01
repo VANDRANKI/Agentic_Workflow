@@ -1,0 +1,1198 @@
+{
+  "doi": null,
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITIONS, METHODS OF PREPARING THE SAME AND METHODS OF USING THE SAME",
+  "year_published": "2007",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "cho_lq1v3m_Ex1",
+      "experiment_context": "Example 1: Colloidal silica slurry with 0.002 wt% polyoxyethylene perfluorobutyl sulfonyl ester and 0.01 wt% quaternary ammonium surfactant (Formula 3), pH adjusted with TMAH.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent. General description mentions metal oxides like SiO2, Al2O3, CeO2, ZrO2, TiO2.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing colloidal silica, surfactants, pH adjuster, and ultrapure water.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "concentration": {
+              "initial": "20 wt% aqueous solution",
+              "final": "3.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polyoxyethylene perfluorobutyl sulfonyl ester",
+              "type": "Fluorinated surfactant (non-ionic perfluoroalkyl sulfonyl compound)",
+              "concentration": {
+                "value": "0.002",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Compound of Formula 3 (N,N,N',N'-Tetramethyl-N,N'-bis(2-hydroxyethyl)ethylenediammonium dichloride)",
+              "type": "Quaternary ammonium surfactant",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": "96.438",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Stirred and filtered.",
+          "dispersion": [
+             {
+                "method": "Stirring",
+                "speed": {
+                    "value": "500",
+                    "unit": "rpm"
+                },
+                "duration": null
+             }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": null
+            },
+            "agents": [
+              {
+                "name": "Tetramethylammonium hydroxide (TMAH)",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "filtration": {
+              "pore_size": {
+                  "value": "5",
+                  "unit": "micron"
+              }
+          }
+        }
+      },
+      "characterization": {
+        "description": "General abrasive properties mentioned in patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "300",
+              "unit": "nm"
+            },
+            "measurement_method_used": "TEM (mentioned generally for primary particle size)"
+          },
+          "shape": null,
+          "surface_area": {
+            "value": null,
+            "unit": "m²/g",
+            "range_min": "10",
+            "range_max": "300"
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+          "polishing_substrate": "Poly-Si, PTEOS (8th blanket wafer)",
+          "polishing_time": {
+            "value": "1",
+            "unit": "min"
+          },
+          "material_removal_rate_poly_si": {
+            "value": "1851",
+            "unit": "Å/min"
+          },
+          "material_removal_rate_pteos": {
+            "value": "16",
+            "unit": "Å/min"
+          },
+          "selectivity_poly_si_pteos": "116",
+          "within_wafer_non_uniformity_poly_si": {
+              "value": "2.41",
+              "unit": "%"
+          },
+          "within_wafer_non_uniformity_pteos": {
+              "value": "2.75",
+              "unit": "%"
+          },
+          "process_temperature": {
+            "value": "25",
+            "unit": "°C"
+          },
+          "polishing_pressure": {
+            "value": "2.0",
+            "unit": "psi"
+          },
+          "plate_speed": {
+              "value": "120",
+              "unit": "rpm"
+          },
+          "head_speed": {
+              "value": "115",
+              "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+          },
+          "pad_conditioning_pressure": {
+            "value": null,
+            "unit": null
+          },
+          "equipment_model": "MIRRA (AMAT)",
+          "pad_composition": "IC1010/Suba 1V K groove (Rohm & Haas)"
+        }
+    },
+    {
+      "sample_id": "cho_lq1v3m_Ex2",
+      "experiment_context": "Example 2: Colloidal silica slurry with 0.002 wt% polyoxyethylene perfluorobutyl sulfonyl ester and 0.02 wt% quaternary ammonium surfactant (Formula 3), pH adjusted with TMAH.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent. General description mentions metal oxides like SiO2, Al2O3, CeO2, ZrO2, TiO2.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing colloidal silica, surfactants, pH adjuster, and ultrapure water.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "concentration": {
+              "initial": "20 wt% aqueous solution",
+              "final": "3.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polyoxyethylene perfluorobutyl sulfonyl ester",
+              "type": "Fluorinated surfactant (non-ionic perfluoroalkyl sulfonyl compound)",
+              "concentration": {
+                "value": "0.002",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Compound of Formula 3 (N,N,N',N'-Tetramethyl-N,N'-bis(2-hydroxyethyl)ethylenediammonium dichloride)",
+              "type": "Quaternary ammonium surfactant",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": null,
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Stirred and filtered.",
+          "dispersion": [
+             {
+                "method": "Stirring",
+                "speed": {
+                    "value": "500",
+                    "unit": "rpm"
+                },
+                "duration": null
+             }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": null
+            },
+            "agents": [
+              {
+                "name": "Tetramethylammonium hydroxide (TMAH)",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "filtration": {
+              "pore_size": {
+                  "value": "5",
+                  "unit": "micron"
+              }
+          }
+        }
+      },
+      "characterization": {
+        "description": "General abrasive properties mentioned in patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "300",
+              "unit": "nm"
+            },
+            "measurement_method_used": "TEM (mentioned generally for primary particle size)"
+          },
+          "shape": null,
+          "surface_area": {
+            "value": null,
+            "unit": "m²/g",
+            "range_min": "10",
+            "range_max": "300"
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+          "polishing_substrate": "Poly-Si, PTEOS (8th blanket wafer)",
+          "polishing_time": {
+            "value": "1",
+            "unit": "min"
+          },
+          "material_removal_rate_poly_si": {
+            "value": "2269",
+            "unit": "Å/min"
+          },
+          "material_removal_rate_pteos": {
+            "value": "10",
+            "unit": "Å/min"
+          },
+          "selectivity_poly_si_pteos": "227",
+          "within_wafer_non_uniformity_poly_si": {
+              "value": "2.91",
+              "unit": "%"
+          },
+          "within_wafer_non_uniformity_pteos": {
+              "value": "2.58",
+              "unit": "%"
+          },
+          "process_temperature": {
+            "value": "25",
+            "unit": "°C"
+          },
+          "polishing_pressure": {
+            "value": "2.0",
+            "unit": "psi"
+          },
+          "plate_speed": {
+              "value": "120",
+              "unit": "rpm"
+          },
+          "head_speed": {
+              "value": "115",
+              "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+          },
+          "pad_conditioning_pressure": {
+            "value": null,
+            "unit": null
+          },
+          "equipment_model": "MIRRA (AMAT)",
+          "pad_composition": "IC1010/Suba 1V K groove (Rohm & Haas)"
+        }
+    },
+    {
+      "sample_id": "cho_lq1v3m_Ex3",
+      "experiment_context": "Example 3: Colloidal silica slurry with 0.002 wt% polyoxyethylene perfluorobutyl sulfonyl ester and 0.03 wt% quaternary ammonium surfactant (Formula 3), pH adjusted with TMAH.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent. General description mentions metal oxides like SiO2, Al2O3, CeO2, ZrO2, TiO2.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing colloidal silica, surfactants, pH adjuster, and ultrapure water.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "concentration": {
+              "initial": "20 wt% aqueous solution",
+              "final": "3.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polyoxyethylene perfluorobutyl sulfonyl ester",
+              "type": "Fluorinated surfactant (non-ionic perfluoroalkyl sulfonyl compound)",
+              "concentration": {
+                "value": "0.002",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Compound of Formula 3 (N,N,N',N'-Tetramethyl-N,N'-bis(2-hydroxyethyl)ethylenediammonium dichloride)",
+              "type": "Quaternary ammonium surfactant",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": null,
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Stirred and filtered.",
+          "dispersion": [
+             {
+                "method": "Stirring",
+                "speed": {
+                    "value": "500",
+                    "unit": "rpm"
+                },
+                "duration": null
+             }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": null
+            },
+            "agents": [
+              {
+                "name": "Tetramethylammonium hydroxide (TMAH)",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "filtration": {
+              "pore_size": {
+                  "value": "5",
+                  "unit": "micron"
+              }
+          }
+        }
+      },
+      "characterization": {
+        "description": "General abrasive properties mentioned in patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "300",
+              "unit": "nm"
+            },
+            "measurement_method_used": "TEM (mentioned generally for primary particle size)"
+          },
+          "shape": null,
+          "surface_area": {
+            "value": null,
+            "unit": "m²/g",
+            "range_min": "10",
+            "range_max": "300"
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+          "polishing_substrate": "Poly-Si, PTEOS (8th blanket wafer)",
+          "polishing_time": {
+            "value": "1",
+            "unit": "min"
+          },
+          "material_removal_rate_poly_si": {
+            "value": "2508",
+            "unit": "Å/min"
+          },
+          "material_removal_rate_pteos": {
+            "value": "5",
+            "unit": "Å/min"
+          },
+          "selectivity_poly_si_pteos": "502",
+          "within_wafer_non_uniformity_poly_si": {
+              "value": "3.15",
+              "unit": "%"
+          },
+          "within_wafer_non_uniformity_pteos": {
+              "value": "2.61",
+              "unit": "%"
+          },
+          "process_temperature": {
+            "value": "25",
+            "unit": "°C"
+          },
+          "polishing_pressure": {
+            "value": "2.0",
+            "unit": "psi"
+          },
+          "plate_speed": {
+              "value": "120",
+              "unit": "rpm"
+          },
+          "head_speed": {
+              "value": "115",
+              "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+          },
+          "pad_conditioning_pressure": {
+            "value": null,
+            "unit": null
+          },
+          "equipment_model": "MIRRA (AMAT)",
+          "pad_composition": "IC1010/Suba 1V K groove (Rohm & Haas)"
+        }
+    },
+    {
+      "sample_id": "cho_lq1v3m_Comp1",
+      "experiment_context": "Comparative Example 1: Colloidal silica slurry with 0.002 wt% polyoxyethylene perfluorobutyl sulfonyl ester, no quaternary ammonium surfactant, pH adjusted with TMAH.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent. General description mentions metal oxides like SiO2, Al2O3, CeO2, ZrO2, TiO2.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing colloidal silica, surfactant, pH adjuster, and ultrapure water.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "concentration": {
+              "initial": "20 wt% aqueous solution",
+              "final": "3.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polyoxyethylene perfluorobutyl sulfonyl ester",
+              "type": "Fluorinated surfactant (non-ionic perfluoroalkyl sulfonyl compound)",
+              "concentration": {
+                "value": "0.002",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": null,
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Stirred and filtered.",
+          "dispersion": [
+             {
+                "method": "Stirring",
+                "speed": {
+                    "value": "500",
+                    "unit": "rpm"
+                },
+                "duration": null
+             }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": null
+            },
+            "agents": [
+              {
+                "name": "Tetramethylammonium hydroxide (TMAH)",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "filtration": {
+              "pore_size": {
+                  "value": "5",
+                  "unit": "micron"
+              }
+          }
+        }
+      },
+      "characterization": {
+        "description": "General abrasive properties mentioned in patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "300",
+              "unit": "nm"
+            },
+            "measurement_method_used": "TEM (mentioned generally for primary particle size)"
+          },
+          "shape": null,
+          "surface_area": {
+            "value": null,
+            "unit": "m²/g",
+            "range_min": "10",
+            "range_max": "300"
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+          "polishing_substrate": "Poly-Si, PTEOS (8th blanket wafer)",
+          "polishing_time": {
+            "value": "1",
+            "unit": "min"
+          },
+          "material_removal_rate_poly_si": {
+            "value": "1251",
+            "unit": "Å/min"
+          },
+          "material_removal_rate_pteos": {
+            "value": "38",
+            "unit": "Å/min"
+          },
+          "selectivity_poly_si_pteos": "33",
+          "within_wafer_non_uniformity_poly_si": {
+              "value": "6.84",
+              "unit": "%"
+          },
+          "within_wafer_non_uniformity_pteos": {
+              "value": "3.35",
+              "unit": "%"
+          },
+          "process_temperature": {
+            "value": "25",
+            "unit": "°C"
+          },
+          "polishing_pressure": {
+            "value": "2.0",
+            "unit": "psi"
+          },
+          "plate_speed": {
+              "value": "120",
+              "unit": "rpm"
+          },
+          "head_speed": {
+              "value": "115",
+              "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+          },
+          "pad_conditioning_pressure": {
+            "value": null,
+            "unit": null
+          },
+          "equipment_model": "MIRRA (AMAT)",
+          "pad_composition": "IC1010/Suba 1V K groove (Rohm & Haas)"
+        }
+    },
+    {
+      "sample_id": "cho_lq1v3m_Comp2",
+      "experiment_context": "Comparative Example 2: Colloidal silica slurry with 0.01 wt% quaternary ammonium surfactant (Formula 3), no fluorinated surfactant, pH adjusted with TMAH.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent. General description mentions metal oxides like SiO2, Al2O3, CeO2, ZrO2, TiO2.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing colloidal silica, surfactant, pH adjuster, and ultrapure water.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "concentration": {
+              "initial": "20 wt% aqueous solution",
+              "final": "3.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Compound of Formula 3 (N,N,N',N'-Tetramethyl-N,N'-bis(2-hydroxyethyl)ethylenediammonium dichloride)",
+              "type": "Quaternary ammonium surfactant",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": null,
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Stirred and filtered.",
+          "dispersion": [
+             {
+                "method": "Stirring",
+                "speed": {
+                    "value": "500",
+                    "unit": "rpm"
+                },
+                "duration": null
+             }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": null
+            },
+            "agents": [
+              {
+                "name": "Tetramethylammonium hydroxide (TMAH)",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "filtration": {
+              "pore_size": {
+                  "value": "5",
+                  "unit": "micron"
+              }
+          }
+        }
+      },
+      "characterization": {
+        "description": "General abrasive properties mentioned in patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "300",
+              "unit": "nm"
+            },
+            "measurement_method_used": "TEM (mentioned generally for primary particle size)"
+          },
+          "shape": null,
+          "surface_area": {
+            "value": null,
+            "unit": "m²/g",
+            "range_min": "10",
+            "range_max": "300"
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+          "polishing_substrate": "Poly-Si, PTEOS (8th blanket wafer)",
+          "polishing_time": {
+            "value": "1",
+            "unit": "min"
+          },
+          "material_removal_rate_poly_si": {
+            "value": "2481",
+            "unit": "Å/min"
+          },
+          "material_removal_rate_pteos": {
+            "value": "14",
+            "unit": "Å/min"
+          },
+          "selectivity_poly_si_pteos": "177",
+          "within_wafer_non_uniformity_poly_si": {
+              "value": "7.95",
+              "unit": "%"
+          },
+          "within_wafer_non_uniformity_pteos": {
+              "value": "3.54",
+              "unit": "%"
+          },
+          "process_temperature": {
+            "value": "25",
+            "unit": "°C"
+          },
+          "polishing_pressure": {
+            "value": "2.0",
+            "unit": "psi"
+          },
+          "plate_speed": {
+              "value": "120",
+              "unit": "rpm"
+          },
+          "head_speed": {
+              "value": "115",
+              "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+          },
+          "pad_conditioning_pressure": {
+            "value": null,
+            "unit": null
+          },
+          "equipment_model": "MIRRA (AMAT)",
+          "pad_composition": "IC1010/Suba 1V K groove (Rohm & Haas)"
+        }
+    },
+    {
+      "sample_id": "cho_lq1v3m_Comp3",
+      "experiment_context": "Comparative Example 3: Colloidal silica slurry with 0.002 wt% polyoxyethylene perfluorobutyl sulfonyl ester and 0.01 wt% ethylene diamine, pH adjusted with TMAH.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent. General description mentions metal oxides like SiO2, Al2O3, CeO2, ZrO2, TiO2.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing colloidal silica, surfactant, additive, pH adjuster, and ultrapure water.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "concentration": {
+              "initial": "20 wt% aqueous solution",
+              "final": "3.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polyoxyethylene perfluorobutyl sulfonyl ester",
+              "type": "Fluorinated surfactant (non-ionic perfluoroalkyl sulfonyl compound)",
+              "concentration": {
+                "value": "0.002",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylene diamine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": null,
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Stirred and filtered.",
+          "dispersion": [
+             {
+                "method": "Stirring",
+                "speed": {
+                    "value": "500",
+                    "unit": "rpm"
+                },
+                "duration": null
+             }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": null
+            },
+            "agents": [
+              {
+                "name": "Tetramethylammonium hydroxide (TMAH)",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "filtration": {
+              "pore_size": {
+                  "value": "5",
+                  "unit": "micron"
+              }
+          }
+        }
+      },
+      "characterization": {
+        "description": "General abrasive properties mentioned in patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "300",
+              "unit": "nm"
+            },
+            "measurement_method_used": "TEM (mentioned generally for primary particle size)"
+          },
+          "shape": null,
+          "surface_area": {
+            "value": null,
+            "unit": "m²/g",
+            "range_min": "10",
+            "range_max": "300"
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+          "polishing_substrate": "Poly-Si, PTEOS (8th blanket wafer)",
+          "polishing_time": {
+            "value": "1",
+            "unit": "min"
+          },
+          "material_removal_rate_poly_si": {
+            "value": "1540",
+            "unit": "Å/min"
+          },
+          "material_removal_rate_pteos": {
+            "value": "51",
+            "unit": "Å/min"
+          },
+          "selectivity_poly_si_pteos": "30",
+          "within_wafer_non_uniformity_poly_si": {
+              "value": "6.98",
+              "unit": "%"
+          },
+          "within_wafer_non_uniformity_pteos": {
+              "value": "3.15",
+              "unit": "%"
+          },
+          "process_temperature": {
+            "value": "25",
+            "unit": "°C"
+          },
+          "polishing_pressure": {
+            "value": "2.0",
+            "unit": "psi"
+          },
+          "plate_speed": {
+              "value": "120",
+              "unit": "rpm"
+          },
+          "head_speed": {
+              "value": "115",
+              "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+          },
+          "pad_conditioning_pressure": {
+            "value": null,
+            "unit": null
+          },
+          "equipment_model": "MIRRA (AMAT)",
+          "pad_composition": "IC1010/Suba 1V K groove (Rohm & Haas)"
+        }
+    }
+  ]
+}

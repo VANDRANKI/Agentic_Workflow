@@ -1,0 +1,732 @@
+{
+  "patent_number": "US 8,080,505 B2",
+  "title": "SLURRY COMPOSITION AND METHOD FOR CHEMICAL MECHANICAL POLISHING OF COPPER INTEGRATED WITH TUNGSTEN BASED BARRIER METALS",
+  "year_published": "2011",
+  "assignee": "IMEC, Leuven (BE)",
+  "samples": [
+    {
+      "sample_id": "H2O2_Commercial",
+      "experiment_context": "Commercial H2O2-based CMP slurry (e.g., Hitachi C430-A18) used as baseline for comparison.",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "inhibitor": {
+          "name": null,
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "~350",
+          "unit": "µA",
+          "source": "FIG 1, 10"
+        },
+        "potential_difference_cu_wnc": {
+          "value": "~550",
+          "unit": "mV",
+          "source": "FIG 3, 7"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": "~5",
+          "unit": "nm/min",
+          "source": "FIG 2a"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": "~18",
+          "unit": "nm/min",
+          "source": "FIG 2a"
+        },
+        "cu_cmp_removal_rate": {
+          "value": "~350",
+          "unit": "nm/min",
+          "source": "Text"
+        }
+      },
+      "cmp_performance": {
+        "observation": "Significant WNC loss observed at trench corners due to galvanic corrosion.",
+        "source": "FIG 4a, 5a"
+      }
+    },
+    {
+      "sample_id": "H2O2_9vol_MA_0.05wt",
+      "experiment_context": "H2O2-based slurry (9 vol%) with Malic Acid inhibitor (0.05 wt% assumed based on typical organic acid levels mentioned).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": {
+            "value": "9",
+            "unit": "vol%"
+          }
+        },
+        "inhibitor": {
+          "name": "Malic Acid",
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "~150",
+          "unit": "µA",
+          "source": "FIG 1"
+        },
+        "potential_difference_cu_wnc": {
+          "value": "~450",
+          "unit": "mV",
+          "source": "FIG 3, 7"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": "~2",
+          "unit": "nm/min",
+          "source": "FIG 2c"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": "~10",
+          "unit": "nm/min",
+          "source": "FIG 2c"
+        },
+        "cu_cmp_removal_rate": {
+          "value": null,
+          "unit": "nm/min"
+        }
+      },
+      "cmp_performance": {
+        "observation": "High galvanic current and potential difference suggest WNC corrosion likely occurs, though potentially less severe than commercial H2O2 slurry."
+      }
+    },
+    {
+      "sample_id": "H2O2_9vol_CA_0.05wt",
+      "experiment_context": "H2O2-based slurry (9 vol%) with Citric Acid inhibitor (0.05 wt% assumed).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": {
+            "value": "9",
+            "unit": "vol%"
+          }
+        },
+        "inhibitor": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "~150",
+          "unit": "µA",
+          "source": "FIG 1"
+        },
+        "potential_difference_cu_wnc": {
+          "value": null, 
+          "unit": "mV",
+          "source": "FIG 3 shows individual potentials, difference is large"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": "~2",
+          "unit": "nm/min",
+          "source": "FIG 2b"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": "~8",
+          "unit": "nm/min",
+          "source": "FIG 2b"
+        },
+        "cu_cmp_removal_rate": {
+          "value": null,
+          "unit": "nm/min"
+        }
+      },
+      "cmp_performance": {
+        "observation": "High galvanic current and potential difference suggest WNC corrosion likely occurs."
+      }
+    },
+    {
+      "sample_id": "HNO3_3wt_NoInhibitor",
+      "experiment_context": "HNO3-based slurry (3 wt% assumed based on Example 5) without added inhibitor.",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "HNO3",
+          "concentration": {
+            "value": "3",
+            "unit": "wt%"
+          }
+        },
+        "inhibitor": null,
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "~0",
+          "unit": "µA",
+          "source": "FIG 1, 10"
+        },
+        "potential_difference_cu_wnc": {
+          "value": "~20",
+          "unit": "mV",
+          "source": "FIG 3, 7"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": "<1",
+          "unit": "nm/min",
+          "source": "Text/Example 2 (using Acetic Acid result as proxy)"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": "<1",
+          "unit": "nm/min",
+          "source": "Assumed similar to chemical due to low potential diff"
+        },
+        "cu_static_etch_rate": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_cmp_removal_rate": {
+          "value": null,
+          "unit": "nm/min"
+        }
+      },
+      "cmp_performance": {
+        "observation": "Prevents WNC galvanic corrosion, but likely causes high copper etching without inhibitor."
+      }
+    },
+    {
+      "sample_id": "HNO3_3wt_MA_0.05wt",
+      "experiment_context": "HNO3-based slurry (3 wt%) with Malic Acid inhibitor (0.05 wt%).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "HNO3",
+          "concentration": {
+            "value": "3",
+            "unit": "wt%"
+          }
+        },
+        "inhibitor": {
+          "name": "Malic Acid",
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "<3",
+          "unit": "µA",
+          "source": "FIG 6, 10"
+        },
+        "potential_difference_cu_wnc": {
+          "value": "~10",
+          "unit": "mV",
+          "source": "FIG 7"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": "~1",
+          "unit": "nm/min",
+          "source": "Text/Example 3"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": "~1",
+          "unit": "nm/min",
+          "source": "Text/Example 3"
+        },
+        "cu_static_etch_rate": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_cmp_removal_rate": {
+          "value": "~30",
+          "unit": "nm/min",
+          "source": "Text"
+        }
+      },
+      "cmp_performance": {
+        "observation": "No WNC loss observed. Provides good Cu polishing with WNC protection.",
+        "source": "FIG 8, 9"
+      }
+    },
+    {
+      "sample_id": "HNO3_3wt_CA_0.05wt",
+      "experiment_context": "HNO3-based slurry (3 wt%) with Citric Acid inhibitor (0.05 wt%).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "HNO3",
+          "concentration": {
+            "value": "3",
+            "unit": "wt%"
+          }
+        },
+        "inhibitor": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "<3",
+          "unit": "µA",
+          "source": "FIG 6, 10"
+        },
+        "potential_difference_cu_wnc": {
+          "value": "~10",
+          "unit": "mV",
+          "source": "FIG 7"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_static_etch_rate": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_cmp_removal_rate": {
+          "value": "~30",
+          "unit": "nm/min",
+          "source": "Text (Assumed similar to other HNO3+inhibitor)"
+        }
+      },
+      "cmp_performance": {
+        "observation": "Prevents WNC galvanic corrosion (low current/potential diff)."
+      }
+    },
+    {
+      "sample_id": "HNO3_3wt_AA_0.05wt",
+      "experiment_context": "HNO3-based slurry (3 wt%) with Acetic Acid inhibitor (0.05 wt% assumed).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "HNO3",
+          "concentration": {
+            "value": "3",
+            "unit": "wt%"
+          }
+        },
+        "inhibitor": {
+          "name": "Acetic Acid",
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "<3",
+          "unit": "µA",
+          "source": "FIG 6, 10"
+        },
+        "potential_difference_cu_wnc": {
+          "value": null,
+          "unit": "mV"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": "<1",
+          "unit": "nm/min",
+          "source": "Text/Example 2"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": "<1",
+          "unit": "nm/min",
+          "source": "Text/Example 2"
+        },
+        "cu_static_etch_rate": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_cmp_removal_rate": {
+          "value": "~30",
+          "unit": "nm/min",
+          "source": "Text (Assumed similar to other HNO3+inhibitor)"
+        }
+      },
+      "cmp_performance": {
+        "observation": "Prevents WNC galvanic corrosion (low current, low WNC etch rate)."
+      }
+    },
+    {
+      "sample_id": "HNO3_0.75wt_Fructose_10wt",
+      "experiment_context": "HNO3-based slurry (0.75 wt%) with Fructose inhibitor (10 wt%).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "HNO3",
+          "concentration": {
+            "value": "0.75",
+            "unit": "wt%"
+          }
+        },
+        "inhibitor": {
+          "name": "Fructose",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "<3",
+          "unit": "µA",
+          "source": "FIG 6, 10"
+        },
+        "potential_difference_cu_wnc": {
+          "value": "~10",
+          "unit": "mV",
+          "source": "FIG 7"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_static_etch_rate": {
+          "value": "~10",
+          "unit": "nm/min",
+          "source": "FIG 11"
+        },
+        "cu_cmp_removal_rate": {
+          "value": "~30",
+          "unit": "nm/min",
+          "source": "Text (Assumed similar to other HNO3+inhibitor)"
+        }
+      },
+      "cmp_performance": {
+        "observation": "Prevents WNC galvanic corrosion (low current/potential diff)."
+      }
+    },
+    {
+      "sample_id": "HNO3_0.75wt_Galactose_1wt",
+      "experiment_context": "HNO3-based slurry (0.75 wt%) with Galactose inhibitor (1 wt%).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "HNO3",
+          "concentration": {
+            "value": "0.75",
+            "unit": "wt%"
+          }
+        },
+        "inhibitor": {
+          "name": "Galactose",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "<3",
+          "unit": "µA",
+          "source": "FIG 6, 10"
+        },
+        "potential_difference_cu_wnc": {
+          "value": "~10",
+          "unit": "mV",
+          "source": "FIG 7 (similar to Fructose)"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_static_etch_rate": {
+          "value": "~15",
+          "unit": "nm/min",
+          "source": "FIG 11"
+        },
+        "cu_cmp_removal_rate": {
+          "value": "~30",
+          "unit": "nm/min",
+          "source": "Text (Assumed similar to other HNO3+inhibitor)"
+        }
+      },
+      "cmp_performance": {
+        "observation": "Prevents WNC galvanic corrosion (low current/potential diff). Methanol addition (0.1 wt%) noted to increase inhibition efficiency."
+      }
+    },
+    {
+      "sample_id": "HNO3_0.75wt_Glucose_0.05wt",
+      "experiment_context": "HNO3-based slurry (0.75 wt%) with Glucose inhibitor (0.05 wt%).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "HNO3",
+          "concentration": {
+            "value": "0.75",
+            "unit": "wt%"
+          }
+        },
+        "inhibitor": {
+          "name": "Glucose",
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": "<3",
+          "unit": "µA",
+          "source": "FIG 6, 10"
+        },
+        "potential_difference_cu_wnc": {
+          "value": null,
+          "unit": "mV"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_static_etch_rate": {
+          "value": "~20",
+          "unit": "nm/min",
+          "source": "FIG 11"
+        },
+        "cu_cmp_removal_rate": {
+          "value": "~30",
+          "unit": "nm/min",
+          "source": "Text (Assumed similar to other HNO3+inhibitor)"
+        }
+      },
+      "cmp_performance": {
+        "observation": "Prevents WNC galvanic corrosion (low current)."
+      }
+    },
+    {
+      "sample_id": "HNO3_3wt_SaccharicAcid_0.05wt",
+      "experiment_context": "HNO3-based slurry (3 wt% assumed) with Saccharic Acid (Glucaric Acid) inhibitor (0.05 wt% assumed).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "HNO3",
+          "concentration": {
+            "value": "3",
+            "unit": "wt%"
+          }
+        },
+        "inhibitor": {
+          "name": "Saccharic Acid (Glucaric Acid)",
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": null,
+          "unit": "µA"
+        },
+        "potential_difference_cu_wnc": {
+          "value": null,
+          "unit": "mV"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_static_etch_rate": {
+          "value": "~2",
+          "unit": "nm/min",
+          "source": "FIG 11"
+        },
+        "cu_cmp_removal_rate": {
+          "value": "~30",
+          "unit": "nm/min",
+          "source": "Text (Assumed similar to other HNO3+inhibitor)"
+        }
+      },
+      "cmp_performance": {
+        "observation": "Prevents WNC galvanic corrosion (implied). Highly effective copper corrosion inhibition."
+      }
+    },
+    {
+      "sample_id": "HNO3_3wt_MucicAcid_0.05wt",
+      "experiment_context": "HNO3-based slurry (3 wt% assumed) with Mucic Acid (D-Galactaric Acid) inhibitor (0.05 wt% assumed).",
+      "slurry_composition": {
+        "oxidizer": {
+          "name": "HNO3",
+          "concentration": {
+            "value": "3",
+            "unit": "wt%"
+          }
+        },
+        "inhibitor": {
+          "name": "Mucic Acid (D-Galactaric Acid)",
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "abrasive": {
+          "type": "Silica",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "electrochemical_properties": {
+        "galvanic_current_cu_wnc": {
+          "value": null,
+          "unit": "µA"
+        },
+        "potential_difference_cu_wnc": {
+          "value": null,
+          "unit": "mV"
+        }
+      },
+      "etch_rates": {
+        "wnc_etch_rate_chemical": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "wnc_etch_rate_galvanic": {
+          "value": null,
+          "unit": "nm/min"
+        },
+        "cu_static_etch_rate": {
+          "value": "~3",
+          "unit": "nm/min",
+          "source": "FIG 11"
+        },
+        "cu_cmp_removal_rate": {
+          "value": "~30",
+          "unit": "nm/min",
+          "source": "Text (Assumed similar to other HNO3+inhibitor)"
+        }
+      },
+      "cmp_performance": {
+        "observation": "Prevents WNC galvanic corrosion (implied). Highly effective copper corrosion inhibition."
+      }
+    }
+  ]
+}

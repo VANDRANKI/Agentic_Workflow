@@ -1,0 +1,254 @@
+{
+  "doi": null,
+  "title": "HIGH SELECTIVITY SLURRY COMPOSITIONS FOR CHEMICAL MECHANICAL POLISHING",
+  "year_published": "2006",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "PresentSlurry_0.50A_0.75Add_300mm",
+      "experiment_context": "Slurry composition with 0.50 wt% abrasive and 0.75 wt% additive, tested on 300 mm wafers.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.50",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Aqueous surfactant solution",
+            "type": "Surfactant",
+            "concentration": {
+              "value": "0.75",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5-9",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "120-200",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "100-200",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "250-5000",
+          "unit": "Å/min" 
+        },
+        "selectivity_oxide_nitride": "≥5:1 (up to ≥20:1)",
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2-4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Reflexion® CMP System",
+        "pad_composition": "IC1010 pad (Rodel)",
+        "scratch_count": {
+           "value": "17",
+           "unit": "count"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PresentSlurry_0.25A_0.50Add_300mm",
+      "experiment_context": "Slurry composition with 0.25 wt% abrasive and 0.50 wt% additive, tested on 300 mm wafers.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.25",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Aqueous surfactant solution",
+            "type": "Surfactant",
+            "concentration": {
+              "value": "0.50",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5-9",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "120-200",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "100-200",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "250-5000",
+          "unit": "Å/min"
+        },
+        "selectivity_oxide_nitride": "≥5:1 (up to ≥20:1)",
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2-4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Reflexion® CMP System",
+        "pad_composition": "IC1010 pad (Rodel)",
+        "scratch_count": {
+           "value": "9-28",
+           "unit": "count"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PresentSlurry_0.25A_1.70Add_200mm",
+      "experiment_context": "Slurry composition with 0.25 wt% abrasive (Hitachi HS-8005) and 1.70 wt% additive (Hitachi 8102 GP or 8103 GPE), tested on 200 mm wafers.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.25",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Hitachi 8102 GP or 8103 GPE",
+            "type": "Aqueous surfactant solution",
+            "concentration": {
+              "value": "1.70",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5-9",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "120-200",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "100-200",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "250-5000",
+          "unit": "Å/min"
+        },
+        "selectivity_oxide_nitride": "≥5:1 (up to ≥20:1)",
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2-4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Mirra Mesa® CMP System",
+        "pad_composition": "IC1010 pad (Rodel)",
+        "scratch_count": {
+           "value": "11",
+           "unit": "count"
+        }
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

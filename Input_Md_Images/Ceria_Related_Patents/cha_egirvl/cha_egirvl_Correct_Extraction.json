@@ -1,0 +1,1737 @@
+{
+  "doi": "US 8,901,001 B2",
+  "title": "Slurry composition and method of fabricating damascene structure using the same",
+  "year_published": "2014",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "US8901001B2_Exp1-1",
+      "experiment_context": "Experimental embodiment 1-1: Abrasives 1 (PDI=2), pH 10.59.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.12",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1.00",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10.59",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Tantalum": {
+            "value": "772",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "980",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1089",
+            "unit": "angstroms/minute"
+          }
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp1-2",
+      "experiment_context": "Experimental embodiment 1-2: Abrasives 1 (PDI=2), pH 11.4.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1.00",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.4",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Tantalum": {
+            "value": "811",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "1011",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1230",
+            "unit": "angstroms/minute"
+          }
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Comp1-1",
+      "experiment_context": "Comparative embodiment 1-1: Abrasives 2 (PDI=1.02), pH 10.5.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 2",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "130",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "80",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "1.02"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.12",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1.00",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Tantalum": {
+            "value": "735",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "952",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "969",
+            "unit": "angstroms/minute"
+          }
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Comp1-2",
+      "experiment_context": "Comparative embodiment 1-2: Abrasives 2 (PDI=1.02), pH 11.33.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 2",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "130",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "80",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "1.02"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1.00",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.33",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Tantalum": {
+            "value": "738",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "961",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1082",
+            "unit": "angstroms/minute"
+          }
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Comp2-1",
+      "experiment_context": "Comparative embodiment 2-1: No complexing agent.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1.0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "385",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum": {
+            "value": "563",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "654",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "923",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "2.40",
+          "Tantalum/Copper": "1.46",
+          "Tantalum_nitride/Copper": "1.70"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp2-1",
+      "experiment_context": "Experimental embodiment 2-1: 40 ppm Alanine complexing agent.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "40",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1.0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "650",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum": {
+            "value": "732",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "975",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1028",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.58",
+          "Tantalum/Copper": "1.13",
+          "Tantalum_nitride/Copper": "1.50"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp2-2",
+      "experiment_context": "Experimental embodiment 2-2: 70 ppm Alanine complexing agent.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "70",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1.0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "960",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum": {
+            "value": "722",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "981",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1183",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.23",
+          "Tantalum/Copper": "0.75",
+          "Tantalum_nitride/Copper": "1.02"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Comp3-1",
+      "experiment_context": "Comparative embodiment 3-1: 100 ppm Alanine, 0% H2O2.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "845",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "672",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1352",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.60",
+          "Tantalum_nitride/Copper": "0.80"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp3-1",
+      "experiment_context": "Experimental embodiment 3-1: 100 ppm Alanine, 0.1% H2O2.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "1088",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "863",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1347",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.24",
+          "Tantalum_nitride/Copper": "0.79"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp3-2",
+      "experiment_context": "Experimental embodiment 3-2: 100 ppm Alanine, 0.2% H2O2.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "940",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "881",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1347",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.43",
+          "Tantalum_nitride/Copper": "0.94"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp3-3",
+      "experiment_context": "Experimental embodiment 3-3: 100 ppm Alanine, 0.3% H2O2.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "892",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "904",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1379",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.55",
+          "Tantalum_nitride/Copper": "1.01"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp3-4",
+      "experiment_context": "Experimental embodiment 3-4: 100 ppm Alanine, 0.4% H2O2.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "0.4",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "874",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "916",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1380",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.58",
+          "Tantalum_nitride/Copper": "1.05"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp3-5",
+      "experiment_context": "Experimental embodiment 3-5: 100 ppm Alanine, 0.5% H2O2.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "838",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "929",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1383",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.65",
+          "Tantalum_nitride/Copper": "1.11"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp3-6",
+      "experiment_context": "Experimental embodiment 3-6: 100 ppm Alanine, 1.0% H2O2.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1.0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "810",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "923",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1305",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.61",
+          "Tantalum_nitride/Copper": "1.14"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    },
+    {
+      "sample_id": "US8901001B2_Exp3-7",
+      "experiment_context": "Experimental embodiment 3-7: 100 ppm Alanine, 1.5% H2O2.",
+      "slurry_preparation": {
+        "abrasives": [
+          {
+            "type": "Abrasives 1",
+            "concentration": {
+              "value": "20",
+              "unit": "wt%"
+            },
+            "particle_size_distribution": {
+              "range": {
+                "min": "20",
+                "max": "100",
+                "unit": "nm"
+              },
+              "average": {
+                "value": "87",
+                "unit": "nm"
+              }
+            },
+            "polydispersity_index": "2"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Methane sulfonic acid",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH",
+            "type": "Acid-base pH adjustor",
+            "concentration": {
+              "value": "0.24",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Alanine",
+            "type": "Complexing agent",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "H2O2",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "1.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11.38",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {
+          "Copper": {
+            "value": "788",
+            "unit": "angstroms/minute"
+          },
+          "Tantalum nitride": {
+            "value": "943",
+            "unit": "angstroms/minute"
+          },
+          "TEOS silicon oxide": {
+            "value": "1306",
+            "unit": "angstroms/minute"
+          }
+        },
+        "selectivity_ratio": {
+          "TEOS_silicon_oxide/Copper": "1.66",
+          "Tantalum_nitride/Copper": "1.20"
+        },
+        "polishing_pressure": {
+          "membrane": {
+            "value": "1.5",
+            "unit": "psi"
+          },
+          "inner_tube": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "retaining_ring": {
+            "value": "4",
+            "unit": "psi"
+          }
+        },
+        "platen_speed": {
+          "value": "73",
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": "67",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "230",
+          "unit": "mL/min"
+        },
+        "equipment_model": "Applied Material Mirra 8\"",
+        "pad_composition": "Polytex (Rohm and Haas Electronic Materials)"
+      }
+    }
+  ]
+}

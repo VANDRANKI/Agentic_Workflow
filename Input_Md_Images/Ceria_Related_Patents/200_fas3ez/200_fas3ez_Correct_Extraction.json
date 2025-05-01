@@ -1,0 +1,2739 @@
+{
+  "doi": null,
+  "title": "Polishing Compound and Method for Polishing Substrate",
+  "year_published": "2004",
+  "journal": "US Patent 6,786,945 B2",
+  "samples": [
+    {
+      "sample_id": "Example_1_and_5",
+      "experiment_context": "Preparation of cerium hydroxide slurry via precipitation and polishing of SiO₂ film. Example 5 provides crystallite size.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "430",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "7300",
+                  "unit": "g"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": {
+                  "value": "240",
+                  "unit": "g"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": null,
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "rpm"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": "4",
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": {
+              "value": "15840",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "5.4"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "170",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": {
+              "value": "9.5",
+              "unit": "nm",
+              "method": "TEM/Calculation (Average Crystallite Size)"
+            }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "200",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "400",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Variation in precursor amount compared to Example 1.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "43",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "7300",
+                  "unit": "g"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": {
+                  "value": "24",
+                  "unit": "g"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": null,
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "min⁻¹"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": null,
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": null
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "1.0",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": null
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "6.0"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "100",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "180",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": {
+            "value": "4.7",
+            "unit": "g/cm³"
+          },
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "715",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Variation in water amount during synthesis compared to Example 1.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "430",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "5000",
+                  "unit": "g"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": {
+                  "value": "240",
+                  "unit": "g"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": null,
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "min⁻¹"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": null,
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": null
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "1.0",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": null
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "7.3"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "230",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "240",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": {
+            "value": "4.2",
+            "unit": "g/cm³"
+          },
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "401",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Variation in final slurry pH compared to Example 1.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "430",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "7300",
+                  "unit": "g"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": {
+                  "value": "240",
+                  "unit": "g"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": null,
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "min⁻¹"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": null,
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": null
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "1.0",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": null
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "4.9"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "170",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "200",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": {
+            "value": "4.5",
+            "unit": "g/cm³"
+          },
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "280",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Lower precursor amount, different pH adjustment during synthesis, lower slurry concentration.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "50",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "10",
+                  "unit": "kg"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": null,
+                "target_ph": "~6"
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": "pH ~6",
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "rpm"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": "3 more times",
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "0.2",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": null
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "6"
+            },
+            "agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "100",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": {
+              "value": "3.5",
+              "unit": "nm",
+              "method": "TEM/Calculation (Average Crystallite Size)"
+            }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "220",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "520",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_7",
+      "experiment_context": "Addition of pH stabilizer (N-methylpiperazine).",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "430",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "7300",
+                  "unit": "g"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": {
+                  "value": "240",
+                  "unit": "g"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": null,
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "rpm"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": "4 more times",
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "N-methylpiperazine",
+              "type": "pH stabilizer",
+              "concentration": null,
+              "quantity": {
+                "value": "1",
+                "unit": "g"
+              },
+              "molecular_weight": null
+            }
+          ],
+          "solvent": {
+            "name": "pure water",
+            "quantity": {
+              "value": "1440",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "5.4"
+            },
+            "agents": [
+              {
+                "name": "nitric acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "170",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "200",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": {
+          "ph_stability": {
+            "initial_ph": "5.4",
+            "ph_after_4_months": "5.3"
+          },
+          "settling_observed": null
+        }
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "400",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_8",
+      "experiment_context": "Control experiment without pH stabilizer, using particles from Example 7.",
+      "abrasive_synthesis": {
+        "description": "Implied same as Example 7.",
+        "precursors": null,
+        "synthesis_parameters": null
+      },
+      "post_synthesis": {
+        "description": "Implied same as Example 7.",
+        "collection": null,
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide (from Ex 7)",
+            "concentration": {
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": {
+              "value": "1440",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "5.4"
+            },
+            "agents": [
+              {
+                "name": "ammonia water",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "200",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "200",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": {
+          "ph_stability": {
+            "initial_ph": "5.4",
+            "ph_after_4_months": "4.5"
+          },
+          "settling_observed": null
+        }
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "300",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_9",
+      "experiment_context": "Addition of dispersant (polyoxyethylene octylamine) and pH buffer (malic acid).",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "430",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "7300",
+                  "unit": "g"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": {
+                  "value": "240",
+                  "unit": "g"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": null,
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "rpm"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": "3 more times",
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "polyoxyethylene octylamine",
+              "type": "dispersant",
+              "concentration": null,
+              "quantity": {
+                "value": "1.5",
+                "unit": "g"
+              },
+              "molecular_weight": "10000"
+            },
+            {
+              "name": "malic acid",
+              "type": "pH buffer",
+              "concentration": null,
+              "quantity": {
+                "value": "3",
+                "unit": "g"
+              },
+              "molecular_weight": null
+            }
+          ],
+          "solvent": {
+            "name": "pure water",
+            "quantity": {
+              "value": "1440",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "5.4"
+            },
+            "agents": [
+              {
+                "name": "ammonia water",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "115",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "200",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "380",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_10",
+      "experiment_context": "Addition of polished surface treating agent (PVA). SiO₂ and Si₃N₄ polishing.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "430",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "7300",
+                  "unit": "g"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": {
+                  "value": "240",
+                  "unit": "g"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": null,
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "rpm"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": "3 more times",
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "polyvinyl alcohol",
+              "type": "surface treating agent",
+              "concentration": null,
+              "quantity": {
+                "value": "6",
+                "unit": "g"
+              },
+              "molecular_weight": "60000",
+              "details": "degree of saponification: 96%"
+            }
+          ],
+          "solvent": {
+            "name": "pure water",
+            "quantity": {
+              "value": "1440",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "5.4"
+            },
+            "agents": [
+              {
+                "name": "ammonia water",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "170",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "200",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "400",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          },
+          {
+            "substrate": "Silicon Nitride (LP-CVD)",
+            "material_removal_rate": {
+              "value": "10",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": {
+          "ratio": "SiO₂ / Si₃N₄",
+          "value": "40"
+        }
+      }
+    },
+    {
+      "sample_id": "Example_11",
+      "experiment_context": "Addition of PVP and polyoxyethylene octylamine. SiO₂ and Si₃N₄ polishing.",
+      "abrasive_synthesis": {
+        "description": "Implied similar synthesis to Example 10, but characterization differs slightly.",
+        "precursors": null,
+        "synthesis_parameters": null
+      },
+      "post_synthesis": {
+        "description": "Implied similar post-synthesis to Example 10.",
+        "collection": null,
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "polyvinyl pyrrolidone",
+              "type": "surface treating agent",
+              "concentration": null,
+              "quantity": null,
+              "molecular_weight": "~20000"
+            },
+            {
+              "name": "polyoxyethylene octylamine",
+              "type": "dispersant",
+              "concentration": null,
+              "quantity": {
+                "value": "1.5",
+                "unit": "g"
+              },
+              "molecular_weight": "~10000"
+            }
+          ],
+          "solvent": {
+            "name": "pure water",
+            "quantity": null
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "5.4"
+            },
+            "agents": [
+              {
+                "name": "ammonia water",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "125",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "220",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "50",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-CVD)",
+            "material_removal_rate": {
+              "value": "380",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          },
+          {
+            "substrate": "Silicon Nitride (LP-CVD)",
+            "material_removal_rate": {
+              "value": "11",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": {
+          "ratio": "SiO₂ / Si₃N₄",
+          "value": "34.5"
+        }
+      }
+    },
+    {
+      "sample_id": "Example_12",
+      "experiment_context": "Focus on light transmittance. Different precursor amount.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "200",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "18",
+                  "unit": "kg"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": null
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": null,
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "rpm"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": "2 more times",
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "1.3",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": null
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": null
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "105",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "190",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": {
+          "light_transmittance": [
+            {
+              "wavelength": 500,
+              "unit": "nm",
+              "initial_percent": "22.3",
+              "percent_after_24h": "24.7",
+              "difference_percent": "2.4"
+            },
+            {
+              "wavelength": 600,
+              "unit": "nm",
+              "initial_percent": "49.5",
+              "percent_after_24h": "53.9",
+              "difference_percent": "4.4"
+            },
+            {
+              "wavelength": 700,
+              "unit": "nm",
+              "initial_percent": "68.5",
+              "percent_after_24h": "73.7",
+              "difference_percent": "5.2"
+            }
+          ]
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "420",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_13",
+      "experiment_context": "Focus on light transmittance. Higher precursor amount.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "1",
+              "unit": "kg"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "18",
+                  "unit": "kg"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": null
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": null,
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "rpm"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": "3 more times",
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "0.2",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": null
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": null
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "210",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "180",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": {
+          "light_transmittance": [
+            {
+              "wavelength": 500,
+              "unit": "nm",
+              "initial_percent": "14.4",
+              "percent_after_24h": "24.1",
+              "difference_percent": "9.7"
+            },
+            {
+              "wavelength": 600,
+              "unit": "nm",
+              "initial_percent": "32.7",
+              "percent_after_24h": "47.9",
+              "difference_percent": "15.2"
+            },
+            {
+              "wavelength": 700,
+              "unit": "nm",
+              "initial_percent": "48.1",
+              "percent_after_24h": "65.2",
+              "difference_percent": "17.1"
+            }
+          ]
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "400",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_14",
+      "experiment_context": "Focus on conductivity and zeta potential.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "100",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "18",
+                  "unit": "kg"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": null,
+                "target_ph": "5.5"
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": "under agitation",
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": "pH 5.5",
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "rpm"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": "2 more times",
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "0.2",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": null
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "5.5"
+            },
+            "agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "130",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "180",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": {
+            "value": "0.5",
+            "unit": "mS/cm"
+          },
+          "zeta_potential": {
+            "value": "35",
+            "unit": "mV",
+            "method": "Laser Doppler"
+          }
+        },
+        "optical_properties": null,
+        "stability": {
+          "ph_stability": null,
+          "settling_observed": false
+        }
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "porous urethane resin",
+            "hardness_shore_d": null
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "440",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    },
+    {
+      "sample_id": "Example_15",
+      "experiment_context": "Use of high hardness pad (Shore D 69).",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details: includes precursors, synthesis parameters (chemical & physical), and post-synthesis treatments.",
+        "precursors": [
+          {
+            "material_name": "Cerium ammonium nitrate",
+            "formula": "Ce(NH₄)₂(NO₃)₆",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "55",
+              "unit": "g"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters: solvents, pH agents, and synthesis additives.",
+            "solvents": [
+              {
+                "name": "pure water",
+                "quantity": {
+                  "value": "10",
+                  "unit": "kg"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                },
+                "quantity": null,
+                "target_ph": "5.5"
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing",
+                "condition": null,
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Precipitation",
+                "condition": "pH 5.5",
+                "duration": null
+              }
+            ]
+          }
+        }
+      },
+      "post_synthesis": {
+        "description": "Post-synthesis procedures: collection methods and treatment processes.",
+        "collection": {
+          "method": "Centrifugation",
+          "parameters": {
+            "speed": {
+              "value": "4000",
+              "unit": "rpm"
+            },
+            "duration": {
+              "value": "5",
+              "unit": "minutes"
+            },
+            "cycles": "3 more times",
+            "wash_solvent": "pure water"
+          }
+        },
+        "treatment": {
+          "dispersion_method": "Ultrasonic dispersion",
+          "filtration": {
+            "filter_type": "membrane filter",
+            "pore_size": {
+              "value": "1",
+              "unit": "µm"
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition and processing steps.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Hydroxide",
+            "concentration": {
+              "final": "~0.2",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "pure water",
+            "quantity": null
+          }
+        },
+        "processing": {
+          "description": "Processing parameters: dispersion methods, stabilization processes, and pH control.",
+          "dispersion": [
+            {
+              "method": "Ultrasonic dispersion"
+            }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": "5.5"
+            },
+            "agents": [
+              {
+                "name": "NH₄OH",
+                "concentration": {
+                  "value": "25",
+                  "unit": "% aq. solution"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive/Slurry characterization details.",
+        "morphology": {
+          "particle_size": {
+            "secondary": {
+              "value": "100",
+              "unit": "nm",
+              "method": "PCS"
+            },
+            "primary": null
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "200",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "physical_properties": {
+          "density": null,
+          "conductivity": null,
+          "zeta_potential": null
+        },
+        "optical_properties": null,
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance details.",
+        "conditions": {
+          "equipment": "Polishing machine (600 mm surface plate)",
+          "pad": {
+            "material": "non-foamed polyurethane",
+            "hardness_shore_d": "69"
+          },
+          "pressure": {
+            "value": "30",
+            "unit": "kPa"
+          },
+          "rotation_speed_plate": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "rotation_speed_wafer": {
+            "value": "75",
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "cc/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          }
+        },
+        "results": [
+          {
+            "substrate": "Silicon Oxide (TEOS-plasma CVD)",
+            "material_removal_rate": {
+              "value": "425",
+              "unit": "nm/min"
+            },
+            "surface_defects": "No distinct scratches"
+          }
+        ],
+        "selectivity": null
+      }
+    }
+  ]
+}

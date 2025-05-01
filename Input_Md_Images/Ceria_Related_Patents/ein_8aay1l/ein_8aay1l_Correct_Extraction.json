@@ -1,0 +1,1007 @@
+{
+  "patent_number": "US 7,964,005 B2",
+  "title": "COPPER CMP SLURRY COMPOSITION",
+  "publication_date": "2011-06-21",
+  "inventors": [
+    "Yair Ein-Eli",
+    "David Starosvetsky",
+    "Esta Abelev",
+    "Eugene Rabkin"
+  ],
+  "assignee": "Technion Research & Development Foundation Ltd.",
+  "abstract": "A composition that rapidly passivates copper-containing surface to yield a uniform layer of insoluble copper oxide, the composition being useful in chemical-mechanical planarization of copper-containing surfaces is disclosed. The composition is a solution having a pH of equal to or greater than 9 and having an oxidation potential sufficient to oxidize the surface to form non-soluble copper oxides. Also disclosed are methods of making and using the composition.",
+  "samples": [
+    {
+      "sample_id": "NaOH_0.3gL_NotDeaerated_OCP_1hr",
+      "experiment_context": "Open Circuit Potential measurement of Copper in 0.3 g/l NaOH solution (pH 10.5), not deaerated, for 1 hour at 25°C.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 0.3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 10.5
+      },
+      "aeration_condition": "Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Open Circuit Potential",
+      "measurement_parameters": {
+        "duration": {
+          "value": 1,
+          "unit": "hr"
+        }
+      },
+      "measured_results": {
+        "corrosion_potential": {
+          "value": -0.15,
+          "unit": "V vs SCE",
+          "comment": "Value after 1 hour exposure, from Table I and Fig 2A."
+        }
+      },
+      "image_ref": [
+        "img-2.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_NotDeaerated_OCP_1hr",
+      "experiment_context": "Open Circuit Potential measurement of Copper in 3 g/l NaOH solution (pH 12.5), not deaerated, for 1 hour at 25°C.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Open Circuit Potential",
+      "measurement_parameters": {
+        "duration": {
+          "value": 1,
+          "unit": "hr"
+        }
+      },
+      "measured_results": {
+        "corrosion_potential": {
+          "value": -0.21,
+          "unit": "V vs SCE",
+          "comment": "Value after 1 hour exposure, from Table I and Fig 2A."
+        }
+      },
+      "image_ref": [
+        "img-2.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_30gL_NotDeaerated_OCP_1hr",
+      "experiment_context": "Open Circuit Potential measurement of Copper in 30 g/l NaOH solution (pH 14.0), not deaerated, for 1 hour at 25°C.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 30,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 14.0
+      },
+      "aeration_condition": "Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Open Circuit Potential",
+      "measurement_parameters": {
+        "duration": {
+          "value": 1,
+          "unit": "hr"
+        }
+      },
+      "measured_results": {
+        "corrosion_potential": {
+          "value": -0.25,
+          "unit": "V vs SCE",
+          "comment": "Value after 1 hour exposure, from Table I and Fig 2A."
+        }
+      },
+      "image_ref": [
+        "img-2.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_0.3gL_Deaerated_OCP_1hr",
+      "experiment_context": "Open Circuit Potential measurement of Copper in 0.3 g/l NaOH solution (pH 10.5), deaerated, for 1 hour at 25°C.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 0.3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 10.5
+      },
+      "aeration_condition": "Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Open Circuit Potential",
+      "measurement_parameters": {
+        "duration": {
+          "value": 1,
+          "unit": "hr"
+        }
+      },
+      "measured_results": {
+        "corrosion_potential": {
+          "value": -0.375,
+          "unit": "V vs SCE",
+          "comment": "Value after 1 hour exposure, from Table I and Fig 2B."
+        }
+      },
+      "image_ref": [
+        "img-2.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_Deaerated_OCP_1hr",
+      "experiment_context": "Open Circuit Potential measurement of Copper in 3 g/l NaOH solution (pH 12.5), deaerated, for 1 hour at 25°C.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Open Circuit Potential",
+      "measurement_parameters": {
+        "duration": {
+          "value": 1,
+          "unit": "hr"
+        }
+      },
+      "measured_results": {
+        "corrosion_potential": {
+          "value": -0.515,
+          "unit": "V vs SCE",
+          "comment": "Value after 1 hour exposure, from Table I and Fig 2B."
+        }
+      },
+      "image_ref": [
+        "img-2.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_30gL_Deaerated_OCP_1hr",
+      "experiment_context": "Open Circuit Potential measurement of Copper in 30 g/l NaOH solution (pH 14.0), deaerated, for 1 hour at 25°C.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 30,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 14.0
+      },
+      "aeration_condition": "Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Open Circuit Potential",
+      "measurement_parameters": {
+        "duration": {
+          "value": 1,
+          "unit": "hr"
+        }
+      },
+      "measured_results": {
+        "corrosion_potential": {
+          "value": -0.55,
+          "unit": "V vs SCE",
+          "comment": "Value after 1 hour exposure, from Table I and Fig 2B."
+        }
+      },
+      "image_ref": [
+        "img-2.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_0.3gL_NotDeaerated_Polarization_5mVs",
+      "experiment_context": "Anodic polarization curve of Copper in 0.3 g/l NaOH solution (pH 10.5), not deaerated, at 25°C with scan rate 5 mV/s.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 0.3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 10.5
+      },
+      "aeration_condition": "Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit, 1 hour OCP exposure",
+      "electrochemical_technique": "Anodic Polarization",
+      "measurement_parameters": {
+        "scan_rate": {
+          "value": 5,
+          "unit": "mV/s"
+        }
+      },
+      "measured_results": {
+        "current_density_features": {
+          "onset_potential": {
+            "value": "> -0.2",
+            "unit": "V vs SCE"
+          },
+          "peak_A2": "Markedly decreased or practically disappeared compared to higher concentrations."
+        }
+      },
+      "image_ref": [
+        "img-3.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_NotDeaerated_Polarization_5mVs",
+      "experiment_context": "Anodic polarization curve of Copper in 3 g/l NaOH solution (pH 12.5), not deaerated, at 25°C with scan rate 5 mV/s.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit, 1 hour OCP exposure",
+      "electrochemical_technique": "Anodic Polarization",
+      "measurement_parameters": {
+        "scan_rate": {
+          "value": 5,
+          "unit": "mV/s"
+        }
+      },
+      "measured_results": {
+        "current_density_features": {
+          "onset_potential": {
+            "value": "~ -0.25",
+            "unit": "V vs SCE"
+          },
+          "peak_A2": "Present but smaller than in 30 g/l."
+        }
+      },
+      "image_ref": [
+        "img-3.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_30gL_NotDeaerated_Polarization_5mVs",
+      "experiment_context": "Anodic polarization curve of Copper in 30 g/l NaOH solution (pH 14.0), not deaerated, at 25°C with scan rate 5 mV/s.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 30,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 14.0
+      },
+      "aeration_condition": "Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit, 1 hour OCP exposure",
+      "electrochemical_technique": "Anodic Polarization",
+      "measurement_parameters": {
+        "scan_rate": {
+          "value": 5,
+          "unit": "mV/s"
+        }
+      },
+      "measured_results": {
+        "current_density_features": {
+          "onset_potential": {
+            "value": -0.32,
+            "unit": "V vs SCE"
+          },
+          "peak_A2": "Broad current peak observed."
+        }
+      },
+      "image_ref": [
+        "img-3.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_Deaerated_Polarization_5mVs",
+      "experiment_context": "Anodic polarization curve of Copper in 3 g/l NaOH solution (pH 12.5), deaerated, at 25°C with scan rate 5 mV/s.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit, 1 hour OCP exposure",
+      "electrochemical_technique": "Anodic Polarization",
+      "measurement_parameters": {
+        "scan_rate": {
+          "value": 5,
+          "unit": "mV/s"
+        }
+      },
+      "measured_results": {
+        "current_density_features": {
+          "onset_potential": {
+            "value": "< -0.5",
+            "unit": "V vs SCE"
+          },
+          "peak_A2": "Smaller and shifted positive compared to 30 g/l."
+        }
+      },
+      "image_ref": [
+        "img-3.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_CathodicPretreat_Polarization_MultiRate",
+      "experiment_context": "Anodic polarization curves of Copper in 3 g/l NaOH solution (pH 12.5) at 25°C with various scan rates, subsequent to cathodic pretreatment.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not specified, assumed Not Deaerated based on context",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Cathodic pre-treatment -1.5V for 5 minutes",
+      "electrochemical_technique": "Anodic Polarization",
+      "measurement_parameters": {
+        "scan_rate": [
+          {"value": 5, "unit": "mV/s"},
+          {"value": 25, "unit": "mV/s"},
+          {"value": 100, "unit": "mV/s"},
+          {"value": 500, "unit": "mV/s"},
+          {"value": 1000, "unit": "mV/s"}
+        ]
+      },
+      "measured_results": {
+        "current_density_features": {
+          "onset_potential": {
+            "value": "< -1.0",
+            "unit": "V vs SCE"
+          },
+          "peaks_A1_to_A5": "Sequence observed, more pronounced than 0.3 g/l, less than 30 g/l. A4, A5 detected above 100 mV/s."
+        }
+      },
+      "image_ref": [
+        "img-4.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_CathodicPretreat_Potentiostatic_-0.4V_30min",
+      "experiment_context": "Potentiostatic exposure of Copper in 3 g/l NaOH solution (pH 12.5) at -0.4 V vs SCE for 30 minutes at 25°C, subsequent to cathodic pretreatment. SEM analysis.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not specified, assumed Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Polished 1 um diamond paste, Cathodic pre-treatment -1.5V for 5 minutes",
+      "electrochemical_technique": "Potentiostatic Exposure",
+      "measurement_parameters": {
+        "applied_potential": {
+          "value": -0.4,
+          "unit": "V vs SCE"
+        },
+        "duration": {
+          "value": 30,
+          "unit": "min"
+        }
+      },
+      "measured_results": {
+        "current_transient": "Rapid decrease to < 10e-5 A/cm2.",
+        "oxide_morphology": {
+          "description": "Dense layer with deposition of small globular crystals (50-100 nm).",
+          "inferred_composition": "Cu2O (apparent)"
+        }
+      },
+      "image_ref": [
+        "img-5.jpeg",
+        "img-6.jpeg",
+        "img-7.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_CathodicPretreat_Potentiostatic_-0.15V_30min",
+      "experiment_context": "Potentiostatic exposure of Copper in 3 g/l NaOH solution (pH 12.5) at -0.15 V vs SCE for 30 minutes at 25°C, subsequent to cathodic pretreatment. SEM analysis.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not specified, assumed Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Polished 1 um diamond paste, Cathodic pre-treatment -1.5V for 5 minutes",
+      "electrochemical_technique": "Potentiostatic Exposure",
+      "measurement_parameters": {
+        "applied_potential": {
+          "value": -0.15,
+          "unit": "V vs SCE"
+        },
+        "duration": {
+          "value": 30,
+          "unit": "min"
+        }
+      },
+      "measured_results": {
+        "current_transient": "Initial decrease, then peak around 200s (max 8e-4 A/cm2), then decrease to 1e-5 A/cm2 after 600s.",
+        "oxide_morphology": {
+          "description": "Thick crystalline layer, two-layer structure: lower layer of small elongated crystals (<1 micron), upper layer of large needle-like crystals.",
+          "inferred_composition": "CuO (probable)"
+        }
+      },
+      "image_ref": [
+        "img-5.jpeg",
+        "img-8.jpeg",
+        "img-9.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_CathodicPretreat_Potentiostatic_0.3V_30min",
+      "experiment_context": "Potentiostatic exposure of Copper in 3 g/l NaOH solution (pH 12.5) at 0.3 V vs SCE for 30 minutes at 25°C, subsequent to cathodic pretreatment. SEM analysis.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not specified, assumed Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Polished 1 um diamond paste, Cathodic pre-treatment -1.5V for 5 minutes",
+      "electrochemical_technique": "Potentiostatic Exposure",
+      "measurement_parameters": {
+        "applied_potential": {
+          "value": 0.3,
+          "unit": "V vs SCE"
+        },
+        "duration": {
+          "value": 30,
+          "unit": "min"
+        }
+      },
+      "measured_results": {
+        "current_transient": "Gradual decrease, slower initially than at -0.4V. Very small peak after 10s. Decreased to ~1e-5 A/cm2 after 200s.",
+        "oxide_morphology": {
+          "description": "No deposits observed (up to x200000 mag). Surface similar to freshly polished. Very thin, dense oxide film inferred."
+        }
+      },
+      "image_ref": [
+        "img-5.jpeg",
+        "img-10.jpeg",
+        "img-11.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_OCP_Morphology_VariousTimes",
+      "experiment_context": "SEM analysis of Copper surface morphology after exposure to OCP in 3 g/l NaOH solution (pH 12.5) for various times at 25°C.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not specified, assumed Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Polished 1 um diamond paste",
+      "electrochemical_technique": "Open Circuit Potential Exposure",
+      "measurement_parameters": {
+        "duration": [
+          {"value": 30, "unit": "min"},
+          {"value": 60, "unit": "min"},
+          {"value": 160, "unit": "min"},
+          {"value": 300, "unit": "min"}
+        ]
+      },
+      "measured_results": {
+        "oxide_morphology": [
+          {"time": "30 min", "description": "Only traces of copper oxide detected.", "image_ref": ["img-13.jpeg"]},
+          {"time": "60 min", "description": "Surface covered with deposits of both short (~100 nm) and long (~2 µm) needle-like crystals.", "image_ref": ["img-14.jpeg", "img-17.jpeg"]},
+          {"time": "160 min (2.5 hr)", "description": "Size increased: short crystals up to 250 nm, long crystals up to ~6 microns.", "image_ref": ["img-15.jpeg", "img-18.jpeg"]},
+          {"time": "300 min (5 hr)", "description": "Short crystals reached ~500 nm length. Long crystals became distorted.", "image_ref": ["img-16.jpeg", "img-19.jpeg"]}
+        ]
+      }
+    },
+     {
+      "sample_id": "NaOH_3gL_PotentialDecay_Pretreat_-0.15V_then_Various",
+      "experiment_context": "Corrosion potential decay measurement after 10 min exposure at -0.15V followed by 30 min exposure at more positive potentials (0.2V, 0.3V, 0.4V, 0.7V) in 3 g/l NaOH.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not specified, assumed Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit, Potentiostatic exposure -0.15V for 10 minutes",
+      "electrochemical_technique": "Potential Decay after Potentiostatic Exposure",
+      "measurement_parameters": {
+         "second_potential_step": [
+           {"potential": {"value": 0.2, "unit": "V vs SCE"}, "duration": {"value": 30, "unit": "min"}},
+           {"potential": {"value": 0.3, "unit": "V vs SCE"}, "duration": {"value": 30, "unit": "min"}},
+           {"potential": {"value": 0.4, "unit": "V vs SCE"}, "duration": {"value": 30, "unit": "min"}},
+           {"potential": {"value": 0.7, "unit": "V vs SCE"}, "duration": {"value": 30, "unit": "min"}}
+         ]
+      },
+      "measured_results": {
+        "potential_decay_behavior": [
+          {"condition": "After -0.15V only", "decay": "Rapid decrease to slightly below -0.2V."},
+          {"condition": "After -0.15V then 0.2V", "decay": "Rapid drop below -0.2V."},
+          {"condition": "After -0.15V then 0.3V", "decay": "Rapid drop below -0.2V."},
+          {"condition": "After -0.15V then 0.4V", "decay": "Marked potential delay observed."},
+          {"condition": "After -0.15V then 0.7V", "decay": "Marked potential delay observed, longer delay with longer exposure at 0.7V. Long term potential reaches ~ -0.15V."}
+        ],
+        "inferred_oxide_behavior": "Exposure at 0.2V/0.3V after -0.15V forms very thin oxides. Exposure >0.3V after -0.15V causes transformation of oxides formed at -0.15V or growth of new oxides."
+      },
+      "image_ref": [
+        "img-20.jpeg",
+        "img-21.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_PotentialDecay_0.7V_WithWithoutPretreat",
+      "experiment_context": "Comparison of corrosion potential decay after exposure at 0.7V with and without pre-treatment at -0.15V in 3 g/l NaOH.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not specified, assumed Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": [
+        "Wet-abraded 1200 grit (No pre-treatment)",
+        "Wet-abraded 1200 grit, Potentiostatic exposure -0.15V for 10 minutes (Pre-treatment)"
+      ],
+      "electrochemical_technique": "Potential Decay after Potentiostatic Exposure",
+      "measurement_parameters": {
+         "potential_step": {"potential": {"value": 0.7, "unit": "V vs SCE"}, "duration": {"value": "various", "unit": "min"}}
+      },
+      "measured_results": {
+        "potential_decay_behavior": [
+          {"condition": "0.7V without pre-treatment", "decay": "Rapid decrease without intermediate delay."},
+          {"condition": "0.7V after pre-treatment at -0.15V", "decay": "Significant potential delay. Longer exposure at 0.7V gives wider delay."}
+        ],
+        "inferred_oxide_behavior": "Nature of oxide formed >0.0V depends on initial surface state. Bare copper forms thin film. Pre-existing oxide layer transforms."
+      },
+      "image_ref": [
+        "img-21.jpeg"
+      ]
+    },
+    {
+      "sample_id": "NaOH_3gL_Morphology_Comparison_-0.15V_0.7V_Transform",
+      "experiment_context": "SEM comparison of Copper surface morphology after potentiostatic exposure at -0.15V (10min), 0.7V (15min, no pretreat), and -0.15V (10min) followed by 0.7V (30min) in 3 g/l NaOH.",
+      "solution_composition": {
+        "base_chemical": "NaOH",
+        "concentration": {
+          "value": 3,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12.5
+      },
+      "aeration_condition": "Not specified, assumed Not Deaerated",
+      "temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Polished 1 um diamond paste, potentially cathodic pre-treatment implied but not stated for all",
+      "electrochemical_technique": "Potentiostatic Exposure",
+      "measurement_parameters": [
+        {"potential": {"value": -0.15, "unit": "V vs SCE"}, "duration": {"value": 10, "unit": "min"}},
+        {"potential": {"value": 0.7, "unit": "V vs SCE"}, "duration": {"value": 15, "unit": "min"}},
+        {"sequence": [
+            {"potential": {"value": -0.15, "unit": "V vs SCE"}, "duration": {"value": 10, "unit": "min"}},
+            {"potential": {"value": 0.7, "unit": "V vs SCE"}, "duration": {"value": 30, "unit": "min"}}
+          ]
+        }
+      ],
+      "measured_results": {
+        "oxide_morphology": [
+          {"condition": "-0.15V (10min)", "description": "Two-layer structure: small crystals (first layer) and large crystals (upper layer).", "image_ref": ["img-22.jpeg"]},
+          {"condition": "0.7V (15min, no pretreat)", "description": "Dramatically different morphology from -0.15V.", "image_ref": ["img-23.jpeg"]},
+          {"condition": "-0.15V (10min) then 0.7V (30min)", "description": "First layer (small crystals) disappeared or changed form compared to -0.15V only.", "image_ref": ["img-24.jpeg"]}
+        ]
+      }
+    },
+    {
+      "sample_id": "K2CO3_4gL_Potentiodynamic",
+      "experiment_context": "Potentiodynamic profile of Copper in 4 g/l K2CO3 solution (pH 12).",
+      "solution_composition": {
+        "base_chemical": "K2CO3",
+        "concentration": {
+          "value": 4,
+          "unit": "g/l"
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12
+      },
+      "aeration_condition": "Not specified",
+      "temperature": {
+        "value": "Not specified",
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Potentiodynamic Scan",
+      "measurement_parameters": {
+         "scan_rate": {"value": "Not specified", "unit": "mV/s"}
+      },
+      "measured_results": {
+        "passivation_potential_range": {
+          "min": 0.0,
+          "max": 0.55,
+          "unit": "V vs SCE"
+        }
+      },
+      "image_ref": [
+        "img-25.jpeg"
+      ]
+    },
+    {
+      "sample_id": "K2CO3_4gL_KMnO4_0.01gL_Potentiodynamic",
+      "experiment_context": "Potentiodynamic profile of Copper in 4 g/l K2CO3 solution (pH 12) with 0.01 g/l KMnO4.",
+      "solution_composition": {
+        "base_chemical": "K2CO3",
+        "concentration": {
+          "value": 4,
+          "unit": "g/l"
+        },
+        "oxidizer": {
+          "name": "KMnO4",
+          "concentration": {
+            "value": 0.01,
+            "unit": "g/l"
+          }
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12
+      },
+      "aeration_condition": "Not specified",
+      "temperature": {
+        "value": "Not specified",
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Potentiodynamic Scan",
+      "measurement_parameters": {
+         "scan_rate": {"value": "Not specified", "unit": "mV/s"}
+      },
+      "measured_results": {
+        "passivation_potential": {
+          "value": 0.180,
+          "unit": "V vs SCE",
+          "comment": "Value read as Ecorr shift due to oxidizer"
+        }
+      },
+      "image_ref": [
+        "img-25.jpeg"
+      ]
+    },
+    {
+      "sample_id": "K2CO3_4gL_KMnO4_1gL_Potentiodynamic",
+      "experiment_context": "Potentiodynamic profile of Copper in 4 g/l K2CO3 solution (pH 12) with 1 g/l KMnO4.",
+      "solution_composition": {
+        "base_chemical": "K2CO3",
+        "concentration": {
+          "value": 4,
+          "unit": "g/l"
+        },
+        "oxidizer": {
+          "name": "KMnO4",
+          "concentration": {
+            "value": 1,
+            "unit": "g/l"
+          }
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12
+      },
+      "aeration_condition": "Not specified",
+      "temperature": {
+        "value": "Not specified",
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Potentiodynamic Scan",
+      "measurement_parameters": {
+         "scan_rate": {"value": "Not specified", "unit": "mV/s"}
+      },
+      "measured_results": {
+        "passivation_potential": {
+          "value": 0.220,
+          "unit": "V vs SCE",
+          "comment": "Value read as Ecorr shift due to oxidizer"
+        }
+      },
+      "image_ref": [
+        "img-25.jpeg"
+      ]
+    },
+    {
+      "sample_id": "K2CO3_4gL_KMnO4_0.05gL_CyclicPolarization",
+      "experiment_context": "Cyclic polarization of Copper in 4 g/l K2CO3 solution (pH 12) with 0.05 g/l KMnO4.",
+      "solution_composition": {
+        "base_chemical": "K2CO3",
+        "concentration": {
+          "value": 4,
+          "unit": "g/l"
+        },
+        "oxidizer": {
+          "name": "KMnO4",
+          "concentration": {
+            "value": 0.05,
+            "unit": "g/l"
+          }
+        },
+        "solvent": "Water"
+      },
+      "solution_ph": {
+        "value": 12
+      },
+      "aeration_condition": "Not specified",
+      "temperature": {
+        "value": "Not specified",
+        "unit": "°C"
+      },
+      "electrode_material": "Copper",
+      "electrode_purity": {
+        "value": 99.9995,
+        "unit": "%"
+      },
+      "electrode_pretreatment": "Wet-abraded 1200 grit",
+      "electrochemical_technique": "Cyclic Polarization",
+      "measurement_parameters": {
+         "scan_rate": {"value": "Not specified", "unit": "mV/s"}
+      },
+      "measured_results": {
+        "passivation_potential": {
+          "value": 0.180,
+          "unit": "V vs SCE",
+          "comment": "Value read as Ecorr shift due to oxidizer"
+        },
+        "pitting_behavior": "No pitting observed during polarization."
+      },
+      "image_ref": [
+        "img-26.jpeg"
+      ]
+    }
+  ]
+}

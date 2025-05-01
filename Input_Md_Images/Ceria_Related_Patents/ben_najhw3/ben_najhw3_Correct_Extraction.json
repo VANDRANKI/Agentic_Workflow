@@ -1,0 +1,388 @@
+{
+  "doi": "US 7,390,423 B2",
+  "title": "Self-Cleaning Colloidal Slurry Composition and Process for Finishing a Surface of a Substrate",
+  "year_published": "2008",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Slurry prepared with Ce(SO₄)₂ etchant and H₃NSO₃ acid. Used for superfinishing 95 mm aluminosilicate glass disk substrate. MRR measured at 8 psi for 13 min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_source": "Ludox SM",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "Cerium Sulfate Tetrahydrate",
+            "formula": "Ce(SO4)2*4H2O",
+            "type": "Etchant",
+            "concentration_recipe": {
+              "value": 13.6,
+              "unit": "g / 8L batch"
+            }
+          },
+          {
+            "name": "Sulfamic Acid",
+            "formula": "H3NSO3",
+            "type": "pH Adjuster",
+            "concentration_recipe": {
+              "value": 240,
+              "unit": "g / 8L batch"
+            }
+          },
+          {
+            "name": "Corsheen CorAdd 9195",
+            "type": "Surfactant",
+            "concentration_recipe": {
+              "value": 6.4,
+              "unit": "g / 8L batch"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 1.2,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 7,
+          "unit": "nm",
+          "measurement_method_used": "Product Specification (Ludox SM 70 Å)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_roughness_AFM": {
+          "Rq": {
+            "value": 1.60,
+            "unit": "Å"
+          },
+          "Rp": {
+            "value": 14.0,
+            "unit": "Å"
+          },
+          "Rmax": {
+            "value": 18.9,
+            "unit": "Å"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 12,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 40.8,
+          "unit": "nm/min/side",
+          "conditions": "Measured at 8 psi for 13 min (Original: 0.53 microns/side)"
+        },
+        "process_temperature": {
+          "value": "20-35",
+          "unit": "C"
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi-disk"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "SpeedFam 9B-5P double-sided polisher",
+        "pad_composition": "Napcon H7000SPH#2"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Slurry prepared with FeCl3 etchant and H3NSO3 acid. Used for superfinishing 95 mm aluminosilicate glass disk substrate. MRR measured at 8 psi for 13 min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_source": "Ludox SM",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "Ferric Chloride Hexahydrate",
+            "formula": "FeCl3*6H2O",
+            "type": "Etchant",
+            "concentration_recipe": {
+              "value": 216.4,
+              "unit": "g / 8L batch"
+            }
+          },
+          {
+            "name": "Sulfamic Acid",
+            "formula": "H3NSO3",
+            "type": "pH Adjuster",
+            "concentration_recipe": {
+              "value": 160,
+              "unit": "g / 8L batch"
+            }
+          },
+          {
+            "name": "Corsheen CorAdd 9195",
+            "type": "Surfactant",
+            "concentration_recipe": {
+              "value": 6.4,
+              "unit": "g / 8L batch"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 1.2,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 7,
+          "unit": "nm",
+          "measurement_method_used": "Product Specification (Ludox SM 70 Å)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_roughness_AFM": {
+          "Rq": {
+            "value": 1.70,
+            "unit": "Å"
+          },
+          "Rp": {
+            "value": 13.2,
+            "unit": "Å"
+          },
+          "Rmax": {
+            "value": 25.2,
+            "unit": "Å"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 12,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 26.9,
+          "unit": "nm/min/side",
+          "conditions": "Measured at 8 psi for 13 min (Original: 0.35 microns/side)"
+        },
+        "process_temperature": {
+          "value": "20-35",
+          "unit": "C"
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi-disk"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "SpeedFam 9B-5P double-sided polisher",
+        "pad_composition": "Napcon H7000SPH#2"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Slurry prepared with Fe2(SO4)3 etchant and HNO3 acid. Used for superfinishing 95 mm aluminosilicate glass disk substrate. MRR measured at 8 psi for 13 min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_source": "Ludox SM",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "Ferric Sulfate Nonahydrate",
+            "formula": "Fe2(SO4)3*9H2O",
+            "type": "Etchant",
+            "concentration_recipe": {
+              "value": 56.4,
+              "unit": "g / 8L batch"
+            }
+          },
+          {
+            "name": "Nitric Acid",
+            "formula": "HNO3",
+            "type": "pH Adjuster",
+            "concentration_recipe": {
+              "value": 140,
+              "unit": "ml 50% / 8L batch"
+            }
+          },
+          {
+            "name": "Corsheen CorAdd 9195",
+            "type": "Surfactant",
+            "concentration_recipe": {
+              "value": 6.4,
+              "unit": "g / 8L batch"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 1.2,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 7,
+          "unit": "nm",
+          "measurement_method_used": "Product Specification (Ludox SM 70 Å)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_roughness_AFM": {
+          "Rq": {
+            "value": 1.57,
+            "unit": "Å"
+          },
+          "Rp": {
+            "value": 14.0,
+            "unit": "Å"
+          },
+          "Rmax": {
+            "value": 18.9,
+            "unit": "Å"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 12,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 33.8,
+          "unit": "nm/min/side",
+          "conditions": "Measured at 8 psi for 13 min (Original: 0.44 microns/side)"
+        },
+        "process_temperature": {
+          "value": "20-35",
+          "unit": "C"
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi-disk"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "SpeedFam 9B-5P double-sided polisher",
+        "pad_composition": "Napcon H7000SPH#2"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Slurry prepared with Ce(SO4)2 etchant and H2SO4 acid. Used for superfinishing 95 mm aluminosilicate glass disk substrate. MRR measured at 8 psi for 13 min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_source": "Ludox SM",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "Cerium Sulfate Tetrahydrate",
+            "formula": "Ce(SO4)2*4H2O",
+            "type": "Etchant",
+            "concentration_recipe": {
+              "value": 13.6,
+              "unit": "g / 8L batch"
+            }
+          },
+          {
+            "name": "Sulfuric Acid",
+            "formula": "H2SO4",
+            "type": "pH Adjuster",
+            "concentration_recipe": {
+              "value": null,
+              "unit": "ml 50% / 8L batch"
+            }
+          },
+          {
+            "name": "Corsheen CorAdd 9195",
+            "type": "Surfactant",
+            "concentration_recipe": {
+              "value": 6.4,
+              "unit": "g / 8L batch"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 1.2,
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 7,
+          "unit": "nm",
+          "measurement_method_used": "Product Specification (Ludox SM 70 Å)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_roughness_AFM": {
+          "Rq": {
+            "value": 1.60,
+            "unit": "Å"
+          },
+          "Rp": {
+            "value": 17.0,
+            "unit": "Å"
+          },
+          "Rmax": {
+            "value": 28.1,
+            "unit": "Å"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 12,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 44.6,
+          "unit": "nm/min/side",
+          "conditions": "Measured at 8 psi for 13 min (Original: 0.58 microns/side)"
+        },
+        "process_temperature": {
+          "value": "20-35",
+          "unit": "C"
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi-disk"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "SpeedFam 9B-5P double-sided polisher",
+        "pad_composition": "Napcon H7000SPH#2"
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

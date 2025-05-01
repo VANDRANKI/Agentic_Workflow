@@ -1,0 +1,576 @@
+{
+  "doi": "US 2019/0211245 A1",
+  "title": "SURFACE-MODIFIED COLLOIDAL CERIA ABRASIVE PARTICLES, PREPARATION METHOD THEREFOR, AND POLISHING SLURRY COMPOSITION CONTAINING SAME",
+  "year_published": "2019",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Comparative_Example",
+      "experiment_context": "Baseline colloidal ceria abrasive particle (60 nm) without surface modification, used for comparison.",
+      "abrasive_synthesis": {
+        "description": "Details for the baseline colloidal ceria are not provided in the text, only that it's 60 nm.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared using the comparative example abrasive.",
+        "composition": {
+          "abrasive": {
+            "material": "CeO2",
+            "concentration": {
+              "initial": null,
+              "final": "1-10",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+            "description": null,
+            "dispersion": [],
+            "stabilization": {},
+            "ph_control": {}
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the baseline colloidal ceria abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "60",
+              "max": "60",
+              "unit": "nm"
+            }
+          },
+          "shape": "Hexagonal/Square",
+          "surface_area": {
+            "value": "14.235",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "5262",
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "110",
+            "unit": "rpm"
+        },
+        "spindle_speed": {
+            "value": "108",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "wafer_material": "PE-TEOS",
+        "equipment_model": "AP-300 (CTS)",
+        "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Surface modification of 60 nm colloidal ceria using cerium ammonium nitrate precursor at a weight ratio of 0.15 (ceria/precursor).",
+      "abrasive_synthesis": {
+        "description": "Surface modification of existing 60 nm colloidal ceria particles via hydrothermal synthesis.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Ceria",
+            "formula": "CeO2",
+            "source_type": "Base Abrasive",
+            "purity": null,
+            "quantity": {
+              "value": "60",
+              "unit": "nm size"
+            }
+          },
+          {
+            "material_name": "Cerium Ammonium Nitrate",
+            "formula": "(NH4)2Ce(NO3)6",
+            "source_type": "Cerium Precursor",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for surface modification.",
+            "solvents": [
+              {
+                "name": "Deionized Water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Ammonium Hydroxide",
+                "formula": "NH4OH",
+                "concentration": {
+                  "value": "10",
+                  "unit": "pH"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process stages for surface modification.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing/Stirring",
+                "temperature": { "value": "70", "unit": "°C" },
+                "speed": { "value": "300", "unit": "rpm" },
+                "duration": { "value": "1", "unit": "hour" }
+              },
+              {
+                "stage": 2,
+                "process": "Precipitant Addition/Stirring",
+                "temperature": { "value": "70", "unit": "°C" },
+                "speed": { "value": "300", "unit": "rpm" },
+                "duration": { "value": "1", "unit": "hour" }
+              },
+              {
+                "stage": 3,
+                "process": "Hydrothermal Synthesis",
+                "temperature": { "value": "250", "unit": "°C" },
+                "pressure": { "value": "30", "unit": "bar" },
+                "duration": { "value": "12", "unit": "hour" }
+              }
+            ]
+          },
+          "weight_ratio_ceria_precursor": "0.15"
+        },
+        "post_synthesis": {
+          "description": "Post-modification treatment.",
+          "collection": {
+            "method": "Washing",
+            "parameters": {
+              "wash_medium": "Deionized Water"
+            }
+          },
+          "treatment": {}
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared using Example 1 abrasive.",
+        "composition": {
+          "abrasive": {
+            "material": "Surface-Modified CeO2",
+            "concentration": {
+              "initial": null,
+              "final": "1-10",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+            "description": null,
+            "dispersion": [],
+            "stabilization": {},
+            "ph_control": {}
+        }
+      },
+      "characterization": {
+        "description": "Characterization of Example 1 surface-modified ceria abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": null,
+              "max": null,
+              "unit": "nm"
+            }
+          },
+          "shape": "Core-shell spherical shape",
+          "surface_area": {
+            "value": "17.652",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null,
+        "xrd_analysis": "Confirmed Ceria phase (FIG. 5)"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "6811",
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "110",
+            "unit": "rpm"
+        },
+        "spindle_speed": {
+            "value": "108",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "wafer_material": "PE-TEOS",
+        "equipment_model": "AP-300 (CTS)",
+        "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Surface modification of 60 nm colloidal ceria using cerium ammonium nitrate precursor at a weight ratio of 0.76 (ceria/precursor).",
+      "abrasive_synthesis": {
+        "description": "Surface modification of existing 60 nm colloidal ceria particles via hydrothermal synthesis.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Ceria",
+            "formula": "CeO2",
+            "source_type": "Base Abrasive",
+            "purity": null,
+            "quantity": {
+              "value": "60",
+              "unit": "nm size"
+            }
+          },
+          {
+            "material_name": "Cerium Ammonium Nitrate",
+            "formula": "(NH4)2Ce(NO3)6",
+            "source_type": "Cerium Precursor",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for surface modification.",
+            "solvents": [
+              {
+                "name": "Deionized Water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Ammonium Hydroxide",
+                "formula": "NH4OH",
+                "concentration": {
+                  "value": "10",
+                  "unit": "pH"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process stages for surface modification.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing/Stirring",
+                "temperature": { "value": "70", "unit": "°C" },
+                "speed": { "value": "300", "unit": "rpm" },
+                "duration": { "value": "1", "unit": "hour" }
+              },
+              {
+                "stage": 2,
+                "process": "Precipitant Addition/Stirring",
+                "temperature": { "value": "70", "unit": "°C" },
+                "speed": { "value": "300", "unit": "rpm" },
+                "duration": { "value": "1", "unit": "hour" }
+              },
+              {
+                "stage": 3,
+                "process": "Hydrothermal Synthesis",
+                "temperature": { "value": "250", "unit": "°C" },
+                "pressure": { "value": "30", "unit": "bar" },
+                "duration": { "value": "12", "unit": "hour" }
+              }
+            ]
+          },
+          "weight_ratio_ceria_precursor": "0.76"
+        },
+        "post_synthesis": {
+          "description": "Post-modification treatment.",
+          "collection": {
+            "method": "Washing",
+            "parameters": {
+              "wash_medium": "Deionized Water"
+            }
+          },
+          "treatment": {}
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared using Example 2 abrasive.",
+        "composition": {
+          "abrasive": {
+            "material": "Surface-Modified CeO2",
+            "concentration": {
+              "initial": null,
+              "final": "1-10",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+            "description": null,
+            "dispersion": [],
+            "stabilization": {},
+            "ph_control": {}
+        }
+      },
+      "characterization": {
+        "description": "Characterization of Example 2 surface-modified ceria abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": null,
+              "max": null,
+              "unit": "nm"
+            }
+          },
+          "shape": "Core-shell spherical shape",
+          "surface_area": {
+            "value": "34.717",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null,
+        "xrd_analysis": "Confirmed Ceria phase (FIG. 5)"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "8068",
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "110",
+            "unit": "rpm"
+        },
+        "spindle_speed": {
+            "value": "108",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "wafer_material": "PE-TEOS",
+        "equipment_model": "AP-300 (CTS)",
+        "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Surface modification of 60 nm colloidal ceria using cerium ammonium nitrate precursor at a weight ratio of 1.52 (ceria/precursor).",
+      "abrasive_synthesis": {
+        "description": "Surface modification of existing 60 nm colloidal ceria particles via hydrothermal synthesis.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Ceria",
+            "formula": "CeO2",
+            "source_type": "Base Abrasive",
+            "purity": null,
+            "quantity": {
+              "value": "60",
+              "unit": "nm size"
+            }
+          },
+          {
+            "material_name": "Cerium Ammonium Nitrate",
+            "formula": "(NH4)2Ce(NO3)6",
+            "source_type": "Cerium Precursor",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for surface modification.",
+            "solvents": [
+              {
+                "name": "Deionized Water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Ammonium Hydroxide",
+                "formula": "NH4OH",
+                "concentration": {
+                  "value": "10",
+                  "unit": "pH"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process stages for surface modification.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Mixing/Stirring",
+                "temperature": { "value": "70", "unit": "°C" },
+                "speed": { "value": "300", "unit": "rpm" },
+                "duration": { "value": "1", "unit": "hour" }
+              },
+              {
+                "stage": 2,
+                "process": "Precipitant Addition/Stirring",
+                "temperature": { "value": "70", "unit": "°C" },
+                "speed": { "value": "300", "unit": "rpm" },
+                "duration": { "value": "1", "unit": "hour" }
+              },
+              {
+                "stage": 3,
+                "process": "Hydrothermal Synthesis",
+                "temperature": { "value": "250", "unit": "°C" },
+                "pressure": { "value": "30", "unit": "bar" },
+                "duration": { "value": "12", "unit": "hour" }
+              }
+            ]
+          },
+          "weight_ratio_ceria_precursor": "1.52"
+        },
+        "post_synthesis": {
+          "description": "Post-modification treatment.",
+          "collection": {
+            "method": "Washing",
+            "parameters": {
+              "wash_medium": "Deionized Water"
+            }
+          },
+          "treatment": {}
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared using Example 3 abrasive.",
+        "composition": {
+          "abrasive": {
+            "material": "Surface-Modified CeO2",
+            "concentration": {
+              "initial": null,
+              "final": "1-10",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+            "description": null,
+            "dispersion": [],
+            "stabilization": {},
+            "ph_control": {}
+        }
+      },
+      "characterization": {
+        "description": "Characterization of Example 3 surface-modified ceria abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": null,
+              "max": null,
+              "unit": "nm"
+            }
+          },
+          "shape": "Core-shell spherical shape",
+          "surface_area": {
+            "value": "52.646",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null,
+        "xrd_analysis": "Confirmed Ceria phase (FIG. 5)"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "value": "6686",
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "110",
+            "unit": "rpm"
+        },
+        "spindle_speed": {
+            "value": "108",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "wafer_material": "PE-TEOS",
+        "equipment_model": "AP-300 (CTS)",
+        "pad_composition": "IC 1000"
+      }
+    }
+  ]
+}

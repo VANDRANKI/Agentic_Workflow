@@ -1,0 +1,2130 @@
+{
+  "doi": "US-2018-0362807-A1",
+  "title": "Organic film CMP slurry composition and polishing method using same",
+  "year_published": "2018",
+  "journal": "US Patent Application Publication",
+  "organic_films_details": [
+    {
+      "film_id": "PrepEx1_Film",
+      "preparation_source": "Preparative Example 1 (Pyrene-based polymer, Formula 10)",
+      "baking_temperature": {
+        "value": 400,
+        "unit": "°C"
+      },
+      "carbon_content": {
+        "value": 72,
+        "unit": "atm %"
+      },
+      "film_density": {
+        "value": 1.4,
+        "unit": "g/cm³"
+      },
+      "hardness": {
+        "value": 0.9,
+        "unit": "GPa"
+      },
+      "acid_value": {
+        "value": 0,
+        "unit": "mg KOH/g"
+      }
+    },
+    {
+      "film_id": "PrepEx2_Film",
+      "preparation_source": "Preparative Example 2 (Coronene-based material, Formula 11)",
+      "baking_temperature": {
+        "value": 400,
+        "unit": "°C"
+      },
+      "carbon_content": {
+        "value": 80,
+        "unit": "atm %"
+      },
+      "film_density": {
+        "value": 1.7,
+        "unit": "g/cm³"
+      },
+      "hardness": {
+        "value": 1.5,
+        "unit": "GPa"
+      },
+      "acid_value": {
+        "value": 0,
+        "unit": "mg KOH/g"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Ex1",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Example 1.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 4.5,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1000,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 23,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex2",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Example 2.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ceric ammonium nitrate",
+              "type": "Oxidant",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 0.4,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.8,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1600,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 12,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex3",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Example 3.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ceric ammonium nitrate",
+              "type": "Oxidant",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 0.4,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.9,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 2000,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 11,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex4",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Example 4.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ceric ammonium nitrate",
+              "type": "Oxidant",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 2.5,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.3,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1400,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 10,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex5",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Example 5.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "source": "JUNSEI Inc.",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.9,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1500,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 15,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex6",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Example 6.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "source": "JUNSEI Inc.",
+              "concentration": {
+                "value": 2.5,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.4,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1100,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 12,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex7",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Example 7.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+             {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "source": "JUNSEI Inc.",
+              "concentration": {
+                "value": 0.4,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 2.1,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1900,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 16,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex8",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Example 8.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "source": "JUNSEI Inc.",
+              "concentration": {
+                "value": 2.5,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.4,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1300,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 12,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex9",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Example 9.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "source": "JUNSEI Inc.",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 2.6,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1400,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 14,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "CompEx1",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Comparative Example 1.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidant",
+              "source": "Dongwoo Finechem Inc.",
+              "concentration": {
+                "value": 3,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 8.2,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 42,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 90,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "CompEx2",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Comparative Example 2.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ammonium persulfate",
+              "type": "Oxidant",
+              "source": "Daejung Whakum Inc.",
+              "concentration": {
+                "value": 0.5,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 10.3,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 100,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 140,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "CompEx3",
+      "experiment_context": "Polishing of Organic Film (PrepEx1_Film) using slurry from Table 1, Comparative Example 3.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "source": "SOLVAY Inc.",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 60,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+             {
+              "name": "Ceric ammonium nitrate",
+              "type": "Oxidant",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 0.4,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Potassium hydroxide",
+              "type": "pH Adjusting Agent",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 0.3,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 7,
+              "unit": "pH"
+            },
+            "agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": 0.3,
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx1_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 30,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 80,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex10",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Example 10.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+             {
+              "name": "Formic acid",
+              "type": "Polishing Accelerator",
+              "source": "Daejung Whakum Inc.",
+              "concentration": {
+                "value": 0.4,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.7,
+              "unit": "pH"
+            },
+             "agents": [
+               {
+                "name": "Formic acid",
+                 "concentration": {
+                   "value": 0.4,
+                   "unit": "wt%"
+                 }
+               }
+             ]
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1500,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 10,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex11",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Example 11.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ceric ammonium nitrate",
+              "type": "Oxidant",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 0.4,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.7,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1900,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 7,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex12",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Example 12.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ceric ammonium nitrate",
+              "type": "Oxidant",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 2.5,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.2,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1300,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 6,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex13",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Example 13.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ceric ammonium nitrate",
+              "type": "Oxidant",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 2.0,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1200,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 2,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex14",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Example 14.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "source": "JUNSEI Inc.",
+              "concentration": {
+                "value": 2.5,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.2,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1000,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 8,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex15",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Example 15.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "source": "JUNSEI Inc.",
+              "concentration": {
+                "value": 0.4,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 2.2,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1800,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 5,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex16",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Example 16.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "source": "JUNSEI Inc.",
+              "concentration": {
+                "value": 2.5,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.3,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1100,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 3,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex17",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Example 17.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "source": "JUNSEI Inc.",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 2.5,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 1200,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 2,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex18",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Example 18.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ceric ammonium nitrate",
+              "type": "Oxidant",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 0.4,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 1.8,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 2500,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 1,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "CompEx4",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Comparative Example 4.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ceric ammonium nitrate",
+              "type": "Oxidant",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 0.4,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 8,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 10,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 70,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "CompEx5",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Comparative Example 5.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidant",
+              "source": "Dongwoo Finechem Inc.",
+              "concentration": {
+                "value": 3,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 10,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 10,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 90,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    },
+    {
+      "sample_id": "CompEx6",
+      "experiment_context": "Polishing of Organic Film (PrepEx2_Film) using slurry from Table 2, Comparative Example 6.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "source": "Evonic Inc.",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            },
+            "particle_size_average": {
+              "value": 35,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ammonium persulfate",
+              "type": "Oxidant",
+              "source": "Daejung Whakum Inc.",
+              "concentration": {
+                "value": 0.5,
+                "unit": "wt%"
+              }
+            },
+             {
+              "name": "Potassium hydroxide",
+              "type": "pH Adjusting Agent",
+              "source": "Samjeon Sunyak Inc.",
+              "concentration": {
+                "value": 0.3,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapurified water",
+            "percentage": {
+              "value": null,
+              "unit": "balance"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 8,
+              "unit": "pH"
+            },
+             "agents": [
+               {
+                "name": "Potassium hydroxide",
+                 "concentration": {
+                   "value": 0.3,
+                   "unit": "wt%"
+                 }
+               }
+             ]
+          }
+        }
+      },
+      "cmp_performance": {
+        "target_film": "PrepEx2_Film",
+        "polishing_time": {
+          "value": 1,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": 5,
+          "unit": "Å/min"
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": 1.0,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "200 mm MIRRA device (Applied Materials, AMAT Inc.)",
+        "pad_composition": "H0800 CMP pad (FUJIÐO Inc.)",
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "mL/min"
+        },
+        "table_spindle_rate": {
+          "value": 90,
+          "unit": "rpm"
+        },
+        "planarization_degree": {
+          "value": 60,
+          "unit": "Å",
+          "description": "Standard deviation of polished surface thickness"
+        }
+      }
+    }
+  ]
+}

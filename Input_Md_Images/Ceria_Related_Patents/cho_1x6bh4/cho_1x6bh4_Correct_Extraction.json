@@ -1,0 +1,219 @@
+{
+  "doi": "US 7,718,535 B2",
+  "title": "SLURRY COMPOSITIONS AND CMP METHODS USING THE SAME",
+  "year_published": "2010",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Surfactant_0.00vol%",
+      "experiment_context": "CMP using conventional silica slurry with 0.00 vol% non-ionic polymeric surfactant (EO/PO copolymer alcohol). Comparative experiment.",
+      "abrasive_details": {
+        "material": "Silica",
+        "average_particle_size": {
+          "value": "30",
+          "unit": "nm"
+        },
+        "concentration": {
+          "value": "<30",
+          "unit": "wt%"
+        }
+      },
+      "slurry_preparation": {
+        "additives": [
+          {
+            "name": "Non-ionic polymeric surfactant (EO/PO copolymer alcohol)",
+            "type": "Passivation agent",
+            "concentration": {
+              "value": "0.00",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">=7",
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Polysilicon",
+        "material_removal_rate": {
+          "value": "4800",
+          "unit": "Å/min"
+        },
+        "recess_depth": {
+          "value": "214",
+          "unit": "Å"
+        }
+      },
+      "synthesis_details": null,
+      "characterization": null
+    },
+    {
+      "sample_id": "Surfactant_0.01vol%",
+      "experiment_context": "CMP using conventional silica slurry with 0.01 vol% non-ionic polymeric surfactant (EO/PO copolymer alcohol).",
+      "abrasive_details": {
+        "material": "Silica",
+        "average_particle_size": {
+          "value": "30",
+          "unit": "nm"
+        },
+        "concentration": {
+          "value": "<30",
+          "unit": "wt%"
+        }
+      },
+      "slurry_preparation": {
+        "additives": [
+          {
+            "name": "Non-ionic polymeric surfactant (EO/PO copolymer alcohol)",
+            "type": "Passivation agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">=7",
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Polysilicon",
+        "material_removal_rate": {
+          "value": "3800",
+          "unit": "Å/min"
+        },
+        "recess_depth": null
+      },
+      "synthesis_details": null,
+      "characterization": null
+    },
+    {
+      "sample_id": "Surfactant_0.02vol%",
+      "experiment_context": "CMP using conventional silica slurry with 0.02 vol% non-ionic polymeric surfactant (EO/PO copolymer alcohol). Comparative experiment.",
+      "abrasive_details": {
+        "material": "Silica",
+        "average_particle_size": {
+          "value": "30",
+          "unit": "nm"
+        },
+        "concentration": {
+          "value": "<30",
+          "unit": "wt%"
+        }
+      },
+      "slurry_preparation": {
+        "additives": [
+          {
+            "name": "Non-ionic polymeric surfactant (EO/PO copolymer alcohol)",
+            "type": "Passivation agent",
+            "concentration": {
+              "value": "0.02",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">=7",
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Polysilicon",
+        "material_removal_rate": {
+          "value": "2100",
+          "unit": "Å/min"
+        },
+        "recess_depth": {
+          "value": "18",
+          "unit": "Å"
+        }
+      },
+      "synthesis_details": null,
+      "characterization": null
+    },
+    {
+      "sample_id": "Surfactant_0.06vol%",
+      "experiment_context": "CMP using conventional silica slurry with 0.06 vol% non-ionic polymeric surfactant (EO/PO copolymer alcohol).",
+      "abrasive_details": {
+        "material": "Silica",
+        "average_particle_size": {
+          "value": "30",
+          "unit": "nm"
+        },
+        "concentration": {
+          "value": "<30",
+          "unit": "wt%"
+        }
+      },
+      "slurry_preparation": {
+        "additives": [
+          {
+            "name": "Non-ionic polymeric surfactant (EO/PO copolymer alcohol)",
+            "type": "Passivation agent",
+            "concentration": {
+              "value": "0.06",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">=7",
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Polysilicon",
+        "material_removal_rate": {
+          "value": "1600",
+          "unit": "Å/min"
+        },
+        "recess_depth": null
+      },
+      "synthesis_details": null,
+      "characterization": null
+    },
+    {
+      "sample_id": "Surfactant_0.10vol%",
+      "experiment_context": "CMP using conventional silica slurry with 0.10 vol% non-ionic polymeric surfactant (EO/PO copolymer alcohol).",
+      "abrasive_details": {
+        "material": "Silica",
+        "average_particle_size": {
+          "value": "30",
+          "unit": "nm"
+        },
+        "concentration": {
+          "value": "<30",
+          "unit": "wt%"
+        }
+      },
+      "slurry_preparation": {
+        "additives": [
+          {
+            "name": "Non-ionic polymeric surfactant (EO/PO copolymer alcohol)",
+            "type": "Passivation agent",
+            "concentration": {
+              "value": "0.10",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">=7",
+        "solvent": {
+          "name": "Deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Polysilicon",
+        "material_removal_rate": {
+          "value": "1200",
+          "unit": "Å/min"
+        },
+        "recess_depth": null
+      },
+      "synthesis_details": null,
+      "characterization": null
+    }
+  ]
+}

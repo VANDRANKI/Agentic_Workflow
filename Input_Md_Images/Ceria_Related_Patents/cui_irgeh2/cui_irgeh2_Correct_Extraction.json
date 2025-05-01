@@ -1,0 +1,75 @@
+{
+  "doi": "US 2021/0371702 A1",
+  "title": "SLURRY COMPOSITION AND METHOD FOR POLISHING AND INTEGRATGED CIRCUIT",
+  "year_published": "2021",
+  "journal": "United States Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Slurry_With_Rheology_Modifier_Concept",
+      "experiment_context": "Describes a CMP slurry composition containing a rheology modifier to increase viscosity (target > 1.1 mPa·s, e.g., 1.3-50 mPa·s) and prevent corrosion of an underlying conductive layer (e.g., Co) when polishing an overlying conductive layer (e.g., W) where an interfacial gap (e.g., 1-10 Å wide) might exist.",
+      "slurry_base_composition": {
+        "liquid_carrier": ["Water or other solvent"],
+        "abrasives": [
+          {"type": "Silicon oxide particles"},
+          {"type": "Cerium oxide particles"}
+        ],
+        "oxidizer": [
+          {"type": "Peroxide"},
+          {"type": "Halogenoxy acid"},
+          {"type": "Salt of halogenoxy acid"},
+          {"type": "Persulfate"},
+          {"type": "Perborate"},
+          {"type": "Periodate"}
+        ]
+      },
+      "rheology_modifier": {
+        "description": "Added to increase slurry viscosity.",
+        "types": [
+          {"category": "Cellulose derivative", "examples": ["Carboxymethylcellulose", "Hydroxyethylcellulose"]},
+          {"category": "Polysaccharide derivative", "examples": ["Locust bean gum", "Guar gum", "Xanthum gum"]},
+          {"category": "Acrylic resin", "examples": ["Polyacrylic acid", "Polyacrylamide"]}
+        ],
+        "concentration": {
+          "min_value": "20",
+          "unit": "ppm by weight",
+          "example_range": "100 ppm to 1000 ppm by weight"
+        }
+      },
+      "target_slurry_properties": {
+        "viscosity": {
+          "min_value": "1.1",
+          "unit": "mPa·s",
+          "example_range": "1.3 mPa·s to 50 mPa·s"
+        }
+      },
+      "optional_components": {
+        "viscosity_improver": {
+          "description": "Can be added to interlock with rheology modifier and further increase viscosity.",
+          "types": ["Divalent ion", "Trivalent ion"]
+        },
+        "ph_adjusting_agent": {
+          "description": "Can be added to adjust pH and accelerate oxidation."
+        },
+        "corrosion_inhibitor": {
+          "description": "Can be added to inhibit corrosion of the second conductive layer during CMP."
+        }
+      },
+      "cmp_application_context": {
+        "process": "Chemical Mechanical Polishing (CMP)",
+        "purpose": "Polish a second conductive layer (e.g., W) over a dielectric layer, potentially exposing a gap (G) near an underlying first conductive layer (e.g., Co).",
+        "problem_addressed": "Corrosion of the first conductive layer by slurry leaking through the gap.",
+        "solution_mechanism": "Increased slurry viscosity due to rheology modifier causes slurry to tend to remain in the gap, forming a block layer (40) and blocking the liquid leakage path to the first conductive layer, thus inhibiting corrosion.",
+        "layers_involved": {
+          "first_conductive_layer": ["Cobalt (Co)", "Copper (Cu)", "Alloy thereof"],
+          "dielectric_layer": ["Silicon oxide (e.g., TEOS)", "Silicon nitride", "Silicon oxynitride", "Organic dielectric"],
+          "second_conductive_layer": ["Tungsten (W)", "Alloy thereof"]
+        },
+        "feature_dimensions": {
+           "hole_width_diameter": {"min": "14", "max": "20", "unit": "angstroms"},
+           "hole_depth": {"min": "10", "max": "90", "unit": "angstroms"},
+           "gap_width": {"min": "1", "max": "10", "unit": "angstroms"}
+        }
+      }
+    }
+  ]
+}

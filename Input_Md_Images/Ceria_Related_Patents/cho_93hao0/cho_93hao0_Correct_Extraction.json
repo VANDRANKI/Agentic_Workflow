@@ -1,0 +1,969 @@
+{
+  "doi": null,
+  "title": "POLISHING SLURRY COMPOSITION",
+  "year_published": "2022",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Polishing slurry with 30 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 200k), 0.25 wt% picolinic acid, pH 4.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "200000"
+          },
+          {
+            "name": "Picolinic acid",
+            "type": "Selectivity control agent",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "30",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "325",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "15",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "27",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": null
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Polishing slurry with 40 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 200k), 0.25 wt% picolinic acid, pH 4.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "200000"
+          },
+          {
+            "name": "Picolinic acid",
+            "type": "Selectivity control agent",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "40",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "1906",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "572",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "667",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": null
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Polishing slurry with 50 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 200k), 0.25 wt% picolinic acid, pH 4.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "200000"
+          },
+          {
+            "name": "Picolinic acid",
+            "type": "Selectivity control agent",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "50",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "3179",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "954",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "1113",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": null
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Polishing slurry with 60 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 200k), 0.25 wt% picolinic acid, pH 4.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "200000"
+          },
+          {
+            "name": "Picolinic acid",
+            "type": "Selectivity control agent",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "3374",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "1012",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "1181",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": null
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Polishing slurry with 60 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 50k), 0.15 wt% picolinic acid, pH 4.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "50000"
+          },
+          {
+            "name": "Picolinic acid",
+            "type": "Selectivity control agent",
+            "concentration": {
+              "value": "0.15",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "3303",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "1024",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "1156",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": null
+      }
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Polishing slurry with 60 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 50k), 0.25 wt% picolinic acid, pH 4.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "50000"
+          },
+          {
+            "name": "Picolinic acid",
+            "type": "Selectivity control agent",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "3682",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "852",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "1289",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": null
+      }
+    },
+    {
+      "sample_id": "Example_7",
+      "experiment_context": "Polishing slurry with 60 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 50k), 0.5 wt% picolinic acid, pH 4.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "50000"
+          },
+          {
+            "name": "Picolinic acid",
+            "type": "Selectivity control agent",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "4524",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "989",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "680",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": null
+      }
+    },
+    {
+      "sample_id": "Example_8",
+      "experiment_context": "Polishing slurry with 60 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 50k), 0.5 wt% picolinic acid, 0.005 wt% PMAC, pH 4.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "50000"
+          },
+          {
+            "name": "Picolinic acid",
+            "type": "Selectivity control agent",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Poly(2-methacryloxyethyltrimethylammonium chloride)",
+            "type": "Polishing control agent (PMAC)",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "4793",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "1189",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "780",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": null
+      }
+    },
+    {
+      "sample_id": "Example_9",
+      "experiment_context": "Polishing slurry with 60 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 200k), 0.5 wt% picolinic acid, 0.005 wt% PMAC, pH 4. Zeta +54mV.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "200000"
+          },
+          {
+            "name": "Picolinic acid",
+            "type": "Selectivity control agent",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Poly(2-methacryloxyethyltrimethylammonium chloride)",
+            "type": "Polishing control agent (PMAC)",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": {
+          "value": "+54",
+          "unit": "mV"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "4665",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "1226",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "552",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": {
+          "count": "101",
+          "measurement_equipment": "ATI-XP",
+          "cleaning_process": "SC-1 (15s), HF (30s)"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Polishing slurry with 60 nm ceria, 0.5 wt% Poly(2-ethyl-2-oxazoline) (MW 50k), no picolinic acid, pH 5. Zeta +50mV.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(2-ethyl-2-oxazoline)",
+            "type": "Non-ionic polymer (amide bond)",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "mw": "50000"
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "zeta_potential": {
+          "value": "+50",
+          "unit": "mV"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "4189",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "26",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "38",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": {
+          "count": "116",
+          "measurement_equipment": "ATI-XP",
+          "cleaning_process": "SC-1 (15s), HF (30s)"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "Anionic slurry with solid-phase ceria, polyacrylic acid dispersant, ammonia, pH 8. Zeta -40mV.",
+      "abrasive_synthesis": {
+         "method": "Solid phase method"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "Polyacrylic acid",
+            "type": "Dispersant"
+          },
+          {
+            "name": "Ammonia",
+            "type": "pH adjuster"
+          }
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "zeta_potential": {
+          "value": "-40",
+          "unit": "mV"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Silicon Oxide",
+            "value": "3738",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Silicon Nitride",
+            "value": "594",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Polysilicon",
+            "value": "1848",
+            "unit": "Å/min"
+          }
+        ],
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "platen_rpm": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_rpm": {
+          "value": "87",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "defects": {
+          "count": "145",
+          "measurement_equipment": "ATI-XP",
+          "cleaning_process": "SC-1 (15s), HF (30s)"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "doi": null,
+  "title": "Polishing Additive Composition, Polishing Slurry Composition and Method for Polishing Insulating Film of Semiconductor Element",
+  "year_published": "2020",
+  "journal": "US Patent 10,876,020 B2",
+  "samples": [
+    {
+      "sample_id": "Ex1_PAA25K_PDI4.57",
+      "experiment_context": "Polishing using additive composition from Preparation Example 1, containing Polyacrylic Acid (PAA) with Mw 25,000 g/mol and PDI 4.57.",
+      "abrasive_synthesis": {
+        "description": "Cerium oxide abrasive prepared via calcination of cerium carbonate hydrate, followed by pulverization, dispersion, and classification (details based on Example 1 preparation method).",
+        "precursors": [
+          {
+            "material_name": "Cerium carbonate hydrate",
+            "formula": "Ce₂(CO₃)₃·H₂O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Dispersion in deionized water with a small amount of dispersant.",
+            "solvents": [
+              {
+                "name": "Deionized water",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Anionic Dispersant",
+                "type": "Dispersant",
+                "concentration": {
+                  "value": "Small amount",
+                  "unit": null
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Calcination followed by milling/dispersion and classification.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Calcination",
+                "atmosphere": "Air",
+                "temperature": {
+                  "value": 750,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 4,
+                  "unit": "hours"
+                }
+              },
+              {
+                "stage": 2,
+                "process": "Pulverization/Dispersion",
+                "equipment": "Medium agitating powder mill"
+              },
+              {
+                "stage": 3,
+                "process": "Classification"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Details not provided.",
+          "collection": null,
+          "treatment": null
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing the cerium oxide dispersion (5 wt% solid, pH 8.5) with the polishing additive composition from Preparation Example 1.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Oxide",
+            "formula": "CeO₂",
+            "concentration": {
+              "initial": null,
+              "final": 5,
+              "unit": "wt%"
+            }
+          },
+          "anionic_polymer_details": {
+            "type": "Polyacrylic Acid",
+            "polymers": [
+              {
+                "weight_average_molecular_weight": {
+                  "value": 25000,
+                  "unit": "g/mol"
+                },
+                "parts_by_weight_in_additive": 0.5
+              }
+            ],
+            "pdi": 4.57
+          },
+          "slurry_additives": [
+            {
+              "name": "Cationic Compound",
+              "type": "Passivation Agent",
+              "concentration_in_additive": {
+                "value": 0.1,
+                "unit": "parts by weight"
+              }
+            },
+            {
+              "name": "Nonionic Surfactant",
+              "type": "Fluidity Enhancer",
+              "concentration_in_additive": {
+                "value": 0.1,
+                "unit": "parts by weight"
+              }
+            },
+            {
+              "name": "Dishing Inhibitor",
+              "type": "Rheology Modifier",
+              "concentration_in_additive": {
+                "value": 0.2,
+                "unit": "parts by weight"
+              }
+            },
+            {
+              "name": "Amphoteric Ionic Compound",
+              "type": "Passivation Enhancer",
+              "concentration_in_additive": {
+                "value": 0.1,
+                "unit": "parts by weight"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": "Mixing of abrasive dispersion and additive composition.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 8.5,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive particle size and slurry stability characteristics.",
+        "morphology": {
+          "particle_size": {
+            "primary": {
+              "min": 10,
+              "max": 80,
+              "unit": "nm"
+            },
+            "secondary": {
+              "min": 80,
+              "max": 200,
+              "measured": 130,
+              "unit": "nm"
+            }
+          },
+          "shape": "Near-spherical",
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": {
+          "zeta_potential": {
+            "min": -50,
+            "max": -30,
+            "unit": "mV"
+          }
+        }
+      },
+      "cmp_performance": {
+        "description": "CMP performance evaluation on SKW 3-2 patterned wafer.",
+        "polishing_target": "Silicon Oxide (SiO₂) and Silicon Nitride (SiN) films",
+        "substrate": "SKW 3-2 patterned wafer",
+        "equipment_model": "GNP POLI400",
+        "pad_composition": "IC-1000 (Dow Chemical Company)",
+        "polishing_pressure": {
+          "value": 300,
+          "unit": "g/cm²"
+        },
+        "table_rotation_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_rotation_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 100,
+          "unit": "mL/min"
+        },
+        "r_ring_pressure": {
+          "value": 360,
+          "unit": "g/cm²"
+        },
+        "polishing_time": {
+          "value": "Over polishing based on OPA500",
+          "unit": null
+        },
+        "process_temperature": {
+          "max_value": 80,
+          "unit": "°C"
+        },
+        "material_removal_rate": {
+          "oxide": {
+            "value": 3385,
+            "unit": "Å/min"
+          },
+          "nitride": {
+            "value": 65,
+            "unit": "Å/min"
+          }
+        },
+        "selectivity_oxide_nitride": 52,
+        "dishing_level": {
+          "value": 263,
+          "unit": "Å",
+          "pattern_density": "D20 (20%)"
+        },
+        "nitride_erosion": {
+          "value": 23,
+          "unit": "Å",
+          "pattern_density": "D20 (20%)"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex2_PAA10K+25K_PDI4.13",
+      "experiment_context": "Polishing using additive composition from Preparation Example 2, containing a blend of Polyacrylic Acid (PAA): 0.1 parts Mw 10,000 g/mol + 0.4 parts Mw 25,000 g/mol. Overall PDI 4.13.",
+      "abrasive_synthesis": {
+        "description": "Cerium oxide abrasive prepared via calcination of cerium carbonate hydrate, followed by pulverization, dispersion, and classification (details based on Example 1 preparation method).",
+        "precursors": [ { "material_name": "Cerium carbonate hydrate", "formula": null, "source_type": null, "purity": null, "quantity": { "value": null, "unit": null } } ],
+        "synthesis_parameters": { "chemical": { "description": "Dispersion in deionized water with a small amount of dispersant.", "solvents": [ { "name": "Deionized water", "quantity": { "value": null, "unit": null } } ], "ph_agents": [], "synthesis_additives": [ { "name": "Anionic Dispersant", "type": "Dispersant", "concentration": { "value": "Small amount", "unit": null } } ] }, "physical": { "description": "Calcination followed by milling/dispersion and classification.", "process_stages": [ { "stage": 1, "process": "Calcination", "atmosphere": "Air", "temperature": { "value": 750, "unit": "°C" }, "duration": { "value": 4, "unit": "hours" } }, { "stage": 2, "process": "Pulverization/Dispersion", "equipment": "Medium agitating powder mill" }, { "stage": 3, "process": "Classification" } ] } },
+        "post_synthesis": { "description": "Details not provided.", "collection": null, "treatment": null }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing the cerium oxide dispersion (5 wt% solid, pH 8.5) with the polishing additive composition from Preparation Example 2.",
+        "composition": {
+          "abrasive": { "material": "Cerium Oxide", "formula": "CeO₂", "concentration": { "initial": null, "final": 5, "unit": "wt%" } },
+          "anionic_polymer_details": {
+            "type": "Polyacrylic Acid Blend",
+            "polymers": [
+              { "weight_average_molecular_weight": { "value": 10000, "unit": "g/mol" }, "parts_by_weight_in_additive": 0.1 },
+              { "weight_average_molecular_weight": { "value": 25000, "unit": "g/mol" }, "parts_by_weight_in_additive": 0.4 }
+            ],
+            "pdi": 4.13
+          },
+          "slurry_additives": [
+            { "name": "Cationic Compound", "type": "Passivation Agent", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Nonionic Surfactant", "type": "Fluidity Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Dishing Inhibitor", "type": "Rheology Modifier", "concentration_in_additive": { "value": 0.2, "unit": "parts by weight" } },
+            { "name": "Amphoteric Ionic Compound", "type": "Passivation Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } }
+          ],
+          "solvent": { "name": "Deionized water", "percentage": { "value": null, "unit": null } }
+        },
+        "processing": { "description": "Mixing of abrasive dispersion and additive composition.", "dispersion": [], "stabilization": null, "ph_control": { "target": { "value": 8.5, "unit": "pH" }, "agents": [] } }
+      },
+      "characterization": {
+        "description": "Abrasive particle size and slurry stability characteristics.",
+        "morphology": { "particle_size": { "primary": { "min": 10, "max": 80, "unit": "nm" }, "secondary": { "min": 80, "max": 200, "measured": 130, "unit": "nm" } }, "shape": "Near-spherical", "surface_area": { "value": null, "unit": null } },
+        "stability": { "zeta_potential": { "min": -50, "max": -30, "unit": "mV" } }
+      },
+      "cmp_performance": {
+        "description": "CMP performance evaluation on SKW 3-2 patterned wafer.",
+        "polishing_target": "Silicon Oxide (SiO₂) and Silicon Nitride (SiN) films", "substrate": "SKW 3-2 patterned wafer", "equipment_model": "GNP POLI400", "pad_composition": "IC-1000 (Dow Chemical Company)", "polishing_pressure": { "value": 300, "unit": "g/cm²" }, "table_rotation_speed": { "value": 93, "unit": "rpm" }, "head_rotation_speed": { "value": 87, "unit": "rpm" }, "slurry_flow_rate": { "value": 100, "unit": "mL/min" }, "r_ring_pressure": { "value": 360, "unit": "g/cm²" }, "polishing_time": { "value": "Over polishing based on OPA500", "unit": null }, "process_temperature": { "max_value": 80, "unit": "°C" },
+        "material_removal_rate": {
+          "oxide": { "value": 2882, "unit": "Å/min" },
+          "nitride": { "value": 77, "unit": "Å/min" }
+        },
+        "selectivity_oxide_nitride": 37,
+        "dishing_level": { "value": 464, "unit": "Å", "pattern_density": "D20 (20%)" },
+        "nitride_erosion": { "value": 39, "unit": "Å", "pattern_density": "D20 (20%)" }
+      }
+    },
+    {
+      "sample_id": "Ex3_PAA25K+40K_PDI4.06",
+      "experiment_context": "Polishing using additive composition from Preparation Example 3, containing a blend of Polyacrylic Acid (PAA): 0.4 parts Mw 25,000 g/mol + 0.1 parts Mw 40,000 g/mol. Overall PDI 4.06 (Note: Table 1 reports PDI 4.06, Prep Ex 3 reports 4.38. Using Table 1 value).",
+      "abrasive_synthesis": {
+        "description": "Cerium oxide abrasive prepared via calcination of cerium carbonate hydrate, followed by pulverization, dispersion, and classification (details based on Example 1 preparation method).",
+        "precursors": [ { "material_name": "Cerium carbonate hydrate", "formula": null, "source_type": null, "purity": null, "quantity": { "value": null, "unit": null } } ],
+        "synthesis_parameters": { "chemical": { "description": "Dispersion in deionized water with a small amount of dispersant.", "solvents": [ { "name": "Deionized water", "quantity": { "value": null, "unit": null } } ], "ph_agents": [], "synthesis_additives": [ { "name": "Anionic Dispersant", "type": "Dispersant", "concentration": { "value": "Small amount", "unit": null } } ] }, "physical": { "description": "Calcination followed by milling/dispersion and classification.", "process_stages": [ { "stage": 1, "process": "Calcination", "atmosphere": "Air", "temperature": { "value": 750, "unit": "°C" }, "duration": { "value": 4, "unit": "hours" } }, { "stage": 2, "process": "Pulverization/Dispersion", "equipment": "Medium agitating powder mill" }, { "stage": 3, "process": "Classification" } ] } },
+        "post_synthesis": { "description": "Details not provided.", "collection": null, "treatment": null }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing the cerium oxide dispersion (5 wt% solid, pH 8.5) with the polishing additive composition from Preparation Example 3.",
+        "composition": {
+          "abrasive": { "material": "Cerium Oxide", "formula": "CeO₂", "concentration": { "initial": null, "final": 5, "unit": "wt%" } },
+          "anionic_polymer_details": {
+            "type": "Polyacrylic Acid Blend",
+            "polymers": [
+              { "weight_average_molecular_weight": { "value": 25000, "unit": "g/mol" }, "parts_by_weight_in_additive": 0.4 },
+              { "weight_average_molecular_weight": { "value": 40000, "unit": "g/mol" }, "parts_by_weight_in_additive": 0.1 }
+            ],
+            "pdi": 4.06
+          },
+          "slurry_additives": [
+            { "name": "Cationic Compound", "type": "Passivation Agent", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Nonionic Surfactant", "type": "Fluidity Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Dishing Inhibitor", "type": "Rheology Modifier", "concentration_in_additive": { "value": 0.2, "unit": "parts by weight" } },
+            { "name": "Amphoteric Ionic Compound", "type": "Passivation Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } }
+          ],
+          "solvent": { "name": "Deionized water", "percentage": { "value": null, "unit": null } }
+        },
+        "processing": { "description": "Mixing of abrasive dispersion and additive composition.", "dispersion": [], "stabilization": null, "ph_control": { "target": { "value": 8.5, "unit": "pH" }, "agents": [] } }
+      },
+      "characterization": {
+        "description": "Abrasive particle size and slurry stability characteristics.",
+        "morphology": { "particle_size": { "primary": { "min": 10, "max": 80, "unit": "nm" }, "secondary": { "min": 80, "max": 200, "measured": 130, "unit": "nm" } }, "shape": "Near-spherical", "surface_area": { "value": null, "unit": null } },
+        "stability": { "zeta_potential": { "min": -50, "max": -30, "unit": "mV" } }
+      },
+      "cmp_performance": {
+        "description": "CMP performance evaluation on SKW 3-2 patterned wafer.",
+        "polishing_target": "Silicon Oxide (SiO₂) and Silicon Nitride (SiN) films", "substrate": "SKW 3-2 patterned wafer", "equipment_model": "GNP POLI400", "pad_composition": "IC-1000 (Dow Chemical Company)", "polishing_pressure": { "value": 300, "unit": "g/cm²" }, "table_rotation_speed": { "value": 93, "unit": "rpm" }, "head_rotation_speed": { "value": 87, "unit": "rpm" }, "slurry_flow_rate": { "value": 100, "unit": "mL/min" }, "r_ring_pressure": { "value": 360, "unit": "g/cm²" }, "polishing_time": { "value": "Over polishing based on OPA500", "unit": null }, "process_temperature": { "max_value": 80, "unit": "°C" },
+        "material_removal_rate": {
+          "oxide": { "value": 3147, "unit": "Å/min" },
+          "nitride": { "value": 80, "unit": "Å/min" }
+        },
+        "selectivity_oxide_nitride": 39,
+        "dishing_level": { "value": 505, "unit": "Å", "pattern_density": "D20 (20%)" },
+        "nitride_erosion": { "value": 44, "unit": "Å", "pattern_density": "D20 (20%)" }
+      }
+    },
+    {
+      "sample_id": "Ex4_PAA10K+25K+40K_PDI4.38",
+      "experiment_context": "Polishing using additive composition from Preparation Example 4 (implied), containing a blend of Polyacrylic Acid (PAA): Mw 10K + 25K + 40K. Overall PDI 4.38.",
+      "abrasive_synthesis": {
+        "description": "Cerium oxide abrasive prepared via calcination of cerium carbonate hydrate, followed by pulverization, dispersion, and classification (details based on Example 1 preparation method).",
+        "precursors": [ { "material_name": "Cerium carbonate hydrate", "formula": null, "source_type": null, "purity": null, "quantity": { "value": null, "unit": null } } ],
+        "synthesis_parameters": { "chemical": { "description": "Dispersion in deionized water with a small amount of dispersant.", "solvents": [ { "name": "Deionized water", "quantity": { "value": null, "unit": null } } ], "ph_agents": [], "synthesis_additives": [ { "name": "Anionic Dispersant", "type": "Dispersant", "concentration": { "value": "Small amount", "unit": null } } ] }, "physical": { "description": "Calcination followed by milling/dispersion and classification.", "process_stages": [ { "stage": 1, "process": "Calcination", "atmosphere": "Air", "temperature": { "value": 750, "unit": "°C" }, "duration": { "value": 4, "unit": "hours" } }, { "stage": 2, "process": "Pulverization/Dispersion", "equipment": "Medium agitating powder mill" }, { "stage": 3, "process": "Classification" } ] } },
+        "post_synthesis": { "description": "Details not provided.", "collection": null, "treatment": null }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing the cerium oxide dispersion (5 wt% solid, pH 8.5) with the polishing additive composition from Preparation Example 4 (implied).",
+        "composition": {
+          "abrasive": { "material": "Cerium Oxide", "formula": "CeO₂", "concentration": { "initial": null, "final": 5, "unit": "wt%" } },
+          "anionic_polymer_details": {
+            "type": "Polyacrylic Acid Blend",
+            "polymers": [
+              { "weight_average_molecular_weight": { "value": 10000, "unit": "g/mol" }, "parts_by_weight_in_additive": null },
+              { "weight_average_molecular_weight": { "value": 25000, "unit": "g/mol" }, "parts_by_weight_in_additive": null },
+              { "weight_average_molecular_weight": { "value": 40000, "unit": "g/mol" }, "parts_by_weight_in_additive": null }
+            ],
+            "pdi": 4.38
+          },
+          "slurry_additives": [
+            { "name": "Cationic Compound", "type": "Passivation Agent", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Nonionic Surfactant", "type": "Fluidity Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Dishing Inhibitor", "type": "Rheology Modifier", "concentration_in_additive": { "value": 0.2, "unit": "parts by weight" } },
+            { "name": "Amphoteric Ionic Compound", "type": "Passivation Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } }
+          ],
+          "solvent": { "name": "Deionized water", "percentage": { "value": null, "unit": null } }
+        },
+        "processing": { "description": "Mixing of abrasive dispersion and additive composition.", "dispersion": [], "stabilization": null, "ph_control": { "target": { "value": 8.5, "unit": "pH" }, "agents": [] } }
+      },
+      "characterization": {
+        "description": "Abrasive particle size and slurry stability characteristics.",
+        "morphology": { "particle_size": { "primary": { "min": 10, "max": 80, "unit": "nm" }, "secondary": { "min": 80, "max": 200, "measured": 130, "unit": "nm" } }, "shape": "Near-spherical", "surface_area": { "value": null, "unit": null } },
+        "stability": { "zeta_potential": { "min": -50, "max": -30, "unit": "mV" } }
+      },
+      "cmp_performance": {
+        "description": "CMP performance evaluation on SKW 3-2 patterned wafer.",
+        "polishing_target": "Silicon Oxide (SiO₂) and Silicon Nitride (SiN) films", "substrate": "SKW 3-2 patterned wafer", "equipment_model": "GNP POLI400", "pad_composition": "IC-1000 (Dow Chemical Company)", "polishing_pressure": { "value": 300, "unit": "g/cm²" }, "table_rotation_speed": { "value": 93, "unit": "rpm" }, "head_rotation_speed": { "value": 87, "unit": "rpm" }, "slurry_flow_rate": { "value": 100, "unit": "mL/min" }, "r_ring_pressure": { "value": 360, "unit": "g/cm²" }, "polishing_time": { "value": "Over polishing based on OPA500", "unit": null }, "process_temperature": { "max_value": 80, "unit": "°C" },
+        "material_removal_rate": {
+          "oxide": { "value": 3043, "unit": "Å/min" },
+          "nitride": { "value": 68, "unit": "Å/min" }
+        },
+        "selectivity_oxide_nitride": 43,
+        "dishing_level": { "value": 318, "unit": "Å", "pattern_density": "D20 (20%)" },
+        "nitride_erosion": { "value": 31, "unit": "Å", "pattern_density": "D20 (20%)" }
+      }
+    },
+    {
+      "sample_id": "CompEx1_PAA10K_PDI2.84",
+      "experiment_context": "Polishing using additive composition from Comparative Preparation Example 1, containing Polyacrylic Acid (PAA) with Mw 10,000 g/mol and PDI 2.84.",
+      "abrasive_synthesis": {
+        "description": "Cerium oxide abrasive prepared via calcination of cerium carbonate hydrate, followed by pulverization, dispersion, and classification (details based on Example 1 preparation method).",
+        "precursors": [ { "material_name": "Cerium carbonate hydrate", "formula": null, "source_type": null, "purity": null, "quantity": { "value": null, "unit": null } } ],
+        "synthesis_parameters": { "chemical": { "description": "Dispersion in deionized water with a small amount of dispersant.", "solvents": [ { "name": "Deionized water", "quantity": { "value": null, "unit": null } } ], "ph_agents": [], "synthesis_additives": [ { "name": "Anionic Dispersant", "type": "Dispersant", "concentration": { "value": "Small amount", "unit": null } } ] }, "physical": { "description": "Calcination followed by milling/dispersion and classification.", "process_stages": [ { "stage": 1, "process": "Calcination", "atmosphere": "Air", "temperature": { "value": 750, "unit": "°C" }, "duration": { "value": 4, "unit": "hours" } }, { "stage": 2, "process": "Pulverization/Dispersion", "equipment": "Medium agitating powder mill" }, { "stage": 3, "process": "Classification" } ] } },
+        "post_synthesis": { "description": "Details not provided.", "collection": null, "treatment": null }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing the cerium oxide dispersion (5 wt% solid, pH 8.5) with the polishing additive composition from Comparative Preparation Example 1.",
+        "composition": {
+          "abrasive": { "material": "Cerium Oxide", "formula": "CeO₂", "concentration": { "initial": null, "final": 5, "unit": "wt%" } },
+          "anionic_polymer_details": {
+            "type": "Polyacrylic Acid",
+            "polymers": [
+              { "weight_average_molecular_weight": { "value": 10000, "unit": "g/mol" }, "parts_by_weight_in_additive": 0.5 }
+            ],
+            "pdi": 2.84
+          },
+          "slurry_additives": [
+            { "name": "Cationic Compound", "type": "Passivation Agent", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Nonionic Surfactant", "type": "Fluidity Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Dishing Inhibitor", "type": "Rheology Modifier", "concentration_in_additive": { "value": 0.2, "unit": "parts by weight" } },
+            { "name": "Amphoteric Ionic Compound", "type": "Passivation Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } }
+          ],
+          "solvent": { "name": "Deionized water", "percentage": { "value": null, "unit": null } }
+        },
+        "processing": { "description": "Mixing of abrasive dispersion and additive composition.", "dispersion": [], "stabilization": null, "ph_control": { "target": { "value": 8.5, "unit": "pH" }, "agents": [] } }
+      },
+      "characterization": {
+        "description": "Abrasive particle size and slurry stability characteristics.",
+        "morphology": { "particle_size": { "primary": { "min": 10, "max": 80, "unit": "nm" }, "secondary": { "min": 80, "max": 200, "measured": 130, "unit": "nm" } }, "shape": "Near-spherical", "surface_area": { "value": null, "unit": null } },
+        "stability": { "zeta_potential": { "min": -50, "max": -30, "unit": "mV" } }
+      },
+      "cmp_performance": {
+        "description": "CMP performance evaluation on SKW 3-2 patterned wafer.",
+        "polishing_target": "Silicon Oxide (SiO₂) and Silicon Nitride (SiN) films", "substrate": "SKW 3-2 patterned wafer", "equipment_model": "GNP POLI400", "pad_composition": "IC-1000 (Dow Chemical Company)", "polishing_pressure": { "value": 300, "unit": "g/cm²" }, "table_rotation_speed": { "value": 93, "unit": "rpm" }, "head_rotation_speed": { "value": 87, "unit": "rpm" }, "slurry_flow_rate": { "value": 100, "unit": "mL/min" }, "r_ring_pressure": { "value": 360, "unit": "g/cm²" }, "polishing_time": { "value": "Over polishing based on OPA500", "unit": null }, "process_temperature": { "max_value": 80, "unit": "°C" },
+        "material_removal_rate": {
+          "oxide": { "value": 2694, "unit": "Å/min" },
+          "nitride": { "value": 81, "unit": "Å/min" }
+        },
+        "selectivity_oxide_nitride": 33,
+        "dishing_level": { "value": 803, "unit": "Å", "pattern_density": "D20 (20%)" },
+        "nitride_erosion": { "value": 75, "unit": "Å", "pattern_density": "D20 (20%)" }
+      }
+    },
+    {
+      "sample_id": "CompEx2_PAA25K_PDI3.18",
+      "experiment_context": "Polishing using additive composition from Comparative Preparation Example 2, containing Polyacrylic Acid (PAA) with Mw 25,000 g/mol and PDI 3.18.",
+      "abrasive_synthesis": {
+        "description": "Cerium oxide abrasive prepared via calcination of cerium carbonate hydrate, followed by pulverization, dispersion, and classification (details based on Example 1 preparation method).",
+        "precursors": [ { "material_name": "Cerium carbonate hydrate", "formula": null, "source_type": null, "purity": null, "quantity": { "value": null, "unit": null } } ],
+        "synthesis_parameters": { "chemical": { "description": "Dispersion in deionized water with a small amount of dispersant.", "solvents": [ { "name": "Deionized water", "quantity": { "value": null, "unit": null } } ], "ph_agents": [], "synthesis_additives": [ { "name": "Anionic Dispersant", "type": "Dispersant", "concentration": { "value": "Small amount", "unit": null } } ] }, "physical": { "description": "Calcination followed by milling/dispersion and classification.", "process_stages": [ { "stage": 1, "process": "Calcination", "atmosphere": "Air", "temperature": { "value": 750, "unit": "°C" }, "duration": { "value": 4, "unit": "hours" } }, { "stage": 2, "process": "Pulverization/Dispersion", "equipment": "Medium agitating powder mill" }, { "stage": 3, "process": "Classification" } ] } },
+        "post_synthesis": { "description": "Details not provided.", "collection": null, "treatment": null }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing the cerium oxide dispersion (5 wt% solid, pH 8.5) with the polishing additive composition from Comparative Preparation Example 2.",
+        "composition": {
+          "abrasive": { "material": "Cerium Oxide", "formula": "CeO₂", "concentration": { "initial": null, "final": 5, "unit": "wt%" } },
+          "anionic_polymer_details": {
+            "type": "Polyacrylic Acid",
+            "polymers": [
+              { "weight_average_molecular_weight": { "value": 25000, "unit": "g/mol" }, "parts_by_weight_in_additive": 0.5 }
+            ],
+            "pdi": 3.18
+          },
+          "slurry_additives": [
+            { "name": "Cationic Compound", "type": "Passivation Agent", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Nonionic Surfactant", "type": "Fluidity Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Dishing Inhibitor", "type": "Rheology Modifier", "concentration_in_additive": { "value": 0.2, "unit": "parts by weight" } },
+            { "name": "Amphoteric Ionic Compound", "type": "Passivation Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } }
+          ],
+          "solvent": { "name": "Deionized water", "percentage": { "value": null, "unit": null } }
+        },
+        "processing": { "description": "Mixing of abrasive dispersion and additive composition.", "dispersion": [], "stabilization": null, "ph_control": { "target": { "value": 8.5, "unit": "pH" }, "agents": [] } }
+      },
+      "characterization": {
+        "description": "Abrasive particle size and slurry stability characteristics.",
+        "morphology": { "particle_size": { "primary": { "min": 10, "max": 80, "unit": "nm" }, "secondary": { "min": 80, "max": 200, "measured": 130, "unit": "nm" } }, "shape": "Near-spherical", "surface_area": { "value": null, "unit": null } },
+        "stability": { "zeta_potential": { "min": -50, "max": -30, "unit": "mV" } }
+      },
+      "cmp_performance": {
+        "description": "CMP performance evaluation on SKW 3-2 patterned wafer.",
+        "polishing_target": "Silicon Oxide (SiO₂) and Silicon Nitride (SiN) films", "substrate": "SKW 3-2 patterned wafer", "equipment_model": "GNP POLI400", "pad_composition": "IC-1000 (Dow Chemical Company)", "polishing_pressure": { "value": 300, "unit": "g/cm²" }, "table_rotation_speed": { "value": 93, "unit": "rpm" }, "head_rotation_speed": { "value": 87, "unit": "rpm" }, "slurry_flow_rate": { "value": 100, "unit": "mL/min" }, "r_ring_pressure": { "value": 360, "unit": "g/cm²" }, "polishing_time": { "value": "Over polishing based on OPA500", "unit": null }, "process_temperature": { "max_value": 80, "unit": "°C" },
+        "material_removal_rate": {
+          "oxide": { "value": 3117, "unit": "Å/min" },
+          "nitride": { "value": 84, "unit": "Å/min" }
+        },
+        "selectivity_oxide_nitride": 37,
+        "dishing_level": { "value": 734, "unit": "Å", "pattern_density": "D20 (20%)" },
+        "nitride_erosion": { "value": 69, "unit": "Å", "pattern_density": "D20 (20%)" }
+      }
+    },
+    {
+      "sample_id": "CompEx3_PAA40K_PDI2.22",
+      "experiment_context": "Polishing using additive composition from Comparative Preparation Example 3, containing Polyacrylic Acid (PAA) with Mw 40,000 g/mol and PDI 2.22.",
+      "abrasive_synthesis": {
+        "description": "Cerium oxide abrasive prepared via calcination of cerium carbonate hydrate, followed by pulverization, dispersion, and classification (details based on Example 1 preparation method).",
+        "precursors": [ { "material_name": "Cerium carbonate hydrate", "formula": null, "source_type": null, "purity": null, "quantity": { "value": null, "unit": null } } ],
+        "synthesis_parameters": { "chemical": { "description": "Dispersion in deionized water with a small amount of dispersant.", "solvents": [ { "name": "Deionized water", "quantity": { "value": null, "unit": null } } ], "ph_agents": [], "synthesis_additives": [ { "name": "Anionic Dispersant", "type": "Dispersant", "concentration": { "value": "Small amount", "unit": null } } ] }, "physical": { "description": "Calcination followed by milling/dispersion and classification.", "process_stages": [ { "stage": 1, "process": "Calcination", "atmosphere": "Air", "temperature": { "value": 750, "unit": "°C" }, "duration": { "value": 4, "unit": "hours" } }, { "stage": 2, "process": "Pulverization/Dispersion", "equipment": "Medium agitating powder mill" }, { "stage": 3, "process": "Classification" } ] } },
+        "post_synthesis": { "description": "Details not provided.", "collection": null, "treatment": null }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing the cerium oxide dispersion (5 wt% solid, pH 8.5) with the polishing additive composition from Comparative Preparation Example 3.",
+        "composition": {
+          "abrasive": { "material": "Cerium Oxide", "formula": "CeO₂", "concentration": { "initial": null, "final": 5, "unit": "wt%" } },
+          "anionic_polymer_details": {
+            "type": "Polyacrylic Acid",
+            "polymers": [
+              { "weight_average_molecular_weight": { "value": 40000, "unit": "g/mol" }, "parts_by_weight_in_additive": 0.5 }
+            ],
+            "pdi": 2.22
+          },
+          "slurry_additives": [
+            { "name": "Cationic Compound", "type": "Passivation Agent", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Nonionic Surfactant", "type": "Fluidity Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Dishing Inhibitor", "type": "Rheology Modifier", "concentration_in_additive": { "value": 0.2, "unit": "parts by weight" } },
+            { "name": "Amphoteric Ionic Compound", "type": "Passivation Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } }
+          ],
+          "solvent": { "name": "Deionized water", "percentage": { "value": null, "unit": null } }
+        },
+        "processing": { "description": "Mixing of abrasive dispersion and additive composition.", "dispersion": [], "stabilization": null, "ph_control": { "target": { "value": 8.5, "unit": "pH" }, "agents": [] } }
+      },
+      "characterization": {
+        "description": "Abrasive particle size and slurry stability characteristics.",
+        "morphology": { "particle_size": { "primary": { "min": 10, "max": 80, "unit": "nm" }, "secondary": { "min": 80, "max": 200, "measured": 130, "unit": "nm" } }, "shape": "Near-spherical", "surface_area": { "value": null, "unit": null } },
+        "stability": { "zeta_potential": { "min": -50, "max": -30, "unit": "mV" } }
+      },
+      "cmp_performance": {
+        "description": "CMP performance evaluation on SKW 3-2 patterned wafer.",
+        "polishing_target": "Silicon Oxide (SiO₂) and Silicon Nitride (SiN) films", "substrate": "SKW 3-2 patterned wafer", "equipment_model": "GNP POLI400", "pad_composition": "IC-1000 (Dow Chemical Company)", "polishing_pressure": { "value": 300, "unit": "g/cm²" }, "table_rotation_speed": { "value": 93, "unit": "rpm" }, "head_rotation_speed": { "value": 87, "unit": "rpm" }, "slurry_flow_rate": { "value": 100, "unit": "mL/min" }, "r_ring_pressure": { "value": 360, "unit": "g/cm²" }, "polishing_time": { "value": "Over polishing based on OPA500", "unit": null }, "process_temperature": { "max_value": 80, "unit": "°C" },
+        "material_removal_rate": {
+          "oxide": { "value": 3293, "unit": "Å/min" },
+          "nitride": { "value": 89, "unit": "Å/min" }
+        },
+        "selectivity_oxide_nitride": 37,
+        "dishing_level": { "value": 827, "unit": "Å", "pattern_density": "D20 (20%)" },
+        "nitride_erosion": { "value": 81, "unit": "Å", "pattern_density": "D20 (20%)" }
+      }
+    },
+    {
+      "sample_id": "CompEx4_PAA25K_PDI2.21",
+      "experiment_context": "Polishing using additive composition from Comparative Preparation Example 4, containing Polyacrylic Acid (PAA) with Mw 25,000 g/mol and PDI 2.21.",
+      "abrasive_synthesis": {
+        "description": "Cerium oxide abrasive prepared via calcination of cerium carbonate hydrate, followed by pulverization, dispersion, and classification (details based on Example 1 preparation method).",
+        "precursors": [ { "material_name": "Cerium carbonate hydrate", "formula": null, "source_type": null, "purity": null, "quantity": { "value": null, "unit": null } } ],
+        "synthesis_parameters": { "chemical": { "description": "Dispersion in deionized water with a small amount of dispersant.", "solvents": [ { "name": "Deionized water", "quantity": { "value": null, "unit": null } } ], "ph_agents": [], "synthesis_additives": [ { "name": "Anionic Dispersant", "type": "Dispersant", "concentration": { "value": "Small amount", "unit": null } } ] }, "physical": { "description": "Calcination followed by milling/dispersion and classification.", "process_stages": [ { "stage": 1, "process": "Calcination", "atmosphere": "Air", "temperature": { "value": 750, "unit": "°C" }, "duration": { "value": 4, "unit": "hours" } }, { "stage": 2, "process": "Pulverization/Dispersion", "equipment": "Medium agitating powder mill" }, { "stage": 3, "process": "Classification" } ] } },
+        "post_synthesis": { "description": "Details not provided.", "collection": null, "treatment": null }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing the cerium oxide dispersion (5 wt% solid, pH 8.5) with the polishing additive composition from Comparative Preparation Example 4.",
+        "composition": {
+          "abrasive": { "material": "Cerium Oxide", "formula": "CeO₂", "concentration": { "initial": null, "final": 5, "unit": "wt%" } },
+          "anionic_polymer_details": {
+            "type": "Polyacrylic Acid",
+            "polymers": [
+              { "weight_average_molecular_weight": { "value": 25000, "unit": "g/mol" }, "parts_by_weight_in_additive": 0.5 }
+            ],
+            "pdi": 2.21
+          },
+          "slurry_additives": [
+            { "name": "Cationic Compound", "type": "Passivation Agent", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Nonionic Surfactant", "type": "Fluidity Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } },
+            { "name": "Dishing Inhibitor", "type": "Rheology Modifier", "concentration_in_additive": { "value": 0.2, "unit": "parts by weight" } },
+            { "name": "Amphoteric Ionic Compound", "type": "Passivation Enhancer", "concentration_in_additive": { "value": 0.1, "unit": "parts by weight" } }
+          ],
+          "solvent": { "name": "Deionized water", "percentage": { "value": null, "unit": null } }
+        },
+        "processing": { "description": "Mixing of abrasive dispersion and additive composition.", "dispersion": [], "stabilization": null, "ph_control": { "target": { "value": 8.5, "unit": "pH" }, "agents": [] } }
+      },
+      "characterization": {
+        "description": "Abrasive particle size and slurry stability characteristics.",
+        "morphology": { "particle_size": { "primary": { "min": 10, "max": 80, "unit": "nm" }, "secondary": { "min": 80, "max": 200, "measured": 130, "unit": "nm" } }, "shape": "Near-spherical", "surface_area": { "value": null, "unit": null } },
+        "stability": { "zeta_potential": { "min": -50, "max": -30, "unit": "mV" } }
+      },
+      "cmp_performance": {
+        "description": "CMP performance evaluation on SKW 3-2 patterned wafer.",
+        "polishing_target": "Silicon Oxide (SiO₂) and Silicon Nitride (SiN) films", "substrate": "SKW 3-2 patterned wafer", "equipment_model": "GNP POLI400", "pad_composition": "IC-1000 (Dow Chemical Company)", "polishing_pressure": { "value": 300, "unit": "g/cm²" }, "table_rotation_speed": { "value": 93, "unit": "rpm" }, "head_rotation_speed": { "value": 87, "unit": "rpm" }, "slurry_flow_rate": { "value": 100, "unit": "mL/min" }, "r_ring_pressure": { "value": 360, "unit": "g/cm²" }, "polishing_time": { "value": "Over polishing based on OPA500", "unit": null }, "process_temperature": { "max_value": 80, "unit": "°C" },
+        "material_removal_rate": {
+          "oxide": { "value": 2860, "unit": "Å/min" },
+          "nitride": { "value": 94, "unit": "Å/min" }
+        },
+        "selectivity_oxide_nitride": 30,
+        "dishing_level": { "value": 1040, "unit": "Å", "pattern_density": "D20 (20%)" },
+        "nitride_erosion": { "value": 114, "unit": "Å", "pattern_density": "D20 (20%)" }
+      }
+    }
+  ]
+}

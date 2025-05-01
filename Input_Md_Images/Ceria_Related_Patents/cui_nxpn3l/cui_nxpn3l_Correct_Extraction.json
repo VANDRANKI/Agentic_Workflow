@@ -1,0 +1,171 @@
+{
+  "doi": "US 11,658,065 B2",
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITION, METHOD FOR CHEMICAL MECHANICAL POLISHING AND METHOD FOR FORMING CONNECTING STRUCTURE",
+  "year_published": "2023",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "US11658065B2_GeneralMethod",
+      "experiment_context": "General method described in US Patent 11,658,065 B2 for CMP of noble metals using a dual oxidizer slurry (halogen oxyacid/salt + aqueous ozone).",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent text.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical synthesis parameters not provided.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical synthesis process stages not provided.",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures not provided.",
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry composition includes dual oxidizers, abrasive particles, optional chelator, and water.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica, fumed silica, aluminum oxide, or silica shell based composite submicron particle",
+            "concentration": {
+              "initial": null,
+              "final": "0.05-15",
+              "unit": "%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Halogen oxyacid or its salt (e.g., KIO3, KBrO3, KClO3)",
+              "type": "First Oxidizer",
+              "concentration": {
+                "value": "0.2-5.0",
+                "unit": "%"
+              }
+            },
+            {
+              "name": "Aqueous ozone (O3)",
+              "type": "Second Oxidizer",
+              "concentration": {
+                "value": "200-7000",
+                "unit": "ppm"
+              }
+            },
+            {
+              "name": "Tartaric acid (example)",
+              "type": "Metal Chelator (optional)",
+              "concentration": {
+                "value": "0.05-5.0",
+                "unit": "%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": "pH control is mentioned.",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "2.0",
+              "max": "12.0"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization details for a specific sample are not provided in the patent text.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": null,
+              "max": null,
+              "unit": "nm"
+            },
+            "example_value": {
+              "value": "70",
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+         "polishing_target": "Noble metal layer (e.g., Ru)",
+         "material_removal_rate": {
+           "value": ">400",
+           "unit": "Å/min",
+           "conditions": "For Ruthenium (example)"
+         },
+         "polishing_time": {
+           "value": null,
+           "unit": null
+         },
+         "process_temperature": {
+           "value": null,
+           "unit": null
+         },
+         "polishing_pressure": {
+           "value": null,
+           "unit": null
+         },
+         "pad_conditioning_pressure": {
+           "value": null,
+           "unit": null
+         },
+         "equipment_model": null,
+         "pad_composition": null
+      }
+    }
+  ]
+}

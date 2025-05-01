@@ -1,0 +1,439 @@
+{
+  "doi": null,
+  "title": "SLURRY COMPOSITIONS AND CMP METHODS USING THE SAME",
+  "year_published": "2005",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "cho_zq5q92_0.00vol%",
+      "experiment_context": "CMP of polysilicon using conventional silica slurry with 0 vol% non-ionic polymeric surfactant (Control). Based on experiment described in paragraphs [0047]-[0050], FIG. 4, and Table 1.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Silica",
+        "abrasive_concentration": {
+          "value": "< 30",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": ">= 7",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "30",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "material": "Polysilicon",
+          "value": "4500",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null,
+        "recess_depth": {
+          "value": "214",
+          "unit": "Å"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "cho_zq5q92_0.02vol%",
+      "experiment_context": "CMP of polysilicon using silica slurry with 0.02 vol% non-ionic polymeric surfactant. Based on experiment described in paragraphs [0047]-[0050], FIG. 4, and Table 1.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Silica",
+        "abrasive_concentration": {
+          "value": "< 30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "EO-PO copolymer/triblock polymer alcohol",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.02",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">= 7",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "30",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "material": "Polysilicon",
+          "value": "2000",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null,
+        "recess_depth": {
+          "value": "18",
+          "unit": "Å"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "cho_zq5q92_0.04vol%",
+      "experiment_context": "CMP of polysilicon using silica slurry with 0.04 vol% non-ionic polymeric surfactant. Based on FIG. 4.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Silica",
+        "abrasive_concentration": {
+          "value": "< 30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "EO-PO copolymer/triblock polymer alcohol",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.04",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">= 7",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "30",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "material": "Polysilicon",
+          "value": "1800",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null,
+        "recess_depth": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "cho_zq5q92_0.06vol%",
+      "experiment_context": "CMP of polysilicon using silica slurry with 0.06 vol% non-ionic polymeric surfactant. Based on FIG. 4.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Silica",
+        "abrasive_concentration": {
+          "value": "< 30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "EO-PO copolymer/triblock polymer alcohol",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.06",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">= 7",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "30",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "material": "Polysilicon",
+          "value": "1500",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null,
+        "recess_depth": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "cho_zq5q92_0.08vol%",
+      "experiment_context": "CMP of polysilicon using silica slurry with 0.08 vol% non-ionic polymeric surfactant. Based on FIG. 4.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Silica",
+        "abrasive_concentration": {
+          "value": "< 30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "EO-PO copolymer/triblock polymer alcohol",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.08",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">= 7",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "30",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "material": "Polysilicon",
+          "value": "1500",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null,
+        "recess_depth": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "cho_zq5q92_0.10vol%",
+      "experiment_context": "CMP of polysilicon using silica slurry with 0.10 vol% non-ionic polymeric surfactant. Based on FIG. 4.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Silica",
+        "abrasive_concentration": {
+          "value": "< 30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "EO-PO copolymer/triblock polymer alcohol",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.10",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">= 7",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "30",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "material": "Polysilicon",
+          "value": "1000",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null,
+        "recess_depth": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "cho_zq5q92_0.12vol%",
+      "experiment_context": "CMP of polysilicon using silica slurry with 0.12 vol% non-ionic polymeric surfactant. Based on FIG. 4.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Silica",
+        "abrasive_concentration": {
+          "value": "< 30",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "EO-PO copolymer/triblock polymer alcohol",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.12",
+              "unit": "vol%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": ">= 7",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "30",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "material": "Polysilicon",
+          "value": "1000",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null,
+        "recess_depth": null
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}
