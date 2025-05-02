@@ -1,0 +1,142 @@
+{
+  "doi": "US5972863",
+  "samples": [
+    {
+      "sample_id": "heo_f5n2nb_polishing_ex1",
+      "experiment_context": "Angle polishing slurry composition described in Example 1 of US Patent 5,972,863, designed to reduce scratching.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent. A pre-existing slurry containing SiO2 and Al2O3 was used as a starting material.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical synthesis parameters not applicable as synthesis was not described.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical synthesis parameters not applicable as synthesis was not described.",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures not applicable as synthesis was not described.",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of the final polishing slurry by mixing a base slurry (containing SiO2 and Al2O3) with NaOH solution and DI water, as described in Example 1.",
+        "composition": {
+          "abrasive": {
+            "material": "Silicon Dioxide",
+            "formula": "SiO2",
+            "concentration": {
+              "initial": "20-21 (in base slurry)",
+              "final": "2.9-3.0 (calculated)",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Aluminum Oxide",
+              "formula": "Al2O3",
+              "type": "Abrasive",
+              "concentration": {
+                "initial": "0.1-0.2 (in base slurry)",
+                "final": "0.014-0.029 (calculated)",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Sodium Hydroxide",
+              "formula": "NaOH",
+              "type": "pH Adjuster",
+              "concentration": {
+                "value": "~0.13 (calculated final)",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "~97 (calculated final)",
+              "unit": "%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Mixing of components described. Apparatus in FIG. 3 suggests stirring to prevent solidification in supply tank, but specific mixing method for Example 1 preparation not detailed.",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": [
+              {
+                "name": "Sodium Hydroxide",
+                "concentration": {
+                  "value": "4 (in initial aqueous solution)",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization details primarily refer to conventional slurry components mentioned in the background (particle size 10-20 nm), not explicitly confirmed for the specific slurry used in Example 1.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "20",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "Stirring mentioned in apparatus description (FIG. 3) to reduce solidification."
+      }
+    }
+  ]
+}

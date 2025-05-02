@@ -1,0 +1,230 @@
+{
+  "doi": "US 7,018,924 B2",
+  "title": "CMP SLURRY COMPOSITIONS FOR OXIDE FILMS AND METHODS FOR FORMING METAL LINE CONTACT PLUGS USING THE SAME",
+  "year_published": "2006",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "PrepEx1",
+      "experiment_context": "CMP using slurry based on Preparation Example 1: Colloidal SiO2 abrasive with HClO4 additive.",
+      "slurry_preparation": {
+        "base_slurry_description": "95 wt% of a base CMP slurry for oxide film",
+        "abrasive_material": "SiO2",
+        "abrasive_type": "colloidal",
+        "abrasive_concentration_in_base": {
+          "value": "20",
+          "unit": "wt%"
+        },
+        "abrasive_grain_size": {
+            "min": "20",
+            "max": "300",
+            "unit": "nm"
+        },
+        "solvent": {
+          "name": "Distilled water or ultra pure water"
+        },
+        "additives": [
+          {
+            "name": "HClO4",
+            "type": "pH control agent/oxidant",
+            "concentration": {
+              "value": "5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "final_ph_range": {
+            "min": "2",
+            "max": "5"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "table_speed": {
+          "value": "600",
+          "unit": "rpm"
+        },
+        "equipment_type": "Orbital",
+        "pad_type": "Hard pad",
+        "polished_materials": [
+          "Silicon layer",
+          "Interlayer insulating film (Oxide)",
+          "Hard mask nitride film"
+        ],
+        "selectivity_nitride_oxide_range": "1:1 to 1:3",
+        "selectivity_polysilicon_oxide": "1:1",
+        "observed_outcome": "Stable plug formed, no step differences, no contamination."
+      }
+    },
+    {
+      "sample_id": "PrepEx2",
+      "experiment_context": "CMP using slurry based on Preparation Example 2: Fumed SiO2 abrasive with HClO4 additive and additional water.",
+      "slurry_preparation": {
+        "base_slurry_description": "90 wt% of a base CMP slurry for oxide film",
+        "abrasive_material": "SiO2",
+        "abrasive_type": "fumed",
+        "abrasive_concentration_in_base": {
+          "value": "15",
+          "unit": "wt%"
+        },
+        "abrasive_grain_size": {
+            "min": "20",
+            "max": "300",
+            "unit": "nm"
+        },
+        "solvent": {
+          "name": "Distilled water",
+          "added_quantity": {
+            "value": "9",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "HClO4",
+            "type": "pH control agent/oxidant",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "final_ph_range": {
+            "min": "2",
+            "max": "5"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "table_speed": {
+          "value": "600",
+          "unit": "rpm"
+        },
+        "equipment_type": "Orbital",
+        "pad_type": "Hard pad",
+        "polished_materials": [
+          "Silicon layer",
+          "Interlayer insulating film (Oxide)",
+          "Hard mask nitride film"
+        ],
+        "selectivity_nitride_oxide_range": "1:1 to 1:3",
+        "selectivity_polysilicon_oxide": "1:1",
+        "observed_outcome": "Stable plug formed, no step differences, no contamination."
+      }
+    },
+    {
+      "sample_id": "PrepEx3",
+      "experiment_context": "CMP using slurry based on Preparation Example 3: Al2O3 abrasive with HBrO3 additive and additional water.",
+      "slurry_preparation": {
+        "base_slurry_description": "80 wt% of a base CMP slurry for oxide film",
+        "abrasive_material": "Al2O3",
+        "abrasive_type": null,
+        "abrasive_concentration_in_base": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "Distilled water",
+          "added_quantity": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "HBrO3",
+            "type": "pH control agent/oxidant",
+            "concentration": {
+              "value": "10",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "final_ph_range": {
+            "min": "2",
+            "max": "5"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "table_speed": {
+          "value": "600",
+          "unit": "rpm"
+        },
+        "equipment_type": "Orbital",
+        "pad_type": "Hard pad",
+        "polished_materials": [
+          "Silicon layer",
+          "Interlayer insulating film (Oxide)",
+          "Hard mask nitride film"
+        ],
+        "selectivity_nitride_oxide_range": "1:1 to 1:3",
+        "selectivity_polysilicon_oxide": "1:1",
+        "observed_outcome": "Stable plug formed, no step differences, no contamination."
+      }
+    },
+    {
+      "sample_id": "PrepEx4",
+      "experiment_context": "CMP using slurry based on Preparation Example 4: CeO2 abrasive with HClO additive and additional water.",
+      "slurry_preparation": {
+        "base_slurry_description": "90 wt% of a base CMP slurry for oxide film",
+        "abrasive_material": "CeO2",
+        "abrasive_type": null,
+        "abrasive_concentration_in_base": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "solvent": {
+          "name": "Distilled water",
+          "added_quantity": {
+            "value": "5",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "HClO",
+            "type": "pH control agent/oxidant",
+            "concentration": {
+              "value": "5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "final_ph_range": {
+            "min": "2",
+            "max": "5"
+        }
+      },
+      "cmp_performance": {
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "table_speed": {
+          "value": "600",
+          "unit": "rpm"
+        },
+        "equipment_type": "Orbital",
+        "pad_type": "Hard pad",
+        "polished_materials": [
+          "Silicon layer",
+          "Interlayer insulating film (Oxide)",
+          "Hard mask nitride film"
+        ],
+        "selectivity_nitride_oxide_range": "1:1 to 1:3",
+        "selectivity_polysilicon_oxide": "1:1",
+        "observed_outcome": "Stable plug formed, no step differences, no contamination."
+      }
+    }
+  ]
+}

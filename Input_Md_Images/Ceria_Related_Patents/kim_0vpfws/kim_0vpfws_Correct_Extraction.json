@@ -1,0 +1,6270 @@
+{
+  "doi": "US 2010/0176335 A1",
+  "title": "CMP SLURRY COMPOSITION FOR COPPER DAMASCENE PROCESS",
+  "year_published": "2010",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "kim_0vpfws_Ex1-1",
+      "experiment_context": "Example 1-1: Colloid Silica A (45nm) with Gluconic Acid at pH 10.9.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica A",
+            "concentration": {
+              "initial": "10",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "45",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10.9",
+              "max": "10.9"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "182",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "408",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "670",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "4.0",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Not observed",
+          "corrosion_polishing": "Not observed",
+          "corrosion_etching": "Not observed",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex1-2",
+      "experiment_context": "Example 1-2: Colloid Silica B (80nm) with Gluconic Acid at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica B",
+            "concentration": {
+              "initial": "10",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "80",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "203",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "670",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "543",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "3.3",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Not observed",
+          "corrosion_polishing": "Not observed",
+          "corrosion_etching": "Not observed",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex1-3",
+      "experiment_context": "Example 1-3: Colloid Silica A (45nm) with NTPA and Citric Acid at pH 9.5.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica A",
+            "concentration": {
+              "initial": "10",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "45",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "NTPA",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Citric Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.5",
+              "max": "9.5"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "309",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1232",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "679",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Not observed",
+          "corrosion_polishing": "Not observed",
+          "corrosion_etching": "Not observed",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex1-4",
+      "experiment_context": "Example 1-4: Fumed Silica (200 m²/g) with Gluconic Acid at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "146",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "497",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "397",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "3.0",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Not observed",
+          "corrosion_polishing": "Not observed",
+          "corrosion_etching": "Not observed",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex1-5",
+      "experiment_context": "Example 1-5: Fumed Silica (200 m²/g) with Monoethanolamine at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Monoethanolamine",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "235",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "441",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "264",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "2.5",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Not observed",
+          "corrosion_polishing": "Not observed",
+          "corrosion_etching": "Not observed",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex1-6",
+      "experiment_context": "Example 1-6: Fumed Silica (200 m²/g) with Morpholin at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Morpholin",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "235",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "464",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "368",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Not observed",
+          "corrosion_polishing": "Not observed",
+          "corrosion_etching": "Not observed",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex1-7",
+      "experiment_context": "Example 1-7: Fumed Silica (200 m²/g) with Taurine at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Taurine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "305",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "724",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "458",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "4.2",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Not observed",
+          "corrosion_polishing": "Not observed",
+          "corrosion_etching": "Not observed",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex1-8",
+      "experiment_context": "Example 1-8: Fumed Silica (200 m²/g) with Adipic Acid at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Adipic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "165",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "555",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "470",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "14",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Not observed",
+          "corrosion_polishing": "Not observed",
+          "corrosion_etching": "Not observed",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex2-1",
+      "experiment_context": "Example 2-1: Fumed Silica (9 wt%, 200 m²/g) with AMP (0.03 wt%) and BTA (0.02 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "9",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "150",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "450",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "300",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "1.5",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex2-2",
+      "experiment_context": "Example 2-2: Fumed Silica (9 wt%, 200 m²/g) with AMP (0.03 wt%), BTA (0.02 wt%), Monoethanolamine (0.03 wt%), and Gluconic Acid (0.1 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "9",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "201",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "503",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "320",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "2.1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex2-3",
+      "experiment_context": "Example 2-3: Fumed Silica (9 wt%, 200 m²/g) with AMP (0.03 wt%), BTA (0.02 wt%), Monoethanolamine (0.03 wt%), and Gluconic Acid (0.4 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "9",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "189",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "601",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "350",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "3.2",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex2-4",
+      "experiment_context": "Example 2-4: Fumed Silica (9 wt%, 200 m²/g) with AMP (0.03 wt%), BTA (0.02 wt%), Monoethanolamine (0.01 wt%), Gluconic Acid (0.4 wt%), and Ammonium Hydroxide (0.03 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "9",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonium Hydroxide",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonium Hydroxide",
+                "concentration": {
+                  "value": "0.03",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "489",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "301",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "350",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "11.2",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex3-1",
+      "experiment_context": "Example 3-1: Colloid Silica (8 wt%, 45nm) with NTPA (0.2 wt%), Citric Acid (0.4 wt%), and MEA (0 wt%) at pH 9.5.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "45",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "NTPA",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Citric Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine (MEA)",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.5",
+              "max": "9.5"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "309",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1232",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "679",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Good",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Bad"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex3-2",
+      "experiment_context": "Example 3-2: Colloid Silica (8 wt%, 45nm) with NTPA (0.2 wt%), Citric Acid (0.4 wt%), and MEA (0.03 wt%) at pH 9.5.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "45",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "NTPA",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Citric Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine (MEA)",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.5",
+              "max": "9.5"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "256",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1156",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "601",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "5",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        },
+        "dishing_erosion_removal": {
+          "wafer_type": "SKW 6-3 pattern wafer",
+          "initial_deposition": "PETEOS (5000 Å trench), Ta/TaN (250 Å/250 Å), Cu Seed (1000 Å), Electroplating Cu (15,000 Å)",
+          "measurement_method": "Alpha step (KLA-Tencor)",
+          "data": [
+            {"pattern_width (Cu/PETEOS)": "100 µm/100 µm", "time (s)": 0, "dishing (Å)": 915},
+            {"pattern_width (Cu/PETEOS)": "100 µm/100 µm", "time (s)": 60, "dishing (Å)": 494},
+            {"pattern_width (Cu/PETEOS)": "100 µm/100 µm", "time (s)": 120, "dishing (Å)": 235},
+            {"pattern_width (Cu/PETEOS)": "100 µm/100 µm", "time (s)": 180, "dishing (Å)": 21},
+            {"pattern_width (Cu/PETEOS)": "50 µm/50 µm", "time (s)": 0, "dishing (Å)": 784},
+            {"pattern_width (Cu/PETEOS)": "50 µm/50 µm", "time (s)": 60, "dishing (Å)": 421},
+            {"pattern_width (Cu/PETEOS)": "50 µm/50 µm", "time (s)": 120, "dishing (Å)": 236},
+            {"pattern_width (Cu/PETEOS)": "50 µm/50 µm", "time (s)": 180, "dishing (Å)": 52},
+            {"pattern_width (Cu/PETEOS)": "10 µm/10 µm", "time (s)": 0, "dishing (Å)": 223},
+            {"pattern_width (Cu/PETEOS)": "10 µm/10 µm", "time (s)": 60, "dishing (Å)": 58},
+            {"pattern_width (Cu/PETEOS)": "10 µm/10 µm", "time (s)": 120, "dishing (Å)": 27},
+            {"pattern_width (Cu/PETEOS)": "10 µm/10 µm", "time (s)": 180, "dishing (Å)": 8},
+            {"pattern_width (Cu/PETEOS)": "50 µm/1 µm", "time (s)": 0, "dishing (Å)": 175},
+            {"pattern_width (Cu/PETEOS)": "50 µm/1 µm", "time (s)": 60, "dishing (Å)": 138},
+            {"pattern_width (Cu/PETEOS)": "50 µm/1 µm", "time (s)": 120, "dishing (Å)": 101},
+            {"pattern_width (Cu/PETEOS)": "50 µm/1 µm", "time (s)": 180, "dishing (Å)": 63}
+          ]
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex3-3",
+      "experiment_context": "Example 3-3: Colloid Silica (8 wt%, 45nm) with NTPA (0.2 wt%), Citric Acid (0.4 wt%), and MEA (0.2 wt%) at pH 9.5.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "45",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "NTPA",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Citric Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine (MEA)",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.5",
+              "max": "9.5"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "213",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1036",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "574",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "11",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex3-4",
+      "experiment_context": "Example 3-4: Colloid Silica (8 wt%, 45nm) with NTPA (0.2 wt%), Citric Acid (0.4 wt%), and MEA (2 wt%) at pH 9.5.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "45",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "NTPA",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Citric Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine (MEA)",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.5",
+              "max": "9.5"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "232",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "242",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "201",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "10",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex4-1",
+      "experiment_context": "Example 4-1: Colloid Silica (10 wt%, 80nm) with Gluconic Acid (0.4 wt%) at pH 3.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "10",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "80",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "10",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "10",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "10",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "10",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": null,
+          "corrosion_polishing": null,
+          "corrosion_etching": null,
+          "particle_adhesion": "Bad"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex4-2",
+      "experiment_context": "Example 4-2: Colloid Silica (10 wt%, 80nm) with Gluconic Acid (0.4 wt%), AMP (0.03 wt%), and MEA (0.1 wt%) at pH 3.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "10",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "80",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine (MEA)",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "10",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "10",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "10",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "10",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": null,
+          "corrosion_polishing": null,
+          "corrosion_etching": null,
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex4-3",
+      "experiment_context": "Example 4-3: Colloid Silica (10 wt%, 80nm) with Gluconic Acid (0.4 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "10",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "80",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "203",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "670",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "543",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "3.3",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": null,
+          "corrosion_polishing": null,
+          "corrosion_etching": null,
+          "particle_adhesion": "Bad"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex4-4",
+      "experiment_context": "Example 4-4: Colloid Silica (10 wt%, 80nm) with Gluconic Acid (0.4 wt%), AMP (0.03 wt%), and MEA (0.1 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "10",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "80",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine (MEA)",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "180",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "580",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "480",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "3.0",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": null,
+          "corrosion_polishing": null,
+          "corrosion_etching": null,
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-1",
+      "experiment_context": "Example 5-1: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Gluconic Acid (0.1 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "180",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "480",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "350",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "2.0",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-2",
+      "experiment_context": "Example 5-2: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Gluconic Acid (0.2 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "160",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "520",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "380",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "2.5",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-3",
+      "experiment_context": "Example 5-3: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Gluconic Acid (0.4 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Gluconic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "stability": [
+          {"time": "Early preparation", "mean_diameter_nm": 92, "pH": 10.0},
+          {"time": "20 days after preparation", "mean_diameter_nm": 92, "pH": 9.97},
+          {"time": "60 days after preparation", "mean_diameter_nm": 93, "pH": 9.99}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "146",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "497",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "397",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "3.0",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-4",
+      "experiment_context": "Example 5-4: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Monoethanolamine (0.03 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "235",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "441",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "264",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "2.5",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-5",
+      "experiment_context": "Example 5-5: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Monoethanolamine (0.1 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Monoethanolamine",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "200",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "400",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "250",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "3.0",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-6",
+      "experiment_context": "Example 5-6: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Adipic Acid (0.4 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Adipic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "stability": [
+          {"time": "Early preparation", "mean_diameter_nm": 93, "pH": 10.0},
+          {"time": "20 days after preparation", "mean_diameter_nm": 92, "pH": 9.99},
+          {"time": "60 days after preparation", "mean_diameter_nm": 94, "pH": 9.98}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "165",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "555",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "470",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "14",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-7",
+      "experiment_context": "Example 5-7: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Adipic Acid (0.8 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Adipic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.8",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "150",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "600",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "500",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "15",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-8",
+      "experiment_context": "Example 5-8: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Taurine (0.1 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Taurine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "280",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "650",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "400",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "3.0",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-9",
+      "experiment_context": "Example 5-9: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Taurine (0.4 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Taurine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "stability": [
+          {"time": "Early preparation", "mean_diameter_nm": 91, "pH": 10.0},
+          {"time": "20 days after preparation", "mean_diameter_nm": 92, "pH": 9.97},
+          {"time": "60 days after preparation", "mean_diameter_nm": 93, "pH": 9.91}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "305",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "724",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "458",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "4.2",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-10",
+      "experiment_context": "Example 5-10: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Taurine (0.8 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Taurine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.8",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "350",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "800",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "500",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "5.0",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-11",
+      "experiment_context": "Example 5-11: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Morpholin (0.1 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Morpholin",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "200",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "400",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "300",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex5-12",
+      "experiment_context": "Example 5-12: Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%) and Morpholin (0.4 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Morpholin",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "stability": [
+          {"time": "Early preparation", "mean_diameter_nm": 91, "pH": 10.0},
+          {"time": "20 days after preparation", "mean_diameter_nm": 92, "pH": 9.96},
+          {"time": "60 days after preparation", "mean_diameter_nm": 94, "pH": 9.98}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "235",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "464",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "368",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "5",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "30",
+          "head": "30",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Excellent",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Excellent",
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex6-1",
+      "experiment_context": "Example 6-1 (Stability Test): Fumed Silica (8 wt%, 200 m²/g) with AMP (0.03 wt%), NTPA (0.2 wt%), and Citric Acid (0.4 wt%) at pH 10.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": {
+              "value": "200",
+              "unit": "m²/g"
+            }
+          },
+          "slurry_additives": [
+             {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "NTPA",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Citric Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.4",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "stability": [
+          {"time": "Early preparation", "mean_diameter_nm": 92, "pH": 10.0},
+          {"time": "20 days after preparation", "mean_diameter_nm": 93, "pH": 9.98},
+          {"time": "60 days after preparation", "mean_diameter_nm": 92, "pH": 9.99}
+        ]
+      },
+      "cmp_performance": {}
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-1",
+      "experiment_context": "Example 8-1: Fumed Silica (8 wt%) with EDTMP (0.1 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+         "stability": [
+          {"time": "Early preparation", "large_particle_count (>=1um)": 1020, "mean_diameter_nm": 147},
+          {"time": "2 months after preparation", "large_particle_count (>=1um)": 971, "mean_diameter_nm": 147}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "812",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "2743",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "777",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {}
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-2",
+      "experiment_context": "Example 8-2: Fumed Silica (8 wt%) with EDTMP (0.1 wt%) and Ammonia (0.05 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia (NH4)",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "2628",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "3000",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "686",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "5",
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {}
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-3",
+      "experiment_context": "Example 8-3: Fumed Silica (8 wt%) with EDTMP (0.1 wt%) and AMP (0.05 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "831",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "2772",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "790",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {}
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-4",
+      "experiment_context": "Example 8-4: Fumed Silica (8 wt%) with EDTMP (0.1 wt%), Ammonia (0.05 wt%), AMP (0.05 wt%), and BTA (0.001 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia (NH3)",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+         "stability": [
+          {"time": "Early preparation", "large_particle_count (>=1um)": 1017, "mean_diameter_nm": 147},
+          {"time": "2 months after preparation", "large_particle_count (>=1um)": 863, "mean_diameter_nm": 147}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "464",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1905",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "772",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Little",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Low",
+          "particle_adhesion": "Excellent"
+        },
+        "dishing_erosion_removal": {
+          "wafer_type": "SKW 6-3 pattern wafer",
+          "measurement_method": "Alpha step (KLA-Tencor)",
+          "data": [
+            {"pattern_width (Cu/PETEOS)": "100 µm/100 µm", "time (s)": 0, "dishing+erosion (Å)": 947},
+            {"pattern_width (Cu/PETEOS)": "100 µm/100 µm", "time (s)": 30, "dishing+erosion (Å)": 737},
+            {"pattern_width (Cu/PETEOS)": "100 µm/100 µm", "time (s)": 60, "dishing+erosion (Å)": 438},
+            {"pattern_width (Cu/PETEOS)": "100 µm/100 µm", "time (s)": 90, "dishing+erosion (Å)": 217},
+            {"pattern_width (Cu/PETEOS)": "100 µm/100 µm", "time (s)": 120, "dishing+erosion (Å)": -319},
+            {"pattern_width (Cu/PETEOS)": "50 µm/50 µm", "time (s)": 0, "dishing+erosion (Å)": 955},
+            {"pattern_width (Cu/PETEOS)": "50 µm/50 µm", "time (s)": 30, "dishing+erosion (Å)": 689},
+            {"pattern_width (Cu/PETEOS)": "50 µm/50 µm", "time (s)": 60, "dishing+erosion (Å)": 357},
+            {"pattern_width (Cu/PETEOS)": "50 µm/50 µm", "time (s)": 90, "dishing+erosion (Å)": 79},
+            {"pattern_width (Cu/PETEOS)": "50 µm/50 µm", "time (s)": 120, "dishing+erosion (Å)": -321},
+            {"pattern_width (Cu/PETEOS)": "10 µm/10 µm", "time (s)": 0, "dishing+erosion (Å)": 159},
+            {"pattern_width (Cu/PETEOS)": "10 µm/10 µm", "time (s)": 30, "dishing+erosion (Å)": 198},
+            {"pattern_width (Cu/PETEOS)": "10 µm/10 µm", "time (s)": 60, "dishing+erosion (Å)": 125},
+            {"pattern_width (Cu/PETEOS)": "10 µm/10 µm", "time (s)": 90, "dishing+erosion (Å)": 64},
+            {"pattern_width (Cu/PETEOS)": "10 µm/10 µm", "time (s)": 120, "dishing+erosion (Å)": -108},
+            {"pattern_width (Cu/PETEOS)": "90 µm/10 µm", "time (s)": 0, "dishing+erosion (Å)": 908},
+            {"pattern_width (Cu/PETEOS)": "90 µm/10 µm", "time (s)": 30, "dishing+erosion (Å)": 430},
+            {"pattern_width (Cu/PETEOS)": "90 µm/10 µm", "time (s)": 60, "dishing+erosion (Å)": 187},
+            {"pattern_width (Cu/PETEOS)": "90 µm/10 µm", "time (s)": 90, "dishing+erosion (Å)": -161},
+            {"pattern_width (Cu/PETEOS)": "90 µm/10 µm", "time (s)": 120, "dishing+erosion (Å)": -343},
+            {"pattern_width (Cu/PETEOS)": "10 µm/90 µm", "time (s)": 0, "dishing+erosion (Å)": 142},
+            {"pattern_width (Cu/PETEOS)": "10 µm/90 µm", "time (s)": 30, "dishing+erosion (Å)": 133},
+            {"pattern_width (Cu/PETEOS)": "10 µm/90 µm", "time (s)": 60, "dishing+erosion (Å)": 79},
+            {"pattern_width (Cu/PETEOS)": "10 µm/90 µm", "time (s)": 90, "dishing+erosion (Å)": 70},
+            {"pattern_width (Cu/PETEOS)": "10 µm/90 µm", "time (s)": 120, "dishing+erosion (Å)": -145}
+          ]
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-5",
+      "experiment_context": "Example 8-5: Fumed Silica (8 wt%) with EDTMP (0.1 wt%), Ammonia (0.05 wt%), AMP (0.05 wt%), and BTA (0.001 wt%) at pH 10.5.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia (NH3)",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "10.5",
+              "max": "10.5"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "391",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1429",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "906",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {}
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-6",
+      "experiment_context": "Example 8-6: Colloid Silica (1 wt%, 70nm) with EDTMP (0.1 wt%), AMP (0.05 wt%), and BTA (0.002 wt%) at pH 9.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "1",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "70",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.002",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": "9"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "164",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "390",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "29",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {}
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-7",
+      "experiment_context": "Example 8-7: Colloid Silica (3 wt%, 70nm) with EDTMP (0.1 wt%), AMP (0.05 wt%), and BTA (0.002 wt%) at pH 9.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "3",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "70",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.002",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": "9"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "208",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "820",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "62",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {}
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-8",
+      "experiment_context": "Example 8-8: Colloid Silica (5 wt%, 70nm) with EDTMP (0.1 wt%), AMP (0.05 wt%), and BTA (0.002 wt%) at pH 9.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "5",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "70",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.002",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": "9"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "240",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1210",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "123",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {}
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-9",
+      "experiment_context": "Example 8-9: Colloid Silica (8 wt%, 70nm) with EDTMP (0.1 wt%), AMP (0.05 wt%), and BTA (0.002 wt%) at pH 9.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloid Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "mean_diameter": {
+              "value": "70",
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.002",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9",
+              "max": "9"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "320",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1467",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "245",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": "<1",
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {}
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex9-1",
+      "experiment_context": "Example 9-1: Fumed Silica (8 wt%), AMP (0.05 wt%), Ammonia (0.05 wt%), BTA (0.001 wt%), and EDTMP (0 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "470",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "2319",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "542",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": null,
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Many",
+          "corrosion_polishing": null,
+          "corrosion_etching": "High",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-10",
+      "experiment_context": "Example 8-10 (Table 9): Fumed Silica (8 wt%), AMP (0.05 wt%), Ammonia (0.05 wt%), BTA (0.001 wt%), and EDTMP (0.5 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.5",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "435",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1369",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "934",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": null,
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Little",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Low",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-11",
+      "experiment_context": "Example 8-11 (Table 9): Fumed Silica (8 wt%), AMP (0.05 wt%), Ammonia (0.05 wt%), BTA (0.001 wt%), and EDTMP (1 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "413",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": "1752",
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "852",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": null,
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": "Little",
+          "corrosion_polishing": null,
+          "corrosion_etching": "Low",
+          "particle_adhesion": null
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-12",
+      "experiment_context": "Example 8-12 (Table 10): Fumed Silica (8 wt%), EDTMP (0.1 wt%), Ammonia (0.05 wt%), BTA (0.001 wt%), and AMP (0.1 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "562",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": null,
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "866",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": null,
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": null,
+          "corrosion_polishing": null,
+          "corrosion_etching": null,
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-13",
+      "experiment_context": "Example 8-13 (Table 10): Fumed Silica (8 wt%), EDTMP (0.1 wt%), Ammonia (0.05 wt%), BTA (0.001 wt%), and AMP (0.3 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "313",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": null,
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "672",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": null,
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": null,
+          "corrosion_polishing": null,
+          "corrosion_etching": null,
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-14",
+      "experiment_context": "Example 8-14 (Table 10): Fumed Silica (8 wt%), EDTMP (0.1 wt%), Ammonia (0.05 wt%), BTA (0.001 wt%), and AMP (0.5 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.5",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "201",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": null,
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "397",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": null,
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": null,
+          "corrosion_polishing": null,
+          "corrosion_etching": null,
+          "particle_adhesion": "Excellent"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-15",
+      "experiment_context": "Example 8-15 (Table 10): Fumed Silica (8 wt%), EDTMP (0.1 wt%), Ammonia (0.05 wt%), BTA (0.001 wt%), and AMP (0.8 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "0.8",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "123",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": null,
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "118",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": null,
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": null,
+          "corrosion_polishing": null,
+          "corrosion_etching": null,
+          "particle_adhesion": "Good"
+        }
+      }
+    },
+    {
+      "sample_id": "kim_0vpfws_Ex8-16",
+      "experiment_context": "Example 8-16 (Table 10): Fumed Silica (8 wt%), EDTMP (0.1 wt%), Ammonia (0.05 wt%), BTA (0.001 wt%), and AMP (1.0 wt%) at pH 9.6.",
+      "abrasive_synthesis": {},
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "concentration": {
+              "initial": "8",
+              "final": null,
+              "unit": "wt%"
+            },
+            "surface_area": null
+          },
+          "slurry_additives": [
+            {
+              "name": "EDTMP",
+              "type": "Organic Phosphoric Acid",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonia",
+              "type": "pH Adjuster / Additive",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "BTA",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "AMP",
+              "type": "Amino Alcohol",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "9.6",
+              "max": "9.6"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": null
+              },
+              {
+                "name": "Ammonia",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "s"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "97",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TaN",
+            "value": null,
+            "unit": "Å/min"
+          },
+          {
+            "material": "PETEOS",
+            "value": "18",
+            "unit": "Å/min"
+          }
+        ],
+        "etching_rate": {
+          "material": "Cu",
+          "value": null,
+          "unit": "Å/min",
+          "duration": {
+            "value": "10",
+            "unit": "min"
+          }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "table_head_speed": {
+          "table": "60",
+          "head": "60",
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Poli500CE (G&P Technology)",
+        "pad_composition": "IC1400 (Rodel Co.)",
+        "wafer_details": [
+          {"material": "Cu", "thickness": "10000 Å", "method": "PVD"},
+          {"material": "TaN", "thickness": "5000 Å"},
+          {"material": "PETEOS", "thickness": "10000 Å"}
+        ],
+        "surface_quality": {
+          "scratches": null,
+          "corrosion_polishing": null,
+          "corrosion_etching": null,
+          "particle_adhesion": "Good"
+        }
+      }
+    }
+  ]
+}

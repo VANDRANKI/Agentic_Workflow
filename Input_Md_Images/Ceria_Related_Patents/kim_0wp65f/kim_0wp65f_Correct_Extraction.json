@@ -1,0 +1,734 @@
+{
+  "doi": "US 2011/0027996 A1",
+  "title": "SLURRY COMPOSITION FOR A CHEMICAL MECHANICAL POLISHING PROCESS, METHOD OF POLISHING AN OBJECT LAYER AND METHOD OF MANUFACTURING A SEMICONDUCTOR MEMORY DEVICE USING THE SLURRY COMPOSITION",
+  "year_published": "2011",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Slurry composition prepared with 0.12 wt% ceria abrasive, 0.0082 wt% ammonium salt of polyacrylic acid (MW 5,000) as first dispersing agent, 0.00025 wt% polyoxyethylene sorbitan monolaurate as second dispersing agent, and 0.5 wt% ammonium salt of polyacrylic acid (MW 250,000) as additive.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.12",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Anionic Surfactant / First Dispersing Agent",
+            "concentration": {
+              "value": "0.0082",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "5000",
+              "unit": ""
+            }
+          },
+          {
+            "name": "Polyoxyethylene sorbitan monolaurate",
+            "type": "Polyoxyethylene-based Nonionic Surfactant / Second Dispersing Agent",
+            "concentration": {
+              "value": "0.00025",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Polymer-based Additive",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "250000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+            "value": "7",
+            "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "120-200",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "large_particle_count": {
+            "value": "85",
+            "unit": "ppm",
+            "condition": "> 2 µm diameter"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_oxide": {
+          "value": "2600",
+          "unit": "Å/min",
+          "material": "Silicon Oxide"
+        },
+        "material_removal_rate_nitride": {
+          "value": "110",
+          "unit": "Å/min",
+          "material": "Silicon Nitride"
+        },
+        "polishing_selectivity_oxide_nitride": {
+            "value": "1:24",
+            "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "back_pressure": {
+            "value": "1.5",
+            "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "103",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "97",
+            "unit": "rpm"
+        },
+        "equipment_model": "Reflextion (AMAT)",
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Slurry composition prepared with 0.12 wt% ceria abrasive, 0.0082 wt% ammonium salt of polyacrylic acid (MW 5,000) as first dispersing agent, 0.0005 wt% polyoxyethylene sorbitan monolaurate as second dispersing agent, and 0.5 wt% ammonium salt of polyacrylic acid (MW 250,000) as additive.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.12",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Anionic Surfactant / First Dispersing Agent",
+            "concentration": {
+              "value": "0.0082",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "5000",
+              "unit": ""
+            }
+          },
+          {
+            "name": "Polyoxyethylene sorbitan monolaurate",
+            "type": "Polyoxyethylene-based Nonionic Surfactant / Second Dispersing Agent",
+            "concentration": {
+              "value": "0.0005",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Polymer-based Additive",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "250000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+            "value": "7",
+            "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "120-200",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+         "large_particle_count": {
+            "value": "70",
+            "unit": "ppm",
+            "condition": "> 2 µm diameter"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_oxide": {
+          "value": "2200",
+          "unit": "Å/min",
+          "material": "Silicon Oxide"
+        },
+        "material_removal_rate_nitride": {
+          "value": "85",
+          "unit": "Å/min",
+          "material": "Silicon Nitride"
+        },
+        "polishing_selectivity_oxide_nitride": {
+            "value": "1:26",
+            "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+         "back_pressure": {
+            "value": "1.5",
+            "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "103",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "97",
+            "unit": "rpm"
+        },
+        "equipment_model": "Reflextion (AMAT)",
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Slurry composition prepared with 0.12 wt% ceria abrasive, 0.0082 wt% ammonium salt of polyacrylic acid (MW 5,000) as first dispersing agent, 0.001 wt% polyoxyethylene sorbitan monolaurate as second dispersing agent, and 0.5 wt% ammonium salt of polyacrylic acid (MW 250,000) as additive.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.12",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Anionic Surfactant / First Dispersing Agent",
+            "concentration": {
+              "value": "0.0082",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "5000",
+              "unit": ""
+            }
+          },
+          {
+            "name": "Polyoxyethylene sorbitan monolaurate",
+            "type": "Polyoxyethylene-based Nonionic Surfactant / Second Dispersing Agent",
+            "concentration": {
+              "value": "0.001",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Polymer-based Additive",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "250000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+            "value": "7",
+            "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "120-200",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+         "large_particle_count": {
+            "value": "55",
+            "unit": "ppm",
+            "condition": "> 2 µm diameter"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_oxide": {
+          "value": "2400",
+          "unit": "Å/min",
+          "material": "Silicon Oxide"
+        },
+        "material_removal_rate_nitride": {
+          "value": "90",
+          "unit": "Å/min",
+          "material": "Silicon Nitride"
+        },
+         "polishing_selectivity_oxide_nitride": {
+            "value": "1:27",
+            "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+         "back_pressure": {
+            "value": "1.5",
+            "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "103",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "97",
+            "unit": "rpm"
+        },
+        "equipment_model": "Reflextion (AMAT)",
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Slurry composition prepared with 0.12 wt% ceria abrasive, 0.0125 wt% ammonium salt of polyacrylic acid (MW 5,000) as first dispersing agent, 0.00025 wt% polyoxyethylene sorbitan monolaurate as second dispersing agent, and 0.5 wt% ammonium salt of polyacrylic acid (MW 250,000) as additive.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.12",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Anionic Surfactant / First Dispersing Agent",
+            "concentration": {
+              "value": "0.0125",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "5000",
+              "unit": ""
+            }
+          },
+          {
+            "name": "Polyoxyethylene sorbitan monolaurate",
+            "type": "Polyoxyethylene-based Nonionic Surfactant / Second Dispersing Agent",
+            "concentration": {
+              "value": "0.00025",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Polymer-based Additive",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "250000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+            "value": "7",
+            "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "120-200",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+         "large_particle_count": {
+            "value": "95",
+            "unit": "ppm",
+            "condition": "> 2 µm diameter"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_oxide": {
+          "value": "3000",
+          "unit": "Å/min",
+          "material": "Silicon Oxide"
+        },
+        "material_removal_rate_nitride": {
+          "value": "110",
+          "unit": "Å/min",
+          "material": "Silicon Nitride"
+        },
+         "polishing_selectivity_oxide_nitride": {
+            "value": "1:27",
+            "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+         "back_pressure": {
+            "value": "1.5",
+            "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "103",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "97",
+            "unit": "rpm"
+        },
+        "equipment_model": "Reflextion (AMAT)",
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+     {
+      "sample_id": "Example_5",
+      "experiment_context": "Slurry composition prepared with 0.12 wt% ceria abrasive, 0.0125 wt% ammonium salt of polyacrylic acid (MW 5,000) as first dispersing agent, 0.0005 wt% polyoxyethylene sorbitan monolaurate as second dispersing agent, and 0.5 wt% ammonium salt of polyacrylic acid (MW 250,000) as additive.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.12",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Anionic Surfactant / First Dispersing Agent",
+            "concentration": {
+              "value": "0.0125",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "5000",
+              "unit": ""
+            }
+          },
+          {
+            "name": "Polyoxyethylene sorbitan monolaurate",
+            "type": "Polyoxyethylene-based Nonionic Surfactant / Second Dispersing Agent",
+            "concentration": {
+              "value": "0.0005",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Polymer-based Additive",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "250000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+            "value": "7",
+            "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "120-200",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+         "large_particle_count": {
+            "value": "58",
+            "unit": "ppm",
+            "condition": "> 2 µm diameter"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_oxide": {
+          "value": "2500",
+          "unit": "Å/min",
+          "material": "Silicon Oxide"
+        },
+        "material_removal_rate_nitride": {
+          "value": "90",
+          "unit": "Å/min",
+          "material": "Silicon Nitride"
+        },
+         "polishing_selectivity_oxide_nitride": {
+            "value": "1:28",
+            "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+         "back_pressure": {
+            "value": "1.5",
+            "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "103",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "97",
+            "unit": "rpm"
+        },
+        "equipment_model": "Reflextion (AMAT)",
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+     {
+      "sample_id": "Example_6",
+      "experiment_context": "Slurry composition prepared with 0.12 wt% ceria abrasive, 0.0125 wt% ammonium salt of polyacrylic acid (MW 5,000) as first dispersing agent, 0.001 wt% polyoxyethylene sorbitan monolaurate as second dispersing agent, and 0.5 wt% ammonium salt of polyacrylic acid (MW 250,000) as additive.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.12",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Anionic Surfactant / First Dispersing Agent",
+            "concentration": {
+              "value": "0.0125",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "5000",
+              "unit": ""
+            }
+          },
+          {
+            "name": "Polyoxyethylene sorbitan monolaurate",
+            "type": "Polyoxyethylene-based Nonionic Surfactant / Second Dispersing Agent",
+            "concentration": {
+              "value": "0.001",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Ammonium salt of polyacrylic acid",
+            "type": "Polymer-based Additive",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "250000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+            "value": "7",
+            "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "120-200",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+         "large_particle_count": {
+            "value": "50",
+            "unit": "ppm",
+            "condition": "> 2 µm diameter"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_oxide": {
+          "value": "2600",
+          "unit": "Å/min",
+          "material": "Silicon Oxide"
+        },
+        "material_removal_rate_nitride": {
+          "value": "95",
+          "unit": "Å/min",
+          "material": "Silicon Nitride"
+        },
+         "polishing_selectivity_oxide_nitride": {
+            "value": "1:27",
+            "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+         "back_pressure": {
+            "value": "1.5",
+            "unit": "psi"
+        },
+        "platen_speed": {
+            "value": "103",
+            "unit": "rpm"
+        },
+        "head_speed": {
+            "value": "97",
+            "unit": "rpm"
+        },
+        "equipment_model": "Reflextion (AMAT)",
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

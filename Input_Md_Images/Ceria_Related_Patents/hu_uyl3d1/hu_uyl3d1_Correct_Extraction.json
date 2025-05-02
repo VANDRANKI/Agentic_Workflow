@@ -1,0 +1,426 @@
+{
+  "doi": "US 2003/0052308 A1",
+  "title": "SLURRY COMPOSITION OF CHEMICAL MECHANICAL POLISHING",
+  "year_published": "2003",
+  "source_type": "Patent",
+  "samples": [
+    {
+      "sample_id": "US20030052308A1_Embodiment1_DirectOzone",
+      "experiment_context": "CMP slurry using direct injection of dissolved ozone into a mixture of abrasive, water, and additive(s). Based on Embodiment 1 described in patent US 2003/0052308 A1.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent. Patent focuses on slurry composition using pre-existing abrasives.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by directly injecting dissolved ozone into a mixture containing abrasive, water, and additives.",
+        "composition": {
+          "abrasive": {
+            "material": "Alumina (preferred), Silica, Ceria, Titania, Zirconia, Germania, or mixture",
+            "concentration": {
+              "initial": null,
+              "final": "1.5-6",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ozone",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "0.1-200",
+                "unit": "PPM"
+              }
+            },
+            {
+              "name": "Benzotriazole (BTA) (preferred), Imidazole, Benzimidazole, Benzothiazole, Urea, or mixture",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.01-2",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Tartaric acid (preferred), Citric acid, Lactic acid, Malonic acid, Succinic acid, Acetic acid, Oxalic acid, Amino acid, Amino sulfuric acid, Phosphoric acid, Phosphonic acid, etc.",
+              "type": "Complexing Agent",
+              "concentration": {
+                "value": "0.2-5",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Dodecyl sulfate sodium salt, Sodium lauryl sulfate, Dodecyl sulfate ammonium salt, or mixture",
+              "type": "Surfactant/Stabilizer/Dispersing Agent",
+              "concentration": {
+                "value": "0.001-2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": "pH controlled using metal-ion free agents.",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "1",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "Ammonium hydroxide",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Amine",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Nitric acid",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Phosphoric acid",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Sulfuric acid",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Organic acid",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry/abrasive characterization details not provided in the patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": null,
+              "max": null,
+              "unit": null
+            }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance metrics (e.g., MRR) not provided in the patent.",
+        "polishing_time": {
+          "value": null,
+          "unit": null
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": null
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "US20030052308A1_Embodiment2_OzoneSolution",
+      "experiment_context": "CMP slurry prepared by mixing an ozone solution (dissolved ozone in deionized water) with abrasive, water, and additive(s). Based on Embodiment 2 described in patent US 2003/0052308 A1.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent. Patent focuses on slurry composition using pre-existing abrasives.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing an ozone solution (ozone dissolved in DI water) with a mixture containing abrasive, water, and additives.",
+        "composition": {
+          "abrasive": {
+            "material": "Alumina (preferred), Silica, Ceria, Titania, Zirconia, Germania, or mixture",
+            "concentration": {
+              "initial": null,
+              "final": "1.5-6",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ozone (from solution)",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "0.1-200",
+                "unit": "PPM"
+              }
+            },
+            {
+              "name": "Benzotriazole (BTA) (preferred), Imidazole, Benzimidazole, Benzothiazole, Urea, or mixture",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": "0.01-2",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Tartaric acid (preferred), Citric acid, Lactic acid, Malonic acid, Succinic acid, Acetic acid, Oxalic acid, Amino acid, Amino sulfuric acid, Phosphoric acid, Phosphonic acid, etc.",
+              "type": "Complexing Agent",
+              "concentration": {
+                "value": "0.2-5",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Dodecyl sulfate sodium salt, Sodium lauryl sulfate, Dodecyl sulfate ammonium salt, or mixture",
+              "type": "Surfactant/Stabilizer/Dispersing Agent",
+              "concentration": {
+                "value": "0.001-2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": "pH controlled using metal-ion free agents.",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "1",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "Ammonium hydroxide",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Amine",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Nitric acid",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Phosphoric acid",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Sulfuric acid",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "name": "Organic acid",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry/abrasive characterization details not provided in the patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": null,
+              "max": null,
+              "unit": null
+            }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "CMP performance metrics (e.g., MRR) not provided in the patent.",
+        "polishing_time": {
+          "value": null,
+          "unit": null
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": null
+        },
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    }
+  ]
+}

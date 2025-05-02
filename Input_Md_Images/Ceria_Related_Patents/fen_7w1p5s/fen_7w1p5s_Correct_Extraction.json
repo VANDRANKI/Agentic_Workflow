@@ -1,0 +1,3507 @@
+{
+  "doi": "US 2005/0003744 A1",
+  "title": "SYNTHESIS OF CHEMICALLY REACTIVE CERIA COMPOSITE NANOPARTICLES AND CMP APPLICATIONS THEREOF",
+  "year_published": "2005",
+  "journal": "Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Ti_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Ti at a 4:1 Ce:Ti molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Ti",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "15",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "697",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "76",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "4",
+        "guest_metal_ionic_radius": {
+          "value": "0.68",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "430.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Ta_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Ta at a 4:1 Ce:Ta molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Ta",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "8.42",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "102",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "5.66",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "5",
+        "guest_metal_ionic_radius": {
+          "value": "0.70",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "400.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Y_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Y at a 4:1 Ce:Y molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Y",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "9.47",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "2100",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "151.38",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.93",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "383.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Mn_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Mn at a 4:1 Ce:Mn molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Mn",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "11",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "186",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "36.81",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "4",
+        "guest_metal_ionic_radius": {
+          "value": "0.54",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "353.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "In_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with In at a 4:1 Ce:In molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "In",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "12",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "2631",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "-16.68",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.81",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "318.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Sb_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Sb at a 4:1 Ce:Sb molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Sb",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6.3",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "121",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "14.34",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.90",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "242.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Cd_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Cd at a 4:1 Ce:Cd molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Cd",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6.32",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "268.1",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "9.92",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "2",
+        "guest_metal_ionic_radius": {
+          "value": "0.97",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "216.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Zn_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Zn at a 4:1 Ce:Zn molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Zn",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "4",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "287",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "88.42",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "2",
+        "guest_metal_ionic_radius": {
+          "value": "0.74",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "169.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Cu_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Cu at a 4:1 Ce:Cu molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Cu",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "7.4",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "142",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "23.56",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "2",
+        "guest_metal_ionic_radius": {
+          "value": "0.72",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "168.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Fe_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Fe at a 4:1 Ce:Fe molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Fe",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "10",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "284",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "-16.68",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.64",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "160.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Sn_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Sn at a 4:1 Ce:Sn molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Sn",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "15.7",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "53.2",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "38.5",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "4",
+        "guest_metal_ionic_radius": {
+          "value": "0.71",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "148.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Si_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Si at a 4:1 Ce:Si molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Si",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6.32",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "2175",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "82.7",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "4",
+        "guest_metal_ionic_radius": {
+          "value": "0.41",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "128.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Se_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Se at a 4:1 Ce:Se molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Se",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "26.4",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "133",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "32.09",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "4",
+        "guest_metal_ionic_radius": {
+          "value": "0.69",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "41.8",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Ni_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Ni at a 4:1 Ce:Ni molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Ni",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "7.69",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "895",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "79.03",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "2",
+        "guest_metal_ionic_radius": {
+          "value": "0.72",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "30.2",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "W_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with W at a 4:1 Ce:W molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "W",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "4.21",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "496",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "-44.01",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "6",
+        "guest_metal_ionic_radius": {
+          "value": "0.65",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "29.9",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Co_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Co at a 4:1 Ce:Co molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Co",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "12.5",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "113",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "34.8",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.63",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "26.6",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Sr_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Sr at a 4:1 Ce:Sr molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Sr",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6.31",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "91",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "3.95",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "2",
+        "guest_metal_ionic_radius": {
+          "value": "1.13",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "19.3",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Mg_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Mg at a 4:1 Ce:Mg molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Mg",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6.32",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "148",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "23.15",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "2",
+        "guest_metal_ionic_radius": {
+          "value": "0.65",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "18.4",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Cr_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Cr at a 4:1 Ce:Cr molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Cr",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "13",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "125",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "3.34",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.64",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "8.92",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "La_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with La at a 4:1 Ce:La molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "La",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6.32",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "884",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "57.27",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "1.06",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "8.87",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Pr_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Pr at a 4:1 Ce:Pr molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Pr",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "7.78",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "178",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "34.58",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "4",
+        "guest_metal_ionic_radius": {
+          "value": "0.90",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "6.41",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Nd_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Nd at a 4:1 Ce:Nd molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Nd",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6.3",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "212",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "27.95",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "1.00",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "5.5",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Ba_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Ba at a 4:1 Ce:Ba molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Ba",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "7",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "139",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "9.28",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "2",
+        "guest_metal_ionic_radius": {
+          "value": "1.35",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "3.96",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Al_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Al at a 4:1 Ce:Al molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Al",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "9",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "2174",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "278.43",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.50",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "2.14",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Tl_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Tl at a 4:1 Ce:Tl molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Tl",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6.3",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "115",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "25.86",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.95",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.344",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Nb_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Nb at a 4:1 Ce:Nb molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Nb",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "8.5",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "58",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "-17.38",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "4",
+        "guest_metal_ionic_radius": {
+          "value": "0.74",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.0382",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Ca_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Ca at a 4:1 Ce:Ca molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Ca",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6.5",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "134",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "7.89",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "2",
+        "guest_metal_ionic_radius": {
+          "value": "0.99",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Zr_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Zr at a 4:1 Ce:Zr molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Zr",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "8.42",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "1216",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "138.92",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "4",
+        "guest_metal_ionic_radius": {
+          "value": "0.79",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Sm_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Sm at a 4:1 Ce:Sm molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Sm",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "7.78",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "165",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "29.33",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.96",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Gd_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Gd at a 4:1 Ce:Gd molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Gd",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "352",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "34.9",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.94",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Eu_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Eu at a 4:1 Ce:Eu molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Eu",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "5.26",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "269",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "39.36",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.95",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Hf_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Hf at a 4:1 Ce:Hf molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Hf",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "5.26",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "127",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "30.1",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "4",
+        "guest_metal_ionic_radius": {
+          "value": "0.78",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "Bi_4:1",
+      "experiment_context": "Ceria composite nanoparticle doped with Bi at a 4:1 Ce:Bi molar ratio, synthesized hydrothermally.",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": "Bi",
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": "4:1",
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "5",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "191",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "42.47",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": "3",
+        "guest_metal_ionic_radius": {
+          "value": "0.96",
+          "unit": "Å"
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    },
+    {
+      "sample_id": "PureCeO2",
+      "experiment_context": "Pure ceria nanoparticle synthesized hydrothermally (comparative example).",
+      "precursor_chemical_cerium": "Ce(NH4)2(NO3)6",
+      "guest_precursor_chemical": null,
+      "precipitant_type": "KOH",
+      "molar_ratio_ce_guest": null,
+      "molar_ratio_precursor_precipitant": "1:2.3",
+      "reaction_temperature": {
+        "value": "300",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "mixing_method": "Controlled double jet injection",
+        "stirring": "Continuous agitation",
+        "ultrasonication_duration_minutes": 15,
+        "environment": "Sealed stainless steel vessel"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "DI water washing and settling",
+          "conductivity_threshold": {
+            "value": "<0.07",
+            "unit": "mS"
+          }
+        },
+        "filtration": {
+          "method": "12-micron filter"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.0",
+        "ph_adjuster": "HNO3",
+        "solvent": {
+          "name": "DI water"
+        }
+      },
+      "characterization": {
+        "primary_particle_size": {
+          "value": "6",
+          "unit": "nm"
+        },
+        "secondary_particle_size": {
+          "value": "27",
+          "unit": "nm",
+          "measurement_method_used": "Light Scattering (Horiba LA-910)"
+        },
+        "zeta_potential": {
+          "value": "29.13",
+          "unit": "mV",
+          "conditions": "pH 4"
+        },
+        "guest_metal_oxidation_state": null,
+        "guest_metal_ionic_radius": null
+      },
+      "cmp_performance": {
+        "polishing_target": "PECVD TEOS silicon dioxide",
+        "material_removal_rate": {
+          "value": "0.314",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "25",
+          "unit": "°C"
+        },
+        "polishing_pressure": {
+          "value": "3.5",
+          "unit": "psi"
+        },
+        "back_pressure": {
+          "value": "0",
+          "unit": "psi"
+        },
+        "rotation_speed": {
+          "carrier": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "pad": {
+            "value": "87",
+            "unit": "rpm"
+          }
+        },
+        "slurry_flow_rate": {
+          "value": "150",
+          "unit": "ml/min"
+        },
+        "equipment_model": "Westech 372 polisher",
+        "pad_composition": "IC-1000/Suba-IV"
+      }
+    }
+  ]
+}

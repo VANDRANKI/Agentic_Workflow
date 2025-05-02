@@ -1,0 +1,316 @@
+{
+  "doi": "US7271088B2",
+  "title": "SLURRY COMPOSITION WITH HIGH PLANARITY AND CMP PROCESS OF DIELECTRIC FILM USING THE SAME",
+  "year_published": "2007",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "Ex1_FumedSilica_Carbopol940",
+      "experiment_context": "CMP of ILD using a slurry based on 20 wt.% fumed silica (20-300 nm), 1.0 wt.% CARBOPOL 940 (MW 4e6), and 79 wt.% DI water, pH 6.5.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Fumed Silica",
+            "formula": "SiO₂",
+            "source_product": "Hitachi HS-8005-HX (example)",
+            "base_slurry_concentration": {
+              "value": 20,
+              "unit": "wt.%"
+            },
+            "particle_size_range": {
+              "min": 20,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "CARBOPOL 940",
+              "type": "Anionic Polymeric Carbon Compound",
+              "molecular_weight": {
+                "value": 4000000,
+                "unit": ""
+              },
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": 79,
+              "unit": "wt.%"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 6.5,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Interlayer Dielectric Film",
+        "initial_step_height": {
+          "value": 10000,
+          "unit": "Å"
+        },
+        "final_step_height": {
+          "value": 200,
+          "unit": "Å"
+        },
+        "degree_of_planarity": {
+          "value": 0.98,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 6,
+          "unit": "psi"
+        },
+        "table_speed": {
+          "value": 80,
+          "unit": "rpm"
+        },
+        "equipment_model": "Rotary Type CMP",
+        "pad_composition": "Hard Pad"
+      }
+    },
+    {
+      "sample_id": "Ex2_ColloidalSilica_Carbopol941",
+      "experiment_context": "CMP of ILD using a slurry based on 30 wt.% colloidal silica (20-300 nm), 0.5 wt.% CARBOPOL 941 (MW 1.25e6), and 69.5 wt.% DI water, pH 5.5.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "formula": "SiO₂",
+            "source_product": "Bayer LEVASIL 50CK/30%VI (example)",
+            "base_slurry_concentration": {
+              "value": 30,
+              "unit": "wt.%"
+            },
+            "particle_size_range": {
+              "min": 20,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "CARBOPOL 941",
+              "type": "Anionic Polymeric Carbon Compound",
+              "molecular_weight": {
+                "value": 1250000,
+                "unit": ""
+              },
+              "concentration": {
+                "value": 0.5,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": 69.5,
+              "unit": "wt.%"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 5.5,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Interlayer Dielectric Film",
+        "initial_step_height": {
+          "value": 10000,
+          "unit": "Å"
+        },
+        "final_step_height": {
+          "value": 500,
+          "unit": "Å"
+        },
+        "degree_of_planarity": {
+          "value": 0.95,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 6,
+          "unit": "psi"
+        },
+        "table_speed": {
+          "value": 80,
+          "unit": "rpm"
+        },
+        "equipment_model": "Rotary Type CMP",
+        "pad_composition": "Hard Pad"
+      }
+    },
+    {
+      "sample_id": "Ex3_Alumina_Carbopol940",
+      "experiment_context": "CMP of ILD using a slurry based on 50 wt.% Alumina (20-300 nm), 2 wt.% CARBOPOL 940 (MW 4e6), and 48 wt.% DI water, pH 7.5.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Alumina",
+            "formula": "Al₂O₃",
+            "source_product": "Cabot SS-25 (example)",
+            "base_slurry_concentration": {
+              "value": 50,
+              "unit": "wt.%"
+            },
+            "particle_size_range": {
+              "min": 20,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "CARBOPOL 940",
+              "type": "Anionic Polymeric Carbon Compound",
+              "molecular_weight": {
+                "value": 4000000,
+                "unit": ""
+              },
+              "concentration": {
+                "value": 2.0,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": 48,
+              "unit": "wt.%"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 7.5,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Interlayer Dielectric Film",
+        "initial_step_height": {
+          "value": 15000,
+          "unit": "Å"
+        },
+        "final_step_height": {
+          "value": 1000,
+          "unit": "Å"
+        },
+        "degree_of_planarity": {
+          "value": 0.93,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "table_speed": {
+          "value": 80,
+          "unit": "rpm"
+        },
+        "equipment_model": "Rotary Type CMP",
+        "pad_composition": "Hard Pad"
+      }
+    },
+    {
+      "sample_id": "Ex4_Ceria_Carbopol941",
+      "experiment_context": "CMP of ILD using a slurry based on 20 wt.% Ceria (20-300 nm), 1.0 wt.% CARBOPOL 941 (MW 1.25e6), and 79 wt.% DI water, pH 6.0.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria",
+            "formula": "CeO₂",
+            "source_product": "Showa-Denko GPL-C S212 (example)",
+            "base_slurry_concentration": {
+              "value": 20,
+              "unit": "wt.%"
+            },
+            "particle_size_range": {
+              "min": 20,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "CARBOPOL 941",
+              "type": "Anionic Polymeric Carbon Compound",
+              "molecular_weight": {
+                "value": 1250000,
+                "unit": ""
+              },
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": 79,
+              "unit": "wt.%"
+            }
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": 6.0,
+              "unit": "pH"
+            },
+            "agents": []
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Interlayer Dielectric Film",
+        "initial_step_height": {
+          "value": 15000,
+          "unit": "Å"
+        },
+        "final_step_height": {
+          "value": 800,
+          "unit": "Å"
+        },
+        "degree_of_planarity": {
+          "value": 0.95,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 3,
+          "unit": "psi"
+        },
+        "table_speed": {
+          "value": 80,
+          "unit": "rpm"
+        },
+        "equipment_model": "Rotary Type CMP",
+        "pad_composition": "Hard Pad"
+      }
+    }
+  ]
+}

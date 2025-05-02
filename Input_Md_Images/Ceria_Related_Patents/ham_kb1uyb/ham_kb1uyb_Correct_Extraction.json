@@ -1,0 +1,1593 @@
+{
+  "patent_id": "US 2023/0125516 A1",
+  "title": "METHOD FOR PRODUCING SURFACE-TREATED SILICA POWDER, RESIN COMPOSITION, AND SLURRY",
+  "year_published": 2023,
+  "source": "US Patent Application Publication",
+  "base_silica_details": {
+    "reference": "Production Example 1",
+    "raw_material": "Octamethylcyclotetrasiloxane",
+    "production_method": "Dry method (Combustion)",
+    "characterization": {
+      "particle_size_distribution_centrifugal": {
+        "d50": {
+          "value": 384,
+          "unit": "nm"
+        },
+        "d90": {
+          "value": 512,
+          "unit": "nm"
+        },
+        "span_d90_d50": {
+          "value": 33,
+          "unit": "%"
+        },
+        "geometric_standard_deviation": {
+          "value": 1.29
+        },
+        "measurement_method": "Centrifugal Sedimentation (1.5 wt% in water, 20W/15min ultrasonic)"
+      },
+      "bet_specific_surface_area": {
+        "value": 8.7,
+        "unit": "m2/g"
+      },
+      "loose_bulk_density": {
+        "value": 300,
+        "unit": "kg/m3"
+      },
+      "packed_bulk_density": {
+        "value": 546,
+        "unit": "kg/m3"
+      },
+      "particle_morphology": "Spherical",
+      "absorbance_tau700": {
+        "value": 0.41
+      },
+      "elemental_impurities": {
+        "Fe": "<1 ppm",
+        "Ni": "<1 ppm",
+        "Cr": "<1 ppm",
+        "Al": "<1 ppm"
+      },
+      "ionic_impurities": {
+        "Na+": "<1 ppm",
+        "K+": "<1 ppm",
+        "Cl-": "<1 ppm"
+      }
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Dry surface treatment of base silica (Prod. Ex. 1) with phenyltrimethoxysilane.",
+      "surface_treatment": {
+        "base_silica_ref": "Production Example 1",
+        "treatment_method": "Dry",
+        "treatment_agent": {
+          "name": "phenyltrimethoxysilane",
+          "source": "KBM-103, Shin-Etsu Silicones",
+          "quantity_relative_to_base": {
+            "value": 25,
+            "unit": "µmol/g"
+          },
+          "quantity_mass_input": {
+            "value": 14.70,
+            "unit": "g",
+            "base_silica_mass": {
+              "value": 2.97,
+              "unit": "kg"
+            }
+          }
+        },
+        "process_details": {
+          "apparatus": "Rocking mixer (RM-30, Aichi Electric Co., Ltd.)",
+          "agent_feed_rate": {
+            "value": 2,
+            "unit": "mL/min"
+          },
+          "temperature_profile": "Heat RT to 40C (20min), hold 40C (60min), heat to 150C (60min), hold 150C (180min)",
+          "atmosphere": "Not specified"
+        }
+      },
+      "characterization": {
+        "bet_specific_surface_area": {
+          "value": 9.0,
+          "unit": "m2/g"
+        },
+        "particle_size_distribution_laser": {
+          "d50": {
+            "value": 359,
+            "unit": "nm"
+          },
+          "d90": {
+            "value": 465,
+            "unit": "nm"
+          },
+          "span_d90_d50": {
+            "value": 29.4,
+            "unit": "%"
+          },
+          "geometric_standard_deviation": {
+            "value": 1.23
+          },
+          "coarse_particles_over_5um": "Not detected",
+          "measurement_method": "Laser Diffraction Scattering (Ethanol dispersion, 0.1g/40mL, 40W/10min ultrasonic)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_carbon_amount": {
+          "value": 0.176,
+          "unit": "wt%"
+        },
+        "elemental_impurities": {
+          "Fe": "<1 ppm",
+          "Ni": "<1 ppm",
+          "Cr": "<1 ppm",
+          "Al": "<1 ppm"
+        },
+        "ionic_impurities": {
+          "Na+": "<1 ppm",
+          "K+": "<1 ppm",
+          "Cl-": "<1 ppm"
+        }
+      },
+      "resin_evaluation": [
+        {
+          "resin_matrix": {
+            "type": "Epoxy (Bisphenol A/F type)",
+            "details": "ZX-1059 (NIPPON STEEL CHEMICAL & MATERIAL)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 38.2,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 45.0,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 17.8,
+                  "unit": "%"
+                }
+              },
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 110,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 1.7,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 1.4,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": -17.6,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "No significant flow marks"
+            }
+          }
+        },
+        {
+          "resin_matrix": {
+            "type": "Thermosetting Epoxy (Bisphenol F type + Amine hardener)",
+            "details": "YDF-8170C (NIPPON STEEL) + KARAHARD A-A (Nippon Kayaku)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 24.9,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 2105.6,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "day"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 8356.2,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "No significant flow marks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Dry surface treatment of base silica (Prod. Ex. 1) with hexamethyldisilazane.",
+      "surface_treatment": {
+        "base_silica_ref": "Production Example 1",
+        "treatment_method": "Dry",
+        "treatment_agent": {
+          "name": "hexamethyldisilazane",
+          "source": "SZ-31, Shin-Etsu Silicones",
+          "quantity_relative_to_base": {
+            "value": 46.5,
+            "unit": "µmol/g"
+          },
+          "quantity_mass_input": {
+            "value": 16.76,
+            "unit": "g",
+            "base_silica_mass": {
+              "value": 2.24,
+              "unit": "kg"
+            }
+          }
+        },
+        "process_details": {
+          "apparatus": "Rocking mixer (RM-30, Aichi Electric Co., Ltd.)",
+          "agent_feed_rate": {
+            "value": 2.5,
+            "unit": "mL/min"
+          },
+          "temperature_profile": "Heat RT to 150C (60min), hold 150C (120min)",
+          "atmosphere": "Not specified"
+        }
+      },
+      "characterization": {
+        "bet_specific_surface_area": {
+          "value": 7.4,
+          "unit": "m2/g"
+        },
+        "particle_size_distribution_laser": {
+          "d50": {
+            "value": 357,
+            "unit": "nm"
+          },
+          "d90": {
+            "value": 458,
+            "unit": "nm"
+          },
+          "span_d90_d50": {
+            "value": 28.3,
+            "unit": "%"
+          },
+          "geometric_standard_deviation": {
+            "value": 1.22
+          },
+          "coarse_particles_over_5um": "Not detected",
+          "measurement_method": "Laser Diffraction Scattering (Ethanol dispersion, 0.1g/40mL, 40W/10min ultrasonic)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_carbon_amount": {
+          "value": 0.110,
+          "unit": "wt%"
+        },
+        "elemental_impurities": {
+          "Fe": "<1 ppm",
+          "Ni": "<1 ppm",
+          "Cr": "<1 ppm",
+          "Al": "<1 ppm"
+        },
+        "ionic_impurities": {
+          "Na+": "<1 ppm",
+          "K+": "<1 ppm",
+          "Cl-": "<1 ppm"
+        }
+      },
+      "resin_evaluation": [
+        {
+          "resin_matrix": {
+            "type": "Epoxy (Bisphenol A/F type)",
+            "details": "ZX-1059 (NIPPON STEEL CHEMICAL & MATERIAL)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 503.1,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 547.8,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 8.9,
+                  "unit": "%"
+                }
+              },
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 110,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 40.0,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 36.4,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": -9.0,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "No significant flow marks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Wet surface treatment of base silica (Prod. Ex. 1) with phenyltrimethoxysilane in water.",
+      "surface_treatment": {
+        "base_silica_ref": "Production Example 1",
+        "treatment_method": "Wet",
+        "treatment_agent": {
+          "name": "phenyltrimethoxysilane",
+          "source": "KBM-103, Shin-Etsu Silicones",
+          "quantity_relative_to_base": {
+            "value": 60,
+            "unit": "µmol/g"
+          },
+          "quantity_mass_input": {
+            "value": 5.0,
+            "unit": "g",
+            "base_silica_mass": {
+              "value": 424,
+              "unit": "g"
+            }
+          }
+        },
+        "process_details": {
+          "apparatus": "2-liter separable flask with stirring blade",
+          "solvent": {
+            "name": "Water",
+            "quantity_input": {
+              "value": 1014,
+              "unit": "g"
+            }
+          },
+          "silica_concentration_input": {
+            "value": 29.5,
+            "unit": "wt%"
+          },
+          "agent_addition": "Dropwise at 25C",
+          "temperature_profile": "Heated to 90C, stirred for 6h",
+          "separation": "Filtration under reduced pressure",
+          "drying": {
+            "temperature": {
+              "value": 120,
+              "unit": "C"
+            },
+            "pressure": "Reduced",
+            "duration": {
+              "value": 15,
+              "unit": "h"
+            }
+          },
+          "coagulant": null
+        }
+      },
+      "characterization": {
+        "bet_specific_surface_area": {
+          "value": 10.1,
+          "unit": "m2/g"
+        },
+        "particle_size_distribution_laser": {
+          "d50": {
+            "value": 358,
+            "unit": "nm"
+          },
+          "d90": {
+            "value": 462,
+            "unit": "nm"
+          },
+          "span_d90_d50": {
+            "value": 28.9,
+            "unit": "%"
+          },
+          "geometric_standard_deviation": {
+            "value": 1.23
+          },
+          "coarse_particles_over_5um": "Not detected",
+          "measurement_method": "Laser Diffraction Scattering (Ethanol dispersion, 0.1g/40mL, 40W/10min ultrasonic)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_carbon_amount": {
+          "value": 0.365,
+          "unit": "wt%"
+        },
+        "elemental_impurities": {
+          "Fe": "<1 ppm",
+          "Ni": "<1 ppm",
+          "Cr": "<1 ppm",
+          "Al": "<1 ppm"
+        },
+        "ionic_impurities": {
+          "Na+": "<1 ppm",
+          "K+": "<1 ppm",
+          "Cl-": "<1 ppm"
+        }
+      },
+      "resin_evaluation": [
+        {
+          "resin_matrix": {
+            "type": "Epoxy (Bisphenol A/F type)",
+            "details": "ZX-1059 (NIPPON STEEL CHEMICAL & MATERIAL)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 24.1,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 19.8,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": -17.8,
+                  "unit": "%"
+                }
+              },
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 110,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 0.6,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 0.5,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": -16.7,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "No significant flow marks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Wet surface treatment of base silica (Prod. Ex. 1) with hexamethyldisilazane in 90% aq. methanol, using ammonium hydrogen carbonate coagulant.",
+      "surface_treatment": {
+        "base_silica_ref": "Production Example 1",
+        "treatment_method": "Wet",
+        "treatment_agent": {
+          "name": "hexamethyldisilazane",
+          "source": "SZ-31, Shin-Etsu Silicones",
+          "quantity_relative_to_base": {
+            "value": 1.86,
+            "unit": "mmol/g"
+          },
+          "quantity_mass_input": {
+            "value": 240,
+            "unit": "g",
+            "base_silica_mass": {
+              "value": 800,
+              "unit": "g"
+            }
+          }
+        },
+        "process_details": {
+          "apparatus": "5-liter separable flask with stirring blade",
+          "solvent": {
+            "name": "90% aq. methanol solution",
+            "quantity_input": {
+              "value": 800,
+              "unit": "g"
+            }
+          },
+          "silica_concentration_input": {
+            "value": 50.0,
+            "unit": "wt%"
+          },
+          "agent_addition": "Dropwise at 25C",
+          "temperature_profile": "Heated to 45C, stirred for 1h",
+          "coagulant": {
+            "name": "Ammonium hydrogen carbonate",
+            "details": "360g of 4 wt% aqueous solution added",
+            "aging_after_addition": {
+              "duration": {
+                "value": 2,
+                "unit": "h"
+              },
+              "temperature": {
+                "value": 45,
+                "unit": "C"
+              }
+            }
+          },
+          "separation": "Filtration under reduced pressure (after cooling to 25C)",
+          "drying": {
+            "temperature": {
+              "value": 120,
+              "unit": "C"
+            },
+            "pressure": "Reduced",
+            "duration": {
+              "value": 15,
+              "unit": "h"
+            }
+          }
+        }
+      },
+      "characterization": {
+        "bet_specific_surface_area": {
+          "value": 7.1,
+          "unit": "m2/g"
+        },
+        "particle_size_distribution_laser": {
+          "d50": {
+            "value": 357,
+            "unit": "nm"
+          },
+          "d90": {
+            "value": 458,
+            "unit": "nm"
+          },
+          "span_d90_d50": {
+            "value": 28.5,
+            "unit": "%"
+          },
+          "geometric_standard_deviation": {
+            "value": 1.22
+          },
+          "coarse_particles_over_5um": "Not detected",
+          "measurement_method": "Laser Diffraction Scattering (Ethanol dispersion, 0.1g/40mL, 40W/10min ultrasonic)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_carbon_amount": {
+          "value": 0.115,
+          "unit": "wt%"
+        },
+        "elemental_impurities": {
+          "Fe": "<1 ppm",
+          "Ni": "<1 ppm",
+          "Cr": "<1 ppm",
+          "Al": "<1 ppm"
+        },
+        "ionic_impurities": {
+          "Na+": "<1 ppm",
+          "K+": "<1 ppm",
+          "Cl-": "<1 ppm"
+        }
+      },
+      "resin_evaluation": [
+        {
+          "resin_matrix": {
+            "type": "Epoxy (Bisphenol A/F type)",
+            "details": "ZX-1059 (NIPPON STEEL CHEMICAL & MATERIAL)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 638.3,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 650.6,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 1.9,
+                  "unit": "%"
+                }
+              },
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 110,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 31.3,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 21.9,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": -30.0,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "No significant flow marks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Dry surface treatment of base silica (Prod. Ex. 1) with 3-glycidoxypropyltrimethoxysilane.",
+      "surface_treatment": {
+        "base_silica_ref": "Production Example 1",
+        "treatment_method": "Dry",
+        "treatment_agent": {
+          "name": "3-glycidoxypropyltrimethoxysilane",
+          "source": "KBM-403, Shin-Etsu Silicones",
+          "quantity_relative_to_base": {
+            "value": 29,
+            "unit": "µmol/g"
+          },
+          "quantity_mass_input": {
+            "value": 20.55,
+            "unit": "g",
+            "base_silica_mass": {
+              "value": 3.00,
+              "unit": "kg"
+            }
+          }
+        },
+        "process_details": {
+          "apparatus": "Rocking mixer (RM-30, Aichi Electric Co., Ltd.)",
+          "agent_feed_rate": {
+            "value": 2,
+            "unit": "mL/min"
+          },
+          "temperature_profile": "Feed/Mix at 25C, hold 25C (120min)",
+          "aging": "Aged at 25C for 14 days after collection",
+          "drying": "Vacuum dried at 50C overnight after aging",
+          "atmosphere": "Not specified"
+        }
+      },
+      "characterization": {
+        "bet_specific_surface_area": {
+          "value": 8.4,
+          "unit": "m2/g"
+        },
+        "particle_size_distribution_laser": {
+          "d50": {
+            "value": 362,
+            "unit": "nm"
+          },
+          "d90": {
+            "value": 466,
+            "unit": "nm"
+          },
+          "span_d90_d50": {
+            "value": 28.7,
+            "unit": "%"
+          },
+          "geometric_standard_deviation": {
+            "value": 1.22
+          },
+          "coarse_particles_over_5um": "Not detected",
+          "measurement_method": "Laser Diffraction Scattering (Ethanol dispersion, 0.1g/40mL, 40W/10min ultrasonic)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_carbon_amount": {
+          "value": 0.241,
+          "unit": "wt%"
+        },
+        "elemental_impurities": {
+          "Fe": "<1 ppm",
+          "Ni": "<1 ppm",
+          "Cr": "<1 ppm",
+          "Al": "<1 ppm"
+        },
+        "ionic_impurities": {
+          "Na+": "<1 ppm",
+          "K+": "<1 ppm",
+          "Cl-": "<1 ppm"
+        }
+      },
+      "resin_evaluation": [
+        {
+          "resin_matrix": {
+            "type": "Thermosetting Epoxy (Bisphenol F type + Amine hardener)",
+            "details": "YDF-8170C (NIPPON STEEL) + KARAHARD A-A (Nippon Kayaku)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 17.6,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 31.6,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "day"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 79.5,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "Not specified in Table 4, assumed 'No significant flow marks' based on paragraph [0295]"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Wet surface treatment of base silica (Prod. Ex. 1) with 3-glycidoxypropyltrimethoxysilane in 90% aq. methanol.",
+      "surface_treatment": {
+        "base_silica_ref": "Production Example 1",
+        "treatment_method": "Wet",
+        "treatment_agent": {
+          "name": "3-glycidoxypropyltrimethoxysilane",
+          "source": "KBM-403, Shin-Etsu Silicones",
+          "quantity_relative_to_base": {
+            "value": 0.29,
+            "unit": "mmol/g"
+          },
+          "quantity_mass_input": {
+            "value": 34.9,
+            "unit": "g",
+            "base_silica_mass": {
+              "value": 510,
+              "unit": "g"
+            }
+          }
+        },
+        "process_details": {
+          "apparatus": "2-liter separable flask with stirring blade",
+          "solvent": {
+            "name": "90% aq. methanol solution",
+            "quantity_input": {
+              "value": 1190,
+              "unit": "g"
+            }
+          },
+          "silica_concentration_input": {
+            "value": 30.0,
+            "unit": "wt%"
+          },
+          "agent_addition": "Dropwise at 50C",
+          "temperature_profile": "Stirred at 50C for 6h",
+          "separation": "Centrifugal separation (after cooling to 25C)",
+          "drying": {
+            "temperature": {
+              "value": 50,
+              "unit": "C"
+            },
+            "pressure": "Reduced",
+            "duration": {
+              "value": null,
+              "unit": "overnight"
+            }
+          },
+          "coagulant": null
+        }
+      },
+      "characterization": {
+        "bet_specific_surface_area": {
+          "value": 8.0,
+          "unit": "m2/g"
+        },
+        "particle_size_distribution_laser": {
+          "d50": {
+            "value": 358,
+            "unit": "nm"
+          },
+          "d90": {
+            "value": 461,
+            "unit": "nm"
+          },
+          "span_d90_d50": {
+            "value": 28.6,
+            "unit": "%"
+          },
+          "geometric_standard_deviation": {
+            "value": 1.22
+          },
+          "coarse_particles_over_5um": "Not detected",
+          "measurement_method": "Laser Diffraction Scattering (Ethanol dispersion, 0.1g/40mL, 40W/10min ultrasonic)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_carbon_amount": {
+          "value": 0.225,
+          "unit": "wt%"
+        },
+        "elemental_impurities": {
+          "Fe": "<1 ppm",
+          "Ni": "<1 ppm",
+          "Cr": "<1 ppm",
+          "Al": "<1 ppm"
+        },
+        "ionic_impurities": {
+          "Na+": "<1 ppm",
+          "K+": "<1 ppm",
+          "Cl-": "<1 ppm"
+        }
+      },
+      "resin_evaluation": [
+        {
+          "resin_matrix": {
+            "type": "Thermosetting Epoxy (Bisphenol F type + Amine hardener)",
+            "details": "YDF-8170C (NIPPON STEEL) + KARAHARD A-A (Nippon Kayaku)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 18.5,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 26.5,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "day"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 43.2,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "Not specified in Table 4, assumed 'No significant flow marks' based on paragraph [0295]"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "Example_7",
+      "experiment_context": "Dry surface treatment of base silica (Prod. Ex. 1) with N-phenyl-3-aminopropyltrimethoxysilane.",
+      "surface_treatment": {
+        "base_silica_ref": "Production Example 1",
+        "treatment_method": "Dry",
+        "treatment_agent": {
+          "name": "N-phenyl-3-aminopropyltrimethoxysilane",
+          "source": "KBM-573, Shin-Etsu Silicones",
+          "quantity_relative_to_base": {
+            "value": 29,
+            "unit": "µmol/g"
+          },
+          "quantity_mass_input": {
+            "value": 22.21,
+            "unit": "g",
+            "base_silica_mass": {
+              "value": 3.00,
+              "unit": "kg"
+            }
+          }
+        },
+        "process_details": {
+          "apparatus": "Rocking mixer (RM-30, Aichi Electric Co., Ltd.)",
+          "agent_feed_rate": {
+            "value": 2,
+            "unit": "mL/min"
+          },
+          "temperature_profile": "Feed/Mix at 25C, hold 25C (120min)",
+          "aging": "Aged at 25C for 14 days after collection",
+          "drying": "Vacuum dried at 50C overnight after aging",
+          "atmosphere": "Not specified"
+        }
+      },
+      "characterization": {
+        "bet_specific_surface_area": {
+          "value": 8.6,
+          "unit": "m2/g"
+        },
+        "particle_size_distribution_laser": {
+          "d50": {
+            "value": 365,
+            "unit": "nm"
+          },
+          "d90": {
+            "value": 472,
+            "unit": "nm"
+          },
+          "span_d90_d50": {
+            "value": 29.5,
+            "unit": "%"
+          },
+          "geometric_standard_deviation": {
+            "value": 1.23
+          },
+          "coarse_particles_over_5um": "Not detected",
+          "measurement_method": "Laser Diffraction Scattering (Ethanol dispersion, 0.1g/40mL, 40W/10min ultrasonic)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_carbon_amount": {
+          "value": 0.328,
+          "unit": "wt%"
+        },
+        "elemental_impurities": {
+          "Fe": "<1 ppm",
+          "Ni": "<1 ppm",
+          "Cr": "<1 ppm",
+          "Al": "<1 ppm"
+        },
+        "ionic_impurities": {
+          "Na+": "<1 ppm",
+          "K+": "<1 ppm",
+          "Cl-": "<1 ppm"
+        }
+      },
+      "resin_evaluation": [
+        {
+          "resin_matrix": {
+            "type": "Epoxy (Bisphenol A/F type)",
+            "details": "ZX-1059 (NIPPON STEEL CHEMICAL & MATERIAL)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 26.5,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 69.6,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 162.6,
+                  "unit": "%"
+                }
+              },
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 110,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 2.3,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 4.4,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 91.3,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "No significant flow marks"
+            }
+          }
+        },
+        {
+          "resin_matrix": {
+            "type": "Thermosetting Epoxy (Bisphenol F type + Amine hardener)",
+            "details": "YDF-8170C (NIPPON STEEL) + KARAHARD A-A (Nippon Kayaku)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 19.4,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 27.8,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "day"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 43.3,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "Not specified in Table 4, assumed 'No significant flow marks' based on paragraph [0295]"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "Example_8",
+      "experiment_context": "Dry surface treatment of base silica (Prod. Ex. 1) with 3-methacryloxypropyltrimethoxysilane.",
+      "surface_treatment": {
+        "base_silica_ref": "Production Example 1",
+        "treatment_method": "Dry",
+        "treatment_agent": {
+          "name": "3-methacryloxypropyltrimethoxysilane",
+          "source": "KBM-503, Shin-Etsu Silicones",
+          "quantity_relative_to_base": {
+            "value": 29,
+            "unit": "µmol/g"
+          },
+          "quantity_mass_input": {
+            "value": 21.60,
+            "unit": "g",
+            "base_silica_mass": {
+              "value": 3.00,
+              "unit": "kg"
+            }
+          }
+        },
+        "process_details": {
+          "apparatus": "Rocking mixer (RM-30, Aichi Electric Co., Ltd.)",
+          "agent_feed_rate": {
+            "value": 2,
+            "unit": "mL/min"
+          },
+          "temperature_profile": "Feed/Mix at 25C, hold 25C (120min)",
+          "aging": "Aged at 25C for 14 days after collection",
+          "drying": "Vacuum dried at 50C overnight after aging",
+          "atmosphere": "Not specified"
+        }
+      },
+      "characterization": {
+        "bet_specific_surface_area": {
+          "value": 8.9,
+          "unit": "m2/g"
+        },
+        "particle_size_distribution_laser": {
+          "d50": {
+            "value": 362,
+            "unit": "nm"
+          },
+          "d90": {
+            "value": 468,
+            "unit": "nm"
+          },
+          "span_d90_d50": {
+            "value": 29.2,
+            "unit": "%"
+          },
+          "geometric_standard_deviation": {
+            "value": 1.23
+          },
+          "coarse_particles_over_5um": "Not detected",
+          "measurement_method": "Laser Diffraction Scattering (Ethanol dispersion, 0.1g/40mL, 40W/10min ultrasonic)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_carbon_amount": {
+          "value": 0.268,
+          "unit": "wt%"
+        },
+        "elemental_impurities": {
+          "Fe": "<1 ppm",
+          "Ni": "<1 ppm",
+          "Cr": "<1 ppm",
+          "Al": "<1 ppm"
+        },
+        "ionic_impurities": {
+          "Na+": "<1 ppm",
+          "K+": "<1 ppm",
+          "Cl-": "<1 ppm"
+        }
+      },
+      "resin_evaluation": [
+        {
+          "resin_matrix": {
+            "type": "Epoxy (Bisphenol A/F type)",
+            "details": "ZX-1059 (NIPPON STEEL CHEMICAL & MATERIAL)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 396.7,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 312.2,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": -21.3,
+                  "unit": "%"
+                }
+              },
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 110,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 14.5,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 11.0,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": -24.1,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "No significant flow marks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "Example_9",
+      "experiment_context": "Dry surface treatment of base silica (Prod. Ex. 1) with vinyltrimethoxysilane.",
+      "surface_treatment": {
+        "base_silica_ref": "Production Example 1",
+        "treatment_method": "Dry",
+        "treatment_agent": {
+          "name": "vinyltrimethoxysilane",
+          "source": "KBM-1003, Shin-Etsu Silicones",
+          "quantity_relative_to_base": {
+            "value": 29,
+            "unit": "µmol/g"
+          },
+          "quantity_mass_input": {
+            "value": 12.90,
+            "unit": "g",
+            "base_silica_mass": {
+              "value": 3.00,
+              "unit": "kg"
+            }
+          }
+        },
+        "process_details": {
+          "apparatus": "Rocking mixer (RM-30, Aichi Electric Co., Ltd.)",
+          "agent_feed_rate": {
+            "value": 2,
+            "unit": "mL/min"
+          },
+          "temperature_profile": "Feed/Mix at 25C, hold 25C (30min)",
+          "aging": "Aged at 120C for 6 hours after collection",
+          "drying": "Vacuum dried at 25C overnight after aging",
+          "atmosphere": "Not specified"
+        }
+      },
+      "characterization": {
+        "bet_specific_surface_area": {
+          "value": 8.9,
+          "unit": "m2/g"
+        },
+        "particle_size_distribution_laser": {
+          "d50": {
+            "value": 362,
+            "unit": "nm"
+          },
+          "d90": {
+            "value": 468,
+            "unit": "nm"
+          },
+          "span_d90_d50": {
+            "value": 29.1,
+            "unit": "%"
+          },
+          "geometric_standard_deviation": {
+            "value": 1.22
+          },
+          "coarse_particles_over_5um": "Not detected",
+          "measurement_method": "Laser Diffraction Scattering (Ethanol dispersion, 0.1g/40mL, 40W/10min ultrasonic)"
+        },
+        "particle_morphology": "Spherical",
+        "surface_carbon_amount": {
+          "value": 0.080,
+          "unit": "wt%"
+        },
+        "elemental_impurities": {
+          "Fe": "<1 ppm",
+          "Ni": "<1 ppm",
+          "Cr": "<1 ppm",
+          "Al": "<1 ppm"
+        },
+        "ionic_impurities": {
+          "Na+": "<1 ppm",
+          "K+": "<1 ppm",
+          "Cl-": "<1 ppm"
+        }
+      },
+      "resin_evaluation": [
+        {
+          "resin_matrix": {
+            "type": "Epoxy (Bisphenol A/F type)",
+            "details": "ZX-1059 (NIPPON STEEL CHEMICAL & MATERIAL)",
+            "filler_loading": {
+              "value": 60,
+              "unit": "wt%"
+            },
+            "preparation": "Hand mix -> Thinky mixer (1000rpm/8min, 2000rpm/2min) -> Three roll mill (25C, 20µm gap, 8 passes) -> Vacuum defoam (30min)",
+            "viscosity_tests": [
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 25,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 282.5,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 343.4,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": 21.6,
+                  "unit": "%"
+                }
+              },
+              {
+                "conditions": {
+                  "temperature": {
+                    "value": 110,
+                    "unit": "C"
+                  },
+                  "shear_rate": {
+                    "value": 1,
+                    "unit": "s-1"
+                  }
+                },
+                "initial_viscosity": {
+                  "value": 8.0,
+                  "unit": "Pa.s"
+                },
+                "viscosity_after_time": {
+                  "value": 4.7,
+                  "unit": "Pa.s",
+                  "duration": {
+                    "value": 1,
+                    "unit": "week"
+                  }
+                },
+                "viscosity_change_rate": {
+                  "value": -41.3,
+                  "unit": "%"
+                }
+              }
+            ],
+            "gap_penetration_test": {
+              "gap_size": {
+                "value": 30,
+                "unit": "µm"
+              },
+              "temperature": {
+                "value": 110,
+                "unit": "C"
+              },
+              "result": "No significant flow marks"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

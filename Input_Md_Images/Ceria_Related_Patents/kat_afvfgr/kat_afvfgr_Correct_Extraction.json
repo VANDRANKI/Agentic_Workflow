@@ -1,0 +1,453 @@
+{
+  "doi": "US 7,553,465 B2",
+  "title": "CERIUM OXIDE POWDER AND CERIUM OXIDE DISPERSION",
+  "year_published": "2009",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Flame spray pyrolysis synthesis using Cerium(III) ethylhexanoate (50 wt%) in 2-ethylhexanoic acid (50 wt%) solution at 250 kg/h, with specific gas flows as per Table 1, Example 1.",
+      "precursor_chemical": "Cerium(III) ethylhexanoate",
+      "precursor_concentration": {
+        "value": "50% wt in 2-ethylhexanoic acid solution, flow 250 kg/h",
+        "unit": ""
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "1100",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "1",
+        "unit": "s"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Flame Spray Pyrolysis: H2 (40 std m³/h), Primary Air (1800 std m³/h), Secondary Air (3200 std m³/h), Atomization Air (50 std m³/h), Lambda=2.7"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Water quench (900 kg/h water, 200 std m³/h atomization air, T0=20°C, Te=280°C), followed by filter separation.",
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%" 
+        },
+        "additives": [],
+        "target_final_slurry_ph": null, 
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "bet_surface_area": {
+           "value": "120",
+           "unit": "m²/g"
+        },
+        "particle_size_distribution": {
+          "d50": {
+             "value": "105",
+             "unit": "nm"
+          },
+          "d90": {
+             "value": "175",
+             "unit": "nm"
+          },
+          "measurement_method_used": "DLS (1% dispersion in water)"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": {
+          "Carbonate (XPS C 1s at ~289 eV)": {
+            "surface_content": {
+              "value": "28.7",
+              "unit": "% by area"
+            },
+            "depth_5nm_content": {
+              "value": "26.4",
+              "unit": "% by area"
+            }
+          }
+        },
+        "elemental_composition": {
+          "CeO2": {
+            "value": "99.85",
+            "unit": "wt%"
+          },
+          "C_total": {
+            "value": "0.12",
+            "unit": "wt%"
+          },
+          "Na": {
+            "value": "<5",
+            "unit": "ppm"
+          },
+          "Cl": {
+            "value": "<20",
+            "unit": "ppm"
+          }
+        },
+        "particle_morphology": "Aggregated crystalline primary particles",
+        "zeta_potential": {
+           "value": "41",
+           "unit": "mV",
+           "conditions": "pH 4"
+        },
+        "isoelectric_point": {
+           "value": "9",
+           "unit": "pH"
+        }
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Flame spray pyrolysis synthesis using Cerium(III) ethylhexanoate (50 wt%) in 2-ethylhexanoic acid (50 wt%) solution at 2.5 kg/h, with specific gas flows as per Table 1, Example 2.",
+      "precursor_chemical": "Cerium(III) ethylhexanoate",
+      "precursor_concentration": {
+        "value": "50% wt in 2-ethylhexanoic acid solution, flow 2.5 kg/h",
+        "unit": ""
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "1110",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "1.4",
+        "unit": "s"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Flame Spray Pyrolysis: H2 (2 std m³/h), Primary Air (10 std m³/h), Secondary Air (25 std m³/h), Atomization Air (3 std m³/h), Lambda=3"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Water quench (10 kg/h water, 5 std m³/h atomization air, T0=20°C, Te=310°C), followed by filter separation.",
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "bet_surface_area": {
+           "value": "60",
+           "unit": "m²/g"
+        },
+        "particle_size_distribution": {
+          "d50": {
+             "value": "110",
+             "unit": "nm"
+          },
+           "d90": {
+             "value": "185",
+             "unit": "nm"
+          },
+          "measurement_method_used": "DLS (1% dispersion in water)"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": {
+          "Carbonate (XPS C 1s at ~289 eV)": {
+            "surface_content": {
+              "value": "19.0",
+              "unit": "% by area"
+            },
+            "depth_5nm_content": {
+              "value": "11.2",
+              "unit": "% by area"
+            }
+          }
+        },
+        "elemental_composition": {
+          "CeO2": {
+            "value": "99.79",
+            "unit": "wt%"
+          },
+          "C_total": {
+            "value": "0.14",
+            "unit": "wt%"
+          },
+          "Na": {
+            "value": "<5",
+            "unit": "ppm"
+          },
+          "Cl": {
+            "value": "<20",
+            "unit": "ppm"
+          }
+        },
+        "particle_morphology": "Aggregated crystalline primary particles",
+         "zeta_potential": {
+           "value": "48",
+           "unit": "mV",
+           "conditions": "pH 4"
+        },
+        "isoelectric_point": {
+           "value": "9.6",
+           "unit": "pH"
+        }
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Flame spray pyrolysis synthesis using Cerium(III) ethylhexanoate (50 wt%) in 2-ethylhexanoic acid (50 wt%) solution at 12 kg/h, with specific gas flows as per Table 1, Example 3. Used for CMP tests in Figs 1 & 2.",
+      "precursor_chemical": "Cerium(III) ethylhexanoate",
+      "precursor_concentration": {
+        "value": "50% wt in 2-ethylhexanoic acid solution, flow 12 kg/h",
+        "unit": ""
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "1060",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "0.9",
+        "unit": "s"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Flame Spray Pyrolysis: H2 (4 std m³/h), Primary Air (110 std m³/h), Secondary Air (160 std m³/h), Atomization Air (20 std m³/h), Lambda=3"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Water quench (100 kg/h water, 30 std m³/h atomization air, T0=20°C, Te=300°C), followed by filter separation.",
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.5",
+          "unit": "wt%" 
+        },
+        "additives": [
+           {
+             "name": "KOH",
+             "type": "pH adjuster",
+             "concentration": null 
+           }
+        ],
+        "target_final_slurry_ph": "7.6", 
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "bet_surface_area": {
+           "value": "58",
+           "unit": "m²/g"
+        },
+        "particle_size_distribution": {
+          "d50": {
+             "value": "114",
+             "unit": "nm"
+          },
+           "d90": {
+             "value": "198",
+             "unit": "nm"
+          },
+          "measurement_method_used": "DLS (1% dispersion in water)" 
+        },
+         "particle_size_distribution_pH3.9": {
+          "d50": {
+             "value": "82",
+             "unit": "nm"
+          },
+           "d90": {
+             "value": "103",
+             "unit": "nm"
+          },
+          "measurement_method_used": "DLS (5% dispersion in water, pH 3.9 with HNO3)"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": {
+          "Carbonate (XPS C 1s at ~289 eV)": {
+            "surface_content": {
+              "value": "15.2",
+              "unit": "% by area"
+            },
+            "depth_5nm_content": {
+              "value": "5.9",
+              "unit": "% by area"
+            }
+          }
+        },
+        "elemental_composition": {
+          "CeO2": {
+            "value": "99.82",
+            "unit": "wt%"
+          },
+          "C_total": {
+            "value": "0.1",
+            "unit": "wt%"
+          },
+          "Na": {
+            "value": "<5",
+            "unit": "ppm"
+          },
+          "Cl": {
+            "value": "<20",
+            "unit": "ppm"
+          }
+        },
+        "particle_morphology": "Aggregated crystalline primary particles",
+         "zeta_potential": {
+           "value": "52",
+           "unit": "mV",
+           "conditions": "pH 4"
+        },
+        "isoelectric_point": {
+           "value": "10.6",
+           "unit": "pH"
+        }
+      },
+      "cmp_performance": {
+         "material_polished": "SiO2",
+         "polishing_time": null,
+         "material_removal_rate": {
+           "value": "~1000", 
+           "unit": "nm/min",
+           "conditions": "pv = 60000 N/ms (from Fig 1)"
+         },
+         "process_temperature": null,
+         "polishing_pressure_velocity_product": {
+            "value": "60000",
+            "unit": "N/ms"
+         },
+         "pad_conditioning_pressure": null,
+         "equipment_model": null,
+         "pad_composition": null,
+         "selectivity_indicator": "Different motor current observed for SiO2 vs Si3N4 (Fig 2), suggesting selectivity."
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Flame spray pyrolysis synthesis using Cerium(III) ethylhexanoate (50 wt%) in 2-ethylhexanoic acid (50 wt%) solution at 14 kg/h, with specific gas flows as per Table 1, Example 4.",
+      "precursor_chemical": "Cerium(III) ethylhexanoate",
+      "precursor_concentration": {
+        "value": "50% wt in 2-ethylhexanoic acid solution, flow 14 kg/h",
+        "unit": ""
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "1055",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "0.95",
+        "unit": "s"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Flame Spray Pyrolysis: H2 (4.5 std m³/h), Primary Air (110 std m³/h), Secondary Air (160 std m³/h), Atomization Air (20 std m³/h), Lambda=2.6"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Water quench (110 kg/h water, 50 std m³/h atomization air, T0=20°C, Te=290°C), followed by filter separation.",
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "bet_surface_area": {
+           "value": "25",
+           "unit": "m²/g"
+        },
+        "particle_size_distribution": {
+          "d50": {
+             "value": "110",
+             "unit": "nm"
+          },
+           "d90": {
+             "value": "180",
+             "unit": "nm"
+          },
+          "measurement_method_used": "DLS (1% dispersion in water)"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": {
+          "Carbonate (XPS C 1s at ~289 eV)": {
+            "surface_content": {
+              "value": "27.4",
+              "unit": "% by area"
+            },
+            "depth_5nm_content": {
+              "value": "11.8",
+              "unit": "% by area"
+            }
+          }
+        },
+        "elemental_composition": {
+          "CeO2": {
+            "value": "99.8",
+            "unit": "wt%"
+          },
+          "C_total": {
+            "value": "0.15",
+            "unit": "wt%"
+          },
+          "Na": {
+            "value": "<5",
+            "unit": "ppm"
+          },
+          "Cl": {
+            "value": "<20",
+            "unit": "ppm"
+          }
+        },
+        "particle_morphology": "Aggregated crystalline primary particles",
+         "zeta_potential": {
+           "value": "46",
+           "unit": "mV",
+           "conditions": "pH 4"
+        },
+        "isoelectric_point": {
+           "value": "9.8",
+           "unit": "pH"
+        }
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    }
+  ]
+}

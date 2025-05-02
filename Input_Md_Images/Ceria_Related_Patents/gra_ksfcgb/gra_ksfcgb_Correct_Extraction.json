@@ -1,0 +1,1320 @@
+{
+  "doi": "US 2022/0098442 A1",
+  "title": "CMP SLURRIES",
+  "year_published": "2022",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Slurry_A",
+      "experiment_context": "Base Slurry A formulation evaluated for CMP performance and robustness.",
+      "abrasive_synthesis": {
+        "description": "Anionic modified colloidal silica abrasive with sulfonic acid groups. Primary particle size: 14 nm, Secondary particle size: 34 nm.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with anionic colloidal silica, β-alanine, surfactant, and pH adjuster in DI water.",
+        "composition": {
+          "abrasive": {
+            "material": "Anionic colloidal silica",
+            "concentration": {
+              "initial": null,
+              "final": 1,
+              "unit": "wt.%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "β-alanine",
+              "type": "SiN polishing rate enhancer",
+              "concentration": {
+                "value": 0.089,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Triisopropylnaphthalene sulfonic acid Na salt",
+              "type": "Anionic surfactant",
+              "concentration": {
+                "value": 0.00066,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Maleic acid",
+              "type": "pH adjuster",
+              "concentration": {
+                "value": 0.017,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "DI water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": null,
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": 5,
+              "max": 5
+            },
+            "agents": [
+              {
+                "name": "Maleic acid",
+                "concentration": {
+                  "value": 0.017,
+                  "unit": "wt.%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive and slurry properties.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 34,
+              "max": 34,
+              "unit": "nm"
+            },
+            "measurement_method_used": "Dynamic Light Scattering (Secondary Size)"
+          },
+          "shape": "Colloidal",
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null,
+        "electrical_conductivity": {
+           "value": 86,
+           "unit": "µS/cm"
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "pressure": { "value": 1.5, "unit": "psi" },
+          "rotation_speed": { "value": 43, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 125, "unit": "ml/min" },
+          "pad": "IC1010",
+          "equipment": "A165-Westech (200 mm)",
+          "conditioning": "in-situ"
+        },
+        "material_removal_rate_sin": { "value": 20.6, "unit": "nm/min" },
+        "material_removal_rate_teos": { "value": 0.6, "unit": "nm/min" },
+        "selectivity_sin_teos": { "value": 34 },
+        "robustness_value": { "value": 1.4, "unit": "Å/min", "description": "Difference in TEOS RR between (8min W/4min TEOS) and (8min TEOS/4min TEOS) ex-situ tests" }
+      }
+    },
+    {
+      "sample_id": "Slurry_B",
+      "experiment_context": "Base Slurry B formulation evaluated for CMP performance and robustness.",
+      "abrasive_synthesis": {
+        "description": "Anionic modified colloidal silica abrasive with sulfonic acid groups. Primary particle size: 14 nm, Secondary particle size: 34 nm.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with anionic colloidal silica, β-alanine, surfactant, and pH adjuster in DI water.",
+        "composition": {
+          "abrasive": {
+            "material": "Anionic colloidal silica",
+            "concentration": {
+              "initial": null,
+              "final": 0.75,
+              "unit": "wt.%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "β-alanine",
+              "type": "SiN polishing rate enhancer",
+              "concentration": {
+                "value": 0.89,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Triisopropylnaphthalene sulfonic acid Na salt",
+              "type": "Anionic surfactant",
+              "concentration": {
+                "value": 0.00066,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Maleic acid",
+              "type": "pH adjuster",
+              "concentration": {
+                "value": 0.043,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "DI water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": null,
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": 5,
+              "max": 5
+            },
+            "agents": [
+              {
+                "name": "Maleic acid",
+                "concentration": {
+                  "value": 0.043,
+                  "unit": "wt.%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive and slurry properties.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 34,
+              "max": 34,
+              "unit": "nm"
+            },
+             "measurement_method_used": "Dynamic Light Scattering (Secondary Size)"
+          },
+          "shape": "Colloidal",
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null,
+         "electrical_conductivity": {
+           "value": 387,
+           "unit": "µS/cm"
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "pressure": { "value": 1.5, "unit": "psi" },
+          "rotation_speed": { "value": 43, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 125, "unit": "ml/min" },
+          "pad": "IC1010",
+          "equipment": "A165-Westech (200 mm)",
+          "conditioning": "in-situ"
+        },
+        "material_removal_rate_sin": { "value": 28.8, "unit": "nm/min" },
+        "material_removal_rate_teos": { "value": 0.8, "unit": "nm/min" },
+        "selectivity_sin_teos": { "value": 36 },
+        "robustness_value": { "value": 0.9, "unit": "Å/min", "description": "Difference in TEOS RR between (8min W/4min TEOS) and (8min TEOS/4min TEOS) ex-situ tests" }
+      }
+    },
+    {
+      "sample_id": "Slurry_C",
+      "experiment_context": "Base Slurry C formulation evaluated for CMP performance and robustness.",
+      "abrasive_synthesis": {
+        "description": "Anionic modified colloidal silica abrasive with sulfonic acid groups. Primary particle size: 14 nm, Secondary particle size: 34 nm.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with anionic colloidal silica, β-alanine, surfactant, and pH adjuster in DI water.",
+        "composition": {
+          "abrasive": {
+            "material": "Anionic colloidal silica",
+            "concentration": {
+              "initial": null,
+              "final": 0.75,
+              "unit": "wt.%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "β-alanine",
+              "type": "SiN polishing rate enhancer",
+              "concentration": {
+                "value": 0.45,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Triisopropylnaphthalene sulfonic acid Na salt",
+              "type": "Anionic surfactant",
+              "concentration": {
+                "value": 0.00066,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Maleic acid",
+              "type": "pH adjuster",
+              "concentration": {
+                "value": 0.024,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "DI water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": null,
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": 5,
+              "max": 5
+            },
+            "agents": [
+              {
+                "name": "Maleic acid",
+                "concentration": {
+                  "value": 0.024,
+                  "unit": "wt.%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive and slurry properties.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 34,
+              "max": 34,
+              "unit": "nm"
+            },
+             "measurement_method_used": "Dynamic Light Scattering (Secondary Size)"
+          },
+          "shape": "Colloidal",
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null,
+         "electrical_conductivity": {
+           "value": 165,
+           "unit": "µS/cm"
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "pressure": { "value": 1.5, "unit": "psi" },
+          "rotation_speed": { "value": 43, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 125, "unit": "ml/min" },
+          "pad": "IC1010",
+          "equipment": "A165-Westech (200 mm)",
+          "conditioning": "in-situ"
+        },
+        "material_removal_rate_sin": { "value": 24.7, "unit": "nm/min" },
+        "material_removal_rate_teos": { "value": 0.5, "unit": "nm/min" },
+        "selectivity_sin_teos": { "value": 49 },
+        "robustness_value": { "value": 0.6, "unit": "Å/min", "description": "Difference in TEOS RR between (8min W/4min TEOS) and (8min TEOS/4min TEOS) ex-situ tests" }
+      }
+    },
+    {
+      "sample_id": "Slurry_D",
+      "experiment_context": "Base Slurry D formulation evaluated for CMP performance and robustness.",
+      "abrasive_synthesis": {
+        "description": "Anionic modified colloidal silica abrasive with sulfonic acid groups. Primary particle size: 14 nm, Secondary particle size: 34 nm.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with anionic colloidal silica, β-alanine, surfactant, and pH adjuster in DI water.",
+        "composition": {
+          "abrasive": {
+            "material": "Anionic colloidal silica",
+            "concentration": {
+              "initial": null,
+              "final": 0.75,
+              "unit": "wt.%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "β-alanine",
+              "type": "SiN polishing rate enhancer",
+              "concentration": {
+                "value": 0.45,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Triisopropylnaphthalene sulfonic acid Na salt",
+              "type": "Anionic surfactant",
+              "concentration": {
+                "value": 0.00066,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Maleic acid",
+              "type": "pH adjuster",
+              "concentration": {
+                "value": 0.025,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "DI water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": null,
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": 5,
+              "max": 5
+            },
+            "agents": [
+              {
+                "name": "Maleic acid",
+                "concentration": {
+                  "value": 0.025,
+                  "unit": "wt.%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive and slurry properties.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 34,
+              "max": 34,
+              "unit": "nm"
+            },
+             "measurement_method_used": "Dynamic Light Scattering (Secondary Size)"
+          },
+          "shape": "Colloidal",
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null,
+         "electrical_conductivity": {
+           "value": 204,
+           "unit": "µS/cm"
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "pressure": { "value": 1.5, "unit": "psi" },
+          "rotation_speed": { "value": 43, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 125, "unit": "ml/min" },
+          "pad": "IC1010",
+          "equipment": "A165-Westech (200 mm)",
+          "conditioning": "in-situ"
+        },
+        "material_removal_rate_sin": { "value": 26.0, "unit": "nm/min" },
+        "material_removal_rate_teos": { "value": 0.5, "unit": "nm/min" },
+        "selectivity_sin_teos": { "value": 52 },
+        "robustness_value": { "value": 0.3, "unit": "Å/min", "description": "Difference in TEOS RR between (8min W/4min TEOS) and (8min TEOS/4min TEOS) ex-situ tests" }
+      }
+    },
+    {
+      "sample_id": "Slurry_A_Spike_100ppm",
+      "experiment_context": "Slurry A spiked with 0.013 wt% K2WO4 (equivalent to 100 ppm WO4^2-) to evaluate effect on EC and TEOS RR.",
+      "abrasive_synthesis": {
+        "description": "Anionic modified colloidal silica abrasive with sulfonic acid groups. Primary particle size: 14 nm, Secondary particle size: 34 nm.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with anionic colloidal silica, β-alanine, surfactant, pH adjuster, and K2WO4 spike in DI water.",
+        "composition": {
+          "abrasive": {
+            "material": "Anionic colloidal silica",
+            "concentration": {
+              "initial": null,
+              "final": 1,
+              "unit": "wt.%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "β-alanine",
+              "type": "SiN polishing rate enhancer",
+              "concentration": {
+                "value": 0.089,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Triisopropylnaphthalene sulfonic acid Na salt",
+              "type": "Anionic surfactant",
+              "concentration": {
+                "value": 0.00066,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Maleic acid",
+              "type": "pH adjuster",
+              "concentration": {
+                "value": 0.017,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "K2WO4",
+              "type": "Spike",
+              "concentration": {
+                "value": 0.013,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "DI water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": null,
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": 5,
+              "max": 5
+            },
+            "agents": [
+              {
+                "name": "Maleic acid",
+                "concentration": {
+                  "value": 0.017,
+                  "unit": "wt.%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive and slurry properties.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 34,
+              "max": 34,
+              "unit": "nm"
+            },
+             "measurement_method_used": "Dynamic Light Scattering (Secondary Size)"
+          },
+          "shape": "Colloidal",
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null,
+         "electrical_conductivity": {
+           "value": 165,
+           "unit": "µS/cm"
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "pressure": { "value": 1.5, "unit": "psi" },
+          "rotation_speed": { "value": 43, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 125, "unit": "ml/min" },
+          "pad": "IC1010",
+          "equipment": "A165-Westech (200 mm)",
+          "conditioning": "in-situ"
+        },
+        "material_removal_rate_sin": { "value": null, "unit": "nm/min" },
+        "material_removal_rate_teos": { "value": 0.49, "unit": "nm/min" },
+        "selectivity_sin_teos": { "value": null },
+        "robustness_value": { "value": null }
+      }
+    },
+    {
+      "sample_id": "Slurry_A_Spike_1000ppm",
+      "experiment_context": "Slurry A spiked with 0.13 wt% K2WO4 (equivalent to 1000 ppm WO4^2-) to evaluate effect on EC and TEOS RR.",
+      "abrasive_synthesis": {
+        "description": "Anionic modified colloidal silica abrasive with sulfonic acid groups. Primary particle size: 14 nm, Secondary particle size: 34 nm.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with anionic colloidal silica, β-alanine, surfactant, pH adjuster, and K2WO4 spike in DI water.",
+        "composition": {
+          "abrasive": {
+            "material": "Anionic colloidal silica",
+            "concentration": {
+              "initial": null,
+              "final": 1,
+              "unit": "wt.%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "β-alanine",
+              "type": "SiN polishing rate enhancer",
+              "concentration": {
+                "value": 0.089,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Triisopropylnaphthalene sulfonic acid Na salt",
+              "type": "Anionic surfactant",
+              "concentration": {
+                "value": 0.00066,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Maleic acid",
+              "type": "pH adjuster",
+              "concentration": {
+                "value": 0.017,
+                "unit": "wt.%"
+              }
+            },
+             {
+              "name": "K2WO4",
+              "type": "Spike",
+              "concentration": {
+                "value": 0.13,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "DI water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": null,
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": 5,
+              "max": 5
+            },
+            "agents": [
+              {
+                "name": "Maleic acid",
+                "concentration": {
+                  "value": 0.017,
+                  "unit": "wt.%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive and slurry properties.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 34,
+              "max": 34,
+              "unit": "nm"
+            },
+             "measurement_method_used": "Dynamic Light Scattering (Secondary Size)"
+          },
+          "shape": "Colloidal",
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null,
+         "electrical_conductivity": {
+           "value": 1112,
+           "unit": "µS/cm"
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "pressure": { "value": 1.5, "unit": "psi" },
+          "rotation_speed": { "value": 43, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 125, "unit": "ml/min" },
+          "pad": "IC1010",
+          "equipment": "A165-Westech (200 mm)",
+          "conditioning": "in-situ"
+        },
+        "material_removal_rate_sin": { "value": null, "unit": "nm/min" },
+        "material_removal_rate_teos": { "value": 0.70, "unit": "nm/min" },
+        "selectivity_sin_teos": { "value": null },
+        "robustness_value": { "value": null }
+      }
+    },
+     {
+      "sample_id": "Slurry_C_Spike_100ppm",
+      "experiment_context": "Slurry C spiked with 0.013 wt% K2WO4 (equivalent to 100 ppm WO4^2-) to evaluate effect on EC and TEOS RR.",
+      "abrasive_synthesis": {
+        "description": "Anionic modified colloidal silica abrasive with sulfonic acid groups. Primary particle size: 14 nm, Secondary particle size: 34 nm.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with anionic colloidal silica, β-alanine, surfactant, pH adjuster, and K2WO4 spike in DI water.",
+        "composition": {
+          "abrasive": {
+            "material": "Anionic colloidal silica",
+            "concentration": {
+              "initial": null,
+              "final": 0.75,
+              "unit": "wt.%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "β-alanine",
+              "type": "SiN polishing rate enhancer",
+              "concentration": {
+                "value": 0.45,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Triisopropylnaphthalene sulfonic acid Na salt",
+              "type": "Anionic surfactant",
+              "concentration": {
+                "value": 0.00066,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Maleic acid",
+              "type": "pH adjuster",
+              "concentration": {
+                "value": 0.024,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "K2WO4",
+              "type": "Spike",
+              "concentration": {
+                "value": 0.013,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "DI water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": null,
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": 5,
+              "max": 5
+            },
+            "agents": [
+              {
+                "name": "Maleic acid",
+                "concentration": {
+                  "value": 0.024,
+                  "unit": "wt.%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive and slurry properties.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 34,
+              "max": 34,
+              "unit": "nm"
+            },
+             "measurement_method_used": "Dynamic Light Scattering (Secondary Size)"
+          },
+          "shape": "Colloidal",
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null,
+         "electrical_conductivity": {
+           "value": 217,
+           "unit": "µS/cm"
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "pressure": { "value": 1.5, "unit": "psi" },
+          "rotation_speed": { "value": 43, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 125, "unit": "ml/min" },
+          "pad": "IC1010",
+          "equipment": "A165-Westech (200 mm)",
+          "conditioning": "in-situ"
+        },
+        "material_removal_rate_sin": { "value": null, "unit": "nm/min" },
+        "material_removal_rate_teos": { "value": 0.42, "unit": "nm/min" },
+        "selectivity_sin_teos": { "value": null },
+        "robustness_value": { "value": null }
+      }
+    },
+    {
+      "sample_id": "Slurry_C_Spike_1000ppm",
+      "experiment_context": "Slurry C spiked with 0.13 wt% K2WO4 (equivalent to 1000 ppm WO4^2-) to evaluate effect on EC and TEOS RR.",
+      "abrasive_synthesis": {
+        "description": "Anionic modified colloidal silica abrasive with sulfonic acid groups. Primary particle size: 14 nm, Secondary particle size: 34 nm.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": null,
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": null,
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": null,
+          "collection": {
+            "method": null,
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with anionic colloidal silica, β-alanine, surfactant, pH adjuster, and K2WO4 spike in DI water.",
+        "composition": {
+          "abrasive": {
+            "material": "Anionic colloidal silica",
+            "concentration": {
+              "initial": null,
+              "final": 0.75,
+              "unit": "wt.%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "β-alanine",
+              "type": "SiN polishing rate enhancer",
+              "concentration": {
+                "value": 0.45,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Triisopropylnaphthalene sulfonic acid Na salt",
+              "type": "Anionic surfactant",
+              "concentration": {
+                "value": 0.00066,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "Maleic acid",
+              "type": "pH adjuster",
+              "concentration": {
+                "value": 0.024,
+                "unit": "wt.%"
+              }
+            },
+            {
+              "name": "K2WO4",
+              "type": "Spike",
+              "concentration": {
+                "value": 0.13,
+                "unit": "wt.%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "DI water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "description": null,
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": 5,
+              "max": 5
+            },
+            "agents": [
+              {
+                "name": "Maleic acid",
+                "concentration": {
+                  "value": 0.024,
+                  "unit": "wt.%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive and slurry properties.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 34,
+              "max": 34,
+              "unit": "nm"
+            },
+             "measurement_method_used": "Dynamic Light Scattering (Secondary Size)"
+          },
+          "shape": "Colloidal",
+          "surface_area": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "stability": null,
+         "electrical_conductivity": {
+           "value": 944,
+           "unit": "µS/cm"
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "pressure": { "value": 1.5, "unit": "psi" },
+          "rotation_speed": { "value": 43, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 125, "unit": "ml/min" },
+          "pad": "IC1010",
+          "equipment": "A165-Westech (200 mm)",
+          "conditioning": "in-situ"
+        },
+        "material_removal_rate_sin": { "value": null, "unit": "nm/min" },
+        "material_removal_rate_teos": { "value": 0.57, "unit": "nm/min" },
+        "selectivity_sin_teos": { "value": null },
+        "robustness_value": { "value": null }
+      }
+    }
+  ]
+}

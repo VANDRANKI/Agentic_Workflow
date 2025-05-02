@@ -1,0 +1,278 @@
+{
+  "doi": "US 8,314,028 B2",
+  "title": "SLURRY COMPOSITIONS AND METHODS OF POLISHING A LAYER USING THE SLURRY COMPOSITIONS",
+  "year_published": "2012",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Slurry with Ceria abrasive (3 wt%), PAA ionic surfactant (0.8 wt%), Polyoxyethylene lauryl ether nonionic surfactant (0.03 wt%), and Glutamic acid polish accelerator (0.05 wt%) at pH 6. Used for CMP evaluation.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Polyacrylic acid",
+            "type": "Ionic Surfactant",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyoxyethylene lauryl ether",
+            "type": "Nonionic Surfactant",
+            "concentration": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Glutamic acid",
+            "type": "Polish Accelerating Agent",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 6.0,
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+        "ph_adjuster": {
+          "name": "Tetramethylammonium hydroxide",
+          "type": "Basic pH-controlling agent"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": null,
+          "unit": "nm",
+          "measurement_method_used": null,
+          "range_min": 120,
+          "range_max": 200
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "zeta_potential_details": "Positive charge in pH 4-7 range due to adsorbed amino acid (FIG. 2)"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 55,
+          "unit": "s",
+          "condition": "For 3000 Å step height"
+        },
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": 4.5,
+          "unit": "psi",
+          "type": "Down Force"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Reflexion (AMAT)",
+        "pad_composition": null,
+        "rotational_speed_platen": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "rotational_speed_head": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "back_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Slurry with Ceria abrasive (3 wt%) and PAA ionic surfactant (0.8 wt%) only at pH 6. Used for CMP evaluation comparison.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Polyacrylic acid",
+            "type": "Ionic Surfactant",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 6.0,
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+        "ph_adjuster": {
+          "name": "Tetramethylammonium hydroxide",
+          "type": "Basic pH-controlling agent"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": null,
+          "unit": "nm",
+          "measurement_method_used": null,
+          "range_min": 120,
+          "range_max": 200
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "zeta_potential_details": "Isoelectric point between pH 4-7 (FIG. 2)"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 100,
+          "unit": "s",
+          "condition": "For 3000 Å step height"
+        },
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": 4.5,
+          "unit": "psi",
+          "type": "Down Force"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Reflexion (AMAT)",
+        "pad_composition": null,
+        "rotational_speed_platen": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "rotational_speed_head": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "back_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "Slurry with Ceria abrasive (3 wt%), PAA ionic surfactant (0.8 wt%), and Polyoxyethylene lauryl ether nonionic surfactant (0.03 wt%) at pH 6. Used for CMP evaluation comparison.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": 3,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Polyacrylic acid",
+            "type": "Ionic Surfactant",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyoxyethylene lauryl ether",
+            "type": "Nonionic Surfactant",
+            "concentration": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": 6.0,
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+        "ph_adjuster": {
+          "name": "Tetramethylammonium hydroxide",
+          "type": "Basic pH-controlling agent"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": null,
+          "unit": "nm",
+          "measurement_method_used": null,
+          "range_min": 120,
+          "range_max": 200
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "zeta_potential_details": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 61,
+          "unit": "s",
+          "condition": "For 3000 Å step height"
+        },
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": 4.5,
+          "unit": "psi",
+          "type": "Down Force"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Reflexion (AMAT)",
+        "pad_composition": null,
+        "rotational_speed_platen": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "rotational_speed_head": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "back_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        }
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

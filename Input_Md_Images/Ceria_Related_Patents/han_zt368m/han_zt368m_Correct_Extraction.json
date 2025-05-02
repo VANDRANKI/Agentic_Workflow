@@ -1,0 +1,2959 @@
+{
+  "doi": "US8840798B2",
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITION AND METHOD FOR PRODUCING SEMICONDUCTOR DEVICE USING THE SAME",
+  "year_published": "2014",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "US8840798B2_Ex1-1",
+      "experiment_context": "Experiment Example 1-1: 35 nm colloidal silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane, pH 3.40. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 35,
+              "max": 35,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 1422,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 241,
+            "unit": "Å/min"
+          },
+          "Ta": null
+        },
+        "selectivity": {
+          "PETEOS_SiN": 5.90
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex1-2",
+      "experiment_context": "Experiment Example 1-2: 55 nm colloidal silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane, pH 3.40. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 1359,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 247,
+            "unit": "Å/min"
+          },
+          "Ta": 1084
+        },
+        "selectivity": {
+          "PETEOS_SiN": 5.50
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex1-3",
+      "experiment_context": "Experiment Example 1-3: 75 nm colloidal silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane, pH 3.40. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 75,
+              "max": 75,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 1261,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 251,
+            "unit": "Å/min"
+          },
+          "Ta": null
+        },
+        "selectivity": {
+          "PETEOS_SiN": 5.02
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex1-1_Comp",
+      "experiment_context": "Comparative Experiment Example 1-1: 35 nm colloidal silica, NO silane treatment, pH 3.40. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. No surface treatment.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 35,
+              "max": 35,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 132,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 465,
+            "unit": "Å/min"
+          },
+          "Ta": null
+        },
+        "selectivity": {
+          "PETEOS_SiN": 0.28
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+        {
+      "sample_id": "US8840798B2_Ex1-2_Comp",
+      "experiment_context": "Comparative Experiment Example 1-2: 55 nm colloidal silica, NO silane treatment, pH 3.40. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. No surface treatment.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 105,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 484,
+            "unit": "Å/min"
+          },
+          "Ta": null
+        },
+        "selectivity": {
+          "PETEOS_SiN": 0.22
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+        {
+      "sample_id": "US8840798B2_Ex1-3_Comp",
+      "experiment_context": "Comparative Experiment Example 1-3: 75 nm colloidal silica, NO silane treatment, pH 3.40. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. No surface treatment.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 75,
+              "max": 75,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 84,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 479,
+            "unit": "Å/min"
+          },
+          "Ta": null
+        },
+        "selectivity": {
+          "PETEOS_SiN": 0.18
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex2-1",
+      "experiment_context": "Experiment Example 2-1: pH variation study. 55 nm colloidal silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane, pH 3.00. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.00,
+              "max": 3.00
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 1222,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 240,
+            "unit": "Å/min"
+          },
+          "Ta": null
+        },
+        "selectivity": {
+          "PETEOS_SiN": 5.09
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex2-3",
+      "experiment_context": "Experiment Example 2-3 (labeled 2-2 in table): pH variation study. 55 nm colloidal silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane, pH 3.90. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.90,
+              "max": 3.90
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 1294,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 300,
+            "unit": "Å/min"
+          },
+          "Ta": null
+        },
+        "selectivity": {
+          "PETEOS_SiN": 4.31
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex2-1_Comp",
+      "experiment_context": "Comparative Experiment Example 2-1: pH variation study. 55 nm colloidal silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane, pH 2.00. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 2.00,
+              "max": 2.00
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 221,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 408,
+            "unit": "Å/min"
+          },
+          "Ta": null
+        },
+        "selectivity": {
+          "PETEOS_SiN": 0.54
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex2-2_Comp",
+      "experiment_context": "Comparative Experiment Example 2-2: pH variation study. 55 nm colloidal silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane, pH 5.00. Base slurry: 5 wt% abrasive, 0.1 wt% 5-aminotetrazole, 1.0 wt% H2O2. Aggregation occurred.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide. Aggregation occurred.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 5.00,
+              "max": 5.00
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Aggregation occurred at pH 5."
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "PETEOS": null,
+          "SiN": null,
+          "Ta": null
+        },
+        "selectivity": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null,
+        "table_speed": null,
+        "head_speed": null,
+        "slurry_flow_rate": null,
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex3-1",
+      "experiment_context": "Experiment Example 3-1: Amino acid additive study. Base slurry (Ex 1-2) + 0.05 wt% Arginine. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Arginine",
+              "type": "Amino Acid Additive",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 1458,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 160,
+            "unit": "Å/min"
+          },
+          "Ta": {
+             "value": 1154,
+             "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "PETEOS_SiN": 9.11
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex3-2",
+      "experiment_context": "Experiment Example 3-2: Amino acid additive study. Base slurry (Ex 1-2) + 0.05 wt% L-Aspartic Acid. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "L-Aspartic Acid",
+              "type": "Amino Acid Additive",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 1498,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 153,
+            "unit": "Å/min"
+          },
+          "Ta": {
+             "value": 1062,
+             "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "PETEOS_SiN": 9.79
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex3-3",
+      "experiment_context": "Experiment Example 3-3: Amino acid additive study. Base slurry (Ex 1-2) + 0.05 wt% Glutamic Acid. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glutamic Acid",
+              "type": "Amino Acid Additive",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 1519,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 186,
+            "unit": "Å/min"
+          },
+          "Ta": {
+             "value": 1133,
+             "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "PETEOS_SiN": 8.17
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex3-4",
+      "experiment_context": "Experiment Example 3-4: Amino acid additive study. Base slurry (Ex 1-2) + 0.05 wt% Alanine. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Alanine",
+              "type": "Amino Acid Additive",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 1540,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 103,
+            "unit": "Å/min"
+          },
+          "Ta": {
+             "value": 1239,
+             "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "PETEOS_SiN": 14.95
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex3-1_Comp",
+      "experiment_context": "Comparative Experiment Example 3-1: Additive study. Base slurry (Ex 1-2) + 0.05 wt% Oxalic Acid. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Oxalic Acid",
+              "type": "Additive (Comparative)",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 254,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 333,
+            "unit": "Å/min"
+          },
+          "Ta": {
+             "value": 1028,
+             "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "PETEOS_SiN": 0.76
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex3-2_Comp",
+      "experiment_context": "Comparative Experiment Example 3-2: Additive study. Base slurry (Ex 1-2) + 0.05 wt% Citric Acid. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Citric Acid",
+              "type": "Additive (Comparative)",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 305,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 354,
+            "unit": "Å/min"
+          },
+          "Ta": {
+             "value": 1046,
+             "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "PETEOS_SiN": 0.86
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex3-3_Comp",
+      "experiment_context": "Comparative Experiment Example 3-3: Additive study. Base slurry (Ex 1-2) + 0.05 wt% Tartaric Acid. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Tartaric Acid",
+              "type": "Additive (Comparative)",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "30-60",
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 513,
+            "unit": "Å/min"
+          },
+          "SiN": {
+            "value": 345,
+            "unit": "Å/min"
+          },
+          "Ta": {
+             "value": 1010,
+             "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "PETEOS_SiN": 1.49
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 140,
+          "unit": "g/cm²"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 400",
+        "pad_composition": "IC1000",
+        "table_speed": {
+          "value": 93,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 87,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 200,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": null,
+        "profile": null
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex4-1",
+      "experiment_context": "Experiment Example 4-1: Profile improving agent study (300mm wafer). Base slurry (Ex 3-4: 55nm silane-silica, Alanine) + 0.5 wt% Ethylene Glycol. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+             {
+              "name": "Alanine",
+              "type": "Amino Acid Additive",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylene Glycol",
+              "type": "Profile Improving Agent",
+              "concentration": {
+                "value": 0.5,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 60,
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 747,
+            "unit": "Å/min"
+          },
+          "SiN": null,
+          "Ta": null
+        },
+        "selectivity": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 762",
+        "pad_composition": "IC1070",
+        "table_speed": {
+          "value": 67,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 53,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": {
+           "value": 6.44,
+           "unit": "%"
+        },
+        "profile": "Edge slow"
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex4-2",
+      "experiment_context": "Experiment Example 4-2: Profile improving agent study (300mm wafer). Base slurry (Ex 3-4: 55nm silane-silica, Alanine) + 1.0 wt% Ethylene Glycol. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+             {
+              "name": "Alanine",
+              "type": "Amino Acid Additive",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylene Glycol",
+              "type": "Profile Improving Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 60,
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 678,
+            "unit": "Å/min"
+          },
+          "SiN": null,
+          "Ta": null
+        },
+        "selectivity": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 762",
+        "pad_composition": "IC1070",
+        "table_speed": {
+          "value": 67,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 53,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": {
+           "value": 5.66,
+           "unit": "%"
+        },
+        "profile": "Edge slow"
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex4-3",
+      "experiment_context": "Experiment Example 4-3: Profile improving agent study (300mm wafer). Base slurry (Ex 3-4: 55nm silane-silica, Alanine) + 3.0 wt% Ethylene Glycol. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+             {
+              "name": "Alanine",
+              "type": "Amino Acid Additive",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylene Glycol",
+              "type": "Profile Improving Agent",
+              "concentration": {
+                "value": 3.0,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 60,
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 704,
+            "unit": "Å/min"
+          },
+          "SiN": null,
+          "Ta": null
+        },
+        "selectivity": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 762",
+        "pad_composition": "IC1070",
+        "table_speed": {
+          "value": 67,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 53,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": {
+           "value": 4.98,
+           "unit": "%"
+        },
+        "profile": "Edge slow"
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex4-4",
+      "experiment_context": "Experiment Example 4-4: Profile improving agent study (300mm wafer). Base slurry (Ex 3-4: 55nm silane-silica, Alanine) + 1.0 wt% Polyethylene Glycol. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+             {
+              "name": "Alanine",
+              "type": "Amino Acid Additive",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Polyethylene Glycol",
+              "type": "Profile Improving Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 60,
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 692,
+            "unit": "Å/min"
+          },
+          "SiN": null,
+          "Ta": null
+        },
+        "selectivity": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 762",
+        "pad_composition": "IC1070",
+        "table_speed": {
+          "value": 67,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 53,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": {
+           "value": 8.45,
+           "unit": "%"
+        },
+        "profile": "Edge slow"
+      }
+    },
+    {
+      "sample_id": "US8840798B2_Ex4-1_Comp",
+      "experiment_context": "Comparative Experiment Example 4-1: Profile improving agent study (300mm wafer). Base slurry (Ex 3-4: 55nm silane-silica, Alanine), NO Glycol. pH 3.40.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica synthesis details not provided in the patent text. Surface treated with gamma-aminopropyltriethoxysilane.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared by mixing components. pH adjusted using Nitric Acid / Potassium Hydroxide.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica, surface treated with 0.25 wt% gamma-aminopropyltriethoxysilane",
+            "concentration": {
+              "initial": null,
+              "final": 5.0,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+             {
+              "name": "Alanine",
+              "type": "Amino Acid Additive",
+              "concentration": {
+                "value": 0.05,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "5-aminotetrazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizing Agent",
+              "concentration": {
+                "value": 1.0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using Nitric Acid / Potassium Hydroxide.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.40,
+              "max": 3.40
+            },
+            "agents": [
+              {
+                "name": "Nitric Acid",
+                "concentration": null
+              },
+              {
+                "name": "Potassium Hydroxide",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Abrasive characterization.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 55,
+              "max": 55,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": "Stated as excellent in patent description, no quantitative data."
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": 60,
+          "unit": "s"
+        },
+        "material_removal_rate": {
+          "PETEOS": {
+            "value": 756,
+            "unit": "Å/min"
+          },
+          "SiN": null,
+          "Ta": null
+        },
+        "selectivity": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Poli 762",
+        "pad_composition": "IC1070",
+        "table_speed": {
+          "value": 67,
+          "unit": "rpm"
+        },
+        "head_speed": {
+          "value": 53,
+          "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "non_uniformity_NU": {
+           "value": 13.94,
+           "unit": "%"
+        },
+        "profile": "Edge fast"
+      }
+    }
+  ]
+}

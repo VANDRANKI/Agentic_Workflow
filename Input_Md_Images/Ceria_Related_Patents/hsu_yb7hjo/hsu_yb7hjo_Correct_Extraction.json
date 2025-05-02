@@ -1,0 +1,1156 @@
+{
+  "doi": "US 2017/0098560 A1",
+  "title": "SLURRY COMPOSITION FOR CHEMICAL MECHANICAL POLISHING OF GE-BASED MATERIALS AND DEVICES",
+  "year_published": "2017",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Control",
+      "experiment_context": "Control slurry composition without Ge removal rate enhancer or etching inhibitor.",
+      "slurry_preparation": {
+        "description": "Base slurry composition used for comparison.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": null,
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "2200",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "80",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "27.5",
+          "unit": ""
+        },
+        "recess_depth": {
+          "value": "835",
+          "unit": "Å"
+        }
+      }
+    },
+    {
+      "sample_id": "Example1_2-methylpyridine_500ppm",
+      "experiment_context": "Slurry with 500 ppm 2-methylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "2-methylpyridine",
+            "concentration": {
+              "value": "500",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3332",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "95",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "35.07",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example1_2-methylpyridine_2000ppm",
+      "experiment_context": "Slurry with 2000 ppm 2-methylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "2-methylpyridine",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3521",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "96",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "36.68",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example2_3-methylpyridine_500ppm",
+      "experiment_context": "Slurry with 500 ppm 3-methylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "3-methylpyridine",
+            "concentration": {
+              "value": "500",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "2354",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "97",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "24.27",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example2_3-methylpyridine_2000ppm",
+      "experiment_context": "Slurry with 2000 ppm 3-methylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "3-methylpyridine",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "2398",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "94",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "25.51",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example3_4-methylpyridine_500ppm",
+      "experiment_context": "Slurry with 500 ppm 4-methylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "4-methylpyridine",
+            "concentration": {
+              "value": "500",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3478",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "96",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "36.23",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example3_4-methylpyridine_2000ppm",
+      "experiment_context": "Slurry with 2000 ppm 4-methylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "4-methylpyridine",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3564",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "97",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "36.74",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example4_2,3-dimethylpyridine_500ppm",
+      "experiment_context": "Slurry with 500 ppm 2,3-dimethylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "2,3-dimethylpyridine",
+            "concentration": {
+              "value": "500",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3212",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "90",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "35.69",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example4_2,3-dimethylpyridine_2000ppm",
+      "experiment_context": "Slurry with 2000 ppm 2,3-dimethylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "2,3-dimethylpyridine",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3366",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "93",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "36.19",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example5_2,4-dimethylpyridine_500ppm",
+      "experiment_context": "Slurry with 500 ppm 2,4-dimethylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "2,4-dimethylpyridine",
+            "concentration": {
+              "value": "500",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3388",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "91",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "37.23",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example5_2,4-dimethylpyridine_2000ppm",
+      "experiment_context": "Slurry with 2000 ppm 2,4-dimethylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "2,4-dimethylpyridine",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3674",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "89",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "41.28",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example6_2,6-dimethylpyridine_500ppm",
+      "experiment_context": "Slurry with 500 ppm 2,6-dimethylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "2,6-dimethylpyridine",
+            "concentration": {
+              "value": "500",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3366",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "92",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "36.59",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example6_2,6-dimethylpyridine_2000ppm",
+      "experiment_context": "Slurry with 2000 ppm 2,6-dimethylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "2,6-dimethylpyridine",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3564",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "88",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "40.50",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example7_3,5-dimethylpyridine_500ppm",
+      "experiment_context": "Slurry with 500 ppm 3,5-dimethylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "3,5-dimethylpyridine",
+            "concentration": {
+              "value": "500",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "2310",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "91",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "25.38",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example7_3,5-dimethylpyridine_2000ppm",
+      "experiment_context": "Slurry with 2000 ppm 3,5-dimethylpyridine as Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "3,5-dimethylpyridine",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": null,
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "2354",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "90",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "26.16",
+          "unit": ""
+        },
+        "recess_depth": null
+      }
+    },
+    {
+      "sample_id": "Example1_InhibitorOnly",
+      "experiment_context": "Slurry with 2000 ppm 2-mercaptopyridine N-oxide as etching inhibitor, no Ge removal rate enhancer.",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added etching inhibitor.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": null,
+          "etching_inhibitor": {
+            "name": "2-mercaptopyridine N-oxide",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "1845",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "28",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "65",
+          "unit": ""
+        },
+        "recess_depth": {
+          "value": "100",
+          "unit": "Å"
+        }
+      }
+    },
+    {
+      "sample_id": "Example2_Inhibitor_Enhancer",
+      "experiment_context": "Slurry with 2000 ppm 2-mercaptopyridine N-oxide (etching inhibitor) and 2000 ppm 2-methylpyridine (Ge removal rate enhancer).",
+      "slurry_preparation": {
+        "description": "Slurry composition based on control with added etching inhibitor and enhancer.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen Peroxide",
+            "formula": "H2O2",
+            "concentration": {
+              "value": "1000",
+              "unit": "ppm"
+            }
+          },
+          "ge_removal_rate_enhancer": {
+            "name": "2-methylpyridine",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "etching_inhibitor": {
+            "name": "2-mercaptopyridine N-oxide",
+            "concentration": {
+              "value": "2000",
+              "unit": "ppm"
+            }
+          },
+          "surfactant": {
+            "name": "Polyethylene Glycol",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          },
+          "solvent": {
+            "name": "DI water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "value": "3",
+              "unit": ""
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide (SiO2)",
+        "material_removal_rate_ge": {
+          "value": "3044",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": "50",
+          "unit": "Å/min"
+        },
+        "selectivity_ge_oxide": {
+          "value": "60",
+          "unit": ""
+        },
+        "recess_depth": {
+          "value": "95",
+          "unit": "Å"
+        }
+      }
+    }
+  ]
+}

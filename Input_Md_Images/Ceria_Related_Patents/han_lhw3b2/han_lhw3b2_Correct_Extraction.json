@@ -1,0 +1,791 @@
+{
+  "doi": null,
+  "title": "SLURRY COMPOSITIONS, METHODS OF POLISHING POLYSILICON LAYERS USING THE SLURRY COMPOSITIONS AND METHODS OF MANUFACTURING SEMICONDUCTOR DEVICES USING THE SLURRY COMPOSITIONS",
+  "year_published": "2006",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "Comparative_Example",
+      "experiment_context": "Polishing of polysilicon layer using a slurry with 3 wt% colloidal silica abrasive and 0 ppm (0 wt%) non-ionic surfactant in a basic aqueous solvent (pH 9-12).",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 3,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": null,
+              "type": "Non-ionic surfactant",
+              "concentration": {
+                "value": 0,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": 9,
+              "max": 12
+            },
+            "agents": [
+               {
+                 "name": "Basic Compound (e.g., TMAH, TEAH, KOH, NH4OH, etc.)",
+                 "concentration": null
+               }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 30,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "substrate": "Polysilicon layer (doped with impurities, ~10,000 Å thick) on blanket substrate",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 263.8,
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "table_rotation_speed": {
+            "value": 90,
+            "unit": "rpm"
+        },
+        "head_rotation_speed": {
+            "value": 85,
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRAOnTrack (Applied Materials, Inc.)",
+        "pad_composition": "IC1000 stack pad (Rodel Co.)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Polishing of polysilicon layer using a slurry with 3 wt% colloidal silica abrasive and 10 ppm (0.001 wt%) non-ionic surfactant in a basic aqueous solvent (pH 9-12).",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 3,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": null,
+              "type": "Non-ionic surfactant",
+              "concentration": {
+                "value": 0.001,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": 9,
+              "max": 12
+            },
+            "agents": [
+               {
+                 "name": "Basic Compound (e.g., TMAH, TEAH, KOH, NH4OH, etc.)",
+                 "concentration": null
+               }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 30,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "substrate": "Polysilicon layer (doped with impurities, ~10,000 Å thick) on blanket substrate",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 206.0,
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "table_rotation_speed": {
+            "value": 90,
+            "unit": "rpm"
+        },
+        "head_rotation_speed": {
+            "value": 85,
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRAOnTrack (Applied Materials, Inc.)",
+        "pad_composition": "IC1000 stack pad (Rodel Co.)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Polishing of polysilicon layer using a slurry with 3 wt% colloidal silica abrasive and 15 ppm (0.0015 wt%) non-ionic surfactant in a basic aqueous solvent (pH 9-12).",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 3,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": null,
+              "type": "Non-ionic surfactant",
+              "concentration": {
+                "value": 0.0015,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": 9,
+              "max": 12
+            },
+            "agents": [
+               {
+                 "name": "Basic Compound (e.g., TMAH, TEAH, KOH, NH4OH, etc.)",
+                 "concentration": null
+               }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 30,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "substrate": "Polysilicon layer (doped with impurities, ~10,000 Å thick) on blanket substrate",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 181.4,
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "table_rotation_speed": {
+            "value": 90,
+            "unit": "rpm"
+        },
+        "head_rotation_speed": {
+            "value": 85,
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRAOnTrack (Applied Materials, Inc.)",
+        "pad_composition": "IC1000 stack pad (Rodel Co.)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Polishing of polysilicon layer using a slurry with 3 wt% colloidal silica abrasive and 20 ppm (0.002 wt%) non-ionic surfactant in a basic aqueous solvent (pH 9-12).",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 3,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": null,
+              "type": "Non-ionic surfactant",
+              "concentration": {
+                "value": 0.002,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": 9,
+              "max": 12
+            },
+            "agents": [
+               {
+                 "name": "Basic Compound (e.g., TMAH, TEAH, KOH, NH4OH, etc.)",
+                 "concentration": null
+               }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 30,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "substrate": "Polysilicon layer (doped with impurities, ~10,000 Å thick) on blanket substrate",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 152.5,
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "table_rotation_speed": {
+            "value": 90,
+            "unit": "rpm"
+        },
+        "head_rotation_speed": {
+            "value": 85,
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRAOnTrack (Applied Materials, Inc.)",
+        "pad_composition": "IC1000 stack pad (Rodel Co.)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Polishing of polysilicon layer using a slurry with 3 wt% colloidal silica abrasive and 25 ppm (0.0025 wt%) non-ionic surfactant in a basic aqueous solvent (pH 9-12).",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 3,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": null,
+              "type": "Non-ionic surfactant",
+              "concentration": {
+                "value": 0.0025,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": 9,
+              "max": 12
+            },
+            "agents": [
+               {
+                 "name": "Basic Compound (e.g., TMAH, TEAH, KOH, NH4OH, etc.)",
+                 "concentration": null
+               }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 30,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "substrate": "Polysilicon layer (doped with impurities, ~10,000 Å thick) on blanket substrate",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 97.4,
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "table_rotation_speed": {
+            "value": 90,
+            "unit": "rpm"
+        },
+        "head_rotation_speed": {
+            "value": 85,
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRAOnTrack (Applied Materials, Inc.)",
+        "pad_composition": "IC1000 stack pad (Rodel Co.)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Polishing of polysilicon layer using a slurry with 3 wt% colloidal silica abrasive and 30 ppm (0.003 wt%) non-ionic surfactant in a basic aqueous solvent (pH 9-12).",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 3,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": null,
+              "type": "Non-ionic surfactant",
+              "concentration": {
+                "value": 0.003,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": 9,
+              "max": 12
+            },
+            "agents": [
+               {
+                 "name": "Basic Compound (e.g., TMAH, TEAH, KOH, NH4OH, etc.)",
+                 "concentration": null
+               }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 30,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "substrate": "Polysilicon layer (doped with impurities, ~10,000 Å thick) on blanket substrate",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 70.4,
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "table_rotation_speed": {
+            "value": 90,
+            "unit": "rpm"
+        },
+        "head_rotation_speed": {
+            "value": 85,
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRAOnTrack (Applied Materials, Inc.)",
+        "pad_composition": "IC1000 stack pad (Rodel Co.)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Polishing of polysilicon layer using a slurry with 3 wt% colloidal silica abrasive and 50 ppm (0.005 wt%) non-ionic surfactant in a basic aqueous solvent (pH 9-12).",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 3,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": null,
+              "type": "Non-ionic surfactant",
+              "concentration": {
+                "value": 0.005,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": 9,
+              "max": 12
+            },
+            "agents": [
+               {
+                 "name": "Basic Compound (e.g., TMAH, TEAH, KOH, NH4OH, etc.)",
+                 "concentration": null
+               }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 30,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "substrate": "Polysilicon layer (doped with impurities, ~10,000 Å thick) on blanket substrate",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 59.3,
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "table_rotation_speed": {
+            "value": 90,
+            "unit": "rpm"
+        },
+        "head_rotation_speed": {
+            "value": 85,
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRAOnTrack (Applied Materials, Inc.)",
+        "pad_composition": "IC1000 stack pad (Rodel Co.)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_7",
+      "experiment_context": "Polishing of polysilicon layer using a slurry with 3 wt% colloidal silica abrasive and 100 ppm (0.01 wt%) non-ionic surfactant in a basic aqueous solvent (pH 9-12).",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 3,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": null,
+              "type": "Non-ionic surfactant",
+              "concentration": {
+                "value": 0.01,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": 9,
+              "max": 12
+            },
+            "agents": [
+               {
+                 "name": "Basic Compound (e.g., TMAH, TEAH, KOH, NH4OH, etc.)",
+                 "concentration": null
+               }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 30,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "substrate": "Polysilicon layer (doped with impurities, ~10,000 Å thick) on blanket substrate",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 40.4,
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "table_rotation_speed": {
+            "value": 90,
+            "unit": "rpm"
+        },
+        "head_rotation_speed": {
+            "value": 85,
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRAOnTrack (Applied Materials, Inc.)",
+        "pad_composition": "IC1000 stack pad (Rodel Co.)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_8",
+      "experiment_context": "Polishing of polysilicon layer using a slurry with 3 wt% colloidal silica abrasive and 150 ppm (0.015 wt%) non-ionic surfactant in a basic aqueous solvent (pH 9-12).",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Silica",
+            "concentration": {
+              "initial": null,
+              "final": 3,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": null,
+              "type": "Non-ionic surfactant",
+              "concentration": {
+                "value": 0.015,
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": 9,
+              "max": 12
+            },
+            "agents": [
+               {
+                 "name": "Basic Compound (e.g., TMAH, TEAH, KOH, NH4OH, etc.)",
+                 "concentration": null
+               }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": 30,
+              "max": 300,
+              "unit": "nm"
+            }
+          },
+          "shape": null,
+          "surface_area": null
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "substrate": "Polysilicon layer (doped with impurities, ~10,000 Å thick) on blanket substrate",
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": 27.1,
+          "unit": "nm/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "table_rotation_speed": {
+            "value": 90,
+            "unit": "rpm"
+        },
+        "head_rotation_speed": {
+            "value": 85,
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRAOnTrack (Applied Materials, Inc.)",
+        "pad_composition": "IC1000 stack pad (Rodel Co.)"
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

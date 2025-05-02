@@ -1,0 +1,636 @@
+{
+  "doi": "US Patent 5,893,796",
+  "title": "Method for chemical-mechanical planarization of a substrate on a fixed-abrasive polishing pad",
+  "year_published": "1999",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "US5893796_W_KI_pH4.5",
+      "experiment_context": "Planarization of Tungsten (W) using a silica-ceria fixed-abrasive polishing pad and an abrasive-free potassium iodate (KI) planarizing solution at pH 4.5. Based on specific example in text.",
+      "planarizing_solution": {
+        "description": "Abrasive-free planarizing solution details.",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [
+            {
+              "name": "Potassium Iodate",
+              "type": "Oxidant",
+              "concentration": {
+                "value": null,
+                "unit": null
+              },
+              "source": "Modified QCTT1011-14B (Rodel Corporation)"
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 4.5,
+              "max": 4.5
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Forms non-soluble oxides / scabrous layer on substrate surface.",
+        "selectivity": "Potentially selective against insulating layer.",
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Tungsten",
+        "pad_type": "Fixed-abrasive pad (silica-ceria)",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Increased polishing rate; Planar surface without etching.",
+        "material_removal_mechanism": "Mechanical removal of chemically modified (oxidized/scabrous) layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "US5893796_W_Oxidant_pH4-5",
+      "experiment_context": "Planarization of Tungsten (W) using a fixed-abrasive polishing pad and an abrasive-free planarizing solution with an oxidant (e.g., Ferric Nitrate, Hydrogen Peroxide, Potassium Iodate, Bromine) at pH 4.0-5.0. Based on claims 2, 7, 13, 16, 17, 18, 23, 24, 25, 26, 33, 37.",
+      "planarizing_solution": {
+        "description": "Abrasive-free planarizing solution details.",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [
+            {
+              "name": "Ferric Nitrate / Hydrogen Peroxide / Potassium Iodate / Bromine",
+              "type": "Oxidant",
+              "concentration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 4.0,
+              "max": 5.0
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Forms non-soluble oxides / scabrous layer on substrate surface.",
+        "selectivity": "Potentially selective against insulating layer.",
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Tungsten",
+        "pad_type": "Fixed-abrasive pad",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Increased polishing rate; Planar surface without etching.",
+        "material_removal_mechanism": "Mechanical removal of chemically modified (oxidized/scabrous) layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "US5893796_Cu_Oxidant_pH_low_high",
+      "experiment_context": "Planarization of Copper (Cu) using a fixed-abrasive polishing pad and an abrasive-free planarizing solution with an oxidant at pH < 2.5 or > 10.5. Based on claim 3.",
+      "planarizing_solution": {
+        "description": "Abrasive-free planarizing solution details.",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [
+            {
+              "name": "Oxidant",
+              "type": "Oxidant",
+              "concentration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "description": "pH < 2.5 or pH > 10.5"
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Forms non-soluble oxides / scabrous layer on substrate surface.",
+        "selectivity": "Potentially selective against insulating layer.",
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Copper",
+        "pad_type": "Fixed-abrasive pad",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Increased polishing rate; Planar surface without etching.",
+        "material_removal_mechanism": "Mechanical removal of chemically modified (oxidized/scabrous) layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "US5893796_Cu_HNO3_EtOH",
+      "experiment_context": "Planarization of Copper (Cu) using a fixed-abrasive polishing pad and an abrasive-free planarizing solution containing Nitric Acid (0.1-5.0%) and Ethanol (0.1-10.0%) at pH < 2.5 or > 10.5. Based on text example.",
+      "planarizing_solution": {
+        "description": "Abrasive-free planarizing solution details.",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [
+            {
+              "name": "Nitric Acid",
+              "type": "Oxidant",
+              "concentration": {
+                "min": 0.1,
+                "max": 5.0,
+                "unit": "%"
+              }
+            },
+            {
+              "name": "Ethanol",
+              "type": "Additive",
+              "concentration": {
+                "min": 0.1,
+                "max": 10.0,
+                "unit": "%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "description": "pH < 2.5 or pH > 10.5"
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Forms non-soluble oxides / scabrous layer on substrate surface.",
+        "selectivity": "Potentially selective against insulating layer.",
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Copper",
+        "pad_type": "Fixed-abrasive pad",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Increased polishing rate; Planar surface without etching.",
+        "material_removal_mechanism": "Mechanical removal of chemically modified (oxidized/scabrous) layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "US5893796_Cu_HNO3_BTA",
+      "experiment_context": "Planarization of Copper (Cu) using a fixed-abrasive polishing pad and an abrasive-free planarizing solution containing Nitric Acid (0.1-5.0%) and Benzotriazole (BTA, 0.1-1.0%) at pH < 2.5 or > 10.5. Based on text example.",
+      "planarizing_solution": {
+        "description": "Abrasive-free planarizing solution details.",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [
+            {
+              "name": "Nitric Acid",
+              "type": "Oxidant",
+              "concentration": {
+                "min": 0.1,
+                "max": 5.0,
+                "unit": "%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Additive",
+              "concentration": {
+                "min": 0.1,
+                "max": 1.0,
+                "unit": "%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "description": "pH < 2.5 or pH > 10.5"
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Forms non-soluble oxides / scabrous layer on substrate surface.",
+        "selectivity": "Potentially selective against insulating layer.",
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Copper",
+        "pad_type": "Fixed-abrasive pad",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Increased polishing rate; Planar surface without etching.",
+        "material_removal_mechanism": "Mechanical removal of chemically modified (oxidized/scabrous) layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "US5893796_Cu_NH4OH",
+      "experiment_context": "Planarization of Copper (Cu) using a fixed-abrasive polishing pad and an abrasive-free planarizing solution containing Ammonium Hydroxide (0.5-3.0%) at pH < 2.5 or > 10.5. Based on text example.",
+      "planarizing_solution": {
+        "description": "Abrasive-free planarizing solution details.",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [
+            {
+              "name": "Ammonium Hydroxide",
+              "type": "Oxidant/Complexant",
+              "concentration": {
+                "min": 0.5,
+                "max": 3.0,
+                "unit": "%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "description": "pH < 2.5 or pH > 10.5"
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Forms non-soluble oxides / scabrous layer on substrate surface.",
+        "selectivity": "Potentially selective against insulating layer.",
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Copper",
+        "pad_type": "Fixed-abrasive pad",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Increased polishing rate; Planar surface without etching.",
+        "material_removal_mechanism": "Mechanical removal of chemically modified (oxidized/scabrous) layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "US5893796_Cu_AmmoniaFerricyanide",
+      "experiment_context": "Planarization of Copper (Cu) using a fixed-abrasive polishing pad and an abrasive-free planarizing solution containing Ammonia Ferricyanide (0.5-3.0%) at pH < 2.5 or > 10.5. Based on text example.",
+      "planarizing_solution": {
+        "description": "Abrasive-free planarizing solution details.",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [
+            {
+              "name": "Ammonia Ferricyanide",
+              "type": "Oxidant",
+              "concentration": {
+                "min": 0.5,
+                "max": 3.0,
+                "unit": "%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "description": "pH < 2.5 or pH > 10.5"
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Forms non-soluble oxides / scabrous layer on substrate surface.",
+        "selectivity": "Potentially selective against insulating layer.",
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Copper",
+        "pad_type": "Fixed-abrasive pad",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Increased polishing rate; Planar surface without etching.",
+        "material_removal_mechanism": "Mechanical removal of chemically modified (oxidized/scabrous) layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "US5893796_Al_Oxidant_pH3-10",
+      "experiment_context": "Planarization of Aluminum (Al) using a fixed-abrasive polishing pad and an abrasive-free planarizing solution with an oxidant (e.g., Hydrogen Peroxide, Potassium Iodate, Ferric Nitrate) at pH 3.0-10.0. Based on claims 4, 8, 14, 19, 20, 21, 27, 28, 34, 38.",
+      "planarizing_solution": {
+        "description": "Abrasive-free planarizing solution details.",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [
+            {
+              "name": "Hydrogen Peroxide / Potassium Iodate / Ferric Nitrate",
+              "type": "Oxidant",
+              "concentration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": 3.0,
+              "max": 10.0
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Forms non-soluble oxides / scabrous layer on substrate surface.",
+        "selectivity": "Potentially selective against insulating layer.",
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Aluminum",
+        "pad_type": "Fixed-abrasive pad",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Increased polishing rate; Planar surface without etching.",
+        "material_removal_mechanism": "Mechanical removal of chemically modified (oxidized/scabrous) layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "US5893796_Metal_Oxidant_pH_lte_5",
+      "experiment_context": "General method for planarizing a metal surface using a fixed-abrasive polishing pad and an abrasive-free planarizing solution with a chemical oxidant at pH <= 5.0. Based on claims 1, 6, 12.",
+      "planarizing_solution": {
+        "description": "Abrasive-free planarizing solution details.",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [
+            {
+              "name": "Chemical Oxidant",
+              "type": "Oxidant",
+              "concentration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": null,
+              "max": 5.0
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Forms non-soluble oxides / scabrous layer on substrate surface.",
+        "selectivity": "Potentially selective against insulating layer.",
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Metal",
+        "pad_type": "Fixed-abrasive pad",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Increased polishing rate; Planar surface without etching.",
+        "material_removal_mechanism": "Mechanical removal of chemically modified (oxidized/scabrous) layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    },
+     {
+      "sample_id": "US5893796_Chalcogenide_NonDissolving",
+      "experiment_context": "Planarization of a chalcogenide material (which forms a native oxide) using a fixed-abrasive polishing pad and a liquid that does not dissolve the chalcogenide. Based on text description.",
+      "planarizing_solution": {
+        "description": "Planarizing solution details (may or may not contain added oxidant).",
+        "composition": {
+          "abrasive": {
+            "material": "None",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "solvent": {
+            "name": "Liquid (e.g., Deionized water)",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Solution processing parameters.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "description": "pH controlled to not dissolve chalcogenide material"
+            },
+            "agents": []
+          }
+        }
+      },
+      "process_characteristics": {
+        "description": "Characteristics of the CMP process and resulting surface.",
+        "surface_modification": "Native oxide layer present/formed.",
+        "selectivity": null,
+        "defect_reduction": "Aimed at reducing defects compared to dry fixed-abrasive polishing."
+      },
+      "cmp_conditions_and_outcome": {
+        "substrate_material": "Chalcogenide",
+        "pad_type": "Fixed-abrasive pad",
+        "polishing_process": "Substrate pressed against pad with relative motion.",
+        "expected_outcome": "Planarization.",
+        "material_removal_mechanism": "Mechanical removal of native oxide layer by fixed abrasives.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    }
+  ]
+}

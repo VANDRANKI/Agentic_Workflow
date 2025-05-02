@@ -1,0 +1,327 @@
+{
+  "patent_number": "US 9,416,297 B2",
+  "title": "CHEMICAL MECHANICAL POLISHING METHOD USING SLURRY COMPOSITION CONTAINING N-OXIDE COMPOUND",
+  "year_published": "2016",
+  "source": "US Patent",
+  "samples": [
+    {
+      "sample_id": "hsu_vps7mz_Slurry1_NoInhibitor",
+      "experiment_context": "Baseline slurry composition without N-oxide etching inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "2000",
+            "unit": "ppm"
+          }
+        },
+        "oxidant": {
+          "name": "H2O2",
+          "concentration": {
+            "value": "1000",
+            "unit": "ppm"
+          }
+        },
+        "etching_inhibitor": {
+          "name": null,
+          "concentration": null
+        },
+        "surfactant": {
+          "name": "Polyethylene glycol",
+          "concentration": {
+            "value": "200",
+            "unit": "ppm"
+          }
+        },
+        "solvent": {
+          "name": "De-ionized water",
+          "percentage": null
+        },
+        "ph_control": {
+          "target": {
+            "value": "3",
+            "unit": ""
+          },
+          "agents": null
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide",
+        "polishing_conditions": null,
+        "material_removal_rate_ge": {
+          "value": "2200",
+          "unit": "angstroms/minute"
+        },
+        "material_removal_rate_oxide": {
+          "value": "80",
+          "unit": "angstroms/minute"
+        },
+        "selectivity_ge_oxide": {
+          "value": "27.5",
+          "unit": ""
+        },
+        "recess_depth_ge": {
+          "value": "835",
+          "unit": "angstroms"
+        }
+      }
+    },
+    {
+      "sample_id": "hsu_vps7mz_Slurry2_Mercaptopyridine",
+      "experiment_context": "Slurry composition with H2O2 oxidant and 2-mercaptopyridine N-oxide etching inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "2000",
+            "unit": "ppm"
+          }
+        },
+        "oxidant": {
+          "name": "H2O2",
+          "concentration": {
+            "value": "1000",
+            "unit": "ppm"
+          }
+        },
+        "etching_inhibitor": {
+          "name": "2-mercaptopyridine N-oxide",
+          "concentration": {
+            "value": "2000",
+            "unit": "ppm"
+          }
+        },
+        "surfactant": {
+          "name": "Polyethylene glycol",
+          "concentration": {
+            "value": "200",
+            "unit": "ppm"
+          }
+        },
+        "solvent": {
+          "name": "De-ionized water",
+          "percentage": null
+        },
+        "ph_control": {
+          "target": {
+            "value": "3",
+            "unit": ""
+          },
+          "agents": null
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide",
+        "polishing_conditions": null,
+        "material_removal_rate_ge": {
+          "value": "1845",
+          "unit": "angstroms/minute"
+        },
+        "material_removal_rate_oxide": {
+          "value": "28",
+          "unit": "angstroms/minute"
+        },
+        "selectivity_ge_oxide": {
+          "value": "65",
+          "unit": ""
+        },
+        "recess_depth_ge": {
+          "value": "100",
+          "unit": "angstroms"
+        }
+      }
+    },
+    {
+      "sample_id": "hsu_vps7mz_Slurry3_Methylpyridine",
+      "experiment_context": "Slurry composition with Ammonium peroxydisulfate oxidant and 4-methylpyridine N-oxide etching inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "2000",
+            "unit": "ppm"
+          }
+        },
+        "oxidant": {
+          "name": "Ammonium peroxydisulfate",
+          "concentration": {
+            "value": "30000",
+            "unit": "ppm"
+          }
+        },
+        "etching_inhibitor": {
+          "name": "4-methylpyridine N-oxide",
+          "concentration": {
+            "value": "5000",
+            "unit": "ppm"
+          }
+        },
+        "surfactant": {
+          "name": "Polyethylene glycol",
+          "concentration": {
+            "value": "500",
+            "unit": "ppm"
+          }
+        },
+        "solvent": {
+          "name": "De-ionized water",
+          "percentage": null
+        },
+        "ph_control": {
+          "target": {
+            "value": "3",
+            "unit": ""
+          },
+          "agents": null
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide",
+        "polishing_conditions": null,
+        "material_removal_rate_ge": {
+          "value": "1245",
+          "unit": "angstroms/minute"
+        },
+        "material_removal_rate_oxide": {
+          "value": "15",
+          "unit": "angstroms/minute"
+        },
+        "selectivity_ge_oxide": {
+          "value": "83",
+          "unit": ""
+        },
+        "recess_depth_ge": {
+          "value": "35",
+          "unit": "angstroms"
+        }
+      }
+    },
+    {
+      "sample_id": "hsu_vps7mz_Slurry4_Methylmorpholine_pH6",
+      "experiment_context": "Slurry composition with tert-butyl hydrogen peroxide oxidant and N-methylmorpholine N-oxide etching inhibitor at pH 6.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "2000",
+            "unit": "ppm"
+          }
+        },
+        "oxidant": {
+          "name": "tert-butyl hydrogen peroxide",
+          "concentration": {
+            "value": "8000",
+            "unit": "ppm"
+          }
+        },
+        "etching_inhibitor": {
+          "name": "N-methylmorpholine N-oxide",
+          "concentration": {
+            "value": "3000",
+            "unit": "ppm"
+          }
+        },
+        "surfactant": {
+          "name": "Polyethylene glycol",
+          "concentration": {
+            "value": "500",
+            "unit": "ppm"
+          }
+        },
+        "solvent": {
+          "name": "De-ionized water",
+          "percentage": null
+        },
+        "ph_control": {
+          "target": {
+            "value": "6",
+            "unit": ""
+          },
+          "agents": null
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide",
+        "polishing_conditions": null,
+        "material_removal_rate_ge": {
+          "value": "1856",
+          "unit": "angstroms/minute"
+        },
+        "material_removal_rate_oxide": {
+          "value": "21",
+          "unit": "angstroms/minute"
+        },
+        "selectivity_ge_oxide": {
+          "value": "88",
+          "unit": ""
+        },
+        "recess_depth_ge": {
+          "value": "48",
+          "unit": "angstroms"
+        }
+      }
+    },
+    {
+      "sample_id": "hsu_vps7mz_Slurry5_Methylmorpholine_pH10_AbrasiveFree",
+      "experiment_context": "Abrasive-free slurry composition with tert-butyl hydrogen peroxide oxidant and N-methylmorpholine N-oxide etching inhibitor at pH 10.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": null,
+          "concentration": null
+        },
+        "oxidant": {
+          "name": "tert-butyl hydrogen peroxide",
+          "concentration": {
+            "value": "8000",
+            "unit": "ppm"
+          }
+        },
+        "etching_inhibitor": {
+          "name": "N-methylmorpholine N-oxide",
+          "concentration": {
+            "value": "3000",
+            "unit": "ppm"
+          }
+        },
+        "surfactant": {
+          "name": "Polyethylene glycol",
+          "concentration": {
+            "value": "500",
+            "unit": "ppm"
+          }
+        },
+        "solvent": {
+          "name": "De-ionized water",
+          "percentage": null
+        },
+        "ph_control": {
+          "target": {
+            "value": "10",
+            "unit": ""
+          },
+          "agents": null
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Germanium (Ge) and Oxide",
+        "polishing_conditions": null,
+        "material_removal_rate_ge": {
+          "value": "656",
+          "unit": "angstroms/minute"
+        },
+        "material_removal_rate_oxide": {
+          "value": "3",
+          "unit": "angstroms/minute"
+        },
+        "selectivity_ge_oxide": {
+          "value": "218",
+          "unit": ""
+        },
+        "recess_depth_ge": {
+          "value": "25",
+          "unit": "angstroms"
+        }
+      }
+    }
+  ]
+}

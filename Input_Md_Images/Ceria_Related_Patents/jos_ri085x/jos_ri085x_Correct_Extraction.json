@@ -1,0 +1,492 @@
+{
+  "doi": "9,162,340",
+  "title": "POLISHING PADS INCLUDING PHASE-SEPARATED POLYMER BLEND AND METHOD OF MAKING AND USING THE SAME",
+  "year_published": "2015",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Fabrication via extrusion of 80/20 Estane 58144/Flexomer DFDB-1085 NT blend, followed by compression molding.",
+      "abrasive_synthesis": {
+        "description": "Pad material blend and fabrication process details.",
+        "precursors": [
+          {
+            "material_name": "Estane® 58144",
+            "formula": "Thermoplastic polyurethane",
+            "source_type": "Commercial pellets",
+            "purity": null,
+            "quantity": {
+              "value": "80",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "Flexomer DFDB-1085 NT",
+            "formula": "Polyethylene-butylene copolymer",
+            "source_type": "Commercial pellets",
+            "purity": null,
+            "quantity": {
+              "value": "20",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "Pad fabrication process stages (extrusion, compression molding).",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Extrusion",
+                "equipment": "Berstorff twin screw extruder",
+                "temperature": {
+                  "value": "215",
+                  "unit": "°C"
+                },
+                "screw_speed": {
+                  "value": "300",
+                  "unit": "rpm"
+                },
+                "feed_rate": {
+                  "value": "9.1",
+                  "unit": "kg/hr"
+                },
+                "casting_roll_temp": {
+                  "value": "104",
+                  "unit": "°C"
+                },
+                "film_thickness": {
+                  "value": "500",
+                  "unit": "µm"
+                },
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Compression Molding",
+                "equipment": "Pasadena Hydraulics press",
+                "temperature": {
+                  "value": "232",
+                  "unit": "°C"
+                },
+                "pressure": {
+                  "value": "7.0",
+                  "unit": "kg/cm³"
+                },
+                "duration": {
+                  "value": "30",
+                  "unit": "s"
+                },
+                "mold_description": "Square array of truncated conical features (7.5mm base dia, 6.5mm bottom dia, 2mm depth, 11mm center spacing, ~4mm land, ~50% bearing area)"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-fabrication processing.",
+          "collection": null,
+          "treatment": {
+            "method": "Lamination",
+            "substrate": "VOLARA Type EO foam (12 pcf)",
+            "adhesive": "3M Adhesive Transfer Tape 9671"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Not applicable (Patent describes pad fabrication, not slurry).",
+        "composition": null,
+        "processing": null
+      },
+      "characterization": {
+        "description": "Pad material characterization (SEM).",
+        "morphology": {
+          "measurement_method": "SEM",
+          "phase_structure": "Two-phase: discontinuous minor phase in continuous major phase",
+          "minor_phase_shape": "Approximately spherical",
+          "minor_phase_size": {
+            "value": "10",
+            "unit": "µm"
+          }
+        },
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null, 
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "description": "Not specified in example.",
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": {
+         "description": "Not specified."
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Fabrication via extrusion of 80/20 Estane 58144/Flexomer DFDB-1085 NT blend, followed by molding using a metal screen.",
+      "abrasive_synthesis": {
+        "description": "Pad material blend and fabrication process details.",
+        "precursors": [
+          {
+            "material_name": "Estane® 58144",
+            "formula": "Thermoplastic polyurethane",
+            "source_type": "Commercial pellets",
+            "purity": null,
+            "quantity": {
+              "value": "80",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "Flexomer DFDB-1085 NT",
+            "formula": "Polyethylene-butylene copolymer",
+            "source_type": "Commercial pellets",
+            "purity": null,
+            "quantity": {
+              "value": "20",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "Pad fabrication process stages (extrusion, screen molding).",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Extrusion",
+                "equipment": "Davis-Standard twin screw extruder",
+                "temperature": {
+                  "value": "205",
+                  "unit": "°C"
+                },
+                "screw_speed": {
+                  "value": "200",
+                  "unit": "rpm"
+                },
+                "feed_rate": {
+                  "value": "113",
+                  "unit": "kg/hr"
+                },
+                "casting_roll_temp": {
+                  "value": "50",
+                  "unit": "°C"
+                },
+                "chill_roll_temp": {
+                  "value": "50",
+                  "unit": "°C"
+                },
+                "film_thickness": {
+                  "value": "1170",
+                  "unit": "µm"
+                },
+                "duration": null
+              },
+              {
+                "stage": 2,
+                "process": "Screen Molding",
+                "heating_temp": {
+                  "value": "250",
+                  "unit": "°C"
+                },
+                "heating_duration": {
+                  "value": "9",
+                  "unit": "min"
+                },
+                "equipment": "Two-roll laminator",
+                "roll_type": "Rubber",
+                "load": {
+                  "value": "0.23",
+                  "unit": "kg/cm"
+                },
+                "speed": {
+                  "value": "0.9",
+                  "unit": "m/min"
+                },
+                "mold_description": "Teflon® coated metal screen (1.6mm thick, hexagonal array of 6.2mm dia holes, 8mm center distance, ~58% bearing area)"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-fabrication processing.",
+          "collection": null,
+          "treatment": {
+            "method": "Lamination",
+            "substrate": "Rogers PORON™ urethane foam (part δ4704-50-20062-04)",
+            "adhesive": "127 µm 3M Adhesive Transfer Tape 9672"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Not applicable (Patent describes pad fabrication, not slurry).",
+        "composition": null,
+        "processing": null
+      },
+      "characterization": {
+        "description": "Pad material characterization (SEM).",
+        "morphology": {
+          "measurement_method": "SEM",
+          "phase_structure": "Two-phase: discontinuous minor phase in continuous major phase",
+          "minor_phase_shape": "Approximately spherical",
+          "minor_phase_size": {
+            "value": "5",
+            "unit": "µm"
+          }
+        },
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null, 
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "description": "Not specified in example.",
+         "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": {
+         "description": "Not specified."
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Fabrication via extrusion of 80/20 Estane 58144/Flexomer DFDB-1085 NT blend onto an embossing roll.",
+      "abrasive_synthesis": {
+        "description": "Pad material blend and fabrication process details.",
+        "precursors": [
+          {
+            "material_name": "Estane® 58144",
+            "formula": "Thermoplastic polyurethane",
+            "source_type": "Commercial pellets",
+            "purity": null,
+            "quantity": {
+              "value": "80",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "Flexomer DFDB-1085 NT",
+            "formula": "Polyethylene-butylene copolymer",
+            "source_type": "Commercial pellets",
+            "purity": null,
+            "quantity": {
+              "value": "20",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "Pad fabrication process stages (extrusion/embossing).",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Extrusion/Embossing",
+                "equipment": "Davis-Standard twin screw extruder",
+                 "temperature": {
+                  "value": "205",
+                  "unit": "°C"
+                },
+                "screw_speed": {
+                  "value": "200",
+                  "unit": "rpm"
+                },
+                "feed_rate": {
+                  "value": "113",
+                  "unit": "kg/hr"
+                },
+                "embossed_roll_temp": {
+                  "value": "50",
+                  "unit": "°C"
+                },
+                 "chill_roll_temp": {
+                  "value": "50",
+                  "unit": "°C"
+                },
+                "film_thickness": {
+                  "value": "1372",
+                  "unit": "µm"
+                },
+                "embossing_pattern": "Hexagonal protrusions (3.5mm wide, 715 µm high), channels (~1mm wide), bearing area ~40%",
+                "duration": null
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-fabrication processing.",
+          "collection": null,
+          "treatment": {
+            "method": "Lamination and Die Cutting",
+            "substrate": "Rogers PORON™ urethane foam (part #4704-50-20062-04)",
+            "adhesive": "3M Adhesive Transfer Tape 9671",
+            "final_shape": "51 cm circle"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Not applicable (Patent describes pad fabrication, not slurry).",
+        "composition": null,
+        "processing": null
+      },
+      "characterization": {
+        "description": "Pad material characterization (SEM).",
+        "morphology": {
+          "measurement_method": "SEM",
+          "phase_structure": "Two-phase: discontinuous minor phase in continuous major phase",
+          "minor_phase_shape": "Approximately spherical",
+          "minor_phase_size": {
+            "value": "5",
+            "unit": "µm"
+          }
+        },
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null, 
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "description": "Not specified in example.",
+         "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": {
+         "description": "Not specified."
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Fabrication via extrusion of 80/20 Estane 58144/Flexomer DFDB-1085 NT blend (as in Ex 1), followed by milling grooves.",
+      "abrasive_synthesis": {
+        "description": "Pad material blend and fabrication process details.",
+        "precursors": [
+          {
+            "material_name": "Estane® 58144",
+            "formula": "Thermoplastic polyurethane",
+            "source_type": "Commercial pellets",
+            "purity": null,
+            "quantity": {
+              "value": "80",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "Flexomer DFDB-1085 NT",
+            "formula": "Polyethylene-butylene copolymer",
+            "source_type": "Commercial pellets",
+            "purity": null,
+            "quantity": {
+              "value": "20",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "Pad fabrication process stages (extrusion, milling).",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process": "Extrusion",
+                "details": "Film prepared as in Example 1"
+              },
+              {
+                "stage": 2,
+                "process": "Milling",
+                "equipment": "Vertical end mill (Mini Lathe, Central Machinery)",
+                "rotation_speed": {
+                  "value": "1500",
+                  "unit": "rpm"
+                },
+                "groove_depth": {
+                  "value": "915",
+                  "unit": "µm"
+                },
+                "groove_width": {
+                  "value": "500",
+                  "unit": "µm"
+                },
+                "pattern": "Concentric circular grooves"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-fabrication processing.",
+          "collection": null,
+          "treatment": {
+            "method": "Lamination",
+            "substrate": "15 cm diameter, 1.59 mm thick Rogers Poron urethane foam (Part#4701-50-20062-04)",
+            "adhesive": "127 µm 3M 9672 adhesive"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Not applicable (Patent describes pad fabrication, not slurry).",
+        "composition": null,
+        "processing": null
+      },
+      "characterization": {
+        "description": "Pad material characterization (SEM).",
+        "morphology": {
+          "measurement_method": "SEM",
+          "phase_structure": "Two-phase: discontinuous minor phase in continuous major phase",
+          "minor_phase_shape": "Approximately spherical",
+          "minor_phase_size": {
+            "value": "2-5",
+            "unit": "µm"
+          }
+        },
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null, 
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "description": "Not specified in example.",
+         "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": {
+         "description": "Not specified."
+      }
+    }
+  ]
+}

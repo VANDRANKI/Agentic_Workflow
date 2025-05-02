@@ -1,0 +1,511 @@
+{
+  "doi": "US 8,512,905 B2",
+  "sample_id": null,
+  "experiment_context": "Patent describing catalyst slurries for fuel cells with improved storage stability using a mixed solvent system (NMP and DHT). Focus is on cathode preparation.",
+  "abrasive_synthesis": {
+    "description": "Details pertain to the catalyst material used in the slurry, not abrasive synthesis in the CMP context.",
+    "precursors": [],
+    "synthesis_parameters": {
+      "chemical": {
+        "description": null,
+        "solvents": [],
+        "ph_agents": [],
+        "synthesis_additives": []
+      },
+      "physical": {
+        "description": null,
+        "process_stages": []
+      }
+    },
+    "post_synthesis": {
+      "description": null,
+      "collection": {
+        "method": null,
+        "parameters": {
+          "speed": {
+            "value": null,
+            "unit": null
+          },
+          "cycles": null,
+          "wash_volume": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "treatment": {
+        "calcination": {
+          "temperature": {
+            "value": null,
+            "unit": null
+          },
+          "duration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      }
+    }
+  },
+  "slurry_preparation": {
+    "description": "Slurry preparation for fuel cell cathode based on Table 1.",
+    "composition": {
+      "abrasive": {
+        "material": "PtCo/C",
+        "concentration": {
+          "initial": null,
+          "final": null,
+          "unit": null
+        }
+      },
+      "slurry_additives": [
+        {
+          "name": "PVdF",
+          "type": "Binder",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      ],
+      "solvent": {
+        "name": "NMP/DHT mixture",
+        "percentage": {
+          "value": null,
+          "unit": null
+        }
+      }
+    },
+    "processing": {
+      "description": "Stirring at room temperature.",
+      "dispersion": [
+         {
+            "method": "Stirring",
+            "duration": {
+              "value": 30,
+              "unit": "minutes"
+            },
+            "temperature": {
+              "value": "RT",
+              "unit": null
+            }
+         }
+      ],
+      "stabilization": {
+         "aging": {
+           "duration": {
+             "value": null,
+             "unit": null
+           },
+           "equipment": null
+         }
+      },
+      "ph_control": {
+        "target": {
+          "min": null,
+          "max": null
+        },
+        "agents": []
+      }
+    }
+  },
+  "characterization": {
+    "description": "Characterization includes slurry stability and electrode pore structure.",
+    "morphology": {
+      "particle_size": {
+        "average": {
+          "min": null,
+          "max": null,
+          "unit": null
+        }
+      },
+      "shape": null,
+      "surface_area": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "stability": "Storage stability assessed by precipitation speed (FIG. 1).",
+    "electrode_pore_volume_50_100_um": {
+       "description": "Specific pore volume of pores with diameter 50-100 um in the final electrode (Table 2, FIG. 2).",
+       "value": null,
+       "unit": "mL/g"
+    },
+    "electrode_total_pore_volume": {
+       "description": "Total specific pore volume in the final electrode (Table 2, FIG. 2).",
+       "value": null,
+       "unit": "mL/g"
+    },
+    "electrode_pt_uniformity": {
+        "description": "Uniformity of Pt amount per unit area over slurry storage time (FIG. 3).",
+        "value": null,
+        "unit": null
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Catalyst slurry prepared with PtCo/C (1.0g), PVdF (0.02g), NMP (4.95g), and DHT (0.05g). NMP:DHT ratio approx 99:1.",
+      "abrasive_synthesis": {
+         "precursors": [
+           {
+             "material_name": "PtCo/C",
+             "formula": null,
+             "source_type": "TANAKA Precious metal (Japan)",
+             "purity": null,
+             "quantity": {
+               "value": 1.0,
+               "unit": "g"
+             }
+           }
+         ]
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "PtCo/C",
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "PVdF",
+              "type": "Binder",
+              "concentration": {
+                "value": 0.02,
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "NMP/DHT mixture",
+            "percentage": {
+              "value": null,
+              "unit": null
+            },
+            "components": [
+              {"name": "NMP", "quantity": {"value": 4.95, "unit": "g"}},
+              {"name": "DHT", "quantity": {"value": 0.05, "unit": "g"}}
+            ]
+          }
+        },
+        "processing": {
+            "dispersion": [
+                {
+                    "method": "Stirring",
+                    "duration": { "value": 30, "unit": "minutes" },
+                    "temperature": { "value": "RT", "unit": null }
+                }
+            ]
+        }
+      },
+      "characterization": {
+        "stability": "Relatively slow precipitation compared to Comp Ex 1 (FIG. 1).",
+        "electrode_pore_volume_50_100_um": {
+           "value": 5.415,
+           "unit": "mL/g"
+        },
+        "electrode_total_pore_volume": {
+           "value": 20.834,
+           "unit": "mL/g"
+        }
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Catalyst slurry prepared with PtCo/C (1.0g), PVdF (0.02g), NMP (4.75g), and DHT (0.25g). NMP:DHT ratio approx 95:5.",
+      "abrasive_synthesis": {
+         "precursors": [
+           {
+             "material_name": "PtCo/C",
+             "formula": null,
+             "source_type": "TANAKA Precious metal (Japan)",
+             "purity": null,
+             "quantity": {
+               "value": 1.0,
+               "unit": "g"
+             }
+           }
+         ]
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "PtCo/C",
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "PVdF",
+              "type": "Binder",
+              "concentration": {
+                "value": 0.02,
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "NMP/DHT mixture",
+            "percentage": {
+              "value": null,
+              "unit": null
+            },
+            "components": [
+              {"name": "NMP", "quantity": {"value": 4.75, "unit": "g"}},
+              {"name": "DHT", "quantity": {"value": 0.25, "unit": "g"}}
+            ]
+          }
+        },
+        "processing": {
+            "dispersion": [
+                {
+                    "method": "Stirring",
+                    "duration": { "value": 30, "unit": "minutes" },
+                    "temperature": { "value": "RT", "unit": null }
+                }
+            ]
+        }
+      },
+      "characterization": {
+        "stability": "Slower precipitation than Example 1 (FIG. 1).",
+        "electrode_pore_volume_50_100_um": {
+           "value": 5.933,
+           "unit": "mL/g"
+        },
+        "electrode_total_pore_volume": {
+           "value": 23.059,
+           "unit": "mL/g"
+        }
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Catalyst slurry prepared with PtCo/C (1.0g), PVdF (0.02g), NMP (4.5g), and DHT (0.5g). NMP:DHT ratio 90:10.",
+      "abrasive_synthesis": {
+         "precursors": [
+           {
+             "material_name": "PtCo/C",
+             "formula": null,
+             "source_type": "TANAKA Precious metal (Japan)",
+             "purity": null,
+             "quantity": {
+               "value": 1.0,
+               "unit": "g"
+             }
+           }
+         ]
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "PtCo/C",
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "PVdF",
+              "type": "Binder",
+              "concentration": {
+                "value": 0.02,
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "NMP/DHT mixture",
+            "percentage": {
+              "value": null,
+              "unit": null
+            },
+            "components": [
+              {"name": "NMP", "quantity": {"value": 4.5, "unit": "g"}},
+              {"name": "DHT", "quantity": {"value": 0.5, "unit": "g"}}
+            ]
+          }
+        },
+        "processing": {
+            "dispersion": [
+                {
+                    "method": "Stirring",
+                    "duration": { "value": 30, "unit": "minutes" },
+                    "temperature": { "value": "RT", "unit": null }
+                }
+            ]
+        }
+      },
+      "characterization": {
+        "stability": "Slower precipitation than Example 2 (FIG. 1).",
+        "electrode_pore_volume_50_100_um": {
+           "value": 5.351,
+           "unit": "mL/g"
+        },
+        "electrode_total_pore_volume": {
+           "value": 21.389,
+           "unit": "mL/g"
+        }
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Catalyst slurry prepared with PtCo/C (1.0g), PVdF (0.02g), NMP (4.0g), and DHT (1.0g). NMP:DHT ratio 80:20.",
+      "abrasive_synthesis": {
+         "precursors": [
+           {
+             "material_name": "PtCo/C",
+             "formula": null,
+             "source_type": "TANAKA Precious metal (Japan)",
+             "purity": null,
+             "quantity": {
+               "value": 1.0,
+               "unit": "g"
+             }
+           }
+         ]
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "PtCo/C",
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "PVdF",
+              "type": "Binder",
+              "concentration": {
+                "value": 0.02,
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "NMP/DHT mixture",
+            "percentage": {
+              "value": null,
+              "unit": null
+            },
+            "components": [
+              {"name": "NMP", "quantity": {"value": 4.0, "unit": "g"}},
+              {"name": "DHT", "quantity": {"value": 1.0, "unit": "g"}}
+            ]
+          }
+        },
+        "processing": {
+            "dispersion": [
+                {
+                    "method": "Stirring",
+                    "duration": { "value": 30, "unit": "minutes" },
+                    "temperature": { "value": "RT", "unit": null }
+                }
+            ]
+        }
+      },
+      "characterization": {
+        "stability": "Slowest precipitation among examples (highest stability) (FIG. 1).",
+        "electrode_pore_volume_50_100_um": {
+           "value": 5.259,
+           "unit": "mL/g"
+        },
+        "electrode_total_pore_volume": {
+           "value": 20.701,
+           "unit": "mL/g"
+        },
+        "electrode_pt_uniformity": {
+            "description": "Smallest deviation in Pt amount over storage time (Std Dev = 0.059) (FIG. 3).",
+            "value": 0.059,
+            "unit": "Std Dev"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Catalyst slurry prepared with PtCo/C (1.0g), PVdF (0.02g), NMP (5.0g), and no DHT.",
+      "abrasive_synthesis": {
+         "precursors": [
+           {
+             "material_name": "PtCo/C",
+             "formula": null,
+             "source_type": "TANAKA Precious metal (Japan)",
+             "purity": null,
+             "quantity": {
+               "value": 1.0,
+               "unit": "g"
+             }
+           }
+         ]
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "PtCo/C",
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "PVdF",
+              "type": "Binder",
+              "concentration": {
+                "value": 0.02,
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "NMP",
+            "percentage": {
+              "value": null,
+              "unit": null
+            },
+            "components": [
+              {"name": "NMP", "quantity": {"value": 5.0, "unit": "g"}}
+            ]
+          }
+        },
+        "processing": {
+            "dispersion": [
+                {
+                    "method": "Stirring",
+                    "duration": { "value": 30, "unit": "minutes" },
+                    "temperature": { "value": "RT", "unit": null }
+                }
+            ]
+        }
+      },
+      "characterization": {
+        "stability": "Fastest precipitation (lowest stability) (FIG. 1).",
+        "electrode_pore_volume_50_100_um": {
+           "value": 4.829,
+           "unit": "mL/g"
+        },
+        "electrode_total_pore_volume": {
+           "value": 19.369,
+           "unit": "mL/g"
+        },
+        "electrode_pt_uniformity": {
+            "description": "Larger deviation in Pt amount over storage time (Std Dev = 0.063) (FIG. 3).",
+            "value": 0.063,
+            "unit": "Std Dev"
+        }
+      }
+    }
+  ]
+}

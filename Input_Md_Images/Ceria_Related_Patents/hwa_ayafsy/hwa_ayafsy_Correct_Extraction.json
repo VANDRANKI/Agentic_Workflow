@@ -1,0 +1,956 @@
+{
+  "doi": "",
+  "title": "SLURRY COMPOSITION FOR CHEMICAL MECHANICAL POLISHING",
+  "year_published": "2021",
+  "journal": "US Patent Application Publication US 2021/0269675 A1",
+  "samples": [
+    {
+      "sample_id": "Ex1_AmmoniumLaurylSulfate_0.003wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.003 wt% Ammonium Lauryl Sulfate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium lauryl sulfate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.003",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "64.1",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "454", "unit": "Å/min" },
+          "W": { "value": "723", "unit": "Å/min" },
+          "Ox": { "value": "750", "unit": "Å/min" },
+          "Si4N4": { "value": "660", "unit": "Å/min" },
+          "Carbon": { "value": "9", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex2_AmmoniumLaurylSulfate_0.2wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.2 wt% Ammonium Lauryl Sulfate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium lauryl sulfate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "48.3",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "389", "unit": "Å/min" },
+          "W": { "value": "699", "unit": "Å/min" },
+          "Ox": { "value": "764", "unit": "Å/min" },
+          "Si4N4": { "value": "624", "unit": "Å/min" },
+          "Carbon": { "value": "4", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex3_SodiumDodecylSulfate_0.003wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.003 wt% Sodium Dodecyl Sulfate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Sodium dodecyl sulfate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.003",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "61.5",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "439", "unit": "Å/min" },
+          "W": { "value": "704", "unit": "Å/min" },
+          "Ox": { "value": "789", "unit": "Å/min" },
+          "Si4N4": { "value": "662", "unit": "Å/min" },
+          "Carbon": { "value": "11", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex4_SodiumDodecylSulfate_0.2wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.2 wt% Sodium Dodecyl Sulfate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Sodium dodecyl sulfate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "39.4",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "411", "unit": "Å/min" },
+          "W": { "value": "716", "unit": "Å/min" },
+          "Ox": { "value": "764", "unit": "Å/min" },
+          "Si4N4": { "value": "651", "unit": "Å/min" },
+          "Carbon": { "value": "6", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex5_SodiumPolyoxyethyleneAlkylArylSulfate_0.003wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.003 wt% Sodium Polyoxyethylene Alkyl Aryl Sulfate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Sodium polyoxyethylene alkyl aryl sulfate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.003",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "59.2",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "391", "unit": "Å/min" },
+          "W": { "value": "723", "unit": "Å/min" },
+          "Ox": { "value": "779", "unit": "Å/min" },
+          "Si4N4": { "value": "638", "unit": "Å/min" },
+          "Carbon": { "value": "12", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex6_SodiumPolyoxyethyleneAlkylArylSulfate_0.2wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.2 wt% Sodium Polyoxyethylene Alkyl Aryl Sulfate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Sodium polyoxyethylene alkyl aryl sulfate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "41.3",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "409", "unit": "Å/min" },
+          "W": { "value": "704", "unit": "Å/min" },
+          "Ox": { "value": "746", "unit": "Å/min" },
+          "Si4N4": { "value": "649", "unit": "Å/min" },
+          "Carbon": { "value": "6", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex7_AmmoniumPolyoxyethyleneAlkylArylSulfate_0.003wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.003 wt% Ammonium Polyoxyethylene Alkyl Aryl Sulfate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polyoxyethylene alkyl aryl sulfate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.003",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "69.2",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "426", "unit": "Å/min" },
+          "W": { "value": "719", "unit": "Å/min" },
+          "Ox": { "value": "715", "unit": "Å/min" },
+          "Si4N4": { "value": "627", "unit": "Å/min" },
+          "Carbon": { "value": "9", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex8_AmmoniumPolyoxyethyleneAlkylArylSulfate_0.2wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.2 wt% Ammonium Polyoxyethylene Alkyl Aryl Sulfate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polyoxyethylene alkyl aryl sulfate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "44.6",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "419", "unit": "Å/min" },
+          "W": { "value": "720", "unit": "Å/min" },
+          "Ox": { "value": "736", "unit": "Å/min" },
+          "Si4N4": { "value": "648", "unit": "Å/min" },
+          "Carbon": { "value": "2", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex9_CocamidopropylBetaine_0.003wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.003 wt% Cocamidopropyl Betaine.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Cocamidopropyl betaine",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.003",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "66.0",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "423", "unit": "Å/min" },
+          "W": { "value": "733", "unit": "Å/min" },
+          "Ox": { "value": "774", "unit": "Å/min" },
+          "Si4N4": { "value": "699", "unit": "Å/min" },
+          "Carbon": { "value": "10", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex10_CocamidopropylBetaine_0.2wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.2 wt% Cocamidopropyl Betaine.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Cocamidopropyl betaine",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "43.1",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "468", "unit": "Å/min" },
+          "W": { "value": "736", "unit": "Å/min" },
+          "Ox": { "value": "718", "unit": "Å/min" },
+          "Si4N4": { "value": "667", "unit": "Å/min" },
+          "Carbon": { "value": "2", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex11_AlkylEtherPhosphate_0.003wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.003 wt% Alkyl Ether Phosphate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Alkyl ether phosphate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.003",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "67.1",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "446", "unit": "Å/min" },
+          "W": { "value": "690", "unit": "Å/min" },
+          "Ox": { "value": "769", "unit": "Å/min" },
+          "Si4N4": { "value": "684", "unit": "Å/min" },
+          "Carbon": { "value": "9", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex12_AlkylEtherPhosphate_0.2wt%",
+      "experiment_context": "Slurry with 5 wt% colloidal silica, 0.5 wt% H₂O₂, and 0.2 wt% Alkyl Ether Phosphate.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Alkyl ether phosphate",
+            "type": "Carbon polishing inhibitor",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+         "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal Silica",
+        "contact_angle": {
+           "value": "45.6",
+           "unit": "°"
+        },
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rates": {
+          "Poly-Si": { "value": "440", "unit": "Å/min" },
+          "W": { "value": "688", "unit": "Å/min" },
+          "Ox": { "value": "728", "unit": "Å/min" },
+          "Si4N4": { "value": "682", "unit": "Å/min" },
+          "Carbon": { "value": "4", "unit": "Å/min" }
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "2.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "ST polisher (KCT Co., Ltd.)",
+        "pad_composition": "IC 1000 (Dow)"
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

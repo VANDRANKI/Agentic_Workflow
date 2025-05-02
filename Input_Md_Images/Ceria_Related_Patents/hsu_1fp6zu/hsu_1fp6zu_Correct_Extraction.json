@@ -1,0 +1,143 @@
+{
+  "description": "JSON extraction for US Patent Application US 2023/0064918 A1 describing a CMP slurry composition with a precipitant.",
+  "doi": "US 2023/0064918 A1",
+  "sample_id": "General_Slurry_Composition_with_Precipitant",
+  "experiment_context": "General description of a CMP slurry composition containing a slurry (liquid carrier, oxidizer, abrasives, optional pH adjuster, optional corrosion inhibitor) and a precipitant. Designed to prevent corrosion of an underlying conductive layer (e.g., Co) when polishing an overlying conductive layer (e.g., W) by forming blocking layers in gaps (approx. 1-10 angstroms wide).",
+  "abrasive_synthesis": {
+    "description": "Abrasive synthesis details not provided in the patent text.",
+    "precursors": [],
+    "synthesis_parameters": {
+      "chemical": {
+        "description": "Chemical synthesis parameters not provided.",
+        "solvents": [],
+        "ph_agents": [],
+        "synthesis_additives": []
+      },
+      "physical": {
+        "description": "Physical synthesis process stages not provided.",
+        "process_stages": []
+      }
+    },
+    "post_synthesis": {
+      "description": "Post-synthesis procedures not provided.",
+      "collection": {
+        "method": null,
+        "parameters": {
+          "speed": {
+            "value": null,
+            "unit": null
+          },
+          "cycles": null,
+          "wash_volume": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "treatment": {
+        "calcination": {
+          "temperature": {
+            "value": null,
+            "unit": null
+          },
+          "duration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      }
+    }
+  },
+  "slurry_preparation": {
+    "description": "Slurry composition includes a base slurry and a precipitant. Base slurry contains liquid carrier, oxidizer, abrasives, optional pH adjuster, and optional corrosion inhibitor.",
+    "composition": {
+      "abrasive": {
+        "material": "silicon oxide particles, cerium oxide particles or the like",
+        "concentration": {
+          "initial": null,
+          "final": null,
+          "unit": null
+        }
+      },
+      "slurry_additives": [
+        {
+          "name": "Precipitant (e.g., magnesium nitrate, calcium nitrate, magnesium phosphate, calcium phosphate, or mixtures thereof; Cations: alkaline-earth like Be2+, Mg2+, Ca2+, Sr2+, Ba2+; Anions: P3-, NO2-, NO3-, PO43-, HPO42-, H2PO4-)",
+          "type": "Precipitant (forms blocking layers)",
+          "concentration": {
+            "value": ">=1000, typically 1000-10000",
+            "unit": "ppm by weight"
+          }
+        },
+        {
+          "name": "Corrosion Inhibitor (Optional, e.g., amino acid like glycine)",
+          "type": "Corrosion inhibitor (for second conductive layer)",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        },
+        {
+          "name": "pH Adjusting Agent (Optional, Acidic: nitric acid, hydrochloric acid, sulfuric acid; Basic: potassium hydroxide, ammonium hydroxide)",
+          "type": "pH adjusting agent",
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        }
+      ],
+      "solvent": {
+        "name": "water or other solvents",
+        "percentage": {
+          "value": null,
+          "unit": null
+        }
+      }
+    },
+    "processing": {
+      "description": "Dispersion of components in liquid carrier. pH adjustment.",
+      "dispersion": [],
+      "stabilization": {
+        "aging": {
+          "duration": {
+            "value": null,
+            "unit": null
+          },
+          "equipment": null
+        }
+      },
+      "ph_control": {
+        "target": {
+          "min": "0.5 (acidic for W) / 7.5 (basic for Co)",
+          "max": "6.5 (acidic for W) / 13.5 (basic for Co)"
+        },
+        "agents": [
+          {
+            "name": "Acidic: nitric acid, hydrochloric acid, sulfuric acid; Basic: potassium hydroxide, ammonium hydroxide",
+            "concentration": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "characterization": {
+    "description": "Slurry characterization details not provided in the patent text.",
+    "morphology": {
+      "particle_size": {
+        "average": {
+          "min": null,
+          "max": null,
+          "unit": null
+        }
+      },
+      "shape": null,
+      "surface_area": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "stability": null
+  }
+}
