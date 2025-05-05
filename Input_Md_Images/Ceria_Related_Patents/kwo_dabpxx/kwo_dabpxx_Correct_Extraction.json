@@ -1,0 +1,126 @@
+{
+  "doi": "US 10,428,240 B2",
+  "title": "METHOD FOR PREPARING SLURRY COMPOSITION AND SLURRY COMPOSITION PREPARED THEREBY",
+  "year_published": "2019",
+  "samples": [
+    {
+      "sample_id": "kwo_dabpxx_method_output",
+      "experiment_context": "Slurry composition prepared by mixing cerium oxide abrasive particles, a dispersant, and water, followed by pulverization (milling) and centrifugation using a horizontal cylindrical separation device to remove massive and agglomerated particles.",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "description": "Raw material slurry prepared and then processed via pulverization and centrifugation.",
+        "composition": {
+          "abrasive": {
+            "material": "Cerium Oxide",
+            "concentration": {
+              "initial": "1-20",
+              "final": null,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Dispersant",
+              "type": "Ammonium salts, amine salts or aminoalcohol salts",
+              "concentration": {
+                "value": "0.1-10",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "pH adjuster",
+              "type": "Acid or base (e.g., ammonia, TMAH, KOH, nitric acid, acetic acid, etc.)",
+              "concentration": {
+                "value": "0.01-1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water (ultrapure preferred)",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "description": "Includes pulverization (e.g., jet milling) and centrifugation.",
+          "pulverization": {
+             "method": "Milling (e.g., jet milling, beads)",
+             "jet_milling_pressure": {
+                 "value": "500-3000",
+                 "unit": "kg/cm²"
+             }
+          },
+          "centrifugation": {
+            "device_type": "Horizontal cylindrical rotating body",
+            "input_rate": {
+              "value": "2-10",
+              "unit": "L/min"
+            },
+            "force": {
+              "value": "500-3000",
+              "unit": "G"
+            }
+          },
+          "filtration": {
+              "pore_size": {
+                  "value": "0.1-0.2",
+                  "unit": "µm"
+              },
+              "filter_type": "Membrane, depth, or pleated filter (Optional step)"
+          }
+        }
+      },
+      "characterization": {
+        "description": "Properties of the massive particles and agglomerated particles-removed slurry composition.",
+        "morphology": {
+           "particle_size": {
+             "secondary_average_initial": {
+                "min": "80",
+                "max": "330",
+                "unit": "nm"
+             },
+             "secondary_average_final": {
+                "min": "50",
+                "max": "280",
+                "unit": "nm"
+             }
+           },
+           "shape": null,
+           "surface_area": null
+        },
+        "particle_size_ratio_Eq1": {
+            "value": "0.3-1.0",
+            "unit": "",
+            "equation": "(B2-A2)/(B1-A1)"
+        },
+        "solid_content_decrease_rate_Eq2": {
+            "value": "<30",
+            "unit": "%",
+            "equation": "C2/C1*100"
+        },
+        "large_particle_counts": {
+            "condition": "Based on 2.0 wt% solid content",
+            "count_ge_1_99um": {
+                "value": "<=2.0E+05",
+                "unit": "/ml"
+            },
+            "count_ge_1_00um": {
+                 "value": "<=3.0E+05",
+                 "unit": "/ml"
+            },
+            "count_ge_0_70um": {
+                 "value": "<=3.0E+08",
+                 "unit": "/ml"
+            }
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+          "description": "General goals include reduced scratches and remaining particles, high polishing rate, good WIWNU, and high selectivity.",
+          "material_removal_rate": null,
+          "polishing_pressure": null,
+          "pad_composition": null
+      }
+    }
+  ]
+}

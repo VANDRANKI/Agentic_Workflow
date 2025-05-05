@@ -1,0 +1,694 @@
+{
+  "patent_id": "US 2023/0136640 A1",
+  "title": "POLISHING SLURRY COMPOSITION",
+  "publication_date": "May 4, 2023",
+  "applicant": "KCTECH CO., LTD.",
+  "samples": [
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Baseline slurry without dishing inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Ceria",
+          "concentration": {
+            "value": "4",
+            "unit": "wt%"
+          },
+          "primary_particle_size_range": {
+            "min": "5",
+            "max": "150",
+            "unit": "nm"
+          },
+          "secondary_particle_size_range": {
+            "min": "30",
+            "max": "300",
+            "unit": "nm"
+          }
+        },
+        "dispersant": {
+          "name": "Picolinic acid",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          }
+        },
+        "ph_buffering_agent": {
+          "name": "Histidine",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "dishing_inhibitor": {
+          "name": null,
+          "concentration": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "ph": {
+          "value": "4.5"
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "AP-300 (CTS)",
+        "wafer_details": "300 mm PE-TEOS, LP-SiN, patterned wafer for STI",
+        "polishing_conditions": {
+          "carrier_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "spindle_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "250",
+            "unit": "mL/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "s"
+          }
+        },
+        "results": {
+          "oxide_removal_rate": {
+            "value": "2620",
+            "unit": "Å/min"
+          },
+          "nitride_removal_rate": {
+            "value": "15",
+            "unit": "Å/min"
+          },
+          "selectivity_oxide_nitride": {
+            "value": "175"
+          },
+          "dishing_patterned_wafer_2700nm": {
+            "value": "1986",
+            "unit": "Å"
+          },
+          "nitride_loss_patterned_wafer_2700nm": {
+            "value": "102",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Slurry with Proline as dishing inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Ceria",
+          "concentration": {
+            "value": "4",
+            "unit": "wt%"
+          },
+          "primary_particle_size_range": {
+            "min": "5",
+            "max": "150",
+            "unit": "nm"
+          },
+          "secondary_particle_size_range": {
+            "min": "30",
+            "max": "300",
+            "unit": "nm"
+          }
+        },
+        "dispersant": {
+          "name": "Picolinic acid",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          }
+        },
+        "ph_buffering_agent": {
+          "name": "Histidine",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "dishing_inhibitor": {
+          "name": "Proline",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": "4.5"
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "AP-300 (CTS)",
+        "wafer_details": "300 mm PE-TEOS, LP-SiN, patterned wafer for STI",
+        "polishing_conditions": {
+          "carrier_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "spindle_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "250",
+            "unit": "mL/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "s"
+          }
+        },
+        "results": {
+          "oxide_removal_rate": {
+            "value": "2411",
+            "unit": "Å/min"
+          },
+          "nitride_removal_rate": {
+            "value": "12",
+            "unit": "Å/min"
+          },
+          "selectivity_oxide_nitride": {
+            "value": "201"
+          },
+          "dishing_patterned_wafer_2700nm": {
+            "value": "1559",
+            "unit": "Å"
+          },
+          "nitride_loss_patterned_wafer_2700nm": {
+            "value": "72",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Slurry with Ribose as dishing inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Ceria",
+          "concentration": {
+            "value": "4",
+            "unit": "wt%"
+          },
+          "primary_particle_size_range": {
+            "min": "5",
+            "max": "150",
+            "unit": "nm"
+          },
+          "secondary_particle_size_range": {
+            "min": "30",
+            "max": "300",
+            "unit": "nm"
+          }
+        },
+        "dispersant": {
+          "name": "Picolinic acid",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          }
+        },
+        "ph_buffering_agent": {
+          "name": "Histidine",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "dishing_inhibitor": {
+          "name": "Ribose",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": "4.5"
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "AP-300 (CTS)",
+        "wafer_details": "300 mm PE-TEOS, LP-SiN, patterned wafer for STI",
+        "polishing_conditions": {
+          "carrier_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "spindle_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "250",
+            "unit": "mL/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "s"
+          }
+        },
+        "results": {
+          "oxide_removal_rate": {
+            "value": "2641",
+            "unit": "Å/min"
+          },
+          "nitride_removal_rate": {
+            "value": "13",
+            "unit": "Å/min"
+          },
+          "selectivity_oxide_nitride": {
+            "value": "203"
+          },
+          "dishing_patterned_wafer_2700nm": {
+            "value": "1338",
+            "unit": "Å"
+          },
+          "nitride_loss_patterned_wafer_2700nm": {
+            "value": "69",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Slurry with Glucose as dishing inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Ceria",
+          "concentration": {
+            "value": "4",
+            "unit": "wt%"
+          },
+          "primary_particle_size_range": {
+            "min": "5",
+            "max": "150",
+            "unit": "nm"
+          },
+          "secondary_particle_size_range": {
+            "min": "30",
+            "max": "300",
+            "unit": "nm"
+          }
+        },
+        "dispersant": {
+          "name": "Picolinic acid",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          }
+        },
+        "ph_buffering_agent": {
+          "name": "Histidine",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "dishing_inhibitor": {
+          "name": "Glucose",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": "4.5"
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "AP-300 (CTS)",
+        "wafer_details": "300 mm PE-TEOS, LP-SiN, patterned wafer for STI",
+        "polishing_conditions": {
+          "carrier_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "spindle_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "250",
+            "unit": "mL/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "s"
+          }
+        },
+        "results": {
+          "oxide_removal_rate": {
+            "value": "2407",
+            "unit": "Å/min"
+          },
+          "nitride_removal_rate": {
+            "value": "12",
+            "unit": "Å/min"
+          },
+          "selectivity_oxide_nitride": {
+            "value": "201"
+          },
+          "dishing_patterned_wafer_2700nm": {
+            "value": "1248",
+            "unit": "Å"
+          },
+          "nitride_loss_patterned_wafer_2700nm": {
+            "value": "67",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Slurry with Sorbitol as dishing inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Ceria",
+          "concentration": {
+            "value": "4",
+            "unit": "wt%"
+          },
+          "primary_particle_size_range": {
+            "min": "5",
+            "max": "150",
+            "unit": "nm"
+          },
+          "secondary_particle_size_range": {
+            "min": "30",
+            "max": "300",
+            "unit": "nm"
+          }
+        },
+        "dispersant": {
+          "name": "Picolinic acid",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          }
+        },
+        "ph_buffering_agent": {
+          "name": "Histidine",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "dishing_inhibitor": {
+          "name": "Sorbitol",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": "4.5"
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "AP-300 (CTS)",
+        "wafer_details": "300 mm PE-TEOS, LP-SiN, patterned wafer for STI",
+        "polishing_conditions": {
+          "carrier_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "spindle_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "250",
+            "unit": "mL/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "s"
+          }
+        },
+        "results": {
+          "oxide_removal_rate": {
+            "value": "2416",
+            "unit": "Å/min"
+          },
+          "nitride_removal_rate": {
+            "value": "10",
+            "unit": "Å/min"
+          },
+          "selectivity_oxide_nitride": {
+            "value": "242"
+          },
+          "dishing_patterned_wafer_2700nm": {
+            "value": "1127",
+            "unit": "Å"
+          },
+          "nitride_loss_patterned_wafer_2700nm": {
+            "value": "58",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Slurry with N-acetyl-D-glucosamine as dishing inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Ceria",
+          "concentration": {
+            "value": "4",
+            "unit": "wt%"
+          },
+          "primary_particle_size_range": {
+            "min": "5",
+            "max": "150",
+            "unit": "nm"
+          },
+          "secondary_particle_size_range": {
+            "min": "30",
+            "max": "300",
+            "unit": "nm"
+          }
+        },
+        "dispersant": {
+          "name": "Picolinic acid",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          }
+        },
+        "ph_buffering_agent": {
+          "name": "Histidine",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "dishing_inhibitor": {
+          "name": "N-acetyl-D-glucosamine",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": "4.5"
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "AP-300 (CTS)",
+        "wafer_details": "300 mm PE-TEOS, LP-SiN, patterned wafer for STI",
+        "polishing_conditions": {
+          "carrier_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "spindle_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "250",
+            "unit": "mL/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "s"
+          }
+        },
+        "results": {
+          "oxide_removal_rate": {
+            "value": "2453",
+            "unit": "Å/min"
+          },
+          "nitride_removal_rate": {
+            "value": "11",
+            "unit": "Å/min"
+          },
+          "selectivity_oxide_nitride": {
+            "value": "223"
+          },
+          "dishing_patterned_wafer_2700nm": {
+            "value": "924",
+            "unit": "Å"
+          },
+          "nitride_loss_patterned_wafer_2700nm": {
+            "value": "52",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Slurry with Glucosamine hydrochloride as dishing inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Ceria",
+          "concentration": {
+            "value": "4",
+            "unit": "wt%"
+          },
+          "primary_particle_size_range": {
+            "min": "5",
+            "max": "150",
+            "unit": "nm"
+          },
+          "secondary_particle_size_range": {
+            "min": "30",
+            "max": "300",
+            "unit": "nm"
+          }
+        },
+        "dispersant": {
+          "name": "Picolinic acid",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          }
+        },
+        "ph_buffering_agent": {
+          "name": "Histidine",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "dishing_inhibitor": {
+          "name": "Glucosamine hydrochloride",
+          "concentration": {
+            "value": "0.1",
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": "4.5"
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "equipment_model": "AP-300 (CTS)",
+        "wafer_details": "300 mm PE-TEOS, LP-SiN, patterned wafer for STI",
+        "polishing_conditions": {
+          "carrier_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "spindle_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "250",
+            "unit": "mL/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "s"
+          }
+        },
+        "results": {
+          "oxide_removal_rate": {
+            "value": "2221",
+            "unit": "Å/min"
+          },
+          "nitride_removal_rate": {
+            "value": "8",
+            "unit": "Å/min"
+          },
+          "selectivity_oxide_nitride": {
+            "value": "278"
+          },
+          "dishing_patterned_wafer_2700nm": {
+            "value": "774",
+            "unit": "Å"
+          },
+          "nitride_loss_patterned_wafer_2700nm": {
+            "value": "52",
+            "unit": "Å"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "doi": "US20170183539A1",
+  "title": "ABRASIVE PARTICLE-DISPERSION LAYER COMPOSITE AND POLISHING SLURRY COMPOSITION INCLUDING THE SAME",
+  "year_published": "2017",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "Example_With_Dispersants",
+      "experiment_context": "Polishing slurry based on colloidal ceria with picolinic acid (first dispersant) and a cationic polymer (second dispersant). Described in the 'Example' section.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Picolinic acid",
+            "type": "First Dispersant (Cationic)",
+            "concentration": {
+              "value": "4",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "poly[bis(2-chloroethyl) ether-alt-1,3-bis[3-(dimethylamino)propyl]urea]",
+            "type": "Second Dispersant (Cationic Polymer)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Unknown (Implied Water)",
+          "quantity": null
+        },
+         "ph_adjuster": {
+            "name": "Nitric acid",
+            "concentration": null
+         }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "100",
+          "unit": "nm",
+          "measurement_method_used": "Average size specified"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal",
+        "zeta_potential_range": {
+            "min": "10",
+            "max": "60",
+            "unit": "mV"
+        },
+        "ph_range": {
+            "min": "3",
+            "max": "6"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+         "overpolishing_time": {
+          "value": "40",
+          "unit": "sec"
+        },
+        "material_removal_rate": {
+          "value": "3210",
+          "unit": "Å/min",
+          "material": "Oxide Film (HDP)"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (CTS)",
+        "pad_composition": "K7 (Rohm & Haas)",
+        "flow_rate": {
+            "value": "300",
+            "unit": "ml/min"
+        },
+        "table_rpm": {
+            "value": "87",
+            "unit": "rpm"
+        },
+        "spindle_rpm": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "wafer_details": "Pattern wafer (HDP Oxide 2000 Å / Nitride 1000 Å on Si)",
+        "dishing_results": [
+            {
+                "pattern": "100µm/100µm",
+                "value": "185",
+                "unit": "Å"
+            },
+            {
+                "pattern": "300µm/300µm",
+                "value": "212",
+                "unit": "Å"
+            }
+        ],
+        "selectivity_pattern_wafer": {
+            "ratio": "1:1 to 5:1",
+            "materials": "Oxide:Nitride or Oxide:Polysilicon"
+        },
+        "selectivity_blanket_wafer": {
+            "ratio": "10:1 to 40:1",
+            "materials": "Oxide:Nitride or Oxide:Poly"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Comparative_Example_No_Second_Dispersant",
+      "experiment_context": "Polishing slurry based on colloidal ceria with only picolinic acid (first dispersant). Described in the 'Comparative Example' section.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Picolinic acid",
+            "type": "First Dispersant (Cationic)",
+            "concentration": {
+              "value": "4",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Unknown (Implied Water)",
+          "quantity": null
+        },
+         "ph_adjuster": {
+            "name": "Nitric acid",
+            "concentration": null
+         }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "100",
+          "unit": "nm",
+          "measurement_method_used": "Average size specified"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Colloidal",
+         "zeta_potential_range": {
+            "min": "10",
+            "max": "60",
+            "unit": "mV"
+        },
+        "ph_range": {
+            "min": "3",
+            "max": "6"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "overpolishing_time": {
+          "value": "40",
+          "unit": "sec"
+        },
+        "material_removal_rate": {
+          "value": "3810",
+          "unit": "Å/min",
+          "material": "Oxide Film (HDP)"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (CTS)",
+        "pad_composition": "K7 (Rohm & Haas)",
+        "flow_rate": {
+            "value": "300",
+            "unit": "ml/min"
+        },
+        "table_rpm": {
+            "value": "87",
+            "unit": "rpm"
+        },
+        "spindle_rpm": {
+            "value": "93",
+            "unit": "rpm"
+        },
+        "wafer_details": "Pattern wafer (HDP Oxide 2000 Å / Nitride 1000 Å on Si)",
+        "dishing_results": [
+            {
+                "pattern": "100µm/100µm",
+                "value": "450",
+                "unit": "Å"
+            },
+            {
+                "pattern": "300µm/300µm",
+                "value": "643",
+                "unit": "Å"
+            }
+        ],
+        "selectivity_pattern_wafer": {
+            "ratio": "1:1 to 5:1",
+            "materials": "Oxide:Nitride or Oxide:Polysilicon"
+        },
+        "selectivity_blanket_wafer": {
+            "ratio": "10:1 to 40:1",
+            "materials": "Oxide:Nitride or Oxide:Poly"
+        }
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}
