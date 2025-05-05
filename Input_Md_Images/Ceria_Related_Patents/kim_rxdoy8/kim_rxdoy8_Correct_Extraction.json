@@ -1,0 +1,2784 @@
+{
+  "patent_number": "US 2015/0021513 A1",
+  "title": "CMP SLURRY COMPOSITION FOR POLISHING AN ORGANIC LAYER AND METHOD OF FORMING A SEMICONDUCTOR DEVICE USING THE SAME",
+  "publication_date": "2015-01-22",
+  "source": "US Patent Application",
+  "inventors": [
+    "Yun-Jeong KIM",
+    "Sang-Kyun KIM",
+    "Kwang-Bok KIM",
+    "Ye-Hwan KIM",
+    "Jung-Sik CHOI",
+    "Choong-Ho HAN",
+    "Gi-Sik HONG"
+  ],
+  "abstract": "A chemical mechanical polishing (CMP) slurry composition for polishing an organic layer... may include from 0.001% to 5% by weight of oxide-polishing particles; from 0.1% to 5% by weight of an oxidant; from 0% to 5% by weight of a polishing regulator; from 0% to 3% by weight of a surfactant; from 0% to 3% by weight of a pH regulator; and from 79% to 99.889% by weight of deionized water. The use of the CMP slurry composition makes it possible to allow a silicon-free organic layer to be polished with a selectivity higher than 6:1 with respect to an oxide layer.",
+  "samples": [
+    {
+      "sample_id": "Exp1_Table1_R1",
+      "experiment_context": "Experimental Example 1 (Table 1, Row 1): Effect of Oxidant Type - Peroxide series.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Peroxide series (Hydrogen Peroxide)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": {
+            "value": 98.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1250,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 115,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 10.9
+        }
+      }
+    },
+    {
+      "sample_id": "Exp1_Table1_R2",
+      "experiment_context": "Experimental Example 1 (Table 1, Row 2): Effect of Oxidant Type - Chlorate series.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": {
+            "value": 98.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1530,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 95,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 16.1
+        }
+      }
+    },
+    {
+      "sample_id": "Exp1_Table1_R3",
+      "experiment_context": "Experimental Example 1 (Table 1, Row 3): Effect of Oxidant Type - Nitrate series.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Nitrate series (Ferric nitrate, Fe(NO)3)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": {
+            "value": 98.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 920,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 89,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 10.3
+        }
+      }
+    },
+    {
+      "sample_id": "Exp1_Table1_R4",
+      "experiment_context": "Experimental Example 1 (Table 1, Row 4): Effect of Oxidant Type - High oxidation number compound.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "High oxidation number compound (Ferric trichloride, FeCl3)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": {
+            "value": 98.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 870,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 112,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 7.8
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R1",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 1): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.2,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1650,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 45,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 36.7
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R2",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 2): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1620,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 40,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 40.5
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R3",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 3): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 0.7,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1510,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 42,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 35.9
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R4",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 4): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1400,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 40,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 35.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R5",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 5): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.7,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1630,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 89,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 18.3
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R6",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 6): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1620,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 62,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 26.1
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R7",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 7): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1590,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 42,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 37.8
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R8",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 8): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1158,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 121,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 9.6
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R9",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 9): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 941,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 124,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 7.6
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R10",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 10): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 0.1,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 804,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 129,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 6.2
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R11",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 11): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.01,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 3.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1987,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 5,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 397.4
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R12",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 12): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 3.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2100,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 6,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 350.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R13",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 13): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.1,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 3.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2230,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 28,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 79.6
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R14",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 14): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 3.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2480,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 48,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 51.7
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R15",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 15): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 3.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2670,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 77,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 34.7
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R16",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 16): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1505,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 8,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 188.1
+        }
+      }
+    },
+    {
+      "sample_id": "Exp2_Table2_R17",
+      "experiment_context": "Experimental Example 2 (Table 2, Row 17): Effect of Silica (60nm) and Chlorate (HClO4) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.1,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1600,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 31,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 51.6
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-1_Table3_R1",
+      "experiment_context": "Experimental Example 3-1 (Table 3, Row 1): Effect of Polishing Regulator Type/Content - Carboxylic acid.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2010,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 48,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 41.9
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-1_Table3_R2",
+      "experiment_context": "Experimental Example 3-1 (Table 3, Row 2): Effect of Polishing Regulator Type/Content - Carboxylic acid.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1990,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 42,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 47.4
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-1_Table3_R3",
+      "experiment_context": "Experimental Example 3-1 (Table 3, Row 3): Effect of Polishing Regulator Type/Content - Carboxylic acid.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 0.1,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1820,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 41,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 44.4
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-1_Table3_R4",
+      "experiment_context": "Experimental Example 3-1 (Table 3, Row 4): Effect of Polishing Regulator Type/Content - Carboxylic acid.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 0.7,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2580,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 45,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 57.3
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-1_Table3_R5",
+      "experiment_context": "Experimental Example 3-1 (Table 3, Row 5): Effect of Polishing Regulator Type/Content - Carboxylic acid.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 3340,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 42,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 79.5
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-1_Table3_R6",
+      "experiment_context": "Experimental Example 3-1 (Table 3, Row 6): Effect of Polishing Regulator Type/Content - Sulfonic acid.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Sulfonic acid",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1800,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 47,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 38.3
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-1_Table3_R7",
+      "experiment_context": "Experimental Example 3-1 (Table 3, Row 7): Effect of Polishing Regulator Type/Content - Amino acid.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Amino acid (Histidine)",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1710,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 45,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 38.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-1_Table3_R8",
+      "experiment_context": "Experimental Example 3-1 (Table 3, Row 8): Effect of Polishing Regulator Type/Content - Inorganic acid.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Inorganic acid (Hydrochloric acid)",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1690,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 43,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 39.3
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-1_Table3_R9",
+      "experiment_context": "Experimental Example 3-1 (Table 3, Row 9): Effect of Polishing Regulator Type/Content - Nitric acid.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Nitric acid",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1720,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 43,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 40.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-2_Table4_R1",
+      "experiment_context": "Experimental Example 3-2 (Table 4, Row 1): Effect of Carboxylic acid (Formic acid) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 0.7,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2800,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 24,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 108.3
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-2_Table4_R2",
+      "experiment_context": "Experimental Example 3-2 (Table 4, Row 2): Effect of Carboxylic acid (Formic acid) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 3500,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 22,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 159.1
+        }
+      }
+    },
+    {
+      "sample_id": "Exp3-2_Table4_R3",
+      "experiment_context": "Experimental Example 3-2 (Table 4, Row 3): Effect of Carboxylic acid (Formic acid) content.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 1.3,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 4410,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 21,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 210.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp4_Table5_R1",
+      "experiment_context": "Experimental Example 4 (Table 5, Row 1): Effect of Surfactant Type - Cationic.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "surfactant": {
+          "type": "Cationic (Benzalkonium chloride)",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": null,
+        "material_removal_rate_oxide": null,
+        "selectivity_organic_oxide": {
+          "value": 56.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp4_Table5_R2",
+      "experiment_context": "Experimental Example 4 (Table 5, Row 2): Effect of Surfactant Type - Anionic.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "surfactant": {
+          "type": "Anionic (Alkyl benzene sulfonate)",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": null,
+        "material_removal_rate_oxide": null,
+        "selectivity_organic_oxide": {
+          "value": 73.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp4_Table5_R3",
+      "experiment_context": "Experimental Example 4 (Table 5, Row 3): Effect of Surfactant Type - Non-ionic.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.4,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Chlorate series (Perchloric acid, HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "type": "Carboxylic acid (Formic acid)",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "surfactant": {
+          "type": "Non-ionic (Polyethylene glycol)",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Silicon-free organic layer",
+          "PE-TEOS"
+        ],
+        "material_removal_rate_organic": null,
+        "material_removal_rate_oxide": null,
+        "selectivity_organic_oxide": {
+          "value": 102.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp5-1_Table6_R1",
+      "experiment_context": "Experimental Example 5-1 (Table 6, Row 1): Effect of pH.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": 1.8,
+          "agents": [
+            {
+              "name": "Nitric acid",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1403,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 55,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 25.5
+        }
+      },
+      "characterization": {
+         "stability": "bad"
+      }
+    },
+    {
+      "sample_id": "Exp5-1_Table6_R2",
+      "experiment_context": "Experimental Example 5-1 (Table 6, Row 2): Effect of pH.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": 2.0,
+          "agents": [
+            {
+              "name": "Nitric acid",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1470,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 57,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 25.8
+        }
+      },
+      "characterization": {
+         "stability": "bad"
+      }
+    },
+    {
+      "sample_id": "Exp5-1_Table6_R3",
+      "experiment_context": "Experimental Example 5-1 (Table 6, Row 3): Effect of pH.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": 2.1,
+          "agents": []
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1580,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 60,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 26.3
+        }
+      },
+      "characterization": {
+         "stability": "good"
+      }
+    },
+    {
+      "sample_id": "Exp5-1_Table6_R4",
+      "experiment_context": "Experimental Example 5-1 (Table 6, Row 4): Effect of pH.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": 2.2,
+          "agents": [
+            {
+              "name": "Potassium hydroxide",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1620,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 62,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 26.1
+        }
+      },
+      "characterization": {
+         "stability": "good"
+      }
+    },
+    {
+      "sample_id": "Exp5-1_Table6_R5",
+      "experiment_context": "Experimental Example 5-1 (Table 6, Row 5): Effect of pH.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": 2.4,
+          "agents": [
+            {
+              "name": "Potassium hydroxide",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1610,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 60,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 26.8
+        }
+      },
+      "characterization": {
+         "stability": "good"
+      }
+    },
+    {
+      "sample_id": "Exp5-1_Table6_R6",
+      "experiment_context": "Experimental Example 5-1 (Table 6, Row 6): Effect of pH.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": 2.6,
+          "agents": [
+            {
+              "name": "Potassium hydroxide",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1520,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 61,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 24.9
+        }
+      },
+      "characterization": {
+         "stability": "good"
+      }
+    },
+    {
+      "sample_id": "Exp5-1_Table6_R7",
+      "experiment_context": "Experimental Example 5-1 (Table 6, Row 7): Effect of pH.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": 2.8,
+          "agents": [
+            {
+              "name": "Potassium hydroxide",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1480,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 59,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 25.1
+        }
+      },
+      "characterization": {
+         "stability": "bad"
+      }
+    },
+    {
+      "sample_id": "Exp5-1_Table6_R8",
+      "experiment_context": "Experimental Example 5-1 (Table 6, Row 8): Effect of pH.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": 3.0,
+          "agents": [
+            {
+              "name": "Potassium hydroxide",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1420,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 58,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 24.5
+        }
+      },
+      "characterization": {
+         "stability": "bad"
+      }
+    },
+    {
+      "sample_id": "Exp5-2",
+      "experiment_context": "Experimental Example 5-2: Effect of pH on stability.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Potassium persulfate (K2S2O8)",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+             "min": 3.5,
+             "max": 5.0
+          },
+          "agents": [
+            {
+              "name": "Sulfuric acid",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            },
+             {
+              "name": "Potassium hydroxide",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": null,
+      "characterization": {
+         "stability": "Good within pH 3.5-5.0"
+      }
+    },
+     {
+      "sample_id": "Exp5-3",
+      "experiment_context": "Experimental Example 5-3: Effect of pH on stability.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Ferric nitrate (Fe(NO)3)",
+          "concentration": {
+            "value": 0.3,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+             "min": 2.0,
+             "max": 2.8
+          },
+          "agents": [
+            {
+              "name": "Nitric acid",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            },
+             {
+              "name": "Potassium hydroxide",
+              "concentration": {
+                "value": "<3",
+                "unit": "wt%"
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null
+      },
+      "cmp_performance": null,
+      "characterization": {
+         "stability": "Good within pH 2.0-2.8"
+      }
+    },
+    {
+      "sample_id": "Exp6_Table7_R1",
+      "experiment_context": "Experimental Example 6 (Table 7, Row 1): Effect of Silica Grain Size.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 30,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1550,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 50,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 31.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp6_Table7_R2",
+      "experiment_context": "Experimental Example 6 (Table 7, Row 2): Effect of Silica Grain Size.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1620,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 62,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 26.1
+        }
+      }
+    },
+    {
+      "sample_id": "Exp6_Table7_R3",
+      "experiment_context": "Experimental Example 6 (Table 7, Row 3): Effect of Silica Grain Size.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 80,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2100,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 88,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 23.9
+        }
+      }
+    },
+    {
+      "sample_id": "Exp6_Table7_R4",
+      "experiment_context": "Experimental Example 6 (Table 7, Row 4): Effect of Silica Grain Size.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 120,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Perchloric acid (HClO4)",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2430,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 101,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 24.1
+        }
+      }
+    },
+    {
+      "sample_id": "Exp7_Table8_R1",
+      "experiment_context": "Experimental Example 7 (Table 8, Row 1): Effect of Ceria Grain Size.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 30,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Ferric nitrate",
+          "concentration": {
+            "value": 3.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 1720,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 4,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 430.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp7_Table8_R2",
+      "experiment_context": "Experimental Example 7 (Table 8, Row 2): Effect of Ceria Grain Size.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 60,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Ferric nitrate",
+          "concentration": {
+            "value": 3.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2100,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 6,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 350.0
+        }
+      }
+    },
+    {
+      "sample_id": "Exp7_Table8_R3",
+      "experiment_context": "Experimental Example 7 (Table 8, Row 3): Effect of Ceria Grain Size.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": 80,
+            "unit": "nm"
+          }
+        },
+        "oxidant": {
+          "type": "Ferric nitrate",
+          "concentration": {
+            "value": 3.0,
+            "unit": "wt%"
+          }
+        },
+        "solvent": {
+          "name": "Deionized Water",
+          "percentage": null
+        },
+        "polishing_regulator": null,
+        "surfactant": null,
+        "ph_control": null
+      },
+      "cmp_performance": {
+        "target_materials": [
+          "Organic layer",
+          "TEOS"
+        ],
+        "material_removal_rate_organic": {
+          "value": 2450,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_oxide": {
+          "value": 12,
+          "unit": "Å/min"
+        },
+        "selectivity_organic_oxide": {
+          "value": 204.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2232 @@
+{
+  "doi": "US 2023/0072716 A1",
+  "title": "CERIUM OXIDE ABRASIVE PARTICLES AND POLISHING SLURRY COMPOSITION",
+  "year_published": "2023",
+  "journal": "United States Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "kim_732vem_Ex1",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.05 M PEG (MW 600), 0.3 M NH4OH, 900 rpm stirring for 4h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water", 
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyethylene glycol",
+                "type": "modifier (nonionic compound)",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "600",
+                  "unit": "Da" 
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null 
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing", 
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "5.88",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "11",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "141.52",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+          "agglomeration_ratio": "1.87"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "61",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "3875",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_Ex2",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.1 M PEG (MW 600), 0.3 M NH4OH, 900 rpm stirring for 4h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyethylene glycol",
+                "type": "modifier (nonionic compound)",
+                "concentration": {
+                  "value": "0.1",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "600",
+                  "unit": "Da"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "6.00",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "12",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "138.52",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "2.00"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "55",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "3758",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_Ex3",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.5 M PEG (MW 600), 0.3 M NH4OH, 900 rpm stirring for 4h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyethylene glycol",
+                "type": "modifier (nonionic compound)",
+                "concentration": {
+                  "value": "0.5",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "600",
+                  "unit": "Da"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "6.16",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "12",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "135.23",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "1.95"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "50",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "3598",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_Ex4",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.1 M PEG (MW 2000), 0.3 M NH4OH, 900 rpm stirring for 4h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyethylene glycol",
+                "type": "modifier (nonionic compound)",
+                "concentration": {
+                  "value": "0.1",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "2000",
+                  "unit": "Da"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "5.72",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "11",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "145.32",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "1.92"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "47",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "4015",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_Ex5",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.1 M PEG (MW 2000), 0.3 M NH4OH, 900 rpm stirring for 8h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyethylene glycol",
+                "type": "modifier (nonionic compound)",
+                "concentration": {
+                  "value": "0.1",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "2000",
+                  "unit": "Da"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "8",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "9.6",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "17",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "86.64",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "1.77"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "65",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "3845",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_Ex6",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.1 M PEG (MW 2000), 0.3 M NH4OH, 900 rpm stirring for 12h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyethylene glycol",
+                "type": "modifier (nonionic compound)",
+                "concentration": {
+                  "value": "0.1",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "2000",
+                  "unit": "Da"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "12",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "17.26",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "35",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "48.19",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "2.03"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "61",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "3258",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_Ex7",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.1 M Polyglycerin (MW 310), 0.3 M NH4OH, 900 rpm stirring for 4h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyglycerin",
+                "type": "modifier (nonionic compound)",
+                "concentration": {
+                  "value": "0.1",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "310",
+                  "unit": "Da"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "6.3",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "13",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "131.72",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "2.06"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "58",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "3024",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_Ex8",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.1 M PVA (MW 500), 0.3 M NH4OH, 900 rpm stirring for 4h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyvinyl alcohol",
+                "type": "modifier (nonionic compound)",
+                "concentration": {
+                  "value": "0.1",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "500",
+                  "unit": "Da"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "5.94",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "11",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "139.87",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "1.85"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "55",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "3854",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_Ex9",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.1 M Dextrin, 0.3 M NH4OH, 900 rpm stirring for 4h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "dextrin",
+                "type": "modifier (polysaccharide)",
+                "concentration": {
+                  "value": "0.1",
+                  "unit": "M"
+                },
+                "molecular_weight": null
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "6.24",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "13",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "133.25",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "2.08"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "54",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "3751",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_CompEx1",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.3 M NH4OH, 900 rpm stirring for 4h (No modifier). Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [] 
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "5.88",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "35",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "141.52",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "5.95"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "61",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "2125",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_CompEx2",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.3 M NH4OH, 900 rpm stirring for 8h (No modifier). Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "8",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "10.34",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "45",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "80.52",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "4.35"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "58",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "1580",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_CompEx3",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.3 M NH4OH, 900 rpm stirring for 12h (No modifier). Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "12",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "16.6",
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "53",
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "50.12",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "3.19"
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "60",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "821",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+    {
+      "sample_id": "kim_732vem_CompEx4",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.1 M Polyethyleneimine (MW 610), 0.3 M NH4OH, 900 rpm stirring for 4h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyethyleneimine",
+                "type": "modifier (cationic)", 
+                "concentration": {
+                  "value": "0.1",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "610",
+                  "unit": "Da"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+             "primary": {
+                "value": "6.24", 
+                "unit": "nm",
+                "method": "Calculated from BET"
+             },
+             "secondary": {
+                "value": "121", 
+                "unit": "nm",
+                "method": "DLS"
+             }
+          },
+          "shape": null,
+          "surface_area": {
+            "value": "133.25", 
+            "unit": "m²/g",
+            "method": "BET"
+          },
+           "agglomeration_ratio": "19.39" 
+        },
+        "stability": {
+           "zeta_potential": {
+              "value": "72",
+              "unit": "mV",
+              "sign": "+"
+           }
+        }
+      },
+      "cmp_performance": {
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": {
+            "value": "1464",
+            "unit": "Å/min"
+         },
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    },
+     {
+      "sample_id": "kim_732vem_CompEx5",
+      "experiment_context": "Synthesis with 0.1 M Ce(III) precursor, 0.1 M Polyacrylic acid (MW 600), 0.3 M NH4OH, 900 rpm stirring for 4h. Slurry: 0.1 wt% ceria, pH 5 (acetic acid).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "cerium trivalent precursor",
+            "formula": null,
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": null
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "aqueous ammonia solution",
+                "concentration": {
+                  "value": "0.3",
+                  "unit": "M"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "polyacrylic acid",
+                "type": "modifier (anionic)", 
+                "concentration": {
+                  "value": "0.1",
+                  "unit": "M"
+                },
+                "molecular_weight": {
+                  "value": "600",
+                  "unit": "Da"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "stirring",
+                "speed": {
+                   "value": "900",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "4",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "cerium oxide",
+            "concentration": {
+              "initial": null,
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "dispersion": [
+             {
+                "method": "dispersing",
+                "details": "Method not specified in synthesis/prep, ball milling used for evaluation."
+             }
+          ],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "min": "5",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "acetic acid",
+                "concentration": null
+              }
+            ]
+          }
+        }
+      },
+      "characterization": { 
+         "morphology": {
+             "particle_size": {
+                 "primary": null, 
+                 "secondary": null
+             },
+             "shape": null,
+             "surface_area": null, 
+             "agglomeration_ratio": null 
+         },
+         "stability": {
+             "zeta_potential": null 
+         }
+      },
+      "cmp_performance": { 
+         "substrate": "PETEOS",
+         "polishing_time": {
+            "value": "60",
+            "unit": "s"
+         },
+         "material_removal_rate": null, 
+         "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+         },
+         "pad_conditioning_pressure": {
+             "value": "4.5",
+             "unit": "psi",
+             "type": "R-ring"
+         },
+         "equipment_model": "ST #01 (KCT)",
+         "pad_composition": "IC 1000",
+         "flow_rate": {
+             "value": "200",
+             "unit": "ml/min"
+         },
+         "carrier_rpm": "60/63"
+      }
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "doi": "US 10,047,248 B2",
+  "title": "SLURRY COMPOSITION FOR CHEMICAL MECHANICAL POLISHING, METHOD OF PREPARING THE SAME, AND POLISHING METHOD USING THE SAME",
+  "year_published": "2017",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "Unmodified_Ceria_pH2.0",
+      "experiment_context": "Comparative Example 1: Unmodified ceria particles (~65 nm) in DIW slurry at pH 2.0.",
+      "abrasive_material": "Ceria",
+      "abrasive_modification": {
+        "modified": false
+      },
+      "characterization": {
+        "average_particle_diameter": {
+          "value": "65",
+          "unit": "nm"
+        },
+        "ftir_analysis": {
+          "peaks_cm-1": [
+            "~3000-3500"
+          ],
+          "description": "Broad peak indicating -OH groups (FIG. 3)"
+        },
+        "zeta_potential_analysis": {
+          "iep": "~8.8",
+          "description": "Isoelectric point before modification (FIG. 4)"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "3",
+          "unit": "parts by weight"
+        },
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": "2.0",
+          "agents": [
+            "HCl",
+            "NaOH"
+          ]
+        },
+        "additives": []
+      },
+      "cmp_performances": [
+        {
+          "substrate_polished": "SiO2",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "295",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        },
+        {
+          "substrate_polished": "W",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "167",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        },
+        {
+          "substrate_polished": "Cu",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "140",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        },
+        {
+          "substrate_polished": "SiNx",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "39",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        }
+      ]
+    },
+    {
+      "sample_id": "Nitrate_Modified_Ceria_pH2.0",
+      "experiment_context": "Experimental Example 1: Ceria particles (~65 nm) modified with nitric acid, used in DIW slurry at pH 2.0.",
+      "abrasive_material": "Ceria",
+      "abrasive_modification": {
+        "modified": true,
+        "modification_agent": "Nitric acid",
+        "modification_concentration": {
+          "value": "3",
+          "unit": "M"
+        },
+        "modification_temperature": {
+          "value": "70",
+          "unit": "°C"
+        },
+        "modification_time": {
+          "value": "4",
+          "unit": "hours"
+        }
+      },
+      "characterization": {
+        "average_particle_diameter": {
+          "value": "65",
+          "unit": "nm"
+        },
+        "ftir_analysis": {
+          "peaks_cm-1": [
+            "~1250-1400"
+          ],
+          "description": "Sharp peak indicating nitrate groups (FIG. 3)"
+        },
+        "zeta_potential_analysis": {
+          "iep": ">10.5",
+          "description": "Isoelectric point after modification (FIG. 4)",
+          "esa_at_ph_7_to_9": {
+            "value": ">0.2",
+            "unit": "mPa·m/V"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "3",
+          "unit": "parts by weight"
+        },
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": "2.0",
+          "agents": [
+            "pH control agent"
+          ]
+        },
+        "additives": []
+      },
+      "cmp_performances": [
+        {
+          "substrate_polished": "SiO2",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "599",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        },
+        {
+          "substrate_polished": "W",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "567",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        },
+        {
+          "substrate_polished": "Cu",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "500",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        },
+        {
+          "substrate_polished": "SiNx",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "80",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        }
+      ]
+    },
+    {
+      "sample_id": "Unmodified_Ceria_pH7.0",
+      "experiment_context": "Comparative Example 2: Unmodified ceria particles (~65 nm) in DIW slurry at pH 7.0.",
+      "abrasive_material": "Ceria",
+      "abrasive_modification": {
+        "modified": false
+      },
+      "characterization": {
+        "average_particle_diameter": {
+          "value": "65",
+          "unit": "nm"
+        },
+        "ftir_analysis": {
+          "peaks_cm-1": [
+            "~3000-3500"
+          ],
+          "description": "Broad peak indicating -OH groups (FIG. 3)"
+        },
+        "zeta_potential_analysis": {
+          "iep": "~8.8",
+          "description": "Isoelectric point before modification (FIG. 4)"
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "3",
+          "unit": "parts by weight"
+        },
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": "7.0",
+          "agents": [
+            "pH control agent"
+          ]
+        },
+        "additives": []
+      },
+      "cmp_performances": [
+        {
+          "substrate_polished": "SiO2",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "2740",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        }
+      ]
+    },
+    {
+      "sample_id": "Nitrate_Modified_Ceria_pH7.0",
+      "experiment_context": "Experimental Example 2: Ceria particles (~65 nm) modified with nitric acid, used in DIW slurry at pH 7.0.",
+      "abrasive_material": "Ceria",
+      "abrasive_modification": {
+        "modified": true,
+        "modification_agent": "Nitric acid",
+        "modification_concentration": {
+          "value": "3",
+          "unit": "M"
+        },
+        "modification_temperature": {
+          "value": "70",
+          "unit": "°C"
+        },
+        "modification_time": {
+          "value": "4",
+          "unit": "hours"
+        }
+      },
+      "characterization": {
+        "average_particle_diameter": {
+          "value": "65",
+          "unit": "nm"
+        },
+        "ftir_analysis": {
+          "peaks_cm-1": [
+            "~1250-1400"
+          ],
+          "description": "Sharp peak indicating nitrate groups (FIG. 3)"
+        },
+        "zeta_potential_analysis": {
+          "iep": ">10.5",
+          "description": "Isoelectric point after modification (FIG. 4)",
+          "esa_at_ph_7_to_9": {
+            "value": ">0.2",
+            "unit": "mPa·m/V"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "3",
+          "unit": "parts by weight"
+        },
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": "7.0",
+          "agents": [
+            "pH control agent"
+          ]
+        },
+        "additives": []
+      },
+      "cmp_performances": [
+        {
+          "substrate_polished": "SiO2",
+          "polishing_pressure": {
+            "value": "4",
+            "unit": "psi"
+          },
+          "rotation_speed": {
+            "substrate": {
+              "value": "70",
+              "unit": "rpm"
+            },
+            "pad": {
+              "value": "69",
+              "unit": "rpm"
+            }
+          },
+          "slurry_flow_rate": {
+            "value": "100",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "2",
+            "unit": "min"
+          },
+          "material_removal_rate": {
+            "value": "3690",
+            "unit": "Å/min"
+          },
+          "equipment_model": "CETR CP-4",
+          "pad_composition": "IC1010 (Dow)"
+        }
+      ]
+    }
+  ]
+}

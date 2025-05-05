@@ -1,0 +1,2020 @@
+{
+  "doi": "US 2021/0009859 A1",
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITION FOR POLISHING MULTIPLE FILMS AND POLISHING METHOD USING THE SAME",
+  "year_published": "2021",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "CMP slurry with 1 wt% silica, 0.08 wt% succinic acid, 0.03 wt% HEC (90k MW), 0.05 wt% PEG (600 MW), 0.025 wt% PAA (2k MW), pH 3.5 adjusted with triethanolamine.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 1X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "2000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.025",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "3.504",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Same as Example 1, but with 0.005 wt% PAA (2k MW).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 1X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "2000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.005",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "7.472",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Same as Example 1, but with 0.005 wt% PAA (10k MW, denoted PAA 5X).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 5X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "10000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.005",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "6.988",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Same as Example 1, but pH adjusted to 4.5.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 1X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "2000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.025",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "4.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "7.156",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Same as Example 1, but pH 4.5 and 0.005 wt% PAA (2k MW).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 1X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "2000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.005",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "4.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "9.864",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Same as Example 1, but pH 4.5 and 0.005 wt% PAA (10k MW, denoted PAA 5X).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 5X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "10000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.005",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "4.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "7.806",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_7",
+      "experiment_context": "Same as Example 1, but pH 4.5 and 0.0025 wt% PAA (10k MW, denoted PAA 5X).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 5X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "10000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.0025",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "4.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "13.945",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Same as Example 1, but no defect improving agent (PAA) added.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": null,
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "36.68",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "Same as Comparative Example 1, but pH adjusted to 4.5.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": null,
+        "ph_control": {
+          "target": {
+            "value": "4.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "59.32",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_3",
+      "experiment_context": "Same as Example 1, but pH adjusted to 2.5.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 1X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "2000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.025",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "2.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "37.685",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_4",
+      "experiment_context": "Same as Example 1, but with 0.15 wt% PAA (2k MW).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 1X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "2000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.15",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "18.347",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5",
+      "experiment_context": "Same as Example 1, but with 0.001 wt% PAA (10k MW, denoted PAA 5X).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 5X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "10000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.001",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "19.674",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_6",
+      "experiment_context": "Same as Example 1, but pH 4.5 and 0.001 wt% PAA (10k MW, denoted PAA 5X).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 5X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "10000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.001",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "4.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "25.648",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_7",
+      "experiment_context": "Same as Example 1, but pH 7.5 and 0.005 wt% PAA (10k MW, denoted PAA 5X).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polyacrylic acid (PAA 5X)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "10000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.005",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "7.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "37.891",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_8",
+      "experiment_context": "Same as Example 1, but defect improving agent is 0.025 wt% polystyrene sulfonic acid (PSSA).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "polystyrene sulfonic acid (PSSA)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": null,
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.025",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "28.170",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_9",
+      "experiment_context": "Same as Example 1, but defect improving agent is 0.05 wt% 2-acrylamido-2-methylpropane sulfonic acid (AMPS).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "2-acrylamido-2-methylpropane sulfonic acid (AMPS)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": null,
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "26.204",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_10",
+      "experiment_context": "Same as Example 1, but defect improving agent is 0.025 wt% ammonium lauryl sulfate (ALS).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "ammonium lauryl sulfate (ALS)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": null,
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.025",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "27.169",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_11",
+      "experiment_context": "Same as Example 1, but defect improving agent is 0.025 wt% ammonium persulfate (APS).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "surface-modified colloidal silica (PL-3D)",
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "polishing_regulator": {
+          "name": "succinic acid",
+          "type": "organic acid",
+          "concentration": {
+            "value": "0.08",
+            "unit": "wt%"
+          }
+        },
+        "surface_roughness_modifier": {
+          "name": "hydroxyethyl cellulose (HEC)",
+          "type": "water-soluble polymer",
+          "weight_average_molecular_weight": {
+            "value": "90000",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.03",
+            "unit": "wt%"
+          }
+        },
+        "polishing_profile_improving_agent": {
+          "name": "polyethylene glycol (PEG)",
+          "type": "nonionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": "600",
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.05",
+            "unit": "wt%"
+          }
+        },
+        "defect_improving_agent": {
+          "name": "ammonium persulfate (APS)",
+          "type": "anionic surfactant",
+          "weight_average_molecular_weight": {
+            "value": null,
+            "unit": ""
+          },
+          "concentration": {
+            "value": "0.025",
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "3.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "triethanolamine",
+              "concentration": {
+                "value": null,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        "solvent": {
+          "name": "Water (implied)",
+          "percentage": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "equipment_model": "NT (manufactured by KCTECH)",
+          "pad_composition": "IC 1000 (manufactured by DOW)",
+          "polishing_pressure": {
+            "value": "2",
+            "unit": "psi"
+          },
+          "carrier_rpm": {
+            "value": "78/83",
+            "unit": ""
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "60",
+            "unit": "sec"
+          }
+        },
+        "defect_rate": {
+          "value": "22.697",
+          "unit": "% (Post/Pre)"
+        },
+        "target_films": [
+          "polycrystalline silicon film",
+          "silicon nitride film"
+        ]
+      }
+    }
+  ]
+}

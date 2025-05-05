@@ -1,0 +1,1170 @@
+{
+  "doi": "US 2008/0096385 A1",
+  "title": "SLURRY COMPOSITION FOR FORMING TUNGSTEN PATTERN AND METHOD FOR MANUFACTURING SEMICONDUCTOR DEVICE USING THE SAME",
+  "year_published": "2008",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Ex1_Fumed_pH2",
+      "experiment_context": "Example 1: Fumed silica slurry at pH 2.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "5.7",
+            "unit": "wt%"
+          }
+        },
+        "additives": [],
+        "ph": {
+          "value": "2"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "115",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "15",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "8"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Unipla 211",
+        "polishing_pad": "IC1000",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "substrate": {
+            "value": "3",
+            "unit": "psi"
+          },
+          "retainer_ring": {
+            "value": "6",
+            "unit": "psi"
+          }
+        },
+        "rotation_speed": {
+          "spindle": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex1_Fumed_pH10",
+      "experiment_context": "Example 1: Fumed silica slurry at pH 10.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "5.7",
+            "unit": "wt%"
+          }
+        },
+        "additives": [],
+        "ph": {
+          "value": "10"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "747",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "12",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "62"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Unipla 211",
+        "polishing_pad": "IC1000",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "substrate": {
+            "value": "3",
+            "unit": "psi"
+          },
+          "retainer_ring": {
+            "value": "6",
+            "unit": "psi"
+          }
+        },
+        "rotation_speed": {
+          "spindle": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex1_Fumed_pH10.9",
+      "experiment_context": "Example 1: Fumed silica slurry at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "5.7",
+            "unit": "wt%"
+          }
+        },
+        "additives": [],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "875",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "13",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "67"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Unipla 211",
+        "polishing_pad": "IC1000",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "substrate": {
+            "value": "3",
+            "unit": "psi"
+          },
+          "retainer_ring": {
+            "value": "6",
+            "unit": "psi"
+          }
+        },
+        "rotation_speed": {
+          "spindle": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex2_Colloidal_45nm_pH2.3",
+      "experiment_context": "Example 2: Colloidal silica (45nm) slurry with methanol at pH 2.3.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "primary_particle_size": {
+            "value": "45",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Methanol",
+            "type": "Alcohol Organic Compound",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "2.3"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "1264",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "45",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "28"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex2_Colloidal_45nm_pH10.5",
+      "experiment_context": "Example 2: Colloidal silica (45nm) slurry with methanol at pH 10.5.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "primary_particle_size": {
+            "value": "45",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Methanol",
+            "type": "Alcohol Organic Compound",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.5"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "1535",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "30",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "50"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex2_Colloidal_80nm_pH2.3",
+      "experiment_context": "Example 2: Colloidal silica (80nm) slurry with methanol at pH 2.3.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "primary_particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Methanol",
+            "type": "Alcohol Organic Compound",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "2.3"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "1611",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "60",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "27"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex2_Colloidal_80nm_pH10.5",
+      "experiment_context": "Example 2: Colloidal silica (80nm) slurry with methanol at pH 10.5.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "primary_particle_size": {
+            "value": "80",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Methanol",
+            "type": "Alcohol Organic Compound",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.5"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "2920",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "44",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "67"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex3_Fumed_Glycine_pH10.9",
+      "experiment_context": "Example 3: Fumed silica slurry with glycine at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "5.7",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing Agent",
+            "concentration": {
+              "value": "0.04",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "871",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "19",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "46"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Unipla 211",
+        "polishing_pad": "IC1000",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "substrate": {
+            "value": "3",
+            "unit": "psi"
+          },
+          "retainer_ring": {
+            "value": "6",
+            "unit": "psi"
+          }
+        },
+        "rotation_speed": {
+          "spindle": {
+            "value": "60",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex4_Fumed_Glycine_Glycerin_pH10.9",
+      "experiment_context": "Example 4: Fumed silica slurry with glycine and glycerin at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "5.0",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing Agent",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Glycerin",
+            "type": "Alcohol Organic Compound",
+            "concentration": {
+              "value": "0.06",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "765",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "16",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "48"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex4_Fumed_Glycerin_pH10.9",
+      "experiment_context": "Example 4: Fumed silica slurry with glycerin at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "5.0",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycerin",
+            "type": "Alcohol Organic Compound",
+            "concentration": {
+              "value": "0.06",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "778",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "15",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "52"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex4_Fumed_Methanol_pH10.9",
+      "experiment_context": "Example 4: Fumed silica slurry with methanol at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "5.0",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Methanol",
+            "type": "Alcohol Organic Compound",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "778",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "15",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "52"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex5_Fumed_Glycine_2wt_pH10.9",
+      "experiment_context": "Example 5: Fumed silica (2 wt%) slurry with glycine at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "2.0",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing Agent",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "410",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "10",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "41"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex5_Fumed_Glycine_4wt_pH10.9",
+      "experiment_context": "Example 5: Fumed silica (4 wt%) slurry with glycine at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "4.0",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing Agent",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "650",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "14",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "46"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex5_Fumed_Glycine_6wt_pH10.9",
+      "experiment_context": "Example 5: Fumed silica (6 wt%) slurry with glycine at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "6.0",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing Agent",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "880",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "18",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "49"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex5_Fumed_Glycine_8wt_pH10.9",
+      "experiment_context": "Example 5: Fumed silica (8 wt%) slurry with glycine at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "8.0",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing Agent",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "1150",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "22",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "52"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex5_Fumed_Glycine_10wt_pH10.9",
+      "experiment_context": "Example 5: Fumed silica (10 wt%) slurry with glycine at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "10.0",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing Agent",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "1350",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "25",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "54"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Ex5_Fumed_Glycine_12wt_pH10.9",
+      "experiment_context": "Example 5: Fumed silica (12 wt%) slurry with glycine at pH 10.9.",
+      "slurry_composition": {
+        "abrasive": {
+          "type": "Fumed Silica",
+          "primary_particle_size": {
+            "value": "20",
+            "unit": "nm"
+          },
+          "secondary_average_particle_size": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "concentration": {
+            "value": "12.0",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing Agent",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "10.9"
+        },
+        "solvent": {
+          "name": "Ultra-pure water"
+        }
+      },
+      "cmp_performance": {
+        "polishing_material": "PETEOS",
+        "material_removal_rate": {
+          "value": "1580",
+          "unit": "Å/min"
+        },
+        "tungsten_removal_rate": {
+          "value": "28",
+          "unit": "Å/min"
+        },
+        "selectivity_ratio_material_tungsten": {
+          "value": "56"
+        }
+      },
+      "cmp_conditions": {
+        "equipment_model": "Poli500 CE",
+        "polishing_pad": "IC1400",
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "mL/min"
+        },
+        "polishing_pressure": {
+          "value": "200",
+          "unit": "g/cm²"
+        },
+        "rotation_speed": {
+          "table_head": {
+            "value": "80/80",
+            "unit": "rpm"
+          }
+        }
+      }
+    }
+  ]
+}

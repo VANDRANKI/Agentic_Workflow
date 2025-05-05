@@ -1,0 +1,1156 @@
+{
+  "doi": "11186749",
+  "title": "SLURRY COMPOSITION AND METHOD OF MANUFACTURING INTEGRATED CIRCUIT DEVICE BY USING THE SAME",
+  "year_published": "2021",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "GO_100ppm_NaIO4_pH9_EIS_Ru",
+      "experiment_context": "Slurry from Example 1 (100ppm Graphene Oxide, 2wt% NaIO4, pH 9) used for Electrochemical Impedance Spectroscopy (EIS) testing on Ruthenium (Ru) thin film.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "electrochemical_impedance_spectroscopy": {
+          "material": "Ru",
+          "nyquist_semicircle_diameter": {
+            "value": "0.7",
+            "unit": "kOhm"
+          }
+        }
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_100ppm_NaIO4_pH9_EIS_Cu",
+      "experiment_context": "Slurry from Example 1 (100ppm Graphene Oxide, 2wt% NaIO4, pH 9) used for Electrochemical Impedance Spectroscopy (EIS) testing on Copper (Cu) thin film.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "electrochemical_impedance_spectroscopy": {
+          "material": "Cu",
+          "nyquist_semicircle_diameter": {
+            "value": "16.9",
+            "unit": "kOhm"
+          }
+        }
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "BTA_100ppm_NaIO4_pH9_EIS_Ru",
+      "experiment_context": "Slurry from Comparative Example 1 (100ppm Benzotriazole, 2wt% NaIO4, pH 9) used for Electrochemical Impedance Spectroscopy (EIS) testing on Ruthenium (Ru) thin film.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "electrochemical_impedance_spectroscopy": {
+          "material": "Ru",
+          "nyquist_semicircle_diameter": {
+            "value": "1.6",
+            "unit": "kOhm"
+          }
+        }
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "BTA_100ppm_NaIO4_pH9_EIS_Cu",
+      "experiment_context": "Slurry from Comparative Example 1 (100ppm Benzotriazole, 2wt% NaIO4, pH 9) used for Electrochemical Impedance Spectroscopy (EIS) testing on Copper (Cu) thin film.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "electrochemical_impedance_spectroscopy": {
+          "material": "Cu",
+          "nyquist_semicircle_diameter": {
+            "value": "6.4",
+            "unit": "kOhm"
+          }
+        }
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_100ppm_NaIO4_Silica_pH9_CMP_Cu_1.5psi",
+      "experiment_context": "Slurry from Example 3 (100ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Copper (Cu) film at 1.5 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "562",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "1.5",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_100ppm_NaIO4_Silica_pH9_CMP_Ru_1.5psi",
+      "experiment_context": "Slurry from Example 3 (100ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Ruthenium (Ru) film at 1.5 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "350",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "1.5",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+     {
+      "sample_id": "GO_100ppm_NaIO4_Silica_pH9_CMP_Cu_1.0psi",
+      "experiment_context": "Slurry from Example 3 (100ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Copper (Cu) film at 1.0 psi. MRR estimated from Fig 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~400",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "1.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_100ppm_NaIO4_Silica_pH9_CMP_Ru_1.0psi",
+      "experiment_context": "Slurry from Example 3 (100ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Ruthenium (Ru) film at 1.0 psi. MRR estimated from Fig 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~380",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "1.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_100ppm_NaIO4_Silica_pH9_CMP_Cu_3.0psi",
+      "experiment_context": "Slurry from Example 3 (100ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Copper (Cu) film at 3.0 psi. MRR estimated from Fig 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~600",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_100ppm_NaIO4_Silica_pH9_CMP_Ru_3.0psi",
+      "experiment_context": "Slurry from Example 3 (100ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Ruthenium (Ru) film at 3.0 psi. MRR estimated from Fig 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~550",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_25ppm_NaIO4_Silica_pH9_CMP_Cu_1.0psi",
+      "experiment_context": "Slurry from Example 4 (25ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Copper (Cu) film at 1.0 psi. MRR estimated from Fig 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "25",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~600",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "1.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_25ppm_NaIO4_Silica_pH9_CMP_Ru_1.0psi",
+      "experiment_context": "Slurry from Example 4 (25ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Ruthenium (Ru) film at 1.0 psi. MRR estimated from Fig 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "25",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~580",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "1.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_25ppm_NaIO4_Silica_pH9_CMP_Cu_3.0psi",
+      "experiment_context": "Slurry from Example 4 (25ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Copper (Cu) film at 3.0 psi. MRR estimated from Fig 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "25",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~900",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "GO_25ppm_NaIO4_Silica_pH9_CMP_Ru_3.0psi",
+      "experiment_context": "Slurry from Example 4 (25ppm Graphene Oxide, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Ruthenium (Ru) film at 3.0 psi. MRR estimated from Fig 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Graphene Oxide",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "25",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~850",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "BTA_100ppm_NaIO4_Silica_pH9_CMP_Cu_1.5psi",
+      "experiment_context": "Slurry from Comparative Example 3 (100ppm Benzotriazole, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Copper (Cu) film at 1.5 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "1040",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "1.5",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "BTA_100ppm_NaIO4_Silica_pH9_CMP_Ru_1.5psi",
+      "experiment_context": "Slurry from Comparative Example 3 (100ppm Benzotriazole, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Ruthenium (Ru) film at 1.5 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "332",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "1.5",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "BTA_100ppm_NaIO4_Silica_pH9_CMP_Cu_1.0psi",
+      "experiment_context": "Slurry from Comparative Example 3 (100ppm Benzotriazole, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Copper (Cu) film at 1.0 psi. MRR estimated from Fig 6.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~700",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "1.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "BTA_100ppm_NaIO4_Silica_pH9_CMP_Cu_3.0psi",
+      "experiment_context": "Slurry from Comparative Example 3 (100ppm Benzotriazole, 2wt% NaIO4, 2wt% Silica, pH 9) used for Chemical Mechanical Polishing (CMP) of Copper (Cu) film at 3.0 psi. MRR estimated from Fig 6.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+           "value": "2",
+           "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion Inhibitor",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            }
+          },
+          {
+            "name": "NaIO4",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Silica",
+            "type": "Abrasive",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "~1400",
+          "unit": "A/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "3.0",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

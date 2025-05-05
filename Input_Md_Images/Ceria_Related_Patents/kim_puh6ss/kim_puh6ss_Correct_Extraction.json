@@ -1,0 +1,1446 @@
+{
+  "doi": "",
+  "title": "SLURRY COMPOSITIONS FOR USE IN CHEMICAL MECHANICAL POLISHING AND METHOD OF MANUFACTURING SEMICONDUCTOR DEVICE USING THE SAME",
+  "year_published": "2006",
+  "journal": "Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Surfactant_0wt%",
+      "experiment_context": "Experimental Example 1: Investigating effect of non-ionic surfactant concentration. Base slurry: 10 wt% Colloidal Silica, pH 11. Surfactant: EOx-POy-EOz (x=13, y=30, z=13). CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+        "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "7997",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "40.9",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "15.9",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "195.6",
+          "polysilicon_to_silicon_nitride": "503.1"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 1 (img-1.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+    {
+      "sample_id": "Surfactant_0.005wt%",
+      "experiment_context": "Experimental Example 1: Investigating effect of non-ionic surfactant concentration. Base slurry: 10 wt% Colloidal Silica, pH 11. Surfactant: EOx-POy-EOz (x=13, y=30, z=13). CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+        "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5983",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "50.6",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "22.3",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "118.1",
+          "polysilicon_to_silicon_nitride": "268.2"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 1 (img-1.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+    {
+      "sample_id": "Surfactant_0.01wt%",
+      "experiment_context": "Experimental Example 1: Investigating effect of non-ionic surfactant concentration. Base slurry: 10 wt% Colloidal Silica, pH 11. Surfactant: EOx-POy-EOz (x=13, y=30, z=13). CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+        "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5159",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "49.8",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "23.3",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "103.6",
+          "polysilicon_to_silicon_nitride": "221"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 1 (img-1.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+    {
+      "sample_id": "Surfactant_0.05wt%",
+      "experiment_context": "Experimental Example 1: Investigating effect of non-ionic surfactant concentration. Base slurry: 10 wt% Colloidal Silica, pH 11. Surfactant: EOx-POy-EOz (x=13, y=30, z=13). CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+        "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "2216",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "53.5",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "23.6",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "41.4",
+          "polysilicon_to_silicon_nitride": "93.7"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 1 (img-1.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+    {
+      "sample_id": "PEI_Mw_None",
+      "experiment_context": "Experimental Example 2: Investigating effect of PEI molecular weight. Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": null
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5159",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "49.8",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "23.3",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "103.6",
+          "polysilicon_to_silicon_nitride": "221"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 2 (img-2.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+    {
+      "sample_id": "PEI_Mw_800",
+      "experiment_context": "Experimental Example 2: Investigating effect of PEI molecular weight. Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. PEI Mw=800. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "800"
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "4958",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "52.6",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "25.4",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "94.3",
+          "polysilicon_to_silicon_nitride": "195.2"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 2 (img-2.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+    {
+      "sample_id": "PEI_Mw_2000",
+      "experiment_context": "Experimental Example 2: Investigating effect of PEI molecular weight. Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. PEI Mw=2000. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "2000"
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5201",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "48.5",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "22",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "107.2",
+          "polysilicon_to_silicon_nitride": "236.4"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 2 (img-2.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+    {
+      "sample_id": "PEI_Mw_25000",
+      "experiment_context": "Experimental Example 2: Investigating effect of PEI molecular weight. Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. PEI Mw=25000. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "25000"
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5124",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "45.1",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "19.6",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "113.6",
+          "polysilicon_to_silicon_nitride": "261.4"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 2 (img-2.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+    {
+      "sample_id": "PEI_Mw_75000",
+      "experiment_context": "Experimental Example 2: Investigating effect of PEI molecular weight. Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. PEI Mw=75000. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "75000" 
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5227",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "36.4",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "17.4",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "143.6",
+          "polysilicon_to_silicon_nitride": "300.4"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 2 (img-2.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+     {
+      "sample_id": "PEI_0wt%_Mw_750k",
+      "experiment_context": "Experimental Example 3: Investigating effect of PEI concentration (Mw 750000). Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "750000",
+             "concentration": {
+              "value": "0",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5159.2",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "49.8",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "23.3",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "103.6",
+          "polysilicon_to_silicon_nitride": "221.4"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 3 (img-3.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+     {
+      "sample_id": "PEI_0.01wt%_Mw_750k",
+      "experiment_context": "Experimental Example 3: Investigating effect of PEI concentration (Mw 750000). Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. PEI Conc=0.01 wt%. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "750000",
+             "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "4874.2",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "46.6",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "23.1",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "104.6",
+          "polysilicon_to_silicon_nitride": "210.7"
+        },
+        "dishing_rate": {
+          "description": "Extracted from Fig 3 (img-3.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+     {
+      "sample_id": "PEI_0.05wt%_Mw_750k",
+      "experiment_context": "Experimental Example 3: Investigating effect of PEI concentration (Mw 750000). Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. PEI Conc=0.05 wt%. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "750000",
+             "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "4906.5",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "40.5",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "20",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "121.1",
+          "polysilicon_to_silicon_nitride": "245.3" 
+        },
+         "dishing_rate": {
+          "description": "Extracted from Fig 3 (img-3.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+     {
+      "sample_id": "PEI_0.1wt%_Mw_750k",
+      "experiment_context": "Experimental Example 3: Investigating effect of PEI concentration (Mw 750000). Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. PEI Conc=0.1 wt%. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "750000",
+             "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5227.2",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "36.4",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "17.4",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "143.8",
+          "polysilicon_to_silicon_nitride": "300.4" 
+        },
+         "dishing_rate": {
+          "description": "Extracted from Fig 3 (img-3.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+     {
+      "sample_id": "PEI_0.5wt%_Mw_750k",
+      "experiment_context": "Experimental Example 3: Investigating effect of PEI concentration (Mw 750000). Base slurry: 10 wt% Colloidal Silica, 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), pH 11. PEI Conc=0.5 wt%. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "750000",
+             "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "4047.1",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "15.1",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "4.3",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "267.4",
+          "polysilicon_to_silicon_nitride": "950.2" 
+        },
+         "dishing_rate": {
+          "description": "Extracted from Fig 3 (img-3.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+    {
+      "sample_id": "Silica_1wt%",
+      "experiment_context": "Experimental Example 4: Investigating effect of Colloidal Silica concentration. Base slurry: 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), 0.1 wt% PEI (Mw 750000), pH 11. Silica Conc=1 wt%. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "750000",
+             "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "3726",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "20.2",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "10.6",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "162.1", 
+          "polysilicon_to_silicon_nitride": "309" 
+        },
+         "dishing_rate": {
+          "description": "Extracted from Fig 4 (img-4.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+     {
+      "sample_id": "Silica_4.5wt%",
+      "experiment_context": "Experimental Example 4: Investigating effect of Colloidal Silica concentration. Base slurry: 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), 0.1 wt% PEI (Mw 750000), pH 11. Silica Conc=4.5 wt%. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "4.5",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "750000",
+             "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5123.3",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "23.6",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "18.4",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "216.7", 
+          "polysilicon_to_silicon_nitride": "278.5" 
+        },
+         "dishing_rate": {
+          "description": "Extracted from Fig 4 (img-4.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+     {
+      "sample_id": "Silica_9wt%",
+      "experiment_context": "Experimental Example 4: Investigating effect of Colloidal Silica concentration. Base slurry: 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), 0.1 wt% PEI (Mw 750000), pH 11. Silica Conc=9 wt%. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "9",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "750000",
+             "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5227.2",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "36.4",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "17.3",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "143.7", 
+          "polysilicon_to_silicon_nitride": "302.2" 
+        },
+         "dishing_rate": {
+          "description": "Extracted from Fig 4 (img-4.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    },
+     {
+      "sample_id": "Silica_17wt%",
+      "experiment_context": "Experimental Example 4: Investigating effect of Colloidal Silica concentration. Base slurry: 0.01 wt% Surfactant (EOx-POy-EOz x=13,y=30,z=13), 0.1 wt% PEI (Mw 750000), pH 11. Silica Conc=17 wt%. CMP on Polysilicon, Silicon Oxide, Silicon Nitride blanket wafers and patterned wafer (8, 16, 64, 125 um lines).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "17",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "EOx-POy-EOz (x=13, y=30, z=13)",
+            "type": "Non-ionic surfactant",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylenimine (PEI)",
+            "type": "Positive-ionic high molecular compound",
+            "molecular_weight": "750000",
+             "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "11",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": "Polysilicon",
+        "equipment_model": "F-REX 200 (blanket), MIRRA (pattern)",
+        "pad_composition": "Rodel IC 1000 (top), Rodel Suba 4 (sub)",
+         "polishing_head_speed": {
+            "value": "72",
+            "unit": "rpm"
+        },
+        "polishing_plate_speed": {
+            "value": "80",
+            "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "200",
+            "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds (blanket)"
+        },
+        "material_removal_rate": {
+          "polysilicon": {
+            "value": "5142.6",
+            "unit": "Å/min"
+          },
+          "silicon_oxide": {
+            "value": "56.4",
+            "unit": "Å/min"
+          },
+          "silicon_nitride": {
+            "value": "27.1",
+            "unit": "Å/min"
+          }
+        },
+        "selectivity": {
+          "polysilicon_to_silicon_oxide": "91.3", 
+          "polysilicon_to_silicon_nitride": "189.8" 
+        },
+         "dishing_rate": {
+          "description": "Extracted from Fig 4 (img-4.jpeg)",
+          "line_width_8um": null,
+          "line_width_16um": null,
+          "line_width_64um": null,
+          "line_width_125um": null
+        }
+      }
+    }
+  ]
+}

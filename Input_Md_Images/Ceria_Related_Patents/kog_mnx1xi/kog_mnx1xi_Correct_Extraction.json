@@ -1,0 +1,1202 @@
+{
+  "patent_number": "US 2006/0194885 A1",
+  "publication_date": "2006-08-31",
+  "title": "ALUMINA PARTICLES, PRODUCTION PROCESS THEREOF, COMPOSITION COMPRISING THE PARTICLES AND ALUMINA SLURRY FOR POLISHING",
+  "assignee": "SHOWA DENKO K.K.",
+  "application_number": "11/403,909",
+  "filing_date": "2006-04-14",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Gas phase oxidation of AlCl3 to produce gamma-alumina particles for CMP.",
+      "synthesis_method": "Gas Phase Oxidation",
+      "raw_material": "Anhydrous Aluminum Chloride",
+      "gas_phase_parameters": {
+        "carrier_gas": {
+          "type": "Nitrogen",
+          "flow_rate": {
+            "value": 9.4,
+            "unit": "Nm³/hr"
+          },
+          "temperature": {
+            "value": 500,
+            "unit": "°C"
+          }
+        },
+        "material_feed": {
+          "material": "Anhydrous Aluminum Chloride",
+          "flow_rate": {
+            "value": 51,
+            "unit": "kg/hr"
+          }
+        },
+        "material_gas": {
+          "concentration": {
+            "value": 48,
+            "unit": "% by volume"
+          },
+          "temperature_eject": {
+            "value": 850,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 83,
+            "unit": "m/sec"
+          }
+        },
+        "oxidizing_gas": {
+          "composition": {
+            "water_vapor": {
+              "value": 95,
+              "unit": "% by volume"
+            },
+            "oxygen": {
+              "value": 5,
+              "unit": "% by volume"
+            }
+          },
+          "flow_rate": {
+            "value": 68,
+            "unit": "Nm³/hr"
+          },
+          "temperature_eject": {
+            "value": 850,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 34,
+            "unit": "m/sec"
+          }
+        },
+        "reactor_conditions": {
+          "velocity_ratio_oxidizing_material": 0.41,
+          "residence_time": {
+            "value": 0.3,
+            "unit": "seconds"
+          }
+        },
+        "cooling": {
+          "gas": "Air",
+          "temperature": {
+            "value": "<=300",
+            "unit": "°C"
+          }
+        }
+      },
+      "characterization": {
+        "crystalline_form": "gamma",
+        "particle_size_primary_avg": {
+          "value": 45,
+          "unit": "nm"
+        },
+        "particle_size_secondary_avg": {
+          "value": 300,
+          "unit": "nm"
+        },
+        "coarse_particle_fraction": {
+          "size_threshold": {
+            "value": 45,
+            "unit": "µm"
+          },
+          "mass_percentage": {
+            "value": 0.005,
+            "unit": "mass %"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material": "Alumina (from sample)",
+        "abrasive_concentration": {
+          "value": 2,
+          "unit": "mass %"
+        },
+        "solvent": {
+          "name": "Water"
+        },
+        "additives": [
+          {
+            "name": "Iron nitrate nonahydrate",
+            "concentration": {
+              "value": 3.5,
+              "unit": "mass %"
+            }
+          }
+        ]
+      },
+      "cmp_performance": {
+        "target_material_1": "Tungsten",
+        "polishing_rate_target_1": {
+          "value": 7100,
+          "unit": "Å/min"
+        },
+        "target_material_2": "Thermally oxidized silicon film",
+        "selectivity_target1_target2": {
+          "value": 510
+        },
+        "scratches_evaluation": {
+          "level": 2
+        },
+        "polishing_conditions_target_1": {
+          "pad": "IC1000/Suha400",
+          "machine": "Marumoto Kogyo K.K. Model 7941-338",
+          "speed": {
+            "value": 60,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 15,
+            "unit": "min"
+          }
+        },
+        "polishing_conditions_target_2": {
+          "pad": "IC1000/Suba400",
+          "machine": "SpeedFam Co., Ltd. Model SH-24",
+          "speed": {
+            "value": 30,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 1,
+            "unit": "min"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Gas phase oxidation of AlCl3 to produce gamma-alumina particles for CMP.",
+      "synthesis_method": "Gas Phase Oxidation",
+      "raw_material": "Anhydrous Aluminum Chloride",
+      "gas_phase_parameters": {
+        "carrier_gas": {
+          "type": "Nitrogen",
+          "flow_rate": {
+            "value": 11.4,
+            "unit": "Nm³/hr"
+          },
+          "temperature": {
+            "value": 500,
+            "unit": "°C"
+          }
+        },
+        "material_feed": {
+          "material": "Anhydrous Aluminum Chloride",
+          "flow_rate": {
+            "value": 47,
+            "unit": "kg/hr"
+          }
+        },
+        "material_gas": {
+          "concentration": {
+            "value": 41,
+            "unit": "% by volume"
+          },
+          "temperature_eject": {
+            "value": 830,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 72,
+            "unit": "m/sec"
+          }
+        },
+        "oxidizing_gas": {
+          "composition": {
+            "water_vapor": {
+              "value": 100,
+              "unit": "% by volume"
+            },
+            "oxygen": {
+              "value": 0,
+              "unit": "% by volume"
+            }
+          },
+          "flow_rate": {
+            "value": 118,
+            "unit": "Nm³/hr"
+          },
+          "temperature_eject": {
+            "value": 835,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 179,
+            "unit": "m/sec"
+          }
+        },
+        "reactor_conditions": {
+          "velocity_ratio_oxidizing_material": 2.5,
+          "residence_time": {
+            "value": 0.04,
+            "unit": "seconds"
+          }
+        },
+        "cooling": {
+          "gas": "Air",
+          "temperature": {
+            "value": "<=300",
+            "unit": "°C"
+          }
+        }
+      },
+      "characterization": {
+        "crystalline_form": "gamma",
+        "particle_size_primary_avg": {
+          "value": 30,
+          "unit": "nm"
+        },
+        "particle_size_secondary_avg": {
+          "value": 150,
+          "unit": "nm"
+        },
+        "coarse_particle_fraction": {
+          "size_threshold": {
+            "value": 45,
+            "unit": "µm"
+          },
+          "mass_percentage": {
+            "value": 0.002,
+            "unit": "mass %"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material": "Alumina (from sample)",
+        "abrasive_concentration": {
+          "value": 2,
+          "unit": "mass %"
+        },
+        "solvent": {
+          "name": "Water"
+        },
+        "additives": [
+          {
+            "name": "Iron nitrate nonahydrate",
+            "concentration": {
+              "value": 3.5,
+              "unit": "mass %"
+            }
+          }
+        ]
+      },
+      "cmp_performance": {
+        "target_material_1": "Tungsten",
+        "polishing_rate_target_1": {
+          "value": 5300,
+          "unit": "Å/min"
+        },
+        "target_material_2": "Thermally oxidized silicon film",
+        "selectivity_target1_target2": {
+          "value": 420
+        },
+        "scratches_evaluation": {
+          "level": 1
+        },
+        "polishing_conditions_target_1": {
+          "pad": "IC1000/Suha400",
+          "machine": "Marumoto Kogyo K.K. Model 7941-338",
+          "speed": {
+            "value": 60,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 15,
+            "unit": "min"
+          }
+        },
+        "polishing_conditions_target_2": {
+          "pad": "IC1000/Suba400",
+          "machine": "SpeedFam Co., Ltd. Model SH-24",
+          "speed": {
+            "value": 30,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 1,
+            "unit": "min"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Gas phase oxidation of AlCl3 to produce gamma-alumina particles for CMP.",
+      "synthesis_method": "Gas Phase Oxidation",
+      "raw_material": "Anhydrous Aluminum Chloride",
+      "gas_phase_parameters": {
+        "carrier_gas": {
+          "type": "Nitrogen",
+          "flow_rate": {
+            "value": 11.4,
+            "unit": "Nm³/hr"
+          },
+          "temperature": {
+            "value": 500,
+            "unit": "°C"
+          }
+        },
+        "material_feed": {
+          "material": "Anhydrous Aluminum Chloride",
+          "flow_rate": {
+            "value": 47,
+            "unit": "kg/hr"
+          }
+        },
+        "material_gas": {
+          "concentration": {
+            "value": 41,
+            "unit": "% by volume"
+          },
+          "temperature_eject": {
+            "value": 830,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 72,
+            "unit": "m/sec"
+          }
+        },
+        "oxidizing_gas": {
+          "composition": {
+            "water_vapor": {
+              "value": 80,
+              "unit": "% by volume"
+            },
+            "oxygen": {
+              "value": 20,
+              "unit": "% by volume"
+            }
+          },
+          "flow_rate": {
+            "value": 148,
+            "unit": "Nm³/hr"
+          },
+          "temperature_eject": {
+            "value": 830,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 200,
+            "unit": "m/sec"
+          }
+        },
+        "reactor_conditions": {
+          "velocity_ratio_oxidizing_material": 2.8,
+          "residence_time": {
+            "value": 0.03,
+            "unit": "seconds"
+          }
+        },
+        "cooling": {
+          "gas": "Air",
+          "temperature": {
+            "value": "<=300",
+            "unit": "°C"
+          }
+        }
+      },
+      "characterization": {
+        "crystalline_form": "gamma",
+        "particle_size_primary_avg": {
+          "value": 20,
+          "unit": "nm"
+        },
+        "particle_size_secondary_avg": {
+          "value": 80,
+          "unit": "nm"
+        },
+        "coarse_particle_fraction": {
+          "size_threshold": {
+            "value": 45,
+            "unit": "µm"
+          },
+          "mass_percentage": {
+            "value": 0.006,
+            "unit": "mass %"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material": "Alumina (from sample)",
+        "abrasive_concentration": {
+          "value": 2,
+          "unit": "mass %"
+        },
+        "solvent": {
+          "name": "Water"
+        },
+        "additives": [
+          {
+            "name": "Iron nitrate nonahydrate",
+            "concentration": {
+              "value": 3.5,
+              "unit": "mass %"
+            }
+          }
+        ]
+      },
+      "cmp_performance": {
+        "target_material_1": "Tungsten",
+        "polishing_rate_target_1": {
+          "value": 5200,
+          "unit": "Å/min"
+        },
+        "target_material_2": "Thermally oxidized silicon film",
+        "selectivity_target1_target2": {
+          "value": 460
+        },
+        "scratches_evaluation": {
+          "level": 2
+        },
+        "polishing_conditions_target_1": {
+          "pad": "IC1000/Suha400",
+          "machine": "Marumoto Kogyo K.K. Model 7941-338",
+          "speed": {
+            "value": 60,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 15,
+            "unit": "min"
+          }
+        },
+        "polishing_conditions_target_2": {
+          "pad": "IC1000/Suba400",
+          "machine": "SpeedFam Co., Ltd. Model SH-24",
+          "speed": {
+            "value": 30,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 1,
+            "unit": "min"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Gas phase oxidation of AlCl3 to produce amorphous alumina particles for CMP.",
+      "synthesis_method": "Gas Phase Oxidation",
+      "raw_material": "Anhydrous Aluminum Chloride",
+      "gas_phase_parameters": {
+        "carrier_gas": {
+          "type": "Nitrogen",
+          "flow_rate": {
+            "value": 31,
+            "unit": "Nm³/hr"
+          },
+          "temperature": {
+            "value": 500,
+            "unit": "°C"
+          }
+        },
+        "material_feed": {
+          "material": "Anhydrous Aluminum Chloride",
+          "flow_rate": {
+            "value": 43,
+            "unit": "kg/hr"
+          }
+        },
+        "material_gas": {
+          "concentration": {
+            "value": 19,
+            "unit": "% by volume"
+          },
+          "temperature_eject": {
+            "value": 800,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 150,
+            "unit": "m/sec"
+          }
+        },
+        "oxidizing_gas": {
+          "composition": {
+            "water_vapor": {
+              "value": 60,
+              "unit": "% by volume"
+            },
+            "oxygen": {
+              "value": 40,
+              "unit": "% by volume"
+            }
+          },
+          "flow_rate": {
+            "value": 118,
+            "unit": "Nm³/hr"
+          },
+          "temperature_eject": {
+            "value": 800,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 90,
+            "unit": "m/sec"
+          }
+        },
+        "reactor_conditions": {
+          "velocity_ratio_oxidizing_material": 0.60,
+          "residence_time": {
+            "value": 0.02,
+            "unit": "seconds"
+          }
+        },
+        "cooling": {
+          "gas": "Air",
+          "temperature": {
+            "value": "<=300",
+            "unit": "°C"
+          }
+        }
+      },
+      "characterization": {
+        "crystalline_form": "amorphous",
+        "particle_size_primary_avg": {
+          "value": 15,
+          "unit": "nm"
+        },
+        "particle_size_secondary_avg": {
+          "value": 70,
+          "unit": "nm"
+        },
+        "coarse_particle_fraction": {
+          "size_threshold": {
+            "value": 45,
+            "unit": "µm"
+          },
+          "mass_percentage": {
+            "value": 0.003,
+            "unit": "mass %"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material": "Alumina (from sample)",
+        "abrasive_concentration": {
+          "value": 2,
+          "unit": "mass %"
+        },
+        "solvent": {
+          "name": "Water"
+        },
+        "additives": [
+          {
+            "name": "Iron nitrate nonahydrate",
+            "concentration": {
+              "value": 3.5,
+              "unit": "mass %"
+            }
+          }
+        ]
+      },
+      "cmp_performance": {
+        "target_material_1": "Tungsten",
+        "polishing_rate_target_1": {
+          "value": 4000,
+          "unit": "Å/min"
+        },
+        "target_material_2": "Thermally oxidized silicon film",
+        "selectivity_target1_target2": {
+          "value": 560
+        },
+        "scratches_evaluation": {
+          "level": 1
+        },
+        "polishing_conditions_target_1": {
+          "pad": "IC1000/Suha400",
+          "machine": "Marumoto Kogyo K.K. Model 7941-338",
+          "speed": {
+            "value": 60,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 15,
+            "unit": "min"
+          }
+        },
+        "polishing_conditions_target_2": {
+          "pad": "IC1000/Suba400",
+          "machine": "SpeedFam Co., Ltd. Model SH-24",
+          "speed": {
+            "value": 30,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 1,
+            "unit": "min"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Gas phase oxidation of AlCl3 to produce gamma-alumina particles for coating applications.",
+      "synthesis_method": "Gas Phase Oxidation",
+      "raw_material": "Anhydrous Aluminum Chloride",
+      "gas_phase_parameters": {
+        "carrier_gas": {
+          "type": "Nitrogen",
+          "flow_rate": {
+            "value": 30,
+            "unit": "Nm³/hr"
+          },
+          "temperature": {
+            "value": 500,
+            "unit": "°C"
+          }
+        },
+        "material_feed": {
+          "material": "Anhydrous Aluminum Chloride",
+          "flow_rate": {
+            "value": 45,
+            "unit": "kg/hr"
+          }
+        },
+        "material_gas": {
+          "concentration": {
+            "value": 20,
+            "unit": "% by volume"
+          },
+          "temperature_eject": {
+            "value": 800,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 143,
+            "unit": "m/sec"
+          }
+        },
+        "oxidizing_gas": {
+          "composition": {
+            "water_vapor": {
+              "value": 100,
+              "unit": "% by volume"
+            },
+            "oxygen": {
+              "value": 0,
+              "unit": "% by volume"
+            }
+          },
+          "flow_rate": {
+            "value": 450,
+            "unit": "Nm³/hr"
+          },
+          "temperature_eject": {
+            "value": 880,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 127,
+            "unit": "m/sec"
+          }
+        },
+        "reactor_conditions": {
+          "velocity_ratio_oxidizing_material": 1.1,
+          "residence_time": {
+            "value": 0.01,
+            "unit": "seconds"
+          }
+        },
+        "cooling": {
+          "gas": "Air",
+          "temperature": {
+            "value": "<=300",
+            "unit": "°C"
+          }
+        }
+      },
+      "characterization": {
+        "crystalline_form": "gamma",
+        "particle_size_primary_avg": {
+          "value": 12,
+          "unit": "nm"
+        },
+        "particle_size_secondary_avg": {
+          "value": 300,
+          "unit": "nm"
+        },
+        "coarse_particle_fraction": {
+          "size_threshold": {
+            "value": 45,
+            "unit": "µm"
+          },
+          "mass_percentage": {
+            "value": 0.005,
+            "unit": "mass %"
+          }
+        }
+      },
+      "other_applications": {
+        "application_type": "Coating Solution",
+        "formulation": {
+          "alumina_content": {
+            "value": 100,
+            "unit": "g"
+          },
+          "solvent_additive_solution": {
+            "description": "Aqueous solution comprising 40 mass% polyvinyl alcohol (124H, Kuraray)",
+            "quantity": {
+              "value": 900,
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "method": "Milling",
+          "equipment": "Homomixer (T.K ROBOMIX)",
+          "speed": {
+            "value": 11000,
+            "unit": "rpm"
+          },
+          "duration": {
+            "value": 30,
+            "unit": "minutes"
+          }
+        },
+        "coating_process": {
+          "method": "Bar coater",
+          "substrate_1": "Resin coated paper",
+          "substrate_2": "Polyethylene terephthalate film (100 µm, Toray)",
+          "dry_thickness": {
+            "value": 20,
+            "unit": "µm"
+          }
+        },
+        "results": {
+          "crack_generation": "None",
+          "ink_absorptivity": "Very excellent",
+          "color_formation": "Very excellent",
+          "transparency_on_PET": "Good"
+        }
+      }
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Gas phase oxidation of AlCl3 to produce gamma-alumina particles for use as additive in water-absorbing resin.",
+      "synthesis_method": "Gas Phase Oxidation",
+      "raw_material": "Anhydrous Aluminum Chloride",
+      "gas_phase_parameters": {
+        "carrier_gas": {
+          "type": "Nitrogen",
+          "flow_rate": {
+            "value": 11.4,
+            "unit": "Nm³/hr"
+          },
+          "temperature": {
+            "value": 500,
+            "unit": "°C"
+          }
+        },
+        "material_feed": {
+          "material": "Anhydrous Aluminum Chloride",
+          "flow_rate": {
+            "value": 47,
+            "unit": "kg/hr"
+          }
+        },
+        "material_gas": {
+          "concentration": {
+            "value": 41,
+            "unit": "% by volume"
+          },
+          "temperature_eject": {
+            "value": 830,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 72,
+            "unit": "m/sec"
+          }
+        },
+        "oxidizing_gas": {
+          "composition": {
+            "water_vapor": {
+              "value": 100,
+              "unit": "% by volume"
+            },
+            "oxygen": {
+              "value": 0,
+              "unit": "% by volume"
+            }
+          },
+          "flow_rate": {
+            "value": 118,
+            "unit": "Nm³/hr"
+          },
+          "temperature_eject": {
+            "value": 835,
+            "unit": "°C"
+          },
+          "ejecting_velocity": {
+            "value": 179,
+            "unit": "m/sec"
+          }
+        },
+        "reactor_conditions": {
+          "velocity_ratio_oxidizing_material": 2.5,
+          "residence_time": {
+            "value": 0.04,
+            "unit": "seconds"
+          }
+        },
+        "cooling": {
+          "gas": "Air",
+          "temperature": {
+            "value": "<=300",
+            "unit": "°C"
+          }
+        }
+      },
+      "characterization": {
+        "crystalline_form": "gamma",
+        "particle_size_primary_avg": {
+          "value": 30,
+          "unit": "nm"
+        },
+        "particle_size_secondary_avg": {
+          "value": 150,
+          "unit": "nm"
+        },
+        "coarse_particle_fraction": {
+          "size_threshold": {
+            "value": 45,
+            "unit": "µm"
+          },
+          "mass_percentage": {
+            "value": 0.002,
+            "unit": "mass %"
+          }
+        }
+      },
+      "other_applications": {
+        "application_type": "Additive for Water-Absorbing Resin",
+        "resin": {
+          "type": "Sodium polyacrylate powder",
+          "average_particle_diameter": {
+            "value": 500,
+            "unit": "µm"
+          }
+        },
+        "mixing_ratio": {
+          "value": 0.3,
+          "unit": "mass % (alumina based on resin mass)"
+        },
+        "test_conditions": {
+          "equipment": "Thermo-hygrostat",
+          "temperature": {
+            "value": 35,
+            "unit": "°C"
+          },
+          "relative_humidity": {
+            "value": 90,
+            "unit": "%"
+          },
+          "duration": {
+            "value": 24,
+            "unit": "hours"
+          }
+        },
+        "result": "No resin fusion"
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Calcination and milling of Alum to produce gamma-alumina particles for CMP.",
+      "synthesis_method": "Calcination and Milling",
+      "raw_material": "Alum",
+      "calcination_milling_parameters": {
+        "calcination": {
+          "details": "Electric furnace",
+          "intermediate_product_properties": "gamma-alumina, 80 m²/g specific surface area, 25 nm primary particle diameter, 5 µm secondary particle diameter"
+        },
+        "milling": {
+          "method": "Wet milling",
+          "equipment": "Ball mill",
+          "media": "Alumina balls"
+        },
+        "classification": {
+          "method": "Standing"
+        }
+      },
+      "characterization": {
+        "crystalline_form": "gamma",
+        "particle_size_primary_avg": {
+          "value": 25,
+          "unit": "nm"
+        },
+        "particle_size_secondary_avg": {
+          "value": 900,
+          "unit": "nm"
+        },
+        "coarse_particle_fraction": {
+          "size_threshold": {
+            "value": 45,
+            "unit": "µm"
+          },
+          "mass_percentage": {
+            "value": 0.6,
+            "unit": "mass %"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material": "Alumina (from sample)",
+        "abrasive_concentration": {
+          "value": 2,
+          "unit": "mass %"
+        },
+        "solvent": {
+          "name": "Water"
+        },
+        "additives": [
+          {
+            "name": "Iron nitrate nonahydrate",
+            "concentration": {
+              "value": 3.5,
+              "unit": "mass %"
+            }
+          }
+        ]
+      },
+      "cmp_performance": {
+        "target_material_1": "Tungsten",
+        "polishing_rate_target_1": {
+          "value": 4200,
+          "unit": "Å/min"
+        },
+        "target_material_2": "Thermally oxidized silicon film",
+        "selectivity_target1_target2": {
+          "value": 120
+        },
+        "scratches_evaluation": {
+          "level": 4
+        },
+        "polishing_conditions_target_1": {
+          "pad": "IC1000/Suha400",
+          "machine": "Marumoto Kogyo K.K. Model 7941-338",
+          "speed": {
+            "value": 60,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 15,
+            "unit": "min"
+          }
+        },
+        "polishing_conditions_target_2": {
+          "pad": "IC1000/Suba400",
+          "machine": "SpeedFam Co., Ltd. Model SH-24",
+          "speed": {
+            "value": 30,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 1,
+            "unit": "min"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "Sintering and milling of Bayerite Aluminum Hydroxide to produce theta-alumina particles for CMP.",
+      "synthesis_method": "Sintering and Milling",
+      "raw_material": "Bayerite Aluminum Hydroxide",
+      "raw_material_properties": {
+        "average_secondary_particle_diameter": {
+          "value": 40,
+          "unit": "µm"
+        }
+      },
+      "calcination_milling_parameters": {
+        "sintering": {
+          "details": "Sintered to obtain theta-alumina"
+        },
+        "milling": {
+          "method": "Wet milling",
+          "equipment": "Ball mill",
+          "media": "Alumina ball"
+        },
+        "classification": {
+          "method": "Standing"
+        }
+      },
+      "characterization": {
+        "crystalline_form": "theta",
+        "particle_size_primary_avg": {
+          "value": 35,
+          "unit": "nm"
+        },
+        "particle_size_secondary_avg": {
+          "value": 1500,
+          "unit": "nm"
+        },
+        "coarse_particle_fraction": {
+          "size_threshold": {
+            "value": 45,
+            "unit": "µm"
+          },
+          "mass_percentage": {
+            "value": 0.8,
+            "unit": "mass %"
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material": "Alumina (from sample)",
+        "abrasive_concentration": {
+          "value": 2,
+          "unit": "mass %"
+        },
+        "solvent": {
+          "name": "Water"
+        },
+        "additives": [
+          {
+            "name": "Iron nitrate nonahydrate",
+            "concentration": {
+              "value": 3.5,
+              "unit": "mass %"
+            }
+          }
+        ]
+      },
+      "cmp_performance": {
+        "target_material_1": "Tungsten",
+        "polishing_rate_target_1": {
+          "value": 5100,
+          "unit": "Å/min"
+        },
+        "target_material_2": "Thermally oxidized silicon film",
+        "selectivity_target1_target2": {
+          "value": 310
+        },
+        "scratches_evaluation": {
+          "level": 5
+        },
+        "polishing_conditions_target_1": {
+          "pad": "IC1000/Suha400",
+          "machine": "Marumoto Kogyo K.K. Model 7941-338",
+          "speed": {
+            "value": 60,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 15,
+            "unit": "min"
+          }
+        },
+        "polishing_conditions_target_2": {
+          "pad": "IC1000/Suba400",
+          "machine": "SpeedFam Co., Ltd. Model SH-24",
+          "speed": {
+            "value": 30,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 39.2,
+            "unit": "kPa"
+          },
+          "slurry_feed_rate": {
+            "value": 10,
+            "unit": "ml/min"
+          },
+          "time": {
+            "value": 1,
+            "unit": "min"
+          }
+        }
+      }
+    }
+  ]
+}

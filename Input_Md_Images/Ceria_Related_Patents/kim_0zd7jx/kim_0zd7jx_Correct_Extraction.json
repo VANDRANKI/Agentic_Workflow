@@ -1,0 +1,515 @@
+{
+  "doi": "US 7,858,527 B2",
+  "title": "ADDITIVE COMPOSITION, SLURRY COMPOSITION INCLUDING THE SAME, AND METHOD OF POLISHING AN OBJECT USING THE SLURRY COMPOSITION",
+  "year_published": "2010",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Control_PAA_2k_NH4OH",
+      "experiment_context": "Control sample using only low MW Poly(acrylic acid) ammonium salt. Based on Fig 7-I, Fig 8-NH4OH, Fig 16-Type1, Fig 17-Type10. Assumed slurry prep similar to Example 6 (1:3:3 mix ratio).",
+      "slurry_preparation": {
+        "abrasive_ceria_source": "Hitachi HS8005",
+        "abrasive_ceria_concentration": {
+          "value": null,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of Poly(acrylic acid)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid)",
+            "polymer_mw_avg": {
+              "value": "2000",
+              "unit": "Da"
+            },
+            "base_material": "NH4OH",
+            "concentration": {
+              "value": "~1.29",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~7.1",
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "stability": "Lower stability compared to mixed polymer system (Fig 17, Type 10)"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "3700",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sin": {
+          "value": "50-57",
+          "unit": "Å/min"
+        },
+        "selectivity_sio2_sin": "65-75:1",
+        "process_temperature": {
+          "value": null,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4.0",
+          "unit": "psi"
+        },
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "head_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "equipment_model": "STRASBAUGH 6EC",
+        "pad_composition": null,
+        "defects_scratches": "Higher count compared to mixed polymer systems (Fig 16, Type 1)"
+      }
+    },
+    {
+      "sample_id": "Control_PAA-co-MA_3k_NH4OH",
+      "experiment_context": "Control sample using only low MW Poly(acrylic acid-co-maleic acid) ammonium salt (MW 3k). Based on Fig 9-NH4OH. Assumed slurry prep similar to Example 6 (1:3:3 mix ratio).",
+      "slurry_preparation": {
+        "abrasive_ceria_source": "Hitachi HS8005",
+        "abrasive_ceria_concentration": {
+          "value": null,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of Poly(acrylic acid-co-maleic acid)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid-co-maleic acid)",
+            "polymer_mw_avg": {
+              "value": "3000",
+              "unit": "Da"
+            },
+            "base_material": "NH4OH",
+            "concentration": {
+              "value": "~1.29",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~7.1",
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "4500",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sin": {
+          "value": "75",
+          "unit": "Å/min"
+        },
+        "selectivity_sio2_sin": "60:1",
+        "process_temperature": {
+          "value": null,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4.0",
+          "unit": "psi"
+        },
+         "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "head_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "equipment_model": "STRASBAUGH 6EC",
+        "pad_composition": null
+      }
+    },
+    {
+      "sample_id": "Inventive_PAA_2k_450k_NH4OH_80_20",
+      "experiment_context": "Inventive sample using mixed MW Poly(acrylic acid) ammonium salts (80% MW 2k, 20% MW 450k). Based on Example 1 (additive), Example 6 (slurry), Exp 1 (polishing), Fig 6 (pH 7.1), Fig 11 (Type 110), Fig 12/13 (Second Comp), Fig 14/15 (Ratio 4), Fig 16 (Type 2), Fig 17 (Type 11). Slurry prepared with 1:3:3 (HS8005:Additive:Water) ratio.",
+      "slurry_preparation": {
+        "abrasive_ceria_source": "Hitachi HS8005",
+        "abrasive_ceria_concentration": {
+          "value": null,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of Poly(acrylic acid) (Low MW)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid)",
+            "polymer_mw_avg": {
+              "value": "2000",
+              "unit": "Da"
+            },
+            "base_material": "NH4OH",
+            "concentration": {
+              "value": "~1.03",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Ammonium salt of Poly(acrylic acid) (High MW)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid)",
+            "polymer_mw_avg": {
+              "value": "450000",
+              "unit": "Da"
+            },
+            "base_material": "NH4OH",
+            "concentration": {
+              "value": "~0.26",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "additive_composition_ph": "6.5",
+        "target_final_slurry_ph": "7.1",
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+         "stability": "Higher stability compared to low MW only system (Fig 17, Type 11)"
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "3300",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sin": {
+          "value": "55",
+          "unit": "Å/min"
+        },
+        "selectivity_sio2_sin": "60-70:1",
+        "process_temperature": {
+          "value": null,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4.0",
+          "unit": "psi"
+        },
+         "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "head_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "equipment_model": "STRASBAUGH 6EC",
+        "pad_composition": null,
+        "defects_scratches": "Reduced compared to low MW only system (Fig 11 Type 110: ~83 avg; Fig 16 Type 2)",
+        "erosion_sin": "Lower erosion compared to low MW only system, especially at longer polish times (Fig 12, Second Comp; Fig 15, Ratio 4: ~130 Å)",
+        "dishing_sio2": "Lower dishing compared to low MW only system, especially at longer polish times (Fig 13, Second Comp)"
+      }
+    },
+     {
+      "sample_id": "Inventive_PAA-co-MA_3k_PAA_250k_TMAH_80_20",
+      "experiment_context": "Inventive sample using mixed MW salts (80% TMA-PAA-co-MA MW 3k, 20% TMA-PAA MW 250k). Based on Example 5 (additive), Example 7 (slurry), Fig 11 (Type 120). Slurry prepared with 1:4:3 (HS8005:Additive:Water) ratio.",
+      "slurry_preparation": {
+        "abrasive_ceria_source": "Hitachi HS8005",
+        "abrasive_ceria_concentration": {
+          "value": null,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Tetra-methyl ammonium salt of Poly(acrylic acid-co-maleic acid) (Low MW)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid-co-maleic acid)",
+            "polymer_mw_avg": {
+              "value": "3000",
+              "unit": "Da"
+            },
+            "base_material": "TMAH",
+            "concentration": {
+              "value": "~1.2",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Tetra-methyl ammonium salt of Poly(acrylic acid) (High MW)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid)",
+            "polymer_mw_avg": {
+              "value": "250000",
+              "unit": "Da"
+            },
+            "base_material": "TMAH",
+            "concentration": {
+              "value": "~0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "additive_composition_ph": "6.5",
+        "target_final_slurry_ph": "7.0 +/- 0.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate_sio2": {
+          "value": null,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sin": {
+          "value": null,
+          "unit": "Å/min"
+        },
+        "selectivity_sio2_sin": null,
+        "process_temperature": {
+          "value": null,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4.0",
+          "unit": "psi"
+        },
+         "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "head_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "equipment_model": "STRASBAUGH 6EC",
+        "pad_composition": null,
+        "defects_scratches": "Lowest scratch count observed (Fig 11 Type 120: ~54 avg)"
+      }
+    },
+    {
+      "sample_id": "Inventive_PAA_2k_450k_NH4OH_90_10",
+      "experiment_context": "Inventive sample using mixed MW Poly(acrylic acid) ammonium salts (90% MW 2k, 10% MW 450k). Based on Fig 14/15 (Ratio 9). Assumed slurry prep similar to Example 6 (1:3:3 mix ratio).",
+      "slurry_preparation": {
+        "abrasive_ceria_source": "Hitachi HS8005",
+        "abrasive_ceria_concentration": {
+          "value": null,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of Poly(acrylic acid) (Low MW)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid)",
+            "polymer_mw_avg": {
+              "value": "2000",
+              "unit": "Da"
+            },
+            "base_material": "NH4OH",
+            "concentration": {
+              "value": "~1.16",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Ammonium salt of Poly(acrylic acid) (High MW)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid)",
+            "polymer_mw_avg": {
+              "value": "450000",
+              "unit": "Da"
+            },
+            "base_material": "NH4OH",
+            "concentration": {
+              "value": "~0.13",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~7.1",
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "3500",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sin": {
+          "value": "~54",
+          "unit": "Å/min"
+        },
+        "selectivity_sio2_sin": "~65:1",
+        "process_temperature": {
+          "value": null,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4.0",
+          "unit": "psi"
+        },
+         "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "head_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "equipment_model": "STRASBAUGH 6EC",
+        "pad_composition": null,
+        "erosion_sin": "~110 Å (Fig 15, Ratio 9)"
+      }
+    },
+    {
+      "sample_id": "Inventive_PAA-co-MA_2k_PAA_450k_NH4OH_80_20",
+      "experiment_context": "Inventive sample using mixed MW salts (80% NH4-PAA-co-MA MW 2k, 20% NH4-PAA MW 450k). Based on Fig 16 (Type 3). Assumed MW 2k for PAA-co-MA and 80:20 ratio. Assumed slurry prep similar to Example 6 (1:3:3 mix ratio).",
+      "slurry_preparation": {
+        "abrasive_ceria_source": "Hitachi HS8005",
+        "abrasive_ceria_concentration": {
+          "value": null,
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium salt of Poly(acrylic acid-co-maleic acid) (Low MW)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid-co-maleic acid)",
+            "polymer_mw_avg": {
+              "value": "2000",
+              "unit": "Da"
+            },
+            "base_material": "NH4OH",
+            "concentration": {
+              "value": "~1.03",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Ammonium salt of Poly(acrylic acid) (High MW)",
+            "type": "Dispersant / Selectivity Enhancer",
+            "polymer_type": "Poly(acrylic acid)",
+            "polymer_mw_avg": {
+              "value": "450000",
+              "unit": "Da"
+            },
+            "base_material": "NH4OH",
+            "concentration": {
+              "value": "~0.26",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "~7.1",
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate_sio2": {
+          "value": null,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sin": {
+          "value": null,
+          "unit": "Å/min"
+        },
+        "selectivity_sio2_sin": null,
+        "process_temperature": {
+          "value": null,
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4.0",
+          "unit": "psi"
+        },
+         "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "head_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+            "value": "150",
+            "unit": "mL/min"
+        },
+        "equipment_model": "STRASBAUGH 6EC",
+        "pad_composition": null,
+        "defects_scratches": "Reduced compared to low MW only system (Fig 16, Type 3)"
+      }
+    }
+  ]
+}

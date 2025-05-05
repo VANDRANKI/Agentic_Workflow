@@ -1,0 +1,2698 @@
+{
+  "doi": "US 9,528,031 B2",
+  "title": "SLURRY COMPOSITION AND METHOD OF SUBSTRATE POLISHING",
+  "year_published": "2016",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "PNVA(1)_100ppm",
+      "experiment_context": "Polishing with PNVA GE191-103 water soluble polymer at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(1)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide GE191-103)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.98"
+        },
+        "relative_ROA": {
+          "value": "0.99"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(1)_200ppm",
+      "experiment_context": "Polishing with PNVA GE191-103 water soluble polymer at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(1)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide GE191-103)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.94"
+        },
+        "relative_ROA": {
+          "value": "0.88"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(1)_400ppm",
+      "experiment_context": "Polishing with PNVA GE191-103 water soluble polymer at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(1)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide GE191-103)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.81"
+        },
+        "relative_ROA": {
+          "value": "0.71"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(1)_600ppm",
+      "experiment_context": "Polishing with PNVA GE191-103 water soluble polymer at 600 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(1)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide GE191-103)",
+            "concentration": {
+              "value": "600",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.55"
+        },
+        "relative_ROA": {
+          "value": "0.79"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(2)_50ppm",
+      "experiment_context": "Polishing with PNVA GE191-104 water soluble polymer at 50 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(2)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide GE191-104)",
+            "concentration": {
+              "value": "50",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.95"
+        },
+        "relative_ROA": {
+          "value": "0.95"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(2)_100ppm",
+      "experiment_context": "Polishing with PNVA GE191-104 water soluble polymer at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(2)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide GE191-104)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.93"
+        },
+        "relative_ROA": {
+          "value": "0.84"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(2)_200ppm",
+      "experiment_context": "Polishing with PNVA GE191-104 water soluble polymer at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(2)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide GE191-104)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.91"
+        },
+        "relative_ROA": {
+          "value": "0.96"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(2)_400ppm",
+      "experiment_context": "Polishing with PNVA GE191-104 water soluble polymer at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(2)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide GE191-104)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.64"
+        },
+        "relative_ROA": {
+          "value": null 
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(3)_200ppm",
+      "experiment_context": "Polishing with PNVA(3) water soluble polymer (Poly-N-vinyl acetamide, potentially GE191-053) at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(3)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.86"
+        },
+        "relative_ROA": {
+          "value": "0.93"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(3)_400ppm",
+      "experiment_context": "Polishing with PNVA(3) water soluble polymer (Poly-N-vinyl acetamide, potentially GE191-053) at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(3)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.83"
+        },
+        "relative_ROA": {
+          "value": "0.66"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(3)_600ppm",
+      "experiment_context": "Polishing with PNVA(3) water soluble polymer (Poly-N-vinyl acetamide, potentially GE191-053) at 600 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(3)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide)",
+            "concentration": {
+              "value": "600",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.93"
+        },
+        "relative_ROA": {
+          "value": "0.96"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(4)_150ppm",
+      "experiment_context": "Polishing with PNVA(4) water soluble polymer (Poly-N-vinyl acetamide, potentially GE191-107) at 150 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(4)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide)",
+            "concentration": {
+              "value": "150",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.88"
+        },
+        "relative_ROA": {
+          "value": "0.83"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNVA(4)_400ppm",
+      "experiment_context": "Polishing with PNVA(4) water soluble polymer (Poly-N-vinyl acetamide, potentially GE191-107) at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNVA(4)",
+            "type": "Water Soluble Polymer (Poly-N-vinyl acetamide)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.48"
+        },
+        "relative_ROA": {
+          "value": "0.57"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNMVA_200ppm",
+      "experiment_context": "Polishing with PNMVA (Poly-N-methylvinyl acetamide) water soluble polymer (Mw 10k) at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNMVA",
+            "type": "Water Soluble Polymer (Poly-N-methylvinyl acetamide)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "10000",
+              "unit": "Da"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.88"
+        },
+        "relative_ROA": {
+          "value": "0.67"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PNMVA_400ppm",
+      "experiment_context": "Polishing with PNMVA (Poly-N-methylvinyl acetamide) water soluble polymer (Mw 10k) at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PNMVA",
+            "type": "Water Soluble Polymer (Poly-N-methylvinyl acetamide)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "10000",
+              "unit": "Da"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.58"
+        },
+        "relative_ROA": {
+          "value": "0.59"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEG200_400ppm",
+      "experiment_context": "Polishing with PEG200 water soluble polymer at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEG200",
+            "type": "Water Soluble Polymer (Polyethylene Glycol)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "200",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.90"
+        },
+        "relative_ROA": {
+          "value": null 
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEG200_450ppm",
+      "experiment_context": "Polishing with PEG200 water soluble polymer at 450 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEG200",
+            "type": "Water Soluble Polymer (Polyethylene Glycol)",
+            "concentration": {
+              "value": "450",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "200",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.87"
+        },
+        "relative_ROA": {
+          "value": "0.89"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEG1000_100ppm",
+      "experiment_context": "Polishing with PEG1000 water soluble polymer at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEG1000",
+            "type": "Water Soluble Polymer (Polyethylene Glycol)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "1000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.90"
+        },
+        "relative_ROA": {
+          "value": "0.76"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEG4000_100ppm",
+      "experiment_context": "Polishing with PEG4000 water soluble polymer at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEG4000",
+            "type": "Water Soluble Polymer (Polyethylene Glycol)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "4000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.91"
+        },
+        "relative_ROA": {
+          "value": "0.74"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEG6000_100ppm",
+      "experiment_context": "Polishing with PEG6000 water soluble polymer at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEG6000",
+            "type": "Water Soluble Polymer (Polyethylene Glycol)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "6000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.92"
+        },
+        "relative_ROA": {
+          "value": "0.75"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEG8000_50ppm",
+      "experiment_context": "Polishing with PEG8000 water soluble polymer at 50 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEG8000",
+            "type": "Water Soluble Polymer (Polyethylene Glycol)",
+            "concentration": {
+              "value": "50",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "8000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.93"
+        },
+        "relative_ROA": {
+          "value": "0.74"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEG8000_100ppm",
+      "experiment_context": "Polishing with PEG8000 water soluble polymer at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEG8000",
+            "type": "Water Soluble Polymer (Polyethylene Glycol)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "8000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.89"
+        },
+        "relative_ROA": {
+          "value": "0.68"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEG8000_200ppm",
+      "experiment_context": "Polishing with PEG8000 water soluble polymer at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEG8000",
+            "type": "Water Soluble Polymer (Polyethylene Glycol)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "8000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.83"
+        },
+        "relative_ROA": {
+          "value": "0.41"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO11000_100ppm",
+      "experiment_context": "Polishing with PEO11000 water soluble polymer at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO11000",
+            "type": "Water Soluble Polymer (Polyethylene Oxide)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "11000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.92"
+        },
+        "relative_ROA": {
+          "value": null 
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO20000_150ppm",
+      "experiment_context": "Polishing with PEO20000 water soluble polymer at 150 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO20000",
+            "type": "Water Soluble Polymer (Polyethylene Oxide)",
+            "concentration": {
+              "value": "150",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "20000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.89"
+        },
+        "relative_ROA": {
+          "value": "0.80"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PZEOx_200ppm",
+      "experiment_context": "Polishing with PZEOx (Poly(2-ethyl-2-oxazoline)) water soluble polymer (Mw 200k) at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PZEOx",
+            "type": "Water Soluble Polymer (Poly(2-ethyl-2-oxazoline))",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "200000",
+              "unit": "Da"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.87"
+        },
+        "relative_ROA": {
+          "value": "0.78"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PZEOx500k_200ppm",
+      "experiment_context": "Polishing with PZEOx500k (Poly(2-ethyl-2-oxazoline)) water soluble polymer (Mw 500k) at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PZEOx500k",
+            "type": "Water Soluble Polymer (Poly(2-ethyl-2-oxazoline))",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "500000",
+              "unit": "Da"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.93"
+        },
+        "relative_ROA": {
+          "value": "0.96"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO60K_100ppm",
+      "experiment_context": "Polishing with PEO60K water soluble polymer (Mw 60k) at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO60K",
+            "type": "Water Soluble Polymer (Polyethylene Oxide)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "60000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.90"
+        },
+        "relative_ROA": {
+          "value": "0.96"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO60K_200ppm",
+      "experiment_context": "Polishing with PEO60K water soluble polymer (Mw 60k) at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO60K",
+            "type": "Water Soluble Polymer (Polyethylene Oxide)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "60000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.82"
+        },
+        "relative_ROA": {
+          "value": "0.62"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO60K_400ppm",
+      "experiment_context": "Polishing with PEO60K water soluble polymer (Mw 60k) at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO60K",
+            "type": "Water Soluble Polymer (Polyethylene Oxide)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "60000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.52"
+        },
+        "relative_ROA": {
+          "value": "0.65"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO110K_100ppm",
+      "experiment_context": "Polishing with PEO110K water soluble polymer (Mw 110k) at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO110K",
+            "type": "Water Soluble Polymer (Polyethylene Oxide)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "110000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.91"
+        },
+        "relative_ROA": {
+          "value": "0.95"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO110K_200ppm",
+      "experiment_context": "Polishing with PEO110K water soluble polymer (Mw 110k) at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO110K",
+            "type": "Water Soluble Polymer (Polyethylene Oxide)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "110000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.84"
+        },
+        "relative_ROA": {
+          "value": "0.63"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO110K_400ppm",
+      "experiment_context": "Polishing with PEO110K water soluble polymer (Mw 110k) at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO110K",
+            "type": "Water Soluble Polymer (Polyethylene Oxide)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "110000",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.62"
+        },
+        "relative_ROA": {
+          "value": "0.65"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO-Block_100ppm",
+      "experiment_context": "Polishing with PEO-Block (Pluronic F-108) water soluble polymer (Mw 14.5k) at 100 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO-Block",
+            "type": "Water Soluble Polymer (PEG-PPG block copolymer, Pluronic F-108)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "14500",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.92"
+        },
+        "relative_ROA": {
+          "value": "0.64"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO-Block_200ppm",
+      "experiment_context": "Polishing with PEO-Block (Pluronic F-108) water soluble polymer (Mw 14.5k) at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO-Block",
+            "type": "Water Soluble Polymer (PEG-PPG block copolymer, Pluronic F-108)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "14500",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.85"
+        },
+        "relative_ROA": {
+          "value": "0.70"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PEO-Block_400ppm",
+      "experiment_context": "Polishing with PEO-Block (Pluronic F-108) water soluble polymer (Mw 14.5k) at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PEO-Block",
+            "type": "Water Soluble Polymer (PEG-PPG block copolymer, Pluronic F-108)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "14500",
+              "unit": "Da"
+            },
+            "sp_value_range": "<9.5 (inferred for PEG/PEO)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.69"
+        },
+        "relative_ROA": {
+          "value": "0.54"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVP_200ppm",
+      "experiment_context": "Polishing with PVP (Poly-N-vinylpyrrolidone, K50?) water soluble polymer at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVP",
+            "type": "Water Soluble Polymer (Poly-N-vinylpyrrolidone)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.90"
+        },
+        "relative_ROA": {
+          "value": "0.91"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVP_300ppm",
+      "experiment_context": "Polishing with PVP (Poly-N-vinylpyrrolidone, K50?) water soluble polymer at 300 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVP",
+            "type": "Water Soluble Polymer (Poly-N-vinylpyrrolidone)",
+            "concentration": {
+              "value": "300",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.84"
+        },
+        "relative_ROA": {
+          "value": "0.71"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVP_400ppm",
+      "experiment_context": "Polishing with PVP (Poly-N-vinylpyrrolidone, K50?) water soluble polymer at 400 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVP",
+            "type": "Water Soluble Polymer (Poly-N-vinylpyrrolidone)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.72"
+        },
+        "relative_ROA": {
+          "value": "0.56"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVPK15_150ppm",
+      "experiment_context": "Polishing with PVPK15 water soluble polymer at 150 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVPK15",
+            "type": "Water Soluble Polymer (Poly-N-vinylpyrrolidone K15)",
+            "concentration": {
+              "value": "150",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.92"
+        },
+        "relative_ROA": {
+          "value": "0.95"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVPK30_200ppm",
+      "experiment_context": "Polishing with PVPK30 water soluble polymer at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVPK30",
+            "type": "Water Soluble Polymer (Poly-N-vinylpyrrolidone K30)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.91"
+        },
+        "relative_ROA": {
+          "value": "0.87"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVPK60_200ppm",
+      "experiment_context": "Polishing with PVPK60 water soluble polymer at 200 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVPK60",
+            "type": "Water Soluble Polymer (Poly-N-vinylpyrrolidone K60)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.92"
+        },
+        "relative_ROA": {
+          "value": "0.95"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVPK120_250ppm",
+      "experiment_context": "Polishing with PVPK120 water soluble polymer at 250 ppm concentration.",
+      "comparative_example": false,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVPK120",
+            "type": "Water Soluble Polymer (Poly-N-vinylpyrrolidone K120)",
+            "concentration": {
+              "value": "250",
+              "unit": "ppm"
+            },
+            "sp_value_range": "12-13.9 (inferred for vinyl polymers)"
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.93"
+        },
+        "relative_ROA": {
+          "value": "0.76"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVA20K_100ppm",
+      "experiment_context": "Polishing with PVA20K water soluble polymer (Mw 20k) at 100 ppm concentration (Comparative Example).",
+      "comparative_example": true,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVA20K",
+            "type": "Water Soluble Polymer (Polyvinyl Alcohol)",
+            "concentration": {
+              "value": "100",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "20000",
+              "unit": "Da"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.95"
+        },
+        "relative_ROA": {
+          "value": "0.97"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVA20K_200ppm",
+      "experiment_context": "Polishing with PVA20K water soluble polymer (Mw 20k) at 200 ppm concentration (Comparative Example).",
+      "comparative_example": true,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVA20K",
+            "type": "Water Soluble Polymer (Polyvinyl Alcohol)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "20000",
+              "unit": "Da"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.93"
+        },
+        "relative_ROA": {
+          "value": "0.94"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVA20K_400ppm",
+      "experiment_context": "Polishing with PVA20K water soluble polymer (Mw 20k) at 400 ppm concentration (Comparative Example).",
+      "comparative_example": true,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVA20K",
+            "type": "Water Soluble Polymer (Polyvinyl Alcohol)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "20000",
+              "unit": "Da"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.88"
+        },
+        "relative_ROA": {
+          "value": "0.91"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVA200K_400ppm",
+      "experiment_context": "Polishing with PVA200K water soluble polymer (Mw 200k?) at 400 ppm concentration (Comparative Example).",
+      "comparative_example": true,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVA200K",
+            "type": "Water Soluble Polymer (Polyvinyl Alcohol)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            },
+            "molecular_weight": {
+              "value": "200000",
+              "unit": "Da"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.92"
+        },
+        "relative_ROA": {
+          "value": "1.00"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVA(OK8)_200ppm",
+      "experiment_context": "Polishing with PVA(OK8) (OKS8049) water soluble polymer at 200 ppm concentration (Comparative Example).",
+      "comparative_example": true,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVA(OK8)",
+            "type": "Water Soluble Polymer (Polyvinyl Alcohol OKS8049)",
+            "concentration": {
+              "value": "200",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.94"
+        },
+        "relative_ROA": {
+          "value": "1.00"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVA(OK8)_400ppm",
+      "experiment_context": "Polishing with PVA(OK8) (OKS8049) water soluble polymer at 400 ppm concentration (Comparative Example).",
+      "comparative_example": true,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVA(OK8)",
+            "type": "Water Soluble Polymer (Polyvinyl Alcohol OKS8049)",
+            "concentration": {
+              "value": "400",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.90"
+        },
+        "relative_ROA": {
+          "value": "1.07"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "PVA(OK8)_600ppm",
+      "experiment_context": "Polishing with PVA(OK8) (OKS8049) water soluble polymer at 600 ppm concentration (Comparative Example).",
+      "comparative_example": true,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "PVA(OK8)",
+            "type": "Water Soluble Polymer (Polyvinyl Alcohol OKS8049)",
+            "concentration": {
+              "value": "600",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "0.86"
+        },
+        "relative_ROA": {
+          "value": "0.88"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    },
+    {
+      "sample_id": "Baseline_None",
+      "experiment_context": "Baseline polishing condition with no water soluble polymer added (Comparative Example).",
+      "comparative_example": true,
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1.2",
+            "unit": "wt%"
+          }
+        },
+        "slurry_additives": [],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": {
+            "value": "10.5"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "min"
+        },
+        "relative_material_removal_rate": {
+          "value": "1.00"
+        },
+        "relative_ROA": {
+          "value": "1.00"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "equipment_model": "Logitech Ltd. 1CM52",
+        "substrate": "6 inch diameter, p type silicon wafer"
+      }
+    }
+  ]
+}

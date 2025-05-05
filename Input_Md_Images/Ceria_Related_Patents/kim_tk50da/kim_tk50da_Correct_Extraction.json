@@ -1,0 +1,1488 @@
+{
+  "doi": "US 2010/0003897 A1",
+  "title": "Methods of polishing an object using slurry compositions",
+  "year_published": "2010",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Sm_0mol",
+      "experiment_context": "Pure cerium oxide abrasive (0 mol% Sm doping), Comparative Synthetic Example 1 and Comparative Example 2.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis via co-precipitation followed by thermal treatment and grinding.",
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "100",
+              "unit": "mol%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Co-precipitation using ammonium hydrogen carbonate in water with additives.",
+            "solvents": [
+              {
+                "name": "Water",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Ammonium hydrogen carbonate",
+                "type": "Precipitator",
+                "formula": "NH4HCO3",
+                "concentration": {
+                  "value": "Excess",
+                  "unit": null
+                }
+              },
+              {
+                "name": "Polyethylene glycol",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                },
+                "details": "Weight-average molecular weight of about 600"
+              },
+              {
+                "name": "Nucleation seed",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+             "ph_during_reaction": {
+                "value": "5.5",
+                "unit": null
+             }
+          },
+          "physical": {
+            "description": "Co-precipitation followed by stabilization.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Stirring",
+                "temperature": {
+                   "value": "70",
+                   "unit": "°C"
+                },
+                "speed": {
+                   "value": "80",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "12",
+                  "unit": "h"
+                }
+              },
+              {
+                 "stage": 2,
+                 "process_name": "Stabilization",
+                 "duration": {
+                    "value": "12",
+                    "unit": "h"
+                 }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Thermal treatment followed by grinding.",
+          "collection": {
+            "method": null,
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "650",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "6",
+                "unit": "h"
+              },
+              "atmosphere": "Air"
+            }
+          },
+          "grinding": {
+             "method": "Milling",
+             "details": "Horizontal milling machine and a zirconium bead",
+             "target_particle_size": {
+                "value": "124",
+                "unit": "nm"
+             }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Abrasive dispersed in aqueous medium with poly(acrylic acid), followed by filtration. Comparative Example 2 slurry.",
+        "composition": {
+          "abrasive": {
+            "material": "CeO2",
+            "concentration": {
+              "initial": null,
+              "final": "5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Poly(acrylic acid)",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "94",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Dispersion followed by filtration.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {},
+          "filtration": {
+             "filter_size": {
+                "value": "10",
+                "unit": "µm"
+             },
+             "supplier": "Pall Corp."
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive particles and slurry.",
+        "morphology": {
+          "particle_size": {
+            "primary_grain_size": {
+              "value": "32",
+              "unit": "nm"
+            },
+            "secondary_particle_size": {
+              "value": "124",
+              "unit": "nm"
+            }
+          },
+          "shape": "Faceted",
+          "surface_area": null
+        },
+        "large_particle_count": {
+           "threshold": {
+              "value": ">2",
+              "unit": "µm"
+           },
+           "count": {
+              "value": "210",
+              "unit": "ppm"
+           },
+           "method": "Quantitative Filtration Method (QFM)"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+         "description": "CMP test on PE-TEOS silicon oxide layer.",
+         "target_material": "Silicon Oxide (PE-TEOS)",
+         "equipment_model": "Mirra (AMAT)",
+         "polishing_pad": null,
+         "polishing_parameters": {
+            "down_pressure": {
+               "value": "3.0",
+               "unit": "psi"
+            },
+            "table_speed": {
+               "value": "108",
+               "unit": "rpm"
+            },
+            "head_speed": {
+               "value": "102",
+               "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+               "value": "150",
+               "unit": "mL/min"
+            },
+            "polishing_time": {
+               "value": "60",
+               "unit": "s"
+            }
+         },
+         "results": {
+            "material_removal_rate": null,
+            "scratch_count": {
+               "relative_ratio": "100%",
+               "basis": "Comparative Example 2"
+            },
+            "surface_quality": null
+         },
+         "cleaning_process": "HF aqueous solution (100:1 DIW:HF)"
+      }
+    },
+    {
+      "sample_id": "Sm_5mol",
+      "experiment_context": "Cerium oxide abrasive doped with 5 mol% Sm, Synthetic Example 5 and Example 6 slurry.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis via co-precipitation followed by thermal treatment and grinding.",
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "95",
+              "unit": "mol%"
+            }
+          },
+          {
+            "material_name": "Samarium nitrate dihydrate",
+            "formula": "Sm(NO3)·2H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "5",
+              "unit": "mol%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Co-precipitation using ammonium hydrogen carbonate in water with additives.",
+            "solvents": [
+              {
+                "name": "Water",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Ammonium hydrogen carbonate",
+                "type": "Precipitator",
+                "formula": "NH4HCO3",
+                "concentration": {
+                  "value": "Excess",
+                  "unit": null
+                }
+              },
+              {
+                "name": "Polyethylene glycol",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                },
+                "details": "Weight-average molecular weight of about 600"
+              },
+              {
+                "name": "Nucleation seed",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+             "ph_during_reaction": {
+                "value": "5.5",
+                "unit": null
+             }
+          },
+          "physical": {
+            "description": "Co-precipitation followed by stabilization.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Stirring",
+                "temperature": {
+                   "value": "70",
+                   "unit": "°C"
+                },
+                "speed": {
+                   "value": "80",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "12",
+                  "unit": "h"
+                }
+              },
+              {
+                 "stage": 2,
+                 "process_name": "Stabilization",
+                 "duration": {
+                    "value": "12",
+                    "unit": "h"
+                 }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Thermal treatment followed by grinding.",
+          "collection": {
+            "method": null,
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "650",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "6",
+                "unit": "h"
+              },
+              "atmosphere": "Air"
+            }
+          },
+          "grinding": {
+             "method": "Milling",
+             "details": "Horizontal milling machine and a zirconium bead",
+             "target_particle_size": {
+                "value": "118",
+                "unit": "nm"
+             }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Abrasive dispersed in aqueous medium with poly(acrylic acid), followed by filtration. Example 6 slurry.",
+        "composition": {
+          "abrasive": {
+            "material": "Sm-doped CeO2 (5 mol%)",
+            "concentration": {
+              "initial": null,
+              "final": "5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Poly(acrylic acid)",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "94",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Dispersion followed by filtration.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {},
+          "filtration": {
+             "filter_size": {
+                "value": "10",
+                "unit": "µm"
+             },
+             "supplier": "Pall Corp."
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive particles and slurry.",
+        "morphology": {
+          "particle_size": {
+            "primary_grain_size": {
+              "value": "29",
+              "unit": "nm"
+            },
+            "secondary_particle_size": {
+              "value": "118",
+              "unit": "nm"
+            }
+          },
+          "shape": "Faceted",
+          "surface_area": null
+        },
+        "large_particle_count": {
+           "threshold": {
+              "value": ">2",
+              "unit": "µm"
+           },
+           "count": {
+              "value": "182",
+              "unit": "ppm"
+           },
+           "method": "Quantitative Filtration Method (QFM)"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+         "description": "CMP test on PE-TEOS silicon oxide layer.",
+         "target_material": "Silicon Oxide (PE-TEOS)",
+         "equipment_model": "Mirra (AMAT)",
+         "polishing_pad": null,
+         "polishing_parameters": {
+            "down_pressure": {
+               "value": "3.0",
+               "unit": "psi"
+            },
+            "table_speed": {
+               "value": "108",
+               "unit": "rpm"
+            },
+            "head_speed": {
+               "value": "102",
+               "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+               "value": "150",
+               "unit": "mL/min"
+            },
+            "polishing_time": {
+               "value": "60",
+               "unit": "s"
+            }
+         },
+         "results": {
+            "material_removal_rate": null,
+            "scratch_count": {
+               "relative_ratio": "80%",
+               "basis": "Comparative Example 2"
+            },
+            "surface_quality": null
+         },
+         "cleaning_process": "HF aqueous solution (100:1 DIW:HF)"
+      }
+    },
+    {
+      "sample_id": "Sm_10mol",
+      "experiment_context": "Cerium oxide abrasive doped with 10 mol% Sm, Synthetic Example 4 and Example 5 slurry.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis via co-precipitation followed by thermal treatment and grinding.",
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "90",
+              "unit": "mol%"
+            }
+          },
+          {
+            "material_name": "Samarium nitrate dihydrate",
+            "formula": "Sm(NO3)·2H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "10",
+              "unit": "mol%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Co-precipitation using ammonium hydrogen carbonate in water with additives.",
+            "solvents": [
+              {
+                "name": "Water",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Ammonium hydrogen carbonate",
+                "type": "Precipitator",
+                "formula": "NH4HCO3",
+                "concentration": {
+                  "value": "Excess",
+                  "unit": null
+                }
+              },
+              {
+                "name": "Polyethylene glycol",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                },
+                "details": "Weight-average molecular weight of about 600"
+              },
+              {
+                "name": "Nucleation seed",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+             "ph_during_reaction": {
+                "value": "5.5",
+                "unit": null
+             }
+          },
+          "physical": {
+            "description": "Co-precipitation followed by stabilization.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Stirring",
+                "temperature": {
+                   "value": "70",
+                   "unit": "°C"
+                },
+                "speed": {
+                   "value": "80",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "12",
+                  "unit": "h"
+                }
+              },
+              {
+                 "stage": 2,
+                 "process_name": "Stabilization",
+                 "duration": {
+                    "value": "12",
+                    "unit": "h"
+                 }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Thermal treatment followed by grinding.",
+          "collection": {
+            "method": null,
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "650",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "6",
+                "unit": "h"
+              },
+              "atmosphere": "Air"
+            }
+          },
+          "grinding": {
+             "method": "Milling",
+             "details": "Horizontal milling machine and a zirconium bead",
+             "target_particle_size": {
+                "value": "115",
+                "unit": "nm"
+             }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Abrasive dispersed in aqueous medium with poly(acrylic acid), followed by filtration. Example 5 slurry.",
+        "composition": {
+          "abrasive": {
+            "material": "Sm-doped CeO2 (10 mol%)",
+            "concentration": {
+              "initial": null,
+              "final": "5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Poly(acrylic acid)",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "94",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Dispersion followed by filtration.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {},
+          "filtration": {
+             "filter_size": {
+                "value": "10",
+                "unit": "µm"
+             },
+             "supplier": "Pall Corp."
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive particles and slurry.",
+        "morphology": {
+          "particle_size": {
+            "primary_grain_size": {
+              "value": "27",
+              "unit": "nm"
+            },
+            "secondary_particle_size": {
+              "value": "115",
+              "unit": "nm"
+            }
+          },
+          "shape": "Semi-spherical",
+          "surface_area": null
+        },
+        "large_particle_count": {
+           "threshold": {
+              "value": ">2",
+              "unit": "µm"
+           },
+           "count": {
+              "value": "158",
+              "unit": "ppm"
+           },
+           "method": "Quantitative Filtration Method (QFM)"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+         "description": "CMP test on PE-TEOS silicon oxide layer.",
+         "target_material": "Silicon Oxide (PE-TEOS)",
+         "equipment_model": "Mirra (AMAT)",
+         "polishing_pad": null,
+         "polishing_parameters": {
+            "down_pressure": {
+               "value": "3.0",
+               "unit": "psi"
+            },
+            "table_speed": {
+               "value": "108",
+               "unit": "rpm"
+            },
+            "head_speed": {
+               "value": "102",
+               "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+               "value": "150",
+               "unit": "mL/min"
+            },
+            "polishing_time": {
+               "value": "60",
+               "unit": "s"
+            }
+         },
+         "results": {
+            "material_removal_rate": null,
+            "scratch_count": {
+               "relative_ratio": "50%",
+               "basis": "Comparative Example 2"
+            },
+            "surface_quality": null
+         },
+         "cleaning_process": "HF aqueous solution (100:1 DIW:HF)"
+      }
+    },
+    {
+      "sample_id": "Sm_20mol",
+      "experiment_context": "Cerium oxide abrasive doped with 20 mol% Sm, Synthetic Example 3 and Example 4 slurry.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis via co-precipitation followed by thermal treatment and grinding.",
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "80",
+              "unit": "mol%"
+            }
+          },
+          {
+            "material_name": "Samarium nitrate dihydrate",
+            "formula": "Sm(NO3)·2H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "20",
+              "unit": "mol%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Co-precipitation using ammonium hydrogen carbonate in water with additives.",
+            "solvents": [
+              {
+                "name": "Water",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Ammonium hydrogen carbonate",
+                "type": "Precipitator",
+                "formula": "NH4HCO3",
+                "concentration": {
+                  "value": "Excess",
+                  "unit": null
+                }
+              },
+              {
+                "name": "Polyethylene glycol",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                },
+                "details": "Weight-average molecular weight of about 600"
+              },
+              {
+                "name": "Nucleation seed",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+             "ph_during_reaction": {
+                "value": "5.5",
+                "unit": null
+             }
+          },
+          "physical": {
+            "description": "Co-precipitation followed by stabilization.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Stirring",
+                "temperature": {
+                   "value": "70",
+                   "unit": "°C"
+                },
+                "speed": {
+                   "value": "80",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "12",
+                  "unit": "h"
+                }
+              },
+              {
+                 "stage": 2,
+                 "process_name": "Stabilization",
+                 "duration": {
+                    "value": "12",
+                    "unit": "h"
+                 }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Thermal treatment followed by grinding.",
+          "collection": {
+            "method": null,
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "650",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "6",
+                "unit": "h"
+              },
+              "atmosphere": "Air"
+            }
+          },
+          "grinding": {
+             "method": "Milling",
+             "details": "Horizontal milling machine and a zirconium bead",
+             "target_particle_size": {
+                "value": "110",
+                "unit": "nm"
+             }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Abrasive dispersed in aqueous medium with poly(acrylic acid), followed by filtration. Example 4 slurry.",
+        "composition": {
+          "abrasive": {
+            "material": "Sm-doped CeO2 (20 mol%)",
+            "concentration": {
+              "initial": null,
+              "final": "5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Poly(acrylic acid)",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "94",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Dispersion followed by filtration.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {},
+          "filtration": {
+             "filter_size": {
+                "value": "10",
+                "unit": "µm"
+             },
+             "supplier": "Pall Corp."
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive particles and slurry.",
+        "morphology": {
+          "particle_size": {
+            "primary_grain_size": {
+              "value": "27",
+              "unit": "nm"
+            },
+            "secondary_particle_size": {
+              "value": "110",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical",
+          "surface_area": null
+        },
+        "large_particle_count": {
+           "threshold": {
+              "value": ">2",
+              "unit": "µm"
+           },
+           "count": {
+              "value": "63",
+              "unit": "ppm"
+           },
+           "method": "Quantitative Filtration Method (QFM)"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+         "description": "CMP test on PE-TEOS silicon oxide layer.",
+         "target_material": "Silicon Oxide (PE-TEOS)",
+         "equipment_model": "Mirra (AMAT)",
+         "polishing_pad": null,
+         "polishing_parameters": {
+            "down_pressure": {
+               "value": "3.0",
+               "unit": "psi"
+            },
+            "table_speed": {
+               "value": "108",
+               "unit": "rpm"
+            },
+            "head_speed": {
+               "value": "102",
+               "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+               "value": "150",
+               "unit": "mL/min"
+            },
+            "polishing_time": {
+               "value": "60",
+               "unit": "s"
+            }
+         },
+         "results": {
+            "material_removal_rate": null,
+            "scratch_count": {
+               "relative_ratio": "40%",
+               "basis": "Comparative Example 2"
+            },
+            "surface_quality": null
+         },
+         "cleaning_process": "HF aqueous solution (100:1 DIW:HF)"
+      }
+    },
+    {
+      "sample_id": "Sm_25mol",
+      "experiment_context": "Cerium oxide abrasive doped with 25 mol% Sm, Synthetic Example 2/6 and Example 1/3 slurry.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis via co-precipitation followed by thermal treatment and grinding.",
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "75",
+              "unit": "mol%"
+            }
+          },
+          {
+            "material_name": "Samarium nitrate dihydrate",
+            "formula": "Sm(NO3)·2H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "25",
+              "unit": "mol%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Co-precipitation using ammonium hydrogen carbonate in water with additives.",
+            "solvents": [
+              {
+                "name": "Water",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Ammonium hydrogen carbonate",
+                "type": "Precipitator",
+                "formula": "NH4HCO3",
+                "concentration": {
+                  "value": "Excess",
+                  "unit": null
+                }
+              },
+              {
+                "name": "Polyethylene glycol",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                },
+                "details": "Weight-average molecular weight of about 600"
+              },
+              {
+                "name": "Nucleation seed",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+             "ph_during_reaction": {
+                "value": "5.5",
+                "unit": null
+             }
+          },
+          "physical": {
+            "description": "Co-precipitation followed by stabilization.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Stirring",
+                "temperature": {
+                   "value": "70",
+                   "unit": "°C"
+                },
+                "speed": {
+                   "value": "80",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "12",
+                  "unit": "h"
+                }
+              },
+              {
+                 "stage": 2,
+                 "process_name": "Stabilization",
+                 "duration": {
+                    "value": "12",
+                    "unit": "h"
+                 }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Thermal treatment followed by grinding.",
+          "collection": {
+            "method": null,
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "650",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "6",
+                "unit": "h"
+              },
+              "atmosphere": "Air"
+            }
+          },
+          "grinding": {
+             "method": "Milling",
+             "details": "Horizontal milling machine and a zirconium bead",
+             "target_particle_size": {
+                "value": "105",
+                "unit": "nm"
+             }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Abrasive dispersed in aqueous medium with poly(acrylic acid). Example 1 slurry also included selectivity additive and dilution.",
+        "composition": {
+          "abrasive": {
+            "material": "Sm-doped CeO2 (25 mol%)",
+            "concentration": {
+              "initial": null,
+              "final": "5",
+              "unit": "wt%"
+            },
+            "details": "Example 1 slurry used this abrasive but was further mixed 1:3:3 (abrasive comp:selectivity additive:water)"
+          },
+          "slurry_additives": [
+            {
+              "name": "Poly(acrylic acid)",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1",
+                "unit": "wt%"
+              }
+            },
+            {
+               "name": "Selectivity Additive (Korean Patent No. 475,457)",
+               "type": "Selectivity Enhancer",
+               "concentration": {
+                  "value": null,
+                  "unit": null
+               },
+               "details": "Used in Example 1 slurry prep (1:3:3 mix), pH ~6.5"
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "94",
+              "unit": "wt%"
+            },
+            "details": "Example 1 slurry used additional water in 1:3:3 mix"
+          }
+        },
+        "processing": {
+          "description": "Dispersion followed by filtration.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {},
+          "filtration": {
+             "filter_size": {
+                "value": "10",
+                "unit": "µm"
+             },
+             "supplier": "Pall Corp."
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive particles and slurry.",
+        "morphology": {
+          "particle_size": {
+            "primary_grain_size": {
+              "value": "27",
+              "unit": "nm"
+            },
+            "secondary_particle_size": {
+              "value": "105",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical",
+          "surface_area": null
+        },
+        "large_particle_count": {
+           "threshold": {
+              "value": ">2",
+              "unit": "µm"
+           },
+           "count": {
+              "value": "15",
+              "unit": "ppm"
+           },
+           "method": "Quantitative Filtration Method (QFM)"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+         "description": "CMP test on PE-TEOS silicon oxide layer and STI structure.",
+         "target_material": "Silicon Oxide (PE-TEOS), STI (SiO2 fill)",
+         "equipment_model": "Mirra (AMAT)",
+         "polishing_pad": null,
+         "polishing_parameters": {
+            "down_pressure": {
+               "value": "3.0",
+               "unit": "psi"
+            },
+            "table_speed": {
+               "value": "108",
+               "unit": "rpm"
+            },
+            "head_speed": {
+               "value": "102",
+               "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+               "value": "150",
+               "unit": "mL/min"
+            },
+            "polishing_time": {
+               "value": "60",
+               "unit": "s"
+            }
+         },
+         "results": {
+            "material_removal_rate": {
+               "value": "2480",
+               "unit": "Å/min",
+               "error": "105",
+               "target": "PE-TEOS"
+            },
+            "scratch_count": {
+               "total": "250",
+               "deep": "3",
+               "target": "PE-TEOS",
+               "relative_ratio": "36%",
+               "basis": "Comparative Example 1 (PE-TEOS)"
+            },
+            "scratch_count_sti": {
+               "total": "9",
+               "deep": "3",
+               "target": "STI (70nm trench)",
+               "relative_ratio": "47%",
+               "basis": "Comparative Example 1 (STI)"
+            },
+            "surface_quality": null
+         },
+         "cleaning_process": "HF aqueous solution (100:1 DIW:HF)"
+      }
+    },
+    {
+      "sample_id": "Sm_30mol",
+      "experiment_context": "Cerium oxide abrasive doped with 30 mol% Sm, Synthetic Example 1 and Example 2 slurry.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis via co-precipitation followed by thermal treatment and grinding.",
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "70",
+              "unit": "mol%"
+            }
+          },
+          {
+            "material_name": "Samarium nitrate dihydrate",
+            "formula": "Sm(NO3)·2H2O",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "30",
+              "unit": "mol%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Co-precipitation using ammonium hydrogen carbonate in water with additives.",
+            "solvents": [
+              {
+                "name": "Water",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Ammonium hydrogen carbonate",
+                "type": "Precipitator",
+                "formula": "NH4HCO3",
+                "concentration": {
+                  "value": "Excess",
+                  "unit": null
+                }
+              },
+              {
+                "name": "Polyethylene glycol",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                },
+                "details": "Weight-average molecular weight of about 600"
+              },
+              {
+                "name": "Nucleation seed",
+                "type": "Process Aid",
+                "formula": null,
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+             "ph_during_reaction": {
+                "value": "5.5",
+                "unit": null
+             }
+          },
+          "physical": {
+            "description": "Co-precipitation followed by stabilization.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Stirring",
+                "temperature": {
+                   "value": "70",
+                   "unit": "°C"
+                },
+                "speed": {
+                   "value": "80",
+                   "unit": "rpm"
+                },
+                "duration": {
+                  "value": "12",
+                  "unit": "h"
+                }
+              },
+              {
+                 "stage": 2,
+                 "process_name": "Stabilization",
+                 "duration": {
+                    "value": "12",
+                    "unit": "h"
+                 }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Thermal treatment followed by grinding.",
+          "collection": {
+            "method": null,
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "650",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "6",
+                "unit": "h"
+              },
+              "atmosphere": "Air"
+            }
+          },
+          "grinding": {
+             "method": "Milling",
+             "details": "Horizontal milling machine and a zirconium bead",
+             "target_particle_size": {
+                "value": "120",
+                "unit": "nm"
+             }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Abrasive dispersed in aqueous medium with poly(acrylic acid), followed by filtration. Example 2 slurry.",
+        "composition": {
+          "abrasive": {
+            "material": "Sm-doped CeO2 (30 mol%)",
+            "concentration": {
+              "initial": null,
+              "final": "5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Poly(acrylic acid)",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "94",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Dispersion followed by filtration.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {},
+          "filtration": {
+             "filter_size": {
+                "value": "10",
+                "unit": "µm"
+             },
+             "supplier": "Pall Corp."
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of abrasive particles and slurry.",
+        "morphology": {
+          "particle_size": {
+            "primary_grain_size": {
+              "value": "26.5",
+              "unit": "nm"
+            },
+            "secondary_particle_size": {
+              "value": "120",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical",
+          "surface_area": null
+        },
+        "large_particle_count": {
+           "threshold": {
+              "value": ">2",
+              "unit": "µm"
+           },
+           "count": {
+              "value": "28",
+              "unit": "ppm"
+           },
+           "method": "Quantitative Filtration Method (QFM)"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+         "description": "CMP test on PE-TEOS silicon oxide layer.",
+         "target_material": "Silicon Oxide (PE-TEOS)",
+         "equipment_model": "Mirra (AMAT)",
+         "polishing_pad": null,
+         "polishing_parameters": {
+            "down_pressure": {
+               "value": "3.0",
+               "unit": "psi"
+            },
+            "table_speed": {
+               "value": "108",
+               "unit": "rpm"
+            },
+            "head_speed": {
+               "value": "102",
+               "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+               "value": "150",
+               "unit": "mL/min"
+            },
+            "polishing_time": {
+               "value": "60",
+               "unit": "s"
+            }
+         },
+         "results": {
+            "material_removal_rate": null,
+            "scratch_count": {
+               "relative_ratio": "30%",
+               "basis": "Comparative Example 2"
+            },
+            "surface_quality": null
+         },
+         "cleaning_process": "HF aqueous solution (100:1 DIW:HF)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3948 @@
+{
+  "doi": "US 2016/0141182 A1",
+  "title": "SLURRY COMPOSITIONS AND METHODS OF FABRICATING SEMICONDUCTOR DEVICES USING THE SAME",
+  "year_published": "2016",
+  "journal": "US Patent Application",
+  "samples": [
+    {
+        "sample_id": "Table1_HydrogenPeroxide",
+        "experiment_context": "Slurry composition from Table 1 testing Hydrogen Peroxide as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "hydrogen peroxide",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 877,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 151,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_ChlorinePeroxide",
+        "experiment_context": "Slurry composition from Table 1 testing Chlorine Peroxide as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "chlorine peroxide",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 305,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 97,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_AmmoniumPerchlorate",
+        "experiment_context": "Slurry composition from Table 1 testing Ammonium Perchlorate as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "ammonium perchlorate",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 408,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 104,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_SodiumChlorite",
+        "experiment_context": "Slurry composition from Table 1 testing Sodium Chlorite as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 1685,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 610,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_SodiumChlorate",
+        "experiment_context": "Slurry composition from Table 1 testing Sodium Chlorate as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorate",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 488,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 102,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_FerricPerchlorate",
+        "experiment_context": "Slurry composition from Table 1 testing Ferric Perchlorate as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "ferric perchlorate",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 705,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 95,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_FerricNitrate",
+        "experiment_context": "Slurry composition from Table 1 testing Ferric Nitrate as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "ferric nitrate",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 500,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 93,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_PotassiumNitrate",
+        "experiment_context": "Slurry composition from Table 1 testing Potassium Nitrate as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "potassium nitrate",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 650,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 110,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_AmmoniumNitrate",
+        "experiment_context": "Slurry composition from Table 1 testing Ammonium Nitrate as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "ammonium nitrate",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 675,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 173,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_PyridiniumChlorochromate",
+        "experiment_context": "Slurry composition from Table 1 testing Pyridinium Chlorochromate as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "pyridinium chlorochromate",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 360,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 73,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_HypochlorousAcid",
+        "experiment_context": "Slurry composition from Table 1 testing Hypochlorous Acid as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "hypochlorous acid",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 50,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 48,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_SulfonicAcid",
+        "experiment_context": "Slurry composition from Table 1 testing Sulfonic Acid as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sulfonic acid",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 75,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 52,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_CarboxylicAcid",
+        "experiment_context": "Slurry composition from Table 1 testing Carboxylic Acid as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "carboxylic acid",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 106,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 53,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table1_CitricAcid",
+        "experiment_context": "Slurry composition from Table 1 testing Citric Acid as oxidizing agent. Base: 1 wt% colloidal silica, pH 3.5, 0.25 wt% oxidizing agent.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "citric acid",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 114,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 23,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table2_Ox0.25_Si1.0",
+        "experiment_context": "Slurry composition from Table 2. Oxidizing agent (Sodium Chlorite): 0.25 wt%, Polishing particle (Colloidal Silica): 1.0 wt%. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 1685,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 610,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table2_Ox0.4_Si1.0",
+        "experiment_context": "Slurry composition from Table 2. Oxidizing agent (Sodium Chlorite): 0.4 wt%, Polishing particle (Colloidal Silica): 1.0 wt%. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.4,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2323,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1200,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table2_Ox0.45_Si1.0",
+        "experiment_context": "Slurry composition from Table 2. Oxidizing agent (Sodium Chlorite): 0.45 wt%, Polishing particle (Colloidal Silica): 1.0 wt%. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2673,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1567,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table2_Ox0.5_Si1.0",
+        "experiment_context": "Slurry composition from Table 2. Oxidizing agent (Sodium Chlorite): 0.5 wt%, Polishing particle (Colloidal Silica): 1.0 wt%. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.5,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2650,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1482,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table2_Ox0.45_Si2.0",
+        "experiment_context": "Slurry composition from Table 2. Oxidizing agent (Sodium Chlorite): 0.45 wt%, Polishing particle (Colloidal Silica): 2.0 wt%. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 2.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2705,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1584,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table2_Ox0.45_Si2.5",
+        "experiment_context": "Slurry composition from Table 2. Oxidizing agent (Sodium Chlorite): 0.45 wt%, Polishing particle (Colloidal Silica): 2.5 wt%. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 2.5,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2707,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1605,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table2_Ox0.45_Si3.0",
+        "experiment_context": "Slurry composition from Table 2. Oxidizing agent (Sodium Chlorite): 0.45 wt%, Polishing particle (Colloidal Silica): 3.0 wt%. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 3.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2763,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1612,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Baseline",
+        "experiment_context": "Baseline slurry composition from Table 3 (no accelerator). Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": null,
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2673,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1567,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Carboxylic_0.2",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Carboxylic Acid 0.2 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "carboxylic acid",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2700,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1607,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Carboxylic_0.4",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Carboxylic Acid 0.4 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "carboxylic acid",
+            "concentration": {
+              "value": 0.4,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2750,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1620,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Carboxylic_0.6",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Carboxylic Acid 0.6 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "carboxylic acid",
+            "concentration": {
+              "value": 0.6,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2773,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1726,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Carboxylic_0.8",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Carboxylic Acid 0.8 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "carboxylic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2785,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1730,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Carboxylic_1.0",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Carboxylic Acid 1.0 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "carboxylic acid",
+            "concentration": {
+              "value": 1.0,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2732,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1698,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Formic_0.2",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Formic Acid 0.2 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2753,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1673,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Formic_0.4",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Formic Acid 0.4 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.4,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2840,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1720,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Formic_0.6",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Formic Acid 0.6 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.6,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2935,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1850,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Formic_0.8",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Formic Acid 0.8 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2950,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1845,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Formic_1.0",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Formic Acid 1.0 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 1.0,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2897,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1793,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Amino_0.2",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Amino Acid 0.2 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "amino acid",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2705,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1580,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Amino_0.4",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Amino Acid 0.4 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "amino acid",
+            "concentration": {
+              "value": 0.4,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2716,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1595,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Amino_0.6",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Amino Acid 0.6 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "amino acid",
+            "concentration": {
+              "value": 0.6,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2823,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1680,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Amino_0.8",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Amino Acid 0.8 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "amino acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2814,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1676,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Amino_1.0",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Amino Acid 1.0 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "amino acid",
+            "concentration": {
+              "value": 1.0,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 2698,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 1603,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Sulfuric_0.4",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Sulfuric Acid 0.4 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "sulfuric acid",
+            "concentration": {
+              "value": 0.4,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 950,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 230,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table3_Nitric_0.4",
+        "experiment_context": "Slurry composition from Table 3. Accelerator: Nitric Acid 0.4 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "nitric acid",
+            "concentration": {
+              "value": 0.4,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": {
+              "value": 730,
+              "unit": "A/min"
+            },
+            "SiGe": {
+              "value": 205,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_Baseline",
+        "experiment_context": "Baseline slurry composition from Table 4 (no selectivity agent). Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": null,
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1850,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 600,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 650,
+              "unit": "A/min"
+            },
+            "SiN": {
+              "value": 530,
+              "unit": "A/min"
+            }
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PEG_0.1",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PEG 0.1 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PEG",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1520,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 45,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 75,
+              "unit": "A/min"
+            },
+            "SiN": {
+              "value": 287,
+              "unit": "A/min"
+            }
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PEG_0.2",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PEG 0.2 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PEG",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1450,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 20,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 39,
+              "unit": "A/min"
+            },
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PEG_0.3",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PEG 0.3 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PEG",
+            "concentration": {
+              "value": 0.3,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1432,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 21,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 37,
+              "unit": "A/min"
+            },
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PAA_0.1",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PAA 0.1 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PAA",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1400,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 315,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 286,
+              "unit": "A/min"
+            },
+            "SiN": {
+              "value": 32,
+              "unit": "A/min"
+            }
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PAA_0.2",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PAA 0.2 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PAA",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1453,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": {
+              "value": 21,
+              "unit": "A/min"
+            }
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PAA_0.3",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PAA 0.3 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PAA",
+            "concentration": {
+              "value": 0.3,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1420,
+              "unit": "A/min"
+            },
+            "Si": null,
+            "SiO2": null,
+            "SiN": {
+              "value": 19,
+              "unit": "A/min"
+            }
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PEO_0.1",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PEO 0.1 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PEO",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1500,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 82,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 46,
+              "unit": "A/min"
+            },
+            "SiN": {
+              "value": 250,
+              "unit": "A/min"
+            }
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PEO_0.2",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PEO 0.2 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PEO",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1485,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 46,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 21,
+              "unit": "A/min"
+            },
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PEO_0.3",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PEO 0.3 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PEO",
+            "concentration": {
+              "value": 0.3,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1453,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 37,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 20,
+              "unit": "A/min"
+            },
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PVP_0.1",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PVP 0.1 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PVP",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1480,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 20,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 67,
+              "unit": "A/min"
+            },
+            "SiN": {
+              "value": 310,
+              "unit": "A/min"
+            }
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PVP_0.2",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PVP 0.2 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PVP",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1400,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 14,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 39,
+              "unit": "A/min"
+            },
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      },
+      {
+        "sample_id": "Table4_PVP_0.3",
+        "experiment_context": "Slurry composition from Table 4. Selectivity Agent: PVP 0.3 wt%. Base: 1 wt% colloidal silica, 0.45 wt% sodium chlorite, 0.8 wt% formic acid. pH assumed 3.5.",
+        "precursor_chemical": null,
+        "precursor_concentration": null,
+        "precipitant_type": null,
+        "molar_ratio_precursor_precipitant": null,
+        "reaction_temperature": null,
+        "reaction_time": null,
+        "synthesis_conditions": null,
+        "post_synthesis_treatment": null,
+        "slurry_preparation": {
+          "abrasive_particle_type": "Colloidal Silica",
+          "abrasive_particle_concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          },
+          "oxidizing_agent": {
+            "name": "sodium chlorite",
+            "concentration": {
+              "value": 0.45,
+              "unit": "wt%"
+            }
+          },
+          "polishing_accelerator": {
+            "name": "formic acid",
+            "concentration": {
+              "value": 0.8,
+              "unit": "wt%"
+            }
+          },
+          "selectivity_control_agent": {
+            "name": "PVP",
+            "concentration": {
+              "value": 0.3,
+              "unit": "wt%"
+            }
+          },
+          "additives": [],
+          "target_final_slurry_ph": 3.5,
+          "solvent": {
+            "name": "DI water",
+            "quantity": null
+          }
+        },
+        "characterization": {
+          "particle_size_distribution": {
+            "min": 30,
+            "max": 80,
+            "unit": "nm",
+            "measurement_method_used": null
+          },
+          "crystallite_size": null,
+          "crystallinity_phase_composition": null,
+          "surface_functional_groups": null,
+          "elemental_composition": null,
+          "particle_morphology": null,
+          "xrd_peaks": null
+        },
+        "cmp_performance": {
+          "polishing_time": null,
+          "material_removal_rate": {
+            "Ge": null,
+            "SiGe": {
+              "value": 1340,
+              "unit": "A/min"
+            },
+            "Si": {
+              "value": 11,
+              "unit": "A/min"
+            },
+            "SiO2": {
+              "value": 27,
+              "unit": "A/min"
+            },
+            "SiN": null
+          },
+          "process_temperature": null,
+          "polishing_pressure": null,
+          "pad_conditioning_pressure": null,
+          "equipment_model": null,
+          "pad_composition": null
+        },
+        "theoretical_analysis": null
+      }
+    ]
+  }

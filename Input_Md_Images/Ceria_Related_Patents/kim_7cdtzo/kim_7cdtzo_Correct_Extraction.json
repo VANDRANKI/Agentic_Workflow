@@ -1,0 +1,1519 @@
+{
+  "doi": "US 2005/0198912 A1",
+  "title": "POLISHING SLURRY, METHOD OF PRODUCING SAME, AND METHOD OF POLISHING SUBSTRATE",
+  "year_published": "2005",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Ex1_700C",
+      "experiment_context": "Ceria powder calcined at 700°C for 4 hours, milled, dispersed with 1 wt% ammonium polymethacrylate.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "700",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling, Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polymethacrylate",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "300",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS"
+        },
+        "crystallite_size": {
+          "value": "24.1",
+          "unit": "nm",
+          "measurement_method_used": "TEM/SEM"
+        },
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": {
+          "value": "20.8453",
+          "unit": "m²/g",
+          "measurement_method_used": "BET"
+        },
+        "peak_area_ratio": {
+           "value": "8.25",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2030",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "50",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "40.8",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.0",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "1",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "293",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex2_750C",
+      "experiment_context": "Ceria powder calcined at 750°C for 4 hours, milled, dispersed with 1 wt% ammonium polymethacrylate.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "750",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling, Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polymethacrylate",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "294",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": null,
+        "peak_area_ratio": {
+           "value": "6.01",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2179",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "51",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "42.9",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.1",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "3",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "355",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex3_800C",
+      "experiment_context": "Ceria powder calcined at 800°C for 4 hours, milled, dispersed with 1 wt% ammonium polymethacrylate.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "800",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling, Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polymethacrylate",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "296",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS"
+        },
+        "crystallite_size": {
+          "value": "47.7",
+          "unit": "nm",
+          "measurement_method_used": "TEM/SEM"
+        },
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": {
+          "value": "5.4213",
+          "unit": "m²/g",
+          "measurement_method_used": "BET"
+        },
+        "peak_area_ratio": {
+           "value": "4.56",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2424",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "50",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "48.3",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.2",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "4",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "405",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex4_850C",
+      "experiment_context": "Ceria powder calcined at 850°C for 4 hours, milled, dispersed with 1 wt% ammonium polymethacrylate.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "850",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling, Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polymethacrylate",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "292",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": null,
+        "peak_area_ratio": {
+           "value": "2.85",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2591",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "48",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "54.2",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.4",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "6",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "477",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex5_900C",
+      "experiment_context": "Ceria powder calcined at 900°C for 4 hours, milled, dispersed with 1 wt% ammonium polymethacrylate.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "900",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling, Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polymethacrylate",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "298",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS"
+        },
+        "crystallite_size": {
+          "value": "77.2",
+          "unit": "nm",
+          "measurement_method_used": "TEM/SEM"
+        },
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": {
+          "value": "2.6435",
+          "unit": "m²/g",
+          "measurement_method_used": "BET"
+        },
+        "peak_area_ratio": {
+           "value": "1.09",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2525",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "48",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "52.6",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.3",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "8",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "494",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex6_750C_4pass",
+      "experiment_context": "Ceria powder calcined at 750°C for 4 hours, subjected to 4 milling passes, dispersed with 1 wt% ammonium polymethacrylate.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "750",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling (4 passes), Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polymethacrylate",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           },
+           "milling_passes": 4
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "433",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": null,
+        "peak_area_ratio": {
+           "value": "4.81",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2417",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "49",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "49.0",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.3",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "6",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "428",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex7_750C_5pass",
+      "experiment_context": "Ceria powder calcined at 750°C for 4 hours, subjected to 5 milling passes, dispersed with 1 wt% ammonium polymethacrylate.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "750",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling (5 passes), Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polymethacrylate",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           },
+           "milling_passes": 5
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "344",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": null,
+        "peak_area_ratio": {
+           "value": "5.79",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2267",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "50",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "45.0",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.2",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "4",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "384",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex8_750C_6pass",
+      "experiment_context": "Ceria powder calcined at 750°C for 4 hours, subjected to 6 milling passes, dispersed with 1 wt% ammonium polymethacrylate.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "750",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling (6 passes), Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Ammonium polymethacrylate",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           },
+           "milling_passes": 6
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "295",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": null,
+        "peak_area_ratio": {
+           "value": "6.32",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2212",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "48",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "45.7",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.1",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "3",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "350",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex9_750C_250nm",
+      "experiment_context": "Ceria powder calcined at 750°C for 4 hours, milled to 250 nm median size (7 passes), dispersed with 1 wt% polymer-based agent.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "750",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling (7 passes), Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Polymer-based dispersing agent",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           },
+           "milling_passes": 7,
+           "target_median_size": {
+              "value": "250",
+              "unit": "nm"
+           }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "250",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS",
+          "mode_large_peak": { "value": "279", "unit": "nm" },
+          "mode_fine_peak": { "value": "84", "unit": "nm" }
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": null,
+        "peak_area_ratio": {
+           "value": "7.85",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2280",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "52",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "43.8",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.2",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "3",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "340",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex10_750C_104nm",
+      "experiment_context": "Ceria powder calcined at 750°C for 4 hours, milled to 104 nm median size (13 passes), dispersed with 1 wt% polymer-based agent.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "750",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling (13 passes), Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Polymer-based dispersing agent",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           },
+           "milling_passes": 13,
+           "target_median_size": {
+              "value": "104",
+              "unit": "nm"
+           }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "104",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS",
+          "mode_large_peak": { "value": "222", "unit": "nm" },
+          "mode_fine_peak": { "value": "58", "unit": "nm" }
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": null,
+        "peak_area_ratio": {
+           "value": "8.68",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "2090",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "48",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "43.5",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.0",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "2",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "200",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Ex11_750C_75nm",
+      "experiment_context": "Ceria powder calcined at 750°C for 4 hours, milled to 75 nm median size (20 passes), dispersed with 1 wt% polymer-based agent.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "750",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": "Gas flow 20 m³/hr during cooling"
+      },
+      "post_synthesis_treatment": {
+        "washing": null,
+        "other": "Milling (20 passes), Filtering"
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Polymer-based dispersing agent",
+            "type": "Anionic polymer dispersing agent",
+            "concentration": {
+              "value": "1",
+              "unit": "wt% based on ceria powder"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": null
+        },
+        "processing": {
+           "mixing_duration": {
+             "value": ">=2",
+             "unit": "h"
+           },
+           "milling_passes": 20,
+           "target_median_size": {
+              "value": "75",
+              "unit": "nm"
+           }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_secondary_particle_size": {
+             "value": "75",
+             "unit": "nm"
+          },
+          "measurement_method_used": "APS",
+          "mode_large_peak": { "value": "176", "unit": "nm" },
+          "mode_fine_peak": { "value": "36", "unit": "nm" }
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "surface_area": null,
+        "peak_area_ratio": {
+           "value": "15.22",
+           "unit": null
+        },
+        "stability": {
+           "viscosity_behavior": "Newtonian"
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": [
+           {
+              "material": "PE-TEOS Oxide",
+              "value": "1760",
+              "unit": "Å/min"
+           },
+           {
+              "material": "Si3N4 Nitride",
+              "value": "48",
+              "unit": "Å/min"
+           }
+        ],
+        "selectivity_oxide_nitride": {
+           "value": "36.7",
+           "unit": null
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "6EC Strasbourgh",
+        "pad_composition": "IC1000/SUBAIV Rodel",
+        "table_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "spindle_speed": {
+           "value": "70",
+           "unit": "rpm"
+        },
+        "slurry_flow_rate": {
+           "value": "100",
+           "unit": "ml/min"
+        },
+        "within_wafer_nonuniformity": {
+           "value": "1.0",
+           "unit": "%"
+        },
+        "defects": {
+           "scratches": {
+              "value": "0",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           },
+           "residual_particles": {
+              "value": "90",
+              "unit": "#",
+              "measurement_method": "Surfscan SP1"
+           }
+        }
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

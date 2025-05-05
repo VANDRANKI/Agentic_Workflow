@@ -1,0 +1,173 @@
+{
+  "doi": "US Patent 5,842,910",
+  "title": "OFF-CENTER GROOVED POLISH PAD FOR CMP",
+  "year_published": "1997",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "OffCenterGroovedPad_Example",
+      "experiment_context": "Example design of an off-center grooved hard polyurethane polishing pad (24-inch diameter) described in US Patent 5,842,910, intended for CMP.",
+      "precursor_chemical": null,
+      "precursor_concentration": {
+        "value": null,
+        "unit": null
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": null,
+        "unit": null
+      },
+      "reaction_time": {
+        "value": null,
+        "unit": null
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": {
+          "value": null,
+          "unit": null
+        },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": null,
+          "unit": null
+        },
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": null,
+          "quantity": {
+            "value": null,
+            "unit": null
+          }
+        }
+      },
+      "characterization": {
+        "pad_material": "Hard Polyurethane (e.g., IC1000 type)",
+        "pad_diameter": {
+            "value": "24",
+            "unit": "inch"
+        },
+        "pad_thickness": {
+            "value": "0.05-0.055",
+            "unit": "inch"
+        },
+        "groove_pattern": "Concentric rings, off-center",
+        "groove_off_center_distance": {
+            "value": "1.5-4 (ideal 1.5)",
+            "unit": "inch"
+        },
+        "groove_channel_width": {
+            "value": "~1/3",
+            "unit": "inch"
+        },
+        "groove_channel_depth_percent_thickness": {
+             "value": "~80",
+             "unit": "%"
+        },
+        "groove_channel_depth": {
+            "value": "~0.04",
+            "unit": "inch"
+        },
+        "groove_raised_portion_width": {
+            "value": "~3/4",
+            "unit": "inch"
+        },
+        "particle_size_distribution": {
+          "value": null,
+          "unit": null,
+          "measurement_method_used": null
+        },
+        "crystallite_size": {
+          "value": null,
+          "unit": null
+        },
+        "crystallinity_phase_composition": {
+          "value": null,
+          "unit": null
+        },
+        "surface_functional_groups": {
+          "OH": {
+            "density": {
+              "value": null,
+              "unit": null
+            }
+          },
+          "NO3": {
+            "density": {
+              "value": null,
+              "unit": null
+            },
+            "ftir_peak_present": null
+          },
+          "CH3": {
+            "density": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "elemental_composition": {
+          "C": {
+            "value": null,
+            "unit": null
+          },
+          "H": {
+            "value": null,
+            "unit": null
+          },
+          "N": {
+            "value": null,
+            "unit": null
+          }
+        },
+        "particle_morphology": null,
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": null
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": null
+        },
+        "uniformity_note": "Claimed to increase overall uniformity 4x compared to stacked pad configuration.",
+        "process_temperature": {
+          "value": null,
+          "unit": null
+        },
+        "polishing_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": null,
+        "pad_composition": "Hard Polyurethane (e.g., IC1000 type) with off-center grooves"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": {
+          "value": null,
+          "unit": null,
+          "conditions": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "doi": "US 7,682,976 B2",
+  "title": "METHODS OF FORMING A PHASE-CHANGE MATERIAL LAYER PATTERN, METHODS OF MANUFACTURING A PHASE-CHANGE MEMORY DEVICE AND RELATED SLURRY COMPOSITIONS",
+  "year_published": "2010",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Evaluation of slurry composition from Example 1 (3.5 wt% Silica, 3 wt% Citric Acid, 0.2 wt% H2O2, 0.2 wt% Benzotriazole, pH 4.0) for CMP of GST and SiO2.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "3.5",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Citric Acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Azole Compound/Inhibitor",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "Deionized Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": "wt%"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": ["GST", "SiO2"],
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rate_gst": {
+          "value": "790",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "414",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_gst_sio2": {
+           "value": "1.91",
+           "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "hPa"
+        },
+         "back_pressure": {
+          "value": "50",
+          "unit": "hPa"
+        },
+        "polishing_pad_speed": {
+            "value": "25",
+            "unit": "rpm"
+        },
+        "polishing_head_speed": {
+            "value": "20",
+            "unit": "rpm"
+        },
+         "slurry_flow_rate": {
+            "value": "100",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "EBARA polishing apparatus",
+        "pad_composition": null
+      },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Evaluation of slurry composition from Example 2 (3.5 wt% Silica, 3 wt% Citric Acid, 0.1 wt% H2O2, pH 4.0) for CMP of GST and SiO2.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "3.5",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Citric Acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "Deionized Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": "wt%"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": ["GST", "SiO2"],
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rate_gst": {
+          "value": "218",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "413",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_gst_sio2": {
+           "value": "0.5",
+           "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "hPa"
+        },
+         "back_pressure": {
+          "value": "50",
+          "unit": "hPa"
+        },
+        "polishing_pad_speed": {
+            "value": "25",
+            "unit": "rpm"
+        },
+        "polishing_head_speed": {
+            "value": "20",
+            "unit": "rpm"
+        },
+         "slurry_flow_rate": {
+            "value": "100",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "EBARA polishing apparatus",
+        "pad_composition": null
+      },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Evaluation of slurry composition from Example 3 (3.5 wt% Silica, 3 wt% Citric Acid, 0.2 wt% H2O2, pH 4.0) for CMP of GST and SiO2.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "3.5",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Citric Acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "Deionized Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": "wt%"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": ["GST", "SiO2"],
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rate_gst": {
+          "value": ">2,200",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "359",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_gst_sio2": {
+           "value": ">6.12",
+           "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "hPa"
+        },
+         "back_pressure": {
+          "value": "50",
+          "unit": "hPa"
+        },
+        "polishing_pad_speed": {
+            "value": "25",
+            "unit": "rpm"
+        },
+        "polishing_head_speed": {
+            "value": "20",
+            "unit": "rpm"
+        },
+         "slurry_flow_rate": {
+            "value": "100",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "EBARA polishing apparatus",
+        "pad_composition": null
+      },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Evaluation of slurry composition from Example 4 (1 wt% Silica, 0.5 wt% Citric Acid, 0.2 wt% H2O2, pH 4.0) for CMP of GST and SiO2.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Citric Acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "Deionized Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": "wt%"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": ["GST", "SiO2"],
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rate_gst": {
+          "value": ">2,100",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "186",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_gst_sio2": {
+           "value": ">11.3",
+           "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "hPa"
+        },
+         "back_pressure": {
+          "value": "50",
+          "unit": "hPa"
+        },
+        "polishing_pad_speed": {
+            "value": "25",
+            "unit": "rpm"
+        },
+        "polishing_head_speed": {
+            "value": "20",
+            "unit": "rpm"
+        },
+         "slurry_flow_rate": {
+            "value": "100",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "EBARA polishing apparatus",
+        "pad_composition": null
+      },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Evaluation of slurry composition from Example 5 (1 wt% Silica, 0.5 wt% Citric Acid, 0.2 wt% H2O2, 0.1 wt% Benzotriazole, pH 4.0) for CMP of GST and SiO2.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Citric Acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Azole Compound/Inhibitor",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "Deionized Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": "wt%"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": ["GST", "SiO2"],
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rate_gst": {
+          "value": "730",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "172",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_gst_sio2": {
+           "value": "4.24",
+           "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "hPa"
+        },
+         "back_pressure": {
+          "value": "50",
+          "unit": "hPa"
+        },
+        "polishing_pad_speed": {
+            "value": "25",
+            "unit": "rpm"
+        },
+        "polishing_head_speed": {
+            "value": "20",
+            "unit": "rpm"
+        },
+         "slurry_flow_rate": {
+            "value": "100",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "EBARA polishing apparatus",
+        "pad_composition": null
+      },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Evaluation of slurry composition from Example 6 (1 wt% Silica, 0.5 wt% Citric Acid, 0.2 wt% H2O2, 0.2 wt% Benzotriazole, pH 4.0) for CMP of GST and SiO2.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Citric Acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Azole Compound/Inhibitor",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "Deionized Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": "wt%"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": ["GST", "SiO2"],
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rate_gst": {
+          "value": "799",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "170",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_gst_sio2": {
+           "value": "4.7",
+           "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "hPa"
+        },
+         "back_pressure": {
+          "value": "50",
+          "unit": "hPa"
+        },
+        "polishing_pad_speed": {
+            "value": "25",
+            "unit": "rpm"
+        },
+        "polishing_head_speed": {
+            "value": "20",
+            "unit": "rpm"
+        },
+         "slurry_flow_rate": {
+            "value": "100",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "EBARA polishing apparatus",
+        "pad_composition": null
+      },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "characterization": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_7",
+      "experiment_context": "Evaluation of slurry composition from Example 7 (1 wt% Silica, 0.5 wt% Citric Acid, 0.2 wt% H2O2, 0.3 wt% Benzotriazole, pH 4.0) for CMP of GST and SiO2.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Citric Acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.5",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Azole Compound/Inhibitor",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "Deionized Water",
+          "quantity": {
+            "value": "Remainder",
+            "unit": "wt%"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": ["GST", "SiO2"],
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rate_gst": {
+          "value": "557",
+          "unit": "Å/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "185",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_gst_sio2": {
+           "value": "3.01",
+           "unit": ""
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "100",
+          "unit": "hPa"
+        },
+         "back_pressure": {
+          "value": "50",
+          "unit": "hPa"
+        },
+        "polishing_pad_speed": {
+            "value": "25",
+            "unit": "rpm"
+        },
+        "polishing_head_speed": {
+            "value": "20",
+            "unit": "rpm"
+        },
+         "slurry_flow_rate": {
+            "value": "100",
+            "unit": "mL/min"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "EBARA polishing apparatus",
+        "pad_composition": null
+      },
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "characterization": null,
+      "theoretical_analysis": null
+    }
+  ]
+}

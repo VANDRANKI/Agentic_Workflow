@@ -1,0 +1,1118 @@
+{
+  "doi": "US 2016/0086813 A1",
+  "title": "METHOD OF FABRICATING SEMICONDUCTOR DEVICE",
+  "year_published": "2016",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Exp1_Ceria",
+      "experiment_context": "Experiment No. 1: Baseline ceria slurry without specific additives mentioned in subsequent experiments.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+          "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 540,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 1539,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 646,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "0.8:2.4:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp2_Ceria_Isoleucine",
+      "experiment_context": "Experiment No. 2: Ceria slurry with Isoleucine as SiN polishing accelerator.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Isoleucine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 514,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 517,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 675,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "0.8:0.8:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp3_Ceria_Alanine",
+      "experiment_context": "Experiment No. 3: Ceria slurry with Alanine as SiN polishing accelerator.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Alanine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 638,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 1077,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 590,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "1.1:1.8:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp4_Ceria_Glycine",
+      "experiment_context": "Experiment No. 4: Ceria slurry with Glycine as SiN polishing accelerator.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 652,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 1265,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 566,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "1.2:2.2:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp5_Ceria_Glutamine",
+      "experiment_context": "Experiment No. 5: Ceria slurry with Glutamine as SiN polishing accelerator.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glutamine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 877,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 513,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 512,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "1.7:1.0:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp6_Ceria_Threonine",
+      "experiment_context": "Experiment No. 6: Ceria slurry with Threonine as SiN polishing accelerator.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Threonine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 828,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 600,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 542,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "1.5:1.1:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp7_Ceria_Serine",
+      "experiment_context": "Experiment No. 7: Ceria slurry with Serine as SiN polishing accelerator.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Serine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 727,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 723,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 673,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "1.1:1.1:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp8_Ceria_PEG",
+      "experiment_context": "Experiment No. 8: Ceria slurry with PEG as Poly-Si polishing inhibitor.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "PEG",
+            "type": "Poly-Si Polishing Inhibitor",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 466,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 1160,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 10,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "47:116:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp9_Ceria_Glycine_PEG",
+      "experiment_context": "Experiment No. 9: Ceria slurry with Glycine (SiN accelerator) and PEG (Poly-Si inhibitor).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEG",
+            "type": "Poly-Si Polishing Inhibitor",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 846,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 1531,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 12,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "71:128:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp10_Ceria_Threonine_PEG",
+      "experiment_context": "Experiment No. 10: Ceria slurry with Threonine (SiN accelerator) and PEG (Poly-Si inhibitor). Also listed as Exp 11.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Threonine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEG",
+            "type": "Poly-Si Polishing Inhibitor",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 1212,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 1373,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 14,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "87:98:1" 
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+     {
+      "sample_id": "Exp12_Ceria_Threonine_PEG_12HEP",
+      "experiment_context": "Experiment No. 12: Ceria slurry with Threonine (SiN accelerator), PEG (Poly-Si inhibitor), and 1-2-hydroxyethyl-2-pyrrolidone (SiO2 control agent).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Threonine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEG",
+            "type": "Poly-Si Polishing Inhibitor",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "1-2-hydroxyethyl-2-pyrrolidone",
+            "type": "SiO2 Polishing Control Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 627,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 592,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 9,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "70:66:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    },
+    {
+      "sample_id": "Exp13_Ceria_Threonine_PEG_4HEP",
+      "experiment_context": "Experiment No. 13: Ceria slurry with Threonine (SiN accelerator), PEG (Poly-Si inhibitor), and 4-hydroxyethyl-2-pyrrolidone (SiO2 control agent). This is the optimized composition.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 1,
+            "unit": "wt%"
+          },
+           "particle_size": {
+             "value": "3-300",
+             "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Threonine",
+            "type": "SiN Polishing Accelerator",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEG",
+            "type": "Poly-Si Polishing Inhibitor",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "4-hydroxyethyl-2-pyrrolidone",
+            "type": "SiO2 Polishing Control Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "DIW"
+        },
+        "ph_control": {
+          "target": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target": ["SiN", "SiO2", "Poly-Si"],
+        "polishing_rates": [
+          {
+            "material": "SiN",
+            "rate": {
+              "value": 862,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "SiO2",
+            "rate": {
+              "value": 600,
+              "unit": "Å/min"
+            }
+          },
+          {
+            "material": "Poly-Si",
+            "rate": {
+              "value": 13,
+              "unit": "Å/min"
+            }
+          }
+        ],
+        "selectivity": {
+          "SiN_SiO2_PolySi": "66:46:1",
+          "SiN_SiO2_Range": "1:1 to 3:1",
+          "SiN_PolySi_Range": "50:1 to 300:1",
+          "SiO2_PolySi_Range": "30:1 to 200:1"
+        },
+        "process_conditions": {
+          "pressure": {
+            "value": 216,
+            "unit": "hPa"
+          },
+          "retaining_ring_pressure": {
+            "value": 255,
+            "unit": "hPa"
+          },
+          "platen_speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": 101,
+            "unit": "rpm"
+          },
+          "slurry_flow_rate": {
+            "value": 200,
+            "unit": "ml/min"
+          }
+        },
+        "equipment_model": "8-inch EBARA",
+        "pad_composition": "IC1000 stacked pads (Rodel Inc.)"
+      }
+    }
+  ]
+}

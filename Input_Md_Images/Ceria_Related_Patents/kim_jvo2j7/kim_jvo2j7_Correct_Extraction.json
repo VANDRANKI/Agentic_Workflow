@@ -1,0 +1,1093 @@
+{
+  "patent_number": "US 10,829,690 B2",
+  "patent_title": "SLURRY COMPOSITION FOR CHEMICAL MECHANICAL POLISHING, METHOD OF PREPARING THE SAME, AND METHOD OF FABRICATING SEMICONDUCTOR DEVICE BY USING THE SAME",
+  "filing_date": "2019-07-03",
+  "priority_date": "2018-08-30",
+  "inventors": [
+    "Bo-yun Kim",
+    "Kenji Takai",
+    "Do-yoon Kim",
+    "Sang-kyun Kim",
+    "Bo-un Yoon"
+  ],
+  "assignee": "Samsung Electronics Co., Ltd.",
+  "samples": [
+    {
+      "sample_id": "Example 1",
+      "experiment_context": "CMP slurry using C60(OH)Ad-TBAH complex compound as abrasive at 0.006 wt%. Polishing performed on MIT854 pattern (Ta/TaN barrier, Cu lines) using MA-200e polisher, IC1010 pad, 90 rpm, 24 kPa.",
+      "abrasive_synthesis": {
+        "description": "Fullerenol complex prepared by reacting C60 fullerene (1.00g in 500ml toluene) with 30% H2O2 (50ml) and 40% TBAH aqueous solution at 70°C for 16 hours. Toluene phase removed. Unreacted H2O2 decomposed using MnO2 (10g) for 10 hours, followed by filtration.",
+        "precursors": [
+          {
+            "material_name": "C60 Fullerene",
+            "formula": "C60",
+            "source_type": "Frontier Carbon Co., Ltd.",
+            "purity": "96% or more",
+            "quantity": {
+              "value": "1.00",
+              "unit": "g"
+            }
+          },
+          {
+            "material_name": "Toluene",
+            "formula": "C7H8",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "500",
+              "unit": "ml"
+            }
+          },
+          {
+            "material_name": "Hydrogen Peroxide Solution",
+            "formula": "H2O2",
+            "source_type": null,
+            "purity": "30%",
+            "quantity": {
+              "value": "50",
+              "unit": "ml"
+            }
+          },
+          {
+            "material_name": "Tetra-n-butylammonium hydroxide Solution",
+            "formula": "(C4H9)4NOH",
+            "source_type": null,
+            "purity": "40%",
+            "quantity": {
+              "value": null, 
+              "unit": null 
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "Toluene",
+                "quantity": {
+                  "value": "500",
+                  "unit": "ml"
+                }
+              },
+              {
+                "name": "Water (Aqueous dispersant)",
+                "quantity": {
+                  "value": null, 
+                  "unit": null 
+                }
+              }
+            ],
+            "phase_transfer_catalyst": "Tetra-n-butylammonium hydroxide (TBAH)"
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Reaction/Stirring",
+                "temperature": {
+                  "value": "70",
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": "16",
+                  "unit": "hours"
+                }
+              },
+              {
+                "stage": 2,
+                "process_name": "Phase Separation & Toluene Removal",
+                "duration": null
+              },
+              {
+                "stage": 3,
+                "process_name": "H2O2 Decomposition",
+                "catalyst": "Manganese Dioxide (MnO2)",
+                "catalyst_quantity": {
+                  "value": "10",
+                  "unit": "g"
+                },
+                "duration": {
+                  "value": "10",
+                  "unit": "hours"
+                }
+              },
+              {
+                "stage": 4,
+                "process_name": "Filtration",
+                "description": "Removal of MnO2 particles"
+              }
+            ]
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "C60(OH)Ad-TBAH complex compound",
+            "concentration": {
+              "value": "0.006",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glycine",
+              "type": "Polishing Accelerator/Additive",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizer/Additive",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Corrosion Inhibitor/Additive",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Bicine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Aqueous Dispersant (e.g., DI water)",
+            "percentage": null
+          }
+        },
+        "ph_control": null 
+      },
+      "characterization": null, 
+      "cmp_performance": {
+        "substrate_pattern": "MIT854 (Ta/TaN barrier, Cu lines in TE/OS dielectric, 100µm line/100µm space for dishing)",
+        "equipment_model": "MA-200e polisher (Musashino Denshi Co., Ltd.)",
+        "pad_composition": "IC1010 (Dow Chemical Co., Ltd.)",
+        "polishing_pressure": {
+          "value": "24",
+          "unit": "kPa"
+        },
+        "rotational_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "130",
+            "unit": "nm/min"
+          }
+        ],
+        "dishing": {
+          "material": "Cu",
+          "value": "23.5",
+          "unit": "nm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example 2",
+      "experiment_context": "CMP slurry using C60(OH)Ad-TBAH complex compound as abrasive at 0.02 wt%. Polishing performed on MIT854 pattern (Ta/TaN barrier, Cu lines) using MA-200e polisher, IC1010 pad, 90 rpm, 24 kPa.",
+      "abrasive_synthesis": {
+        "description": "Fullerenol complex prepared by reacting C60 fullerene (1.00g in 500ml toluene) with 30% H2O2 (50ml) and 40% TBAH aqueous solution at 70°C for 16 hours. Toluene phase removed. Unreacted H2O2 decomposed using MnO2 (10g) for 10 hours, followed by filtration.",
+        "precursors": [
+          {
+            "material_name": "C60 Fullerene",
+            "formula": "C60",
+            "source_type": "Frontier Carbon Co., Ltd.",
+            "purity": "96% or more",
+            "quantity": {
+              "value": "1.00",
+              "unit": "g"
+            }
+          },
+          {
+            "material_name": "Toluene",
+            "formula": "C7H8",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "500",
+              "unit": "ml"
+            }
+          },
+          {
+            "material_name": "Hydrogen Peroxide Solution",
+            "formula": "H2O2",
+            "source_type": null,
+            "purity": "30%",
+            "quantity": {
+              "value": "50",
+              "unit": "ml"
+            }
+          },
+          {
+            "material_name": "Tetra-n-butylammonium hydroxide Solution",
+            "formula": "(C4H9)4NOH",
+            "source_type": null,
+            "purity": "40%",
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "Toluene",
+                "quantity": {
+                  "value": "500",
+                  "unit": "ml"
+                }
+              },
+              {
+                "name": "Water (Aqueous dispersant)",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "phase_transfer_catalyst": "Tetra-n-butylammonium hydroxide (TBAH)"
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Reaction/Stirring",
+                "temperature": {
+                  "value": "70",
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": "16",
+                  "unit": "hours"
+                }
+              },
+              {
+                "stage": 2,
+                "process_name": "Phase Separation & Toluene Removal",
+                "duration": null
+              },
+              {
+                "stage": 3,
+                "process_name": "H2O2 Decomposition",
+                "catalyst": "Manganese Dioxide (MnO2)",
+                "catalyst_quantity": {
+                  "value": "10",
+                  "unit": "g"
+                },
+                "duration": {
+                  "value": "10",
+                  "unit": "hours"
+                }
+              },
+              {
+                "stage": 4,
+                "process_name": "Filtration",
+                "description": "Removal of MnO2 particles"
+              }
+            ]
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "C60(OH)Ad-TBAH complex compound",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glycine",
+              "type": "Polishing Accelerator/Additive",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizer/Additive",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Corrosion Inhibitor/Additive",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Bicine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Aqueous Dispersant (e.g., DI water)",
+            "percentage": null
+          }
+        },
+        "ph_control": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "substrate_pattern": "MIT854 (Ta/TaN barrier, Cu lines in TE/OS dielectric, 100µm line/100µm space for dishing)",
+        "equipment_model": "MA-200e polisher (Musashino Denshi Co., Ltd.)",
+        "pad_composition": "IC1010 (Dow Chemical Co., Ltd.)",
+        "polishing_pressure": {
+          "value": "24",
+          "unit": "kPa"
+        },
+        "rotational_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "138",
+            "unit": "nm/min"
+          }
+        ],
+        "dishing": {
+          "material": "Cu",
+          "value": "23.6",
+          "unit": "nm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example 3",
+      "experiment_context": "CMP slurry using C60(OH)Ad-TBAH complex compound as abrasive at 0.1 wt%. Polishing performed on MIT854 pattern (Ta/TaN barrier, Cu lines) using MA-200e polisher, IC1010 pad, 90 rpm, 24 kPa.",
+      "abrasive_synthesis": {
+        "description": "Fullerenol complex prepared by reacting C60 fullerene (1.00g in 500ml toluene) with 30% H2O2 (50ml) and 40% TBAH aqueous solution at 70°C for 16 hours. Toluene phase removed. Unreacted H2O2 decomposed using MnO2 (10g) for 10 hours, followed by filtration.",
+        "precursors": [
+          {
+            "material_name": "C60 Fullerene",
+            "formula": "C60",
+            "source_type": "Frontier Carbon Co., Ltd.",
+            "purity": "96% or more",
+            "quantity": {
+              "value": "1.00",
+              "unit": "g"
+            }
+          },
+          {
+            "material_name": "Toluene",
+            "formula": "C7H8",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": "500",
+              "unit": "ml"
+            }
+          },
+          {
+            "material_name": "Hydrogen Peroxide Solution",
+            "formula": "H2O2",
+            "source_type": null,
+            "purity": "30%",
+            "quantity": {
+              "value": "50",
+              "unit": "ml"
+            }
+          },
+          {
+            "material_name": "Tetra-n-butylammonium hydroxide Solution",
+            "formula": "(C4H9)4NOH",
+            "source_type": null,
+            "purity": "40%",
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "Toluene",
+                "quantity": {
+                  "value": "500",
+                  "unit": "ml"
+                }
+              },
+              {
+                "name": "Water (Aqueous dispersant)",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "phase_transfer_catalyst": "Tetra-n-butylammonium hydroxide (TBAH)"
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Reaction/Stirring",
+                "temperature": {
+                  "value": "70",
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": "16",
+                  "unit": "hours"
+                }
+              },
+              {
+                "stage": 2,
+                "process_name": "Phase Separation & Toluene Removal",
+                "duration": null
+              },
+              {
+                "stage": 3,
+                "process_name": "H2O2 Decomposition",
+                "catalyst": "Manganese Dioxide (MnO2)",
+                "catalyst_quantity": {
+                  "value": "10",
+                  "unit": "g"
+                },
+                "duration": {
+                  "value": "10",
+                  "unit": "hours"
+                }
+              },
+              {
+                "stage": 4,
+                "process_name": "Filtration",
+                "description": "Removal of MnO2 particles"
+              }
+            ]
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "C60(OH)Ad-TBAH complex compound",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glycine",
+              "type": "Polishing Accelerator/Additive",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizer/Additive",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Corrosion Inhibitor/Additive",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Bicine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Aqueous Dispersant (e.g., DI water)",
+            "percentage": null
+          }
+        },
+        "ph_control": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "substrate_pattern": "MIT854 (Ta/TaN barrier, Cu lines in TE/OS dielectric, 100µm line/100µm space for dishing)",
+        "equipment_model": "MA-200e polisher (Musashino Denshi Co., Ltd.)",
+        "pad_composition": "IC1010 (Dow Chemical Co., Ltd.)",
+        "polishing_pressure": {
+          "value": "24",
+          "unit": "kPa"
+        },
+        "rotational_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "160",
+            "unit": "nm/min"
+          }
+        ],
+        "dishing": {
+          "material": "Cu",
+          "value": "22",
+          "unit": "nm"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 1",
+      "experiment_context": "CMP slurry using C60(OH)Ad (Fullerenol) as abrasive at 0.006 wt%. Polishing performed on MIT854 pattern (Ta/TaN barrier, Cu lines) using MA-200e polisher, IC1010 pad, 90 rpm, 24 kPa.",
+      "abrasive_synthesis": {
+        "description": "Fullerenol abrasive used for comparison. Specific synthesis method not detailed for this comparative example, assumed to be standard fullerenol or intermediate from complex synthesis.",
+        "precursors": null,
+        "synthesis_parameters": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "C60(OH)Ad (Fullerenol)",
+            "concentration": {
+              "value": "0.006",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glycine",
+              "type": "Polishing Accelerator/Additive",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizer/Additive",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Corrosion Inhibitor/Additive",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Bicine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Aqueous Dispersant (e.g., DI water)",
+            "percentage": null
+          }
+        },
+        "ph_control": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "substrate_pattern": "MIT854 (Ta/TaN barrier, Cu lines in TE/OS dielectric, 100µm line/100µm space for dishing)",
+        "equipment_model": "MA-200e polisher (Musashino Denshi Co., Ltd.)",
+        "pad_composition": "IC1010 (Dow Chemical Co., Ltd.)",
+        "polishing_pressure": {
+          "value": "24",
+          "unit": "kPa"
+        },
+        "rotational_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "129",
+            "unit": "nm/min"
+          }
+        ],
+        "dishing": {
+          "material": "Cu",
+          "value": "35.7",
+          "unit": "nm"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 2",
+      "experiment_context": "CMP slurry using C60(OH)Ad (Fullerenol) as abrasive at 0.02 wt%. Polishing performed on MIT854 pattern (Ta/TaN barrier, Cu lines) using MA-200e polisher, IC1010 pad, 90 rpm, 24 kPa.",
+      "abrasive_synthesis": {
+        "description": "Fullerenol abrasive used for comparison. Specific synthesis method not detailed for this comparative example, assumed to be standard fullerenol or intermediate from complex synthesis.",
+        "precursors": null,
+        "synthesis_parameters": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "C60(OH)Ad (Fullerenol)",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glycine",
+              "type": "Polishing Accelerator/Additive",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizer/Additive",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Corrosion Inhibitor/Additive",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Bicine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Aqueous Dispersant (e.g., DI water)",
+            "percentage": null
+          }
+        },
+        "ph_control": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "substrate_pattern": "MIT854 (Ta/TaN barrier, Cu lines in TE/OS dielectric, 100µm line/100µm space for dishing)",
+        "equipment_model": "MA-200e polisher (Musashino Denshi Co., Ltd.)",
+        "pad_composition": "IC1010 (Dow Chemical Co., Ltd.)",
+        "polishing_pressure": {
+          "value": "24",
+          "unit": "kPa"
+        },
+        "rotational_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "131",
+            "unit": "nm/min"
+          }
+        ],
+        "dishing": {
+          "material": "Cu",
+          "value": "35.6",
+          "unit": "nm"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 3",
+      "experiment_context": "CMP slurry using C60(OH)Ad (Fullerenol) as abrasive at 0.1 wt%. Polishing performed on MIT854 pattern (Ta/TaN barrier, Cu lines) using MA-200e polisher, IC1010 pad, 90 rpm, 24 kPa.",
+      "abrasive_synthesis": {
+        "description": "Fullerenol abrasive used for comparison. Specific synthesis method not detailed for this comparative example, assumed to be standard fullerenol or intermediate from complex synthesis.",
+        "precursors": null,
+        "synthesis_parameters": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "C60(OH)Ad (Fullerenol)",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glycine",
+              "type": "Polishing Accelerator/Additive",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizer/Additive",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Corrosion Inhibitor/Additive",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Bicine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Aqueous Dispersant (e.g., DI water)",
+            "percentage": null
+          }
+        },
+        "ph_control": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "substrate_pattern": "MIT854 (Ta/TaN barrier, Cu lines in TE/OS dielectric, 100µm line/100µm space for dishing)",
+        "equipment_model": "MA-200e polisher (Musashino Denshi Co., Ltd.)",
+        "pad_composition": "IC1010 (Dow Chemical Co., Ltd.)",
+        "polishing_pressure": {
+          "value": "24",
+          "unit": "kPa"
+        },
+        "rotational_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "145",
+            "unit": "nm/min"
+          }
+        ],
+        "dishing": {
+          "material": "Cu",
+          "value": "34.5",
+          "unit": "nm"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 4",
+      "experiment_context": "CMP slurry using 30 nm Colloidal silica as abrasive at 0.006 wt%. Polishing performed on MIT854 pattern (Ta/TaN barrier, Cu lines) using MA-200e polisher, IC1010 pad, 90 rpm, 24 kPa.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica abrasive used for comparison (assumed commercial).",
+        "precursors": null,
+        "synthesis_parameters": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+            "particle_size": {
+               "value": "30",
+               "unit": "nm"
+            },
+            "concentration": {
+              "value": "0.006",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glycine",
+              "type": "Polishing Accelerator/Additive",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizer/Additive",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Corrosion Inhibitor/Additive",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Bicine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Aqueous Dispersant (e.g., DI water)",
+            "percentage": null
+          }
+        },
+        "ph_control": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "substrate_pattern": "MIT854 (Ta/TaN barrier, Cu lines in TE/OS dielectric, 100µm line/100µm space for dishing)",
+        "equipment_model": "MA-200e polisher (Musashino Denshi Co., Ltd.)",
+        "pad_composition": "IC1010 (Dow Chemical Co., Ltd.)",
+        "polishing_pressure": {
+          "value": "24",
+          "unit": "kPa"
+        },
+        "rotational_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "89",
+            "unit": "nm/min"
+          }
+        ],
+        "dishing": {
+          "material": "Cu",
+          "value": "88.3",
+          "unit": "nm"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 5",
+      "experiment_context": "CMP slurry using 30 nm Colloidal silica as abrasive at 0.02 wt%. Polishing performed on MIT854 pattern (Ta/TaN barrier, Cu lines) using MA-200e polisher, IC1010 pad, 90 rpm, 24 kPa.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica abrasive used for comparison (assumed commercial).",
+        "precursors": null,
+        "synthesis_parameters": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+             "particle_size": {
+               "value": "30",
+               "unit": "nm"
+            },
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glycine",
+              "type": "Polishing Accelerator/Additive",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizer/Additive",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Corrosion Inhibitor/Additive",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Bicine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Aqueous Dispersant (e.g., DI water)",
+            "percentage": null
+          }
+        },
+        "ph_control": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "substrate_pattern": "MIT854 (Ta/TaN barrier, Cu lines in TE/OS dielectric, 100µm line/100µm space for dishing)",
+        "equipment_model": "MA-200e polisher (Musashino Denshi Co., Ltd.)",
+        "pad_composition": "IC1010 (Dow Chemical Co., Ltd.)",
+        "polishing_pressure": {
+          "value": "24",
+          "unit": "kPa"
+        },
+        "rotational_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "95",
+            "unit": "nm/min"
+          }
+        ],
+        "dishing": {
+          "material": "Cu",
+          "value": "85.6",
+          "unit": "nm"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 6",
+      "experiment_context": "CMP slurry using 30 nm Colloidal silica as abrasive at 0.1 wt%. Polishing performed on MIT854 pattern (Ta/TaN barrier, Cu lines) using MA-200e polisher, IC1010 pad, 90 rpm, 24 kPa.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica abrasive used for comparison (assumed commercial).",
+        "precursors": null,
+        "synthesis_parameters": null
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal silica",
+             "particle_size": {
+               "value": "30",
+               "unit": "nm"
+            },
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glycine",
+              "type": "Polishing Accelerator/Additive",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "type": "Oxidizer/Additive",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Benzotriazole",
+              "type": "Corrosion Inhibitor/Additive",
+              "concentration": {
+                "value": "0.02",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Bicine",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.2",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Aqueous Dispersant (e.g., DI water)",
+            "percentage": null
+          }
+        },
+        "ph_control": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "substrate_pattern": "MIT854 (Ta/TaN barrier, Cu lines in TE/OS dielectric, 100µm line/100µm space for dishing)",
+        "equipment_model": "MA-200e polisher (Musashino Denshi Co., Ltd.)",
+        "pad_composition": "IC1010 (Dow Chemical Co., Ltd.)",
+        "polishing_pressure": {
+          "value": "24",
+          "unit": "kPa"
+        },
+        "rotational_speed": {
+          "value": "90",
+          "unit": "rpm"
+        },
+        "material_removal_rate": [
+          {
+            "material": "Cu",
+            "value": "120",
+            "unit": "nm/min"
+          }
+        ],
+        "dishing": {
+          "material": "Cu",
+          "value": "85.3",
+          "unit": "nm"
+        }
+      }
+    }
+  ]
+}
