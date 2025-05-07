@@ -1,0 +1,569 @@
+{
+  "doi": "",
+  "publication_number": "US 2023/0108531 A1",
+  "title": "CMP SLURRY COMPOSITION FOR PATTERNED TUNGSTEN WAFER AND METHOD OF POLISHING PATTERNED TUNGSTEN WAFER USING THE SAME",
+  "year_published": "2023",
+  "journal": "United States Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "CMP slurry with 0.5 wt% silica abrasive, 0.004 wt% Helux 3316 non-dendrimeric poly(amidoamine), iron nitrate catalyst, organic acids, and H2O2 oxidant at pH 2.5.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "type": "Colloidal Silica",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "average": {
+              "value": "95",
+              "unit": "nm"
+            },
+            "description": "Average particle diameter (D9/s?)" 
+          },
+          "charge": {
+            "value": "35",
+            "unit": "mV"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "Non-dendrimeric poly(amidoamine)",
+            "type": "Corrosion Inhibitor / Additive",
+            "details": "Helux 3316",
+            "molecular_weight": {
+              "value": "5100",
+              "unit": "g/mol"
+            },
+            "concentration": {
+              "value": "0.004",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Iron nitrate nonahydrate",
+            "type": "Catalyst",
+            "concentration": {
+              "value": "0.03",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Malonic acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.04",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.04",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "5",
+              "unit": "wt%"
+            },
+            "addition_notes": "Added before evaluation"
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water",
+          "percentage": {
+            "value": "Balance",
+            "unit": ""
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "2.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "pH regulator",
+              "details": "Unspecified acid/base used for adjustment"
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_target_rate": "Blanket wafer (W/TiN/poly-Si)",
+        "polishing_target_recess": "Patterned tungsten wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked (Rodel Inc.)",
+        "polishing_conditions": {
+          "head_speed": {
+            "value": "101",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "100",
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": "2.5",
+            "unit": "psi"
+          },
+          "retainer_ring_pressure": {
+            "value": "8",
+            "unit": "psi"
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "45",
+            "unit": "seconds"
+          }
+        },
+        "material_removal_rate": {
+          "material": "Tungsten (blanket)",
+          "value": "4323",
+          "unit": "Å/min"
+        },
+        "corrosion_rate": {
+          "material": "Tungsten (blanket)",
+          "value": "35",
+          "unit": "Å/min",
+          "conditions": "50°C etching"
+        },
+        "recess_level": {
+          "value": "10.2",
+          "unit": "nm",
+          "measurement_details": "0.18 µm x 0.18 µm area, AFM (Uvx-Gen3, Bruker)"
+        }
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "CMP slurry with 0.5 wt% silica abrasive, 0.006 wt% Helux 3316 non-dendrimeric poly(amidoamine), iron nitrate catalyst, organic acids, and H2O2 oxidant at pH 2.5.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "type": "Colloidal Silica",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "average": {
+              "value": "95",
+              "unit": "nm"
+            },
+            "description": "Average particle diameter (D9/s?)"
+          },
+          "charge": {
+            "value": "35",
+            "unit": "mV"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "Non-dendrimeric poly(amidoamine)",
+            "type": "Corrosion Inhibitor / Additive",
+            "details": "Helux 3316",
+            "molecular_weight": {
+              "value": "5100",
+              "unit": "g/mol"
+            },
+            "concentration": {
+              "value": "0.006",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Iron nitrate nonahydrate",
+            "type": "Catalyst",
+            "concentration": {
+              "value": "0.03",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Malonic acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.04",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.04",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "5",
+              "unit": "wt%"
+            },
+            "addition_notes": "Added before evaluation"
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water",
+          "percentage": {
+            "value": "Balance",
+            "unit": ""
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "2.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "pH regulator",
+              "details": "Unspecified acid/base used for adjustment"
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_target_rate": "Blanket wafer (W/TiN/poly-Si)",
+        "polishing_target_recess": "Patterned tungsten wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked (Rodel Inc.)",
+        "polishing_conditions": {
+          "head_speed": {
+            "value": "101",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "100",
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": "2.5",
+            "unit": "psi"
+          },
+          "retainer_ring_pressure": {
+            "value": "8",
+            "unit": "psi"
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "45",
+            "unit": "seconds"
+          }
+        },
+        "material_removal_rate": {
+          "material": "Tungsten (blanket)",
+          "value": "3872",
+          "unit": "Å/min"
+        },
+        "corrosion_rate": {
+          "material": "Tungsten (blanket)",
+          "value": "63",
+          "unit": "Å/min",
+          "conditions": "50°C etching"
+        },
+        "recess_level": {
+          "value": "8.6",
+          "unit": "nm",
+          "measurement_details": "0.18 µm x 0.18 µm area, AFM (Uvx-Gen3, Bruker)"
+        }
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "CMP slurry with 0.5 wt% silica abrasive, 0.008 wt% Helux 3316 non-dendrimeric poly(amidoamine), iron nitrate catalyst, organic acids, and H2O2 oxidant at pH 2.5.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "type": "Colloidal Silica",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "average": {
+              "value": "95",
+              "unit": "nm"
+            },
+            "description": "Average particle diameter (D9/s?)"
+          },
+          "charge": {
+            "value": "35",
+            "unit": "mV"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "Non-dendrimeric poly(amidoamine)",
+            "type": "Corrosion Inhibitor / Additive",
+            "details": "Helux 3316",
+            "molecular_weight": {
+              "value": "5100",
+              "unit": "g/mol"
+            },
+            "concentration": {
+              "value": "0.008",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Iron nitrate nonahydrate",
+            "type": "Catalyst",
+            "concentration": {
+              "value": "0.03",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Malonic acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.04",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.04",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "5",
+              "unit": "wt%"
+            },
+            "addition_notes": "Added before evaluation"
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water",
+          "percentage": {
+            "value": "Balance",
+            "unit": ""
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "2.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "pH regulator",
+              "details": "Unspecified acid/base used for adjustment"
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_target_rate": "Blanket wafer (W/TiN/poly-Si)",
+        "polishing_target_recess": "Patterned tungsten wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked (Rodel Inc.)",
+        "polishing_conditions": {
+          "head_speed": {
+            "value": "101",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "100",
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": "2.5",
+            "unit": "psi"
+          },
+          "retainer_ring_pressure": {
+            "value": "8",
+            "unit": "psi"
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "45",
+            "unit": "seconds"
+          }
+        },
+        "material_removal_rate": {
+          "material": "Tungsten (blanket)",
+          "value": "3217",
+          "unit": "Å/min"
+        },
+        "corrosion_rate": {
+          "material": "Tungsten (blanket)",
+          "value": "29",
+          "unit": "Å/min",
+          "conditions": "50°C etching"
+        },
+        "recess_level": {
+          "value": "8.3",
+          "unit": "nm",
+          "measurement_details": "0.18 µm x 0.18 µm area, AFM (Uvx-Gen3, Bruker)"
+        }
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "CMP slurry with 0.5 wt% silica abrasive, 0.004 wt% synthesized non-dendrimeric poly(amidoamine) (diethyl maleate + hexamethylenediamine, MW 8500), iron nitrate catalyst, organic acids, and H2O2 oxidant at pH 2.5.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Silica",
+          "type": "Colloidal Silica",
+          "concentration": {
+            "value": "0.5",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "average": {
+              "value": "95",
+              "unit": "nm"
+            },
+            "description": "Average particle diameter (D9/s?)"
+          },
+          "charge": {
+            "value": "35",
+            "unit": "mV"
+          }
+        },
+        "slurry_additives": [
+          {
+            "name": "Non-dendrimeric poly(amidoamine)",
+            "type": "Corrosion Inhibitor / Additive",
+            "details": "Synthesized (diethyl maleate + hexamethylenediamine)",
+            "molecular_weight": {
+              "value": "8500",
+              "unit": "g/mol"
+            },
+            "concentration": {
+              "value": "0.004",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Iron nitrate nonahydrate",
+            "type": "Catalyst",
+            "concentration": {
+              "value": "0.03",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Malonic acid",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.04",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Organic Acid",
+            "concentration": {
+              "value": "0.04",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidant",
+            "concentration": {
+              "value": "5",
+              "unit": "wt%"
+            },
+            "addition_notes": "Added before evaluation"
+          }
+        ],
+        "solvent": {
+          "name": "Deionized water",
+          "percentage": {
+            "value": "Balance",
+            "unit": ""
+          }
+        },
+        "ph_control": {
+          "target": {
+            "value": "2.5",
+            "unit": ""
+          },
+          "agents": [
+            {
+              "name": "pH regulator",
+              "details": "Unspecified acid/base used for adjustment"
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_target_rate": "Blanket wafer (W/TiN/poly-Si)",
+        "polishing_target_recess": "Patterned tungsten wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked (Rodel Inc.)",
+        "polishing_conditions": {
+          "head_speed": {
+            "value": "101",
+            "unit": "rpm"
+          },
+          "platen_speed": {
+            "value": "100",
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": "2.5",
+            "unit": "psi"
+          },
+          "retainer_ring_pressure": {
+            "value": "8",
+            "unit": "psi"
+          },
+          "slurry_flow_rate": {
+            "value": "250",
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": "45",
+            "unit": "seconds"
+          }
+        },
+        "material_removal_rate": {
+          "material": "Tungsten (blanket)",
+          "value": "3022",
+          "unit": "Å/min"
+        },
+        "corrosion_rate": {
+          "material": "Tungsten (blanket)",
+          "value": "61",
+          "unit": "Å/min",
+          "conditions": "50°C etching"
+        },
+        "recess_level": {
+          "value": "11.7",
+          "unit": "nm",
+          "measurement_details": "0.18 µm x 0.18 µm area, AFM (Uvx-Gen3, Bruker)"
+        }
+      }
+    }
+  ]
+}

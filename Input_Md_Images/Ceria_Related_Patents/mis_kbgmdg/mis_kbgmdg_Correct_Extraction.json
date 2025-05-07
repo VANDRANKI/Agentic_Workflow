@@ -1,0 +1,746 @@
+{
+  "doi": "WO 2024/145645 A2",
+  "title": "CHEMICAL PLANARIZATION",
+  "year_published": "2024",
+  "journal": null,
+  "samples": [
+    {
+      "sample_id": "PolySi_Suba400_Flow120_PDADMAC_pH10",
+      "experiment_context": "Polishing of Poly-Si film (2\" diameter wafer) using an abrasive-free slurry of 250 ppm PDADMAC solution at pH 10. Pad: Suba400. Slurry flow: 120 mL/min (continuous). Polisher: Allied METPREP-4 bench top polisher. Pressure: 4 psi. Carrier/Platen speed: 72/80 rpm. Polishing time: 60s. RR: 668 ± 12 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {
+            "name": "PDADMAC",
+            "type": "Polymer",
+            "concentration": {"value": "250", "unit": "ppm"}
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "668", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "4", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Allied METPREP-4 bench top polisher",
+        "pad_composition": "Suba400"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PolySi_Suba400_Flow60_PDADMAC_pH10",
+      "experiment_context": "Polishing of Poly-Si film (2\" diameter wafer) using an abrasive-free slurry of 250 ppm PDADMAC solution at pH 10. Pad: Suba400. Slurry flow: 60 mL/min (continuous). Polisher: Allied METPREP-4 bench top polisher. Pressure: 4 psi. Carrier/Platen speed: 72/80 rpm. Polishing time: 60s. RR: 681 ± 7 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {
+            "name": "PDADMAC",
+            "type": "Polymer",
+            "concentration": {"value": "250", "unit": "ppm"}
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "681", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "4", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Allied METPREP-4 bench top polisher",
+        "pad_composition": "Suba400"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PolySi_Suba400_Soaked_PDADMAC_pH10",
+      "experiment_context": "Polishing of Poly-Si film (2\" diameter wafer) using a Suba400 pad soaked with an abrasive-free slurry of 250 ppm PDADMAC solution at pH 10. Slurry flow: 0 mL/min (soaked pad). Polisher: Allied METPREP-4 bench top polisher. Pressure: 4 psi. Carrier/Platen speed: 72/80 rpm. Polishing time: 60s. RR: 639 ± 19 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {
+            "name": "PDADMAC",
+            "type": "Polymer",
+            "concentration": {"value": "250", "unit": "ppm"}
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "639", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "4", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Allied METPREP-4 bench top polisher",
+        "pad_composition": "Suba400"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PolySi_IC1000_Flow120_PDADMAC_pH10",
+      "experiment_context": "Polishing of Poly-Si film (2\" diameter wafer) using an abrasive-free slurry of 250 ppm PDADMAC solution at pH 10. Pad: IC1000. Slurry flow: 120 mL/min (continuous). Polisher: Allied METPREP-4 bench top polisher. Pressure: 4 psi. Carrier/Platen speed: 72/80 rpm. Polishing time: 60s. RR: 658 ± 15 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {
+            "name": "PDADMAC",
+            "type": "Polymer",
+            "concentration": {"value": "250", "unit": "ppm"}
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "658", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "4", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Allied METPREP-4 bench top polisher",
+        "pad_composition": "IC1000"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PolySi_IC1000_Flow60_PDADMAC_pH10",
+      "experiment_context": "Polishing of Poly-Si film (2\" diameter wafer) using an abrasive-free slurry of 250 ppm PDADMAC solution at pH 10. Pad: IC1000. Slurry flow: 60 mL/min (continuous). Polisher: Allied METPREP-4 bench top polisher. Pressure: 4 psi. Carrier/Platen speed: 72/80 rpm. Polishing time: 60s. RR: 680 ± 15 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {
+            "name": "PDADMAC",
+            "type": "Polymer",
+            "concentration": {"value": "250", "unit": "ppm"}
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "680", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "4", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Allied METPREP-4 bench top polisher",
+        "pad_composition": "IC1000"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PolySi_FujiboPolypas_Flow120_PDADMAC_pH10",
+      "experiment_context": "Polishing of Poly-Si film (2\" diameter wafer) using an abrasive-free slurry of 250 ppm PDADMAC solution at pH 10. Pad: Fujibo-Polypas. Slurry flow: 120 mL/min (continuous). Polisher: Allied METPREP-4 bench top polisher. Pressure: 4 psi. Carrier/Platen speed: 72/80 rpm. Polishing time: 60s. RR: <1 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {
+            "name": "PDADMAC",
+            "type": "Polymer",
+            "concentration": {"value": "250", "unit": "ppm"}
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "<1", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "4", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Allied METPREP-4 bench top polisher",
+        "pad_composition": "Fujibo-Polypas"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PolySi_FujiboPolypas_Flow60_PDADMAC_pH10",
+      "experiment_context": "Polishing of Poly-Si film (2\" diameter wafer) using an abrasive-free slurry of 250 ppm PDADMAC solution at pH 10. Pad: Fujibo-Polypas. Slurry flow: 60 mL/min (continuous). Polisher: Allied METPREP-4 bench top polisher. Pressure: 4 psi. Carrier/Platen speed: 72/80 rpm. Polishing time: 60s. RR: <1 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {
+            "name": "PDADMAC",
+            "type": "Polymer",
+            "concentration": {"value": "250", "unit": "ppm"}
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "<1", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "4", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Allied METPREP-4 bench top polisher",
+        "pad_composition": "Fujibo-Polypas"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Cu_FujiboPolypas_GC_Flow120_pH9",
+      "experiment_context": "Polishing of Cu film (2x2 cm^2 wafer) using an abrasive-free slurry of 1 wt% H2O2 + 50 mM Guanidine carbonate at pH 9. Pad: Fujibo-Polypas. Slurry flow: 120 mL/min (continuous). Polisher: CETR CP-4 bench top polisher. Pressure: 3 psi. Carrier/Platen speed: 87/93 rpm. Polishing time: 60s. RR: 91 ± 4 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Guanidine carbonate", "type": "Complexing agent/pH modifier", "concentration": {"value": "50", "unit": "mM"}}
+        ],
+        "target_final_slurry_ph": "9",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "91", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CETR CP-4 bench top polisher",
+        "pad_composition": "Fujibo-Polypas"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Cu_FujiboPolypas_GC_Soaked_pH9",
+      "experiment_context": "Polishing of Cu film (2x2 cm^2 wafer) using a Fujibo-Polypas pad soaked with an abrasive-free slurry of 1 wt% H2O2 + 50 mM Guanidine carbonate at pH 9. Slurry flow: 0 mL/min (soaked). Polisher: CETR CP-4 bench top polisher. Pressure: 3 psi. Carrier/Platen speed: 87/93 rpm. Polishing time: 60s. RR: 60 ± 6 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Guanidine carbonate", "type": "Complexing agent/pH modifier", "concentration": {"value": "50", "unit": "mM"}}
+        ],
+        "target_final_slurry_ph": "9",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "60", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CETR CP-4 bench top polisher",
+        "pad_composition": "Fujibo-Polypas"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Cu_Politex_GC_Soaked_pH9",
+      "experiment_context": "Polishing of Cu film (2x2 cm^2 wafer) using a Politex pad soaked with an abrasive-free slurry of 1 wt% H2O2 + 50 mM Guanidine carbonate at pH 9. Slurry flow: 0 mL/min (soaked). Polisher: CETR CP-4 bench top polisher. Pressure: 3 psi. Carrier/Platen speed: 87/93 rpm. Polishing time: 60s. RR: 42 ± 5 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Guanidine carbonate", "type": "Complexing agent/pH modifier", "concentration": {"value": "50", "unit": "mM"}}
+        ],
+        "target_final_slurry_ph": "9",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "42", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CETR CP-4 bench top polisher",
+        "pad_composition": "Politex"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Cu_FujiboPolypas_Oxalic_Flow120_pH6",
+      "experiment_context": "Polishing of Cu film (2x2 cm^2 wafer) using an abrasive-free slurry of 1 wt% H2O2 + 65 mM Oxalic acid at pH 6. Pad: Fujibo-Polypas. Slurry flow: 120 mL/min (continuous). Polisher: CETR CP-4 bench top polisher. Pressure: 3 psi. Carrier/Platen speed: 87/93 rpm. Polishing time: 60s. RR: 109 ± 3 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Oxalic acid", "type": "Complexing agent/pH modifier", "concentration": {"value": "65", "unit": "mM"}}
+        ],
+        "target_final_slurry_ph": "6",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "109", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CETR CP-4 bench top polisher",
+        "pad_composition": "Fujibo-Polypas"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Cu_FujiboPolypas_Oxalic_Soaked_pH6",
+      "experiment_context": "Polishing of Cu film (2x2 cm^2 wafer) using a Fujibo-Polypas pad soaked with an abrasive-free slurry of 1 wt% H2O2 + 65 mM Oxalic acid at pH 6. Slurry flow: 0 mL/min (soaked). Polisher: CETR CP-4 bench top polisher. Pressure: 3 psi. Carrier/Platen speed: 87/93 rpm. Polishing time: 60s. RR: 74 ± 6 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Oxalic acid", "type": "Complexing agent/pH modifier", "concentration": {"value": "65", "unit": "mM"}}
+        ],
+        "target_final_slurry_ph": "6",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "74", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CETR CP-4 bench top polisher",
+        "pad_composition": "Fujibo-Polypas"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Cu_Politex_Oxalic_Soaked_pH6",
+      "experiment_context": "Polishing of Cu film (2x2 cm^2 wafer) using a Politex pad soaked with an abrasive-free slurry of 1 wt% H2O2 + 65 mM Oxalic acid at pH 6. Slurry flow: 0 mL/min (soaked). Polisher: CETR CP-4 bench top polisher. Pressure: 3 psi. Carrier/Platen speed: 87/93 rpm. Polishing time: 60s. RR: 61 ± 3 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {"name": "H2O2", "type": "Oxidizer", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Oxalic acid", "type": "Complexing agent/pH modifier", "concentration": {"value": "65", "unit": "mM"}}
+        ],
+        "target_final_slurry_ph": "6",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "61", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CETR CP-4 bench top polisher",
+        "pad_composition": "Politex"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Co_FujiboPolypas_APS_Flow120_pH9",
+      "experiment_context": "Polishing of Co film (2x2 cm^2 wafer) using an abrasive-free slurry of 1 wt% Ammonium persulfate at pH 9. Pad: Fujibo-Polypas (inferred). Slurry flow: 120 mL/min (continuous). Polisher: CETR CP-4 bench top polisher. Pressure: 3 psi. Carrier/Platen speed: 87/93 rpm. Polishing time: 60s. RR: 6 ± 1 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonium persulfate", "type": "Oxidizer", "concentration": {"value": "1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "9",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": "6", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CETR CP-4 bench top polisher",
+        "pad_composition": "Fujibo-Polypas"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Co_FujiboPolypas_APS_Soaked_pH8",
+      "experiment_context": "Polishing of Co film (2x2 cm^2 wafer) using a Fujibo-Polypas pad soaked with an abrasive-free slurry of 1 wt% Ammonium persulfate at pH 8. Slurry flow: 0 mL/min (soaked). Polisher: CETR CP-4 bench top polisher. Pressure: 3 psi. Carrier/Platen speed: 87/93 rpm. Polishing time: 60s. RR: >300 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonium persulfate", "type": "Oxidizer", "concentration": {"value": "1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": ">300", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CETR CP-4 bench top polisher",
+        "pad_composition": "Fujibo-Polypas"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Co_Politex_APS_Soaked_pH8",
+      "experiment_context": "Polishing of Co film (2x2 cm^2 wafer) using a Politex pad soaked with an abrasive-free slurry of 1 wt% Ammonium persulfate at pH 8. Slurry flow: 0 mL/min (soaked). Polisher: CETR CP-4 bench top polisher. Pressure: 3 psi. Carrier/Platen speed: 87/93 rpm. Polishing time: 60s. RR: >300 nm/min.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {"value": "0", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonium persulfate", "type": "Oxidizer", "concentration": {"value": "1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "8",
+        "solvent": {"name": "DI water", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "polishing_time": {"value": "60", "unit": "s"},
+        "material_removal_rate": {"value": ">300", "unit": "nm/min"},
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "CETR CP-4 bench top polisher",
+        "pad_composition": "Politex"
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

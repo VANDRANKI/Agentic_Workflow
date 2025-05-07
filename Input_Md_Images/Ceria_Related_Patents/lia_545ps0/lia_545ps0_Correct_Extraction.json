@@ -1,0 +1,280 @@
+{
+  "publication_number": "US 2022/0195246 A1",
+  "publication_date": "2022-06-23",
+  "application_number": "17/688,869",
+  "filing_date": "2022-03-07",
+  "priority_data": [
+    {
+      "application_number": "16/805,864",
+      "filing_date": "2020-03-02"
+    },
+    {
+      "application_number": "62/928,312",
+      "filing_date": "2019-10-30"
+    }
+  ],
+  "inventors": [
+    "Chun-Hung Liao",
+    "An-Hsuan Lee",
+    "Shen-Nan Lee",
+    "Teng-Chun Tsai",
+    "Chen-Hao Wu",
+    "Huang-Lin Chao"
+  ],
+  "assignee": "Taiwan Semiconductor Manufacturing Company, Ltd.",
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITION AND METHOD OF POLISHING METAL LAYER",
+  "samples": [
+    {
+      "sample_id": "P1_Slurry_TiO2_Oxidizer",
+      "experiment_context": "First polishing operation (P1) slurry composition for polishing Ru-based material using an oxide-based material (second dielectric layer 126, e.g., SiO2) as a polishing stop layer.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "TiO2",
+            "concentration": {
+              "value": "1 to 5",
+              "unit": "parts by weight"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "H2O2, KlO3, KlO4, KClO3, KClO4 or a combination thereof",
+              "type": "oxidizer",
+              "concentration": {
+                "value": "1 to 5",
+                "unit": "parts by weight"
+              }
+            },
+            {
+              "name": "KOH or R1-N-R2 (R1, R2 = H, C1-C15 alkyl/alkoxyl, C6-C30 aryl)",
+              "type": "pH adjustor",
+              "concentration": {
+                "value": "1 to 5",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            },
+            {
+              "name": "Organic acid (e.g., citric acid, acetic acid)",
+              "type": "pH buffer",
+              "concentration": {
+                "value": "1 to 3",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            },
+            {
+              "name": "Organic acid (e.g., citric acid, acetic acid) or alcohol (e.g., ethanol)",
+              "type": "surfactant",
+              "concentration": {
+                "value": "1 to 3",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            },
+            {
+              "name": "Thiol compound or thiolether compound (R1-S-R2)",
+              "type": "chelator",
+              "concentration": {
+                "value": "0.1 to 10",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            }
+          ],
+          "solvent": {
+            "name": "Not specified (likely DI water)",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "7",
+              "max": "12"
+            },
+            "agents": [
+              {
+                "name": "KOH or R1-N-R2 (R1, R2 = H, C1-C15 alkyl/alkoxyl, C6-C30 aryl)",
+                "concentration": {
+                  "value": "1 to 5",
+                  "unit": "parts by weight"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_id": "P1",
+        "target_material": "Ru-based layer (RuCo, RuW, Ru, Mo, Rh or Ir)",
+        "polishing_stop_layer": "Second dielectric layer 126 (oxide-based, e.g., SiO2)"
+      }
+    },
+    {
+      "sample_id": "P2_Slurry_CeO2_Thiol",
+      "experiment_context": "Second polishing operation (P2) slurry composition for polishing Ru-based material using a nitride-based material (first dielectric layer 124, e.g., SiN, SiCN) as a polishing stop layer. Oxidizer is not present.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Cerium oxide (CeO2), cerium hydroxide, cerium nitride, cerium fluoride or cerium sulfide",
+            "concentration": {
+              "value": "1 to 5",
+              "unit": "parts by weight"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Thiol compound or thiolether compound (R1-S-R2, R1, R2 = H, C1-C15 alkyl/alkoxyl, C6-C30 aryl)",
+              "type": "chelator",
+              "concentration": {
+                "value": "1 to 5",
+                "unit": "parts by weight"
+              }
+            },
+            {
+              "name": "KOH or R1-N-R2 (R1, R2 = H, C1-C15 alkyl/alkoxyl, C6-C30 aryl)",
+              "type": "pH adjustor",
+              "concentration": {
+                "value": "1 to 5",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            },
+            {
+              "name": "Organic acid (e.g., citric acid, acetic acid)",
+              "type": "pH buffer",
+              "concentration": {
+                "value": "1 to 3",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            },
+            {
+              "name": "Organic acid (e.g., citric acid, acetic acid) or alcohol (e.g., ethanol)",
+              "type": "surfactant",
+              "concentration": {
+                "value": "1 to 3",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            }
+          ],
+          "solvent": {
+            "name": "Not specified (likely DI water)",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "7",
+              "max": "12"
+            },
+            "agents": [
+              {
+                "name": "KOH or R1-N-R2 (R1, R2 = H, C1-C15 alkyl/alkoxyl, C6-C30 aryl)",
+                "concentration": {
+                  "value": "1 to 5",
+                  "unit": "parts by weight"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_id": "P2",
+        "target_material": "Ru-based layer (RuCo, RuW, Ru, Mo, Rh or Ir)",
+        "polishing_stop_layer": "First dielectric layer 124 (nitride-based or carbon-based, e.g., SiN, SiCN, SiON, SiOCN, SiOC, SiC)"
+      }
+    },
+    {
+      "sample_id": "P3_Slurry_SiO2_Oxidizer",
+      "experiment_context": "Third polishing operation (P3) slurry composition for polishing Ru-based material using a mixed layer (dielectric helmets 116 and zeroth dielectric layer 122, e.g., ZrO2/SiN/Silicon + SiO2) as a polishing stop layer.",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "SiO2",
+            "concentration": {
+              "value": "1 to 5",
+              "unit": "parts by weight"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "H2O2, KlO3, KlO4, KClO3, KClO4 or a combination thereof",
+              "type": "oxidizer",
+              "concentration": {
+                "value": "1 to 5",
+                "unit": "parts by weight"
+              }
+            },
+            {
+              "name": "KOH or R1-N-R2 (R1, R2 = H, C1-C15 alkyl/alkoxyl, C6-C30 aryl)",
+              "type": "pH adjustor",
+              "concentration": {
+                "value": "1 to 5",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            },
+            {
+              "name": "Organic acid (e.g., citric acid, acetic acid)",
+              "type": "pH buffer",
+              "concentration": {
+                "value": "1 to 3",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            },
+            {
+              "name": "Organic acid (e.g., citric acid, acetic acid) or alcohol (e.g., ethanol)",
+              "type": "surfactant",
+              "concentration": {
+                "value": "1 to 3",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            },
+            {
+              "name": "Thiol compound or thiolether compound (R1-S-R2)",
+              "type": "chelator",
+              "concentration": {
+                "value": "0.1 to 10",
+                "unit": "parts by weight"
+              },
+              "optional": true
+            }
+          ],
+          "solvent": {
+            "name": "Not specified (likely DI water)",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": "7",
+              "max": "12"
+            },
+            "agents": [
+              {
+                "name": "KOH or R1-N-R2 (R1, R2 = H, C1-C15 alkyl/alkoxyl, C6-C30 aryl)",
+                "concentration": {
+                  "value": "1 to 5",
+                  "unit": "parts by weight"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_id": "P3",
+        "target_material": "Ru-based layer (RuCo, RuW, Ru, Mo, Rh or Ir)",
+        "polishing_stop_layer": "Dielectric helmets 116 (e.g., ZrO2, SiN, silicon) and zeroth dielectric layer 122 (oxide-based, e.g., SiO2)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1052 @@
+{
+  "doi": "US 6,503,475 B1",
+  "title": "PROCESS FOR THE PRODUCTION OF ULTRAFINE POWDERS OF METAL OXIDES",
+  "year_published": "2003",
+  "journal": "United States Patent and Trademark Office",
+  "samples": [
+    {
+      "sample_id": "Example_1_CeO2_from_Ce(OH)4_SPEX_6hr",
+      "experiment_context": "Synthesis of ultrafine CeO₂ particles from Ce(OH)₄ using a SPEX 8000 mixer/mill, milled for 6 hours (related to FIG. 1).",
+      "abrasive_synthesis": {
+        "description": "Mechanical milling of Ce(OH)₄ with NaCl diluent, followed by calcination and washing to produce CeO₂ nanoparticles.",
+        "precursors": [
+          {
+            "material_name": "Cerium Hydroxide",
+            "formula": "Ce(OH)₄",
+            "role": "Metal Precursor",
+            "source_type": "97%, ~100 mesh",
+            "purity": "97%",
+            "quantity_in_mixture": {
+              "value": "28.4",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent",
+            "source_type": ">99.5%, <=500 µm",
+            "purity": ">99.5%",
+            "ratio_to_precursor_formula": "Ce(OH)₄·9NaCl"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "SPEX 8000 mixer/mill",
+                "duration": {
+                  "value": "6",
+                  "unit": "hours"
+                },
+                "atmosphere": "air",
+                "ball_to_powder_ratio": "40:1",
+                "grinding_media_material": "steel",
+                "grinding_media_size": {
+                  "value": "12.7",
+                  "unit": "mm"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including calcination and diluent removal.",
+          "collection": {
+            "method": "washing with distilled water using an ultrasonic bath and a centrifuge",
+            "parameters": {
+              "solvent_used": "distilled water",
+              "drying_conditions": "evaporation in air at 60°C"
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "500",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "1",
+                "unit": "hour"
+              },
+              "atmosphere": "air"
+            }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of resulting CeO₂ powder. General milling times for this setup were 1-10 hours. FIG. 2 shows effect of calcining temperature on particle size for this system.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "30",
+              "unit": "nm"
+            },
+            "measurement_method": "XRD, TEM, BET"
+          },
+          "shape": "nano particles"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "CeO₂"
+        },
+        "stability": null
+      }
+    },
+    {
+      "sample_id": "Example_1_CeO2_from_Ce(OH)4_Attrition_0.5hr",
+      "experiment_context": "Synthesis of ultrafine CeO₂ particles from Ce(OH)₄ using a 1 liter attrition mill.",
+      "abrasive_synthesis": {
+        "description": "Mechanical milling of Ce(OH)₄ with NaCl diluent in an attrition mill, followed by calcination and washing.",
+        "precursors": [
+          {
+            "material_name": "Cerium Hydroxide",
+            "formula": "Ce(OH)₄",
+            "role": "Metal Precursor",
+            "source_type": "97%, ~100 mesh",
+            "purity": "97%",
+            "quantity_in_mixture": {
+              "value": "28.4",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent",
+            "source_type": ">99.5%, <=500 µm",
+            "purity": ">99.5%",
+            "ratio_to_precursor_formula": "Ce(OH)₄·9NaCl"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "1 liter attrition mill",
+                "duration": {
+                  "value": "0.5",
+                  "unit": "hours"
+                },
+                "atmosphere": "argon",
+                "ball_to_powder_ratio": "20:1",
+                "grinding_media_material": "Zirconia",
+                "grinding_media_size": {
+                  "value": "2.5",
+                  "unit": "mm"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including calcination and diluent removal.",
+          "collection": {
+            "method": "washing with distilled water using an ultrasonic bath and a centrifuge",
+            "parameters": {
+              "solvent_used": "distilled water",
+              "drying_conditions": "evaporation in air at 60°C"
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "500",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "1",
+                "unit": "hour"
+              },
+              "atmosphere": "air"
+            }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of resulting CeO₂ powder. FIG. 2 shows effect of calcining temperature on particle size (calculated from BET, assuming spherical particles).",
+        "morphology": {
+          "particle_size": {
+            "average": null,
+            "unit": "nm",
+            "measurement_method": "BET"
+          },
+          "shape": "spherical particles (assumed for BET)"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "CeO₂"
+        },
+        "stability": null
+      }
+    },
+    {
+      "sample_id": "Example_2_SnO2_from_SnCl2",
+      "experiment_context": "Synthesis of SnO₂ nanoparticles from SnCl₂ precursor (related to FIG. 3).",
+      "abrasive_synthesis": {
+        "description": "Milling SnCl₂ with NaCl, followed by annealing in air (oxidation) and washing.",
+        "precursors": [
+          {
+            "material_name": "Tin Chloride",
+            "formula": "SnCl₂",
+            "role": "Metal Precursor",
+            "source_type": ">99%",
+            "purity": ">99%"
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent",
+            "source_type": "99.5%",
+            "purity": "99.5%",
+            "volume_ratio_to_precursor": "1:10 (SnCl₂:NaCl)"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "SPEX mixer/mill",
+                "duration": {
+                  "value": "3",
+                  "unit": "hours"
+                },
+                "atmosphere": "argon",
+                "ball_to_powder_ratio": "10:1",
+                "grinding_media_material": "steel",
+                "grinding_media_size": {
+                  "value": "6.4",
+                  "unit": "mm"
+                },
+                "total_mass_of_mixture": {
+                  "value": "5",
+                  "unit": "g"
+                },
+                "mass_of_grinding_media": {
+                  "value": "50",
+                  "unit": "g"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including annealing/oxidation and diluent removal.",
+          "collection": {
+            "method": "washing with distilled water",
+            "parameters": {
+              "solvent_used": "distilled water",
+              "drying_conditions": "dried in an oven at 60°C"
+            }
+          },
+          "treatment": {
+            "annealing_oxidation": {
+              "temperature": {
+                "value": "800",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "30",
+                "unit": "minutes"
+              },
+              "atmosphere": "air"
+            }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of SnO₂ particles.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "20",
+              "max": "200",
+              "unit": "nm"
+            },
+            "measurement_method": "TEM"
+          },
+          "shape": "Separated, equiaxed nanoparticles with many surface facets"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "SnO₂"
+        },
+        "stability": null
+      }
+    },
+    {
+      "sample_id": "Example_3_Al2O3_from_Al(OH)3",
+      "experiment_context": "Synthesis of Al₂O₃ (gamma alumina) nanoparticles from Al(OH)₃.",
+      "abrasive_synthesis": {
+        "description": "Milling Al(OH)₃ with NaCl in an attrition mill, followed by calcination and washing.",
+        "precursors": [
+          {
+            "material_name": "Aluminium Hydroxide",
+            "formula": "Al(OH)₃",
+            "role": "Metal Precursor",
+            "source_type": "-100 mesh",
+            "quantity_in_mixture": {
+              "value": "9",
+              "unit": "wt%"
+            },
+            "volume_percent_in_mixture": {
+                "value": "10",
+                "unit": "vol%"
+            }
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent",
+            "source_type": ">99.5%, <=500 µm",
+            "purity": ">99.5%"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "7 liter attrition mill",
+                "duration": {
+                  "value": "2",
+                  "unit": "hours"
+                },
+                "atmosphere": "nitrogen",
+                "ball_to_powder_ratio": "22.1:1",
+                "grinding_media_material": "stainless steel",
+                "grinding_media_size": {
+                  "value": "6",
+                  "unit": "mm"
+                },
+                "grinding_media_mass": {
+                    "value": "25",
+                    "unit": "kg"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including calcination and diluent removal.",
+          "collection": {
+            "method": "washing with deionised water using an ultrasonic bath and a centrifuge",
+            "parameters": {
+              "solvent_used": "deionised water",
+              "drying_conditions": "evaporation in air at 60°C"
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "850",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "1",
+                "unit": "hour"
+              },
+              "atmosphere": "air"
+            }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of Al₂O₃ particles.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "11",
+              "unit": "nm"
+            },
+            "measurement_method": "BET"
+          },
+          "shape": null
+        },
+        "crystallinity_phase_composition": {
+          "phase": "gamma alumina",
+          "formation_process": "dehydration of Al(OH)₃"
+        },
+        "stability": null
+      }
+    },
+    {
+      "sample_id": "Example_4_ZrO2_from_ZrOCl2",
+      "experiment_context": "Synthesis of ZrO₂ nanoparticles from ZrOCl₂·nH₂O.",
+      "abrasive_synthesis": {
+        "description": "Drying ZrOCl₂·nH₂O, milling with NaCl, followed by calcination and washing.",
+        "precursors": [
+          {
+            "material_name": "Zirconium Oxychloride",
+            "formula": "ZrOCl₂",
+            "role": "Metal Precursor",
+            "source_type": "ZrOCl₂·nH₂O, dried in vacuum to remove attached H₂O",
+            "quantity_in_mixture": {
+              "value": "10",
+              "unit": "grams ZrOCl₂ to 115 grams NaCl"
+            },
+            "volume_percent_oxide_equivalent": {
+                "value": "10",
+                "unit": "vol% ZrO₂"
+            }
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent",
+            "source_type": ">99.5%, <500 µm",
+            "purity": ">99.5%"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "1 liter attrition mill",
+                "duration": {
+                  "value": "1",
+                  "unit": "hour"
+                },
+                "atmosphere": "argon",
+                "ball_to_powder_ratio": null, 
+                "grinding_media_material": "Zirconia",
+                "grinding_media_size": {
+                  "value": "2.5",
+                  "unit": "mm"
+                },
+                "grinding_media_mass": {
+                    "value": "2.5",
+                    "unit": "kg"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including calcination and diluent removal.",
+          "collection": {
+            "method": "washing with deionised water using an ultrasonic bath and a centrifuge",
+            "parameters": {
+              "solvent_used": "deionised water",
+              "drying_conditions": "evaporation in air at 60°C"
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "500",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "1",
+                "unit": "hour"
+              },
+              "atmosphere": "air"
+            }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of ZrO₂ particles.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "10",
+              "unit": "nm"
+            },
+            "measurement_method": "XRD, TEM, BET"
+          },
+          "shape": null
+        },
+        "crystallinity_phase_composition": {
+          "phase": "tetragonal or cubic ZrO₂"
+        },
+        "stability": null
+      }
+    },
+    {
+      "sample_id": "Example_5_ZnO_from_ZnCO3_2Zn(OH)2",
+      "experiment_context": "Synthesis of ZnO nanoparticles from ZnCO₃·2Zn(OH)₂.",
+      "abrasive_synthesis": {
+        "description": "Milling ZnCO₃·2Zn(OH)₂ with NaCl, followed by calcination and washing.",
+        "precursors": [
+          {
+            "material_name": "Zinc Carbonate Basic",
+            "formula": "ZnCO₃·2Zn(OH)₂",
+            "role": "Metal Precursor",
+            "quantity_in_mixture": {
+              "value": "14.4",
+              "unit": "wt%"
+            },
+            "volume_percent_oxide_equivalent": {
+                "value": "10",
+                "unit": "vol% ZnO"
+            }
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "SPEX 8000 mixer/mill",
+                "duration": {
+                  "value": "3",
+                  "unit": "hours"
+                },
+                "atmosphere": "air",
+                "ball_to_powder_ratio": "10:1",
+                "grinding_media_material": "steel",
+                "grinding_media_size": {
+                  "value": "4.8",
+                  "unit": "mm"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including calcination and diluent removal.",
+          "collection": {
+            "method": "washing with deionised water using an ultrasonic bath and a centrifuge",
+            "parameters": {
+              "solvent_used": "deionised water",
+              "drying_conditions": "evaporation in air at 60°C"
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "300",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "1",
+                "unit": "hour"
+              },
+              "atmosphere": "air"
+            }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of ZnO particles.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "5",
+              "max": "20",
+              "unit": "nm"
+            },
+            "measurement_method": "TEM"
+          },
+          "shape": "separated particles",
+          "surface_area": {
+            "value": "35.6",
+            "unit": "m²/gram"
+          },
+          "effective_particle_size_bet": {
+            "value": "33",
+            "unit": "nm"
+          }
+        },
+        "crystallinity_phase_composition": {
+          "phase": "ZnO",
+          "crystallite_size": {
+            "value": "13",
+            "unit": "nm",
+            "measurement_method": "XRD"
+          }
+        },
+        "stability": null
+      }
+    },
+    {
+      "sample_id": "Example_6_BaTiO3_from_BaCO3_TiO2",
+      "experiment_context": "Synthesis of Barium Titanate (BaTiO₃) powder from BaCO₃ and TiO₂ (related to FIG. 5).",
+      "abrasive_synthesis": {
+        "description": "Milling BaCO₃, TiO₂ with NaCl, followed by calcination and washing.",
+        "precursors": [
+          {
+            "material_name": "Barium Carbonate",
+            "formula": "BaCO₃",
+            "role": "Metal Precursor",
+            "source_type": "~100 mesh",
+            "quantity": {
+              "value": "1.5",
+              "unit": "grams"
+            }
+          },
+          {
+            "material_name": "Titanium Dioxide",
+            "formula": "TiO₂",
+            "role": "Metal Precursor",
+            "quantity": {
+              "value": "0.6",
+              "unit": "grams"
+            }
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent",
+            "source_type": "<=500 µm",
+            "quantity": {
+              "value": "5.9",
+              "unit": "grams"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "SPEX mill",
+                "duration": {
+                  "value": "2",
+                  "unit": "hours"
+                },
+                "atmosphere": "air",
+                "ball_to_powder_ratio": "10:1", 
+                "grinding_media_material": "hardened steel",
+                "grinding_media_size": {
+                  "value": "9.6",
+                  "unit": "mm"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including calcination and diluent removal.",
+          "collection": {
+            "method": "washing with distilled water using an ultrasonic bath and a centrifuge",
+            "parameters": {
+              "solvent_used": "distilled water",
+              "drying_conditions": "evaporation in air at 60°C"
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "700",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "30",
+                "unit": "minutes"
+              },
+              "atmosphere": "argon"
+            }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of BaTiO₃ particles.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "60",
+              "unit": "nm"
+            },
+            "measurement_method": "TEM"
+          },
+          "shape": "separated particles"
+        },
+        "crystallinity_phase_composition": {
+          "phase": "BaTiO₃"
+        },
+        "stability": null
+      }
+    },
+    {
+      "sample_id": "Example_7_TiO2_from_TiOSO4_ratio1_1.5",
+      "experiment_context": "Synthesis of TiO₂ (anatase) nanoparticles from TiOSO₄·xH₂SO₄·yH₂O with TiOSO₄:NaCl weight ratio 1:1.5.",
+      "abrasive_synthesis": {
+        "description": "Drying TiOSO₄ and NaCl, milling, followed by annealing and washing.",
+        "precursors": [
+          {
+            "material_name": "Titanyl Sulphate Hydrate",
+            "formula": "TiOSO₄·xH₂SO₄·yH₂O",
+            "role": "Metal Precursor",
+            "source_type": ">99%, dried at 350°C for 1 hour prior to use",
+            "purity": ">99%"
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent",
+            "source_type": "99.5%, dried at 150°C for 18 hours prior to use",
+            "purity": "99.5%",
+            "weight_ratio_to_precursor": "1.5:1 (NaCl:TiOSO₄·xH₂SO₄·yH₂O)"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "SPEX mixer/mill",
+                "duration": {
+                  "value": "3",
+                  "unit": "hours"
+                },
+                "atmosphere": "argon",
+                "ball_to_powder_ratio": "10:1",
+                "grinding_media_material": "hardened-steel",
+                "grinding_media_size": {
+                  "value": "4.8",
+                  "unit": "mm"
+                },
+                "total_mass_of_mixture": {
+                  "value": "5",
+                  "unit": "g"
+                },
+                "mass_of_grinding_media": {
+                  "value": "50",
+                  "unit": "g"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including annealing and diluent removal.",
+          "collection": {
+            "method": "washing with distilled water",
+            "parameters": {
+              "solvent_used": "distilled water",
+              "drying_conditions": "dried in an oven at 60°C"
+            }
+          },
+          "treatment": {
+            "annealing": {
+              "temperature": {
+                "value": "700",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "30",
+                "unit": "minutes"
+              },
+              "atmosphere": "air"
+            }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of TiO₂ particles.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "30",
+              "max": "150",
+              "unit": "nm"
+            },
+            "measurement_method": null
+          },
+          "shape": "separated, equiaxed nanoparticles",
+          "surface_area": {
+            "value": "14.4",
+            "unit": "m²/g"
+          }
+        },
+        "crystallinity_phase_composition": {
+          "phase": "anatase-type TiO₂",
+          "formation_process": "thermal decomposition of TiOSO₄·xH₂SO₄·yH₂O"
+        },
+        "stability": null
+      }
+    },
+    {
+      "sample_id": "Example_7_TiO2_from_TiOSO4_ratio1_9",
+      "experiment_context": "Synthesis of TiO₂ (anatase) nanoparticles from TiOSO₄·xH₂SO₄·yH₂O with TiOSO₄:NaCl weight ratio 1:9 (related to FIG. 4).",
+      "abrasive_synthesis": {
+        "description": "Drying TiOSO₄ and NaCl, milling, followed by annealing and washing.",
+        "precursors": [
+          {
+            "material_name": "Titanyl Sulphate Hydrate",
+            "formula": "TiOSO₄·xH₂SO₄·yH₂O",
+            "role": "Metal Precursor",
+            "source_type": ">99%, dried at 350°C for 1 hour prior to use",
+            "purity": ">99%"
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent",
+            "source_type": "99.5%, dried at 150°C for 18 hours prior to use",
+            "purity": "99.5%",
+            "weight_ratio_to_precursor": "9:1 (NaCl:TiOSO₄·xH₂SO₄·yH₂O)"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "SPEX mixer/mill",
+                "duration": {
+                  "value": "3",
+                  "unit": "hours"
+                },
+                "atmosphere": "argon",
+                "ball_to_powder_ratio": "10:1",
+                "grinding_media_material": "hardened-steel",
+                "grinding_media_size": {
+                  "value": "4.8",
+                  "unit": "mm"
+                },
+                "total_mass_of_mixture": {
+                  "value": "5",
+                  "unit": "g"
+                },
+                "mass_of_grinding_media": {
+                  "value": "50",
+                  "unit": "g"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including annealing and diluent removal.",
+          "collection": {
+            "method": "washing with distilled water",
+            "parameters": {
+              "solvent_used": "distilled water",
+              "drying_conditions": "dried in an oven at 60°C"
+            }
+          },
+          "treatment": {
+            "annealing": {
+              "temperature": {
+                "value": "700",
+                "unit": "°C"
+              },
+              "duration": {
+                "value": "30",
+                "unit": "minutes"
+              },
+              "atmosphere": "air"
+            }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of TiO₂ particles.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "80",
+              "unit": "nm"
+            },
+            "measurement_method": "TEM (FIG. 4)"
+          },
+          "shape": "separated, equiaxed nanoparticles",
+          "surface_area": {
+            "value": "25.2",
+            "unit": "m²/g"
+          },
+          "effective_particle_size_bet": {
+            "value": "61",
+            "unit": "nm"
+          }
+        },
+        "crystallinity_phase_composition": {
+          "phase": "anatase-type TiO₂"
+        },
+        "stability": null
+      }
+    },
+    {
+      "sample_id": "Example_8_CeO2_from_precalcined_Ce(OH)4",
+      "experiment_context": "Synthesis of CeO₂ nanoparticles by milling pre-formed CeO₂ (from calcined Ce(OH)₄) with NaCl.",
+      "abrasive_synthesis": {
+        "description": "Ce(OH)₄ is first calcined to CeO₂, then this CeO₂ is milled with NaCl, followed by washing.",
+        "precursors": [
+          {
+            "material_name": "Cerium Oxide (from pre-calcined Ce(OH)₄)",
+            "formula": "CeO₂",
+            "role": "Metal Oxide (Pre-formed)",
+            "source_type": "Ce(OH)₄ (>99%) calcined at 550°C for 0.5 hours to form CeO₂ prior to milling"
+          },
+          {
+            "material_name": "Sodium Chloride",
+            "formula": "NaCl",
+            "role": "Diluent",
+            "source_type": "99.5%, dried at 120°C for 24 hours prior to milling",
+            "purity": "99.5%",
+            "volume_ratio_to_precursor": "1:10 (CeO₂:NaCl)"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "NaCl used as a non-reactant diluent phase.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Mechanical milling process details.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mechanical Milling",
+                "equipment": "SPEX mixer/mill",
+                "duration": {
+                  "value": "6",
+                  "unit": "hours"
+                },
+                "atmosphere": null,
+                "ball_to_powder_ratio": "40:1",
+                "grinding_media_material": "steel",
+                "grinding_media_size": {
+                  "value": "12.7",
+                  "unit": "mm"
+                },
+                "total_mass_of_mixture": {
+                  "value": "2.4",
+                  "unit": "g"
+                },
+                "mass_of_grinding_media": {
+                  "value": "96",
+                  "unit": "g"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-milling treatment including diluent removal. No further calcination as CeO₂ was pre-formed.",
+          "collection": {
+            "method": "washing with distilled water",
+            "parameters": {
+              "solvent_used": "distilled water",
+              "drying_conditions": "dried in an oven at 60°C"
+            }
+          },
+          "treatment": null
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of CeO₂ particles.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "3",
+              "max": "20",
+              "unit": "nm"
+            },
+            "measurement_method": null
+          },
+          "shape": "Separated, equiaxed nanoparticles",
+          "surface_area": {
+            "value": "53.9",
+            "unit": "m²/g",
+            "measurement_method": "BET"
+          },
+          "effective_particle_size_bet": {
+            "value": "15.6",
+            "unit": "nm"
+          }
+        },
+        "crystallinity_phase_composition": {
+          "phase": "CeO₂"
+        },
+        "stability": null
+      }
+    }
+  ]
+}

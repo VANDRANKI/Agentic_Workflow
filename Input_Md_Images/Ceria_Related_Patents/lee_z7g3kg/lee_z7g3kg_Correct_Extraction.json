@@ -1,0 +1,550 @@
+{
+  "doi": "US 2023/0025469 A1",
+  "title": "CERIUM-BASED PARTICLE AND POLISHING SLURRY COMPOSITION INCLUDING THE SAME",
+  "year_published": "2023",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Example_1_SAC_Batch_500C",
+      "experiment_context": "Self-Assembly Ceria (SAC) synthesized from cerium nitrate, EG, and PVP at 100-150°C for 8-12h, followed by rinsing, drying (<2% moisture), and heat treatment at 500°C for 1-4h in a batch kiln.",
+      "abrasive_synthesis": {
+        "description": "Synthesis via reaction of precursors followed by heat treatment.",
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate",
+            "formula": "Ce(NO3)3",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Solvent and additive used during initial reaction.",
+            "solvents": [
+              {
+                "name": "Ethylene glycol (EG)",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Polyvinylpyrrolidone (PVP)",
+                "type": "Additive",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process stages including reaction, drying, and heat treatment.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mixing/Reaction",
+                "temperature": {
+                  "min": "100",
+                  "max": "150",
+                  "unit": "°C"
+                },
+                "duration": {
+                  "min": "8",
+                  "max": "12",
+                  "unit": "h"
+                },
+                "details": "Shaking"
+              },
+              {
+                "stage": 2,
+                "process_name": "Drying",
+                "details": "Moisture content < 2%"
+              },
+              {
+                "stage": 3,
+                "process_name": "Heat Treatment",
+                "temperature": {
+                  "value": "500",
+                  "unit": "°C"
+                },
+                "duration": {
+                  "min": "1",
+                  "max": "4",
+                  "unit": "h"
+                },
+                "atmosphere": "Air",
+                "equipment": "Batch kiln"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-reaction procedures before heat treatment.",
+          "collection": {
+            "method": "Rinsing",
+            "details": "Rinsed with deionized water (DIW)"
+          },
+          "treatment": {
+             "drying": {
+               "details": "Dried to obtain powder with moisture content < 2%"
+             }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Physical properties measured from the synthesized powder.",
+        "morphology": {
+          "particle_size": {
+            "xrd_grain_size": {
+              "value": "9.3",
+              "unit": "nm"
+            },
+            "bet_particle_size": {
+              "value": "5.5",
+              "unit": "nm"
+            },
+            "tem_particle_size": {
+              "min": "120",
+              "max": "130",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical (Sphericity >= 0.4), Porous",
+          "structure": "Self-assembly of fine particles, Crystalline network",
+          "surface_area": {
+            "value": "148",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "density": {
+          "value": "5.53",
+          "unit": "g/cm³",
+          "method": "Gas pycnometer"
+        },
+        "composition": {
+           "residual_carbon": {
+             "value": "0.14",
+             "unit": "wt%"
+           },
+           "ce3_plus_concentration": {
+             "value": "21.2",
+             "unit": "mol%"
+           }
+        },
+        "stability": null
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_2_SAC_Continuous_500C",
+      "experiment_context": "Self-Assembly Ceria (SAC) synthesized similarly to Example 1, but heat-treated at 500°C for 1-4h using a continuous kiln.",
+      "abrasive_synthesis": {
+        "description": "Synthesis via reaction of precursors followed by heat treatment.",
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate",
+            "formula": "Ce(NO3)3",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Solvent and additive used during initial reaction.",
+            "solvents": [
+              {
+                "name": "Ethylene glycol (EG)",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Polyvinylpyrrolidone (PVP)",
+                "type": "Additive",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process stages including reaction, drying, and heat treatment.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mixing/Reaction",
+                "temperature": {
+                  "min": "100",
+                  "max": "150",
+                  "unit": "°C"
+                },
+                "duration": {
+                  "min": "8",
+                  "max": "12",
+                  "unit": "h"
+                },
+                "details": "Shaking"
+              },
+              {
+                "stage": 2,
+                "process_name": "Drying",
+                "details": "Moisture content < 2%"
+              },
+              {
+                "stage": 3,
+                "process_name": "Heat Treatment",
+                "temperature": {
+                  "value": "500",
+                  "unit": "°C"
+                },
+                "duration": {
+                  "min": "1",
+                  "max": "4",
+                  "unit": "h"
+                },
+                "atmosphere": "Air",
+                "equipment": "Continuous kiln"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-reaction procedures before heat treatment.",
+          "collection": {
+            "method": "Rinsing",
+            "details": "Rinsed with deionized water (DIW)"
+          },
+           "treatment": {
+             "drying": {
+               "details": "Dried to obtain powder with moisture content < 2%"
+             }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Physical properties measured from the synthesized powder.",
+        "morphology": {
+          "particle_size": {
+            "xrd_grain_size": {
+              "value": "9.9",
+              "unit": "nm"
+            },
+            "bet_particle_size": {
+              "value": "5.2",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical (Sphericity >= 0.4, assumed)",
+          "structure": "Self-assembly of fine particles, Crystalline network (assumed)",
+          "surface_area": {
+            "value": "158",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "density": {
+          "value": "5.52",
+          "unit": "g/cm³",
+          "method": "Gas pycnometer"
+        },
+        "composition": {
+           "residual_carbon": {
+             "value": "0.16",
+             "unit": "wt%"
+           },
+           "ce3_plus_concentration": {
+             "value": "22.8",
+             "unit": "mol%"
+           }
+        },
+        "stability": null
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_3_SAC_Continuous_600C",
+      "experiment_context": "Self-Assembly Ceria (SAC) synthesized similarly to Example 2, but heat-treated at 600°C using a continuous kiln.",
+      "abrasive_synthesis": {
+        "description": "Synthesis via reaction of precursors followed by heat treatment.",
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate",
+            "formula": "Ce(NO3)3",
+            "source_type": null,
+            "purity": null,
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Solvent and additive used during initial reaction.",
+            "solvents": [
+              {
+                "name": "Ethylene glycol (EG)",
+                "quantity": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "Polyvinylpyrrolidone (PVP)",
+                "type": "Additive",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process stages including reaction, drying, and heat treatment.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Mixing/Reaction",
+                "temperature": {
+                  "min": "100",
+                  "max": "150",
+                  "unit": "°C"
+                },
+                "duration": {
+                  "min": "8",
+                  "max": "12",
+                  "unit": "h"
+                },
+                "details": "Shaking"
+              },
+              {
+                "stage": 2,
+                "process_name": "Drying",
+                "details": "Moisture content < 2%"
+              },
+              {
+                "stage": 3,
+                "process_name": "Heat Treatment",
+                "temperature": {
+                  "value": "600",
+                  "unit": "°C"
+                },
+                "duration": {
+                  "min": "1",
+                  "max": "4",
+                  "unit": "h"
+                },
+                "atmosphere": "Air",
+                "equipment": "Continuous kiln"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-reaction procedures before heat treatment.",
+          "collection": {
+            "method": "Rinsing",
+            "details": "Rinsed with deionized water (DIW)"
+          },
+           "treatment": {
+             "drying": {
+               "details": "Dried to obtain powder with moisture content < 2%"
+             }
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Physical properties measured from the synthesized powder.",
+        "morphology": {
+          "particle_size": {
+            "xrd_grain_size": {
+              "value": "12.5",
+              "unit": "nm"
+            },
+            "bet_particle_size": {
+              "value": "11.2",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical (Sphericity >= 0.4, assumed)",
+          "structure": "Self-assembly of fine particles, Crystalline network (assumed)",
+          "surface_area": {
+            "value": "73",
+            "unit": "m²/g",
+            "method": "BET"
+          }
+        },
+        "density": {
+          "value": "5.58",
+          "unit": "g/cm³",
+          "method": "Gas pycnometer"
+        },
+        "composition": {
+           "residual_carbon": {
+             "value": "0.06",
+             "unit": "wt%"
+           },
+           "ce3_plus_concentration": {
+             "value": "22.5",
+             "unit": "mol%"
+           }
+        },
+        "stability": null
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Comparative_Example_1_Solid_Ceria_800C",
+      "experiment_context": "Solid ceria powder obtained by calcining at 800°C according to a conventional solid ceria manufacturing method.",
+      "abrasive_synthesis": {
+        "description": "Conventional solid ceria manufacturing method involving calcination.",
+        "precursors": null,
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "Calcination process.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Calcination",
+                "temperature": {
+                  "value": "800",
+                  "unit": "°C"
+                },
+                "duration": null,
+                "atmosphere": null
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Physical properties measured from the solid ceria powder.",
+        "morphology": {
+          "particle_size": {
+            "xrd_grain_size": {
+              "value": "46",
+              "unit": "nm",
+              "note": "Primary particle size"
+            },
+            "bet_particle_size": {
+              "value": "25",
+              "unit": "nm",
+              "note": "Primary particle size"
+            }
+          },
+          "shape": "Angular grain shape",
+          "structure": null,
+          "surface_area": {
+            "value": "78",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+          "particle_size_distribution": "Wide"
+        },
+        "density": {
+          "value": "6",
+          "unit": "g/cm³",
+          "method": "Gas pycnometer"
+        },
+        "composition": {
+           "residual_carbon": {
+             "value": "0.5",
+             "unit": "wt%"
+           },
+           "ce3_plus_concentration": {
+             "value": "19",
+             "unit": "mol%"
+           }
+        },
+        "stability": null
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Comparative_Example_2_Colloidal_Ceria_HC60",
+      "experiment_context": "Colloidal ceria (HC60) used for comparison. Synthesis details not provided.",
+      "abrasive_synthesis": {
+        "description": "Commercial colloidal ceria (HC60).",
+        "precursors": null,
+        "synthesis_parameters": null,
+        "post_synthesis": null
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Physical properties measured from the colloidal ceria.",
+        "morphology": {
+          "particle_size": {
+            "xrd_grain_size": {
+              "value": "33",
+              "unit": "nm",
+              "note": "Primary particle size"
+            },
+            "bet_particle_size": {
+              "value": "80",
+              "unit": "nm",
+              "note": "Primary particle size"
+            }
+          },
+          "shape": "Polyhedral structure",
+          "structure": null,
+          "surface_area": {
+            "value": "11",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+          "particle_size_distribution": "Better distribution, less large particles (compared to dry ceria)"
+        },
+        "density": {
+          "value": "6.81",
+          "unit": "g/cm³",
+          "method": "Gas pycnometer"
+        },
+        "composition": {
+           "residual_carbon": {
+             "value": null,
+             "unit": "wt%",
+             "note": "Lower Limit of Detection"
+           },
+           "ce3_plus_concentration": {
+             "value": "17",
+             "unit": "mol%"
+           }
+        },
+        "stability": null
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    }
+  ]
+}

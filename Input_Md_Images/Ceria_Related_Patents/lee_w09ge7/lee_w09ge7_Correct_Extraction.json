@@ -1,0 +1,388 @@
+{
+  "patent_number": "US 2023/0058800 A1",
+  "title": "SLURRY COMPOSITIONS FOR CHEMICAL MECHANICAL PLANARIZATION",
+  "publication_date": "2023-02-23",
+  "applicant": "Taiwan Semiconductor Manufacturing Co., Ltd.",
+  "inventors": [
+    "An-Hsuan Lee",
+    "Chun-Hung Liao",
+    "Chen-Hao Wu",
+    "Shen-Nan Lee",
+    "Teng-Chun Tsai",
+    "Huang-Lin Chao"
+  ],
+  "samples": [
+    {
+      "sample_id": "Slurry400_KOH_TiO2",
+      "experiment_context": "First step CMP slurry (Slurry 400 type) designed for high Ru removal rate and low SiO2 removal rate (high selectivity > 30:1). Based on paragraph [0050].",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "TiO2",
+          "size": {
+            "min": 1,
+            "max": 150,
+            "unit": "nm"
+          }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": {
+            "min": 0.01,
+            "max": 15,
+            "unit": "wt%"
+          }
+        },
+        "alkaline_components": [
+          {
+            "name": "KOH",
+            "type": "Non-amine",
+            "concentration": {
+              "min": 0.01,
+              "max": 10,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "acid_component": {
+          "name": "HNO3",
+           "concentration": {
+            "min": 0.01,
+            "max": 10,
+            "unit": "wt%"
+          }
+        },
+        "ph_target": {
+          "min": 10,
+          "max": 12
+        },
+        "ionic_strength_target": {
+          "min": 1,
+          "max": 500,
+          "unit": "mmol/L"
+        },
+        "zeta_potential_target": {
+          "min": -60,
+          "max": -20,
+          "unit": "mV"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_Ru": {
+          "value": 230,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_SiO2": {
+          "value": "<10",
+          "unit": "Å/min"
+        },
+        "selectivity_Ru_SiO2": {
+          "value": ">23:1"
+        },
+        "target_process_step": "Bulk Ru Removal (First Step)"
+      }
+    },
+    {
+      "sample_id": "Slurry400_NH4OH_TiO2",
+      "experiment_context": "First step CMP slurry (Slurry 400 type) designed for high Ru removal rate and low SiO2 removal rate (high selectivity > 30:1). Based on paragraph [0050] and Claim 1.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "TiO2",
+          "size": {
+            "min": 1,
+            "max": 150,
+            "unit": "nm"
+          }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": {
+            "min": 0.01,
+            "max": 15,
+            "unit": "wt%"
+          }
+        },
+        "alkaline_components": [
+          {
+            "name": "NH4OH",
+            "type": "Amine-based (Inorganic)",
+            "concentration": {
+              "min": 0.01,
+              "max": 10,
+              "unit": "wt%"
+            }
+          }
+        ],
+         "acid_component": {
+          "name": "HNO3",
+           "concentration": {
+            "min": 0.01,
+            "max": 10,
+            "unit": "wt%"
+          }
+        },
+        "ph_target": {
+          "min": 10,
+          "max": 12
+        },
+        "ionic_strength_target": {
+          "min": 1,
+          "max": 500,
+          "unit": "mmol/L"
+        },
+        "zeta_potential_target": {
+          "min": -60,
+          "max": -20,
+          "unit": "mV"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_Ru": {
+          "value": 310,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_SiO2": {
+          "value": "<10",
+          "unit": "Å/min"
+        },
+        "selectivity_Ru_SiO2": {
+          "value": ">31:1"
+        },
+        "target_process_step": "Bulk Ru Removal (First Step)"
+      }
+    },
+    {
+      "sample_id": "Slurry400_NR4OH_TiO2",
+      "experiment_context": "First step CMP slurry (Slurry 400 type) designed for high Ru removal rate and low SiO2 removal rate (high selectivity > 30:1). Based on paragraph [0050]. NR4OH represents Organoammonium Hydroxide.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "TiO2",
+          "size": {
+            "min": 1,
+            "max": 150,
+            "unit": "nm"
+          }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": {
+            "min": 0.01,
+            "max": 15,
+            "unit": "wt%"
+          }
+        },
+        "alkaline_components": [
+          {
+            "name": "NR4OH",
+            "type": "Amine-based (Organoammonium)",
+            "concentration": {
+              "min": 0.01,
+              "max": 10,
+              "unit": "wt%"
+            }
+          }
+        ],
+         "acid_component": {
+          "name": "HNO3",
+           "concentration": {
+            "min": 0.01,
+            "max": 10,
+            "unit": "wt%"
+          }
+        },
+        "ph_target": {
+          "min": 10,
+          "max": 12
+        },
+        "ionic_strength_target": {
+          "min": 1,
+          "max": 500,
+          "unit": "mmol/L"
+        },
+        "zeta_potential_target": {
+          "min": -60,
+          "max": -20,
+          "unit": "mV"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_Ru": {
+          "value": 480,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_SiO2": {
+          "value": "<10",
+          "unit": "Å/min"
+        },
+        "selectivity_Ru_SiO2": {
+          "value": ">48:1"
+        },
+        "target_process_step": "Bulk Ru Removal (First Step)"
+      }
+    },
+    {
+      "sample_id": "Slurry500_KOH_SiO2",
+      "experiment_context": "Second step CMP slurry (Slurry 500 type) designed for matched Ru and SiO2 removal rates (selectivity ~1:1). Based on paragraph [0052].",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "SiO2",
+          "concentration": {
+             "min": 0.1,
+             "max": 15,
+             "unit": "wt%"
+          },
+          "size": {
+            "min": 1,
+            "max": 150,
+            "unit": "nm"
+          }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": {
+            "min": 0.01,
+            "max": 15,
+            "unit": "wt%"
+          }
+        },
+        "alkaline_components": [
+          {
+            "name": "KOH",
+            "type": "Non-amine",
+            "concentration": {
+              "min": 0.01,
+              "max": 10,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "acid_component": {
+          "name": "Acetic Acid",
+           "concentration": {
+            "min": 0.01,
+            "max": 10,
+            "unit": "wt%"
+          }
+        },
+        "ph_target": {
+          "min": 9,
+          "max": 11
+        },
+        "ionic_strength_target": {
+          "min": 0.1,
+          "max": 250,
+          "unit": "mmol/L"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_Ru": {
+          "value": 40,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_SiO2": {
+          "value": "~40",
+          "unit": "Å/min",
+          "notes": "Tunable by adjusting SiO2 abrasive amount (Fig 6A)."
+        },
+        "selectivity_Ru_SiO2": {
+          "value": "1:0.5 to 1:2"
+        },
+        "target_process_step": "Ru/SiO2 Planarization (Second Step)"
+      }
+    },
+    {
+      "sample_id": "Slurry500_Hydroxyamine_SiO2",
+      "experiment_context": "Second step CMP slurry (Slurry 500 type) designed for matched Ru and SiO2 removal rates (selectivity ~1:1). Based on paragraph [0052] and Claims 1 & 7.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "SiO2",
+           "concentration": {
+             "min": 0.1,
+             "max": 15,
+             "unit": "wt%"
+          },
+          "size": {
+            "min": 1,
+            "max": 150,
+            "unit": "nm"
+          }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": {
+            "min": 0.01,
+            "max": 15,
+            "unit": "wt%"
+          }
+        },
+        "alkaline_components": [
+          {
+            "name": "Hydroxyamine (H2N-R-OH)",
+            "type": "Amine-based",
+            "concentration": {
+              "min": 0.01,
+              "max": 10,
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Non-amine alkaline",
+            "type": "Non-amine",
+            "concentration": {
+              "min": 0.01,
+              "max": 10,
+              "unit": "wt%"
+            },
+            "notes": "Claim 1 requires a non-amine alkaline component in addition to hydroxyamine for the second slurry."
+          }
+        ],
+        "acid_component": {
+          "name": "Acetic Acid",
+           "concentration": {
+            "min": 0.01,
+            "max": 10,
+            "unit": "wt%"
+          }
+        },
+        "ph_target": {
+          "min": 9,
+          "max": 11
+        },
+        "ionic_strength_target": {
+          "min": 0.1,
+          "max": 250,
+          "unit": "mmol/L"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_Ru": {
+          "value": 100,
+          "unit": "Å/min"
+        },
+        "material_removal_rate_SiO2": {
+          "value": "~100",
+          "unit": "Å/min",
+          "notes": "Tunable by adjusting SiO2 abrasive amount (Fig 6A)."
+        },
+        "selectivity_Ru_SiO2": {
+          "value": "1:0.5 to 1:2"
+        },
+        "target_process_step": "Ru/SiO2 Planarization (Second Step)"
+      }
+    }
+  ]
+}

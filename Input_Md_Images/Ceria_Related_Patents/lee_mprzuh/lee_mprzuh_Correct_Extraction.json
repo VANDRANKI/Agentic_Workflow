@@ -1,0 +1,928 @@
+{
+  "doi": "US 10100225 B2",
+  "title": "CMP SLURRY COMPOSITION FOR METAL WIRING AND POLISHING METHOD USING THE SAME",
+  "year_published": "2017",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Example 1",
+      "experiment_context": "CMP slurry with 0.1 mM Potassium Nitrite and 3 mM 1,2,3-triazole as corrosion inhibitors.",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "name": "Nalco N27",
+            "concentration": {
+              "initial": null,
+              "final": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen peroxide",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          "complexing_agent": {
+            "name": "Glycine",
+            "concentration": {
+              "value": 1.2,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Potassium nitrite",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.1,
+                "unit": "mM"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 3,
+                "unit": "mM"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": 6,
+              "max": 8
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": 28,
+              "unit": "nm"
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "instrument": "Reflexion LK 300 mm (AMAT Co., Ltd.)",
+          "wafer": "300 mm Cu Blanket wafer",
+          "pad": "CUP4410 (DOW CHEMICALS)",
+          "time": {
+            "value": 30,
+            "unit": "s"
+          },
+          "pressure": {
+            "value": 2.65,
+            "unit": "psi"
+          },
+          "platen_rpm": 93,
+          "head_rpm": 87,
+          "flow_rate": {
+            "value": 250,
+            "unit": "ml/min"
+          }
+        },
+        "static_etch_rate": [
+          {
+            "material": "Cu",
+            "value": 29,
+            "unit": "Å/min"
+          },
+          {
+            "material": "Co",
+            "value": 0.3,
+            "unit": "Å/min"
+          }
+        ],
+        "removal_rate_non_uniformity": {
+          "material": "Cu",
+          "value": 19,
+          "unit": "%"
+        },
+        "defects": {
+          "material": "Cu",
+          "value": 532,
+          "unit": "ea"
+        }
+      }
+    },
+    {
+      "sample_id": "Example 2",
+      "experiment_context": "CMP slurry with 0.5 mM Potassium Nitrite and 3 mM 1,2,3-triazole as corrosion inhibitors.",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "name": "Nalco N27",
+            "concentration": {
+              "initial": null,
+              "final": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen peroxide",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          "complexing_agent": {
+            "name": "Glycine",
+            "concentration": {
+              "value": 1.2,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Potassium nitrite",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 0.5,
+                "unit": "mM"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 3,
+                "unit": "mM"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": 6,
+              "max": 8
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": 28,
+              "unit": "nm"
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "instrument": "Reflexion LK 300 mm (AMAT Co., Ltd.)",
+          "wafer": "300 mm Cu Blanket wafer",
+          "pad": "CUP4410 (DOW CHEMICALS)",
+          "time": {
+            "value": 30,
+            "unit": "s"
+          },
+          "pressure": {
+            "value": 2.65,
+            "unit": "psi"
+          },
+          "platen_rpm": 93,
+          "head_rpm": 87,
+          "flow_rate": {
+            "value": 250,
+            "unit": "ml/min"
+          }
+        },
+        "static_etch_rate": [
+          {
+            "material": "Cu",
+            "value": 27,
+            "unit": "Å/min"
+          },
+          {
+            "material": "Co",
+            "value": 0.2,
+            "unit": "Å/min"
+          }
+        ],
+        "removal_rate_non_uniformity": {
+          "material": "Cu",
+          "value": 18,
+          "unit": "%"
+        },
+        "defects": {
+          "material": "Cu",
+          "value": 410,
+          "unit": "ea"
+        }
+      }
+    },
+    {
+      "sample_id": "Example 3",
+      "experiment_context": "CMP slurry with 1 mM Potassium Nitrite and 3 mM 1,2,3-triazole as corrosion inhibitors.",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "name": "Nalco N27",
+            "concentration": {
+              "initial": null,
+              "final": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen peroxide",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          "complexing_agent": {
+            "name": "Glycine",
+            "concentration": {
+              "value": 1.2,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Potassium nitrite",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 1,
+                "unit": "mM"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 3,
+                "unit": "mM"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": 6,
+              "max": 8
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": 28,
+              "unit": "nm"
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "instrument": "Reflexion LK 300 mm (AMAT Co., Ltd.)",
+          "wafer": "300 mm Cu Blanket wafer",
+          "pad": "CUP4410 (DOW CHEMICALS)",
+          "time": {
+            "value": 30,
+            "unit": "s"
+          },
+          "pressure": {
+            "value": 2.65,
+            "unit": "psi"
+          },
+          "platen_rpm": 93,
+          "head_rpm": 87,
+          "flow_rate": {
+            "value": 250,
+            "unit": "ml/min"
+          }
+        },
+        "static_etch_rate": [
+          {
+            "material": "Cu",
+            "value": 25,
+            "unit": "Å/min"
+          },
+          {
+            "material": "Co",
+            "value": 0.1,
+            "unit": "Å/min"
+          }
+        ],
+        "removal_rate_non_uniformity": {
+          "material": "Cu",
+          "value": 17,
+          "unit": "%"
+        },
+        "defects": {
+          "material": "Cu",
+          "value": 351,
+          "unit": "ea"
+        }
+      }
+    },
+    {
+      "sample_id": "Example 4",
+      "experiment_context": "CMP slurry with 10 mM Ammonium Nitrate and 3 mM 1,2,3-triazole as corrosion inhibitors.",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "name": "Nalco N27",
+            "concentration": {
+              "initial": null,
+              "final": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen peroxide",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          "complexing_agent": {
+            "name": "Glycine",
+            "concentration": {
+              "value": 1.2,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ammonium nitrate",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 10,
+                "unit": "mM"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 3,
+                "unit": "mM"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": 6,
+              "max": 8
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": 28,
+              "unit": "nm"
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "instrument": "Reflexion LK 300 mm (AMAT Co., Ltd.)",
+          "wafer": "300 mm Cu Blanket wafer",
+          "pad": "CUP4410 (DOW CHEMICALS)",
+          "time": {
+            "value": 30,
+            "unit": "s"
+          },
+          "pressure": {
+            "value": 2.65,
+            "unit": "psi"
+          },
+          "platen_rpm": 93,
+          "head_rpm": 87,
+          "flow_rate": {
+            "value": 250,
+            "unit": "ml/min"
+          }
+        },
+        "static_etch_rate": [
+          {
+            "material": "Cu",
+            "value": 10,
+            "unit": "Å/min"
+          },
+          {
+            "material": "Co",
+            "value": 10,
+            "unit": "Å/min"
+          }
+        ],
+        "removal_rate_non_uniformity": {
+          "material": "Cu",
+          "value": 3,
+          "unit": "%"
+        },
+        "defects": {
+          "material": "Cu",
+          "value": 143,
+          "unit": "ea"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 1",
+      "experiment_context": "CMP slurry with 3 mM 1,2,3-triazole as the only specified corrosion inhibitor.",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "name": "Nalco N27",
+            "concentration": {
+              "initial": null,
+              "final": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen peroxide",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          "complexing_agent": {
+            "name": "Glycine",
+            "concentration": {
+              "value": 1.2,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 3,
+                "unit": "mM"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": 6,
+              "max": 8
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": 28,
+              "unit": "nm"
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "instrument": "Reflexion LK 300 mm (AMAT Co., Ltd.)",
+          "wafer": "300 mm Cu Blanket wafer",
+          "pad": "CUP4410 (DOW CHEMICALS)",
+          "time": {
+            "value": 30,
+            "unit": "s"
+          },
+          "pressure": {
+            "value": 2.65,
+            "unit": "psi"
+          },
+          "platen_rpm": 93,
+          "head_rpm": 87,
+          "flow_rate": {
+            "value": 250,
+            "unit": "ml/min"
+          }
+        },
+        "static_etch_rate": [
+          {
+            "material": "Cu",
+            "value": 30,
+            "unit": "Å/min"
+          },
+          {
+            "material": "Co",
+            "value": 80,
+            "unit": "Å/min"
+          }
+        ],
+        "removal_rate_non_uniformity": {
+          "material": "Cu",
+          "value": 20,
+          "unit": "%"
+        },
+        "defects": {
+          "material": "Cu",
+          "value": 610,
+          "unit": "ea"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 2",
+      "experiment_context": "CMP slurry with 10 mM Cerium Nitrate and 3 mM 1,2,3-triazole as corrosion inhibitors.",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "name": "Nalco N27",
+            "concentration": {
+              "initial": null,
+              "final": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen peroxide",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          "complexing_agent": {
+            "name": "Glycine",
+            "concentration": {
+              "value": 1.2,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Cerium nitrate",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 10,
+                "unit": "mM"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 3,
+                "unit": "mM"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": 6,
+              "max": 8
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": 28,
+              "unit": "nm"
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "instrument": "Reflexion LK 300 mm (AMAT Co., Ltd.)",
+          "wafer": "300 mm Cu Blanket wafer",
+          "pad": "CUP4410 (DOW CHEMICALS)",
+          "time": {
+            "value": 30,
+            "unit": "s"
+          },
+          "pressure": {
+            "value": 2.65,
+            "unit": "psi"
+          },
+          "platen_rpm": 93,
+          "head_rpm": 87,
+          "flow_rate": {
+            "value": 250,
+            "unit": "ml/min"
+          }
+        },
+        "static_etch_rate": [
+          {
+            "material": "Cu",
+            "value": 15,
+            "unit": "Å/min"
+          },
+          {
+            "material": "Co",
+            "value": 12,
+            "unit": "Å/min"
+          }
+        ],
+        "removal_rate_non_uniformity": {
+          "material": "Cu",
+          "value": 29,
+          "unit": "%"
+        },
+        "defects": {
+          "material": "Cu",
+          "value": 726,
+          "unit": "ea"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 3",
+      "experiment_context": "CMP slurry with 10 mM Nickel Nitrate and 3 mM 1,2,3-triazole as corrosion inhibitors.",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "name": "Nalco N27",
+            "concentration": {
+              "initial": null,
+              "final": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen peroxide",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          "complexing_agent": {
+            "name": "Glycine",
+            "concentration": {
+              "value": 1.2,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Nickel nitrate",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 10,
+                "unit": "mM"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 3,
+                "unit": "mM"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": 6,
+              "max": 8
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": 28,
+              "unit": "nm"
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "instrument": "Reflexion LK 300 mm (AMAT Co., Ltd.)",
+          "wafer": "300 mm Cu Blanket wafer",
+          "pad": "CUP4410 (DOW CHEMICALS)",
+          "time": {
+            "value": 30,
+            "unit": "s"
+          },
+          "pressure": {
+            "value": 2.65,
+            "unit": "psi"
+          },
+          "platen_rpm": 93,
+          "head_rpm": 87,
+          "flow_rate": {
+            "value": 250,
+            "unit": "ml/min"
+          }
+        },
+        "static_etch_rate": [
+          {
+            "material": "Cu",
+            "value": 10,
+            "unit": "Å/min"
+          },
+          {
+            "material": "Co",
+            "value": 15,
+            "unit": "Å/min"
+          }
+        ],
+        "removal_rate_non_uniformity": {
+          "material": "Cu",
+          "value": 12,
+          "unit": "%"
+        },
+        "defects": {
+          "material": "Cu",
+          "value": 631,
+          "unit": "ea"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 4",
+      "experiment_context": "CMP slurry with 10 mM Zinc Nitrate and 3 mM 1,2,3-triazole as corrosion inhibitors.",
+      "abrasive_synthesis": null,
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "name": "Nalco N27",
+            "concentration": {
+              "initial": null,
+              "final": 0.1,
+              "unit": "wt%"
+            }
+          },
+          "oxidant": {
+            "name": "Hydrogen peroxide",
+            "concentration": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          "complexing_agent": {
+            "name": "Glycine",
+            "concentration": {
+              "value": 1.2,
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Zinc nitrate",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 10,
+                "unit": "mM"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion Inhibitor",
+              "concentration": {
+                "value": 3,
+                "unit": "mM"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": null
+          }
+        },
+        "processing": {
+          "ph_control": {
+            "target": {
+              "min": 6,
+              "max": 8
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": 28,
+              "unit": "nm"
+            }
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "instrument": "Reflexion LK 300 mm (AMAT Co., Ltd.)",
+          "wafer": "300 mm Cu Blanket wafer",
+          "pad": "CUP4410 (DOW CHEMICALS)",
+          "time": {
+            "value": 30,
+            "unit": "s"
+          },
+          "pressure": {
+            "value": 2.65,
+            "unit": "psi"
+          },
+          "platen_rpm": 93,
+          "head_rpm": 87,
+          "flow_rate": {
+            "value": 250,
+            "unit": "ml/min"
+          }
+        },
+        "static_etch_rate": [
+          {
+            "material": "Cu",
+            "value": 13,
+            "unit": "Å/min"
+          },
+          {
+            "material": "Co",
+            "value": 13,
+            "unit": "Å/min"
+          }
+        ],
+        "removal_rate_non_uniformity": {
+          "material": "Cu",
+          "value": 15,
+          "unit": "%"
+        },
+        "defects": {
+          "material": "Cu",
+          "value": 660,
+          "unit": "ea"
+        }
+      }
+    }
+  ]
+}

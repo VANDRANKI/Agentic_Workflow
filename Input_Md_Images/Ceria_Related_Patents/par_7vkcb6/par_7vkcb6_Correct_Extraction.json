@@ -1,0 +1,805 @@
+{
+  "doi": "US8241375B1",
+  "samples": [
+    {
+      "sample_id": "Example1_Additive_Solution",
+      "experiment_context": "Preparation of Fe-Si-O additive solution for CMP slurry composition",
+      "abrasive_synthesis": {
+        "description": "Preparation of an oxide containing silicon and iron as an additive by admixing and stirring a silicon salt and an aqueous iron salt solution",
+        "precursors": [
+          {
+            "material_name": "Iron(III) chloride",
+            "formula": "FeCl₃",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "20",
+              "unit": "mol%"
+            }
+          },
+          {
+            "material_name": "Silicon tetrachloride",
+            "formula": "SiCl₄",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Reaction of silicon salt and iron salt solution to produce an oxide containing silicon and iron",
+            "solvents": [
+              {
+                "name": "Deionized water",
+                "quantity": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Controlled temperature reaction with subsequent dialysis",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Cooling deionized water",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 2,
+                "value": "1",
+                "unit": "°C",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Adding FeCl₃ with active stirring",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Adding SiCl₄ (kept at -20°C or less) dropwise with stirring",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 5,
+                "value": "Dialysis with Spectra/Por membrane",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Dialysis to remove ions and stabilize the particles",
+          "collection": {
+            "method": "Dialysis",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of additive solution for CMP slurry",
+        "composition": {
+          "abrasive": {
+            "material": "Fe-Si-O oxide particles",
+            "concentration": {
+              "initial": "0.1-20",
+              "final": "",
+              "unit": "weight%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Dialysis and storage at low temperature",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": "3"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the Fe-Si-O additive particles",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "3",
+              "max": "10",
+              "unit": "nm"
+            }
+          },
+          "shape": "Aggregated particles forming larger structures",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "Stabilized through dialysis and stored at 4°C"
+      }
+    },
+    {
+      "sample_id": "Example2_CMP_Slurry",
+      "experiment_context": "CMP slurry composition with 8.2g of additive solution from Example 1",
+      "abrasive_synthesis": {
+        "description": "Using pre-made additive solution from Example 1",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry with additive solution, fumed silica, and hydrogen peroxide",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (SiO₂)",
+            "concentration": {
+              "initial": "",
+              "final": "3.64",
+              "unit": "weight%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Fe-Si-O additive solution from Example 1",
+              "type": "Oxidation catalyst",
+              "concentration": {
+                "value": "8.2",
+                "unit": "g"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "200",
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "1914.8",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Mixing of components",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Performance evaluation of the CMP slurry",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Example3_CMP_Slurry",
+      "experiment_context": "CMP slurry composition with 0.82g of additive solution from Example 1",
+      "abrasive_synthesis": {
+        "description": "Using pre-made additive solution from Example 1",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry with additive solution, fumed silica, and hydrogen peroxide",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (SiO₂)",
+            "concentration": {
+              "initial": "",
+              "final": "3.64",
+              "unit": "weight%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Fe-Si-O additive solution from Example 1",
+              "type": "Oxidation catalyst",
+              "concentration": {
+                "value": "0.82",
+                "unit": "g"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "200",
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "1914.8",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Mixing of components",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Performance evaluation of the CMP slurry",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Example4_CMP_Slurry",
+      "experiment_context": "CMP slurry composition with 82g of additive solution from Example 1",
+      "abrasive_synthesis": {
+        "description": "Using pre-made additive solution from Example 1",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry with additive solution, fumed silica, and hydrogen peroxide",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (SiO₂)",
+            "concentration": {
+              "initial": "",
+              "final": "3.64",
+              "unit": "weight%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Fe-Si-O additive solution from Example 1",
+              "type": "Oxidation catalyst",
+              "concentration": {
+                "value": "82",
+                "unit": "g"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "200",
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "1914.8",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Mixing of components",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Performance evaluation of the CMP slurry",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "ComparativeExample1_CMP_Slurry",
+      "experiment_context": "CMP slurry composition without additive solution (control sample)",
+      "abrasive_synthesis": {
+        "description": "No additive synthesis for this comparative example",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry with fumed silica and hydrogen peroxide, without additive solution",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (SiO₂)",
+            "concentration": {
+              "initial": "",
+              "final": "3.64",
+              "unit": "weight%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "200",
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "1914.8",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Mixing of components",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Performance evaluation of the CMP slurry",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "ComparativeExample2_CMP_Slurry",
+      "experiment_context": "CMP slurry composition with iron nitrate instead of the Fe-Si-O additive solution",
+      "abrasive_synthesis": {
+        "description": "Using iron nitrate instead of the Fe-Si-O additive",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry with iron nitrate, fumed silica, and hydrogen peroxide",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (SiO₂)",
+            "concentration": {
+              "initial": "",
+              "final": "3.64",
+              "unit": "weight%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Iron nitrate",
+              "type": "Oxidation catalyst",
+              "concentration": {
+                "value": "0.3",
+                "unit": "g"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "200",
+                "unit": "g"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "1914.8",
+              "unit": "g"
+            }
+          }
+        },
+        "processing": {
+          "description": "Mixing of components",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Performance evaluation of the CMP slurry",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    }
+  ]
+}

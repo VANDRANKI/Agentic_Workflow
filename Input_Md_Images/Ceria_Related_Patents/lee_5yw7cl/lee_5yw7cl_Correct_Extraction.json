@@ -1,0 +1,348 @@
+{
+  "patent_number": "US 10,658,196 B2",
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITION AND METHOD FOR MANUFACTURING SEMICONDUCTOR USING THE SAME",
+  "filing_date": "2018-10-25",
+  "priority_date": "2017-11-30",
+  "applicant": "SOULBRAIN CO., LTD.",
+  "inventors": [
+    "Hyeong Ju Lee",
+    "Seok Joo Kim",
+    "Kyung Il Park"
+  ],
+  "samples": [
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Baseline slurry without amine activator or disaccharide.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          },
+          "particle_size_range": {
+            "min": 20,
+            "max": 120,
+            "unit": "nm"
+          }
+        },
+        "additives": [
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": 3
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "polisher": "Poli 400 (G&P Technology)",
+          "pad": "IC1010 (Dow Chemical Company)",
+          "time": {
+            "value": 60,
+            "unit": "sec"
+          },
+          "speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 210,
+            "unit": "g/cm³"
+          }
+        },
+        "tungsten_roughness": {
+          "Ra_before": {
+            "value": 28,
+            "unit": "Å"
+          },
+          "Rq_before": {
+            "value": 25,
+            "unit": "Å"
+          },
+          "Ra_after": {
+            "value": 16,
+            "unit": "Å"
+          },
+          "Rq_after": {
+            "value": 21,
+            "unit": "Å"
+          },
+          "Ra_change": {
+            "value": 9,
+            "unit": "Å"
+          },
+          "Rq_change": {
+            "value": 9,
+            "unit": "Å"
+          }
+        },
+        "residual_particles": null
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Slurry with tetrahydroxy ethylethylenediamine activator (0.05 wt%).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 5,
+            "unit": "wt%"
+          },
+          "particle_size_range": {
+            "min": 20,
+            "max": 120,
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "tetrahydroxy ethylethylenediamine",
+            "type": "amine-based polishing activator",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": 3
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "polisher": "Poli 400 (G&P Technology)",
+          "pad": "IC1010 (Dow Chemical Company)",
+          "time": {
+            "value": 60,
+            "unit": "sec"
+          },
+          "speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 210,
+            "unit": "g/cm³"
+          }
+        },
+        "tungsten_roughness": {
+          "Ra_before": {
+            "value": 22,
+            "unit": "Å"
+          },
+          "Rq_before": {
+            "value": 29,
+            "unit": "Å"
+          },
+          "Ra_after": {
+            "value": 9,
+            "unit": "Å"
+          },
+          "Rq_after": {
+            "value": 11,
+            "unit": "Å"
+          },
+          "Ra_change": {
+            "value": 13,
+            "unit": "Å"
+          },
+          "Rq_change": {
+            "value": 18,
+            "unit": "Å"
+          }
+        },
+        "residual_particles": null
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Slurry with tetrahydroxy ethylenehylenediamine activator (0.05 wt%). Note: Name might be typo for ethylethylenediamine.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 5,
+            "unit": "wt%"
+          },
+          "particle_size_range": {
+            "min": 20,
+            "max": 120,
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "tetrahydroxy ethylenehylenediamine",
+            "type": "amine-based polishing activator",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": 3
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "polisher": "Poli 400 (G&P Technology)",
+          "pad": "IC1010 (Dow Chemical Company)",
+          "time": {
+            "value": 60,
+            "unit": "sec"
+          },
+          "speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 210,
+            "unit": "g/cm³"
+          }
+        },
+        "tungsten_roughness": {
+          "Ra_before": {
+            "value": 26,
+            "unit": "Å"
+          },
+          "Rq_before": {
+            "value": 27,
+            "unit": "Å"
+          },
+          "Ra_after": {
+            "value": 2,
+            "unit": "Å"
+          },
+          "Rq_after": {
+            "value": 3,
+            "unit": "Å"
+          },
+          "Ra_change": {
+            "value": 24,
+            "unit": "Å"
+          },
+          "Rq_change": {
+            "value": 24,
+            "unit": "Å"
+          }
+        },
+        "residual_particles": {
+          "size_threshold": {
+            "value": 0.13,
+            "unit": "µm"
+          },
+          "unit": "count per 130mm wafer",
+          "after_1_wash": 578,
+          "after_2_washes_cumulative": 645,
+          "after_3_washes_cumulative": 734
+        }
+      }
+    },
+    {
+      "sample_id": "Example_11",
+      "experiment_context": "Slurry with tetrahydroxy ethylethylenediamine activator (0.05 wt%) and turanose disaccharide (0.05 wt%).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 5,
+            "unit": "wt%"
+          },
+          "particle_size_range": {
+            "min": 20,
+            "max": 120,
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "tetrahydroxy ethylethylenediamine",
+            "type": "amine-based polishing activator",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "turanose",
+            "type": "disaccharide roughness adjusting agent",
+            "concentration": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Water"
+        },
+        "ph_control": {
+          "target": 3
+        }
+      },
+      "cmp_performance": {
+        "polishing_conditions": {
+          "polisher": "Poli 400 (G&P Technology)",
+          "pad": "IC1010 (Dow Chemical Company)",
+          "time": {
+            "value": 60,
+            "unit": "sec"
+          },
+          "speed": {
+            "value": 100,
+            "unit": "rpm"
+          },
+          "pressure": {
+            "value": 210,
+            "unit": "g/cm³"
+          }
+        },
+        "tungsten_roughness": {
+          "Ra_before": {
+            "value": 26,
+            "unit": "Å"
+          },
+          "Rq_before": {
+            "value": 27,
+            "unit": "Å"
+          },
+          "Ra_after": {
+            "value": 2,
+            "unit": "Å"
+          },
+          "Rq_after": {
+            "value": 3,
+            "unit": "Å"
+          },
+          "Ra_change": {
+            "value": 24,
+            "unit": "Å"
+          },
+          "Rq_change": {
+            "value": 24,
+            "unit": "Å"
+          }
+        },
+        "residual_particles": {
+          "size_threshold": {
+            "value": 0.13,
+            "unit": "µm"
+          },
+          "unit": "count per 130mm wafer",
+          "after_1_wash": 240,
+          "after_2_washes_cumulative": 254,
+          "after_3_washes_cumulative": 288
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1502 @@
+{
+  "doi": "US 2004/0248412 A1",
+  "title": "METHOD AND COMPOSITION FOR FINE COPPER SLURRY FOR LOW DISHING IN ECMP",
+  "year_published": "2004",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Liu2004_BulkCuRemoval_Composition",
+      "experiment_context": "ECMP composition for bulk copper removal, applied as the first step in Examples 1-12. Initial Cu layer ~11,500 Å, step height ~6,000 Å. Target: reduce Cu to ~1,500 Å.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.15",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "6",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ethylenediamine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "2",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ammonium citrate",
+            "type": "Chelating agent/Salt",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.45",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 2% to about 6% by volume",
+            "purpose": "To provide a pH of about 5"
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "30-60",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Bulk Cu removal (first ECMP step)",
+        "initial_cu_thickness": {
+          "value": "11500",
+          "unit": "Å"
+        },
+        "initial_step_height": {
+          "value": "6000",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.2",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "3",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex1_ResidualCuRemoval_Composition1",
+      "experiment_context": "ECMP composition for residual copper removal, applied as the second step in Example 1.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "1.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ethylenediamine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "0.4",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ammonium citrate",
+            "type": "Chelating agent/Salt",
+            "concentration": {
+              "value": "0.8",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 5.4"
+          }
+        ],
+        "target_final_slurry_ph": "5.4",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 1)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex2_ResidualCuRemoval_Composition2_PEG",
+      "experiment_context": "ECMP composition for residual copper removal (with PEG), applied as the second step in Example 2.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "1.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ethylenediamine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "0.4",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ammonium citrate",
+            "type": "Chelating agent/Salt",
+            "concentration": {
+              "value": "0.8",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylene glycol",
+            "type": "Leveling agent",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 5.4"
+          }
+        ],
+        "target_final_slurry_ph": "5.4",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 2)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex3_ResidualCuRemoval_Composition3_Glycine_pH4.9",
+      "experiment_context": "ECMP composition for residual copper removal (with Glycine, pH 4.9), applied as the second step in Example 3.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "1.0",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "0.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.35",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 4.9"
+          }
+        ],
+        "target_final_slurry_ph": "4.9",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 3)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex4_ResidualCuRemoval_Composition4_Glycine1.0_pH6.1",
+      "experiment_context": "ECMP composition for residual copper removal (with 1.0% Glycine, pH 6.1), applied as the second step in Example 4.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "0.6",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "1.0",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.35",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 6.1"
+          }
+        ],
+        "target_final_slurry_ph": "6.1",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 4)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex5_ResidualCuRemoval_Composition5_Glycine1.5_pH6.1",
+      "experiment_context": "ECMP composition for residual copper removal (with 1.5% Glycine, pH 6.1), applied as the second step in Example 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "0.6",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "1.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.35",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 6.1"
+          }
+        ],
+        "target_final_slurry_ph": "6.1",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 5)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex6_ResidualCuRemoval_Composition6_Glycine2.0_pH6.1",
+      "experiment_context": "ECMP composition for residual copper removal (with 2.0% Glycine, pH 6.1), applied as the second step in Example 6.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "0.6",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "2.0",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.35",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 6.1"
+          }
+        ],
+        "target_final_slurry_ph": "6.1",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 6)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex7_ResidualCuRemoval_Composition7_NoH2O2",
+      "experiment_context": "ECMP composition for residual copper removal (No H2O2, similar to Ex1 Comp2 otherwise), applied as the second step in Example 7.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "1.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ethylenediamine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "0.4",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ammonium citrate",
+            "type": "Chelating agent/Salt",
+            "concentration": {
+              "value": "0.8",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 5.4"
+          }
+        ],
+        "target_final_slurry_ph": "5.4",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 7, no H2O2)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex8_ResidualCuRemoval_Composition8_PEG_NoH2O2",
+      "experiment_context": "ECMP composition for residual copper removal (with PEG, No H2O2, similar to Ex2 Comp2 otherwise), applied as the second step in Example 8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "1.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ethylenediamine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "0.4",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Ammonium citrate",
+            "type": "Chelating agent/Salt",
+            "concentration": {
+              "value": "0.8",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.25",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyethylene glycol",
+            "type": "Leveling agent",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 5.4"
+          }
+        ],
+        "target_final_slurry_ph": "5.4",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 8, with PEG, no H2O2)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex9_ResidualCuRemoval_Composition9_Glycine_pH4.9_NoH2O2",
+      "experiment_context": "ECMP composition for residual copper removal (with Glycine, pH 4.9, No H2O2, similar to Ex3 Comp2 otherwise), applied as the second step in Example 9.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "1.0",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "0.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.35",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 4.9"
+          }
+        ],
+        "target_final_slurry_ph": "4.9",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 9, with Glycine, pH 4.9, no H2O2)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex10_ResidualCuRemoval_Composition10_Glycine1.0_pH6.1_NoH2O2",
+      "experiment_context": "ECMP composition for residual copper removal (with 1.0% Glycine, pH 6.1, No H2O2, similar to Ex4 Comp2 otherwise), applied as the second step in Example 10.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "0.6",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "1.0",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.35",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 6.1"
+          }
+        ],
+        "target_final_slurry_ph": "6.1",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 10, with 1.0% Glycine, pH 6.1, no H2O2)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex11_ResidualCuRemoval_Composition11_Glycine1.5_pH6.1_NoH2O2",
+      "experiment_context": "ECMP composition for residual copper removal (with 1.5% Glycine, pH 6.1, No H2O2, similar to Ex5 Comp2 otherwise), applied as the second step in Example 11.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "0.6",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "1.5",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.35",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 6.1"
+          }
+        ],
+        "target_final_slurry_ph": "6.1",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 11, with 1.5% Glycine, pH 6.1, no H2O2)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Liu2004_Ex12_ResidualCuRemoval_Composition12_Glycine2.0_pH6.1_NoH2O2",
+      "experiment_context": "ECMP composition for residual copper removal (with 2.0% Glycine, pH 6.1, No H2O2, similar to Ex6 Comp2 otherwise), applied as the second step in Example 12.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiO2",
+        "abrasive_concentration": {
+          "value": "0.7",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Phosphoric acid",
+            "type": "Electrolyte",
+            "concentration": {
+              "value": "0.6",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Glycine",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "2.0",
+              "unit": "% by volume"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.35",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "40% KOH solution",
+            "type": "pH adjuster",
+            "concentration_qualitative": "from about 0.5% to about 3% by volume",
+            "purpose": "To provide a pH of about 6.1"
+          }
+        ],
+        "target_final_slurry_ph": "6.1",
+        "solvent": {
+          "name": "De-ionized water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "slurry_conductivity": {
+          "value_range": "15-40",
+          "unit": "mS"
+        }
+      },
+      "cmp_performance": {
+        "polishing_step_description": "Residual Cu removal (second ECMP step of Example 12, with 2.0% Glycine, pH 6.1, no H2O2)",
+        "initial_cu_thickness": {
+          "value": "1500",
+          "unit": "Å"
+        },
+        "final_cu_thickness_after_step": {
+          "value": "0",
+          "unit": "Å"
+        },
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.1",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "electrical_parameters": {
+          "bias_voltage": {
+            "value": "1.5",
+            "unit": "volts"
+          }
+        },
+        "equipment_model": "REFLEXION® system",
+        "pad_composition": "Conductive polishing article"
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

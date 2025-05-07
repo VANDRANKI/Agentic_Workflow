@@ -1,0 +1,350 @@
+{
+  "doi": null,
+  "title": "SLURRY COMPOSITIONS FOR USE IN A CHEMICAL-MECHANICAL PLANARIZATION PROCESS",
+  "year_published": "2004",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "PatentEx1_Ultrafine_Calcined_Kaolin_Abrasive",
+      "experiment_context": "Ultrafine calcined kaolin abrasive prepared from Ansilex 9348 calcined kaolin slurry. Processed by additive mixing (Defloc 411), Netzsch milling (zirconia beads, 1.2 gpm, 2 passes), further additive, spray drying, reslurrying (Waring Blender, 5 min), and desliming (CU5000 centrifuge, 40% solids feed, 26 min wide open). SEM shown in FIG. 12 of patent.",
+      "precursor_chemical": "Ansilex 9348 calcined kaolin slurry",
+      "precursor_concentration": {
+        "value": "50",
+        "unit": "% solids"
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null,
+        "other_details": "Initial mixing with Defloc 411 (4 pounds per ton). Netzsch milled (1.2 gallons per minute, 2 passes) using zirconia beads. After milling, Defloc 411 (2 pounds per ton) added. Spray dried. Reslurried in Waring Blender for 5 minutes."
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Deslimed on CU5000 centrifuge",
+          "conductivity_threshold": null,
+          "details": "40% solids feed, 26 minutes wide open, to obtain ultrafine fraction."
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "<0.5", 
+          "unit": "µm",
+          "measurement_method_used": "Sedigraph 5100",
+          "details": "For ultrafine product: 100% < 1µm, 99% < 0.5µm, 98% < 0.3µm, 85% < 0.2µm. General patent text suggests average 0.01-0.5µm for kaolin."
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Plate-like (from SEM FIG. 12 of patent)",
+        "xrd_peaks": null,
+        "material_composition": "Calcined Kaolin"
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PatentEx2_KaolinSlurry_from_Ex1",
+      "experiment_context": "CMP slurry formulated with ultrafine calcined kaolin (from PatentEx1_Ultrafine_Calcined_Kaolin_Abrasive) at 4% solids. Chemical package: hydrogen peroxide, benzotriazole, citric acid, TEA, TX-100. Tested on 200mm Si wafers (Cu interconnects, Ta barrier). Performance (Table 3): Erosion <1 nm (100µm pitch, 50% density), Good Cu/Ta selectivity. Cu MRR ~25 nm/min (from FIG. 13).",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "4",
+          "unit": "% solids"
+        },
+        "additives": [
+          {"name": "hydrogen peroxide", "type": "oxidizer", "concentration": null},
+          {"name": "benzotriazole", "type": "passivator", "concentration": null},
+          {"name": "citric acid", "type": "complexing/etching agent", "concentration": null},
+          {"name": "TEA", "type": "stabilizer", "concentration": null},
+          {"name": "TX-100", "type": "stabilizer", "concentration": null}
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "DI water (assumed)",
+          "quantity": null
+        },
+        "other_details": "Slurry passed through Puradisc 25 GD glass filter (2 microns pore size)."
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "<0.5",
+          "unit": "µm",
+          "measurement_method_used": "Sedigraph 5100",
+          "details": "Abrasive from PatentEx1_Ultrafine_Calcined_Kaolin_Abrasive."
+        },
+        "particle_morphology": "Plate-like"
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "25", 
+          "unit": "nm/min",
+          "details": "Material: Copper. Estimated from FIG. 13 (approx. 250 Å/min)."
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Novellus IPEC 372",
+        "pad_composition": null,
+        "substrate_details": "200 mm Si wafers with copper interconnects and Ta diffusion barrier (dual-damascene)."
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PatentEx2_AluminaSlurry_Comparative",
+      "experiment_context": "Commercial alumina-based CMP slurry (Cabot Microelectronics) as comparative. Tested on 200mm Si wafers (Cu interconnects, Ta barrier). Performance (Table 3): Erosion and Dishing - severe overpolishing (100µm pitch, 50% density), Very low Cu/Ta selectivity. Cu MRR ~70 nm/min (from FIG. 13).",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": null,
+        "other_details": "Commercial alumina-based CMP slurry (Cabot Microelectronics)."
+      },
+      "characterization": {
+        "particle_morphology": "Spherical (typical for alumina, not specified)"
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "70",
+          "unit": "nm/min",
+          "details": "Material: Copper. Estimated from FIG. 13 (approx. 700 Å/min)."
+        },
+        "process_temperature": null,
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Novellus IPEC 372",
+        "pad_composition": null,
+        "substrate_details": "200 mm Si wafers with copper interconnects and Ta diffusion barrier (dual-damascene)."
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PatentEx3_Ultrafine_Hydrous_Kaolin_SampleA_Abrasive",
+      "experiment_context": "Ultrafine hydrous kaolin (Sample A) prepared from Engelhard spray dried product. Reslurried (Waring Blender, 5 min, 40% solids), deslimed (CU5000 centrifuge, 40% solids, 15 min wide open). Supernatant (5% solids) filtered (Whatman filter, 2µm). SEM in FIG. 14 of patent.",
+      "precursor_chemical": "Hydrous kaolin spray dried product (Engelhard)",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "other_details": "Reslurried in Waring Blender for 5 minutes to 40% solids."
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Deslimed on CU5000 centrifuge (2400 rpms)",
+          "details": "40% solids feed, 15 minutes wide open. Supernatant at 5% solids was the product."
+        },
+        "filtration": "Filtered through Whatman filter (25 mm diameter, 2 µm pore size)."
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "<0.3",
+          "unit": "µm",
+          "measurement_method_used": "Sedigraph 5100",
+          "details": "Sample A: 100% < 2µm, 99% < 1µm, 98% < 0.5µm, 84% < 0.3µm, 61% < 0.18µm (from Table 4)."
+        },
+        "particle_morphology": "Plate-like (from SEM FIG. 14 of patent)",
+        "material_composition": "Hydrous Kaolin"
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PatentEx3_Ultrafine_Hydrous_Kaolin_SampleB_Abrasive",
+      "experiment_context": "Ultrafine hydrous kaolin (Sample B) prepared from a different starting feed PSD material. Deslimed (CU5000, 40% solids, 15 min), then ultrafines subjected to additional 32 min desliming (2400 rpm). Filtered (Whatman filter, 2µm).",
+      "precursor_chemical": "Hydrous kaolin spray dried product (different starting feed PSD material)",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+         "other_details": "Reslurried (assumed, similar to Sample A) to 40% solids."
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Deslimed on CU5000 centrifuge (2400 rpms)",
+          "details": "Initial 15 min desliming, then ultrafines subjected to additional 32 min desliming."
+        },
+        "filtration": "Filtered through Whatman filter (25 mm diameter, 2 µm pore size)."
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "<0.3",
+          "unit": "µm",
+          "measurement_method_used": "Sedigraph 5100",
+          "details": "Sample B: 100% < 2µm, 99% < 1µm, 99% < 0.5µm, 93% < 0.3µm, 78% < 0.18µm (from Table 5)."
+        },
+        "particle_morphology": "Plate-like (assumed similar to Sample A)",
+        "material_composition": "Hydrous Kaolin"
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "PatentEx4_CuCMP_HydrousKaolin_SampleA",
+      "experiment_context": "CMP test using ultrafine hydrous kaolin (Sample A from Ex3). Chemical package from Ex2 (H2O2, BTA, citric acid, TEA, TX-100). Tested on bare TEOS, Cu, Ta wafers, and patterned wafers. Blanket Cu MRR: 254 nm/min, WIWNU: 4.7%, Cu/Ta Selectivity: 65, Ta/TEOS Selectivity: 5.9. Patterned wafer (just polished) Dishing: 110 nm, Erosion: 20 nm. (Overpolished 20% extra time) Dishing: 125 nm, Erosion: 20 nm.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "hydrogen peroxide", "type": "oxidizer", "concentration": null},
+          {"name": "benzotriazole", "type": "passivator", "concentration": null},
+          {"name": "citric acid", "type": "complexing/etching agent", "concentration": null},
+          {"name": "TEA", "type": "stabilizer", "concentration": null},
+          {"name": "TX-100", "type": "stabilizer", "concentration": null}
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {"name": "DI water (assumed)"},
+        "abrasive_details": "Ultrafine hydrous kaolin (Sample A from Ex3)"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {"value": "254", "unit": "nm/min", "details": "Material: Copper (blanket wafer)"},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "platen_speed": {"value": "60", "unit": "rpm"},
+        "equipment_model": "IPEC-372 M",
+        "substrate_details": "200mm TEOS, Cu, Ta blanket wafers; 200mm Si patterned wafers (Cu interconnects, Ta barrier, dual damascene)."
+      }
+    },
+    {
+      "sample_id": "PatentEx4_CuCMP_FumedSilica_ComparativeA",
+      "experiment_context": "Comparative CMP test using fumed silica (Aerosil 200). Chemical package from Ex2. Tested on bare TEOS, Cu, Ta wafers, and patterned wafers. Blanket Cu MRR: 206 nm/min, WIWNU: 4.9%, Cu/Ta Selectivity: 40, Ta/TEOS Selectivity: 1.4. Patterned wafer (just polished) Dishing: 120 nm, Erosion: 100 nm. (Overpolished 20% extra time) Dishing: 130 nm, Erosion: 110 nm.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "hydrogen peroxide", "type": "oxidizer", "concentration": null},
+          {"name": "benzotriazole", "type": "passivator", "concentration": null},
+          {"name": "citric acid", "type": "complexing/etching agent", "concentration": null},
+          {"name": "TEA", "type": "stabilizer", "concentration": null},
+          {"name": "TX-100", "type": "stabilizer", "concentration": null}
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {"name": "DI water (assumed)"},
+        "abrasive_details": "Fumed silica (Aerosil 200, Degussa, primary particle size 12 nm, avg aggregate 170 nm by Microtrac)"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {"value": "206", "unit": "nm/min", "details": "Material: Copper (blanket wafer)"},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "platen_speed": {"value": "60", "unit": "rpm"},
+        "equipment_model": "IPEC-372 M",
+        "substrate_details": "200mm TEOS, Cu, Ta blanket wafers; 200mm Si patterned wafers (Cu interconnects, Ta barrier, dual damascene)."
+      }
+    },
+    {
+      "sample_id": "PatentEx4_CuCMP_Alumina_ComparativeB",
+      "experiment_context": "Comparative CMP test using alpha alumina (Polishing Solutions Inc.). Chemical package from Ex2. Tested on bare TEOS, Cu, Ta wafers, and patterned wafers. Blanket Cu MRR: 713 nm/min, WIWNU: 10.2%, Cu/Ta Selectivity: 17, Ta/TEOS Selectivity: 2.8. Patterned wafer (just polished) Dishing: 110 nm, Erosion: 150 nm. (Overpolished 20% extra time) Dishing: 120 nm, Erosion: 160 nm.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "hydrogen peroxide", "type": "oxidizer", "concentration": null},
+          {"name": "benzotriazole", "type": "passivator", "concentration": null},
+          {"name": "citric acid", "type": "complexing/etching agent", "concentration": null},
+          {"name": "TEA", "type": "stabilizer", "concentration": null},
+          {"name": "TX-100", "type": "stabilizer", "concentration": null}
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {"name": "DI water (assumed)"},
+        "abrasive_details": "Alpha alumina (Polishing Solutions Inc.)"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {"value": "713", "unit": "nm/min", "details": "Material: Copper (blanket wafer)"},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "platen_speed": {"value": "60", "unit": "rpm"},
+        "equipment_model": "IPEC-372 M",
+        "substrate_details": "200mm TEOS, Cu, Ta blanket wafers; 200mm Si patterned wafers (Cu interconnects, Ta barrier, dual damascene)."
+      }
+    },
+    {
+      "sample_id": "PatentEx5_CuCMP_HydrousKaolin_SampleB",
+      "experiment_context": "CMP test using ultrafine hydrous kaolin (Sample B from Ex3). Modified chemical package (Ex2 package minus TX100 and TEA, pH lowered from 5 to 4). Tested on bare TEOS, Cu, Ta wafers, and patterned wafers. Blanket Cu MRR: 173 nm/min, WIWNU: 1%, Cu/TEOS Selectivity: 1020. Patterned wafer (just polished) Dishing: 405 nm (150µm line), Erosion: 25 nm (70% density). (Overpolished 20% extra time) Dishing: 510 nm, Erosion: 32 nm.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "hydrogen peroxide", "type": "oxidizer", "concentration": null},
+          {"name": "benzotriazole", "type": "passivator", "concentration": null},
+          {"name": "citric acid", "type": "complexing/etching agent", "concentration": null}
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {"name": "DI water (assumed)"},
+        "abrasive_details": "Ultrafine hydrous kaolin (Sample B from Ex3)"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {"value": "173", "unit": "nm/min", "details": "Material: Copper (blanket wafer)"},
+        "polishing_pressure": {"value": "2", "unit": "psi"},
+        "platen_speed": {"value": "90", "unit": "rpm"},
+        "equipment_model": "IPEC-372 M (same machine as Ex4)",
+        "substrate_details": "200mm TEOS, Cu, Ta blanket wafers; 200mm Si patterned wafers (Cu interconnects, Ta barrier, dual damascene)."
+      }
+    },
+    {
+      "sample_id": "PatentEx5_CuCMP_FumedSilica_ComparativeC",
+      "experiment_context": "Comparative CMP test using fumed silica (Aerosil 200 from Ex4). Modified chemical package (Ex2 package minus TX100 and TEA, pH lowered from 5 to 4). Tested on bare TEOS, Cu, Ta wafers, and patterned wafers. Blanket Cu MRR: 224 nm/min, WIWNU: 1%, Cu/TEOS Selectivity: 83. Patterned wafer (just polished) Dishing: 503 nm (150µm line), Erosion: 223 nm (70% density). (Overpolished 20% extra time) Dishing: 466 nm, Erosion: 247 nm.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "hydrogen peroxide", "type": "oxidizer", "concentration": null},
+          {"name": "benzotriazole", "type": "passivator", "concentration": null},
+          {"name": "citric acid", "type": "complexing/etching agent", "concentration": null}
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {"name": "DI water (assumed)"},
+        "abrasive_details": "Fumed silica (Aerosil 200, Degussa)"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {"value": "224", "unit": "nm/min", "details": "Material: Copper (blanket wafer)"},
+        "polishing_pressure": {"value": "2", "unit": "psi"},
+        "platen_speed": {"value": "90", "unit": "rpm"},
+        "equipment_model": "IPEC-372 M",
+        "substrate_details": "200mm TEOS, Cu, Ta blanket wafers; 200mm Si patterned wafers (Cu interconnects, Ta barrier, dual damascene)."
+      }
+    },
+    {
+      "sample_id": "PatentEx5_CuCMP_Alumina_ComparativeD_CCMP",
+      "experiment_context": "Comparative CMP test using commercial alumina-based slurry (CCMP from Cabot Microelectronics). Modified chemical package context (pH 4, no TX100/TEA assumed for comparison basis, though CCMP is commercial). Tested on bare TEOS, Cu, Ta wafers, and patterned wafers. Blanket Cu MRR: 127 nm/min, WIWNU: 17%, Cu/TEOS Selectivity: 52. Patterned wafer (just polished) Dishing: 131 nm (150µm line), Erosion: 45 nm (70% density). (Overpolished 20% extra time) Dishing: 133 nm, Erosion: 70 nm.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [],
+        "target_final_slurry_ph": "4 (for comparative context, actual CCMP pH may vary)",
+        "solvent": {"name": "DI water (assumed)"},
+        "abrasive_details": "Alumina-based commercial slurry (CCMP, Cabot Microelectronics)"
+      },
+      "cmp_performance": {
+        "material_removal_rate": {"value": "127", "unit": "nm/min", "details": "Material: Copper (blanket wafer)"},
+        "polishing_pressure": {"value": "2", "unit": "psi"},
+        "platen_speed": {"value": "90", "unit": "rpm"},
+        "equipment_model": "IPEC-372 M",
+        "substrate_details": "200mm TEOS, Cu, Ta blanket wafers; 200mm Si patterned wafers (Cu interconnects, Ta barrier, dual damascene)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "doi": "US9593260B2",
+  "title": "CMP SLURRY COMPOSITION FOR POLISHING COPPER, AND POLISHING METHOD USING SAME",
+  "year_published": "2017",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "CMP slurry with Glycine (6 wt%) and Oxalic acid (0.03 wt%) as complexing agent. Abrasive: 1.0 wt% colloidal silica. Corrosion Inhibitor: 0.1 wt% 1,2,3-triazole. Oxidant: 1.0 wt% hydrogen peroxide. pH 7.0. Defects: 1123 ea. LPC: 22457 ea.",
+      "precursor_chemical": null,
+      "precursor_concentration": { "value": null, "unit": null },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": null, "unit": "" },
+      "reaction_time": { "value": null, "unit": "h" },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": { "value": null, "unit": "" },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": { "value": null, "unit": "µS/cm" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing agent component",
+            "concentration": { "value": "6", "unit": "wt%" }
+          },
+          {
+            "name": "Oxalic acid",
+            "type": "Complexing agent component",
+            "concentration": { "value": "0.03", "unit": "wt%" }
+          },
+          {
+            "name": "1,2,3-triazole",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "7.0",
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": { "value": null, "unit": "" }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": null, "unit": "nm", "measurement_method_used": null },
+        "crystallite_size": { "value": null, "unit": "nm" },
+        "crystallinity_phase_composition": { "value": null, "unit": "%" },
+        "surface_functional_groups": {
+          "OH": {"density": {"value": null, "unit": "nm⁻²"}},
+          "NO3": {"density": {"value": null, "unit": "nm⁻²"}, "ftir_peak_present": null},
+          "CH3": {"density": {"value": null, "unit": "nm⁻²"}}
+        },
+        "elemental_composition": {
+          "C": {"value": null, "unit": "%"},
+          "H": {"value": null, "unit": "%"},
+          "N": {"value": null, "unit": "%"}
+        },
+        "particle_morphology": "Colloidal silica",
+        "xrd_peaks": [],
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": [],
+        "raman_peaks_cm-1": [],
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": {
+            "OH": null,
+            "Ov": null,
+            "OL": null
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "30", "unit": "s" },
+        "material_removal_rate": { "value": "5482", "unit": "A/min" },
+        "process_temperature": { "value": "RT", "unit": "" },
+        "polishing_pressure": { "value": "2.65", "unit": "psi" },
+        "pad_conditioning_pressure": { "value": null, "unit": null },
+        "equipment_model": "Mirra polisher (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked polishing pad (Rodel Co., Ltd.)"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": { "value": null, "unit": "J/m²", "conditions": null }
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "CMP slurry with Glycine (6 wt%) and Oxalic acid (0.06 wt%) as complexing agent. Abrasive: 1.0 wt% colloidal silica. Corrosion Inhibitor: 0.1 wt% 1,2,3-triazole. Oxidant: 1.0 wt% hydrogen peroxide. pH 7.0. Defects: 1003 ea. LPC: 17859 ea.",
+      "precursor_chemical": null,
+      "precursor_concentration": { "value": null, "unit": null },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": null, "unit": "" },
+      "reaction_time": { "value": null, "unit": "h" },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": { "value": null, "unit": "" },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": { "value": null, "unit": "µS/cm" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing agent component",
+            "concentration": { "value": "6", "unit": "wt%" }
+          },
+          {
+            "name": "Oxalic acid",
+            "type": "Complexing agent component",
+            "concentration": { "value": "0.06", "unit": "wt%" }
+          },
+          {
+            "name": "1,2,3-triazole",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "7.0",
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": { "value": null, "unit": "" }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": null, "unit": "nm", "measurement_method_used": null },
+        "crystallite_size": { "value": null, "unit": "nm" },
+        "crystallinity_phase_composition": { "value": null, "unit": "%" },
+        "surface_functional_groups": {
+          "OH": {"density": {"value": null, "unit": "nm⁻²"}},
+          "NO3": {"density": {"value": null, "unit": "nm⁻²"}, "ftir_peak_present": null},
+          "CH3": {"density": {"value": null, "unit": "nm⁻²"}}
+        },
+        "elemental_composition": {
+          "C": {"value": null, "unit": "%"},
+          "H": {"value": null, "unit": "%"},
+          "N": {"value": null, "unit": "%"}
+        },
+        "particle_morphology": "Colloidal silica",
+        "xrd_peaks": [],
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": [],
+        "raman_peaks_cm-1": [],
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": {
+            "OH": null,
+            "Ov": null,
+            "OL": null
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "30", "unit": "s" },
+        "material_removal_rate": { "value": "4936", "unit": "A/min" },
+        "process_temperature": { "value": "RT", "unit": "" },
+        "polishing_pressure": { "value": "2.65", "unit": "psi" },
+        "pad_conditioning_pressure": { "value": null, "unit": null },
+        "equipment_model": "Mirra polisher (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked polishing pad (Rodel Co., Ltd.)"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": { "value": null, "unit": "J/m²", "conditions": null }
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "CMP slurry with Glycine (6 wt%) and Oxalic acid (0.1 wt%) as complexing agent. Abrasive: 1.0 wt% colloidal silica. Corrosion Inhibitor: 0.1 wt% 1,2,3-triazole. Oxidant: 1.0 wt% hydrogen peroxide. pH 7.0. Defects: 922 ea. LPC: 15696 ea.",
+      "precursor_chemical": null,
+      "precursor_concentration": { "value": null, "unit": null },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": null, "unit": "" },
+      "reaction_time": { "value": null, "unit": "h" },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": { "value": null, "unit": "" },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": { "value": null, "unit": "µS/cm" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing agent component",
+            "concentration": { "value": "6", "unit": "wt%" }
+          },
+          {
+            "name": "Oxalic acid",
+            "type": "Complexing agent component",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          },
+          {
+            "name": "1,2,3-triazole",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "7.0",
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": { "value": null, "unit": "" }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": null, "unit": "nm", "measurement_method_used": null },
+        "crystallite_size": { "value": null, "unit": "nm" },
+        "crystallinity_phase_composition": { "value": null, "unit": "%" },
+        "surface_functional_groups": {
+          "OH": {"density": {"value": null, "unit": "nm⁻²"}},
+          "NO3": {"density": {"value": null, "unit": "nm⁻²"}, "ftir_peak_present": null},
+          "CH3": {"density": {"value": null, "unit": "nm⁻²"}}
+        },
+        "elemental_composition": {
+          "C": {"value": null, "unit": "%"},
+          "H": {"value": null, "unit": "%"},
+          "N": {"value": null, "unit": "%"}
+        },
+        "particle_morphology": "Colloidal silica",
+        "xrd_peaks": [],
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": [],
+        "raman_peaks_cm-1": [],
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": {
+            "OH": null,
+            "Ov": null,
+            "OL": null
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "30", "unit": "s" },
+        "material_removal_rate": { "value": "4504", "unit": "A/min" },
+        "process_temperature": { "value": "RT", "unit": "" },
+        "polishing_pressure": { "value": "2.65", "unit": "psi" },
+        "pad_conditioning_pressure": { "value": null, "unit": null },
+        "equipment_model": "Mirra polisher (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked polishing pad (Rodel Co., Ltd.)"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": { "value": null, "unit": "J/m²", "conditions": null }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "CMP slurry with Glycine (6 wt%) as complexing agent. Abrasive: 1.0 wt% colloidal silica. Corrosion Inhibitor: 0.1 wt% 1,2,3-triazole. Oxidant: 1.0 wt% hydrogen peroxide. pH 7.0. Defects: 1423 ea. LPC: 24783 ea.",
+      "precursor_chemical": null,
+      "precursor_concentration": { "value": null, "unit": null },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": null, "unit": "" },
+      "reaction_time": { "value": null, "unit": "h" },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": { "value": null, "unit": "" },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": { "value": null, "unit": "µS/cm" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing agent component",
+            "concentration": { "value": "6", "unit": "wt%" }
+          },
+          {
+            "name": "1,2,3-triazole",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "7.0",
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": { "value": null, "unit": "" }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": null, "unit": "nm", "measurement_method_used": null },
+        "crystallite_size": { "value": null, "unit": "nm" },
+        "crystallinity_phase_composition": { "value": null, "unit": "%" },
+        "surface_functional_groups": {
+          "OH": {"density": {"value": null, "unit": "nm⁻²"}},
+          "NO3": {"density": {"value": null, "unit": "nm⁻²"}, "ftir_peak_present": null},
+          "CH3": {"density": {"value": null, "unit": "nm⁻²"}}
+        },
+        "elemental_composition": {
+          "C": {"value": null, "unit": "%"},
+          "H": {"value": null, "unit": "%"},
+          "N": {"value": null, "unit": "%"}
+        },
+        "particle_morphology": "Colloidal silica",
+        "xrd_peaks": [],
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": [],
+        "raman_peaks_cm-1": [],
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": {
+            "OH": null,
+            "Ov": null,
+            "OL": null
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "30", "unit": "s" },
+        "material_removal_rate": { "value": "5896", "unit": "A/min" },
+        "process_temperature": { "value": "RT", "unit": "" },
+        "polishing_pressure": { "value": "2.65", "unit": "psi" },
+        "pad_conditioning_pressure": { "value": null, "unit": null },
+        "equipment_model": "Mirra polisher (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked polishing pad (Rodel Co., Ltd.)"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": { "value": null, "unit": "J/m²", "conditions": null }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "CMP slurry with Glycine (6 wt%) and Oxalic acid (1 wt%) as complexing agent. Abrasive: 1.0 wt% colloidal silica. Corrosion Inhibitor: 0.1 wt% 1,2,3-triazole. Oxidant: 1.0 wt% hydrogen peroxide. pH 7.0. Defects: 1625 ea. LPC: 26513 ea.",
+      "precursor_chemical": null,
+      "precursor_concentration": { "value": null, "unit": null },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": null, "unit": "" },
+      "reaction_time": { "value": null, "unit": "h" },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": { "value": null, "unit": "" },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": { "value": null, "unit": "µS/cm" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing agent component",
+            "concentration": { "value": "6", "unit": "wt%" }
+          },
+          {
+            "name": "Oxalic acid",
+            "type": "Complexing agent component",
+            "concentration": { "value": "1", "unit": "wt%" }
+          },
+          {
+            "name": "1,2,3-triazole",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "7.0",
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": { "value": null, "unit": "" }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": null, "unit": "nm", "measurement_method_used": null },
+        "crystallite_size": { "value": null, "unit": "nm" },
+        "crystallinity_phase_composition": { "value": null, "unit": "%" },
+        "surface_functional_groups": {
+          "OH": {"density": {"value": null, "unit": "nm⁻²"}},
+          "NO3": {"density": {"value": null, "unit": "nm⁻²"}, "ftir_peak_present": null},
+          "CH3": {"density": {"value": null, "unit": "nm⁻²"}}
+        },
+        "elemental_composition": {
+          "C": {"value": null, "unit": "%"},
+          "H": {"value": null, "unit": "%"},
+          "N": {"value": null, "unit": "%"}
+        },
+        "particle_morphology": "Colloidal silica",
+        "xrd_peaks": [],
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": [],
+        "raman_peaks_cm-1": [],
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": {
+            "OH": null,
+            "Ov": null,
+            "OL": null
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "30", "unit": "s" },
+        "material_removal_rate": { "value": "5690", "unit": "A/min" },
+        "process_temperature": { "value": "RT", "unit": "" },
+        "polishing_pressure": { "value": "2.65", "unit": "psi" },
+        "pad_conditioning_pressure": { "value": null, "unit": null },
+        "equipment_model": "Mirra polisher (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked polishing pad (Rodel Co., Ltd.)"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": { "value": null, "unit": "J/m²", "conditions": null }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_3",
+      "experiment_context": "CMP slurry with Oxalic acid (1 wt%) as complexing agent. Abrasive: 1.0 wt% colloidal silica. Corrosion Inhibitor: 0.1 wt% 1,2,3-triazole. Oxidant: 1.0 wt% hydrogen peroxide. pH 7.0. Defects: 1489 ea. LPC: 19543 ea.",
+      "precursor_chemical": null,
+      "precursor_concentration": { "value": null, "unit": null },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": null, "unit": "" },
+      "reaction_time": { "value": null, "unit": "h" },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": { "value": null, "unit": "" },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": { "value": null, "unit": "µS/cm" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Oxalic acid",
+            "type": "Complexing agent component",
+            "concentration": { "value": "1", "unit": "wt%" }
+          },
+          {
+            "name": "1,2,3-triazole",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "7.0",
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": { "value": null, "unit": "" }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": null, "unit": "nm", "measurement_method_used": null },
+        "crystallite_size": { "value": null, "unit": "nm" },
+        "crystallinity_phase_composition": { "value": null, "unit": "%" },
+        "surface_functional_groups": {
+          "OH": {"density": {"value": null, "unit": "nm⁻²"}},
+          "NO3": {"density": {"value": null, "unit": "nm⁻²"}, "ftir_peak_present": null},
+          "CH3": {"density": {"value": null, "unit": "nm⁻²"}}
+        },
+        "elemental_composition": {
+          "C": {"value": null, "unit": "%"},
+          "H": {"value": null, "unit": "%"},
+          "N": {"value": null, "unit": "%"}
+        },
+        "particle_morphology": "Colloidal silica",
+        "xrd_peaks": [],
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": [],
+        "raman_peaks_cm-1": [],
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": {
+            "OH": null,
+            "Ov": null,
+            "OL": null
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "30", "unit": "s" },
+        "material_removal_rate": { "value": "1740", "unit": "A/min" },
+        "process_temperature": { "value": "RT", "unit": "" },
+        "polishing_pressure": { "value": "2.65", "unit": "psi" },
+        "pad_conditioning_pressure": { "value": null, "unit": null },
+        "equipment_model": "Mirra polisher (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked polishing pad (Rodel Co., Ltd.)"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": { "value": null, "unit": "J/m²", "conditions": null }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_4",
+      "experiment_context": "CMP slurry with Alanine (6 wt%) and Oxalic acid (0.1 wt%) as complexing agent. Abrasive: 1.0 wt% colloidal silica. Corrosion Inhibitor: 0.1 wt% 1,2,3-triazole. Oxidant: 1.0 wt% hydrogen peroxide. pH 7.0. Defects: 1542 ea. LPC: 21648 ea.",
+      "precursor_chemical": null,
+      "precursor_concentration": { "value": null, "unit": null },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": null, "unit": "" },
+      "reaction_time": { "value": null, "unit": "h" },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": { "value": null, "unit": "" },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": { "value": null, "unit": "µS/cm" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Alanine",
+            "type": "Complexing agent component (Amino acid)",
+            "concentration": { "value": "6", "unit": "wt%" }
+          },
+          {
+            "name": "Oxalic acid",
+            "type": "Complexing agent component (Organic acid)",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          },
+          {
+            "name": "1,2,3-triazole",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "7.0",
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": { "value": null, "unit": "" }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": null, "unit": "nm", "measurement_method_used": null },
+        "crystallite_size": { "value": null, "unit": "nm" },
+        "crystallinity_phase_composition": { "value": null, "unit": "%" },
+        "surface_functional_groups": {
+          "OH": {"density": {"value": null, "unit": "nm⁻²"}},
+          "NO3": {"density": {"value": null, "unit": "nm⁻²"}, "ftir_peak_present": null},
+          "CH3": {"density": {"value": null, "unit": "nm⁻²"}}
+        },
+        "elemental_composition": {
+          "C": {"value": null, "unit": "%"},
+          "H": {"value": null, "unit": "%"},
+          "N": {"value": null, "unit": "%"}
+        },
+        "particle_morphology": "Colloidal silica",
+        "xrd_peaks": [],
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": [],
+        "raman_peaks_cm-1": [],
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": {
+            "OH": null,
+            "Ov": null,
+            "OL": null
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "30", "unit": "s" },
+        "material_removal_rate": { "value": "2149", "unit": "A/min" },
+        "process_temperature": { "value": "RT", "unit": "" },
+        "polishing_pressure": { "value": "2.65", "unit": "psi" },
+        "pad_conditioning_pressure": { "value": null, "unit": null },
+        "equipment_model": "Mirra polisher (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked polishing pad (Rodel Co., Ltd.)"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": { "value": null, "unit": "J/m²", "conditions": null }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5",
+      "experiment_context": "CMP slurry with Glycine (6 wt%) and Citric acid (0.1 wt%) as complexing agent. Abrasive: 1.0 wt% colloidal silica. Corrosion Inhibitor: 0.1 wt% 1,2,3-triazole. Oxidant: 1.0 wt% hydrogen peroxide. pH 7.0. Defects: 1345 ea. LPC: 20471 ea.",
+      "precursor_chemical": null,
+      "precursor_concentration": { "value": null, "unit": null },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": null, "unit": "" },
+      "reaction_time": { "value": null, "unit": "h" },
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": { "value": null, "unit": "" },
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": { "value": null, "unit": "µS/cm" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Glycine",
+            "type": "Complexing agent component (Amino acid)",
+            "concentration": { "value": "6", "unit": "wt%" }
+          },
+          {
+            "name": "Citric acid",
+            "type": "Complexing agent component (Organic acid)",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          },
+          {
+            "name": "1,2,3-triazole",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": "7.0",
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": { "value": null, "unit": "" }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": null, "unit": "nm", "measurement_method_used": null },
+        "crystallite_size": { "value": null, "unit": "nm" },
+        "crystallinity_phase_composition": { "value": null, "unit": "%" },
+        "surface_functional_groups": {
+          "OH": {"density": {"value": null, "unit": "nm⁻²"}},
+          "NO3": {"density": {"value": null, "unit": "nm⁻²"}, "ftir_peak_present": null},
+          "CH3": {"density": {"value": null, "unit": "nm⁻²"}}
+        },
+        "elemental_composition": {
+          "C": {"value": null, "unit": "%"},
+          "H": {"value": null, "unit": "%"},
+          "N": {"value": null, "unit": "%"}
+        },
+        "particle_morphology": "Colloidal silica",
+        "xrd_peaks": [],
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": [],
+        "raman_peaks_cm-1": [],
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": {
+            "OH": null,
+            "Ov": null,
+            "OL": null
+         }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "30", "unit": "s" },
+        "material_removal_rate": { "value": "4107", "unit": "A/min" },
+        "process_temperature": { "value": "RT", "unit": "" },
+        "polishing_pressure": { "value": "2.65", "unit": "psi" },
+        "pad_conditioning_pressure": { "value": null, "unit": null },
+        "equipment_model": "Mirra polisher (AMAT Co., Ltd.)",
+        "pad_composition": "IC1010/SubalV Stacked polishing pad (Rodel Co., Ltd.)"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": { "value": null, "unit": "J/m²", "conditions": null }
+      }
+    }
+  ]
+}

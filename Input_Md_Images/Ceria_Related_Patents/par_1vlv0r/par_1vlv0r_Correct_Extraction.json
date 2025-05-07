@@ -1,0 +1,915 @@
+{
+  "doi": "US 10,711,160 B2",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Slurry composition for polishing a metal layer with 3.0 wt% silica, 0.05 wt% hydrogen peroxide, 3.0 wt% potassium phosphate, 3 wt% ammonium persulfate, and 3 wt% iron sucrose.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters not provided in the patent.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences not provided in the patent.",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures not provided in the patent.",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition of polishing particles, oxidizer, and polishing regulators.",
+        "composition": {
+          "abrasive": {
+            "material": "silica",
+            "concentration": {
+              "initial": "",
+              "final": "3.0",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "hydrogen peroxide",
+              "type": "oxidizer",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "potassium phosphate",
+              "type": "first polishing regulator",
+              "concentration": {
+                "value": "3.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "ammonium persulfate",
+              "type": "second polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "iron sucrose",
+              "type": "third polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters not provided in the patent.",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details from the patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "shape": "",
+            "surface_area": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "stability": "",
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "295",
+            "unit": "Å/min"
+          },
+          "static_etch_rate": {
+            "value": "17",
+            "unit": "Å/min"
+          },
+          "surface_roughness": {
+            "value": "1.48",
+            "unit": "nm"
+          },
+          "polishing_conditions": {
+            "pressure": {
+              "value": "3.0",
+              "unit": "psi"
+            },
+            "temperature": {
+              "value": "25",
+              "unit": "°C"
+            },
+            "polishing_time": {
+              "value": "30",
+              "unit": "seconds"
+            },
+            "platen_speed": {
+              "value": "100",
+              "unit": "rpm"
+            },
+            "head_speed": {
+              "value": "103",
+              "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+            },
+            "polishing_pad": "KPX pad",
+            "polishing_apparatus": "ST01 300(mm, manufactured by KTTECH)"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Slurry composition for polishing a metal layer with 3.0 wt% silica, 0.05 wt% hydrogen peroxide, 1.5 wt% potassium phosphate, 3 wt% ammonium persulfate, and 3 wt% iron sucrose.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters not provided in the patent.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences not provided in the patent.",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures not provided in the patent.",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition of polishing particles, oxidizer, and polishing regulators.",
+        "composition": {
+          "abrasive": {
+            "material": "silica",
+            "concentration": {
+              "initial": "",
+              "final": "3.0",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "hydrogen peroxide",
+              "type": "oxidizer",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "potassium phosphate",
+              "type": "first polishing regulator",
+              "concentration": {
+                "value": "1.5",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "ammonium persulfate",
+              "type": "second polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "iron sucrose",
+              "type": "third polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters not provided in the patent.",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details from the patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "shape": "",
+            "surface_area": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "stability": "",
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "236",
+            "unit": "Å/min"
+          },
+          "static_etch_rate": {
+            "value": "14",
+            "unit": "Å/min"
+          },
+          "surface_roughness": {
+            "value": "1.53",
+            "unit": "nm"
+          },
+          "polishing_conditions": {
+            "pressure": {
+              "value": "3.0",
+              "unit": "psi"
+            },
+            "temperature": {
+              "value": "25",
+              "unit": "°C"
+            },
+            "polishing_time": {
+              "value": "30",
+              "unit": "seconds"
+            },
+            "platen_speed": {
+              "value": "100",
+              "unit": "rpm"
+            },
+            "head_speed": {
+              "value": "103",
+              "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+            },
+            "polishing_pad": "KPX pad",
+            "polishing_apparatus": "ST01 300(mm, manufactured by KTTECH)"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Slurry composition for polishing a metal layer with 3.0 wt% silica, 0.05 wt% hydrogen peroxide, 5.0 wt% potassium phosphate, 3 wt% ammonium persulfate, and 3 wt% iron sucrose.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters not provided in the patent.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences not provided in the patent.",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures not provided in the patent.",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition of polishing particles, oxidizer, and polishing regulators.",
+        "composition": {
+          "abrasive": {
+            "material": "silica",
+            "concentration": {
+              "initial": "",
+              "final": "3.0",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "hydrogen peroxide",
+              "type": "oxidizer",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "potassium phosphate",
+              "type": "first polishing regulator",
+              "concentration": {
+                "value": "5.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "ammonium persulfate",
+              "type": "second polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "iron sucrose",
+              "type": "third polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters not provided in the patent.",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details from the patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "shape": "",
+            "surface_area": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "stability": "",
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "390",
+            "unit": "Å/min"
+          },
+          "static_etch_rate": {
+            "value": "15",
+            "unit": "Å/min"
+          },
+          "surface_roughness": {
+            "value": "1.46",
+            "unit": "nm"
+          },
+          "polishing_conditions": {
+            "pressure": {
+              "value": "3.0",
+              "unit": "psi"
+            },
+            "temperature": {
+              "value": "25",
+              "unit": "°C"
+            },
+            "polishing_time": {
+              "value": "30",
+              "unit": "seconds"
+            },
+            "platen_speed": {
+              "value": "100",
+              "unit": "rpm"
+            },
+            "head_speed": {
+              "value": "103",
+              "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+            },
+            "polishing_pad": "KPX pad",
+            "polishing_apparatus": "ST01 300(mm, manufactured by KTTECH)"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Slurry composition for polishing a metal layer with 3.0 wt% silica, 0.07 wt% hydrogen peroxide, 3.0 wt% potassium phosphate, 3 wt% ammonium persulfate, and 3 wt% iron sucrose.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters not provided in the patent.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences not provided in the patent.",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures not provided in the patent.",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition of polishing particles, oxidizer, and polishing regulators.",
+        "composition": {
+          "abrasive": {
+            "material": "silica",
+            "concentration": {
+              "initial": "",
+              "final": "3.0",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "hydrogen peroxide",
+              "type": "oxidizer",
+              "concentration": {
+                "value": "0.07",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "potassium phosphate",
+              "type": "first polishing regulator",
+              "concentration": {
+                "value": "3.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "ammonium persulfate",
+              "type": "second polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "iron sucrose",
+              "type": "third polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters not provided in the patent.",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details from the patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "shape": "",
+            "surface_area": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "stability": "",
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "314",
+            "unit": "Å/min"
+          },
+          "static_etch_rate": {
+            "value": "15",
+            "unit": "Å/min"
+          },
+          "surface_roughness": {
+            "value": "1.37",
+            "unit": "nm"
+          },
+          "polishing_conditions": {
+            "pressure": {
+              "value": "3.0",
+              "unit": "psi"
+            },
+            "temperature": {
+              "value": "25",
+              "unit": "°C"
+            },
+            "polishing_time": {
+              "value": "30",
+              "unit": "seconds"
+            },
+            "platen_speed": {
+              "value": "100",
+              "unit": "rpm"
+            },
+            "head_speed": {
+              "value": "103",
+              "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+            },
+            "polishing_pad": "KPX pad",
+            "polishing_apparatus": "ST01 300(mm, manufactured by KTTECH)"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Slurry composition for polishing a metal layer with 3.0 wt% silica, 0.08 wt% hydrogen peroxide, 3.0 wt% potassium phosphate, 3 wt% ammonium persulfate, and 3 wt% iron sucrose.",
+      "abrasive_synthesis": {
+        "description": "Abrasive synthesis details not provided in the patent.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters not provided in the patent.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process sequences not provided in the patent.",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures not provided in the patent.",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details: composition of polishing particles, oxidizer, and polishing regulators.",
+        "composition": {
+          "abrasive": {
+            "material": "silica",
+            "concentration": {
+              "initial": "",
+              "final": "3.0",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "hydrogen peroxide",
+              "type": "oxidizer",
+              "concentration": {
+                "value": "0.08",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "potassium phosphate",
+              "type": "first polishing regulator",
+              "concentration": {
+                "value": "3.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "ammonium persulfate",
+              "type": "second polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "iron sucrose",
+              "type": "third polishing regulator",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters not provided in the patent.",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details from the patent.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "shape": "",
+            "surface_area": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "stability": "",
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "332",
+            "unit": "Å/min"
+          },
+          "static_etch_rate": {
+            "value": "12",
+            "unit": "Å/min"
+          },
+          "surface_roughness": {
+            "value": "1.43",
+            "unit": "nm"
+          },
+          "polishing_conditions": {
+            "pressure": {
+              "value": "3.0",
+              "unit": "psi"
+            },
+            "temperature": {
+              "value": "25",
+              "unit": "°C"
+            },
+            "polishing_time": {
+              "value": "30",
+              "unit": "seconds"
+            },
+            "platen_speed": {
+              "value": "100",
+              "unit": "rpm"
+            },
+            "head_speed": {
+              "value": "103",
+              "unit": "rpm"
+            },
+            "slurry_flow_rate": {
+              "value": "200",
+              "unit": "ml/min"
+            },
+            "polishing_pad": "KPX pad",
+            "polishing_apparatus": "ST01 300(mm, manufactured by KTTECH)"
+          }
+        }
+      }
+    }
+  ]
+}

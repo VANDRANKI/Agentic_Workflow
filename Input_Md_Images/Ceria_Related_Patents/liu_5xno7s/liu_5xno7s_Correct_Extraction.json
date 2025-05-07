@@ -1,0 +1,187 @@
+{
+  "doi": "US 2010/0130013 A1",
+  "title": "SLURRY COMPOSITION FOR GST PHASE CHANGE MEMORY MATERIALS POLISHING",
+  "year_published": "2010",
+  "journal": "U.S. Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "GST_Slurry_Main_US20100130013A1",
+      "experiment_context": "General CMP slurry composition for GST phase change memory materials polishing as described in patent US 2010/0130013 A1. Based on abstract, summary [0009], detailed description [0030]-[0033], and claims 1-10.",
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "0.2 to ~10",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "pH adjustor (e.g., KOH, NH4OH)",
+            "type": "pH adjustor",
+            "concentration": {
+              "value": "Sufficient to adjust pH",
+              "unit": ""
+            }
+          },
+          {
+            "name": "Organic Carboxylic Acid (e.g., citric acid, tartaric acid, succinic acid, oxalic acid, amino acids, or salts thereof)",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "0.1 to 3.0",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Oxidizing Agent (e.g., hydrogen peroxide, organic peroxide, potassium iodate, ammonium persulfate)",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "<1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyacrylic Acid",
+            "type": "Polymer additive",
+            "concentration": {
+              "value": "50 to 5000",
+              "unit": "ppm"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2 to 9",
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "<60",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "abrasive_types_mentioned": "Colloidal particles: silica, alumina, modified silica with alumina, surface coated alumina-silica, or surface modified silica with organic groups.",
+        "particle_morphology": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "100 to 145",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.3 to 2.2",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": "REFLEXION® CMP system, REFLEXION® LK CMP system, MIRRA MESA® system",
+        "pad_composition": "IC1010 polyurethane pad, IC1000 pads"
+      }
+    },
+    {
+      "sample_id": "GST_Slurry_Modified_PAmide_US20100130013A1",
+      "experiment_context": "Modified CMP slurry with polyacrylic amide (0.1-0.5 wt%), ~50nm particles, diluted 1:0 to 1:9 with DI water. Described in paragraph [0057] of patent US 2010/0130013 A1. Assumes base components like chelator, oxidizer, pH adjuster are present as in the main slurry definition unless specified otherwise.",
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "value": "Base concentration (e.g., 0.2 to ~10 wt%) then diluted 1:0 to 1:9 with DI water",
+          "unit": ""
+        },
+        "additives": [
+          {
+            "name": "pH adjustor (assumed from general slurry)",
+            "type": "pH adjustor",
+            "concentration": {
+              "value": "Sufficient to adjust pH",
+              "unit": ""
+            }
+          },
+          {
+            "name": "Organic Carboxylic Acid (assumed from general slurry)",
+            "type": "Chelating agent",
+            "concentration": {
+              "value": "0.1 to 3.0",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Oxidizing Agent (assumed from general slurry)",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "<1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Polyacrylic amide (or other polymers)",
+            "type": "Polymer additive",
+            "concentration": {
+              "value": "0.1 to 0.5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Deionized water",
+          "quantity": {
+            "value": "Base solvent and for dilution (1:0 to 1:9)",
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "~50",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "particle_morphology": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": null,
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "40 to 200",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "0.5 to 2",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": {
+          "value": null,
+          "unit": null
+        },
+        "equipment_model": null,
+        "pad_composition": null
+      }
+    }
+  ]
+}

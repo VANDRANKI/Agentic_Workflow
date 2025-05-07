@@ -1,0 +1,1794 @@
+{
+  "doi": "US 8,043,970 B2",
+  "title": "SLURRY COMPOSITIONS FOR SELECTIVELY POLISHING SILICON NITRIDE RELATIVE TO SILICON OXIDE, METHODS OF POLISHING A SILICON NITRIDE LAYER AND METHODS OF MANUFACTURING A SEMICONDUCTOR DEVICE USING THE SAME",
+  "year_published": "2011",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "CompEx1_T4_pH2.8",
+      "experiment_context": "Comparative Example 1 from Table 4: Slurry with 0.5 wt% Ceria, no PAA, no H2O2, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "991",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "387",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "2.6:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "CompEx2_T4_pH4.5",
+      "experiment_context": "Comparative Example 2 from Table 4: Slurry with 0.5 wt% Ceria, no PAA, no H2O2, at pH 4.5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "445",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "2915",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "0.15:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "CompEx3_T4_pH7",
+      "experiment_context": "Comparative Example 3 from Table 4: Slurry with 0.5 wt% Ceria, no PAA, no H2O2, at pH 7.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "7",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "512",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "3233",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "0.16:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "CompEx4_T4_pH10",
+      "experiment_context": "Comparative Example 4 from Table 4: Slurry with 0.5 wt% Ceria, no PAA, no H2O2, at pH 10.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "633",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "3579",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "0.18:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex1_T4_PAA1_pH2.8",
+      "experiment_context": "Example 1 from Table 4: Slurry with 1 wt% PAA (MW 2000), 0.5 wt% Ceria, no H2O2, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "950",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "107",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "9:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+     {
+      "sample_id": "Ex3_T4_PAA1_pH4.5",
+      "experiment_context": "Example 3 from Table 4: Slurry with 1 wt% PAA (MW 2000), 0.5 wt% Ceria, no H2O2, at pH 4.5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "318",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "187",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "2:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+     {
+      "sample_id": "Ex5_T4_PAA1_pH7",
+      "experiment_context": "Example 5 from Table 4: Slurry with 1 wt% PAA (MW 2000), 0.5 wt% Ceria, no H2O2, at pH 7.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "7",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "136",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "234",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "0.6:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+     {
+      "sample_id": "Ex7_T4_PAA1_pH10",
+      "experiment_context": "Example 7 from Table 4: Slurry with 1 wt% PAA (MW 2000), 0.5 wt% Ceria, no H2O2, at pH 10.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "291",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "811",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "0.4:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex2_T4_PAA1_H2O2_2_pH2.8",
+      "experiment_context": "Example 2 from Table 4: Slurry with 1 wt% PAA (MW 2000), 2 wt% H2O2, 0.5 wt% Ceria, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "1034",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "53",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "20:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+     {
+      "sample_id": "Ex4_T4_PAA1_H2O2_2_pH4.5",
+      "experiment_context": "Example 4 from Table 4: Slurry with 1 wt% PAA (MW 2000), 2 wt% H2O2, 0.5 wt% Ceria, at pH 4.5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "192",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "63",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "3:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+     {
+      "sample_id": "Ex6_T4_PAA1_H2O2_2_pH7",
+      "experiment_context": "Example 6 from Table 4: Slurry with 1 wt% PAA (MW 2000), 2 wt% H2O2, 0.5 wt% Ceria, at pH 7.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "7",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "72",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "78",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "1:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+     {
+      "sample_id": "Ex8_T4_PAA1_H2O2_2_pH10",
+      "experiment_context": "Example 8 from Table 4: Slurry with 1 wt% PAA (MW 2000), 2 wt% H2O2, 0.5 wt% Ceria, at pH 10.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "168",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "124",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "1.4:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex1_T5_PAA1_H2O2_0_pH2.8",
+      "experiment_context": "Example 1 from Table 5: Slurry with 1 wt% PAA (MW 2000), 0 wt% H2O2, 0.5 wt% Ceria, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "950",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "107",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "9:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex2_T5_PAA1_H2O2_1_pH2.8",
+      "experiment_context": "Example 2 from Table 5: Slurry with 1 wt% PAA (MW 2000), 1 wt% H2O2, 0.5 wt% Ceria, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "1034",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "53",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "20:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex9_T5_PAA1_H2O2_2_pH2.8",
+      "experiment_context": "Example 9 from Table 5: Slurry with 1 wt% PAA (MW 2000), 2 wt% H2O2, 0.5 wt% Ceria, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "1051",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "49",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "21:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "Ex10_T5_PAA1_H2O2_5_pH2.8",
+      "experiment_context": "Example 10 from Table 5: Slurry with 1 wt% PAA (MW 2000), 5 wt% H2O2, 0.5 wt% Ceria, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "5",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "1077",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "51",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "21:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T6_Ceria0.1_PAA1_H2O2_2_pH2.8",
+      "experiment_context": "Table 6: Slurry with 0.1 wt% Ceria, 1 wt% PAA (MW 2000), 2 wt% H2O2, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.1",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "1195",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "41",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "29:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T6_Ceria0.25_PAA1_H2O2_2_pH2.8",
+      "experiment_context": "Table 6: Slurry with 0.25 wt% Ceria, 1 wt% PAA (MW 2000), 2 wt% H2O2, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.25",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "1146",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "44",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "26:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T6_Ceria0.5_PAA1_H2O2_2_pH2.8",
+      "experiment_context": "Table 6: Slurry with 0.5 wt% Ceria, 1 wt% PAA (MW 2000), 2 wt% H2O2, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "0.5",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "994",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "51",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "19:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T6_Ceria1.0_PAA1_H2O2_2_pH2.8",
+      "experiment_context": "Table 6: Slurry with 1.0 wt% Ceria, 1 wt% PAA (MW 2000), 2 wt% H2O2, at pH 2.8.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "1.0",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Poly(acrylic acid)",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          },
+           {
+            "name": "Hydrogen peroxide",
+            "type": "Oxide polishing rate reducer",
+            "concentration": {
+              "value": "2",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2.8",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"]
+      },
+      "characterization": {
+         "poly_acrylic_acid_mw": { "value": "2000", "unit": "Da" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "798",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "65",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "12:1",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T2_FumedSilica12",
+      "experiment_context": "Table 2: Slurry with 12 wt% Fumed Silica, no PAA/H2O2. pH not specified.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Fumed Silica",
+        "abrasive_concentration": {
+          "value": "12",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": null 
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "688",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "2872",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "1:4.2",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T2_ColloidalSilica30",
+      "experiment_context": "Table 2: Slurry with 30 wt% Colloidal Silica, no PAA/H2O2. pH not specified.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {
+          "value": "30",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": null 
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "755",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "2211",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "1:3",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T2_Ceria1",
+      "experiment_context": "Table 2: Slurry with 1 wt% Ceria, no PAA/H2O2. pH not specified.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": null 
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": null
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "981",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "4110",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "1:4.2",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T3_Ceria1_P20_S150_pH5",
+      "experiment_context": "Table 3: Slurry with 1 wt% Ceria (Primary 20nm, Secondary 150nm), no PAA/H2O2, at pH 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": null 
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"] 
+      },
+      "characterization": {
+         "particle_size_primary": { "value": "20", "unit": "nm" },
+         "particle_size_secondary": { "value": "150", "unit": "nm" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "112",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "2417",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "1:22",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T3_Ceria1_P20_S200_pH5",
+      "experiment_context": "Table 3: Slurry with 1 wt% Ceria (Primary 20nm, Secondary 200nm), no PAA/H2O2, at pH 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": null 
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"] 
+      },
+      "characterization": {
+         "particle_size_primary": { "value": "20", "unit": "nm" },
+         "particle_size_secondary": { "value": "200", "unit": "nm" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "201",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "2391",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "1:12",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T3_Ceria1_P50_S150_pH5",
+      "experiment_context": "Table 3: Slurry with 1 wt% Ceria (Primary 50nm, Secondary 150nm), no PAA/H2O2, at pH 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": null 
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"] 
+      },
+      "characterization": {
+         "particle_size_primary": { "value": "50", "unit": "nm" },
+         "particle_size_secondary": { "value": "150", "unit": "nm" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "318",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "3110",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "1:10",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    },
+    {
+      "sample_id": "T3_Ceria1_P50_S200_pH5",
+      "experiment_context": "Table 3: Slurry with 1 wt% Ceria (Primary 50nm, Secondary 200nm), no PAA/H2O2, at pH 5.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Ceria",
+        "abrasive_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [
+           {
+            "name": "Carboxylic acid",
+            "type": "Dispersion stabilizing agent",
+            "concentration": null 
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        },
+         "ph_control_agents": ["Sulfuric acid", "Potassium hydroxide"] 
+      },
+      "characterization": {
+         "particle_size_primary": { "value": "50", "unit": "nm" },
+         "particle_size_secondary": { "value": "200", "unit": "nm" }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate_sin": {
+          "value": "311",
+          "unit": "A/min"
+        },
+        "material_removal_rate_sio2": {
+          "value": "3051",
+          "unit": "A/min"
+        },
+        "selectivity_sin_sio2": "1:10",
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "equipment_model": "EBARA 200 mm CMP equipment",
+        "pad_composition": null,
+        "wafer_details": {
+            "sin_thickness": { "value": "1000", "unit": "A" },
+            "sio2_thickness": { "value": "15000", "unit": "A" },
+            "sio2_type": "PE-TEOS"
+        }
+      }
+    }
+  ]
+}

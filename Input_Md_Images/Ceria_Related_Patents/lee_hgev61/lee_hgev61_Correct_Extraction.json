@@ -1,0 +1,949 @@
+{
+  "doi": "US 8,048,808 B2",
+  "title": "SLURRY COMPOSITIONS FOR POLISHING METAL, METHODS OF POLISHING A METAL OBJECT AND METHODS OF FORMING A METAL WIRING USING THE SAME",
+  "year_published": "2011",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Comp_Ex_1_Rate_Eval",
+      "experiment_context": "Baseline slurry composition from Comparative Example 1 used for polishing/etching rate evaluation (Table 2). No polymeric polishing accelerating agent or KHP.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": null,
+        "corrosion_inhibitor": null,
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 3181,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 52,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+      "electrochemical_analysis": {
+         "observation": "Baseline electrochemical behavior (derived from Comp Ex 8, Fig 3)."
+       }
+    },
+    {
+      "sample_id": "Comp_Ex_1_Recess_Eval",
+      "experiment_context": "Baseline slurry composition from Comparative Example 1 used for recess evaluation (Table 4). No polymeric polishing accelerating agent or KHP.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": null,
+        "corrosion_inhibitor": null,
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with insulation structure (single damascene)",
+        "initial_thickness": {
+          "value": 1500,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 2992,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": null,
+        "recess": {
+          "plug": {
+            "value": 339,
+            "unit": "angstroms"
+          },
+          "wiring": {
+            "value": 322,
+            "unit": "angstroms"
+          }
+        }
+      },
+       "electrochemical_analysis": {
+         "observation": "Baseline electrochemical behavior (derived from Comp Ex 8, Fig 3)."
+       }
+    },
+    {
+      "sample_id": "Example_1_PVS_0.005pct",
+      "experiment_context": "Slurry composition from Example 1 (Table 2). Contains 0.005 wt% Poly(vinyl sulfonate).",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": {
+          "name": "Poly(vinyl sulfonate, sodium salt)",
+          "concentration": {
+            "value": 0.005,
+            "unit": "wt%"
+          }
+        },
+        "corrosion_inhibitor": null,
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 3315,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 45,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+       "electrochemical_analysis": {
+         "observation": "Reduced electrochemical current observed (derived from Comp Ex 7, Fig 3), indicating corrosion inhibition."
+       }
+    },
+    {
+      "sample_id": "Example_2_PVS_0.01pct",
+      "experiment_context": "Slurry composition from Example 2 (Table 2). Contains 0.01 wt% Poly(vinyl sulfonate).",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": {
+          "name": "Poly(vinyl sulfonate, sodium salt)",
+          "concentration": {
+            "value": 0.01,
+            "unit": "wt%"
+          }
+        },
+        "corrosion_inhibitor": null,
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 3425,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 38,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+       "electrochemical_analysis": {
+         "observation": "Reduced electrochemical current observed (derived from Comp Ex 7, Fig 3), indicating corrosion inhibition."
+       }
+    },
+    {
+      "sample_id": "Example_3_PVS_0.05pct",
+      "experiment_context": "Slurry composition from Example 3 (Table 2). Contains 0.05 wt% Poly(vinyl sulfonate).",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": {
+          "name": "Poly(vinyl sulfonate, sodium salt)",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          }
+        },
+        "corrosion_inhibitor": null,
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 3163,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 27,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+       "electrochemical_analysis": {
+         "observation": "Reduced electrochemical current observed (derived from Comp Ex 7, Fig 3), indicating corrosion inhibition."
+       }
+    },
+    {
+      "sample_id": "Example_4_PVS_0.1pct",
+      "experiment_context": "Slurry composition from Example 4 (Table 2). Contains 0.1 wt% Poly(vinyl sulfonate).",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": {
+          "name": "Poly(vinyl sulfonate, sodium salt)",
+          "concentration": {
+            "value": 0.1,
+            "unit": "wt%"
+          }
+        },
+        "corrosion_inhibitor": null,
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 3034,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 43,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+       "electrochemical_analysis": {
+         "observation": "Reduced electrochemical current observed (derived from Comp Ex 7, Fig 3), indicating corrosion inhibition."
+       }
+    },
+    {
+      "sample_id": "Comp_Ex_2_KHP_0.01pct",
+      "experiment_context": "Slurry composition from Comparative Example 2 (Table 3). Contains 0.01 wt% KHP.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": null,
+        "corrosion_inhibitor": {
+          "name": "Potassium Hydrogen Phthalate",
+          "formula": "KHP",
+          "concentration": {
+            "value": 0.01,
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 2998,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 45,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+       "electrochemical_analysis": null
+    },
+    {
+      "sample_id": "Comp_Ex_3_KHP_0.05pct",
+      "experiment_context": "Slurry composition from Comparative Example 3 (Table 3). Contains 0.05 wt% KHP.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": null,
+        "corrosion_inhibitor": {
+          "name": "Potassium Hydrogen Phthalate",
+          "formula": "KHP",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 2877,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 39,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+       "electrochemical_analysis": null
+    },
+    {
+      "sample_id": "Comp_Ex_4_KHP_0.1pct",
+      "experiment_context": "Slurry composition from Comparative Example 4 (Table 3). Contains 0.1 wt% KHP.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": null,
+        "corrosion_inhibitor": {
+          "name": "Potassium Hydrogen Phthalate",
+          "formula": "KHP",
+          "concentration": {
+            "value": 0.1,
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 2621,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 36,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+       "electrochemical_analysis": null
+    },
+    {
+      "sample_id": "Comp_Ex_5_KHP_0.5pct",
+      "experiment_context": "Slurry composition from Comparative Example 5 (Table 3). Contains 0.5 wt% KHP.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": null,
+        "corrosion_inhibitor": {
+          "name": "Potassium Hydrogen Phthalate",
+          "formula": "KHP",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 2253,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 42,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+       "electrochemical_analysis": null
+    },
+    {
+      "sample_id": "Comp_Ex_6_KHP_1.0pct",
+      "experiment_context": "Slurry composition from Comparative Example 6 (Table 3). Contains 1.0 wt% KHP.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": null,
+        "corrosion_inhibitor": {
+          "name": "Potassium Hydrogen Phthalate",
+          "formula": "KHP",
+          "concentration": {
+            "value": 1.0,
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with adhesion/barrier layers",
+        "initial_thickness": {
+          "value": 6000,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 1898,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": {
+          "value": 39,
+          "unit": "angstroms/min"
+        },
+        "recess": null
+      },
+       "electrochemical_analysis": null
+    },
+    {
+      "sample_id": "Example_5_PVS_0.05pct_KHP_0.05pct",
+      "experiment_context": "Slurry composition from Example 5 (Table 4). Contains 0.05 wt% Poly(vinyl sulfonate) and 0.05 wt% KHP.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": {
+          "name": "Poly(vinyl sulfonate, sodium salt)",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          }
+        },
+        "corrosion_inhibitor": {
+          "name": "Potassium Hydrogen Phthalate",
+          "formula": "KHP",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with insulation structure (single damascene)",
+        "initial_thickness": {
+          "value": 1500,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+          "value": 3119,
+          "unit": "angstroms/min"
+        },
+        "etching_rate": null,
+        "recess": {
+          "plug": {
+            "value": 245,
+            "unit": "angstroms"
+          },
+          "wiring": {
+            "value": 241,
+            "unit": "angstroms"
+          }
+        }
+      },
+       "electrochemical_analysis": {
+         "observation": "Reduced electrochemical current observed (derived from Comp Ex 7, Fig 3), indicating corrosion inhibition by PVS."
+       }
+    },
+     {
+      "sample_id": "Example_6_PVSulfate_0.05pct_KHP_0.05pct",
+      "experiment_context": "Slurry composition from Example 6. Contains 0.05 wt% Poly(vinyl sulfate) and 0.05 wt% KHP. Quantitative performance data not provided in tables, only qualitative description.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Ceria",
+          "concentration": {
+            "value": 0.5,
+            "unit": "wt%"
+          }
+        },
+        "oxidizing_agent": {
+          "name": "Hydrogen Peroxide",
+          "formula": "H2O2",
+          "concentration": {
+            "value": 2,
+            "unit": "wt%"
+          }
+        },
+        "metal_catalyst": {
+          "name": "Iron (III) Nitrate",
+          "formula": "Fe(NO3)3",
+          "concentration": {
+            "value": 0.07,
+            "unit": "wt%"
+          }
+        },
+        "organic_acid": {
+          "name": "Citric Acid",
+          "concentration": {
+            "value": 0.2,
+            "unit": "wt%"
+          }
+        },
+        "polishing_accelerating_agent": {
+          "name": "Poly(vinyl sulfate, potassium salt)",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          }
+        },
+        "corrosion_inhibitor": {
+          "name": "Potassium Hydrogen Phthalate",
+          "formula": "KHP",
+          "concentration": {
+            "value": 0.05,
+            "unit": "wt%"
+          }
+        },
+        "ph": {
+          "value": 3,
+          "adjusting_agent": "Sulfuric Acid"
+        },
+        "solvent": {
+          "name": "Water"
+        }
+      },
+      "cmp_performance": {
+        "material_polished": "Tungsten",
+        "substrate": "Silicon wafer with insulation structure (single damascene)",
+        "initial_thickness": {
+          "value": 1500,
+          "unit": "angstroms"
+        },
+        "polishing_rate": {
+            "value": null,
+            "unit": "angstroms/min",
+            "note": "Qualitatively described as increased compared to baseline (Comp Ex 1)."
+        },
+        "etching_rate": null,
+        "recess": {
+          "plug": {
+            "value": null,
+            "unit": "angstroms",
+            "note": "Qualitatively described as decreased compared to baseline (Comp Ex 1)."
+          },
+          "wiring": {
+            "value": null,
+            "unit": "angstroms",
+             "note": "Qualitatively described as decreased compared to baseline (Comp Ex 1)."
+          }
+        }
+      },
+       "electrochemical_analysis": {
+         "observation": "Assumed similar corrosion inhibition to PVS based on patent description."
+       }
+    }
+  ]
+}

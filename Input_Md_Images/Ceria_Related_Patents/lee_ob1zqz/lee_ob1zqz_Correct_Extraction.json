@@ -1,0 +1,1001 @@
+{
+  "patent_id": "US 2022/0119679 A1",
+  "title": "CMP SLURRY COMPOSITION FOR POLISHING POLYCRYSTALLINE SILICON AND POLISHING METHOD USING SAME",
+  "publication_date": "2022-04-21",
+  "samples": [
+    {
+      "sample_id": "Ex1",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3D silica (80nm), 0.3 wt% succinic acid, 0.05 wt% HEC (MW 90k), pH 4 (TEA). Polished at 1 psi, 78/83 RPM for 15 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydroxyethyl cellulose (HEC)",
+            "type": "Surface Roughness Modifier (Water-soluble polymer)",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "90000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "78",
+          "platen": "83",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "1.2",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "6.55",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "Ex2",
+      "experiment_context": "Same slurry as Ex1. Polished at 1 psi, 78/83 RPM for 60 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydroxyethyl cellulose (HEC)",
+            "type": "Surface Roughness Modifier (Water-soluble polymer)",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "90000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "78",
+          "platen": "83",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.2",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "2.07",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "Ex3",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3D silica (80nm), 0.3 wt% succinic acid, 0.1 wt% HEC (MW 90k assumed), pH 4 (TEA). Polished at 1 psi, 78/83 RPM for 60 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydroxyethyl cellulose (HEC)",
+            "type": "Surface Roughness Modifier (Water-soluble polymer)",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "90000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "78",
+          "platen": "83",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.34",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "2.31",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "Ex4",
+      "experiment_context": "Same slurry as Ex1. Polished at 1 psi, 48/53 RPM for 15 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydroxyethyl cellulose (HEC)",
+            "type": "Surface Roughness Modifier (Water-soluble polymer)",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "90000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "48",
+          "platen": "53",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.26",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "5.67",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "Ex5",
+      "experiment_context": "Same slurry as Ex1. Polished at 1 psi, 48/53 RPM for 60 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydroxyethyl cellulose (HEC)",
+            "type": "Surface Roughness Modifier (Water-soluble polymer)",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "90000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "48",
+          "platen": "53",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.33",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "2.64",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "Ex6",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3D silica (80nm), 0.3 wt% succinic acid, 0.05 wt% HEC (MW 90k assumed), pH 4 (TEA). Polished at 2 psi, 48/53 RPM for 60 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydroxyethyl cellulose (HEC)",
+            "type": "Surface Roughness Modifier (Water-soluble polymer)",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "90000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "48",
+          "platen": "53",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.3",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "1.83",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "Ex7",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3D silica (80nm), 0.3 wt% succinic acid, 0.05 wt% HEC (MW 90k assumed), pH 4 (TEA). Polished at 2 psi, 78/83 RPM for 60 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydroxyethyl cellulose (HEC)",
+            "type": "Surface Roughness Modifier (Water-soluble polymer)",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            },
+            "molecular_weight": {
+              "value": "90000",
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "2",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "78",
+          "platen": "83",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.3",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "2.03",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "CompEx1",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3D silica (80nm), 0.3 wt% succinic acid, NO HEC, pH 4 (TEA). Polished at 1 psi, 78/83 RPM for 60 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "78",
+          "platen": "83",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.45",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "4.24",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "CompEx2",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3D silica (80nm), 0.3 wt% succinic acid, NO HEC, pH 4 (BA). Polished at 1 psi, 78/83 RPM for 60 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Benzylamine (BA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "78",
+          "platen": "83",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.77",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "6.03",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "CompEx3",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3L silica (80nm assumed), 0.3 wt% succinic acid, NO HEC, pH 9 (NH4OH). Polished at 1 psi, 78/83 RPM for 60 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3L",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9",
+        "ph_regulator": {
+          "name": "NH4OH",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "78",
+          "platen": "83",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.63",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "6.44",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "CompEx4",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3L silica (80nm assumed), 0.3 wt% succinic acid, NO HEC, pH 10 (NH4OH). Polished at 1 psi, 78/83 RPM for 60 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3L",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10",
+        "ph_regulator": {
+          "name": "NH4OH",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "60",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "78",
+          "platen": "83",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "0.77",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "4.97",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "CompEx5",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3D silica (80nm), 0.3 wt% succinic acid, NO HEC, pH 4 (TEA). Polished at 1 psi, 78/83 RPM for 15 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "78",
+          "platen": "83",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "2.43",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "10.54",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    },
+    {
+      "sample_id": "CompEx6",
+      "experiment_context": "Polishing poly-Si with 1 wt% PL-3D silica (80nm), 0.3 wt% succinic acid, NO HEC, pH 4 (TEA). Polished at 1 psi, 48/53 RPM for 15 sec.",
+      "slurry_preparation": {
+        "abrasive": {
+          "type": "Colloidal Silica",
+          "name": "PL-3D",
+          "concentration": {
+            "value": "1",
+            "unit": "wt%"
+          },
+          "particle_size": {
+            "value": "80",
+            "unit": "nm"
+          }
+        },
+        "additives": [
+          {
+            "name": "Succinic Acid",
+            "type": "Polishing Regulator (Organic Acid)",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "ph_regulator": {
+          "name": "Triethanolamine (TEA)",
+          "concentration": null
+        },
+        "solvent": {
+          "name": "DI water",
+          "quantity": null
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "15",
+          "unit": "sec"
+        },
+        "polishing_pressure": {
+          "value": "1",
+          "unit": "psi"
+        },
+        "rpm": {
+          "carrier": "48",
+          "platen": "53",
+          "unit": "rpm"
+        },
+        "flow_rate": {
+          "value": "250",
+          "unit": "ml"
+        },
+        "surface_roughness": {
+          "Ra": {
+            "value": "1.08",
+            "unit": "nm"
+          },
+          "Rpv": {
+            "value": "8.66",
+            "unit": "nm"
+          },
+          "measurement_method": "AFM"
+        },
+        "equipment_model": "ST #01 (KCTECH)",
+        "pad_composition": "IC 1000 (DOW)",
+        "wafer_details": "poly Si 4000 A, 300 mm blanket wafer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "doi": "US6063306",
+  "title": "SLURRY COMPOSITIONS AND METHOD FOR THE CHEMICAL-MECHANICAL POLISHING OF COPPER AND COPPER ALLOYS",
+  "year_published": "2000",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Bulk_Al2O3_Slurry_Optimal_Ex1",
+      "experiment_context": "Optimized bulk copper polishing slurry with alumina (Al₂O₃) abrasive, as described in Example 1 of US Patent 6,063,306. Designed for rapid copper removal.",
+      "slurry_preparation": {
+        "additives": [
+          {
+            "name": "Propanoic acid",
+            "type": "Carboxylic acid",
+            "concentration": {
+              "value": "0.75-1.0",
+              "unit": "M"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "6-8",
+              "unit": "volume %"
+            }
+          },
+          {
+            "name": "Ammonium hydroxide",
+            "type": "pH adjuster",
+            "description": "Used to achieve target pH"
+          }
+        ],
+        "target_final_slurry_ph": "3.1-3.7",
+        "solvent": {
+          "name": "Water",
+          "description": "Aqueous solution"
+        }
+      },
+      "characterization": {
+        "abrasive_properties": {
+          "material": "Alumina (Al₂O₃)",
+          "concentration_in_slurry": {
+            "value": "3-5",
+            "unit": "wt %"
+          },
+          "mean_diameter": {
+            "value": "550",
+            "unit": "nm"
+          },
+          "median_diameter": {
+            "value": "540",
+            "unit": "nm"
+          },
+          "max_diameter": {
+            "value": "800",
+            "unit": "nm"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "Copper alloy C102 wafers",
+        "wafer_diameter": {
+          "value": "3",
+          "unit": "inches"
+        },
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate_copper": {
+          "value": "800-1000",
+          "unit": "nm/min"
+        },
+        "static_etch_rate_copper": {
+          "value": "11.3",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.81",
+          "unit": "psi"
+        },
+        "equipment_model": "Struers RotoPol 31 polisher with RotorForce-3 pressure unit",
+        "pad_composition": "Rodel CR IC1000-A3 perforated pad",
+        "rotation_speed_pad": {
+          "value": "150",
+          "unit": "rpm"
+        },
+        "rotation_speed_wafer": {
+          "value": "150",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "232",
+          "unit": "ft/min"
+        },
+        "slurry_flow_rate": {
+          "value": "40",
+          "unit": "ml/min"
+        }
+      }
+    },
+    {
+      "sample_id": "Bulk_SiO2_Slurry_Ex2",
+      "experiment_context": "Bulk copper polishing slurry with silica (SiO₂) abrasive, as described in Example 2 of US Patent 6,063,306.",
+      "slurry_preparation": {
+        "additives": [
+          {
+            "name": "Propanoic acid",
+            "type": "Carboxylic acid",
+            "concentration": {
+              "value": "0.08",
+              "unit": "M"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "1",
+              "unit": "volume %"
+            }
+          },
+          {
+            "name": "Benzotriazole",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.012",
+              "unit": "wt %"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.3",
+        "solvent": {
+          "name": "Water",
+          "description": "Aqueous solution"
+        }
+      },
+      "characterization": {
+        "abrasive_properties": {
+          "material": "Silica (SiO₂)",
+          "concentration_in_slurry": {
+            "value": "4",
+            "unit": "wt %"
+          },
+          "mean_diameter": {
+            "value": "200",
+            "unit": "nm"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "Copper alloy C102 wafers",
+        "wafer_diameter": {
+          "value": "3",
+          "unit": "inches"
+        },
+        "polishing_time": {
+          "value": "30",
+          "unit": "s"
+        },
+        "material_removal_rate_copper": {
+          "value": "350",
+          "unit": "nm/min"
+        },
+        "passive_etch_rate_copper": {
+          "value": "3",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "3.81",
+          "unit": "psi"
+        },
+        "equipment_model": "Struers RotoPol 31 polisher with RotorForce-3 pressure unit",
+        "pad_composition": "Rodel CR IC1000-A3 perforated pad",
+        "rotation_speed_pad": {
+          "value": "150",
+          "unit": "rpm"
+        },
+        "rotation_speed_wafer": {
+          "value": "150",
+          "unit": "rpm"
+        },
+        "relative_velocity": {
+          "value": "232",
+          "unit": "ft/min"
+        },
+        "slurry_flow_rate": {
+          "value": "40",
+          "unit": "ml/min"
+        }
+      }
+    },
+    {
+      "sample_id": "CuTaSiO2_Slurry_Ex3",
+      "experiment_context": "Cu/Ta/SiO₂ polishing slurry with fumed silica abrasive, as described in Example 3 of US Patent 6,063,306. Designed for 1:1:1 selectivity.",
+      "slurry_preparation": {
+        "additives": [
+          {
+            "name": "Propanoic acid",
+            "type": "Carboxylic acid",
+            "concentration": {
+              "value": "0.05",
+              "unit": "M"
+            }
+          },
+          {
+            "name": "Hydrogen peroxide (H₂O₂)",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.2",
+              "unit": "volume %"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "10.0",
+        "solvent": {
+          "name": "Water",
+          "description": "Aqueous slurry mixture"
+        }
+      },
+      "characterization": {
+        "abrasive_properties": {
+          "material": "Fumed silica (SiO₂)",
+          "concentration_in_slurry": {
+            "value": "20",
+            "unit": "wt %"
+          }
+        }
+      },
+      "cmp_performance": {
+        "substrate_polished": "Copper/tantalum/silicon oxide layers on silicon wafer",
+        "wafer_diameter": {
+          "value": "200",
+          "unit": "mm"
+        },
+        "polishing_time": null,
+        "material_removal_rate_copper": {
+          "value": "143.5",
+          "unit": "nm/min"
+        },
+        "material_removal_rate_tantalum": {
+          "value": "85.4",
+          "unit": "nm/min"
+        },
+        "material_removal_rate_silicon_dioxide": {
+          "value": "146.2",
+          "unit": "nm/min"
+        },
+        "dishing_max": {
+          "value": "<40",
+          "unit": "nm"
+        },
+        "erosion_silica_array": {
+          "value": "<400",
+          "unit": "Å",
+          "description": "0.5 µm copper array with a 1.0 µm pitch"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "5",
+          "unit": "psi"
+        },
+        "equipment_model": "IPEC Westec 472",
+        "pad_composition": null,
+        "relative_velocity": {
+          "value": "120",
+          "unit": "ft/min"
+        },
+        "slurry_flow_rate": {
+          "value": "200",
+          "unit": "ml/min"
+        }
+      }
+    }
+  ]
+}

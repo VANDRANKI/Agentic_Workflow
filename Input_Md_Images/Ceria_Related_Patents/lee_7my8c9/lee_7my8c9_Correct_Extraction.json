@@ -1,0 +1,1223 @@
+{
+  "doi": "US 2010/0164106 A1",
+  "title": "CMP SLURRY COMPOSITION FOR BARRIER POLISHING FOR MANUFACTURING COPPER INTERCONNECTS, POLISHING METHOD USING THE COMPOSITION, AND SEMICONDUCTOR DEVICE MANUFACTURED BY THE METHOD",
+  "year_published": "2010",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Barrier polishing slurry using PAA protective agent and colloidal silica (D1=25nm, D2=41nm, D1/D2=0.6).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 25,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 41,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.6
+        },
+        "slurry_additives": [
+          {
+            "name": "PAA",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.65,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 2.97,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 8.2,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 601,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 550,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 542,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "1.1:1:1",
+          "surface_defects_copper_gt_0_247um": 96,
+          "surface_defects_teos_gt_0_09um": 113
+        },
+        "pattern_evaluation": null
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Barrier polishing slurry using PAA protective agent and colloidal silica (D1=35nm, D2=90nm, D1/D2=0.4).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 35,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 90,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.4
+        },
+        "slurry_additives": [
+          {
+            "name": "PAA",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.65,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 3.02,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 8.4,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 576,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 640,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 654,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "0.9:1:1",
+          "surface_defects_copper_gt_0_247um": 93,
+          "surface_defects_teos_gt_0_09um": 124
+        },
+        "pattern_evaluation": null
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Barrier polishing slurry using PAA/MA (1:1) protective agent and colloidal silica (D1=25nm, D2=50nm, D1/D2=0.5).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 25,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 50,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.5
+        },
+        "slurry_additives": [
+          {
+            "name": "PAA/MA (1:1)",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.65,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 2.97,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 8.1,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 605,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 560,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 534,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "1.1:1:1",
+          "surface_defects_copper_gt_0_247um": 75,
+          "surface_defects_teos_gt_0_09um": 98
+        },
+        "pattern_evaluation": {
+           "initial_dishing_100um_line": { "value": 600, "unit": "Å" },
+           "initial_erosion_9um_line_1um_space_90_percent_density": { "value": 550, "unit": "Å" },
+           "dishing_after_60s_polishing": { "value": 380, "unit": "Å" },
+           "erosion_after_60s_polishing": { "value": 392, "unit": "Å" },
+           "dishing_improvement_60s": { "value": 220, "unit": "Å" },
+           "erosion_improvement_60s": { "value": 158, "unit": "Å" },
+           "dishing_after_120s_polishing": { "value": 185, "unit": "Å" },
+           "erosion_after_120s_polishing": { "value": 211, "unit": "Å" },
+           "dishing_improvement_120s": { "value": 415, "unit": "Å" },
+           "erosion_improvement_120s": { "value": 339, "unit": "Å" },
+           "dishing_after_180s_polishing": { "value": 28, "unit": "Å" },
+           "erosion_after_180s_polishing": { "value": 40, "unit": "Å" },
+           "dishing_improvement_180s": { "value": 572, "unit": "Å" },
+           "erosion_improvement_180s": { "value": 510, "unit": "Å" }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Barrier polishing slurry using PAM/AA (4:6) protective agent and colloidal silica (D1=25nm, D2=50nm, D1/D2=0.5).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 25,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 50,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.5
+        },
+        "slurry_additives": [
+          {
+            "name": "PAM/AA (4:6)",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.65,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 2.97,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 8.3,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 521,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 550,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 539,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "1:1:1",
+          "surface_defects_copper_gt_0_247um": 92,
+          "surface_defects_teos_gt_0_09um": 116
+        },
+        "pattern_evaluation": null
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Barrier polishing slurry using PAA protective agent and colloidal silica (D1=20nm, D2=25nm, D1/D2=0.8).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 20,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 25,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.8
+        },
+        "slurry_additives": [
+          {
+            "name": "PAA",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.65,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 2.98,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 8.1,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 364,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 150,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 1423,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "0.3:0.1:1",
+          "surface_defects_copper_gt_0_247um": 138,
+          "surface_defects_teos_gt_0_09um": 562
+        },
+        "pattern_evaluation": null
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "Barrier polishing slurry using PAA protective agent and colloidal silica (D1=50nm, D2=55nm, D1/D2=0.9).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 50,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 55,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.9
+        },
+        "slurry_additives": [
+          {
+            "name": "PAA",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.65,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 3.01,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 8.2,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 353,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 199,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 1362,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "0.3:0.2:1",
+          "surface_defects_copper_gt_0_247um": 157,
+          "surface_defects_teos_gt_0_09um": 457
+        },
+        "pattern_evaluation": null
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_3",
+      "experiment_context": "Barrier polishing slurry using PAA protective agent and colloidal silica (D1=70nm, D2=75nm, D1/D2=0.9).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 70,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 75,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.9
+        },
+        "slurry_additives": [
+          {
+            "name": "PAA",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.65,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 2.99,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 9.5,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 262,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 241,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 717,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "0.4:0.3:1",
+          "surface_defects_copper_gt_0_247um": 113,
+          "surface_defects_teos_gt_0_09um": 519
+        },
+        "pattern_evaluation": null
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_4",
+      "experiment_context": "Barrier polishing slurry using PAM protective agent and colloidal silica (D1=25nm, D2=50nm, D1/D2=0.5).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 25,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 50,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.5
+        },
+        "slurry_additives": [
+          {
+            "name": "PAM",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.65,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 3.01,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 8.5,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 145,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 547,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 326,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "0.4:1.7:1",
+          "surface_defects_copper_gt_0_247um": 95,
+          "surface_defects_teos_gt_0_09um": 120
+        },
+        "pattern_evaluation": null
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5",
+      "experiment_context": "Barrier polishing slurry using PAM/AA (6:4) protective agent and colloidal silica (D1=25nm, D2=50nm, D1/D2=0.5).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 25,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 50,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.5
+        },
+        "slurry_additives": [
+          {
+            "name": "PAM/AA (6:4)",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.65,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 2.97,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 6.0,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 254,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 642,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 650,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "0.4:1:1",
+          "surface_defects_copper_gt_0_247um": 124,
+          "surface_defects_teos_gt_0_09um": 126
+        },
+        "pattern_evaluation": null
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_6",
+      "experiment_context": "Barrier polishing slurry with no protective agent and colloidal silica (D1=25nm, D2=50nm, D1/D2=0.5).",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": {
+            "value": 8,
+            "unit": "wt%"
+          },
+          "particle_size_primary_d1": {
+            "value": 25,
+            "unit": "nm"
+          },
+          "particle_size_secondary_d2": {
+            "value": 50,
+            "unit": "nm"
+          },
+          "particle_size_ratio_d1_d2": 0.5
+        },
+        "slurry_additives": [
+          {
+            "name": "None",
+            "type": "Copper Surface Protective Agent",
+            "concentration": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "TTA",
+            "type": "Copper Corrosion Inhibitor",
+            "concentration": {
+              "value": 0.045,
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "concentration": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "Deionized Water",
+          "concentration": {
+            "value": 91.75,
+            "unit": "wt%"
+          }
+        },
+        "ph_control": {
+          "target": {
+            "min": 2.9,
+            "max": 3.0
+          },
+          "final_ph": 2.98,
+          "agents": [
+            {
+              "name": "Nitric Acid",
+              "concentration": null
+            }
+          ]
+        }
+      },
+      "cmp_performance": {
+        "polishing_parameters": {
+          "equipment_model": "Applied Mirra Mesa CMP system (AMAT)",
+          "wafer_size": {
+            "value": 200,
+            "unit": "mm"
+          },
+          "pad_composition": "IC1010 (Rodel)",
+          "platen_rotation_rate": {
+            "value": 93,
+            "unit": "rpm"
+          },
+          "head_rotation_rate": {
+            "value": 87,
+            "unit": "rpm"
+          },
+          "down_force": {
+            "value": 1.5,
+            "unit": "psi"
+          },
+          "slurry_feed_rate": {
+            "value": 150,
+            "unit": "ml/min"
+          },
+          "polishing_time": {
+            "value": 60,
+            "unit": "seconds"
+          }
+        },
+        "polishing_results": {
+          "copper_etching_rate": {
+            "value": 8.7,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_tantalum": {
+            "value": 596,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_teos": {
+            "value": 553,
+            "unit": "Å/min"
+          },
+          "material_removal_rate_copper": {
+            "value": 198,
+            "unit": "Å/min"
+          },
+          "selectivity_ratio_ta_teos_cu": "3:2.8:1",
+          "surface_defects_copper_gt_0_247um": 87,
+          "surface_defects_teos_gt_0_09um": 1565
+        },
+        "pattern_evaluation": null
+      }
+    }
+  ]
+}

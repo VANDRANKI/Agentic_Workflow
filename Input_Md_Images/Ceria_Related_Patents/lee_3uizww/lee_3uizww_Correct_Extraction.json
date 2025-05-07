@@ -1,0 +1,2156 @@
+{
+  "publication_number": "US 2022/0025214 A1",
+  "title": "CMP SLURRY COMPOSITION FOR POLISHING TUNGSTEN PATTERN WAFER AND METHOD OF POLISHING TUNGSTEN PATTERN WAFER USING THE SAME",
+  "year_published": "2022",
+  "patent_assignee": "SAMSUNG SDI CO., LTD.",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 5 silane (aminoethylaminopropyltrimethoxysilane type) and Formula 7 biocide (1,2-dibromo-2,4-dicyanobutane).",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 7 (1,2-dibromo-2,4-dicyanobutane)",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 101,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 102,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 6 silane (diethylenetriaminopropyltrimethoxysilane type) and Formula 7 biocide (1,2-dibromo-2,4-dicyanobutane).",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing three nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 6",
+              "modifier_name": "Amino silane with three N atoms (e.g., diethylenetriaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 6",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 7 (1,2-dibromo-2,4-dicyanobutane)",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 99,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 100,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 5 silane and higher concentration (0.05 wt%) of Formula 7 biocide.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 7 (1,2-dibromo-2,4-dicyanobutane)",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 99,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 103,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 5 silane and Formula 8 biocide (2,2-dibromo-3-nitrilopropionamide).",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 8 (2,2-dibromo-3-nitrilopropionamide)",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 96,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 98,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 5 silane and Formula 9 biocide (2-bromo-2-nitropropane-1,3-diol).",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 9 (2-bromo-2-nitropropane-1,3-diol)",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 102,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 96,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Baseline CMP slurry with colloidal silica modified by Formula 5 silane, but NO biocide.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica, without biocide.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 100,
+          "unit": "%",
+          "baseline": "Self (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 100,
+          "unit": "%",
+          "baseline": "Self (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "52",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "24",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "29",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 5 silane and Formula 10 biocide.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 10",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 77,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 294,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_3",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 5 silane and Formula 11 biocide (phenoxy ethanol).",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 11 (phenoxy ethanol)",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.5",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 110,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 307,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_4",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 5 silane and Formula 12 biocide (o-phenyl phenol).",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 12 (o-phenyl phenol)",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 92,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 226,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "22",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "12",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "11",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 5 silane and Formula 13 biocide.",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 13",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 96,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 251,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "8",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "9",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_6",
+      "experiment_context": "CMP slurry with colloidal silica modified by Formula 5 silane and Formula 14 biocide (1-iodopropynyl butyl carbamate).",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica modified with an amino silane containing two nitrogen atoms.",
+        "precursors": [
+          {
+            "material_name": "Colloidal Silica",
+            "formula": "SiO2",
+            "source_type": "PL-7, Fuso Chemical Industries",
+            "purity": null,
+            "quantity": null
+          }
+        ],
+        "synthesis_parameters": null,
+        "post_synthesis": {
+          "description": "Modification of non-modified colloidal silica.",
+          "collection": null,
+          "treatment": {
+            "modification": {
+              "modifier_formula_ref": "Formula 5",
+              "modifier_name": "Amino silane with two N atoms (e.g., aminoethylaminopropyltrimethoxysilane)",
+              "modifier_quantity": {
+                "value": "0.04",
+                "unit": "mmol per solid content unit"
+              },
+              "reaction_conditions": {
+                "ph": 2.5,
+                "temperature": {
+                  "value": 25,
+                  "unit": "°C"
+                },
+                "duration": {
+                  "value": 72,
+                  "unit": "hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Preparation of CMP slurry using modified silica.",
+        "composition": {
+          "abrasive": {
+            "material": "Silica modified with Formula 5",
+            "concentration": {
+              "final": "1.5",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Malonic Acid",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Organic Acid",
+              "concentration": {
+                "value": "0.15",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Iron Nitrate Nonahydrate",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ethylenediaminetetraacetic acid diammonium",
+              "type": "Additive",
+              "concentration": {
+                "value": "0.001",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formula 14 (1-iodopropynyl butyl carbamate)",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized Water",
+            "percentage": {
+              "value": "Balance",
+              "unit": ""
+            }
+          },
+          "oxidizing_agent": {
+            "name": "Hydrogen Peroxide",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            },
+            "addition_time": "Immediately before polishing"
+          }
+        },
+        "processing": {
+          "description": "pH adjustment.",
+          "dispersion": [],
+          "stabilization": null,
+          "ph_control": {
+            "target": {
+              "value": 5.5
+            },
+            "agents": [
+              {
+                "name": "Nitric acid or Ammonia solution"
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the base abrasive.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "value": "120",
+              "unit": "nm"
+            },
+            "method": "D50"
+          },
+          "shape": "Colloidal"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Tungsten pattern wafer (MIT 854, 300 mm)",
+        "equipment_model": "Reflexion 300 mm (AMAT Co., Ltd.)",
+        "polishing_pad": "VP3100/Rohm and Haas Company",
+        "head_speed": {
+          "value": 35,
+          "unit": "rpm"
+        },
+        "platen_speed": {
+          "value": 33,
+          "unit": "rpm"
+        },
+        "polishing_pressure": {
+          "value": 1.5,
+          "unit": "psi"
+        },
+        "retainer_ring_pressure": {
+          "value": 8,
+          "unit": "psi"
+        },
+        "slurry_flow_rate": {
+          "value": 250,
+          "unit": "ml/min"
+        },
+        "polishing_time": {
+          "value": 60,
+          "unit": "sec"
+        },
+        "relative_oxide_polishing_rate": {
+          "value": 85,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (120 Å/min)"
+        },
+        "relative_flatness_erosion": {
+          "value": 456,
+          "unit": "%",
+          "baseline": "Comparative Example 1 (50 Å)"
+        },
+        "stability_test": {
+          "fungi_contamination_area": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Aspergillus niger, PDA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_staph": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Staphylococcus aureus, PCA medium, 40°C, 10 days"
+          },
+          "microorganism_contamination_area_candida": {
+            "value": "<1",
+            "unit": "%",
+            "conditions": "Candida albicans, PCA medium, 40°C, 10 days"
+          }
+        }
+      }
+    }
+  ]
+}

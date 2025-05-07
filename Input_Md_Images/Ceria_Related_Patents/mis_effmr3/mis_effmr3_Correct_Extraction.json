@@ -1,0 +1,164 @@
+{
+  "doi": "US 2022/0355439 A1",
+  "title": "PAD SURFACE REGENERATION AND METAL RECOVERY",
+  "year_published": "2022",
+  "journal": "U.S. Patent Application Publication",
+  "authors": [
+    {
+      "name": "Misra, Sudhanshu",
+      "affiliation": "Camas, WA (US)"
+    },
+    {
+      "name": "Suryadevara, Babu",
+      "affiliation": "Portland, OR (US)"
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "Patented_Method_Overall_mis_effmr3",
+      "experiment_context": "General method for planarizing with a functionalized pad, regenerating the pad, and recovering materials. Specific experimental parameters for distinct runs are not detailed in the patent text in the same manner as the gold-standard example.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [],
+        "target_final_slurry_ph": null,
+        "solvent": null
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": {
+          "OH": null,
+          "NO3": null,
+          "CH3": null,
+          "pad_functional_group_types_examples": [
+            "carboxyl",
+            "amino",
+            "hydroxyl",
+            "sulfonyl"
+          ]
+        },
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": [],
+        "effluent_characteristics": {
+          "removed_substrate_material_concentration_example": {
+            "value": "5-100",
+            "unit": "mg/L"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": null,
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": "General system (Ref: FIG. 1, FIG. 6)",
+        "pad_composition": "Functionalized chemical planarization pad"
+      },
+      "theoretical_analysis": {
+        "work_of_adhesion": null
+      },
+      "additional_patent_information": {
+        "method_summary": {
+          "planarization_step": "Substrate material bonds to functional groups on the pad.",
+          "pad_regeneration_step": "Regeneration solution breaks bonds; removed material is complexed into an effluent phase.",
+          "material_recovery_step": "Dissolved material is extracted from the effluent phase."
+        },
+        "key_materials_or_agents_examples": {
+          "substrate_materials": [
+            "copper",
+            "cobalt",
+            "gold",
+            "hafnium",
+            "zirconium",
+            "rhenium",
+            "niobium",
+            "molybdenum",
+            "ruthenium",
+            "tantalum",
+            "vanadium",
+            "tungsten",
+            "TaN",
+            "TiN",
+            "polysilicon",
+            "silicon",
+            "silicon dioxide",
+            "silicon nitride",
+            "silicon carbide"
+          ],
+          "stripping_agents": [
+            "peroxide",
+            "HCl",
+            "HNO₃",
+            "sulfuric acid",
+            "ammonium hydroxide",
+            "sodium hydroxide",
+            "potassium hydroxide",
+            "amino acids"
+          ],
+          "complexing_agents": [
+            "hydroxide",
+            "alcohol",
+            "acid",
+            "amine",
+            "azole",
+            "macrocyclic compound",
+            "sulfonate",
+            "poly-diallyldimethylammonium chloride (DADMAC)",
+            "mono-DADMAC",
+            "persulfates",
+            "EDTA",
+            "DTPA",
+            "NTA",
+            "ethylene diamine",
+            "amino acids (e.g., glycine, cysteine)",
+            "iminodisuccinic acid (IDS)",
+            "ethylenediaminedisuccinic acid (EDDS)",
+            "glutamic acid diacetate (GLDA)",
+            "methylglycinediacetic acid (MGDA)"
+          ],
+          "extraction_solutions_or_methods": [
+            "LIX64",
+            "LIX64N",
+            "KELEX 100",
+            "KELEX 120",
+            "phosphonates",
+            "ALAMINE 308",
+            "ALAMINE 336",
+            "ALAMINE 304",
+            "ALIQUAT 336",
+            "liquid-liquid extraction",
+            "solvent extraction",
+            "membrane separation (LM, SLM)",
+            "ion pair extraction"
+          ]
+        },
+        "figure_references_for_process": [
+          "FIG. 1 (System)",
+          "FIG. 2 (Porous Pad)",
+          "FIG. 3 (Planarization Mechanism)",
+          "FIG. 4 (Separation Mechanism)",
+          "FIG. 5 (Extraction Mechanism)",
+          "FIG. 6 (Overall System)",
+          "FIG. 7A-7B (Method Flowchart)"
+        ]
+      }
+    }
+  ]
+}

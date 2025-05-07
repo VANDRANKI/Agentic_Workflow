@@ -1,0 +1,1051 @@
+{
+  "doi": "US 11,286,403 B2",
+  "samples": [
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Chemical mechanical polishing slurry with iron nitrate catalyst only at 50 ppm Fe metal content",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica used as polishing agent with iron-based metal catalyst",
+        "precursors": [
+          {
+            "material_name": "iron(III) nitrate nonahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.0362",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": "",
+                  "unit": "remaining amount"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation with colloidal silica and iron nitrate catalyst",
+        "composition": {
+          "abrasive": {
+            "material": "colloidal silica",
+            "concentration": {
+              "initial": "1.3",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "iron nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.0362",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "OMIT",
+              "type": "disinfectant",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": "",
+              "unit": "remaining amount"
+            }
+          }
+        },
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {}
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": [
+              {
+                "name": "nitric acid and tetramethylammonium hydroxide",
+                "concentration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "90",
+              "max": "90",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "Chemical mechanical polishing slurry with higher concentration of iron nitrate catalyst at 300 ppm Fe metal content",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica used as polishing agent with higher concentration of iron-based metal catalyst",
+        "precursors": [
+          {
+            "material_name": "iron(III) nitrate nonahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.2170",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation with colloidal silica and higher concentration of iron nitrate catalyst",
+        "composition": {
+          "abrasive": {
+            "material": "colloidal silica",
+            "concentration": {
+              "initial": "1.3",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "iron nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.2170",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "OMIT",
+              "type": "disinfectant",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": "",
+              "unit": "remaining amount"
+            }
+          }
+        },
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {}
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "90",
+              "max": "90",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "97 nm immediately after preparation, 109 nm after 60 days, 135 nm after 180 days"
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5",
+      "experiment_context": "Chemical mechanical polishing slurry with magnesium nitrate catalyst only at 80 ppm Mg metal content",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica used as polishing agent with magnesium-based metal catalyst",
+        "precursors": [
+          {
+            "material_name": "magnesium nitrate hexahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.0844",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation with colloidal silica and magnesium nitrate catalyst",
+        "composition": {
+          "abrasive": {
+            "material": "colloidal silica",
+            "concentration": {
+              "initial": "1.3",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "magnesium nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.0844",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "OMIT",
+              "type": "disinfectant",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": "",
+              "unit": "remaining amount"
+            }
+          }
+        },
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {}
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "90",
+              "max": "90",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_6",
+      "experiment_context": "Chemical mechanical polishing slurry with ferrosilicon catalyst only at 50 ppm Fe metal content",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica used as polishing agent with ferrosilicon metal catalyst",
+        "precursors": [
+          {
+            "material_name": "ferrosilicon",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.0075",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation with colloidal silica and ferrosilicon catalyst",
+        "composition": {
+          "abrasive": {
+            "material": "colloidal silica",
+            "concentration": {
+              "initial": "1.3",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "ferrosilicon",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.0075",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "OMIT",
+              "type": "disinfectant",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": "",
+              "unit": "remaining amount"
+            }
+          }
+        },
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {}
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "90",
+              "max": "90",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Chemical mechanical polishing slurry with combination of iron nitrate and magnesium nitrate catalysts at 20 ppm Fe and 20 ppm Mg metal content",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica used as polishing agent with combination of iron-based and magnesium-based metal catalysts",
+        "precursors": [
+          {
+            "material_name": "iron(III) nitrate nonahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.0145",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "magnesium nitrate hexahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.0211",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation with colloidal silica and combination of iron nitrate and magnesium nitrate catalysts",
+        "composition": {
+          "abrasive": {
+            "material": "colloidal silica",
+            "concentration": {
+              "initial": "1.3",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "iron nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.0145",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "magnesium nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.0211",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "OMIT",
+              "type": "disinfectant",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": "",
+              "unit": "remaining amount"
+            }
+          }
+        },
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {}
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "90",
+              "max": "90",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Chemical mechanical polishing slurry with combination of iron nitrate and magnesium nitrate catalysts at 40 ppm Fe and 5 ppm Mg metal content",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica used as polishing agent with combination of iron-based and magnesium-based metal catalysts",
+        "precursors": [
+          {
+            "material_name": "iron(III) nitrate nonahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.0289",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "magnesium nitrate hexahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.0053",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation with colloidal silica and combination of iron nitrate and magnesium nitrate catalysts",
+        "composition": {
+          "abrasive": {
+            "material": "colloidal silica",
+            "concentration": {
+              "initial": "1.3",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "iron nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.0289",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "magnesium nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.0053",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "OMIT",
+              "type": "disinfectant",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": "",
+              "unit": "remaining amount"
+            }
+          }
+        },
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {}
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "90",
+              "max": "90",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "98 nm immediately after preparation, 99 nm after 60 days, 109 nm after 180 days"
+      }
+    },
+    {
+      "sample_id": "Example_8",
+      "experiment_context": "Chemical mechanical polishing slurry with combination of iron nitrate and magnesium nitrate catalysts at 250 ppm Fe and 50 ppm Mg metal content",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica used as polishing agent with combination of iron-based and magnesium-based metal catalysts at higher concentrations",
+        "precursors": [
+          {
+            "material_name": "iron(III) nitrate nonahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.1809",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "magnesium nitrate hexahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.0527",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation with colloidal silica and combination of iron nitrate and magnesium nitrate catalysts at higher concentrations",
+        "composition": {
+          "abrasive": {
+            "material": "colloidal silica",
+            "concentration": {
+              "initial": "1.3",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "iron nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.1809",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "magnesium nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.0527",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "OMIT",
+              "type": "disinfectant",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": "",
+              "unit": "remaining amount"
+            }
+          }
+        },
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {}
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "90",
+              "max": "90",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "96 nm immediately after preparation, 104 nm after 60 days, 131 nm after 180 days"
+      }
+    },
+    {
+      "sample_id": "Example_15",
+      "experiment_context": "Chemical mechanical polishing slurry with combination of iron nitrate and magnesium nitrate catalysts with tributylamine dispersion stabilizer",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica used as polishing agent with combination of iron-based and magnesium-based metal catalysts and tributylamine dispersion stabilizer",
+        "precursors": [
+          {
+            "material_name": "iron(III) nitrate nonahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.1809",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "magnesium nitrate hexahydrate",
+            "formula": "",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.0527",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": [
+              {
+                "name": "tributylamine",
+                "concentration": {
+                  "value": "0.01",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "",
+          "collection": {
+            "method": "",
+            "parameters": {}
+          },
+          "treatment": {
+            "calcination": {}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation with colloidal silica, combination of iron nitrate and magnesium nitrate catalysts, and tributylamine dispersion stabilizer",
+        "composition": {
+          "abrasive": {
+            "material": "colloidal silica",
+            "concentration": {
+              "initial": "1.3",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "iron nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.1809",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "magnesium nitrate",
+              "type": "metal catalyst",
+              "concentration": {
+                "value": "0.0527",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "tributylamine",
+              "type": "dispersion stabilizer",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "OMIT",
+              "type": "disinfectant",
+              "concentration": {
+                "value": "0.03",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": "",
+              "unit": "remaining amount"
+            }
+          }
+        },
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {}
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "3"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "90",
+              "max": "90",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "98 nm immediately after preparation, 97 nm after 60 days, 100 nm after 180 days"
+      }
+    },
+    {
+        "sample_id": "Example_16",
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": { "aging": {} },
+          "ph_control": {
+            "target": { "min": "3", "max": "3" },
+            "agents": []
+          },
+          "dispersion_stabilizer": {
+            "name": "Methanesulfonic acid",
+            "concentration": { "value": "0.003", "unit": "wt%" }
+          }
+        },
+        "characterization": {
+          "description": "",
+          "morphology": {
+            "particle_size": {
+              "average": { "min": "90", "max": "90", "unit": "nm" }
+            },
+            "shape": "",
+            "surface_area": { "value": "", "unit": "" }
+          },
+          "stability": "97 nm immediately after preparation, 100 nm after 60 days, 107 nm after 180 days"
+        }
+      },
+      {
+        "sample_id": "Example_17",
+        "processing": {
+          "description": "",
+          "dispersion": [],
+          "stabilization": { "aging": {} },
+          "ph_control": {
+            "target": { "min": "3", "max": "3" },
+            "agents": []
+          },
+          "dispersion_stabilizer": {
+            "name": "Tributylamine + Methanesulfonic acid",
+            "concentration": { "value": "0.005+0.001", "unit": "wt%" }
+          }
+        },
+        "characterization": {
+          "description": "",
+          "morphology": {
+            "particle_size": {
+              "average": { "min": "90", "max": "90", "unit": "nm" }
+            },
+            "shape": "",
+            "surface_area": { "value": "", "unit": "" }
+          },
+          "stability": "97 nm immediately after preparation, 97 nm after 60 days, 98 nm after 180 days"
+        }
+      }
+    ]
+}  

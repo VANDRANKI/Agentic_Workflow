@@ -1,0 +1,1610 @@
+{
+  "doi": "US 2011/0045745 A1",
+  "title": "DOPED CERIA ABRASIVES WITH CONTROLLED MORPHOLOGY AND PREPARATION THEREOF",
+  "year_published": "2011",
+  "journal": "Patent Application Publication",
+  "samples": [
+    {
+      "doi": "US 2011/0045745 A1",
+      "sample_id": "US20110045745A1_Ex1_Y5_RFICP_40SSA",
+      "experiment_context": "Yttrium-doped (5 at%) ceria synthesized via RF-ICP from nitrate precursors (Example 1). CMP performance tested as per Example 10.",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate solution",
+            "formula": "Ce(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          },
+          {
+            "material_name": "Yttrium nitrate solution",
+            "formula": "Y(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": "5",
+              "unit": "at % vs total metal"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": null,
+                  "unit": "aqueous solution"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "RF inductively coupled plasma generation",
+                "unit": "100 kW",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 2,
+                "value": "Plasma gas: Argon",
+                "unit": "12 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Plasma gas: Oxygen",
+                "unit": "3 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Mixed Y- and Ce-nitrate solution injection",
+                "unit": "500 mL/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 5,
+                "value": "Reaction zone temperature",
+                "unit": ">2000 K",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 6,
+                "value": "Quench gas: Air",
+                "unit": "10 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "filtering",
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Yttrium doped ceria (5 at% Y)",
+            "concentration": {
+              "initial": null,
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "poly-acrylic acid",
+              "type": "dispersant",
+              "concentration": {
+                "value": "3.4",
+                "unit": "% of the weight of the ceria"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [
+            {
+              "value": "sonication",
+              "unit": null,
+              "duration": {
+                "value": "10",
+                "unit": "min"
+              }
+            }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "20",
+              "max": "20",
+              "unit": "nm"
+            }
+          },
+          "shape": "Mono-crystalline (>=95 wt%), (truncated) octahedral. Surfaces: 94% {111} planes, 5% {100} planes.",
+          "surface_area": {
+            "value": "40",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      }
+    },
+    {
+      "doi": "US 2011/0045745 A1",
+      "sample_id": "US20110045745A1_Ex2_Y2.5_RFICP_40SSA",
+      "experiment_context": "Yttrium-doped (2.5 at%) ceria synthesized via RF-ICP from nitrate precursors (Example 2). CMP performance tested as per Example 11.",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate solution",
+            "formula": "Ce(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          },
+          {
+            "material_name": "Yttrium nitrate solution",
+            "formula": "Y(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": "2.5",
+              "unit": "at % vs total metal"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": null,
+                  "unit": "aqueous solution"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "RF inductively coupled plasma generation",
+                "unit": "100 kW",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 2,
+                "value": "Plasma gas: Argon",
+                "unit": "12 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Plasma gas: Oxygen",
+                "unit": "3 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Mixed Y- and Ce-nitrate solution injection",
+                "unit": "500 mL/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 5,
+                "value": "Reaction zone temperature",
+                "unit": ">2000 K",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 6,
+                "value": "Quench gas: Air",
+                "unit": "10 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "filtering",
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Yttrium doped ceria (2.5 at% Y)",
+            "concentration": {
+              "initial": null,
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "poly-acrylic acid",
+              "type": "dispersant",
+              "concentration": {
+                "value": "3.4",
+                "unit": "% of the weight of the ceria"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [
+            {
+              "value": "sonication",
+              "unit": null,
+              "duration": {
+                "value": "10",
+                "unit": "min"
+              }
+            }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "20",
+              "max": "20",
+              "unit": "nm"
+            }
+          },
+          "shape": "Mono-crystalline (>=95 wt%), (truncated) octahedral. Surfaces: 80% {111} planes, 11% {100} planes.",
+          "surface_area": {
+            "value": "40",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      }
+    },
+    {
+      "doi": "US 2011/0045745 A1",
+      "sample_id": "US20110045745A1_Ex3_Y0_RFICP_40SSA_Comp",
+      "experiment_context": "Pure ceria (0 at% Y, Comparative Example 3) synthesized via RF-ICP from nitrate precursors. CMP performance tested as per Example 12.",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate solution",
+            "formula": "Ce(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": null,
+                  "unit": "aqueous solution"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "RF inductively coupled plasma generation",
+                "unit": "100 kW",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 2,
+                "value": "Plasma gas: Argon",
+                "unit": "12 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Plasma gas: Oxygen",
+                "unit": "3 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Ce-nitrate solution injection",
+                "unit": "500 mL/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 5,
+                "value": "Reaction zone temperature",
+                "unit": ">2000 K",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 6,
+                "value": "Quench gas: Air",
+                "unit": "10 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "filtering",
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Pure ceria",
+            "concentration": {
+              "initial": null,
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "poly-acrylic acid",
+              "type": "dispersant",
+              "concentration": {
+                "value": "3.4",
+                "unit": "% of the weight of the ceria"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "water",
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [
+            {
+              "value": "sonication",
+              "unit": null,
+              "duration": {
+                "value": "10",
+                "unit": "min"
+              }
+            }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "10",
+              "max": "10"
+            },
+            "agents": [
+              {
+                "name": "KOH",
+                "concentration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "20",
+              "max": "20",
+              "unit": "nm"
+            }
+          },
+          "shape": "Mono-crystalline (>=95 wt%), (truncated) octahedral. Surfaces: 61% {111} planes, 30% {100} planes.",
+          "surface_area": {
+            "value": "40",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      }
+    },
+    {
+      "doi": "US 2011/0045745 A1",
+      "sample_id": "US20110045745A1_Ex4_Y0_DC_40SSA_Comp",
+      "experiment_context": "Pure ceria (0 at% Y, Comparative Example 4) synthesized via DC plasma torch from nitrate precursors.",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate solution",
+            "formula": "Ce(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": null,
+                  "unit": "aqueous solution"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "DC plasma torch",
+                "unit": "250 kW",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 2,
+                "value": "Plasma gas: Nitrogen",
+                "unit": "150 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Ce-nitrate solution injection downstream of plasma",
+                "unit": "25 kg/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Vaporization temperature",
+                "unit": ">2000 K",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 5,
+                "value": "Quench gas: Air",
+                "unit": "6000 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "filtering",
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": null,
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": null,
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": null,
+              "max": null
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "20",
+              "max": "20",
+              "unit": "nm"
+            }
+          },
+          "shape": "Mono-crystalline (>=95 wt%), (truncated) octahedral. Surfaces: 65% {111} planes, 24% {100} planes.",
+          "surface_area": {
+            "value": "40",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      }
+    },
+    {
+      "doi": "US 2011/0045745 A1",
+      "sample_id": "US20110045745A1_Ex5_Y2.5_DC_40SSA",
+      "experiment_context": "Yttrium-doped (2.5 at%) ceria synthesized via DC plasma torch from nitrate precursors (Example 5). Conditions similar to Ex. 4 but with Yttrium.",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate solution",
+            "formula": "Ce(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": null,
+              "unit": null
+            }
+          },
+          {
+            "material_name": "Yttrium nitrate solution",
+            "formula": "Y(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": "2.5",
+              "unit": "at % vs total metal"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": null,
+                  "unit": "aqueous solution"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "DC plasma torch",
+                "unit": "250 kW",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 2,
+                "value": "Plasma gas: Nitrogen",
+                "unit": "150 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Mixed Y- and Ce-nitrate solution injection downstream of plasma",
+                "unit": "25 kg/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Vaporization temperature",
+                "unit": ">2000 K",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 5,
+                "value": "Quench gas: Air",
+                "unit": "6000 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "filtering",
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": null,
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": null,
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": null,
+              "max": null
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "20",
+              "max": "20",
+              "unit": "nm"
+            }
+          },
+          "shape": "Mono-crystalline (>=95 wt%), (truncated) octahedral. Surfaces: 88% {111} planes, 8% {100} planes.",
+          "surface_area": {
+            "value": "40",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      }
+    },
+    {
+      "doi": "US 2011/0045745 A1",
+      "sample_id": "US20110045745A1_Ex6_Y2.5_DC400kW_5kAir_30SSA",
+      "experiment_context": "Yttrium-doped (2.5 at%) ceria synthesized via DC plasma torch (Example 6). Higher power (400kW) and specific air flow (5000 Nm³/h).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate solution with Yttrium",
+            "formula": "(Ce,Y)(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": "2.5",
+              "unit": "at % Y vs total metal"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": null,
+                  "unit": "aqueous solution"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "DC plasma torch",
+                "unit": "400 kW",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 2,
+                "value": "Plasma gas: Nitrogen",
+                "unit": "150 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Solution injection downstream of plasma",
+                "unit": "25 kg/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Quench gas: Air",
+                "unit": "5000 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "filtering",
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": null,
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": null,
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": null,
+              "max": null
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "30",
+              "max": "30",
+              "unit": "nm"
+            }
+          },
+          "shape": "Mono-crystalline (>=95 wt%), (truncated) octahedral. Surfaces: 75% {111} planes, 15% {100} planes.",
+          "surface_area": {
+            "value": "30",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      }
+    },
+    {
+      "doi": "US 2011/0045745 A1",
+      "sample_id": "US20110045745A1_Ex7_Y2.5_DC400kW_15kAir_80SSA",
+      "experiment_context": "Yttrium-doped (2.5 at%) ceria synthesized via DC plasma torch (Example 7). Higher power (400kW) and very high air flow (15000 Nm³/h).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate solution with Yttrium",
+            "formula": "(Ce,Y)(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": "2.5",
+              "unit": "at % Y vs total metal"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": null,
+                  "unit": "aqueous solution"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "DC plasma torch",
+                "unit": "400 kW",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 2,
+                "value": "Plasma gas: Nitrogen",
+                "unit": "150 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Solution injection downstream of plasma",
+                "unit": "25 kg/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Quench gas: Air",
+                "unit": "15000 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "filtering",
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": null,
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": null,
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": null,
+              "max": null
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "11",
+              "max": "11",
+              "unit": "nm"
+            }
+          },
+          "shape": "Mono-crystalline (>=95 wt%), (truncated) octahedral. Surfaces: 80% {111} planes, 10% {100} planes.",
+          "surface_area": {
+            "value": "80",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      }
+    },
+    {
+      "doi": "US 2011/0045745 A1",
+      "sample_id": "US20110045745A1_Ex8_Y2.5_DC400kW_Acetate_100SSA",
+      "experiment_context": "Yttrium-doped (2.5 at%) ceria synthesized via DC plasma torch from Ce/Y acetate solution (Example 8). Conditions similar to Ex. 7 but with acetate precursor.",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Ce/Y acetate solution",
+            "formula": "(Ce,Y)(CH3COO)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": "2.5",
+              "unit": "at % Y vs total metal"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": null,
+                  "unit": "aqueous solution"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "DC plasma torch",
+                "unit": "400 kW",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 2,
+                "value": "Plasma gas: Nitrogen",
+                "unit": "150 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Solution injection downstream of plasma",
+                "unit": "25 kg/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Quench gas: Air",
+                "unit": "15000 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "filtering",
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": null,
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": null,
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": null,
+              "max": null
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "10",
+              "unit": "nm"
+            }
+          },
+          "shape": "Mono-crystalline (>=95 wt%), (truncated) octahedral. Surfaces: 82% {111} planes, 9% {100} planes.",
+          "surface_area": {
+            "value": "100",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      }
+    },
+    {
+      "doi": "US 2011/0045745 A1",
+      "sample_id": "US20110045745A1_Ex9_Y2.5_DC400kW_3kAir_12SSA",
+      "experiment_context": "Yttrium-doped (2.5 at%) ceria synthesized via DC plasma torch (Example 9). Higher power (400kW) and specific air flow (3000 Nm³/h).",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate solution with Yttrium",
+            "formula": "(Ce,Y)(NO3)x",
+            "source_type": "aqueous solution",
+            "purity": null,
+            "quantity": {
+              "value": "2.5",
+              "unit": "at % Y vs total metal"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "water",
+                "quantity": {
+                  "value": null,
+                  "unit": "aqueous solution"
+                }
+              }
+            ],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "DC plasma torch",
+                "unit": "400 kW",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 2,
+                "value": "Plasma gas: Nitrogen",
+                "unit": "150 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 3,
+                "value": "Solution injection downstream of plasma",
+                "unit": "25 kg/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              },
+              {
+                "stage": 4,
+                "value": "Quench gas: Air",
+                "unit": "3000 Nm³/h",
+                "duration": {
+                  "value": null,
+                  "unit": null
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "filtering",
+            "parameters": {
+              "speed": {
+                "value": null,
+                "unit": null
+              },
+              "cycles": null,
+              "wash_volume": {
+                "value": null,
+                "unit": null
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": null,
+                "unit": null
+              },
+              "duration": {
+                "value": null,
+                "unit": null
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": null,
+            "concentration": {
+              "initial": null,
+              "final": null,
+              "unit": null
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": null,
+            "percentage": {
+              "value": null,
+              "unit": null
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": null,
+                "unit": null
+              },
+              "equipment": null
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": null,
+              "max": null
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "80",
+              "max": "80",
+              "unit": "nm"
+            }
+          },
+          "shape": "Mono-crystalline (>=95 wt%), (truncated) octahedral. Surfaces: 72% {111} planes, 19% {100} planes.",
+          "surface_area": {
+            "value": "12",
+            "unit": "m²/g"
+          }
+        },
+        "stability": null
+      }
+    }
+  ]
+}

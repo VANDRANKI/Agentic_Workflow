@@ -1,0 +1,752 @@
+{
+  "doi": "US-Patent-App-10/384,558",
+  "title": "PREPARATION AND USE OF AN ABRASIVE SLURRY COMPOSITION",
+  "year_published": "2003",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "SiO2_160_NoAdditive_Exp1_Sample1",
+      "experiment_context": "Experiment 1, Sample 1/16: SiO2 abrasive with 160 m2/g surface area (5-15 nm primary diameter). Baseline/no specific additive mentioned for this test series. Evaluated for oxide polishing rate, uniformity, and thickness range (Figs 2, 3, 4, 7).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 160, "unit": "m2/g" },
+        "primary_particle_diameter": { "value": "5-15", "unit": "nm" }
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": []
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": { "value": 2600, "unit": "A/min" },
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": { "value": null, "unit": "%" },
+        "within_wafer_thickness_range": { "value": 650, "unit": "A" },
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_140_NoAdditive_Exp1_Sample2",
+      "experiment_context": "Experiment 1, Sample 2/15: SiO2 abrasive with 140 m2/g surface area (5-15 nm primary diameter). Baseline/no specific additive mentioned for this test series. Evaluated for oxide polishing rate, uniformity, and thickness range (Figs 2, 3, 4, 7).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 140, "unit": "m2/g" },
+        "primary_particle_diameter": { "value": "5-15", "unit": "nm" }
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": []
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": { "value": null, "unit": "A/min" },
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": { "value": null, "unit": "%" },
+        "within_wafer_thickness_range": { "value": 750, "unit": "A" },
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_90_NoAdditive_Exp1_Sample3",
+      "experiment_context": "Experiment 1, Sample 3/13: SiO2 abrasive with 90 m2/g surface area (5-15 nm primary diameter). Baseline/no specific additive mentioned for this test series. Evaluated for oxide polishing rate, uniformity, and thickness range (Figs 2, 3, 4, 7).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 90, "unit": "m2/g" },
+        "primary_particle_diameter": { "value": "5-15", "unit": "nm" }
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": []
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": { "value": null, "unit": "A/min" },
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": { "value": null, "unit": "%" },
+        "within_wafer_thickness_range": { "value": 1200, "unit": "A" },
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_50_NoAdditive_Exp1_Sample4",
+      "experiment_context": "Experiment 1, Sample 4/14: SiO2 abrasive with 50 m2/g surface area (~50 nm primary diameter). Baseline/no specific additive mentioned for this test series. Evaluated for oxide polishing rate, uniformity, and thickness range (Figs 2, 3, 4, 7).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 50, "unit": "m2/g" },
+        "primary_particle_diameter": { "value": 50, "unit": "nm" }
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": []
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": { "value": 3050, "unit": "A/min" },
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": { "value": null, "unit": "%" },
+        "within_wafer_thickness_range": { "value": 900, "unit": "A" },
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_50_KOH_0.4wt_Exp2_Sample5",
+      "experiment_context": "Experiment 2, Sample 5: SiO2 abrasive (50 m2/g) with 0.4 wt% KOH additive. Evaluated for oxide polishing rate and uniformity (Fig 5).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 50, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "KOH", "concentration": { "value": 0.4, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_90_KOH_0.4wt_Exp2_Sample6",
+      "experiment_context": "Experiment 2, Sample 6: SiO2 abrasive (90 m2/g) with 0.4 wt% KOH additive. Evaluated for oxide polishing rate and uniformity (Fig 5).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 90, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "KOH", "concentration": { "value": 0.4, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null, 
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_130_KOH_0.37wt_Exp2_Sample7",
+      "experiment_context": "Experiment 2, Sample 7: SiO2 abrasive (130 m2/g) with 0.37 wt% KOH additive. Evaluated for oxide polishing rate and uniformity (Fig 5).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "KOH", "concentration": { "value": 0.37, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_130_KOH_0.5wt_Exp2_Sample8",
+      "experiment_context": "Experiment 2, Sample 8: SiO2 abrasive (130 m2/g) with 0.5 wt% KOH additive. Evaluated for oxide polishing rate and uniformity (Fig 5).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "KOH", "concentration": { "value": 0.5, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null, 
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null, 
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_130_KOH_0.66wt_Exp2_Sample9",
+      "experiment_context": "Experiment 2, Sample 9: SiO2 abrasive (130 m2/g) with 0.66 wt% KOH additive. Evaluated for oxide polishing rate and uniformity (Fig 5).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "KOH", "concentration": { "value": 0.66, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_100_KOH_0.468wt_Exp3_Sample10",
+      "experiment_context": "Experiment 3, Sample 10: SiO2 abrasive (100 m2/g) with 0.468 wt% KOH additive. Evaluated for oxide polishing rate and uniformity (Fig 6).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 100, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "KOH", "concentration": { "value": 0.468, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null, 
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_100_KOH_0.468wt_TMAH_0.2wt_Exp3_Sample11",
+      "experiment_context": "Experiment 3, Sample 11: SiO2 abrasive (100 m2/g) with 0.468 wt% KOH and 0.2 wt% TMAH additives. Evaluated for oxide polishing rate and uniformity (Fig 6).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 100, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "KOH", "concentration": { "value": 0.468, "unit": "wt%" } },
+          { "name": "TMAH", "concentration": { "value": 0.2, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null, 
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_100_KOH_0.468wt_TMAH_0.4wt_Exp3_Sample12",
+      "experiment_context": "Experiment 3, Sample 12: SiO2 abrasive (100 m2/g) with 0.468 wt% KOH and 0.4 wt% TMAH additives. Evaluated for oxide polishing rate and uniformity (Fig 6).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 100, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "KOH", "concentration": { "value": 0.468, "unit": "wt%" } },
+          { "name": "TMAH", "concentration": { "value": 0.4, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null, 
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null, 
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_90_TMAH_0.2wt_Exp5_Sample17_Exp6_Sample22",
+      "experiment_context": "Experiment 5, Sample 17 & Experiment 6, Sample 22: SiO2 abrasive (90 m2/g) with 0.2 wt% TMAH additive. Evaluated for defects (Fig 8) and agglomeration (Fig 9).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 90, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.2, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": {
+        "agglomeration_test": {
+          "duration": {"value": 24, "unit": "h"},
+          "flow_rate": {"value": 5, "unit": "L/min"},
+          "pipe_diameter": {"value": 0.3, "unit": "inch"},
+          "result": "Stable"
+        }
+      },
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": {
+          "value": null,
+          "unit": "counts",
+          "measurement_tool": "KLA-Tencor SurfaceScan 6420"
+        }
+      }
+    },
+    {
+      "sample_id": "SiO2_120_NoTMAH_Exp5_Sample18",
+      "experiment_context": "Experiment 5, Sample 18: SiO2 abrasive (120 m2/g) with no TMAH additive. Evaluated for defects (Fig 8).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 120, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [] 
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": {
+          "value": "> 300",
+          "unit": "counts",
+          "measurement_tool": "KLA-Tencor SurfaceScan 6420"
+        }
+      }
+    },
+    {
+      "sample_id": "SiO2_120_TMAH_0.2wt_Exp5_Sample19",
+      "experiment_context": "Experiment 5, Sample 19: SiO2 abrasive (120 m2/g) with 0.2 wt% TMAH additive. Evaluated for defects (Fig 8).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 120, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.2, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": {
+          "value": "~50",
+          "unit": "counts",
+          "measurement_tool": "KLA-Tencor SurfaceScan 6420"
+        }
+      }
+    },
+    {
+      "sample_id": "SiO2_120_TMAH_0.4wt_Exp5_Sample20",
+      "experiment_context": "Experiment 5, Sample 20: SiO2 abrasive (120 m2/g) with 0.4 wt% TMAH additive. Evaluated for defects (Fig 8).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 120, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.4, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": {
+          "value": "< 50",
+          "unit": "counts",
+          "measurement_tool": "KLA-Tencor SurfaceScan 6420"
+        }
+      }
+    },
+    {
+      "sample_id": "SiO2_130_TMAH_0.2wt_Exp5_Sample21",
+      "experiment_context": "Experiment 5, Sample 21: SiO2 abrasive (130 m2/g) with 0.2 wt% TMAH additive. Evaluated for defects (Fig 8).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.2, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": {
+          "value": "< 100",
+          "unit": "counts",
+          "measurement_tool": "KLA-Tencor SurfaceScan 6420"
+        }
+      }
+    },
+    {
+      "sample_id": "SiO2_90_NoTMAH_Exp6_Sample23",
+      "experiment_context": "Experiment 6, Sample 23: SiO2 abrasive (90 m2/g) with no TMAH additive. Evaluated for agglomeration (Fig 9).",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 90, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": []
+      },
+      "slurry_characterization": {
+         "agglomeration_test": {
+            "duration": {"value": 24, "unit": "h"},
+            "flow_rate": {"value": 5, "unit": "L/min"},
+            "pipe_diameter": {"value": 0.3, "unit": "inch"},
+            "result": "Size increased >3x"
+         }
+      },
+      "cmp_setup": null,
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "SiO2_130_TMAH_0.3wt_EthanolAmine_0.1wt_Table1_Exp7",
+      "experiment_context": "Table 1, Experiment 7 & Para [0089]: SiO2 abrasive (130 m2/g) with 0.3 wt% TMAH and 0.1 wt% Ethanol amine. Evaluated for nitride polishing rate and oxide/nitride selectivity.",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.3, "unit": "wt%" } },
+          { "name": "Ethanol amine", "concentration": { "value": 0.1, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": { 
+        "equipment_model": "STRASBAUGH 6EC",
+        "polishing_pad": null,
+        "down_force": { "value": 4.0, "unit": "psi" },
+        "back_pressure": { "value": 1.5, "unit": "psi" },
+        "table_speed": { "value": 70, "unit": "rpm" },
+        "head_speed": { "value": 70, "unit": "rpm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "slurry_flow_rate": { "value": 150, "unit": "ml/min" }
+      },
+      "cmp_performance": {
+        "film_polished": "SiO2/Si4N4",
+        "oxide_removal_rate": { "value": 1564.08, "unit": "A/min" }, 
+        "nitride_removal_rate": { "value": 372.4, "unit": "A/min" },
+        "selectivity_oxide_nitride": 4.2,
+        "polishing_uniformity": null, 
+        "within_wafer_thickness_range": null,
+        "defect_count": null 
+      }
+    },
+    {
+      "sample_id": "SiO2_130_TMAH_0.3wt_DimethanolAmine_0.1wt_Table1_Exp8",
+      "experiment_context": "Table 1, Experiment 8: SiO2 abrasive (130 m2/g) with 0.3 wt% TMAH and 0.1 wt% Dimethanol amine. Evaluated for nitride polishing rate and oxide/nitride selectivity.",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.3, "unit": "wt%" } },
+          { "name": "Dimethanol amine", "concentration": { "value": 0.1, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2/Si4N4",
+        "oxide_removal_rate": { "value": 1466.57, "unit": "A/min" }, 
+        "nitride_removal_rate": { "value": 357.7, "unit": "A/min" },
+        "selectivity_oxide_nitride": 4.1,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_130_TMAH_0.3wt_TrimethanolAmine_0.1wt_Table1_Exp9",
+      "experiment_context": "Table 1, Experiment 9: SiO2 abrasive (130 m2/g) with 0.3 wt% TMAH and 0.1 wt% Trimethanol amine. Evaluated for nitride polishing rate and oxide/nitride selectivity.",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.3, "unit": "wt%" } },
+          { "name": "Trimethanol amine", "concentration": { "value": 0.1, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2/Si4N4",
+        "oxide_removal_rate": { "value": 1689.12, "unit": "A/min" }, 
+        "nitride_removal_rate": { "value": 367.2, "unit": "A/min" },
+        "selectivity_oxide_nitride": 4.6,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_130_TMAH_0.4wt_Table1_Exp10",
+      "experiment_context": "Table 1, Experiment 10: SiO2 abrasive (130 m2/g) with 0.4 wt% TMAH. Evaluated for nitride polishing rate and oxide/nitride selectivity.",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.4, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2/Si4N4",
+        "oxide_removal_rate": { "value": 1506.09, "unit": "A/min" },
+        "nitride_removal_rate": { "value": 246.9, "unit": "A/min" },
+        "selectivity_oxide_nitride": 6.1,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_130_TMAH_0.3wt_CTAB_0.1wt_Table1_Exp11",
+      "experiment_context": "Table 1, Experiment 11: SiO2 abrasive (130 m2/g) with 0.3 wt% TMAH and 0.1 wt% CTAB. Evaluated for nitride polishing rate and oxide/nitride selectivity.",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.3, "unit": "wt%" } },
+          { "name": "CTAB", "concentration": { "value": 0.1, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2/Si4N4",
+        "oxide_removal_rate": { "value": 1823.52, "unit": "A/min" }, 
+        "nitride_removal_rate": { "value": 379.9, "unit": "A/min" },
+        "selectivity_oxide_nitride": 4.8,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_130_TMAH_0.3wt_CPC_0.1wt_Table1_Exp12",
+      "experiment_context": "Table 1, Experiment 12: SiO2 abrasive (130 m2/g) with 0.3 wt% TMAH and 0.1 wt% CPC. Evaluated for nitride polishing rate and oxide/nitride selectivity.",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "TMAH", "concentration": { "value": 0.3, "unit": "wt%" } },
+          { "name": "CPC", "concentration": { "value": 0.1, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2/Si4N4",
+        "oxide_removal_rate": { "value": 1910.04, "unit": "A/min" },
+        "nitride_removal_rate": { "value": 289.4, "unit": "A/min" },
+        "selectivity_oxide_nitride": 6.6,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_130_NoAdditive_Table1_CompExp7",
+      "experiment_context": "Table 1, Comparative Experiment 7: SiO2 abrasive (130 m2/g) with no specific additive mentioned beyond base slurry. Evaluated for nitride polishing rate and oxide/nitride selectivity.",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": []
+      },
+      "slurry_characterization": null,
+      "cmp_setup": null,
+      "cmp_performance": {
+        "film_polished": "SiO2/Si4N4",
+        "oxide_removal_rate": { "value": 2270.0, "unit": "A/min" }, 
+        "nitride_removal_rate": { "value": 567.5, "unit": "A/min" },
+        "selectivity_oxide_nitride": 4.0,
+        "polishing_uniformity": null,
+        "within_wafer_thickness_range": null,
+        "defect_count": null
+      }
+    },
+    {
+      "sample_id": "SiO2_130_KOH_0.2wt_TMAH_0.2wt_ExemplaryOxide",
+      "experiment_context": "Exemplary Oxide Polishing Process (Para [0087]-[0088]): SiO2 abrasive (130 m2/g) with 0.2 wt% KOH and 0.2 wt% TMAH. Polished 6000 A oxide film using Table 2 conditions.",
+      "abrasive_details": {
+        "material": "SiO2",
+        "mean_particle_surface_area": { "value": 130, "unit": "m2/g" },
+        "primary_particle_diameter": null
+      },
+      "slurry_composition": {
+        "abrasive_concentration": { "value": null, "unit": "wt%" },
+        "solvent": { "name": "Water", "concentration": { "value": null, "unit": "wt%" } },
+        "additives": [
+          { "name": "KOH", "concentration": { "value": 0.2, "unit": "wt%" } },
+          { "name": "TMAH", "concentration": { "value": 0.2, "unit": "wt%" } }
+        ]
+      },
+      "slurry_characterization": null,
+      "cmp_setup": {
+        "equipment_model": "STRASBAUGH 6EC",
+        "polishing_pad": null,
+        "down_force": { "value": 4.0, "unit": "psi" },
+        "back_pressure": { "value": 1.5, "unit": "psi" },
+        "table_speed": { "value": 70, "unit": "rpm" },
+        "head_speed": { "value": 70, "unit": "rpm" },
+        "polishing_time": { "value": 1, "unit": "min" },
+        "slurry_flow_rate": { "value": 150, "unit": "ml/min" }
+      },
+      "cmp_performance": {
+        "film_polished": "SiO2",
+        "oxide_removal_rate": null,
+        "nitride_removal_rate": null,
+        "selectivity_oxide_nitride": null,
+        "polishing_uniformity": { "value": 2.5, "unit": "%" },
+        "within_wafer_thickness_range": null,
+        "defect_count": {
+          "value": "< 50",
+          "unit": "counts",
+          "measurement_tool": "KLA-Tencor SurfaceScan 6420" 
+        }
+      }
+    }
+  ]
+}

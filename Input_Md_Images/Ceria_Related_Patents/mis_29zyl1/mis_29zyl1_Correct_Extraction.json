@@ -1,0 +1,712 @@
+{
+  "doi": "US 6,530,967 B1",
+  "title": "STABILIZED SLURRY COMPOSITIONS",
+  "year_published": "2003",
+  "journal": "U.S. Patent",
+  "samples": [
+    {
+      "sample_id": "NoStabilizer_H2O2_2wtpct_SSW2000",
+      "experiment_context": "Stability study of ~2 wt% H2O2 in SS W2000 tungsten CMP slurry with no stabilizer. Initial H2O2: 2.061 wt%, H2O2 at Day 7: 1.481 wt%, Decomposition Rate: 0.083 %/day. (Data from Table A)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "material": "Silicon Oxide",
+          "concentration": {
+            "value": "1-6",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "2.061",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Surfynol 440",
+            "type": "Surfactant",
+            "concentration": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Acidified Deionized Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "C": null,
+          "H": null,
+          "N": null
+        },
+        "particle_morphology": null,
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "7",
+          "unit": "days"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Na2P2O7_0.1wtpct_H2O2_2wtpct_SSW2000",
+      "experiment_context": "Stability study of ~2 wt% H2O2 in SS W2000 tungsten CMP slurry with 0.1 wt% Sodium Pyrophosphate Decahydrate. Initial H2O2: 2.000 wt%, H2O2 at Day 7: 1.874 wt%, Decomposition Rate: 0.018 %/day. (Data from Table A)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "material": "Silicon Oxide",
+          "concentration": {
+            "value": "1-6",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "2.000",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Sodium Pyrophosphate Decahydrate",
+            "type": "Stabilizing agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Surfynol 440",
+            "type": "Surfactant",
+            "concentration": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Acidified Deionized Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "C": null,
+          "H": null,
+          "N": null
+        },
+        "particle_morphology": null,
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "7",
+          "unit": "days"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Na2P2O7_0.05wtpct_H2O2_2wtpct_SSW2000",
+      "experiment_context": "Stability study of ~2 wt% H2O2 in SS W2000 tungsten CMP slurry with 0.05 wt% Sodium Pyrophosphate Decahydrate. Initial H2O2: 2.001 wt%, H2O2 at Day 7: 1.936 wt%, Decomposition Rate: 0.009 %/day. (Data from Table A)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "material": "Silicon Oxide",
+          "concentration": {
+            "value": "1-6",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "2.001",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Sodium Pyrophosphate Decahydrate",
+            "type": "Stabilizing agent",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Surfynol 440",
+            "type": "Surfactant",
+            "concentration": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Acidified Deionized Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "C": null,
+          "H": null,
+          "N": null
+        },
+        "particle_morphology": null,
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "7",
+          "unit": "days"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Na2P2O7_0.025wtpct_H2O2_2wtpct_SSW2000",
+      "experiment_context": "Stability study of ~2 wt% H2O2 in SS W2000 tungsten CMP slurry with 0.025 wt% Sodium Pyrophosphate Decahydrate. Initial H2O2: 2.008 wt%, H2O2 at Day 7: 1.872 wt%, Decomposition Rate: 0.019 %/day. (Data from Table A)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "material": "Silicon Oxide",
+          "concentration": {
+            "value": "1-6",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "2.008",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Sodium Pyrophosphate Decahydrate",
+            "type": "Stabilizing agent",
+            "concentration": {
+              "value": "0.025",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Surfynol 440",
+            "type": "Surfactant",
+            "concentration": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Acidified Deionized Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "C": null,
+          "H": null,
+          "N": null
+        },
+        "particle_morphology": null,
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "7",
+          "unit": "days"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "NoStabilizer_H2O2_4wtpct_SSW2000",
+      "experiment_context": "Stability study of ~4 wt% H2O2 in SS W2000 tungsten CMP slurry with no stabilizer. Initial H2O2: 4.040 wt%, H2O2 at Day 7: 3.249 wt%, Decomposition Rate: 0.113 %/day. (Data from Table B)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "material": "Silicon Oxide",
+          "concentration": {
+            "value": "1-6",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "4.040",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Surfynol 440",
+            "type": "Surfactant",
+            "concentration": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Acidified Deionized Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "C": null,
+          "H": null,
+          "N": null
+        },
+        "particle_morphology": null,
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "7",
+          "unit": "days"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Na2P2O7_0.1wtpct_H2O2_4wtpct_SSW2000",
+      "experiment_context": "Stability study of ~4 wt% H2O2 in SS W2000 tungsten CMP slurry with 0.1 wt% Sodium Pyrophosphate Decahydrate. Initial H2O2: 4.015 wt%, H2O2 at Day 7: 3.797 wt%, Decomposition Rate: 0.031 %/day. (Data from Table B)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "material": "Silicon Oxide",
+          "concentration": {
+            "value": "1-6",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "4.015",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Sodium Pyrophosphate Decahydrate",
+            "type": "Stabilizing agent",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Surfynol 440",
+            "type": "Surfactant",
+            "concentration": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Acidified Deionized Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "C": null,
+          "H": null,
+          "N": null
+        },
+        "particle_morphology": null,
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "7",
+          "unit": "days"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Na2P2O7_0.05wtpct_H2O2_4wtpct_SSW2000",
+      "experiment_context": "Stability study of ~4 wt% H2O2 in SS W2000 tungsten CMP slurry with 0.05 wt% Sodium Pyrophosphate Decahydrate. Initial H2O2: 4.010 wt%, H2O2 at Day 7: 3.882 wt%, Decomposition Rate: 0.018 %/day. (Data from Table B)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "material": "Silicon Oxide",
+          "concentration": {
+            "value": "1-6",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "4.010",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Sodium Pyrophosphate Decahydrate",
+            "type": "Stabilizing agent",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Surfynol 440",
+            "type": "Surfactant",
+            "concentration": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Acidified Deionized Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "C": null,
+          "H": null,
+          "N": null
+        },
+        "particle_morphology": null,
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "7",
+          "unit": "days"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Na2P2O7_0.025wtpct_H2O2_4wtpct_SSW2000",
+      "experiment_context": "Stability study of ~4 wt% H2O2 in SS W2000 tungsten CMP slurry with 0.025 wt% Sodium Pyrophosphate Decahydrate. Initial H2O2: 4.019 wt%, H2O2 at Day 7: 3.738 wt%, Decomposition Rate: 0.040 %/day. (Data from Table B)",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_concentration": {
+          "material": "Silicon Oxide",
+          "concentration": {
+            "value": "1-6",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing agent",
+            "concentration": {
+              "value": "4.019",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Sodium Pyrophosphate Decahydrate",
+            "type": "Stabilizing agent",
+            "concentration": {
+              "value": "0.025",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Surfynol 440",
+            "type": "Surfactant",
+            "concentration": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": {
+          "name": "Acidified Deionized Water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": {
+          "C": null,
+          "H": null,
+          "N": null
+        },
+        "particle_morphology": null,
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "7",
+          "unit": "days"
+        },
+        "material_removal_rate": null,
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

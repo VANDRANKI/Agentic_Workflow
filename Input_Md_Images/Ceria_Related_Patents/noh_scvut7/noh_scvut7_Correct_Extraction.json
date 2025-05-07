@@ -1,0 +1,1208 @@
+{
+  "doi": "US2017/0271172A1",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "CMP slurry composition for polishing copper interconnects using cocoon type colloidal silica (PL-3, Fuso Co., Ltd.)",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica abrasive for CMP slurry composition",
+        "precursors": [
+          {
+            "material_name": "Cocoon type colloidal silica",
+            "formula": "SiO2",
+            "source_type": "PL-3, Fuso Co., Ltd.",
+            "purity": "",
+            "quantity": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the colloidal silica synthesis",
+            "solvents": [
+              {
+                "name": "Ultrapure water",
+                "quantity": {
+                  "value": "98.288",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical parameters for the colloidal silica",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Specific surface area (BET)",
+                "unit": "m²/g",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details",
+        "composition": {
+          "abrasive": {
+            "material": "Cocoon type colloidal silica (PL-3)",
+            "concentration": {
+              "initial": "",
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Complexing agent",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion inhibitor",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": "98.288",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "7.0",
+              "max": "7.0"
+            },
+            "agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "Cocoon type",
+          "surface_area": {
+            "value": "78.9-80.9",
+            "unit": "m²/g"
+          }
+        },
+        "stability": "",
+        "particle_dimensions": {
+          "major_diameter": {
+            "value": "50-55",
+            "unit": "nm"
+          },
+          "minor_diameter": {
+            "value": "25-30",
+            "unit": "nm"
+          }
+        },
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "6454",
+            "unit": "Å/min"
+          },
+          "defects": {
+            "value": "587",
+            "unit": "ea"
+          },
+          "dishing": {
+            "value": "660",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "CMP slurry composition for polishing copper interconnects using spherical type colloidal silica (PL-3L, Fuso Co., Ltd.)",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica abrasive for CMP slurry composition",
+        "precursors": [
+          {
+            "material_name": "Spherical type colloidal silica",
+            "formula": "SiO2",
+            "source_type": "PL-3L, Fuso Co., Ltd.",
+            "purity": "",
+            "quantity": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the colloidal silica synthesis",
+            "solvents": [
+              {
+                "name": "Ultrapure water",
+                "quantity": {
+                  "value": "98.288",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical parameters for the colloidal silica",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Specific surface area (BET)",
+                "unit": "m²/g",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details",
+        "composition": {
+          "abrasive": {
+            "material": "Spherical type colloidal silica (PL-3L)",
+            "concentration": {
+              "initial": "",
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Complexing agent",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion inhibitor",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": "98.288",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "7.0",
+              "max": "7.0"
+            },
+            "agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "30",
+              "max": "35",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical type",
+          "surface_area": {
+            "value": "81.2-83.2",
+            "unit": "m²/g"
+          }
+        },
+        "stability": "",
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "7124",
+            "unit": "Å/min"
+          },
+          "defects": {
+            "value": "847",
+            "unit": "ea"
+          },
+          "dishing": {
+            "value": "820",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "CMP slurry composition for polishing copper interconnects using mixed spherical and cocoon type colloidal silica",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica abrasive for CMP slurry composition",
+        "precursors": [
+          {
+            "material_name": "Spherical type colloidal silica",
+            "formula": "SiO2",
+            "source_type": "PL-3L, Fuso Co., Ltd.",
+            "purity": "",
+            "quantity": {
+              "value": "0.03",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "Cocoon type colloidal silica",
+            "formula": "SiO2",
+            "source_type": "PL-3, Fuso Co., Ltd.",
+            "purity": "",
+            "quantity": {
+              "value": "0.07",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the colloidal silica synthesis",
+            "solvents": [
+              {
+                "name": "Ultrapure water",
+                "quantity": {
+                  "value": "98.288",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical parameters for the colloidal silica",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Specific surface area (BET)",
+                "unit": "m²/g",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details",
+        "composition": {
+          "abrasive": {
+            "material": "Mixed spherical and cocoon type colloidal silica",
+            "concentration": {
+              "initial": "",
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Complexing agent",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion inhibitor",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": "98.288",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "7.0",
+              "max": "7.0"
+            },
+            "agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "Mixed spherical and cocoon type",
+          "surface_area": {
+            "value": "72.9-88.5",
+            "unit": "m²/g"
+          }
+        },
+        "stability": "",
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "7568",
+            "unit": "Å/min"
+          },
+          "defects": {
+            "value": "614",
+            "unit": "ea"
+          },
+          "dishing": {
+            "value": "690",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "CMP slurry composition for polishing copper interconnects using mixed spherical and cocoon type colloidal silica",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica abrasive for CMP slurry composition",
+        "precursors": [
+          {
+            "material_name": "Spherical type colloidal silica",
+            "formula": "SiO2",
+            "source_type": "PL-3L, Fuso Co., Ltd.",
+            "purity": "",
+            "quantity": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "Cocoon type colloidal silica",
+            "formula": "SiO2",
+            "source_type": "PL-3, Fuso Co., Ltd.",
+            "purity": "",
+            "quantity": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the colloidal silica synthesis",
+            "solvents": [
+              {
+                "name": "Ultrapure water",
+                "quantity": {
+                  "value": "98.288",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical parameters for the colloidal silica",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Specific surface area (BET)",
+                "unit": "m²/g",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details",
+        "composition": {
+          "abrasive": {
+            "material": "Mixed spherical and cocoon type colloidal silica",
+            "concentration": {
+              "initial": "",
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Complexing agent",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion inhibitor",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": "98.288",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "7.0",
+              "max": "7.0"
+            },
+            "agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "Mixed spherical and cocoon type",
+          "surface_area": {
+            "value": "72.9-88.5",
+            "unit": "m²/g"
+          }
+        },
+        "stability": "",
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "7768",
+            "unit": "Å/min"
+          },
+          "defects": {
+            "value": "634",
+            "unit": "ea"
+          },
+          "dishing": {
+            "value": "710",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "CMP slurry composition for polishing copper interconnects using mixed spherical and cocoon type colloidal silica",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica abrasive for CMP slurry composition",
+        "precursors": [
+          {
+            "material_name": "Spherical type colloidal silica",
+            "formula": "SiO2",
+            "source_type": "PL-3L, Fuso Co., Ltd.",
+            "purity": "",
+            "quantity": {
+              "value": "0.07",
+              "unit": "wt%"
+            }
+          },
+          {
+            "material_name": "Cocoon type colloidal silica",
+            "formula": "SiO2",
+            "source_type": "PL-3, Fuso Co., Ltd.",
+            "purity": "",
+            "quantity": {
+              "value": "0.03",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the colloidal silica synthesis",
+            "solvents": [
+              {
+                "name": "Ultrapure water",
+                "quantity": {
+                  "value": "98.288",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical parameters for the colloidal silica",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Specific surface area (BET)",
+                "unit": "m²/g",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details",
+        "composition": {
+          "abrasive": {
+            "material": "Mixed spherical and cocoon type colloidal silica",
+            "concentration": {
+              "initial": "",
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Complexing agent",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion inhibitor",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": "98.288",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "7.0",
+              "max": "7.0"
+            },
+            "agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "Mixed spherical and cocoon type",
+          "surface_area": {
+            "value": "72.9-88.5",
+            "unit": "m²/g"
+          }
+        },
+        "stability": "",
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "7784",
+            "unit": "Å/min"
+          },
+          "defects": {
+            "value": "761",
+            "unit": "ea"
+          },
+          "dishing": {
+            "value": "765",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+  {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "CMP slurry composition for polishing copper interconnects using cocoon type colloidal silica with lower specific surface area",
+      "abrasive_synthesis": {
+        "description": "Colloidal silica abrasive for CMP slurry composition",
+        "precursors": [
+          {
+            "material_name": "Cocoon type colloidal silica",
+            "formula": "SiO2",
+            "source_type": "PL-3, Fuso Co., Ltd.",
+            "purity": "",
+            "quantity": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the colloidal silica synthesis",
+            "solvents": [
+              {
+                "name": "Ultrapure water",
+                "quantity": {
+                  "value": "98.288",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical parameters for the colloidal silica",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Specific surface area (BET)",
+                "unit": "m²/g",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details",
+        "composition": {
+          "abrasive": {
+            "material": "Cocoon type colloidal silica (PL-3)",
+            "concentration": {
+              "initial": "",
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Glycine",
+              "type": "Complexing agent",
+              "concentration": {
+                "value": "0.6",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "1,2,3-triazole",
+              "type": "Corrosion inhibitor",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": "98.288",
+              "unit": "wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "7.0",
+              "max": "7.0"
+            },
+            "agents": [
+              {
+                "name": "Potassium hydroxide",
+                "concentration": {
+                  "value": "0.002",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Slurry characterization details",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "Cocoon type",
+          "surface_area": {
+            "value": "78.9-80.9",
+            "unit": "m²/g"
+          }
+        },
+        "stability": "",
+        "particle_dimensions": {
+          "major_diameter": {
+            "value": "50-55",
+            "unit": "nm"
+          },
+          "minor_diameter": {
+            "value": "25-30",
+            "unit": "nm"
+          }
+        },
+        "polishing_performance": {
+          "removal_rate": {
+            "value": "7345",
+            "unit": "Å/min"
+          },
+          "defects": {
+            "value": "877",
+            "unit": "ea"
+          },
+          "dishing": {
+            "value": "865",
+            "unit": "Å"
+          }
+        }
+      }
+    }
+  ]
+}
+    
