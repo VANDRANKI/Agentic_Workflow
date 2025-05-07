@@ -1,0 +1,1021 @@
+{
+  "doi": "US6375694B1",
+  "title": "Polishing slurry compositions capable of providing multi-modal particle packing",
+  "year_published": "2002",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Example1_Bimodal_Alumina",
+      "experiment_context": "Medium of aluminum oxide particles having a bi-modal distribution for polishing a semiconductor substrate",
+      "abrasive_synthesis": {
+        "description": "Aluminum oxide particles with bi-modal size distribution",
+        "precursors": [
+          {
+            "material_name": "Aluminum oxide",
+            "formula": "Al2O3",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Not specified in the patent",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Particles prepared with specific size distribution parameters",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Particle size X = 50 nm with distribution P = 50%",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Not specified in the patent",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Water-based polishing slurry with bi-modal particle distribution",
+        "composition": {
+          "abrasive": {
+            "material": "Alpha aluminum oxide (Al2O3)",
+            "concentration": {
+              "initial": "",
+              "final": "",
+              "unit": ""
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Bi-modal particle distribution with specific size parameters",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Bi-modal particle size distribution with specific parameters",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "500",
+              "unit": "nm"
+            }
+          },
+          "shape": "Not specified",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "",
+        "particle_size_distribution": {
+          "distribution_type": "Bi-modal",
+          "first_mode": {
+            "peak_size": {
+              "value": "50",
+              "unit": "nm"
+            },
+            "distribution_width": {
+              "value": "25",
+              "unit": "nm"
+            }
+          },
+          "second_mode": {
+            "peak_size": {
+              "value": "",
+              "unit": "nm"
+            },
+            "distribution_width": {
+              "value": "",
+              "unit": "nm"
+            }
+          },
+          "ratio_large_to_small": {
+            "min": "1.05",
+            "max": "5000",
+            "preferred": "1.1-1000"
+          }
+        },
+        "crystallinity": {
+          "phase": "Alpha (α)",
+          "percentage": {
+            "value": "50",
+            "unit": "%"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example2_Multimodal_Alumina",
+      "experiment_context": "Medium of aluminum oxide particles having a multi-modal distribution for polishing a semiconductor substrate",
+      "abrasive_synthesis": {
+        "description": "Aluminum oxide particles with multi-modal size distribution",
+        "precursors": [
+          {
+            "material_name": "Aluminum oxide",
+            "formula": "Al2O3",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Not specified in the patent",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Particles prepared with specific size distribution parameters",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Particle size X = 50 nm with quality factor Q = 100",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Not specified in the patent",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Water-based polishing slurry with multi-modal particle distribution",
+        "composition": {
+          "abrasive": {
+            "material": "Alpha aluminum oxide (Al2O3)",
+            "concentration": {
+              "initial": "",
+              "final": "",
+              "unit": ""
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Multi-modal particle distribution with specific size parameters",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Multi-modal particle size distribution with specific parameters",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "500",
+              "unit": "nm"
+            }
+          },
+          "shape": "Not specified",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "",
+        "particle_size_distribution": {
+          "distribution_type": "Multi-modal",
+          "first_mode": {
+            "peak_size": {
+              "value": "50",
+              "unit": "nm"
+            },
+            "quality_factor": "100"
+          },
+          "ratio_large_to_small": {
+            "min": "1.05",
+            "max": "5000",
+            "preferred": "1.1-1000"
+          }
+        },
+        "crystallinity": {
+          "phase": "Alpha (α)",
+          "percentage": {
+            "value": "50",
+            "unit": "%"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example3_Alumina_Small",
+      "experiment_context": "Medium of aluminum oxide particles with small particle size for polishing a semiconductor substrate",
+      "abrasive_synthesis": {
+        "description": "Aluminum oxide particles with small particle size",
+        "precursors": [
+          {
+            "material_name": "Aluminum oxide",
+            "formula": "Al2O3",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Not specified in the patent",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Particles prepared with specific size distribution parameters",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Particle size X = 10 nm with distribution P = 10%",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Not specified in the patent",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Water-based polishing slurry with small particle size",
+        "composition": {
+          "abrasive": {
+            "material": "Alpha aluminum oxide (Al2O3)",
+            "concentration": {
+              "initial": "",
+              "final": "",
+              "unit": ""
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Small particle size with narrow distribution",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Small particle size with narrow distribution",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "500",
+              "unit": "nm"
+            }
+          },
+          "shape": "Not specified",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "",
+        "particle_size_distribution": {
+          "distribution_type": "Mono-modal",
+          "first_mode": {
+            "peak_size": {
+              "value": "10",
+              "unit": "nm"
+            },
+            "distribution_width": {
+              "value": "1",
+              "unit": "nm"
+            }
+          }
+        },
+        "crystallinity": {
+          "phase": "Alpha (α)",
+          "percentage": {
+            "value": "90",
+            "unit": "%"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example4_Alumina_Small_HighQ",
+      "experiment_context": "Medium of aluminum oxide particles with small particle size and high quality factor for polishing a semiconductor substrate",
+      "abrasive_synthesis": {
+        "description": "Aluminum oxide particles with small particle size and high quality factor",
+        "precursors": [
+          {
+            "material_name": "Aluminum oxide",
+            "formula": "Al2O3",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Not specified in the patent",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Particles prepared with specific size distribution parameters",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Particle size X = 10 nm with quality factor Q = 1000",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Not specified in the patent",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Water-based polishing slurry with small particle size and high quality factor",
+        "composition": {
+          "abrasive": {
+            "material": "Alpha aluminum oxide (Al2O3)",
+            "concentration": {
+              "initial": "",
+              "final": "",
+              "unit": ""
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Small particle size with high quality factor",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Small particle size with high quality factor",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "500",
+              "unit": "nm"
+            }
+          },
+          "shape": "Not specified",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "",
+        "particle_size_distribution": {
+          "distribution_type": "Mono-modal",
+          "first_mode": {
+            "peak_size": {
+              "value": "10",
+              "unit": "nm"
+            },
+            "quality_factor": "1000"
+          }
+        },
+        "crystallinity": {
+          "phase": "Alpha (α)",
+          "percentage": {
+            "value": "90",
+            "unit": "%"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example5_Alternative_Oxides",
+      "experiment_context": "Alternative oxide particles (silica, ceria) for polishing a semiconductor substrate",
+      "abrasive_synthesis": {
+        "description": "Alternative oxide particles including silica and ceria",
+        "precursors": [
+          {
+            "material_name": "Silica or Ceria",
+            "formula": "SiO2 or CeO2",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Not specified in the patent",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Particles prepared with specific size distribution parameters similar to previous examples",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Particle size and distribution parameters similar to previous examples",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Not specified in the patent",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Water-based polishing slurry with alternative oxide particles",
+        "composition": {
+          "abrasive": {
+            "material": "Silica (amorphous) or Ceria (CeO2)",
+            "concentration": {
+              "initial": "",
+              "final": "",
+              "unit": ""
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Alternative oxide particles with size distribution parameters similar to previous examples",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "",
+              "max": ""
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Alternative oxide particles with size distribution parameters similar to previous examples",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "500",
+              "unit": "nm"
+            }
+          },
+          "shape": "Not specified",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "",
+        "particle_size_distribution": {
+          "distribution_type": "Mono-modal or Multi-modal",
+          "description": "Similar to previous examples but with silica (amorphous) or ceria instead of alumina"
+        }
+      }
+    },
+    {
+      "sample_id": "Alkaline_Slurry_Oxide_Polishing",
+      "experiment_context": "Alkaline aluminum oxide slurry for polishing thermal oxide",
+      "abrasive_synthesis": {
+        "description": "Aluminum oxide particles with alkaline pH adjustment for thermal oxide polishing",
+        "precursors": [
+          {
+            "material_name": "Aluminum oxide",
+            "formula": "Al2O3",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Not specified in the patent",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Particles prepared with specific size distribution parameters",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "Not specified in the patent",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Alkaline water-based polishing slurry for thermal oxide polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Aluminum oxide (Al2O3)",
+            "concentration": {
+              "initial": "",
+              "final": "",
+              "unit": ""
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjustment for optimal thermal oxide polishing",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "10.5",
+              "max": "11"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "description": "Alkaline slurry for thermal oxide polishing",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "500",
+              "unit": "nm"
+            }
+          },
+          "shape": "Not specified",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "Stable in alkaline conditions"
+      }
+    },
+    {
+      "sample_id": "Acidic_Slurry_Metal_Polishing",
+      "experiment_context": "Acidified aluminum oxide slurry for polishing metal layers",
+      "abrasive_synthesis": {
+        "description": "Aluminum oxide particles with acidification for metal polishing",
+        "precursors": [
+          {
+            "material_name": "Aluminum oxide",
+            "formula": "Al2O3",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Not specified in the patent",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Particles prepared with specific size distribution parameters",
+            "process_stages": []
+          }
+        },
+        "post_synthesis": {
+          "description": "Not specified in the patent",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Acidified water-based polishing slurry for metal polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Aluminum oxide (Al2O3)",
+            "concentration": {
+              "initial": "",
+              "final": "",
+              "unit": ""
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Zinc sulfate",
+              "type": "Acidification agent",
+              "concentration": {
+                "value": "",
+                "unit": ""
+              }
+            },
+            {
+              "name": "Alum",
+              "type": "Acidification agent",
+              "concentration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjustment for optimal metal polishing",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "3.0",
+              "max": "3.5"
+            },
+            "agents": [
+              {
+                "name": "Zinc sulfate",
+                "concentration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "name": "Alum",
+                "concentration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Acidic slurry for metal polishing, particularly aluminum",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "500",
+              "unit": "nm"
+            }
+          },
+          "shape": "Not specified",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "Stable in acidic conditions"
+      }
+    }
+  ]
+}

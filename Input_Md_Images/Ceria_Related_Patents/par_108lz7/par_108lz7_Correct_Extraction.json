@@ -1,0 +1,762 @@
+{
+  "doi": "US 9,991,127 B2",
+  "samples": [
+    {
+      "sample_id": "PSSA_PAAm_Slurry",
+      "experiment_context": "Slurry composition including polystyrene sulfonate (PSSA) and polyacrylamide (PAAm) used for chemical mechanical polishing of semiconductor layers with silicon nitride as polishing stop layer.",
+      "abrasive_synthesis": {
+        "description": "Slurry composition for chemical mechanical polishing with polystyrene sulfonate and polyacrylamide",
+        "precursors": [
+          {
+            "material_name": "Polystyrene sulfonate",
+            "formula": "PSSA",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          },
+          {
+            "material_name": "Polyacrylamide",
+            "formula": "PAAm",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the slurry composition",
+            "solvents": [
+              {
+                "name": "Deionized water",
+                "quantity": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "pH regulator",
+                "concentration": {
+                  "value": "0.01-1",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "Hydrogen peroxide",
+                "type": "Oxidant",
+                "concentration": {
+                  "value": "0.1-10",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Formic acid",
+                "type": "Free radical supplying agent",
+                "concentration": {
+                  "value": "0.01-10",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Ammonium nitrate",
+                "type": "Auxiliary oxidant",
+                "concentration": {
+                  "value": "0.01-10",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process parameters for the slurry preparation",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Mixing",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details for chemical mechanical polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": {
+              "initial": "0.1-10",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polystyrene sulfonate",
+              "type": "Sulfonate compound",
+              "concentration": {
+                "value": "0.01-10",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Polyacrylamide",
+              "type": "Terminal amine group-including compound",
+              "concentration": {
+                "value": "0.01-10",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters for the slurry",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "pH regulator",
+                "concentration": {
+                  "value": "0.01-1",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the slurry composition",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "300",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "Stable in acidic pH range (3-5)"
+      }
+    },
+    {
+      "sample_id": "PAAm_Only_Slurry",
+      "experiment_context": "Comparative slurry composition including only polyacrylamide (PAAm) without polystyrene sulfonate, used for chemical mechanical polishing of semiconductor layers with silicon nitride as polishing stop layer.",
+      "abrasive_synthesis": {
+        "description": "Comparative slurry composition for chemical mechanical polishing with only polyacrylamide",
+        "precursors": [
+          {
+            "material_name": "Polyacrylamide",
+            "formula": "PAAm",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the comparative slurry composition",
+            "solvents": [
+              {
+                "name": "Deionized water",
+                "quantity": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "pH regulator",
+                "concentration": {
+                  "value": "0.01-1",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "Hydrogen peroxide",
+                "type": "Oxidant",
+                "concentration": {
+                  "value": "0.1-10",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Formic acid",
+                "type": "Free radical supplying agent",
+                "concentration": {
+                  "value": "0.01-10",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Ammonium nitrate",
+                "type": "Auxiliary oxidant",
+                "concentration": {
+                  "value": "0.01-10",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process parameters for the comparative slurry preparation",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Mixing",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Comparative slurry preparation details for chemical mechanical polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": {
+              "initial": "0.1-10",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polyacrylamide",
+              "type": "Terminal amine group-including compound",
+              "concentration": {
+                "value": "0.01-10",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters for the comparative slurry",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "pH regulator",
+                "concentration": {
+                  "value": "0.01-1",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the comparative slurry composition",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "300",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "Less stable compared to PSSA+PAAm slurry, higher dishing amount"
+      }
+    },
+    {
+      "sample_id": "PSSA_Only_Slurry",
+      "experiment_context": "Comparative slurry composition including only polystyrene sulfonate (PSSA) without polyacrylamide, used for chemical mechanical polishing of semiconductor layers with silicon nitride as polishing stop layer.",
+      "abrasive_synthesis": {
+        "description": "Comparative slurry composition for chemical mechanical polishing with only polystyrene sulfonate",
+        "precursors": [
+          {
+            "material_name": "Polystyrene sulfonate",
+            "formula": "PSSA",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the comparative slurry composition",
+            "solvents": [
+              {
+                "name": "Deionized water",
+                "quantity": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "pH regulator",
+                "concentration": {
+                  "value": "0.01-1",
+                  "unit": "wt%"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "Hydrogen peroxide",
+                "type": "Oxidant",
+                "concentration": {
+                  "value": "0.1-10",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Formic acid",
+                "type": "Free radical supplying agent",
+                "concentration": {
+                  "value": "0.01-10",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Ammonium nitrate",
+                "type": "Auxiliary oxidant",
+                "concentration": {
+                  "value": "0.01-10",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process parameters for the comparative slurry preparation",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Mixing",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Comparative slurry preparation details for chemical mechanical polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": {
+              "initial": "0.1-10",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polystyrene sulfonate",
+              "type": "Sulfonate compound",
+              "concentration": {
+                "value": "0.01-10",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters for the comparative slurry",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "pH regulator",
+                "concentration": {
+                  "value": "0.01-1",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the comparative slurry composition",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "10",
+              "max": "300",
+              "unit": "nm"
+            }
+          },
+          "shape": "Spherical",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "Higher erosion amount compared to PSSA+PAAm slurry, especially at high pattern densities"
+      }
+    },
+    {
+      "sample_id": "SiGe_Polishing_Sample",
+      "experiment_context": "Polishing of SiGe semiconductor layer using slurry composition with polystyrene sulfonate and polyacrylamide, with silicon nitride as polishing stop layer.",
+      "abrasive_synthesis": {
+        "description": "Semiconductor layer polishing using slurry with polystyrene sulfonate and polyacrylamide",
+        "precursors": [
+          {
+            "material_name": "Silicon-Germanium",
+            "formula": "SiGe",
+            "source_type": "Epitaxial growth",
+            "purity": "",
+            "quantity": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for the SiGe layer",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "Physical process parameters for the SiGe layer preparation",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Epitaxial growth",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-synthesis procedures",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation details for SiGe polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": {
+              "initial": "0.1-0.5",
+              "final": "",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polystyrene sulfonate",
+              "type": "Sulfonate compound",
+              "concentration": {
+                "value": "0.01-10",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Polyacrylamide",
+              "type": "Terminal amine group-including compound",
+              "concentration": {
+                "value": "0.01-10",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "0.1-3",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Formic acid",
+              "type": "Free radical supplying agent",
+              "concentration": {
+                "value": "0.1-2",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ammonium nitrate",
+              "type": "Auxiliary oxidant",
+              "concentration": {
+                "value": "0.1-2.5",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters for SiGe polishing",
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "3",
+              "max": "5"
+            },
+            "agents": [
+              {
+                "name": "pH regulator",
+                "concentration": {
+                  "value": "0.01-1",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of the SiGe polishing process",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "",
+              "max": "",
+              "unit": ""
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": "Polishing rate: 200-1500 Å/min, minimal dishing and step difference"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1145 @@
+{
+  "doi": "US 2020/0048498 A1",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Chemical mechanical polishing slurry composition with inositol monophosphate as polishing selectivity controlling agent",
+      "abrasive_synthesis": {
+        "description": "Slurry preparation with fumed silica abrasive and inositol monophosphate as polishing selectivity controlling agent",
+        "precursors": [
+          {
+            "material_name": "Fumed silica",
+            "formula": "SiO2",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "7",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for slurry preparation",
+            "solvents": [
+              {
+                "name": "Distilled water",
+                "quantity": {
+                  "value": "",
+                  "unit": "remainder to 100 wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": "adjusted to pH 2"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "Inositol monophosphate",
+                "type": "Polishing selectivity controlling agent",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Ferrosilicon",
+                "type": "Catalyst",
+                "concentration": {
+                  "value": "0.005",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Methylisothiazolinone",
+                "type": "Biocide",
+                "concentration": {
+                  "value": "0.01",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Hydrogen peroxide (31%)",
+                "type": "Oxidizing agent",
+                "concentration": {
+                  "value": "3",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process for slurry preparation",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Mechanical stirring",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "No specific post-synthesis procedures mentioned",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation for chemical mechanical polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (200 nm)",
+            "concentration": {
+              "initial": "7",
+              "final": "7",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Inositol monophosphate",
+              "type": "Polishing selectivity controlling agent",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ferrosilicon",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.005",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Methylisothiazolinone",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide (31%)",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Distilled water",
+            "percentage": {
+              "value": "",
+              "unit": "remainder to 100 wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters for slurry preparation",
+          "dispersion": [
+            {
+              "method": "Mechanical stirring",
+              "equipment": "Mechanical stirrer",
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "2",
+              "max": "2"
+            },
+            "agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Polishing performance characterization",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "200",
+              "max": "200",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Chemical mechanical polishing slurry composition with inositol triphosphate as polishing selectivity controlling agent",
+      "abrasive_synthesis": {
+        "description": "Slurry preparation with fumed silica abrasive and inositol triphosphate as polishing selectivity controlling agent",
+        "precursors": [
+          {
+            "material_name": "Fumed silica",
+            "formula": "SiO2",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "7",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for slurry preparation",
+            "solvents": [
+              {
+                "name": "Distilled water",
+                "quantity": {
+                  "value": "",
+                  "unit": "remainder to 100 wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": "adjusted to pH 2"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "Inositol triphosphate",
+                "type": "Polishing selectivity controlling agent",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Ferrosilicon",
+                "type": "Catalyst",
+                "concentration": {
+                  "value": "0.005",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Methylisothiazolinone",
+                "type": "Biocide",
+                "concentration": {
+                  "value": "0.01",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Hydrogen peroxide (31%)",
+                "type": "Oxidizing agent",
+                "concentration": {
+                  "value": "3",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process for slurry preparation",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Mechanical stirring",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "No specific post-synthesis procedures mentioned",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation for chemical mechanical polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (200 nm)",
+            "concentration": {
+              "initial": "7",
+              "final": "7",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Inositol triphosphate",
+              "type": "Polishing selectivity controlling agent",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ferrosilicon",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.005",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Methylisothiazolinone",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide (31%)",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Distilled water",
+            "percentage": {
+              "value": "",
+              "unit": "remainder to 100 wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters for slurry preparation",
+          "dispersion": [
+            {
+              "method": "Mechanical stirring",
+              "equipment": "Mechanical stirrer",
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "2",
+              "max": "2"
+            },
+            "agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Polishing performance characterization",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "200",
+              "max": "200",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Chemical mechanical polishing slurry composition with inositol hexaphosphate as polishing selectivity controlling agent",
+      "abrasive_synthesis": {
+        "description": "Slurry preparation with fumed silica abrasive and inositol hexaphosphate as polishing selectivity controlling agent",
+        "precursors": [
+          {
+            "material_name": "Fumed silica",
+            "formula": "SiO2",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "7",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for slurry preparation",
+            "solvents": [
+              {
+                "name": "Distilled water",
+                "quantity": {
+                  "value": "",
+                  "unit": "remainder to 100 wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": "adjusted to pH 2"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "Inositol hexaphosphate",
+                "type": "Polishing selectivity controlling agent",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Ferrosilicon",
+                "type": "Catalyst",
+                "concentration": {
+                  "value": "0.005",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Methylisothiazolinone",
+                "type": "Biocide",
+                "concentration": {
+                  "value": "0.01",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Hydrogen peroxide (31%)",
+                "type": "Oxidizing agent",
+                "concentration": {
+                  "value": "3",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process for slurry preparation",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Mechanical stirring",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "No specific post-synthesis procedures mentioned",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation for chemical mechanical polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (200 nm)",
+            "concentration": {
+              "initial": "7",
+              "final": "7",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Inositol hexaphosphate",
+              "type": "Polishing selectivity controlling agent",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ferrosilicon",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.005",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Methylisothiazolinone",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide (31%)",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Distilled water",
+            "percentage": {
+              "value": "",
+              "unit": "remainder to 100 wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters for slurry preparation",
+          "dispersion": [
+            {
+              "method": "Mechanical stirring",
+              "equipment": "Mechanical stirrer",
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "2",
+              "max": "2"
+            },
+            "agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Polishing performance characterization",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "200",
+              "max": "200",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Chemical mechanical polishing slurry composition with high concentration (10 wt%) of inositol hexaphosphate as polishing selectivity controlling agent",
+      "abrasive_synthesis": {
+        "description": "Slurry preparation with fumed silica abrasive and high concentration of inositol hexaphosphate as polishing selectivity controlling agent",
+        "precursors": [
+          {
+            "material_name": "Fumed silica",
+            "formula": "SiO2",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "7",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for slurry preparation",
+            "solvents": [
+              {
+                "name": "Distilled water",
+                "quantity": {
+                  "value": "",
+                  "unit": "remainder to 100 wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": "adjusted to pH 2"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "Inositol hexaphosphate",
+                "type": "Polishing selectivity controlling agent",
+                "concentration": {
+                  "value": "10",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Ferrosilicon",
+                "type": "Catalyst",
+                "concentration": {
+                  "value": "0.005",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Methylisothiazolinone",
+                "type": "Biocide",
+                "concentration": {
+                  "value": "0.01",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Hydrogen peroxide (31%)",
+                "type": "Oxidizing agent",
+                "concentration": {
+                  "value": "3",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process for slurry preparation",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Mechanical stirring",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "No specific post-synthesis procedures mentioned",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation for chemical mechanical polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (200 nm)",
+            "concentration": {
+              "initial": "7",
+              "final": "7",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Inositol hexaphosphate",
+              "type": "Polishing selectivity controlling agent",
+              "concentration": {
+                "value": "10",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ferrosilicon",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.005",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Methylisothiazolinone",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide (31%)",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Distilled water",
+            "percentage": {
+              "value": "",
+              "unit": "remainder to 100 wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters for slurry preparation",
+          "dispersion": [
+            {
+              "method": "Mechanical stirring",
+              "equipment": "Mechanical stirrer",
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "2",
+              "max": "2"
+            },
+            "agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Polishing performance characterization",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "200",
+              "max": "200",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Chemical mechanical polishing slurry composition with glucose 6-phosphate as polishing selectivity controlling agent",
+      "abrasive_synthesis": {
+        "description": "Slurry preparation with fumed silica abrasive and glucose 6-phosphate as polishing selectivity controlling agent",
+        "precursors": [
+          {
+            "material_name": "Fumed silica",
+            "formula": "SiO2",
+            "source_type": "Commercial",
+            "purity": "",
+            "quantity": {
+              "value": "7",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Chemical parameters for slurry preparation",
+            "solvents": [
+              {
+                "name": "Distilled water",
+                "quantity": {
+                  "value": "",
+                  "unit": "remainder to 100 wt%"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": "adjusted to pH 2"
+                }
+              }
+            ],
+            "synthesis_additives": [
+              {
+                "name": "Glucose 6-phosphate",
+                "type": "Polishing selectivity controlling agent",
+                "concentration": {
+                  "value": "0.05",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Ferrosilicon",
+                "type": "Catalyst",
+                "concentration": {
+                  "value": "0.005",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Methylisothiazolinone",
+                "type": "Biocide",
+                "concentration": {
+                  "value": "0.01",
+                  "unit": "wt%"
+                }
+              },
+              {
+                "name": "Hydrogen peroxide (31%)",
+                "type": "Oxidizing agent",
+                "concentration": {
+                  "value": "3",
+                  "unit": "wt%"
+                }
+              }
+            ]
+          },
+          "physical": {
+            "description": "Physical process for slurry preparation",
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "Mechanical stirring",
+                "unit": "",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "No specific post-synthesis procedures mentioned",
+          "collection": {
+            "method": "",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Slurry preparation for chemical mechanical polishing",
+        "composition": {
+          "abrasive": {
+            "material": "Fumed silica (200 nm)",
+            "concentration": {
+              "initial": "7",
+              "final": "7",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Glucose 6-phosphate",
+              "type": "Polishing selectivity controlling agent",
+              "concentration": {
+                "value": "0.05",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Ferrosilicon",
+              "type": "Catalyst",
+              "concentration": {
+                "value": "0.005",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Methylisothiazolinone",
+              "type": "Biocide",
+              "concentration": {
+                "value": "0.01",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Hydrogen peroxide (31%)",
+              "type": "Oxidizing agent",
+              "concentration": {
+                "value": "3",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Distilled water",
+            "percentage": {
+              "value": "",
+              "unit": "remainder to 100 wt%"
+            }
+          }
+        },
+        "processing": {
+          "description": "Processing parameters for slurry preparation",
+          "dispersion": [
+            {
+              "method": "Mechanical stirring",
+              "equipment": "Mechanical stirrer",
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          ],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "2",
+              "max": "2"
+            },
+            "agents": [
+              {
+                "name": "Nitric acid and TMAH",
+                "concentration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Polishing performance characterization",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "200",
+              "max": "200",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "",
+            "unit": ""
+          }
+        },
+        "stability": ""
+      }
+    }
+    ]
+}

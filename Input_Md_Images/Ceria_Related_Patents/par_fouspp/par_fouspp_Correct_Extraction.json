@@ -1,0 +1,1039 @@
+{
+  "doi": "US 2015/0179470 A1",
+  "title": "MULTI-SELECTIVE POLISHING SLURRY COMPOSITION AND A SEMICONDUCTOR ELEMENT PRODUCTION METHOD USING THE SAME",
+  "year_published": "2015",
+  "journal": "Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Preparation_Example_1",
+      "experiment_context": "Polishing slurry with PAA (0.01 parts by wt, MW 10k) and no PVP. Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.01",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null,
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_2",
+      "experiment_context": "Polishing slurry with PAA (0.05 parts by wt, MW 10k) and no PVP. Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.05",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_3",
+      "experiment_context": "Polishing slurry with PAA (0.1 parts by wt, MW 10k) and no PVP. Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.1",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_4",
+      "experiment_context": "Polishing slurry with PAA (0.2 parts by wt, MW 10k) and no PVP. Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.2",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_5",
+      "experiment_context": "Polishing slurry with PAA (0.5 parts by wt, MW 10k) and no PVP. Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.5",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_6",
+      "experiment_context": "Polishing slurry with PAA (1.0 parts by wt, MW 10k) and no PVP. Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "1.0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_7",
+      "experiment_context": "Polishing slurry with no PAA and PVP (0.01 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.01",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_8",
+      "experiment_context": "Polishing slurry with no PAA and PVP (0.05 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.05",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_9",
+      "experiment_context": "Polishing slurry with no PAA and PVP (0.1 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.1",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_10",
+      "experiment_context": "Polishing slurry with no PAA and PVP (0.2 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.2",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_11",
+      "experiment_context": "Polishing slurry with no PAA and PVP (0.5 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.5",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_12",
+      "experiment_context": "Polishing slurry with no PAA and PVP (1.0 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "1.0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived from FIGS. 5 & 6)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived from FIGS. 5 & 7)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_13",
+      "experiment_context": "Polishing slurry with PAA (0.05 parts by wt, MW 10k) and PVP (0.1 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.05",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.1",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 8"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 9"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 10"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_14",
+      "experiment_context": "Polishing slurry with PAA (0.1 parts by wt, MW 10k) and PVP (0.1 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.1",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.1",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 8"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 9"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 10"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_15",
+      "experiment_context": "Polishing slurry with PAA (0.05 parts by wt, MW 10k) and PVP (0.2 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water. Selectivity SiO2/SiN=4, SiO2/PolySi=65.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.05",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.2",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 8"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 9"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 10"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": "4", "source_figure": "FIG. 11"},
+            {"type": "silicon_oxide_to_polysilicon", "value": "65", "source_figure": "FIG. 12"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Preparation_Example_16",
+      "experiment_context": "Polishing slurry with PAA (0.1 parts by wt, MW 10k) and PVP (0.2 parts by wt, MW 3.5k). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.1",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0.2",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 8"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 9"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 10"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Comparative_Example",
+      "experiment_context": "Polishing slurry with no PAA and no PVP (additive solution is deionized water). Base: 5 wt% ceria suspension. Additive solution and suspension mixed 1:1 by weight, then diluted with deionized water.",
+      "slurry_preparation": {
+        "abrasive_details": {
+          "material": "ceria",
+          "source": "ceria suspension",
+          "concentration_in_source_suspension": {"value": "5", "unit": "wt%"},
+          "source_suspension_quantity": {"value": "1000", "unit": "g"}
+        },
+        "additive_solution": {
+          "solvent": {"name": "deionized water", "base_quantity_for_additives": {"value": "100", "unit": "parts by weight"}},
+          "solution_quantity": {"value": "1000", "unit": "g"},
+          "components": [
+            {
+              "name": "poly(acrylic acid) (PAA)",
+              "role": "silicon nitride film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "10000", "unit": "Da"}
+            },
+            {
+              "name": "poly(vinyl pyrrolidone) (PVP)",
+              "role": "silicon film passivation agent",
+              "concentration_in_additive_solution": {
+                "value": "0",
+                "unit": "parts by weight per 100 parts solvent"
+              },
+              "molecular_weight": {"value": "3500", "unit": "Da"}
+            }
+          ]
+        },
+        "dilution": {
+          "diluent_name": "deionized water",
+          "quantity": {"value": "5000", "unit": "g"}
+        },
+        "mixing_proportions": {
+             "ceria_suspension_to_additive_solution_ratio_by_weight": "1:1"
+        },
+        "final_ph": null
+      },
+      "characterization": {
+        "particle_size_distribution": null, "crystallite_size": null, "crystallinity_phase_composition": null, "surface_functional_groups": null, "elemental_composition": null, "particle_morphology": null, "xrd_peaks": null, "tga_weight_loss_percent": null, "uv_vis_peaks_nm": null, "raman_peaks_cm-1": null, "surface_ce3_percent_xps": null, "oxygen_species_percent_xps": null
+      },
+      "cmp_performance": {
+        "material_removal_rates": [ 
+          {"material": "silicon oxide film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 5 (expected)"},
+          {"material": "silicon nitride film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 6 (expected)"},
+          {"material": "polysilicon film", "rate": {"value": null, "unit": "nm/min"}, "source_figure": "FIG. 7 (expected)"}
+        ],
+        "polishing_selectivity": [
+            {"type": "silicon_oxide_to_silicon_nitride", "value": null, "source_figure": "FIG. 11 (derived, expected)"},
+            {"type": "silicon_oxide_to_polysilicon", "value": null, "source_figure": "FIG. 12 (derived, expected)"}
+        ],
+        "polishing_time": null, "process_temperature": null, "polishing_pressure": null, "pad_conditioning_pressure": null, "equipment_model": null, "pad_composition": null
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

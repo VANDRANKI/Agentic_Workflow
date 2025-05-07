@@ -1,0 +1,464 @@
+{
+  "patent_id": "US 2018/0362806 A1",
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITION AND METHOD OF FABRICATING SEMICONDUCTOR DEVICE USING THE SAME",
+  "year_published": "2018",
+  "publication_source": "United States Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Example 1",
+      "experiment_context": "CMP slurry composition prepared by mixing 5% by weight of ceria (100 nm), 0.1% by weight of arginine, 0.07% by weight of acetic acid, and 0.01% by weight of 4,7,10trioxamidecane-1 13-diamine (TTD). Performance data from Table 1 and Table 2.",
+      "slurry_preparation": {
+        "abrasive_particles": [
+          {
+            "type": "ceria",
+            "particle_size": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "concentration_in_slurry": {
+              "value": "5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "additives": [
+          {
+            "name": "arginine",
+            "type": "First cationic compound",
+            "concentration_in_slurry": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "acetic acid",
+            "type": "Second cationic compound (organic acid)",
+            "concentration_in_slurry": {
+              "value": "0.07",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "4,7,10trioxamidecane-1 13-diamine (TTD)",
+            "type": "Nonionic compound (polyetheramine)",
+            "concentration_in_slurry": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_oxide": {
+          "value": "4632",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_oxide_to_semiconductor": "24:1",
+        "dishing_oxide": {
+          "value": "145",
+          "unit": "Å"
+        },
+        "polishing_conditions": {
+          "polisher_model": "AP-300 manufactured by CTS Corporation",
+          "pad_type": "K7 manufactured by Rohm & Hass Company",
+          "polishing_time": {
+            "value": "60",
+            "unit": "seconds"
+          },
+          "platen_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "300",
+            "unit": "ml/min"
+          },
+          "polishing_target": "patterned wafer (SiGe of 3000 Å, SiO₂ of 6,500 to 6,700 Å)"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 1",
+      "experiment_context": "CMP slurry composition prepared in the same manner as in Example 1, except that the nonionic compound (TTD) was not used. Performance data from Table 1.",
+      "slurry_preparation": {
+        "abrasive_particles": [
+          {
+            "type": "ceria",
+            "particle_size": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "concentration_in_slurry": {
+              "value": "5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "additives": [
+          {
+            "name": "arginine",
+            "type": "First cationic compound",
+            "concentration_in_slurry": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "acetic acid",
+            "type": "Second cationic compound (organic acid)",
+            "concentration_in_slurry": {
+              "value": "0.07",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_oxide": {
+          "value": "4510",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_oxide_to_semiconductor": "15:1",
+        "dishing_oxide": {
+          "value": "168",
+          "unit": "Å"
+        },
+        "polishing_conditions": {
+          "polisher_model": "AP-300 manufactured by CTS Corporation",
+          "pad_type": "K7 manufactured by Rohm & Hass Company",
+          "polishing_time": {
+            "value": "60",
+            "unit": "seconds"
+          },
+          "platen_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "300",
+            "unit": "ml/min"
+          },
+          "polishing_target": "patterned wafer (SiGe of 3000 Å, SiO₂ of 6,500 to 6,700 Å)"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 2",
+      "experiment_context": "CMP slurry composition prepared in the same manner as in Example 1, except that the first cationic compound (arginine) and the second cationic compound (acetic acid) were not used. Performance data from Table 1.",
+      "slurry_preparation": {
+        "abrasive_particles": [
+          {
+            "type": "ceria",
+            "particle_size": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "concentration_in_slurry": {
+              "value": "5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "additives": [
+          {
+            "name": "4,7,10trioxamidecane-1 13-diamine (TTD)",
+            "type": "Nonionic compound (polyetheramine)",
+            "concentration_in_slurry": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_oxide": {
+          "value": "4310",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_oxide_to_semiconductor": "7:1",
+        "dishing_oxide": {
+          "value": "650",
+          "unit": "Å"
+        },
+        "polishing_conditions": {
+          "polisher_model": "AP-300 manufactured by CTS Corporation",
+          "pad_type": "K7 manufactured by Rohm & Hass Company",
+          "polishing_time": {
+            "value": "60",
+            "unit": "seconds"
+          },
+          "platen_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "300",
+            "unit": "ml/min"
+          },
+          "polishing_target": "patterned wafer (SiGe of 3000 Å, SiO₂ of 6,500 to 6,700 Å)"
+        }
+      }
+    },
+    {
+      "sample_id": "Example 2",
+      "experiment_context": "CMP slurry composition prepared in the same manner as in Example 1, except that the content of the nonionic compound (TTD) was changed to 0.03% by weight. Performance data from Table 2.",
+      "slurry_preparation": {
+        "abrasive_particles": [
+          {
+            "type": "ceria",
+            "particle_size": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "concentration_in_slurry": {
+              "value": "5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "additives": [
+          {
+            "name": "arginine",
+            "type": "First cationic compound",
+            "concentration_in_slurry": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "acetic acid",
+            "type": "Second cationic compound (organic acid)",
+            "concentration_in_slurry": {
+              "value": "0.07",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "4,7,10trioxamidecane-1 13-diamine (TTD)",
+            "type": "Nonionic compound (polyetheramine)",
+            "concentration_in_slurry": {
+              "value": "0.03",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_oxide": {
+          "value": "4703",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_oxide_to_semiconductor": "25:1",
+        "dishing_oxide": {
+          "value": "142",
+          "unit": "Å"
+        },
+        "polishing_conditions": {
+          "polisher_model": "AP-300 manufactured by CTS Corporation",
+          "pad_type": "K7 manufactured by Rohm & Hass Company",
+          "polishing_time": {
+            "value": "60",
+            "unit": "seconds"
+          },
+          "platen_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "300",
+            "unit": "ml/min"
+          },
+          "polishing_target": "patterned wafer (SiGe of 3000 Å, SiO₂ of 6,500 to 6,700 Å)"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 3",
+      "experiment_context": "CMP slurry composition prepared in the same manner as in Example 1, except that the content of the nonionic compound (TTD) was changed to 0.0005% by weight. Performance data from Table 2.",
+      "slurry_preparation": {
+        "abrasive_particles": [
+          {
+            "type": "ceria",
+            "particle_size": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "concentration_in_slurry": {
+              "value": "5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "additives": [
+          {
+            "name": "arginine",
+            "type": "First cationic compound",
+            "concentration_in_slurry": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "acetic acid",
+            "type": "Second cationic compound (organic acid)",
+            "concentration_in_slurry": {
+              "value": "0.07",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "4,7,10trioxamidecane-1 13-diamine (TTD)",
+            "type": "Nonionic compound (polyetheramine)",
+            "concentration_in_slurry": {
+              "value": "0.0005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_oxide": {
+          "value": "4570",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_oxide_to_semiconductor": "15:1",
+        "dishing_oxide": {
+          "value": "164",
+          "unit": "Å"
+        },
+        "polishing_conditions": {
+          "polisher_model": "AP-300 manufactured by CTS Corporation",
+          "pad_type": "K7 manufactured by Rohm & Hass Company",
+          "polishing_time": {
+            "value": "60",
+            "unit": "seconds"
+          },
+          "platen_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "300",
+            "unit": "ml/min"
+          },
+          "polishing_target": "patterned wafer (SiGe of 3000 Å, SiO₂ of 6,500 to 6,700 Å)"
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative Example 4",
+      "experiment_context": "CMP slurry composition prepared in the same manner as in Example 1, except that the content of the nonionic compound (TTD) was changed to 1.2% by weight. Performance data from Table 2.",
+      "slurry_preparation": {
+        "abrasive_particles": [
+          {
+            "type": "ceria",
+            "particle_size": {
+              "value": "100",
+              "unit": "nm"
+            },
+            "concentration_in_slurry": {
+              "value": "5",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "additives": [
+          {
+            "name": "arginine",
+            "type": "First cationic compound",
+            "concentration_in_slurry": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "acetic acid",
+            "type": "Second cationic compound (organic acid)",
+            "concentration_in_slurry": {
+              "value": "0.07",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "4,7,10trioxamidecane-1 13-diamine (TTD)",
+            "type": "Nonionic compound (polyetheramine)",
+            "concentration_in_slurry": {
+              "value": "1.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "solvent": {
+          "name": "deionized water"
+        }
+      },
+      "cmp_performance": {
+        "material_removal_rate_oxide": {
+          "value": "2850",
+          "unit": "Å/min"
+        },
+        "polishing_selectivity_oxide_to_semiconductor": "10:1",
+        "dishing_oxide": {
+          "value": "680",
+          "unit": "Å"
+        },
+        "polishing_conditions": {
+          "polisher_model": "AP-300 manufactured by CTS Corporation",
+          "pad_type": "K7 manufactured by Rohm & Hass Company",
+          "polishing_time": {
+            "value": "60",
+            "unit": "seconds"
+          },
+          "platen_speed": {
+            "value": "87",
+            "unit": "rpm"
+          },
+          "head_speed": {
+            "value": "93",
+            "unit": "rpm"
+          },
+          "flow_rate": {
+            "value": "300",
+            "unit": "ml/min"
+          },
+          "polishing_target": "patterned wafer (SiGe of 3000 Å, SiO₂ of 6,500 to 6,700 Å)"
+        }
+      }
+    }
+  ]
+}

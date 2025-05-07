@@ -1,0 +1,440 @@
+{
+  "doi": "US 10,767,081 B2",
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITION FOR POLISHING POLYCRYSTALLINE SILICON FILM",
+  "year_published": "2020",
+  "journal": "U.S. Patent",
+  "abstract": "A chemical mechanical polishing slurry composition for polishing a polycrystalline silicon film is presented, comprising: a solvent; a polishing agent; a pH adjuster; and at least one additive selected from the group consisting of a compound represented by Chemical Formula 1 below, a compound represented by Chemical Formula 2 below, and a tautomer thereof. The chemical mechanical polishing slurry composition for polishing a polycrystalline silicon film exhibits a high polishing speed and has various polishing selectivities when employed in a process for polishing a polycrystalline silicon film of a semiconductor wafer, and thus the composition may be effectively used as a composition for a process for polishing a polycrystalline silicon surface for the formation of highly integrated multilayer structured devices.",
+  "keywords": ["Chemical Mechanical Polishing", "CMP", "Slurry", "Polycrystalline Silicon", "Thio Compounds", "Thiol Compounds", "Additive"],
+  "samples": [
+    {
+      "sample_id": "PatentEx1_Thioacetamide_0.1wt%_PolySi",
+      "experiment_context": "CMP slurry (Example 1 from patent US 10,767,081 B2) containing 0.1 wt% Thioacetamide as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Polycrystalline Silicon Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "Thioacetamide",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.1", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-8.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Polycrystalline Silicon Film (Poly-Si)",
+        "film_thickness_initial": {"value": "500", "unit": "Å"},
+        "material_removal_rate": {"value": "52", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentEx1_Thioacetamide_0.1wt%_Si3N4",
+      "experiment_context": "CMP slurry (Example 1 from patent US 10,767,081 B2) containing 0.1 wt% Thioacetamide as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Silicon Nitride Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "Thioacetamide",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.1", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-8.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (Si3N4)",
+        "film_thickness_initial": {"value": "10000", "unit": "Å"},
+        "material_removal_rate": {"value": "265", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentEx2_ThiosuccinicAcid_0.1wt%_PolySi",
+      "experiment_context": "CMP slurry (Example 2 from patent US 10,767,081 B2) containing 0.1 wt% Thiosuccinic acid as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Polycrystalline Silicon Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "Thiosuccinic acid",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.1", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-9.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Polycrystalline Silicon Film (Poly-Si)",
+        "film_thickness_initial": {"value": "500", "unit": "Å"},
+        "material_removal_rate": {"value": "87", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentEx2_ThiosuccinicAcid_0.1wt%_Si3N4",
+      "experiment_context": "CMP slurry (Example 2 from patent US 10,767,081 B2) containing 0.1 wt% Thiosuccinic acid as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Silicon Nitride Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "Thiosuccinic acid",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.1", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-9.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (Si3N4)",
+        "film_thickness_initial": {"value": "10000", "unit": "Å"},
+        "material_removal_rate": {"value": "227", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentEx3_DidodecylThiodipropionate_0.1wt%_PolySi",
+      "experiment_context": "CMP slurry (Example 3 from patent US 10,767,081 B2) containing 0.1 wt% Didodecyl-3,3'-thiodipropionate as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Polycrystalline Silicon Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "Didodecyl-3,3'-thiodipropionate",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.1", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-9.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Polycrystalline Silicon Film (Poly-Si)",
+        "film_thickness_initial": {"value": "500", "unit": "Å"},
+        "material_removal_rate": {"value": "13", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentEx3_DidodecylThiodipropionate_0.1wt%_Si3N4",
+      "experiment_context": "CMP slurry (Example 3 from patent US 10,767,081 B2) containing 0.1 wt% Didodecyl-3,3'-thiodipropionate as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Silicon Nitride Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "Didodecyl-3,3'-thiodipropionate",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.1", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-9.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (Si3N4)",
+        "film_thickness_initial": {"value": "10000", "unit": "Å"},
+        "material_removal_rate": {"value": "56", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentEx4_2Mercaptobenzimidazole_0.1wt%_PolySi",
+      "experiment_context": "CMP slurry (Example 4 from patent US 10,767,081 B2) containing 0.1 wt% 2-Mercaptobenzimidazole as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Polycrystalline Silicon Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "2-Mercaptobenzimidazole",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.1", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-8.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Polycrystalline Silicon Film (Poly-Si)",
+        "film_thickness_initial": {"value": "500", "unit": "Å"},
+        "material_removal_rate": {"value": "24", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentEx4_2Mercaptobenzimidazole_0.1wt%_Si3N4",
+      "experiment_context": "CMP slurry (Example 4 from patent US 10,767,081 B2) containing 0.1 wt% 2-Mercaptobenzimidazole as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Silicon Nitride Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "2-Mercaptobenzimidazole",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.1", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-8.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (Si3N4)",
+        "film_thickness_initial": {"value": "10000", "unit": "Å"},
+        "material_removal_rate": {"value": "36", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentEx5_ThiosuccinicAcid_0.5wt%_PolySi",
+      "experiment_context": "CMP slurry (Example 5 from patent US 10,767,081 B2) containing 0.5 wt% Thiosuccinic acid as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Polycrystalline Silicon Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "Thiosuccinic acid",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.5", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-9.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Polycrystalline Silicon Film (Poly-Si)",
+        "film_thickness_initial": {"value": "500", "unit": "Å"},
+        "material_removal_rate": {"value": "103", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentEx5_ThiosuccinicAcid_0.5wt%_Si3N4",
+      "experiment_context": "CMP slurry (Example 5 from patent US 10,767,081 B2) containing 0.5 wt% Thiosuccinic acid as polishing accelerator, 2 wt% colloidal silica, in distilled water, pH adjusted to 3.0-4.0. Performance evaluated on Silicon Nitride Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": [
+          {
+            "name": "Thiosuccinic acid",
+            "role": "Polishing accelerator",
+            "concentration": {"value": "0.5", "unit": "wt%"},
+            "chemical_formula_source": "Table 1 in patent, images/img-9.jpeg"
+          }
+        ]
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (Si3N4)",
+        "film_thickness_initial": {"value": "10000", "unit": "Å"},
+        "material_removal_rate": {"value": "282", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentCompEx1_NoAdditive_PolySi",
+      "experiment_context": "CMP slurry (Comparative Example 1 from patent US 10,767,081 B2) containing 2 wt% colloidal silica in distilled water, pH adjusted to 3.0-4.0, with no additive. Performance evaluated on Polycrystalline Silicon Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": []
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Polycrystalline Silicon Film (Poly-Si)",
+        "film_thickness_initial": {"value": "500", "unit": "Å"},
+        "material_removal_rate": {"value": "32", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    },
+    {
+      "sample_id": "PatentCompEx1_NoAdditive_Si3N4",
+      "experiment_context": "CMP slurry (Comparative Example 1 from patent US 10,767,081 B2) containing 2 wt% colloidal silica in distilled water, pH adjusted to 3.0-4.0, with no additive. Performance evaluated on Silicon Nitride Film.",
+      "slurry_details": {
+        "solvent": "Distilled water",
+        "polishing_agent": {
+          "type": "Colloidal silica",
+          "concentration": {"value": "2", "unit": "wt%"},
+          "datasheet_particle_size_nm": {"min_value": "40", "max_value": "120"}
+        },
+        "ph_adjuster_details": {
+          "used": true,
+          "target_ph_range": {"min_value": "3.0", "max_value": "4.0", "unit": ""}
+        },
+        "additives": []
+      },
+      "characterization": {},
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (Si3N4)",
+        "film_thickness_initial": {"value": "10000", "unit": "Å"},
+        "material_removal_rate": {"value": "215", "unit": "Å/min"},
+        "polishing_time": {"value": null, "unit": "min"},
+        "process_temperature": {"value": null, "unit": ""},
+        "polishing_pressure": {"value": "3", "unit": "psi"},
+        "table_rotation_speed": {"value": "100", "unit": "rpm"},
+        "equipment_model": "Poli-400 polisher",
+        "pad_composition": "IC1010 (Dow Chemical Company)",
+        "pad_conditioning_pressure": {"value": null, "unit": null}
+      }
+    }
+  ]
+}

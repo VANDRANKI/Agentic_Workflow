@@ -1,0 +1,524 @@
+{
+  "doi": "US7754168B2",
+  "samples": [
+    {
+      "sample_id": "US7754168B2_Sample_1",
+      "experiment_context": "Fine ceria particles prepared via supercritical hydrothermal synthesis using cerium nitrate as precursor, with reaction temperature of 425°C and pressure of 230 bar.",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate",
+            "formula": "Ce(NO₃)₃",
+            "source_type": "Water-soluble cerium salt",
+            "purity": "",
+            "quantity": {
+              "value": "2.8",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "Deionized water",
+                "quantity": {
+                  "value": "76",
+                  "unit": "g/min"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Aqueous solution of ammonia",
+                "concentration": {
+                  "value": "1.1",
+                  "unit": "molar ratio relative to nitric acid"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "510",
+                "unit": "°C",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 2,
+                "value": "230",
+                "unit": "bar",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 3,
+                "value": "425",
+                "unit": "°C",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "Concentration using sintered filter",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria (CeO₂)",
+            "concentration": {
+              "initial": "9.8",
+              "final": "2",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polyacrylic acid ammonium salt",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Polyasparaginic acid ammonium salt",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "7.0",
+              "max": "7.0"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "13",
+              "max": "13",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "64",
+            "unit": "m²/g"
+          }
+        },
+        "stability": "Excellent dispersibility with zeta potential of 52.3 mV and average secondary particle size of 205 nm"
+      }
+    },
+    {
+      "sample_id": "US7754168B2_Sample_2",
+      "experiment_context": "Fine ceria particles prepared via supercritical hydrothermal synthesis using higher concentration of cerium nitrate as precursor, with reaction temperature of 400°C and pressure of 250 bar.",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate",
+            "formula": "Ce(NO₃)₃",
+            "source_type": "Water-soluble cerium salt",
+            "purity": "",
+            "quantity": {
+              "value": "18.6",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "Deionized water",
+                "quantity": {
+                  "value": "76",
+                  "unit": "g/min"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Aqueous solution of ammonia",
+                "concentration": {
+                  "value": "1.1",
+                  "unit": "molar ratio relative to nitric acid"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "480",
+                "unit": "°C",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 2,
+                "value": "250",
+                "unit": "bar",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 3,
+                "value": "400",
+                "unit": "°C",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "Concentration using sintered filter",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria (CeO₂)",
+            "concentration": {
+              "initial": "10.3",
+              "final": "2",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polyacrylic acid ammonium salt",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Polyasparaginic acid ammonium salt",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "7.0",
+              "max": "7.0"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "52",
+              "max": "52",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "25",
+            "unit": "m²/g"
+          }
+        },
+        "stability": "Excellent dispersibility with zeta potential of 36.8 mV and average secondary particle size of 223 nm"
+      }
+    },
+    {
+      "sample_id": "US7754168B2_Sample_3",
+      "experiment_context": "Fine ceria particles prepared via supercritical hydrothermal synthesis using cerium nitrate as precursor, with reaction temperature of 385°C and higher pressure of 300 bar.",
+      "abrasive_synthesis": {
+        "precursors": [
+          {
+            "material_name": "Cerium nitrate",
+            "formula": "Ce(NO₃)₃",
+            "source_type": "Water-soluble cerium salt",
+            "purity": "",
+            "quantity": {
+              "value": "2.8",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "solvents": [
+              {
+                "name": "Deionized water",
+                "quantity": {
+                  "value": "76",
+                  "unit": "g/min"
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "Aqueous solution of ammonia",
+                "concentration": {
+                  "value": "1.1",
+                  "unit": "molar ratio relative to nitric acid"
+                }
+              }
+            ],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "process_stages": [
+              {
+                "stage": 1,
+                "value": "450",
+                "unit": "°C",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 2,
+                "value": "300",
+                "unit": "bar",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              },
+              {
+                "stage": 3,
+                "value": "385",
+                "unit": "°C",
+                "duration": {
+                  "value": "",
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "collection": {
+            "method": "Concentration using sintered filter",
+            "parameters": {
+              "speed": {
+                "value": "",
+                "unit": ""
+              },
+              "cycles": "",
+              "wash_volume": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "treatment": {
+            "calcination": {
+              "temperature": {
+                "value": "",
+                "unit": ""
+              },
+              "duration": {
+                "value": "",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Ceria (CeO₂)",
+            "concentration": {
+              "initial": "9.7",
+              "final": "2",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Polyacrylic acid ammonium salt",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Polyasparaginic acid ammonium salt",
+              "type": "Dispersing agent",
+              "concentration": {
+                "value": "1.0",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Deionized water",
+            "percentage": {
+              "value": "",
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {
+            "aging": {
+              "duration": {
+                "value": "",
+                "unit": ""
+              },
+              "equipment": ""
+            }
+          },
+          "ph_control": {
+            "target": {
+              "min": "7.0",
+              "max": "7.0"
+            },
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": "73",
+              "max": "73",
+              "unit": "nm"
+            }
+          },
+          "shape": "",
+          "surface_area": {
+            "value": "15",
+            "unit": "m²/g"
+          }
+        },
+        "stability": "Excellent dispersibility with zeta potential of 28.2 mV and average secondary particle size of 270 nm"
+      }
+    }
+  ]
+}

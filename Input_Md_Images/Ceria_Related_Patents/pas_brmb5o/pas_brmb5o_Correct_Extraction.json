@@ -1,0 +1,265 @@
+{
+  "patent_number": "US 6,749,488 B2",
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITION FOR POLISHING CONDUCTIVE AND NON-CONDUCTIVE LAYERS ON SEMICONDUCTOR WAFERS",
+  "publication_date": "2004-06-15",
+  "assignee": "Planar Solutions LLC, Adrain, MI (US)",
+  "inventors": [
+    "Anthony Mark Pasqualoni, Hamden, CT (US)",
+    "Deepak Mahulikar, Madison, CT (US)",
+    "Larry A. LaFollette, Maumec, OH (US)",
+    "Richard J. Jenkins, Dundee, MI (US)"
+  ],
+  "application_number": "10/268,254",
+  "filing_date": "2002-10-09",
+  "abstract": "The invention relates to a novel CMP slurry composition used for polishing metals, the composition comprising: (a) a dispersion solution comprising an abrasive; and (b) an oxidizer. The slurry composition has a large particle count of less than about 150,000 particles having a particle size greater than 0.5 μm in 30 μL of slurry, which is achieved by filtering the slurry composition prior to use. Also, the inclusion of a chemical activity enhancer, such as, an amine and a corrosion inhibitor, results in the appropriate copper removal rate without increasing static etch rates.",
+  "samples": [
+    {
+      "sample_id": "Control_Slurry_Prior_Art",
+      "experiment_context": "Prior art, unfiltered control slurry for CMP as described in Example 1 and Table 5 of US Patent 6,749,488 B2.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Fumed Silica",
+          "concentration": {
+            "value": "10",
+            "unit": "wt%"
+          },
+          "particle_size_control_method": "Unfiltered"
+        },
+        "oxidizer": {
+          "chemical": "H2O2",
+          "concentration": {
+            "value": "0.2",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "materials_polished": ["Copper", "Tantalum", "TEOS"],
+        "removal_rates": [
+          {
+            "material": "Copper",
+            "value": "800-1000",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Tantalum",
+            "value": "550-750",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TEOS",
+            "value": "1350-1700",
+            "unit": "Å/min"
+          }
+        ],
+        "static_etch_rate_copper": {
+          "value": "0",
+          "unit": "Å/min"
+        },
+        "defects_observed": {
+          "type": "Chatter mark defects",
+          "normalized_count": "25"
+        },
+        "surface_quality": {
+          "dishing_50_micron_lines": {
+            "value": "100-300",
+            "unit": "Å"
+          },
+          "erosion_fine_lines_max": {
+            "value": "50-200",
+            "unit": "Å"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Improved_Slurry_Filtered",
+      "experiment_context": "Filtered CMP slurry composition with improved defectivity and TEOS removal rate, as described in Example 1 and Table 5 of US Patent 6,749,488 B2.",
+      "slurry_composition": {
+        "abrasive": {
+          "material": "Fumed Silica",
+          "concentration": {
+            "value": "6.5 to 8",
+            "unit": "wt%"
+          },
+          "particle_size_control_method": "Filtered",
+          "large_particle_count_spec": "less than about 150,000 particles having a particle size of greater than about 0.5 μm in a 30 μL sample"
+        },
+        "oxidizer": {
+          "chemical": "H2O2",
+          "concentration": {
+            "value": "0.005 to 0.015",
+            "unit": "wt%"
+          }
+        },
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": {
+              "value": "0.005 to 0.015",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Ammonia",
+            "type": "Amine (Chemical activity enhancer)",
+            "concentration": {
+              "value": "0.01 to 0.03",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": {
+          "value": "8 to 10.5"
+        }
+      },
+      "cmp_performance": {
+        "materials_polished": ["Copper", "Tantalum", "TEOS"],
+        "removal_rates": [
+          {
+            "material": "Copper",
+            "value": "800-1000",
+            "unit": "Å/min"
+          },
+          {
+            "material": "Tantalum",
+            "value": "450-600",
+            "unit": "Å/min"
+          },
+          {
+            "material": "TEOS",
+            "value": "1000-1200",
+            "unit": "Å/min"
+          }
+        ],
+        "static_etch_rate_copper": {
+          "value": "0",
+          "unit": "Å/min"
+        },
+        "defects_observed": {
+          "type": "Chatter mark defects",
+          "normalized_count": "<10"
+        },
+        "surface_quality": {
+          "dishing_50_micron_lines": {
+            "value": "500 max",
+            "unit": "Å"
+          },
+          "erosion_fine_lines_max": {
+            "value": "400 max",
+            "unit": "Å"
+          }
+        }
+      }
+    }
+  ],
+  "general_slurry_components_discussed": {
+    "abrasives_types": [
+      "Silica (Colloidal, Fumed)",
+      "Alumina (Al2O3)",
+      "Ceria (CeO2)"
+    ],
+    "oxidizers_types": [
+      "Hydrogen peroxide (H2O2)",
+      "Potassium ferricyanide",
+      "Potassium dichromate",
+      "Potassium iodate",
+      "Potassium bromate",
+      "Vanadium trioxide",
+      "Hypochlorous acid",
+      "Sodium hypochlorite",
+      "Potassium hypochlorite",
+      "Calcium hypochlorite",
+      "Magnesium hypochlorite",
+      "Ferric nitrate",
+      "Ammonium persulfate",
+      "Potassium permanganate"
+    ],
+    "corrosion_inhibitors_types": [
+      "Benzotriazole (BTA)",
+      "6-tolylytriazole",
+      "1-(2,3-dicarboxypropyl)benzotriazole",
+      "Carboxylic acids"
+    ],
+    "amines_types": [
+      "Ammonia",
+      "Hydroxylamine",
+      "Monoethanolamine",
+      "Diethanolamine",
+      "Triethanolamine",
+      "Diethyleneglycolamine",
+      "N-hydroxylethylpiperazine"
+    ],
+    "stabilizing_agents_ph_types": [
+      "Ammonium hydroxide",
+      "Potassium hydroxide"
+    ],
+    "surfactants_types": ["Nonionic", "Anionic", "Cationic", "Amphoteric"],
+    "acids_for_ph_adjustment_types": [
+      "Formic acid",
+      "Acetic acid",
+      "Propanoic acid",
+      "Butanoic acid",
+      "Pentanoic acid",
+      "Hexanoic acid",
+      "Heptanoic acid",
+      "Octanoic acid",
+      "Nonanoic acid",
+      "Lactic acid",
+      "Hydrochloric acid",
+      "Nitric acid",
+      "Phosphoric acid",
+      "Sulfuric acid",
+      "Hydrofluoric acid",
+      "Malic acid",
+      "Tartaric acid",
+      "Gluconic acid",
+      "Citric acid",
+      "Phthalic acid",
+      "Pyrocatechoic acid",
+      "Pyrogallol carboxylic acid",
+      "Gallic acid",
+      "Tannic acid"
+    ],
+    "fluorine_containing_compounds_types": [
+      "Hydrogen fluoride",
+      "Perfluoric acid",
+      "Alkali metal fluoride salt",
+      "Alkaline earth metal fluoride salt",
+      "Ammonium fluoride",
+      "Tetramethylammonium fluoride",
+      "Ammonium bifluoride",
+      "Ethylenediammonium difluoride",
+      "Diethylenetriammonium trifluoride"
+    ],
+    "chelating_agents_types": [
+      "Ethylenediaminetetracetic acid (EDTA)",
+      "N-hydroxyethylethylenediaminetriacetic acid (NHEDTA)",
+      "Nitrilotriacetic acid (NTA)",
+      "Diethylklenetriaminepentacetic acid (DPTA)",
+      "Ethanoldiglycinate"
+    ],
+    "salts_types": [
+      "Ammonium persulfate",
+      "Potassium persulfate",
+      "Potassium sulfate",
+      "Potassium carbonate",
+      "Potassium propionate",
+      "Ammonium nitrate",
+      "Potassium hydrogen phthalate",
+      "Hydroxylamine sulfate"
+    ]
+  }
+}

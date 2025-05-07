@@ -1,0 +1,473 @@
+{
+  "doi": "U.S. Patent Application Serial No. 07/242,231",
+  "title": "LAPPING SLURRY COMPOSITIONS WITH IMPROVED LAP RATE",
+  "year_published": "1988",
+  "journal": "United States Patent Application",
+  "samples": [
+    {
+      "sample_id": "Payne1988_TableI_R1_pH13.5",
+      "experiment_context": "Lapping slurry from Table I, Row 1. Composition: 50% Al₂O₃ (15 µm), 0.4% Belclene 283 (Dispersant), 0.16% Grotan (Biocide), 0.4% Acrysol 40 (Thickener), 1% K₃PO₄ (Accelerator). pH adjusted to 13.5. Note: 1% NaOH solution used in place of make-up water.",
+      "precursor_chemical": "Alumina (Al₂O₃)",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_alumina_concentration": {
+          "value": "50",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Belclene 283",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.4",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Grotan",
+            "type": "Biocide",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Acrysol 40",
+            "type": "Thickener",
+            "concentration": {
+              "value": "0.4",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "K₃PO₄",
+            "type": "Accelerator",
+            "concentration": {
+              "value": "1",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+          "value": "13.5",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null,
+          "notes": "1% NaOH solution used in place of make-up water"
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "15",
+          "unit": "µm",
+          "measurement_method_used": "Not specified"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Not specified",
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "2100",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Payne1988_TableI_R2_pH10.8",
+      "experiment_context": "Lapping slurry from Table I, Row 2. Composition: 65% Al₂O₃ (7 µm), 0.52% Belclene 283 (Dispersant), 0.16% Grotan (Biocide), 0.16% Carbopol 940 (Thickener), 2.6% MEA (Accelerator). pH adjusted to 10.8.",
+      "precursor_chemical": "Alumina (Al₂O₃)",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_alumina_concentration": {
+          "value": "65",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Belclene 283",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.52",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Grotan",
+            "type": "Biocide",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carbopol 940",
+            "type": "Thickener",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "MEA",
+            "type": "Accelerator",
+            "concentration": {
+              "value": "2.6",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+          "value": "10.8",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null,
+          "notes": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "7",
+          "unit": "µm",
+          "measurement_method_used": "Not specified"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Not specified",
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "2050",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Payne1988_TableI_R3_pH9.7",
+      "experiment_context": "Lapping slurry from Table I, Row 3. Composition: 65% Al₂O₃ (12 µm), 0.52% Belclene 283 (Dispersant), 0.16% Grotan (Biocide), 0.16% Carbopol 940 (Thickener), 0.3% KOH+ (Accelerator). pH adjusted to 9.7.",
+      "precursor_chemical": "Alumina (Al₂O₃)",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_alumina_concentration": {
+          "value": "65",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Belclene 283",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.52",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Grotan",
+            "type": "Biocide",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carbopol 940",
+            "type": "Thickener",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "KOH+",
+            "type": "Accelerator",
+            "concentration": {
+              "value": "0.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+          "value": "9.7",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null,
+          "notes": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "12",
+          "unit": "µm",
+          "measurement_method_used": "Not specified"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Not specified",
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "2000",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Payne1988_TableI_R4_pH8.5",
+      "experiment_context": "Lapping slurry from Table I, Row 4. Composition: 65% Al₂O₃ (15 µm), 0.52% Belclene 283 (Dispersant), 0.16% Grotan (Biocide), 0.16% Carbopol 940 (Thickener), 1.3% AEEA (Accelerator). pH adjusted to 8.5.",
+      "precursor_chemical": "Alumina (Al₂O₃)",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_alumina_concentration": {
+          "value": "65",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Belclene 283",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.52",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Grotan",
+            "type": "Biocide",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carbopol 940",
+            "type": "Thickener",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "AEEA",
+            "type": "Accelerator",
+            "concentration": {
+              "value": "1.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+          "value": "8.5",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null,
+          "notes": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "15",
+          "unit": "µm",
+          "measurement_method_used": "Not specified"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Not specified",
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "1550",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Payne1988_TableI_R5_pH8.3",
+      "experiment_context": "Lapping slurry from Table I, Row 5. Composition: 50% Al₂O₃ (15 µm), 0.52% Belclene 283 (Dispersant), 0.16% Grotan (Biocide), 0.4% Carbopol 940 (Thickener), 1.3% K₃PO₄ (Accelerator). pH adjusted to 8.3.",
+      "precursor_chemical": "Alumina (Al₂O₃)",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_alumina_concentration": {
+          "value": "50",
+          "unit": "wt%"
+        },
+        "additives": [
+          {
+            "name": "Belclene 283",
+            "type": "Dispersant",
+            "concentration": {
+              "value": "0.52",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Grotan",
+            "type": "Biocide",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Carbopol 940",
+            "type": "Thickener",
+            "concentration": {
+              "value": "0.4",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "K₃PO₄",
+            "type": "Accelerator",
+            "concentration": {
+              "value": "1.3",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": {
+          "value": "8.3",
+          "unit": ""
+        },
+        "solvent": {
+          "name": "Water",
+          "quantity": null,
+          "notes": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "15",
+          "unit": "µm",
+          "measurement_method_used": "Not specified"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Not specified",
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "1400",
+          "unit": "Å/min"
+        },
+        "process_temperature": null,
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

@@ -1,0 +1,1563 @@
+{
+  "doi": null,
+  "publication_number": "US 2013/0214199 A1",
+  "title": "CMP SLURRY COMPOSITION FOR TUNGSTEN",
+  "year_published": "2013",
+  "journal": "US Patent Application Publication",
+  "authors": [
+    { "name": "Jea-Gun Park" },
+    { "name": "Jin-Hyung Park" },
+    { "name": "Jae-Hyung Lim" },
+    { "name": "Jong-Young Cho" },
+    { "name": "Ho Choi" },
+    { "name": "Hee-Sub Hwang" }
+  ],
+  "assignee": "UBPRECISION CO., LTD., Yongin-si, Gyeonggi-do (KR)",
+  "application_number": "13/643,375",
+  "pct_details": {
+    "pct_number": "PCT/KR12/05397",
+    "pct_filed_date": "Jul. 6, 2012"
+  },
+  "priority_data": [
+    {
+      "country": "KR",
+      "application_number": "10-2011-0081207",
+      "date": "Aug. 16, 2011"
+    },
+    {
+      "country": "KR",
+      "application_number": "10-2011-0117872",
+      "date": "Nov. 11, 2011"
+    }
+  ],
+  "abstract": "The present invention relates to a CMP slurry composition for polishing tungsten comprising a abrasive and a polishing chemical, wherein the abrasive comprises colloidal silica dispersed in ultra-pure water, and the polishing chemical comprises hydrogen peroxide, ammonium persulfate and iron nitrate. The slurry composition is not discolored and has good etching selectivity, so as to be applied to a CMP process.",
+  "general_experimental_conditions": {
+    "abrasive_details": {
+      "type": "Colloidal Silica",
+      "brand_model": "Fuso, PL-7",
+      "primary_particle_size": { "value": 75, "unit": "nm" },
+      "secondary_particle_size": { "value": 215, "unit": "nm" },
+      "base_concentration_in_slurry": { "value": 4, "unit": "weight %" },
+      "dispersing_medium": "ultra-pure water"
+    },
+    "cmp_setup": {
+      "equipment_model": "poli-300 of G&P Tech.",
+      "polishing_pad": "IC 1000/Suba IV CMP pad of Rohm & Haas",
+      "downforce_pressure": { "value": 2.5, "unit": "psi" },
+      "table_speed": { "value": 90, "unit": "rpm" },
+      "spindle_speed": { "value": 90, "unit": "rpm" },
+      "slurry_flow_rate": { "value": 100, "unit": "mL/min" }
+    },
+    "wafers_used": [
+      {
+        "material_type": "Tungsten (W) wafer",
+        "description": "Silicon wafer with deposited oxide film and titanium nitride, followed by 6000 Å tungsten.",
+        "polishing_time_default": { "value": 60, "unit": "s" }
+      },
+      {
+        "material_type": "Titanium Nitride (TiN) wafer",
+        "description": "Silicon wafer with deposited oxide film 1000 Å, followed by titanium nitride 3000 Å.",
+        "polishing_time_default": { "value": 30, "unit": "s" }
+      },
+      {
+        "material_type": "Silicon Oxide (PETEOS) wafer",
+        "description": "PETEOS 7000 Å as an insulating film.",
+        "polishing_time_default": { "value": 60, "unit": "s" }
+      }
+    ]
+  },
+  "samples": [
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Slurry prepared by adding only H₂O₂ (2 weight %) to colloidal silica (4 weight %). Described in paragraph [0046] and Table 1. Performance shown in FIG. 2.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 2, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 50, "unit": "Å/min" },
+            "source_figure": "FIG. 2"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 100, "unit": "Å/min" },
+            "source_figure": "FIG. 2"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 2"
+          }
+        ],
+        "observations": ["Very low polishing rate to tungsten."]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), Ammonium Persulfate (APS, 2 weight %), and H₂O₂ (2 weight %). Described in paragraph [0048] and Table 2. Performance shown in FIG. 3.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 2, "unit": "weight %" }
+          },
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 2, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 150, "unit": "Å/min" },
+            "source_figure": "FIG. 3"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2200, "unit": "Å/min" },
+            "source_figure": "FIG. 3"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 500, "unit": "Å/min" },
+            "source_figure": "FIG. 3"
+          }
+        ],
+        "observations": [
+          "Low tungsten polishing rate.",
+          "TiN polishing rate was improved."
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_3_Fe(NO3)3_2wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %) and Fe(NO₃)₃ (2 weight %). Described in paragraph [0050] and Table 3. Performance shown in FIG. 4a, discoloration in FIG. 4b.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 2, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1600, "unit": "Å/min" },
+            "source_figure": "FIG. 4a"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2000, "unit": "Å/min" },
+            "source_figure": "FIG. 4a"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 500, "unit": "Å/min" },
+            "source_figure": "FIG. 4a"
+          }
+        ],
+        "observations": [
+          "Tungsten polishing rates were high.",
+          "Problems of pad contamination caused by slurry discoloration (see FIG. 4b), life, metal contamination.",
+          "Slurry discoloration observed when Fe(NO₃)₃ > 0.1 weight % (FIG. 5)."
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_4_Fe_0.01wt%_APS_0.00wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), Fe(NO₃)₃ (0.01 weight %), and APS (0 weight %), no H₂O₂. Described in paragraph [0053] and Table 4. Performance from FIG. 6.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.01, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 20, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 20, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 500, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          }
+        ],
+        "observations": ["Polishing rates of tungsten were very low."]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_4_Fe_0.01wt%_APS_0.01wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), Fe(NO₃)₃ (0.01 weight %), and APS (0.01 weight %), no H₂O₂. Described in paragraph [0053] and Table 4. Performance from FIG. 6.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.01, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.01, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 20, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 25, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 500, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          }
+        ],
+        "observations": ["Polishing rates of tungsten were very low."]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_4_Fe_0.01wt%_APS_0.03wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), Fe(NO₃)₃ (0.01 weight %), and APS (0.03 weight %), no H₂O₂. Described in paragraph [0053] and Table 4. Performance from FIG. 6.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.01, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.03, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 25, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 30, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 500, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          }
+        ],
+        "observations": ["Polishing rates of tungsten were very low."]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_4_Fe_0.01wt%_APS_0.05wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), Fe(NO₃)₃ (0.01 weight %), and APS (0.05 weight %), no H₂O₂. Described in paragraph [0053] and Table 4. Performance from FIG. 6.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.01, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 30, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 40, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 500, "unit": "Å/min" },
+            "source_figure": "FIG. 6"
+          }
+        ],
+        "observations": ["Polishing rates of tungsten were very low."]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5_H2O2_1wt%_Fe_0.00wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), H₂O₂ (1 weight %), and varying Fe(NO₃)₃. This point is Fe(NO₃)₃ at 0 wt%. Described in paragraph [0054] and Table 5. Performance from FIG. 7.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 750, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1630, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          }
+        ],
+        "observations": [
+          "Oxide polishing rate 500-600 Å/min across Fe(NO₃)₃ concentrations."
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5_H2O2_1wt%_Fe_0.01wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), H₂O₂ (1 weight %), and Fe(NO₃)₃ (0.01 weight %). Described in paragraph [0054] and Table 5. Performance from FIG. 7.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.01, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 800, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1800, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5_H2O2_1wt%_Fe_0.03wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), H₂O₂ (1 weight %), and Fe(NO₃)₃ (0.03 weight %). Described in paragraph [0054-0055] and Table 5. Performance from FIG. 7.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.03, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1150, "unit": "Å/min" },
+            "source_figure": "FIG. 7",
+            "text_reference": "[0055]"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2580, "unit": "Å/min" },
+            "source_figure": "FIG. 7",
+            "text_reference": "[0056]"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 7",
+            "text_reference": "[0057]"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5_H2O2_1wt%_Fe_0.05wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), H₂O₂ (1 weight %), and Fe(NO₃)₃ (0.05 weight %). Described in paragraph [0054] and Table 5. Performance from FIG. 7.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1200, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2400, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5_H2O2_1wt%_Fe_0.1wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), H₂O₂ (1 weight %), and Fe(NO₃)₃ (0.1 weight %). Described in paragraph [0054] and Table 5. Performance from FIG. 7.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.1, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1300, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2250, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5_H2O2_1wt%_Fe_0.3wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), H₂O₂ (1 weight %), and Fe(NO₃)₃ (0.3 weight %). Described in paragraph [0054] and Table 5. Performance from FIG. 7.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.3, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1500, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2100, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5_H2O2_1wt%_Fe_0.5wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), H₂O₂ (1 weight %), and Fe(NO₃)₃ (0.5 weight %). Described in paragraph [0054] and Table 5. Performance from FIG. 7.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.5, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1650, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2050, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 7"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5_H2O2_1wt%_Fe_1.0wt%",
+      "experiment_context": "Slurry with colloidal silica (4 weight %), H₂O₂ (1 weight %), and Fe(NO₃)₃ (1 weight %). Described in paragraph [0054-0056] and Table 5. Performance from FIG. 7.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          }
+        ],
+        "ph": null
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1830, "unit": "Å/min" },
+            "source_figure": "FIG. 7",
+            "text_reference": "[0055]"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2030, "unit": "Å/min" },
+            "source_figure": "FIG. 7",
+            "text_reference": "[0056]"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 7",
+            "text_reference": "[0057]"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig8_Fe0.05_APS_0.00wt%",
+      "experiment_context": "Slurry with colloidal silica (4 wt%), H₂O₂ (1 wt%), Fe(NO₃)₃ (0.05 wt%), and APS (0 wt%). From Table 6, FIG. 8, paragraph [0061].",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1060, "unit": "Å/min" },
+            "source_figure": "FIG. 8",
+            "text_reference": "[0061]"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2350, "unit": "Å/min" },
+            "source_figure": "FIG. 8",
+            "text_reference": "[0061]"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 8 (inferred)"
+          }
+        ],
+        "observations": [
+          "Etching selectivity TiN-W and W-Oxide can be properly controlled by adding APS."
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig8_Fe0.05_APS_0.01wt%",
+      "experiment_context": "Slurry with colloidal silica (4 wt%), H₂O₂ (1 wt%), Fe(NO₃)₃ (0.05 wt%), and APS (0.01 wt%). From Table 6, FIG. 8.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.01, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1100, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2200, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 8 (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig8_Fe0.05_APS_0.03wt%",
+      "experiment_context": "Slurry with colloidal silica (4 wt%), H₂O₂ (1 wt%), Fe(NO₃)₃ (0.05 wt%), and APS (0.03 wt%). From Table 6, FIG. 8.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.03, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1180, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2050, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 8 (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig8_Fe0.05_APS_0.05wt%",
+      "experiment_context": "Slurry with colloidal silica (4 wt%), H₂O₂ (1 wt%), Fe(NO₃)₃ (0.05 wt%), and APS (0.05 wt%). From Table 6, FIG. 8.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1250, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1950, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 8 (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig8_Fe0.05_APS_0.1wt%",
+      "experiment_context": "Slurry with colloidal silica (4 wt%), H₂O₂ (1 wt%), Fe(NO₃)₃ (0.05 wt%), and APS (0.1 wt%). From Table 6, FIG. 8, paragraph [0061].",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.1, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1270, "unit": "Å/min" },
+            "source_figure": "FIG. 8",
+            "text_reference": "[0061]"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1900, "unit": "Å/min" },
+            "source_figure": "FIG. 8",
+            "text_reference": "[0061]"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 8 (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig8_Fe0.05_APS_0.3wt%",
+      "experiment_context": "Slurry with colloidal silica (4 wt%), H₂O₂ (1 wt%), Fe(NO₃)₃ (0.05 wt%), and APS (0.3 wt%). From Table 6, FIG. 8.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.3, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1280, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1700, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 8 (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig8_Fe0.05_APS_0.5wt%",
+      "experiment_context": "Slurry with colloidal silica (4 wt%), H₂O₂ (1 wt%), Fe(NO₃)₃ (0.05 wt%), and APS (0.5 wt%). From Table 6, FIG. 8.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.5, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1290, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1600, "unit": "Å/min" },
+            "source_figure": "FIG. 8"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 8 (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig8_Fe0.05_APS_1.0wt%",
+      "experiment_context": "Slurry with colloidal silica (4 wt%), H₂O₂ (1 wt%), Fe(NO₃)₃ (0.05 wt%), and APS (1.0 wt%). From Table 6, FIG. 8, paragraph [0061].",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 1.0, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1300, "unit": "Å/min" },
+            "source_figure": "FIG. 8",
+            "text_reference": "[0061]"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1530, "unit": "Å/min" },
+            "source_figure": "FIG. 8",
+            "text_reference": "[0061]"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 8 (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9a_H2O2_1_APS_0_Fe_0.00wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%) with varying Fe(NO₃)₃, no APS. Data from FIG. 9a, paragraph [0063]. This is similar to CompEx5.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.0, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 750, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1630, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9a (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9a_H2O2_1_APS_0_Fe_0.01wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%) with Fe(NO₃)₃ (0.01 wt%), no APS. Data from FIG. 9a.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.01, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 800, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1800, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9a (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9a_H2O2_1_APS_0_Fe_0.03wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%) with Fe(NO₃)₃ (0.03 wt%), no APS. Data from FIG. 9a.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.03, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1150, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2580, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9a (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9a_H2O2_1_APS_0_Fe_0.05wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%) with Fe(NO₃)₃ (0.05 wt%), no APS. Data from FIG. 9a.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1200, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2350, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9a (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9a_H2O2_1_APS_0_Fe_0.1wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%) with Fe(NO₃)₃ (0.1 wt%), no APS. Data from FIG. 9a.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.1, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1300, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2250, "unit": "Å/min" },
+            "source_figure": "FIG. 9a"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9a (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9b_H2O2_1_APS_0.05_Fe_0.00wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%) and APS (0.05 wt%) with varying Fe(NO₃)₃. This point is Fe(NO₃)₃ at 0 wt%. Data from FIG. 9b, paragraph [0063].",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.0, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 800, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1000, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9b (inferred)"
+          }
+        ],
+        "observations": [
+          "With APS 0.05 wt%, TiN polishing rate reduced compared to no APS (Fig 9a)."
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9b_H2O2_1_APS_0.05_Fe_0.01wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%) and APS (0.05 wt%) with Fe(NO₃)₃ (0.01 wt%). Data from FIG. 9b.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.01, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 900, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1200, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9b (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9b_H2O2_1_APS_0.05_Fe_0.03wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%) and APS (0.05 wt%) with Fe(NO₃)₃ (0.03 wt%). Data from FIG. 9b.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.03, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1180, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1700, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9b (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9b_H2O2_1_APS_0.05_Fe_0.05wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%) and APS (0.05 wt%) with Fe(NO₃)₃ (0.05 wt%). Data from FIG. 9b.",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1250, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 1950, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9b (inferred)"
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "Example_1_Fig9b_H2O2_1_APS_0.05_Fe_0.1wt%",
+      "experiment_context": "Evaluation of H₂O₂ (1 wt%), APS (0.05 wt%), and Fe(NO₃)₃ (0.1 wt%). Data from FIG. 9b and paragraph [0063].",
+      "slurry_composition": {
+        "abrasive_concentration": {
+          "value": 4,
+          "unit": "weight %",
+          "type": "Colloidal Silica (PL-7)"
+        },
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide (H₂O₂)",
+            "concentration": { "value": 1, "unit": "weight %" }
+          },
+          {
+            "name": "Ammonium Persulfate (APS)",
+            "concentration": { "value": 0.05, "unit": "weight %" }
+          },
+          {
+            "name": "Iron Nitrate (Fe(NO₃)₃)",
+            "concentration": { "value": 0.1, "unit": "weight %" }
+          }
+        ],
+        "ph": { "min": 2, "max": 3, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_rates": [
+          {
+            "material": "W",
+            "rate": { "value": 1350, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "TiN",
+            "rate": { "value": 2000, "unit": "Å/min" },
+            "source_figure": "FIG. 9b"
+          },
+          {
+            "material": "Oxide",
+            "rate": { "value": 550, "unit": "Å/min" },
+            "source_figure": "FIG. 9b (inferred)"
+          }
+        ],
+        "etching_selectivity_calculated": {
+          "W_TiN": "1:1.48 (1350/2000)",
+          "W_Oxide": "2.45:1 (1350/550)"
+        },
+        "etching_selectivity_text_claim": {
+          "TiN_W": "1.8:1",
+          "W_Oxide": "2.1:1",
+          "source_text": "[0063]"
+        },
+        "observations": [
+          "Text [0063] claims TiN-W selectivity of 1.8:1 and W-Oxide of 2.1:1 for this composition."
+        ]
+      }
+    }
+  ],
+  "summary_of_invention_claims": {
+    "target_composition": {
+      "abrasive": "Colloidal silica dispersed in ultra-pure water, 2-4 weight % (Claim 2)",
+      "polishing_chemical": [
+        {
+          "name": "Hydrogen Peroxide",
+          "concentration_range": { "min": 0.5, "max": 2, "unit": "weight %" },
+          "source_claim": "Claim 1"
+        },
+        {
+          "name": "Ammonium Persulfate",
+          "concentration_range": { "min": 0.05, "max": 1, "unit": "weight %" },
+          "source_claim": "Claim 1"
+        },
+        {
+          "name": "Iron Nitrate",
+          "concentration_range": {
+            "min": 0.01,
+            "max": 0.1,
+            "unit": "weight %"
+          },
+          "source_claim": "Claim 1"
+        }
+      ],
+      "ph_range": { "min": 2, "max": 4, "unit": "" },
+      "source_claim": "Claim 5"
+    }
+  }
+}

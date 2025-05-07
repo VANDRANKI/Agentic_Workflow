@@ -1,0 +1,891 @@
+{
+  "doi": "PCT/EP2020/083297",
+  "title": "LIQUID DISPERSION AND POWDER OF CERIUM BASED CORE-SHELL PARTICLES, PROCESS FOR PRODUCING THE SAME AND USES THEREOF IN POLISHING",
+  "year_published": "2023",
+  "journal": "Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "PCT/EP2020/083297_Example_1",
+      "experiment_context": "Particles Core CeO2 (Zenus®, ~60 nm BET size) Shell CeO2. Core particle dispersion at 5 wt% for synthesis. Final core-shell particle dispersion adjusted to 10-15 wt%.",
+      "precursor_chemical": "trivalent cerium nitrate",
+      "precursor_concentration": {
+        "value": "2.87",
+        "unit": "M"
+      },
+      "precipitant_type": "aqueous ammonia",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "35",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": "8",
+        "stirring_speed": {
+          "value": "300",
+          "unit": "rpm"
+        },
+        "environmental_conditions": "oxidizing atmosphere"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, supernatant removal, redispersion in deionized water",
+          "final_conductivity": {
+            "value": "<0.1",
+            "unit": "mS/cm"
+          },
+          "final_ph_after_wash": "~5"
+        },
+        "other_treatments": [
+          {
+            "name": "Deagglomeration",
+            "method": "dual-impact jet homogenizer"
+          }
+        ]
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0-6.1",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "core_material_description": "CeO2 (Zenus®), average primary particle size ~60 nm (calculated from BET measurements)",
+        "shell_material_description": "CeO2",
+        "particle_size_distribution": {
+          "value": "109",
+          "unit": "nm",
+          "std_dev_percent": "15%",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": {
+          "value": "69",
+          "unit": "nm",
+          "measurement_method_used": "XRD"
+        },
+        "crystallinity_phase_composition": null,
+        "specific_surface_area": {
+          "value": "18",
+          "unit": "m²/g",
+          "measurement_method_used": "BET"
+        },
+        "surface_functional_groups": {},
+        "elemental_composition": {},
+        "particle_morphology": "Monodispersed core-shell particles with rough surface. Cerium salt precipitated on Zenus® cerium oxide core particles. (Ref: FIG. 1, FIG. 4)",
+        "additional_characterization": {
+          "dls_hydrodynamic_diameter_Dh": {
+            "value": "169",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": {
+            "value": "89",
+            "unit": "nm"
+          },
+          "laser_diffraction_D50": {
+            "value": "107",
+            "unit": "nm"
+          },
+          "laser_diffraction_D90": {
+            "value": "129",
+            "unit": "nm"
+          },
+          "laser_diffraction_dispersion_index": "0.19",
+          "xrd_analysis_notes": "Diffractogram shows signature of crystallized CeO2 (record ASTM 34-394)."
+        },
+        "core_only_characterization": {
+          "specific_surface_area_bet": {
+            "value": "13.0",
+            "unit": "m²/g"
+          },
+          "average_primary_particle_size_from_bet": {
+            "value": "64",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": {
+            "value": "81",
+            "unit": "nm"
+          },
+          "laser_diffraction_D50": {
+            "value": "99",
+            "unit": "nm"
+          },
+          "laser_diffraction_D90": {
+            "value": "123",
+            "unit": "nm"
+          }
+        },
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "substrate_polished": "amorphous silica",
+        "polishing_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "1.1",
+          "unit": "efficiency ratio",
+          "description": "Efficiency ratio compared to Zenus 60nm reference."
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "50",
+          "unit": "N"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Struers Tegramin",
+        "pad_composition": "neoprene (MD-Chem)",
+        "slurry_flow_rate": {
+          "value": "15",
+          "unit": "mL/min"
+        }
+      },
+      "theoretical_analysis": {}
+    },
+    {
+      "sample_id": "PCT/EP2020/083297_Example_2",
+      "experiment_context": "Particles Core CeO2 (Zenus®, ~60 nm BET size) Shell CeO2:La. Core particle dispersion at 5 wt% for synthesis. Molar ratio La/La+Ce in shell precursor 0.10. Final core-shell particle dispersion adjusted to 10-15 wt%.",
+      "precursor_chemical": "trivalent cerium nitrate, trivalent lanthanum nitrate",
+      "precursor_concentration": {
+        "value": "2.87",
+        "unit": "M"
+      },
+      "precipitant_type": "aqueous ammonia",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "35",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "4",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": "8",
+        "stirring_speed": {
+          "value": "300",
+          "unit": "rpm"
+        },
+        "environmental_conditions": "oxidizing atmosphere"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, supernatant removal, redispersion in deionized water",
+          "final_conductivity": {
+            "value": "<0.1",
+            "unit": "mS/cm"
+          },
+          "final_ph_after_wash": "~5"
+        },
+        "other_treatments": [
+          {
+            "name": "Deagglomeration",
+            "method": "dual-impact jet homogenizer"
+          }
+        ]
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0-6.1",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "core_material_description": "CeO2 (Zenus®), average primary particle size ~60 nm (calculated from BET measurements)",
+        "shell_material_description": "CeO2:La (molar ratio La/La+Ce of 0.10)",
+        "particle_size_distribution": {
+          "value": "109",
+          "unit": "nm",
+          "std_dev_percent": "16%",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": {
+          "value": "68",
+          "unit": "nm",
+          "measurement_method_used": "XRD"
+        },
+        "crystallinity_phase_composition": null,
+        "specific_surface_area": {
+          "value": "16",
+          "unit": "m²/g",
+          "measurement_method_used": "BET"
+        },
+        "surface_functional_groups": {},
+        "elemental_composition": {},
+        "particle_morphology": "Monodispersed core-shell particles with rough surface. Cerium and lanthanum salts precipitated on Zenus® cerium oxide core particles. (Ref: FIG. 3, FIG. 5)",
+        "additional_characterization": {
+          "dls_hydrodynamic_diameter_Dh": {
+            "value": "150",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": {
+            "value": "82",
+            "unit": "nm"
+          },
+          "laser_diffraction_D50": {
+            "value": "99",
+            "unit": "nm"
+          },
+          "laser_diffraction_D90": {
+            "value": "122",
+            "unit": "nm"
+          },
+          "laser_diffraction_dispersion_index": "0.20",
+          "xrd_analysis_notes": "Diffractogram shows signature of crystallized CeO2 (record ASTM 34-394)."
+        },
+        "core_only_characterization": {
+          "specific_surface_area_bet": {
+            "value": "13.0",
+            "unit": "m²/g"
+          },
+          "average_primary_particle_size_from_bet": {
+            "value": "64",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": {
+            "value": "81",
+            "unit": "nm"
+          },
+          "laser_diffraction_D50": {
+            "value": "99",
+            "unit": "nm"
+          },
+          "laser_diffraction_D90": {
+            "value": "123",
+            "unit": "nm"
+          }
+        },
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "substrate_polished": "amorphous silica",
+        "polishing_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "1.3",
+          "unit": "efficiency ratio",
+          "description": "Efficiency ratio compared to Zenus 60nm reference."
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "50",
+          "unit": "N"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Struers Tegramin",
+        "pad_composition": "neoprene (MD-Chem)",
+        "slurry_flow_rate": {
+          "value": "15",
+          "unit": "mL/min"
+        }
+      },
+      "theoretical_analysis": {}
+    },
+    {
+      "sample_id": "PCT/EP2020/083297_Example_3",
+      "experiment_context": "Particles Core CeO2 (Zenus®, ~90 nm BET size) Shell CeO2. Core particle dispersion at 5 wt% for synthesis. Final core-shell particle dispersion adjusted to 10-15 wt%.",
+      "precursor_chemical": "trivalent cerium nitrate",
+      "precursor_concentration": {
+        "value": "2.87",
+        "unit": "M"
+      },
+      "precipitant_type": "aqueous ammonia",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "35",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "6",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": "8",
+        "stirring_speed": {
+          "value": "300",
+          "unit": "rpm"
+        },
+        "environmental_conditions": "oxidizing atmosphere"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, supernatant removal, redispersion in deionized water",
+          "final_conductivity": {
+            "value": "<0.1",
+            "unit": "mS/cm"
+          },
+          "final_ph_after_wash": "~5"
+        },
+        "other_treatments": [
+          {
+            "name": "Deagglomeration",
+            "method": "dual-impact jet homogenizer"
+          }
+        ]
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0-6.1",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "core_material_description": "CeO2 (Zenus®), average primary particle size ~90 nm (calculated from BET measurements)",
+        "shell_material_description": "CeO2",
+        "particle_size_distribution": {
+          "value": "185",
+          "unit": "nm",
+          "std_dev_percent": "18%",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": {
+          "value": "100",
+          "unit": "nm",
+          "measurement_method_used": "XRD"
+        },
+        "crystallinity_phase_composition": null,
+        "specific_surface_area": {
+          "value": "10",
+          "unit": "m²/g",
+          "measurement_method_used": "BET"
+        },
+        "surface_functional_groups": {},
+        "elemental_composition": {},
+        "particle_morphology": "Monodispersed core-shell particles with rough surface. Cerium salt precipitated on Zenus® cerium oxide core particles. (Ref: FIG. 6)",
+        "additional_characterization": {
+          "dls_hydrodynamic_diameter_Dh": {
+            "value": "222",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": {
+            "value": "107",
+            "unit": "nm"
+          },
+          "laser_diffraction_D50": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "laser_diffraction_D90": {
+            "value": "199",
+            "unit": "nm"
+          },
+          "laser_diffraction_dispersion_index": "0.33",
+          "xrd_analysis_notes": "Diffractogram shows signature of crystallized CeO2 (record ASTM 34-394)."
+        },
+        "core_only_characterization": {
+          "specific_surface_area_bet": {
+            "value": "8.0",
+            "unit": "m²/g"
+          },
+          "average_primary_particle_size_from_bet": {
+            "value": "104",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": {
+            "value": "106",
+            "unit": "nm"
+          },
+          "laser_diffraction_D50": {
+            "value": "140",
+            "unit": "nm"
+          },
+          "laser_diffraction_D90": {
+            "value": "200",
+            "unit": "nm"
+          }
+        },
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "substrate_polished": "amorphous silica",
+        "polishing_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "1.1",
+          "unit": "efficiency ratio",
+          "description": "Efficiency ratio compared to Zenus 60nm reference."
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "50",
+          "unit": "N"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Struers Tegramin",
+        "pad_composition": "neoprene (MD-Chem)",
+        "slurry_flow_rate": {
+          "value": "15",
+          "unit": "mL/min"
+        }
+      },
+      "theoretical_analysis": {}
+    },
+    {
+      "sample_id": "PCT/EP2020/083297_Example_4",
+      "experiment_context": "Particles Core CeO2 (Zenus®, ~60 nm BET size) Shell CeO2. Core particle dispersion at 20 wt% for synthesis. Final core-shell particle dispersion adjusted to 10-15 wt%.",
+      "precursor_chemical": "trivalent cerium nitrate",
+      "precursor_concentration": {
+        "value": "2.87",
+        "unit": "M"
+      },
+      "precipitant_type": "aqueous ammonia",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "35",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "22",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": "8",
+        "stirring_speed": {
+          "value": "400",
+          "unit": "rpm"
+        },
+        "environmental_conditions": "oxidizing atmosphere"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, supernatant removal, redispersion in deionized water",
+          "final_conductivity": {
+            "value": "<0.1",
+            "unit": "mS/cm"
+          },
+          "final_ph_after_wash": "~5"
+        },
+        "other_treatments": [
+          {
+            "name": "Deagglomeration",
+            "method": "dual-impact jet homogenizer"
+          }
+        ]
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0-6.1",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "core_material_description": "CeO2 (Zenus®), average primary particle size ~60 nm (calculated from BET measurements)",
+        "shell_material_description": "CeO2",
+        "particle_size_distribution": {
+          "value": "109",
+          "unit": "nm",
+          "std_dev_percent": "15%",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": {
+          "value": "71",
+          "unit": "nm",
+          "measurement_method_used": "XRD"
+        },
+        "crystallinity_phase_composition": null,
+        "specific_surface_area": {
+          "value": "21",
+          "unit": "m²/g",
+          "measurement_method_used": "BET"
+        },
+        "surface_functional_groups": {},
+        "elemental_composition": {},
+        "particle_morphology": "Monodispersed core-shell particles with rough surface. Cerium salt precipitated on Zenus® cerium oxide core particles. (Ref: FIG. 3, FIG. 7)",
+        "additional_characterization": {
+          "dls_hydrodynamic_diameter_Dh": {
+            "value": "159",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": {
+            "value": "96",
+            "unit": "nm"
+          },
+          "laser_diffraction_D50": {
+            "value": "114",
+            "unit": "nm"
+          },
+          "laser_diffraction_D90": {
+            "value": "144",
+            "unit": "nm"
+          },
+          "laser_diffraction_dispersion_index": "0.21",
+          "xrd_analysis_notes": "Diffractogram shows signature of crystallized CeO2 (record ASTM 34-394)."
+        },
+        "core_only_characterization": {
+          "specific_surface_area_bet": {
+            "value": "13",
+            "unit": "m²/g"
+          },
+          "average_primary_particle_size_from_bet": {
+            "value": "64",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": {
+            "value": "81",
+            "unit": "nm"
+          },
+          "laser_diffraction_D50": {
+            "value": "99",
+            "unit": "nm"
+          },
+          "laser_diffraction_D90": {
+            "value": "123",
+            "unit": "nm"
+          }
+        },
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "substrate_polished": "amorphous silica",
+        "polishing_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "1.1",
+          "unit": "efficiency ratio",
+          "description": "Efficiency ratio compared to Zenus 60nm reference."
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "50",
+          "unit": "N"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Struers Tegramin",
+        "pad_composition": "neoprene (MD-Chem)",
+        "slurry_flow_rate": {
+          "value": "15",
+          "unit": "mL/min"
+        }
+      },
+      "theoretical_analysis": {}
+    },
+    {
+      "sample_id": "PCT/EP2020/083297_Example_5",
+      "experiment_context": "Particles Core CeO2:La (~212 nm TEM size, La/La+Ce 0.025) Shell CeO2. Core particle dispersion at 20 wt% for synthesis. Final core-shell particle dispersion adjusted to 10-15 wt%.",
+      "precursor_chemical": "trivalent cerium nitrate",
+      "precursor_concentration": {
+        "value": "2.87",
+        "unit": "M"
+      },
+      "precipitant_type": "aqueous ammonia",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "35",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "3",
+        "unit": "h"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": "8",
+        "stirring_speed": {
+          "value": "300",
+          "unit": "rpm"
+        },
+        "environmental_conditions": "oxidizing atmosphere"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, supernatant removal, redispersion in deionized water",
+          "final_conductivity": {
+            "value": "<0.1",
+            "unit": "mS/cm"
+          },
+          "final_ph_after_wash": "~5"
+        },
+        "other_treatments": [
+          {
+            "name": "Deagglomeration",
+            "method": "dual-impact jet homogenizer"
+          }
+        ]
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0-6.1",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "core_material_description": "CeO2:La (average primary particle size ~212 nm from TEM, La/La+Ce molar ratio of 0.025, synthesized according to WO 2018/229005 example 1)",
+        "shell_material_description": "CeO2",
+        "particle_size_distribution": {
+          "value": "131",
+          "unit": "nm",
+          "std_dev_percent": "22.1%",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "specific_surface_area": {
+          "value": "17",
+          "unit": "m²/g",
+          "measurement_method_used": "BET"
+        },
+        "surface_functional_groups": {},
+        "elemental_composition": {},
+        "particle_morphology": "Monodispersed core-shell particles with rough surface. Cerium salt precipitated on lanthanum-doped cerium oxide core particles. (Ref: FIG. 9)",
+        "additional_characterization": {
+          "dls_hydrodynamic_diameter_Dh": {
+            "value": "197",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": null,
+          "laser_diffraction_D50": null,
+          "laser_diffraction_D90": null,
+          "laser_diffraction_dispersion_index": null,
+          "xrd_analysis_notes": null
+        },
+        "core_only_characterization": {
+          "specific_surface_area_bet": {
+            "value": "11",
+            "unit": "m²/g"
+          },
+          "average_primary_particle_size_from_bet": {
+            "value": "75",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": null,
+          "laser_diffraction_D50": null,
+          "laser_diffraction_D90": null
+        },
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "substrate_polished": "amorphous silica",
+        "polishing_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "1.6",
+          "unit": "efficiency ratio",
+          "description": "Efficiency ratio compared to Zenus 60nm reference."
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "50",
+          "unit": "N"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Struers Tegramin",
+        "pad_composition": "neoprene (MD-Chem)",
+        "slurry_flow_rate": {
+          "value": "15",
+          "unit": "mL/min"
+        }
+      },
+      "theoretical_analysis": {}
+    },
+    {
+      "sample_id": "PCT/EP2020/083297_Example_6",
+      "experiment_context": "Particles Core CeO2 (~35 nm TEM size, Solvay) Shell CeO2. Core particle dispersion at 20 wt% for synthesis. Final core-shell particle dispersion adjusted to 10 wt%.",
+      "precursor_chemical": "trivalent cerium nitrate",
+      "precursor_concentration": {
+        "value": "2.87",
+        "unit": "M"
+      },
+      "precipitant_type": "aqueous ammonia (4.5%)",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "35",
+        "unit": "°C"
+      },
+      "reaction_time": {
+        "value": "100",
+        "unit": "min"
+      },
+      "synthesis_conditions": {
+        "ph_during_reaction": "8",
+        "stirring_speed": {
+          "value": "400",
+          "unit": "rpm"
+        },
+        "environmental_conditions": "oxidizing atmosphere"
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": "Centrifugation, supernatant removal, redispersion in deionized water",
+          "final_conductivity": {
+            "value": "<0.1",
+            "unit": "mS/cm"
+          },
+          "final_ph_after_wash": "~5"
+        },
+        "other_treatments": [
+          {
+            "name": "Deagglomeration",
+            "method": "dual-impact jet homogenizer"
+          }
+        ]
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "1",
+          "unit": "wt%"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.0-6.1",
+        "solvent": {
+          "name": "deionized water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      },
+      "characterization": {
+        "core_material_description": "CeO2 (commercially available from Solvay), average primary particle size ~35 nm (from TEM images)",
+        "shell_material_description": "CeO2",
+        "particle_size_distribution": {
+          "value": "43",
+          "unit": "nm",
+          "std_dev_percent": "20.9%",
+          "measurement_method_used": "TEM"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "specific_surface_area": {
+          "value": "40",
+          "unit": "m²/g",
+          "measurement_method_used": "BET"
+        },
+        "surface_functional_groups": {},
+        "elemental_composition": {},
+        "particle_morphology": "Monodispersed core-shell particles with rough surface. Cerium salt precipitated on cerium oxide core particles. (Ref: FIG. 10)",
+        "additional_characterization": {
+          "dls_hydrodynamic_diameter_Dh": {
+            "value": "95",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": {
+            "value": "67",
+            "unit": "nm"
+          },
+          "laser_diffraction_D50": {
+            "value": "81",
+            "unit": "nm"
+          },
+          "laser_diffraction_D90": {
+            "value": "95",
+            "unit": "nm"
+          },
+          "laser_diffraction_dispersion_index": "0.17",
+          "xrd_analysis_notes": null
+        },
+        "core_only_characterization": {
+          "specific_surface_area_bet": {
+            "value": "28",
+            "unit": "m²/g"
+          },
+          "average_primary_particle_size_from_bet": {
+            "value": "30",
+            "unit": "nm"
+          },
+          "laser_diffraction_D10": null,
+          "laser_diffraction_D50": null,
+          "laser_diffraction_D90": null
+        },
+        "xrd_peaks": []
+      },
+      "cmp_performance": {
+        "substrate_polished": "amorphous silica",
+        "polishing_time": {
+          "value": "10",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "efficiency ratio",
+          "description": "Efficiency ratio compared to Zenus 60nm reference. (Value N/A in Table 1 for Ex. 6)"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "50",
+          "unit": "N"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Struers Tegramin",
+        "pad_composition": "neoprene (MD-Chem)",
+        "slurry_flow_rate": {
+          "value": "15",
+          "unit": "mL/min"
+        }
+      },
+      "theoretical_analysis": {}
+    }
+  ]
+}

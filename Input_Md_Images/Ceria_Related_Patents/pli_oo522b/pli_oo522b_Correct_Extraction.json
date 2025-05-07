@@ -1,0 +1,1226 @@
+{
+  "doi": "US 2023/0041600 A1",
+  "title": "CERIUM BASED PARTICLES, PROCESS FOR PRODUCING THE SAME AND USES THEREOF IN POLISHING",
+  "year_published": "2023",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "US20230041600A1_Ex1",
+      "experiment_context": "Synthesis of pure cerium oxide particles with protrusions. Corresponds to Example 1 in patent US 2023/0041600 A1.",
+      "abrasive_synthesis": {
+        "description": "Synthesis of cerium oxide particles with controlled surface morphology via precipitation and thermal treatment.",
+        "precursors": [
+          {
+            "material_name": "trivalent cerium nitrate solution",
+            "formula": "Ce(NO₃)₃",
+            "source_type": "2.9 mol/L",
+            "purity": "",
+            "quantity": {
+              "value": "13.8",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "nitric acid",
+            "formula": "HNO₃",
+            "source_type": "68 wt%",
+            "purity": "",
+            "quantity": {
+              "value": "4.2",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "deionized water (for cerium solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.5",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "ammonia water",
+            "formula": "NH₄OH",
+            "source_type": "14.3 mol/L",
+            "purity": "",
+            "quantity": {
+              "value": "8.8",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "deionized water (for ammonia solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "79",
+              "unit": "kg"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Precipitation reaction. Molar ratio (NH₄OH/total Ce) - (NO₃⁻/CeIII) = 1.1. CeIV/total Ce molar ratio = 0.",
+            "solvents": [
+              {
+                "name": "deionized water",
+                "quantity": {
+                  "value": null,
+                  "unit": ""
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "ammonia water",
+                "concentration": {
+                  "value": "14.3",
+                  "unit": "mol/L"
+                }
+              }
+            ],
+            "synthesis_additives": [],
+            "key_molar_ratio_difference": {
+                "value": "1.1",
+                "description": "(NH₄OH/total Ce) - (NO₃⁻/CeIII)"
+            },
+            "CeIV_total_Ce_ratio": {
+                "value": "0",
+                "unit": "molar ratio"
+            }
+          },
+          "physical": {
+            "description": "Controlled precipitation under N₂ atmosphere initially, followed by thermal treatment.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_description": "Mixing cerium nitrate solution with ammonia solution at ambient temperature under N₂ bubbling.",
+                "value": "ambient",
+                "unit": "temperature",
+                "duration": {
+                  "value": "30",
+                  "unit": "min"
+                }
+              },
+              {
+                "stage": 2,
+                "process_description": "Heating reaction mixture up to 67°C.",
+                "value": "67",
+                "unit": "°C",
+                "duration": {
+                  "value": "1",
+                  "unit": "hour"
+                }
+              },
+              {
+                "stage": 3,
+                "process_description": "Aging at 67°C without N₂ bubbling.",
+                "value": "67",
+                "unit": "°C",
+                "duration": {
+                  "value": "6.5",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Cooling, acidification, washing, and deagglomeration.",
+          "collection": {
+            "method": "Filtration and washing",
+            "parameters": {
+              "wash_medium": "deionized water",
+              "conductivity_threshold": {
+                "value": "<0.05",
+                "unit": "mS/cm"
+              },
+              "cycles": "Repeated until conductivity threshold met"
+            }
+          },
+          "treatment": {
+            "acidification": {
+              "agent": "68 wt% HNO₃",
+              "target_ph": {
+                "value": "2",
+                "unit": ""
+              }
+            },
+            "deagglomeration": {
+              "method": "double impact jet treatment"
+            },
+            "drying_for_powder_characterization": {
+              "temperature": {
+                "value": "200",
+                "unit": "°C"
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Aqueous dispersion prepared for CMP testing.",
+        "composition": {
+          "abrasive": {
+            "material": "CeO₂ particles from Example 1",
+            "concentration": {
+              "initial": null,
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "deionized water",
+            "percentage": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted for CMP.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": "6",
+              "max": "6.1"
+            },
+            "agents": [
+              {
+                "name": "diluted NH₄OH",
+                "concentration": {
+                  "value": null,
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of synthesized CeO₂ particles from Example 1.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": null,
+              "max": "54",
+              "unit": "nm"
+            },
+            "measurement_method": "SEM"
+          },
+          "shape": "Polyhedral (truncated octahedron)",
+          "surface_area": {
+            "value": "23.1",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+          "protrusions_present": true
+        },
+        "particle_size_distribution_dls": {
+          "hydrodynamic_mean_diameter_Dh": {
+            "value": "204",
+            "unit": "nm"
+          }
+        },
+        "particle_size_distribution_laser": {
+          "D10": { "value": "106", "unit": "nm" },
+          "D50": { "value": "146", "unit": "nm" },
+          "D90": { "value": "226", "unit": "nm" },
+          "D99": { "value": "367", "unit": "nm" },
+          "dispersion_index": { "value": "0.41", "unit": "" }
+        },
+        "stability": {
+            "conductivity_after_wash": {
+                "value": "<0.05",
+                "unit": "mS/cm"
+            }
+        }
+      },
+      "cmp_performance": {
+        "description": "CMP performance on amorphous silica substrate.",
+        "material_polished": "amorphous silica",
+        "polishing_time": { "value": "10", "unit": "min" },
+        "material_removal_rate": { "value": "324", "unit": "nm/min" },
+        "removal_rate_per_sem_size": { "value": "6.0", "unit": "1/min" },
+        "polishing_pressure_on_head": { "value": "50", "unit": "N" },
+        "rotation_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "15", "unit": "mL/min" },
+        "pad_type": "neoprene (MD-Chem)",
+        "equipment_model": "Struers Tegramin",
+        "slurry_concentration_cmp": { "value": "1", "unit": "wt%" },
+        "slurry_ph_cmp": { "min": "6", "max": "6.1" }
+      }
+    },
+    {
+      "sample_id": "US20230041600A1_Ex2",
+      "experiment_context": "Synthesis of pure cerium oxide particles with protrusions. Higher HNO₃ concentration compared to Ex1. Corresponds to Example 2 in patent US 2023/0041600 A1.",
+      "abrasive_synthesis": {
+        "description": "Synthesis of cerium oxide particles with controlled surface morphology via precipitation and thermal treatment.",
+        "precursors": [
+          {
+            "material_name": "trivalent cerium nitrate solution",
+            "formula": "Ce(NO₃)₃",
+            "source_type": "2.9 mol/L",
+            "purity": "",
+            "quantity": {
+              "value": "13.6",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "nitric acid",
+            "formula": "HNO₃",
+            "source_type": "68 wt%",
+            "purity": "",
+            "quantity": {
+              "value": "8.4",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "deionized water (for cerium solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.2",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "ammonia water",
+            "formula": "NH₄OH",
+            "source_type": "14.4 mol/L",
+            "purity": "",
+            "quantity": {
+              "value": "11.6",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "deionized water (for ammonia solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "73",
+              "unit": "kg"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Precipitation reaction. Molar ratio (NH₄OH/total Ce) - (NO₃⁻/CeIII) = 1.1. CeIV/total Ce molar ratio = 0.",
+            "solvents": [
+              {
+                "name": "deionized water",
+                "quantity": {
+                  "value": null,
+                  "unit": ""
+                }
+              }
+            ],
+            "ph_agents": [
+              {
+                "name": "ammonia water",
+                "concentration": {
+                  "value": "14.4",
+                  "unit": "mol/L"
+                }
+              }
+            ],
+            "synthesis_additives": [],
+            "key_molar_ratio_difference": {
+                "value": "1.1",
+                "description": "(NH₄OH/total Ce) - (NO₃⁻/CeIII)"
+            },
+            "CeIV_total_Ce_ratio": {
+                "value": "0",
+                "unit": "molar ratio"
+            }
+          },
+          "physical": {
+            "description": "Controlled precipitation under N₂ atmosphere initially, followed by thermal treatment.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_description": "Mixing cerium nitrate solution with ammonia solution at ambient temperature under N₂ bubbling.",
+                "value": "ambient",
+                "unit": "temperature",
+                "duration": {
+                  "value": "30",
+                  "unit": "min"
+                }
+              },
+              {
+                "stage": 2,
+                "process_description": "Heating reaction mixture up to 67°C.",
+                "value": "67",
+                "unit": "°C",
+                "duration": {
+                  "value": "1",
+                  "unit": "hour"
+                }
+              },
+              {
+                "stage": 3,
+                "process_description": "Aging at 67°C without N₂ bubbling.",
+                "value": "67",
+                "unit": "°C",
+                "duration": {
+                  "value": "4.5",
+                  "unit": "hours"
+                }
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Cooling, acidification, washing, and deagglomeration.",
+          "collection": {
+            "method": "Filtration and washing",
+            "parameters": {
+                "wash_medium": "deionized water",
+                "conductivity_threshold": {
+                    "value": "<0.05",
+                    "unit": "mS/cm"
+                },
+                "cycles": "Repeated until conductivity threshold met"
+            }
+          },
+          "treatment": {
+            "acidification": {
+              "agent": "68 wt% HNO₃",
+              "target_ph": {
+                "value": "2",
+                "unit": ""
+              }
+            },
+            "deagglomeration": {
+              "method": "double impact jet treatment"
+            },
+            "drying_for_powder_characterization": {
+              "temperature": {
+                "value": "200",
+                "unit": "°C"
+              }
+            }
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Aqueous dispersion prepared for CMP testing.",
+        "composition": {
+          "abrasive": {
+            "material": "CeO₂ particles from Example 2",
+            "concentration": {
+              "initial": null,
+              "final": "1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [],
+          "solvent": {
+            "name": "deionized water",
+            "percentage": {
+              "value": null,
+              "unit": ""
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted for CMP.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": "6",
+              "max": "6.1"
+            },
+            "agents": [
+              {
+                "name": "diluted NH₄OH",
+                "concentration": {
+                  "value": null,
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization": {
+        "description": "Characterization of synthesized CeO₂ particles from Example 2.",
+        "morphology": {
+          "particle_size": {
+            "average": {
+              "min": null,
+              "max": "60",
+              "unit": "nm"
+            },
+            "measurement_method": "SEM"
+          },
+          "shape": "Polyhedral",
+          "surface_area": {
+            "value": "41.2",
+            "unit": "m²/g",
+            "method": "BET"
+          },
+          "protrusions_present": true 
+        },
+        "particle_size_distribution_dls": {
+          "hydrodynamic_mean_diameter_Dh": {
+            "value": "92",
+            "unit": "nm"
+          }
+        },
+        "particle_size_distribution_laser": {
+          "D10": { "value": "67", "unit": "nm" },
+          "D50": { "value": "81", "unit": "nm" },
+          "D90": { "value": "96", "unit": "nm" },
+          "D99": { "value": null, "unit": "nm" }, 
+          "dispersion_index": { "value": "0.18", "unit": "" }
+        },
+        "stability": {
+            "conductivity_after_wash": {
+                "value": "<0.05",
+                "unit": "mS/cm"
+            }
+        }
+      },
+      "cmp_performance": {
+        "description": "CMP performance on amorphous silica substrate. (RR data not explicitly in Table 1 for Ex2, but implied to be tested).",
+        "material_polished": "amorphous silica",
+        "polishing_time": { "value": "10", "unit": "min" },
+        "material_removal_rate": { "value": null, "unit": "nm/min" }, 
+        "removal_rate_per_sem_size": { "value": null, "unit": "1/min" },
+        "polishing_pressure_on_head": { "value": "50", "unit": "N" },
+        "rotation_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "15", "unit": "mL/min" },
+        "pad_type": "neoprene (MD-Chem)",
+        "equipment_model": "Struers Tegramin",
+        "slurry_concentration_cmp": { "value": "1", "unit": "wt%" },
+        "slurry_ph_cmp": { "min": "6", "max": "6.1" }
+      }
+    },
+    {
+      "sample_id": "US20230041600A1_Ex3",
+      "experiment_context": "Synthesis of pure cerium oxide particles with protrusions. Different molar ratio difference. Corresponds to Example 3 in patent US 2023/0041600 A1.",
+      "abrasive_synthesis": {
+        "description": "Synthesis of cerium oxide particles with controlled surface morphology via precipitation and thermal treatment.",
+        "precursors": [
+          {
+            "material_name": "trivalent cerium nitrate solution",
+            "formula": "Ce(NO₃)₃",
+            "source_type": "3.0 mol/L",
+            "purity": "",
+            "quantity": {
+              "value": "13.6",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "nitric acid",
+            "formula": "HNO₃",
+            "source_type": "68 wt%",
+            "purity": "",
+            "quantity": {
+              "value": "2.1",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "deionized water (for cerium solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "0.7",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "ammonia water",
+            "formula": "NH₄OH",
+            "source_type": "14.4 mol/L",
+            "purity": "",
+            "quantity": {
+              "value": "7.3",
+              "unit": "kg"
+            }
+          },
+          {
+            "material_name": "deionized water (for ammonia solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": {
+              "value": "82",
+              "unit": "kg"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Precipitation reaction. Molar ratio (NH₄OH/total Ce) - (NO₃⁻/CeIII) = 1.0. CeIV/total Ce molar ratio = 0.",
+            "solvents": [{"name": "deionized water", "quantity": {"value": null, "unit": ""}}],
+            "ph_agents": [{"name": "ammonia water", "concentration": {"value": "14.4", "unit": "mol/L"}}],
+            "synthesis_additives": [],
+            "key_molar_ratio_difference": {
+                "value": "1.0",
+                "description": "(NH₄OH/total Ce) - (NO₃⁻/CeIII)"
+            },
+            "CeIV_total_Ce_ratio": {
+                "value": "0",
+                "unit": "molar ratio"
+            }
+          },
+          "physical": {
+            "description": "Controlled precipitation under N₂ atmosphere initially, followed by thermal treatment.",
+            "process_stages": [
+              {"stage": 1, "process_description": "Mixing cerium nitrate solution with ammonia solution at ambient temperature under N₂ bubbling.", "value": "ambient", "unit": "temperature", "duration": {"value": "30", "unit": "min"}},
+              {"stage": 2, "process_description": "Heating reaction mixture up to 67°C.", "value": "67", "unit": "°C", "duration": {"value": "1", "unit": "hour"}},
+              {"stage": 3, "process_description": "Aging at 67°C without N₂ bubbling.", "value": "67", "unit": "°C", "duration": {"value": "10", "unit": "hours"}}
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Cooling, acidification, washing, and deagglomeration.",
+          "collection": {"method": "Filtration and washing", "parameters": {"wash_medium": "deionized water", "conductivity_threshold": {"value": "<0.05", "unit": "mS/cm"}, "cycles": "Repeated until conductivity threshold met"}},
+          "treatment": {
+            "acidification": {"agent": "68 wt% HNO₃", "target_ph": {"value": "2", "unit": ""}},
+            "deagglomeration": {"method": "double impact jet treatment"},
+            "drying_for_powder_characterization": {"temperature": {"value": "200", "unit": "°C"}}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Aqueous dispersion prepared for CMP testing.",
+        "composition": {
+          "abrasive": {"material": "CeO₂ particles from Example 3", "concentration": {"initial": null, "final": "1", "unit": "wt%"}},
+          "slurry_additives": [],
+          "solvent": {"name": "deionized water", "percentage": {"value": null, "unit": ""}}
+        },
+        "processing": {
+          "description": "pH adjusted for CMP.",
+          "dispersion": [], "stabilization": {},
+          "ph_control": {"target": {"min": "6", "max": "6.1"}, "agents": [{"name": "diluted NH₄OH", "concentration": {"value": null, "unit": ""}}]}
+        }
+      },
+      "characterization": {
+        "description": "Characterization of synthesized CeO₂ particles from Example 3.",
+        "morphology": {
+          "particle_size": {"average": {"min": null, "max": "79", "unit": "nm"}, "measurement_method": "SEM"},
+          "shape": "Polyhedral", 
+          "surface_area": {"value": "23.1", "unit": "m²/g", "method": "BET"},
+          "protrusions_present": true 
+        },
+        "particle_size_distribution_dls": {"hydrodynamic_mean_diameter_Dh": {"value": "139", "unit": "nm"}},
+        "particle_size_distribution_laser": {
+          "D10": { "value": "79", "unit": "nm" }, "D50": { "value": "96", "unit": "nm" }, "D90": { "value": "123", "unit": "nm" }, "D99": { "value": "155", "unit": "nm" },
+          "dispersion_index": { "value": "0.23", "unit": "" }
+        },
+        "stability": {"conductivity_after_wash": {"value": "<0.05", "unit": "mS/cm"}}
+      },
+      "cmp_performance": {
+        "description": "CMP performance on amorphous silica substrate. (RR data NA in Table 1 for Ex3).",
+        "material_polished": "amorphous silica",
+        "polishing_time": { "value": "10", "unit": "min" },
+        "material_removal_rate": { "value": null, "unit": "nm/min" }, 
+        "removal_rate_per_sem_size": { "value": null, "unit": "1/min" },
+        "polishing_pressure_on_head": { "value": "50", "unit": "N" },
+        "rotation_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "15", "unit": "mL/min" },
+        "pad_type": "neoprene (MD-Chem)",
+        "equipment_model": "Struers Tegramin",
+        "slurry_concentration_cmp": { "value": "1", "unit": "wt%" },
+        "slurry_ph_cmp": { "min": "6", "max": "6.1" }
+      }
+    },
+    {
+      "sample_id": "US20230041600A1_Ex4",
+      "experiment_context": "Synthesis of pure cerium oxide particles with protrusions, with trace CeIV. Corresponds to Example 4 in patent US 2023/0041600 A1.",
+      "abrasive_synthesis": {
+        "description": "Synthesis of cerium oxide particles with controlled surface morphology via precipitation and thermal treatment, with initial CeIV addition.",
+        "precursors": [
+          {
+            "material_name": "tetravalent cerium nitrate solution",
+            "formula": "Ce(NO₃)₄",
+            "source_type": "1.5 mol/L",
+            "purity": "",
+            "quantity": { "value": "8", "unit": "g" } 
+          },
+          {
+            "material_name": "trivalent cerium nitrate solution",
+            "formula": "Ce(NO₃)₃",
+            "source_type": "2.9 mol/L",
+            "purity": "",
+            "quantity": { "value": "13.8", "unit": "kg" }
+          },
+          {
+            "material_name": "nitric acid",
+            "formula": "HNO₃",
+            "source_type": "68 wt%",
+            "purity": "",
+            "quantity": { "value": "4.2", "unit": "kg" }
+          },
+          {
+            "material_name": "deionized water (for cerium solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": { "value": "0.6", "unit": "kg" }
+          },
+          {
+            "material_name": "ammonia water",
+            "formula": "NH₄OH",
+            "source_type": "14.4 mol/L",
+            "purity": "",
+            "quantity": { "value": "8.7", "unit": "kg" }
+          },
+          {
+            "material_name": "deionized water (for ammonia solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": { "value": "79", "unit": "kg" }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Precipitation reaction. Molar ratio (NH₄OH/total Ce) - (NO₃⁻/CeIII) = 1.1. CeIV/total Ce molar ratio = 1/3000.",
+            "solvents": [{"name": "deionized water", "quantity": {"value": null, "unit": ""}}],
+            "ph_agents": [{"name": "ammonia water", "concentration": {"value": "14.4", "unit": "mol/L"}}],
+            "synthesis_additives": [],
+            "key_molar_ratio_difference": {
+                "value": "1.1",
+                "description": "(NH₄OH/total Ce) - (NO₃⁻/CeIII)"
+            },
+            "CeIV_total_Ce_ratio": {
+                "value": "1/3000",
+                "unit": "molar ratio"
+            }
+          },
+          "physical": {
+            "description": "Controlled precipitation under N₂ atmosphere initially, followed by thermal treatment.",
+            "process_stages": [
+              {"stage": 1, "process_description": "Mixing cerium nitrate solution with ammonia solution at ambient temperature under N₂ bubbling.", "value": "ambient", "unit": "temperature", "duration": {"value": "30", "unit": "min"}},
+              {"stage": 2, "process_description": "Heating reaction mixture up to 67°C.", "value": "67", "unit": "°C", "duration": {"value": "1", "unit": "hour"}},
+              {"stage": 3, "process_description": "Aging at 67°C without N₂ bubbling.", "value": "67", "unit": "°C", "duration": {"value": "3.5", "unit": "hours"}}
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Cooling, acidification, washing, and deagglomeration.",
+          "collection": {"method": "Filtration and washing", "parameters": {"wash_medium": "deionized water", "conductivity_threshold": {"value": "<0.05", "unit": "mS/cm"}, "cycles": "Repeated until conductivity threshold met"}},
+          "treatment": {
+            "acidification": {"agent": "68 wt% HNO₃", "target_ph": {"value": "2", "unit": ""}},
+            "deagglomeration": {"method": "double impact jet treatment"},
+            "drying_for_powder_characterization": {"temperature": {"value": "200", "unit": "°C"}}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Aqueous dispersion prepared for CMP testing.",
+        "composition": {
+          "abrasive": {"material": "CeO₂ particles from Example 4", "concentration": {"initial": null, "final": "1", "unit": "wt%"}},
+          "slurry_additives": [],
+          "solvent": {"name": "deionized water", "percentage": {"value": null, "unit": ""}}
+        },
+        "processing": {
+          "description": "pH adjusted for CMP.",
+          "dispersion": [], "stabilization": {},
+          "ph_control": {"target": {"min": "6", "max": "6.1"}, "agents": [{"name": "diluted NH₄OH", "concentration": {"value": null, "unit": ""}}]}
+        }
+      },
+      "characterization": {
+        "description": "Characterization of synthesized CeO₂ particles from Example 4.",
+        "morphology": {
+          "particle_size": {"average": {"min": null, "max": "58", "unit": "nm"}, "measurement_method": "SEM"},
+          "shape": "Polyhedral", 
+          "surface_area": {"value": "27.5", "unit": "m²/g", "method": "BET"},
+          "protrusions_present": true 
+        },
+        "particle_size_distribution_dls": {"hydrodynamic_mean_diameter_Dh": {"value": "105", "unit": "nm"}},
+        "particle_size_distribution_laser": {
+          "D10": { "value": "68", "unit": "nm" }, "D50": { "value": "84", "unit": "nm" }, "D90": { "value": "97", "unit": "nm" }, "D99": { "value": "110", "unit": "nm" },
+          "dispersion_index": { "value": "0.17", "unit": "" }
+        },
+        "stability": {"conductivity_after_wash": {"value": "<0.05", "unit": "mS/cm"}}
+      },
+      "cmp_performance": {
+        "description": "CMP performance on amorphous silica substrate. (RR data NA in Table 1 for Ex4).",
+        "material_polished": "amorphous silica",
+        "polishing_time": { "value": "10", "unit": "min" },
+        "material_removal_rate": { "value": null, "unit": "nm/min" }, 
+        "removal_rate_per_sem_size": { "value": null, "unit": "1/min" },
+        "polishing_pressure_on_head": { "value": "50", "unit": "N" },
+        "rotation_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "15", "unit": "mL/min" },
+        "pad_type": "neoprene (MD-Chem)",
+        "equipment_model": "Struers Tegramin",
+        "slurry_concentration_cmp": { "value": "1", "unit": "wt%" },
+        "slurry_ph_cmp": { "min": "6", "max": "6.1" }
+      }
+    },
+    {
+      "sample_id": "US20230041600A1_Ex5",
+      "experiment_context": "Synthesis of pure cerium oxide particles with protrusions at 70°C. Corresponds to Example 5 in patent US 2023/0041600 A1.",
+      "abrasive_synthesis": {
+        "description": "Synthesis of cerium oxide particles with controlled surface morphology via precipitation and thermal treatment.",
+        "precursors": [
+          {
+            "material_name": "trivalent cerium nitrate solution",
+            "formula": "Ce(NO₃)₃",
+            "source_type": "2.9 mol/L",
+            "purity": "",
+            "quantity": { "value": "13.7", "unit": "kg" }
+          },
+          {
+            "material_name": "nitric acid",
+            "formula": "HNO₃",
+            "source_type": "68 wt%",
+            "purity": "",
+            "quantity": { "value": "3.1", "unit": "kg" }
+          },
+          {
+            "material_name": "deionized water (for cerium solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": { "value": "0.8", "unit": "kg" }
+          },
+          {
+            "material_name": "ammonia water",
+            "formula": "NH₄OH",
+            "source_type": "14.4 mol/L",
+            "purity": "",
+            "quantity": { "value": "8.8", "unit": "kg" }
+          },
+          {
+            "material_name": "deionized water (for ammonia solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": { "value": "79", "unit": "kg" }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Precipitation reaction. Molar ratio (NH₄OH/total Ce) - (NO₃⁻/CeIII) = 1.6. CeIV/total Ce molar ratio = 0.",
+            "solvents": [{"name": "deionized water", "quantity": {"value": null, "unit": ""}}],
+            "ph_agents": [{"name": "ammonia water", "concentration": {"value": "14.4", "unit": "mol/L"}}],
+            "synthesis_additives": [],
+            "key_molar_ratio_difference": {
+                "value": "1.6",
+                "description": "(NH₄OH/total Ce) - (NO₃⁻/CeIII)"
+            },
+            "CeIV_total_Ce_ratio": {
+                "value": "0",
+                "unit": "molar ratio"
+            }
+          },
+          "physical": {
+            "description": "Controlled precipitation under N₂ atmosphere initially, followed by thermal treatment.",
+            "process_stages": [
+              {"stage": 1, "process_description": "Mixing cerium nitrate solution with ammonia solution at ambient temperature under N₂ bubbling.", "value": "ambient", "unit": "temperature", "duration": {"value": "30", "unit": "min"}},
+              {"stage": 2, "process_description": "Heating reaction mixture up to 70°C.", "value": "70", "unit": "°C", "duration": {"value": "1", "unit": "hour"}},
+              {"stage": 3, "process_description": "Aging at 70°C without N₂ bubbling.", "value": "70", "unit": "°C", "duration": {"value": "10", "unit": "hours"}}
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Cooling, acidification, washing, and deagglomeration.",
+          "collection": {"method": "Filtration and washing", "parameters": {"wash_medium": "deionized water", "conductivity_threshold": {"value": "<0.05", "unit": "mS/cm"}, "cycles": "Repeated until conductivity threshold met"}},
+          "treatment": {
+            "acidification": {"agent": "68 wt% HNO₃", "target_ph": {"value": "2", "unit": ""}},
+            "deagglomeration": {"method": "double impact jet treatment"},
+            "drying_for_powder_characterization": {"temperature": {"value": "200", "unit": "°C"}}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Aqueous dispersion prepared for CMP testing.",
+        "composition": {
+          "abrasive": {"material": "CeO₂ particles from Example 5", "concentration": {"initial": null, "final": "1", "unit": "wt%"}},
+          "slurry_additives": [],
+          "solvent": {"name": "deionized water", "percentage": {"value": null, "unit": ""}}
+        },
+        "processing": {
+          "description": "pH adjusted for CMP.",
+          "dispersion": [], "stabilization": {},
+          "ph_control": {"target": {"min": "6", "max": "6.1"}, "agents": [{"name": "diluted NH₄OH", "concentration": {"value": null, "unit": ""}}]}
+        }
+      },
+      "characterization": {
+        "description": "Characterization of synthesized CeO₂ particles from Example 5.",
+        "morphology": {
+          "particle_size": {"average": {"min": null, "max": "99", "unit": "nm"}, "measurement_method": "SEM"},
+          "shape": "Polyhedral (cube)", 
+          "surface_area": {"value": "19.3", "unit": "m²/g", "method": "BET"},
+          "protrusions_present": true 
+        },
+        "particle_size_distribution_dls": {"hydrodynamic_mean_diameter_Dh": {"value": "152", "unit": "nm"}},
+        "particle_size_distribution_laser": {
+          "D10": { "value": "93", "unit": "nm" }, "D50": { "value": "116", "unit": "nm" }, "D90": { "value": "152", "unit": "nm" }, "D99": { "value": "204", "unit": "nm" },
+          "dispersion_index": { "value": "0.25", "unit": "" }
+        },
+        "stability": {"conductivity_after_wash": {"value": "<0.05", "unit": "mS/cm"}}
+      },
+      "cmp_performance": {
+        "description": "CMP performance on amorphous silica substrate.",
+        "material_polished": "amorphous silica",
+        "polishing_time": { "value": "10", "unit": "min" },
+        "material_removal_rate": { "value": "435.6", "unit": "nm/min" }, 
+        "removal_rate_per_sem_size": { "value": "4.4", "unit": "1/min" },
+        "polishing_pressure_on_head": { "value": "50", "unit": "N" },
+        "rotation_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "15", "unit": "mL/min" },
+        "pad_type": "neoprene (MD-Chem)",
+        "equipment_model": "Struers Tegramin",
+        "slurry_concentration_cmp": { "value": "1", "unit": "wt%" },
+        "slurry_ph_cmp": { "min": "6", "max": "6.1" }
+      }
+    },
+    {
+      "sample_id": "US20230041600A1_Ex6",
+      "experiment_context": "Synthesis of Ce/La mixed oxide particles with protrusions. Corresponds to Example 6 in patent US 2023/0041600 A1.",
+      "abrasive_synthesis": {
+        "description": "Synthesis of Ce/La mixed oxide particles with controlled surface morphology via precipitation and thermal treatment.",
+        "precursors": [
+          {
+            "material_name": "trivalent cerium nitrate solution",
+            "formula": "Ce(NO₃)₃",
+            "source_type": "2.9 mol/L",
+            "purity": "",
+            "quantity": { "value": "13.8", "unit": "kg" }
+          },
+          {
+            "material_name": "lanthanum nitrate solution",
+            "formula": "La(NO₃)₃",
+            "source_type": "2.9 mol/L",
+            "purity": "",
+            "quantity": { "value": "0.36", "unit": "kg" }
+          },
+          {
+            "material_name": "nitric acid",
+            "formula": "HNO₃",
+            "source_type": "68 wt%",
+            "purity": "",
+            "quantity": { "value": "4.3", "unit": "kg" }
+          },
+          {
+            "material_name": "deionized water (for Ce/La solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": { "value": "0.3", "unit": "kg" }
+          },
+          {
+            "material_name": "ammonia water",
+            "formula": "NH₄OH",
+            "source_type": "14.3 mol/L",
+            "purity": "",
+            "quantity": { "value": "9", "unit": "kg" }
+          },
+          {
+            "material_name": "deionized water (for ammonia solution)",
+            "formula": "H₂O",
+            "source_type": "",
+            "purity": "",
+            "quantity": { "value": "79", "unit": "kg" }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Precipitation reaction. Molar ratio (NH₄OH/total (Ce+La)) - (NO₃⁻/CeIII) = 0.93. CeIV/total Ce molar ratio = 0. La/(La+Ce) molar ratio approx 0.025 (calculated from quantities, 0.36kg La(NO3)3 vs 13.8kg Ce(NO3)3, assuming similar molar masses for simplicity of estimation here, actual ratio is (0.36/M_La(NO3)3) / ((0.36/M_La(NO3)3) + (13.8/M_Ce(NO3)3))). Table 1 states 97.5/2.5 Ce/La.",
+            "solvents": [{"name": "deionized water", "quantity": {"value": null, "unit": ""}}],
+            "ph_agents": [{"name": "ammonia water", "concentration": {"value": "14.3", "unit": "mol/L"}}],
+            "synthesis_additives": [],
+            "key_molar_ratio_difference": {
+                "value": "0.93",
+                "description": "(NH₄OH/total (Ce+La)) - (NO₃⁻/CeIII)"
+            },
+            "CeIV_total_Ce_ratio": {
+                "value": "0",
+                "unit": "molar ratio"
+            },
+            "M_Ce_M_ratio": {
+                "metal_M": "La",
+                "value": "0.025", 
+                "unit": "molar ratio M/(M+Ce)",
+                "details": "Target 2.5% La doping (97.5/2.5 Ce/La from Table 1)"
+            }
+          },
+          "physical": {
+            "description": "Controlled precipitation under N₂ atmosphere initially, followed by thermal treatment.",
+            "process_stages": [
+              {"stage": 1, "process_description": "Mixing cerium/lanthanum nitrate solution with ammonia solution at ambient temperature under N₂ bubbling.", "value": "ambient", "unit": "temperature", "duration": {"value": "30", "unit": "min"}},
+              {"stage": 2, "process_description": "Heating reaction mixture up to 67°C.", "value": "67", "unit": "°C", "duration": {"value": "1", "unit": "hour"}},
+              {"stage": 3, "process_description": "Aging at 67°C without N₂ bubbling.", "value": "67", "unit": "°C", "duration": {"value": "10", "unit": "hours"}}
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Cooling, acidification, washing, and deagglomeration.",
+          "collection": {"method": "Filtration and washing", "parameters": {"wash_medium": "deionized water", "conductivity_threshold": {"value": "<0.05", "unit": "mS/cm"}, "cycles": "Repeated until conductivity threshold met"}},
+          "treatment": {
+            "acidification": {"agent": "68 wt% HNO₃", "target_ph": {"value": "2", "unit": ""}},
+            "deagglomeration": {"method": "double impact jet treatment"},
+            "drying_for_powder_characterization": {"temperature": {"value": "200", "unit": "°C"}}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Aqueous dispersion prepared for CMP testing.",
+        "composition": {
+          "abrasive": {"material": "Ce/La mixed oxide particles from Example 6", "concentration": {"initial": null, "final": "1", "unit": "wt%"}},
+          "slurry_additives": [],
+          "solvent": {"name": "deionized water", "percentage": {"value": null, "unit": ""}}
+        },
+        "processing": {
+          "description": "pH adjusted for CMP.",
+          "dispersion": [], "stabilization": {},
+          "ph_control": {"target": {"min": "6", "max": "6.1"}, "agents": [{"name": "diluted NH₄OH", "concentration": {"value": null, "unit": ""}}]}
+        }
+      },
+      "characterization": {
+        "description": "Characterization of synthesized Ce/La mixed oxide particles from Example 6.",
+        "morphology": {
+          "particle_size": {"average": {"min": null, "max": "104", "unit": "nm"}, "measurement_method": "SEM"},
+          "shape": "Polyhedral (cube)", 
+          "surface_area": {"value": "32.6", "unit": "m²/g", "method": "BET"},
+          "protrusions_present": true 
+        },
+        "particle_size_distribution_dls": {"hydrodynamic_mean_diameter_Dh": {"value": "156", "unit": "nm"}},
+        "particle_size_distribution_laser": {
+          "D10": { "value": "96", "unit": "nm" }, "D50": { "value": "113", "unit": "nm" }, "D90": { "value": "142", "unit": "nm" }, "D99": { "value": "171", "unit": "nm" },
+          "dispersion_index": { "value": "0.20", "unit": "" }
+        },
+        "stability": {"conductivity_after_wash": {"value": "<0.05", "unit": "mS/cm"}}
+      },
+      "cmp_performance": {
+        "description": "CMP performance on amorphous silica substrate.",
+        "material_polished": "amorphous silica",
+        "polishing_time": { "value": "10", "unit": "min" },
+        "material_removal_rate": { "value": "426.4", "unit": "nm/min" }, 
+        "removal_rate_per_sem_size": { "value": "4.1", "unit": "1/min" },
+        "polishing_pressure_on_head": { "value": "50", "unit": "N" },
+        "rotation_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "15", "unit": "mL/min" },
+        "pad_type": "neoprene (MD-Chem)",
+        "equipment_model": "Struers Tegramin",
+        "slurry_concentration_cmp": { "value": "1", "unit": "wt%" },
+        "slurry_ph_cmp": { "min": "6", "max": "6.1" }
+      }
+    },
+    {
+      "sample_id": "US20230041600A1_CompEx1",
+      "experiment_context": "Comparative Example 1: Synthesis of pure cerium oxide particles, expected smooth surface. Higher reaction temp (80C), higher molar ratio diff (2.4).",
+      "abrasive_synthesis": {
+        "description": "Synthesis of cerium oxide particles, comparative example.",
+        "precursors": [
+            {"material_name": "tetravalent cerium nitrate solution", "formula": "Ce(NO₃)₄", "source_type": "1.5 mol/L", "quantity": {"value": "0.3", "unit": "g"}},
+            {"material_name": "trivalent cerium nitrate solution", "formula": "Ce(NO₃)₃", "source_type": "2.9 mol/L", "quantity": {"value": "13.9", "unit": "kg"}},
+            {"material_name": "nitric acid", "formula": "HNO₃", "source_type": "68 wt%", "quantity": {"value": "2.1", "unit": "kg"}},
+            {"material_name": "deionized water (for cerium solution)", "formula": "H₂O", "quantity": {"value": "0.5", "unit": "kg"}},
+            {"material_name": "ammonia water", "formula": "NH₄OH", "source_type": "14.5 mol/L", "quantity": {"value": "9.3", "unit": "kg"}},
+            {"material_name": "deionized water (for ammonia solution)", "formula": "H₂O", "quantity": {"value": "90", "unit": "kg"}}
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Precipitation reaction. Molar ratio (NH₄OH/total Ce) - (NO₃⁻/CeIII) = 2.4. CeIV/total Ce molar ratio = 1/80000.",
+            "solvents": [{"name": "deionized water", "quantity": {"value": null, "unit": ""}}],
+            "ph_agents": [{"name": "ammonia water", "concentration": {"value": "14.5", "unit": "mol/L"}}],
+            "synthesis_additives": [],
+            "key_molar_ratio_difference": {"value": "2.4", "description": "(NH₄OH/total Ce) - (NO₃⁻/CeIII)"},
+            "CeIV_total_Ce_ratio": {"value": "1/80000", "unit": "molar ratio"}
+          },
+          "physical": {
+            "description": "Controlled precipitation under N₂ atmosphere initially, followed by thermal treatment.",
+            "process_stages": [
+              {"stage": 1, "process_description": "Mixing cerium nitrate solution with ammonia solution under N₂ bubbling.", "value": "ambient", "unit": "temperature", "duration": {"value": "30", "unit": "min"}},
+              {"stage": 2, "process_description": "Heating reaction mixture up to 80°C.", "value": "80", "unit": "°C", "duration": {"value": "1", "unit": "hour"}},
+              {"stage": 3, "process_description": "Aging at 80°C without N₂ bubbling.", "value": "80", "unit": "°C", "duration": {"value": "4", "unit": "hours"}}
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Cooling, acidification, washing, and deagglomeration.",
+          "collection": {"method": "Filtration and washing", "parameters": {"wash_medium": "deionized water", "conductivity_threshold": {"value": "<0.05", "unit": "mS/cm"}, "cycles": "Repeated"}},
+          "treatment": {
+            "acidification": {"agent": "68 wt% HNO₃", "target_ph": {"value": "2", "unit": ""}},
+            "deagglomeration": {"method": "Not specified, but 'suspension obtained finally was deagglomerated'"},
+            "drying_for_powder_characterization": {"temperature": {"value": "200", "unit": "°C"}}
+          }
+        }
+      },
+      "slurry_preparation": {
+        "description": "Aqueous dispersion prepared for CMP testing.",
+        "composition": {
+          "abrasive": {"material": "CeO₂ particles from CompEx1", "concentration": {"initial": null, "final": "1", "unit": "wt%"}},
+          "slurry_additives": [], "solvent": {"name": "deionized water"}
+        },
+        "processing": {"description": "pH adjusted for CMP.", "ph_control": {"target": {"min": "6", "max": "6.1"}, "agents": [{"name": "diluted NH₄OH"}]}}
+      },
+      "characterization": {
+        "description": "Characterization of synthesized CeO₂ particles from Comparative Example 1.",
+        "morphology": {
+          "particle_size": {"average": {"min": null, "max": "140", "unit": "nm"}, "measurement_method": "SEM"},
+          "shape": "Polyhedral (cube)", "surface_area": {"value": "12.9", "unit": "m²/g", "method": "BET"},
+          "protrusions_present": false
+        },
+        "particle_size_distribution_dls": {"hydrodynamic_mean_diameter_Dh": {"value": "153", "unit": "nm"}},
+        "particle_size_distribution_laser": {
+          "D10": { "value": "91", "unit": "nm" }, "D50": { "value": "109", "unit": "nm" }, "D90": { "value": "133", "unit": "nm" }, "D99": { "value": null, "unit": "nm" },
+          "dispersion_index": { "value": "0.19", "unit": "" }
+        },
+        "stability": {"conductivity_after_wash": {"value": "<0.05", "unit": "mS/cm"}}
+      },
+      "cmp_performance": {
+        "description": "CMP performance on amorphous silica substrate.",
+        "material_polished": "amorphous silica", "polishing_time": { "value": "10", "unit": "min" },
+        "material_removal_rate": { "value": "280", "unit": "nm/min" }, 
+        "removal_rate_per_sem_size": { "value": "2.0", "unit": "1/min" },
+        "polishing_pressure_on_head": { "value": "50", "unit": "N" }, "rotation_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "15", "unit": "mL/min" }, "pad_type": "neoprene (MD-Chem)",
+        "equipment_model": "Struers Tegramin", "slurry_concentration_cmp": { "value": "1", "unit": "wt%" },
+        "slurry_ph_cmp": { "min": "6", "max": "6.1" }
+      }
+    },
+    {
+      "sample_id": "US20230041600A1_CompEx2",
+      "experiment_context": "Comparative Example 2: Synthesis of pure cerium oxide particles, expected smooth surface. Molar ratio diff = 2.0.",
+      "abrasive_synthesis": {
+        "description": "Synthesis of cerium oxide particles, comparative example.",
+        "precursors": [
+            {"material_name": "tetravalent cerium nitrate solution", "formula": "Ce(NO₃)₄", "source_type": "1.5 mol/L", "quantity": {"value": "0.30", "unit": "g"}},
+            {"material_name": "trivalent cerium nitrate solution", "formula": "Ce(NO₃)₃", "source_type": "2.9 mol/L", "quantity": {"value": "13.8", "unit": "kg"}},
+            {"material_name": "nitric acid", "formula": "HNO₃", "source_type": "68 wt%", "quantity": {"value": "2.1", "unit": "kg"}},
+            {"material_name": "deionized water (for cerium solution)", "formula": "H₂O", "quantity": {"value": "0.5", "unit": "kg"}},
+            {"material_name": "ammonia water", "formula": "NH₄OH", "source_type": "14.6 mol/L", "quantity": {"value": "8.6", "unit": "kg"}},
+            {"material_name": "deionized water (for ammonia solution)", "formula": "H₂O", "quantity": {"value": "80", "unit": "kg"}}
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Precipitation reaction. Molar ratio (NH₄OH/total Ce) - (NO₃⁻/CeIII) = 2.0. CeIV/total Ce molar ratio = 1/80000.",
+            "solvents": [{"name": "deionized water"}], "ph_agents": [{"name": "ammonia water", "concentration": {"value": "14.6", "unit": "mol/L"}}],
+            "key_molar_ratio_difference": {"value": "2.0", "description": "(NH₄OH/total Ce) - (NO₃⁻/CeIII)"},
+            "CeIV_total_Ce_ratio": {"value": "1/80000", "unit": "molar ratio"}
+          },
+          "physical": {
+            "description": "Controlled precipitation under N₂ atmosphere initially, followed by thermal treatment.",
+            "process_stages": [
+              {"stage": 1, "process_description": "Mixing cerium nitrate solution with ammonia solution under N₂ bubbling.", "value": "ambient", "unit": "temperature", "duration": {"value": "30", "unit": "min"}},
+              {"stage": 2, "process_description": "Heating reaction mixture up to 67°C.", "value": "67", "unit": "°C", "duration": {"value": "1", "unit": "hour"}},
+              {"stage": 3, "process_description": "Aging at 67°C without N₂ bubbling.", "value": "67", "unit": "°C", "duration": {"value": "14", "unit": "hours"}}
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Cooling, acidification, washing, and deagglomeration.",
+          "collection": {"method": "Filtration and washing", "parameters": {"wash_medium": "deionized water", "conductivity_threshold": {"value": "<0.05", "unit": "mS/cm"}, "cycles": "Repeated"}},
+          "treatment": {
+            "acidification": {"agent": "68 wt% HNO₃", "target_ph": {"value": "2", "unit": ""}},
+            "deagglomeration": {"method": "Not specified, but 'suspension obtained finally was deagglomerated'"},
+            "drying_for_powder_characterization": {"temperature": {"value": "200", "unit": "°C"}}
+          }
+        }
+      },
+      "slurry_preparation": {"description": "Aqueous dispersion for CMP.", "composition": {"abrasive": {"material": "CeO₂ from CompEx2", "concentration": {"final": "1", "unit": "wt%"}}}, "processing": {"ph_control": {"target": {"min": "6", "max": "6.1"}}}},
+      "characterization": {
+        "description": "Characterization of synthesized CeO₂ particles from Comparative Example 2.",
+        "morphology": {
+          "particle_size": {"average": {"min": null, "max": "90", "unit": "nm"}, "measurement_method": "SEM"},
+          "shape": "Polyhedral (cube)", "surface_area": {"value": "15.8", "unit": "m²/g", "method": "BET"},
+          "protrusions_present": false
+        },
+        "particle_size_distribution_dls": {"hydrodynamic_mean_diameter_Dh": {"value": "154", "unit": "nm"}},
+        "particle_size_distribution_laser": {
+          "D10": { "value": "86", "unit": "nm" }, "D50": { "value": "105", "unit": "nm" }, "D90": { "value": "134", "unit": "nm" }, "D99": { "value": null, "unit": "nm" },
+          "dispersion_index": { "value": "0.23", "unit": "" }
+        },
+        "stability": {"conductivity_after_wash": {"value": "<0.05", "unit": "mS/cm"}}
+      },
+      "cmp_performance": {
+        "description": "CMP performance on amorphous silica substrate.",
+        "material_polished": "amorphous silica", "polishing_time": { "value": "10", "unit": "min" },
+        "material_removal_rate": { "value": "270", "unit": "nm/min" }, 
+        "removal_rate_per_sem_size": { "value": "3.0", "unit": "1/min" },
+        "polishing_pressure_on_head": { "value": "50", "unit": "N" }, "rotation_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "15", "unit": "mL/min" }, "pad_type": "neoprene (MD-Chem)",
+        "equipment_model": "Struers Tegramin", "slurry_concentration_cmp": { "value": "1", "unit": "wt%" },
+        "slurry_ph_cmp": { "min": "6", "max": "6.1" }
+      }
+    },
+    {
+      "sample_id": "US20230041600A1_CompEx3",
+      "experiment_context": "Comparative Example 3: Synthesis of pure cerium oxide particles, expected smooth surface. High molar ratio diff (5.1).",
+      "abrasive_synthesis": {
+        "description": "Synthesis of cerium oxide particles, comparative example.",
+        "precursors": [
+            {"material_name": "trivalent cerium nitrate solution", "formula": "Ce(NO₃)₃", "source_type": "2.9 mol/L", "quantity": {"value": "13.8", "unit": "kg"}},
+            {"material_name": "nitric acid", "formula": "HNO₃", "source_type": "68 wt%", "quantity": {"value": "4.2", "unit": "kg"}},
+            {"material_name": "deionized water (for cerium solution)", "formula": "H₂O", "quantity": {"value": "0.5", "unit": "kg"}},
+            {"material_name": "ammonia water", "formula": "NH₄OH", "source_type": "14.4 mol/L", "quantity": {"value": "14.5", "unit": "kg"}},
+            {"material_name": "deionized water (for ammonia solution)", "formula": "H₂O", "quantity": {"value": "72", "unit": "kg"}}
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "Precipitation reaction. Molar ratio (NH₄OH/total Ce) - (NO₃⁻/CeIII) = 5.1. CeIV/total Ce molar ratio = 0.",
+            "solvents": [{"name": "deionized water"}], "ph_agents": [{"name": "ammonia water", "concentration": {"value": "14.4", "unit": "mol/L"}}],
+            "key_molar_ratio_difference": {"value": "5.1", "description": "(NH₄OH/total Ce) - (NO₃⁻/CeIII)"},
+            "CeIV_total_Ce_ratio": {"value": "0", "unit": "molar ratio"}
+          },
+          "physical": {
+            "description": "Controlled precipitation under N₂ atmosphere initially, followed by thermal treatment.",
+            "process_stages": [
+              {"stage": 1, "process_description": "Mixing cerium nitrate solution with ammonia solution at ambient temperature under N₂ bubbling.", "value": "ambient", "unit": "temperature", "duration": {"value": "30", "unit": "min"}},
+              {"stage": 2, "process_description": "Heating reaction mixture up to 67°C.", "value": "67", "unit": "°C", "duration": {"value": "1", "unit": "hour"}},
+              {"stage": 3, "process_description": "Aging at 67°C without N₂ bubbling.", "value": "67", "unit": "°C", "duration": {"value": "6.5", "unit": "hours"}}
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Cooling, acidification, washing, and deagglomeration.",
+          "collection": {"method": "Filtration and washing", "parameters": {"wash_medium": "deionized water", "conductivity_threshold": {"value": "<0.05", "unit": "mS/cm"}, "cycles": "Repeated"}},
+          "treatment": {
+            "acidification": {"agent": "68 wt% HNO₃", "target_ph": {"value": "2", "unit": ""}},
+            "deagglomeration": {"method": "double impact jet treatment"},
+            "drying_for_powder_characterization": {"temperature": {"value": "200", "unit": "°C"}}
+          }
+        }
+      },
+      "slurry_preparation": {"description": "Aqueous dispersion for CMP.", "composition": {"abrasive": {"material": "CeO₂ from CompEx3", "concentration": {"final": "1", "unit": "wt%"}}}, "processing": {"ph_control": {"target": {"min": "6", "max": "6.1"}}}},
+      "characterization": {
+        "description": "Characterization of synthesized CeO₂ particles from Comparative Example 3.",
+        "morphology": {
+          "particle_size": {"average": {"min": null, "max": "110", "unit": "nm"}, "measurement_method": "SEM"},
+          "shape": "Polyhedral (cube)", "surface_area": {"value": "14.3", "unit": "m²/g", "method": "BET"},
+          "protrusions_present": false
+        },
+        "particle_size_distribution_dls": {"hydrodynamic_mean_diameter_Dh": {"value": "162", "unit": "nm"}},
+        "particle_size_distribution_laser": {
+          "D10": { "value": "99", "unit": "nm" }, "D50": { "value": "115", "unit": "nm" }, "D90": { "value": "145", "unit": "nm" }, "D99": { "value": null, "unit": "nm" }, 
+          "dispersion_index": { "value": "0.20", "unit": "" }
+        },
+        "stability": {"conductivity_after_wash": {"value": "<0.05", "unit": "mS/cm"}}
+      },
+      "cmp_performance": {
+        "description": "CMP performance on amorphous silica substrate.",
+        "material_polished": "amorphous silica", "polishing_time": { "value": "10", "unit": "min" },
+        "material_removal_rate": { "value": "220", "unit": "nm/min" }, 
+        "removal_rate_per_sem_size": { "value": "2.0", "unit": "1/min" },
+        "polishing_pressure_on_head": { "value": "50", "unit": "N" }, "rotation_speed": { "value": "150", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "15", "unit": "mL/min" }, "pad_type": "neoprene (MD-Chem)",
+        "equipment_model": "Struers Tegramin", "slurry_concentration_cmp": { "value": "1", "unit": "wt%" },
+        "slurry_ph_cmp": { "min": "6", "max": "6.1" }
+      }
+    }
+  ]
+}

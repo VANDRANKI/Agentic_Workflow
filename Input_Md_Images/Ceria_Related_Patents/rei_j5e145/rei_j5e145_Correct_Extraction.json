@@ -1,0 +1,1072 @@
+{
+  "doi": "US20230087984A1",
+  "title": "SILICA-BASED SLURRY COMPOSITIONS CONTAINING HIGH MOLECULAR WEIGHT POLYMERS FOR USE IN CMP OF DIELECTRICS",
+  "year_published": "2023",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1A_A1_PAA",
+      "experiment_context": "Example 1, Composition 1A: Silica Abrasive A1 (TEM 66nm, AR 1.25, BET 40 cm²/g) with 1000 ppm PAA (540 kDa MW). Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Polyacrylic acid (PAA)",
+            "type": "anionic polymer",
+            "concentration": {"value": 1000, "unit": "ppm"},
+            "molecular_weight": {"value": 540, "unit": "kDa"}
+          }
+        ],
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.4, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 66, "unit": "nm"},
+             "aspect_ratio": {"value": 1.25, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 40, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 243.3,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 3260, "unit": "Å/min"},
+            "SiN": {"value": 1077, "unit": "Å/min"},
+            "polySi": {"value": 4617, "unit": "Å/min"},
+            "BPSG": {"value": 3908, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1B_A1_NoPAA",
+      "experiment_context": "Example 1, Composition 1B: Silica Abrasive A1 (TEM 66nm, AR 1.25, BET 40 cm²/g) without PAA. Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": null,
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.1, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 66, "unit": "nm"},
+             "aspect_ratio": {"value": 1.25, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 40, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 149,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 3362, "unit": "Å/min"},
+            "SiN": {"value": 994, "unit": "Å/min"},
+            "polySi": {"value": 4541, "unit": "Å/min"},
+            "BPSG": {"value": 3323, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1C_A2_PAA",
+      "experiment_context": "Example 1, Composition 1C: Silica Abrasive A2 (TEM 108nm, AR 1.14, BET 29 cm²/g) with 1000 ppm PAA (540 kDa MW). Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Polyacrylic acid (PAA)",
+            "type": "anionic polymer",
+            "concentration": {"value": 1000, "unit": "ppm"},
+            "molecular_weight": {"value": 540, "unit": "kDa"}
+          }
+        ],
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.4, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 108, "unit": "nm"},
+             "aspect_ratio": {"value": 1.14, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 29, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 180.6,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 1238, "unit": "Å/min"},
+            "SiN": {"value": 552, "unit": "Å/min"},
+            "polySi": {"value": 4345, "unit": "Å/min"},
+            "BPSG": {"value": 1465, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1D_A2_NoPAA",
+      "experiment_context": "Example 1, Composition 1D: Silica Abrasive A2 (TEM 108nm, AR 1.14, BET 29 cm²/g) without PAA. Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": null,
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.1, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 108, "unit": "nm"},
+             "aspect_ratio": {"value": 1.14, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 29, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 104,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 764, "unit": "Å/min"},
+            "SiN": {"value": 326, "unit": "Å/min"},
+            "polySi": {"value": 4469, "unit": "Å/min"},
+            "BPSG": {"value": 863, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1E_A3_PAA",
+      "experiment_context": "Example 1, Composition 1E: Silica Abrasive A3 (TEM 110nm, AR 1.13, BET 32 cm²/g) with 1000 ppm PAA (540 kDa MW). Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Polyacrylic acid (PAA)",
+            "type": "anionic polymer",
+            "concentration": {"value": 1000, "unit": "ppm"},
+            "molecular_weight": {"value": 540, "unit": "kDa"}
+          }
+        ],
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.3, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 110, "unit": "nm"},
+             "aspect_ratio": {"value": 1.13, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 32, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 163.9,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 1620, "unit": "Å/min"},
+            "SiN": {"value": 686, "unit": "Å/min"},
+            "polySi": {"value": 4327, "unit": "Å/min"},
+            "BPSG": {"value": 2051, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1F_A3_NoPAA",
+      "experiment_context": "Example 1, Composition 1F: Silica Abrasive A3 (TEM 110nm, AR 1.13, BET 32 cm²/g) without PAA. Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": null,
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.1, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 110, "unit": "nm"},
+             "aspect_ratio": {"value": 1.13, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 32, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 105,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 1099, "unit": "Å/min"},
+            "SiN": {"value": 437, "unit": "Å/min"},
+            "polySi": {"value": 4471, "unit": "Å/min"},
+            "BPSG": {"value": 1353, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1G_A4_PAA",
+      "experiment_context": "Example 1, Composition 1G: Silica Abrasive A4 (TEM 91nm, AR 1.10, BET 33 cm²/g) with 1000 ppm PAA (540 kDa MW). Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Polyacrylic acid (PAA)",
+            "type": "anionic polymer",
+            "concentration": {"value": 1000, "unit": "ppm"},
+            "molecular_weight": {"value": 540, "unit": "kDa"}
+          }
+        ],
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.5, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 91, "unit": "nm"},
+             "aspect_ratio": {"value": 1.10, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 33, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 160,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 1043, "unit": "Å/min"},
+            "SiN": {"value": 492, "unit": "Å/min"},
+            "polySi": {"value": 4111, "unit": "Å/min"},
+            "BPSG": {"value": 1171, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1H_A4_NoPAA",
+      "experiment_context": "Example 1, Composition 1H: Silica Abrasive A4 (TEM 91nm, AR 1.10, BET 33 cm²/g) without PAA. Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": null,
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.1, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 91, "unit": "nm"},
+             "aspect_ratio": {"value": 1.10, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 33, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 94,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 506, "unit": "Å/min"},
+            "SiN": {"value": 223, "unit": "Å/min"},
+            "polySi": {"value": 4399, "unit": "Å/min"},
+            "BPSG": {"value": 585, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1I_A5_PAA",
+      "experiment_context": "Example 1, Composition 1I: Silica Abrasive A5 (TEM 82nm, AR 1.16, BET 39 cm²/g) with 1000 ppm PAA (540 kDa MW). Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Polyacrylic acid (PAA)",
+            "type": "anionic polymer",
+            "concentration": {"value": 1000, "unit": "ppm"},
+            "molecular_weight": {"value": 540, "unit": "kDa"}
+          }
+        ],
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.5, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 82, "unit": "nm"},
+             "aspect_ratio": {"value": 1.16, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 39, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 182,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 1442, "unit": "Å/min"},
+            "SiN": {"value": 641, "unit": "Å/min"},
+            "polySi": {"value": ">5000", "unit": "Å/min"},
+            "BPSG": {"value": 2370, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1J_A5_NoPAA",
+      "experiment_context": "Example 1, Composition 1J: Silica Abrasive A5 (TEM 82nm, AR 1.16, BET 39 cm²/g) without PAA. Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": null,
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.1, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 82, "unit": "nm"},
+             "aspect_ratio": {"value": 1.16, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 39, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 100,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 882, "unit": "Å/min"},
+            "SiN": {"value": 358, "unit": "Å/min"},
+            "polySi": {"value": 3302, "unit": "Å/min"},
+            "BPSG": {"value": 1507, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1K_A6_PAA",
+      "experiment_context": "Example 1, Composition 1K: Silica Abrasive A6 (TEM 59nm, AR 1.09, BET 39 cm²/g) with 1000 ppm PAA (540 kDa MW). Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Polyacrylic acid (PAA)",
+            "type": "anionic polymer",
+            "concentration": {"value": 1000, "unit": "ppm"},
+            "molecular_weight": {"value": 540, "unit": "kDa"}
+          }
+        ],
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.5, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 59, "unit": "nm"},
+             "aspect_ratio": {"value": 1.09, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 39, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 123,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Near-Spherical/Oblong (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 1220, "unit": "Å/min"},
+            "SiN": {"value": 590, "unit": "Å/min"},
+            "polySi": {"value": 3945, "unit": "Å/min"},
+            "BPSG": {"value": 1882, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1L_A6_NoPAA",
+      "experiment_context": "Example 1, Composition 1L: Silica Abrasive A6 (TEM 59nm, AR 1.09, BET 39 cm²/g) without PAA. Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": null,
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.1, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 59, "unit": "nm"},
+             "aspect_ratio": {"value": 1.09, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 39, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 70,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Near-Spherical/Oblong (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 709, "unit": "Å/min"},
+            "SiN": {"value": 320, "unit": "Å/min"},
+            "polySi": {"value": 2436, "unit": "Å/min"},
+            "BPSG": {"value": 1095, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1M_A7_PAA",
+      "experiment_context": "Example 1, Composition 1M: Silica Abrasive A7 (TEM 64nm, AR 1.31, BET 58 cm²/g) with 1000 ppm PAA (540 kDa MW). Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Polyacrylic acid (PAA)",
+            "type": "anionic polymer",
+            "concentration": {"value": 1000, "unit": "ppm"},
+            "molecular_weight": {"value": 540, "unit": "kDa"}
+          }
+        ],
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.9, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 64, "unit": "nm"},
+             "aspect_ratio": {"value": 1.31, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 58, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 219,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 1001, "unit": "Å/min"},
+            "SiN": {"value": 494, "unit": "Å/min"},
+            "polySi": {"value": 3981, "unit": "Å/min"},
+            "BPSG": {"value": 2020, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1N_A7_NoPAA",
+      "experiment_context": "Example 1, Composition 1N: Silica Abrasive A7 (TEM 64nm, AR 1.31, BET 58 cm²/g) without PAA. Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": null,
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.1, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 64, "unit": "nm"},
+             "aspect_ratio": {"value": 1.31, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 58, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 83,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 836, "unit": "Å/min"},
+            "SiN": {"value": 349, "unit": "Å/min"},
+            "polySi": {"value": 2584, "unit": "Å/min"},
+            "BPSG": {"value": 1695, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1O_A8_PAA",
+      "experiment_context": "Example 1, Composition 1O: Silica Abrasive A8 (TEM 100nm, AR 1.10, BET 29 cm²/g) with 1000 ppm PAA (540 kDa MW). Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": [
+          {
+            "name": "Polyacrylic acid (PAA)",
+            "type": "anionic polymer",
+            "concentration": {"value": 1000, "unit": "ppm"},
+            "molecular_weight": {"value": 540, "unit": "kDa"}
+          }
+        ],
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.4, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 100, "unit": "nm"},
+             "aspect_ratio": {"value": 1.10, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 29, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 175,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 1140, "unit": "Å/min"},
+            "SiN": {"value": 553, "unit": "Å/min"},
+            "polySi": {"value": 4242, "unit": "Å/min"},
+            "BPSG": {"value": 1917, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US20230087984A1_Ex1_Comp1P_A8_NoPAA",
+      "experiment_context": "Example 1, Composition 1P: Silica Abrasive A8 (TEM 100nm, AR 1.10, BET 29 cm²/g) without PAA. Slurry: 8 wt.% silica, 2500 ppm KOH. Polished on MIRRA™ tool with NEXPLANAR™ E6088 pad at 4 psi.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": {
+          "method": null,
+          "conductivity_threshold": null
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_type": "Silica",
+        "abrasive_silica_concentration": {"value": 8, "unit": "wt.%"},
+        "additives": null,
+        "ph_adjuster": {"name": "KOH", "concentration_ppm": 2500},
+        "target_final_slurry_ph": "9-12 (nominal)",
+        "solvent": {"name": "DI water", "quantity": null},
+        "viscosity_cPs_per_wt_percent_silica": {"value": 0.1, "unit": "cPs/wt.%"}
+      },
+      "characterization": {
+        "abrasive_properties_source": {
+             "tem_equivalent_diameter_nm": {"value": 100, "unit": "nm"},
+             "aspect_ratio": {"value": 1.10, "unit": ""},
+             "bet_surface_area_cm2_g": {"value": 29, "unit": "cm²/g"}
+        },
+        "particle_size_distribution_dls": {
+            "value": 106,
+            "unit": "nm",
+            "measurement_method_used": "DLS"
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": {"value": "Amorphous", "unit": ""},
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Oblong/Ovular (Aspect Ratio > 1)",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates_A_min": {
+            "TEOS": {"value": 707, "unit": "Å/min"},
+            "SiN": {"value": 314, "unit": "Å/min"},
+            "polySi": {"value": 2619, "unit": "Å/min"},
+            "BPSG": {"value": 1159, "unit": "Å/min"}
+        },
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": 4, "unit": "psi"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": "MIRRA™",
+        "pad_composition": "NEXPLANAR™ E6088"
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}
