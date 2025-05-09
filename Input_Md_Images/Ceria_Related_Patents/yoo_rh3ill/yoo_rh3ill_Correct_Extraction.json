@@ -1,0 +1,740 @@
+{
+  "doi": "US10287468B2",
+  "title": "CMP SLURRY COMPOSITION FOR ORGANIC FILM AND POLISHING METHOD USING SAME",
+  "publication_number": "US 10,287,468 B2",
+  "application_number": "15/326,199",
+  "pct_information": {
+    "pct_number": "PCT/KR2015/005856",
+    "pct_filed_date": "2015-06-10",
+    "pct_publication_number": "WO2016/080614",
+    "pct_publication_date": "2016-05-26"
+  },
+  "us_publication_data": {
+    "publication_number": "US 2017/0204312 A1",
+    "publication_date": "2017-07-20"
+  },
+  "priority_data": [
+    {
+      "country_code": "KR",
+      "application_number": "10-2014-0161958",
+      "filing_date": "2014-11-19"
+    }
+  ],
+  "grant_date": "2019-05-14",
+  "inventors": [
+    "Yong Sik Yoo",
+    "Jung Min Choi",
+    "Dong Hun Kang",
+    "Tae Wan Kim",
+    "Go Un Kim",
+    "Yong Kuk Kim"
+  ],
+  "assignee": "SAMSUNG SDI CO., LTD.",
+  "abstract": "The present invention relates to a CMP slurry composition, for an organic film, for polishing an organic film and an organic film polishing method using same, the CMP slurry composition comprising: a polar solvent and/or a non-polar solvent; metal oxide abrasives; an oxidant; and a heterocyclic compound, wherein the heterocyclic compound, as a heteroatom, comprises one or two of oxygen (O) atom, sulfur (S) atom and nitrogen (N) atom and has carbon content of 50-95 atom %.",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Polishing of organic film (from Preparative Example 1) using CMP slurry with Ceria (0.1 wt%), Ferric Nitrate (0.3 wt%), and Imidazole (0.1 wt%) at pH 2.6.",
+      "abrasive_synthesis": {
+        "description": "Commercial metal oxide abrasive (Ceria) used. Specific synthesis details not provided in patent beyond source and particle size.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": {},
+          "physical": {}
+        },
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "CMP slurry composition for organic films.",
+        "composition": {
+          "abrasive": {
+            "material_name": "Ceria",
+            "formula": "CeO2",
+            "source_type": "SOLVAY Co., Ltd.",
+            "particle_size_avg_nm": 60,
+            "concentration": {
+              "final": "0.1",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "concentration": {
+                "value": "0.3",
+                "unit": "wt%"
+              }
+            },
+            {
+              "name": "Imidazole",
+              "type": "Heterocyclic compound",
+              "source_type": "Aldrich Co., Ltd.",
+              "concentration": {
+                "value": "0.1",
+                "unit": "wt%"
+              }
+            }
+          ],
+          "solvent": {
+            "name": "Ultrapure water",
+            "percentage": {
+              "value": "balance",
+              "unit": "%"
+            }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted using inorganic or organic acids.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {
+              "min": "2.6",
+              "max": "2.6"
+            },
+            "agents": [
+              {
+                "name": "Nitric acid, Phosphoric acid, Hydrochloric acid, Sulfuric acid, Acetic acid, or Citric acid (specific agent not detailed for this pH)",
+                "concentration": {
+                  "value": null,
+                  "unit": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      "characterization_of_organic_film_polished": {
+        "description": "Characterization of the organic film material used in this polishing experiment.",
+        "film_type_source": "Preparative Example 1",
+        "material_composition": "Polymer from 1-methoxypyrene and 1,4-bis-methoxymethylbenzene, crosslinked with Powderlink 1174.",
+        "carbon_content": {
+          "value": "72",
+          "unit": "atom %"
+        },
+        "film_density": {
+          "value": "1.4",
+          "unit": "g/cm^3"
+        },
+        "hardness": {
+          "value": "0.9",
+          "unit": "GPa"
+        },
+        "acid_value": {
+          "value": "0",
+          "unit": "mgKOH/g"
+        },
+        "initial_thickness_for_pattern_fill": {
+          "value": "2650",
+          "unit": "Å"
+        },
+        "baking_conditions": {
+          "temperature": {
+            "value": "400",
+            "unit": "°C"
+          },
+          "duration_for_characterization_sample":{
+            "value": "120",
+            "unit": "s"
+          }
+        }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "Organic film from Preparative Example 1",
+        "polishing_rate": {
+          "value": "2230",
+          "unit": "Å/min"
+        },
+        "defects": {
+          "value": "650",
+          "unit": "counts"
+        },
+        "flatness_of_polished_surface_std_dev": {
+          "value": "58",
+          "unit": "Å"
+        },
+        "polishing_conditions": {
+          "equipment": "200 mm MIRRA polisher (Applied Materials (AMAT) Co., Ltd.)",
+          "pad": "H0800 CMP pad (FUJIBO Co., Ltd.)",
+          "pressure": {
+            "value": "1.0",
+            "unit": "psi"
+          },
+          "slurry_flow_rate": {
+            "value": "200",
+            "unit": "mL/min"
+          },
+          "table_speed": {
+            "value": "90",
+            "unit": "rpm"
+          },
+          "spindle_speed": {
+            "value": "90",
+            "unit": "rpm"
+          },
+          "duration": {
+            "value": "1",
+            "unit": "min"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Polishing of organic film (from Preparative Example 1) using CMP slurry with Ceria (0.1 wt%), Ferric Nitrate (0.3 wt%), and 1-methylimidazole (0.1 wt%) at pH 2.7.",
+      "abrasive_synthesis": {
+        "description": "Commercial metal oxide abrasive (Ceria) used. Specific synthesis details not provided in patent beyond source and particle size.",
+        "precursors": [],
+        "synthesis_parameters": {"chemical": {}, "physical": {}},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "CMP slurry composition for organic films.",
+        "composition": {
+          "abrasive": {
+            "material_name": "Ceria",
+            "formula": "CeO2",
+            "source_type": "SOLVAY Co., Ltd.",
+            "particle_size_avg_nm": 60,
+            "concentration": {"final": "0.1", "unit": "wt%"}
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "concentration": {"value": "0.3", "unit": "wt%"}
+            },
+            {
+              "name": "1-methylimidazole",
+              "type": "Heterocyclic compound",
+              "source_type": "Aldrich Co., Ltd.",
+              "concentration": {"value": "0.1", "unit": "wt%"}
+            }
+          ],
+          "solvent": {"name": "Ultrapure water", "percentage": {"value": "balance", "unit": "%"}}
+        },
+        "processing": {
+          "description": "pH adjusted using inorganic or organic acids.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {"min": "2.7", "max": "2.7"},
+            "agents": [{"name": "Nitric acid, Phosphoric acid, Hydrochloric acid, Sulfuric acid, Acetic acid, or Citric acid (specific agent not detailed for this pH)", "concentration": {"value": null, "unit": ""}}]
+          }
+        }
+      },
+      "characterization_of_organic_film_polished": {
+        "description": "Characterization of the organic film material used in this polishing experiment.",
+        "film_type_source": "Preparative Example 1",
+        "material_composition": "Polymer from 1-methoxypyrene and 1,4-bis-methoxymethylbenzene, crosslinked with Powderlink 1174.",
+        "carbon_content": {"value": "72", "unit": "atom %"},
+        "film_density": {"value": "1.4", "unit": "g/cm^3"},
+        "hardness": {"value": "0.9", "unit": "GPa"},
+        "acid_value": {"value": "0", "unit": "mgKOH/g"},
+        "initial_thickness_for_pattern_fill": {"value": "2650", "unit": "Å"},
+        "baking_conditions": {"temperature": {"value": "400", "unit": "°C"}, "duration_for_characterization_sample":{"value": "120", "unit": "s"}}
+      },
+      "cmp_performance": {
+        "polishing_target_material": "Organic film from Preparative Example 1",
+        "polishing_rate": {"value": "2400", "unit": "Å/min"},
+        "defects": {"value": "552", "unit": "counts"},
+        "flatness_of_polished_surface_std_dev": {"value": "78", "unit": "Å"},
+        "polishing_conditions": {
+          "equipment": "200 mm MIRRA polisher (Applied Materials (AMAT) Co., Ltd.)",
+          "pad": "H0800 CMP pad (FUJIBO Co., Ltd.)",
+          "pressure": {"value": "1.0", "unit": "psi"},
+          "slurry_flow_rate": {"value": "200", "unit": "mL/min"},
+          "table_speed": {"value": "90", "unit": "rpm"},
+          "spindle_speed": {"value": "90", "unit": "rpm"},
+          "duration": {"value": "1", "unit": "min"}
+        }
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Polishing of organic film (from Preparative Example 1) using CMP slurry with Ceria (0.1 wt%), Ferric Nitrate (0.3 wt%), and Histidine (0.1 wt%) at pH 2.6.",
+      "abrasive_synthesis": {
+        "description": "Commercial metal oxide abrasive (Ceria) used. Specific synthesis details not provided in patent beyond source and particle size.",
+        "precursors": [],
+        "synthesis_parameters": {"chemical": {}, "physical": {}},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "CMP slurry composition for organic films.",
+        "composition": {
+          "abrasive": {
+            "material_name": "Ceria",
+            "formula": "CeO2",
+            "source_type": "SOLVAY Co., Ltd.",
+            "particle_size_avg_nm": 60,
+            "concentration": {"final": "0.1", "unit": "wt%"}
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "concentration": {"value": "0.3", "unit": "wt%"}
+            },
+            {
+              "name": "Histidine",
+              "type": "Heterocyclic compound",
+              "source_type": "Aldrich Co., Ltd.",
+              "concentration": {"value": "0.1", "unit": "wt%"}
+            }
+          ],
+          "solvent": {"name": "Ultrapure water", "percentage": {"value": "balance", "unit": "%"}}
+        },
+        "processing": {
+          "description": "pH adjusted using inorganic or organic acids.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {"min": "2.6", "max": "2.6"},
+            "agents": [{"name": "Nitric acid, Phosphoric acid, Hydrochloric acid, Sulfuric acid, Acetic acid, or Citric acid (specific agent not detailed for this pH)", "concentration": {"value": null, "unit": ""}}]
+          }
+        }
+      },
+      "characterization_of_organic_film_polished": {
+        "description": "Characterization of the organic film material used in this polishing experiment.",
+        "film_type_source": "Preparative Example 1",
+        "material_composition": "Polymer from 1-methoxypyrene and 1,4-bis-methoxymethylbenzene, crosslinked with Powderlink 1174.",
+        "carbon_content": {"value": "72", "unit": "atom %"},
+        "film_density": {"value": "1.4", "unit": "g/cm^3"},
+        "hardness": {"value": "0.9", "unit": "GPa"},
+        "acid_value": {"value": "0", "unit": "mgKOH/g"},
+        "initial_thickness_for_pattern_fill": {"value": "2650", "unit": "Å"},
+        "baking_conditions": {"temperature": {"value": "400", "unit": "°C"}, "duration_for_characterization_sample":{"value": "120", "unit": "s"}}
+      },
+      "cmp_performance": {
+        "polishing_target_material": "Organic film from Preparative Example 1",
+        "polishing_rate": {"value": "2100", "unit": "Å/min"},
+        "defects": {"value": "485", "unit": "counts"},
+        "flatness_of_polished_surface_std_dev": {"value": "46", "unit": "Å"},
+        "polishing_conditions": {
+          "equipment": "200 mm MIRRA polisher (Applied Materials (AMAT) Co., Ltd.)",
+          "pad": "H0800 CMP pad (FUJIBO Co., Ltd.)",
+          "pressure": {"value": "1.0", "unit": "psi"},
+          "slurry_flow_rate": {"value": "200", "unit": "mL/min"},
+          "table_speed": {"value": "90", "unit": "rpm"},
+          "spindle_speed": {"value": "90", "unit": "rpm"},
+          "duration": {"value": "1", "unit": "min"}
+        }
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Polishing of organic film (from Preparative Example 1) using CMP slurry with Ceria (0.1 wt%), Ferric Nitrate (0.3 wt%), and Pyrimidine (0.1 wt%) at pH 2.7.",
+      "abrasive_synthesis": {
+        "description": "Commercial metal oxide abrasive (Ceria) used. Specific synthesis details not provided in patent beyond source and particle size.",
+        "precursors": [],
+        "synthesis_parameters": {"chemical": {}, "physical": {}},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "CMP slurry composition for organic films.",
+        "composition": {
+          "abrasive": {
+            "material_name": "Ceria",
+            "formula": "CeO2",
+            "source_type": "SOLVAY Co., Ltd.",
+            "particle_size_avg_nm": 60,
+            "concentration": {"final": "0.1", "unit": "wt%"}
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "concentration": {"value": "0.3", "unit": "wt%"}
+            },
+            {
+              "name": "Pyrimidine",
+              "type": "Heterocyclic compound",
+              "source_type": "Aldrich Co., Ltd.",
+              "concentration": {"value": "0.1", "unit": "wt%"}
+            }
+          ],
+          "solvent": {"name": "Ultrapure water", "percentage": {"value": "balance", "unit": "%"}}
+        },
+        "processing": {
+          "description": "pH adjusted using inorganic or organic acids.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {"min": "2.7", "max": "2.7"},
+            "agents": [{"name": "Nitric acid, Phosphoric acid, Hydrochloric acid, Sulfuric acid, Acetic acid, or Citric acid (specific agent not detailed for this pH)", "concentration": {"value": null, "unit": ""}}]
+          }
+        }
+      },
+      "characterization_of_organic_film_polished": {
+        "description": "Characterization of the organic film material used in this polishing experiment.",
+        "film_type_source": "Preparative Example 1",
+        "material_composition": "Polymer from 1-methoxypyrene and 1,4-bis-methoxymethylbenzene, crosslinked with Powderlink 1174.",
+        "carbon_content": {"value": "72", "unit": "atom %"},
+        "film_density": {"value": "1.4", "unit": "g/cm^3"},
+        "hardness": {"value": "0.9", "unit": "GPa"},
+        "acid_value": {"value": "0", "unit": "mgKOH/g"},
+        "initial_thickness_for_pattern_fill": {"value": "2650", "unit": "Å"},
+        "baking_conditions": {"temperature": {"value": "400", "unit": "°C"}, "duration_for_characterization_sample":{"value": "120", "unit": "s"}}
+      },
+      "cmp_performance": {
+        "polishing_target_material": "Organic film from Preparative Example 1",
+        "polishing_rate": {"value": "2750", "unit": "Å/min"},
+        "defects": {"value": "654", "unit": "counts"},
+        "flatness_of_polished_surface_std_dev": {"value": "85", "unit": "Å"},
+        "polishing_conditions": {
+          "equipment": "200 mm MIRRA polisher (Applied Materials (AMAT) Co., Ltd.)",
+          "pad": "H0800 CMP pad (FUJIBO Co., Ltd.)",
+          "pressure": {"value": "1.0", "unit": "psi"},
+          "slurry_flow_rate": {"value": "200", "unit": "mL/min"},
+          "table_speed": {"value": "90", "unit": "rpm"},
+          "spindle_speed": {"value": "90", "unit": "rpm"},
+          "duration": {"value": "1", "unit": "min"}
+        }
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Polishing of organic film (from Preparative Example 1) using CMP slurry with Ceria (0.1 wt%), Ferric Nitrate (0.3 wt%), and Imidazole (0.005 wt%) at pH 2.5.",
+      "abrasive_synthesis": {
+        "description": "Commercial metal oxide abrasive (Ceria) used. Specific synthesis details not provided in patent beyond source and particle size.",
+        "precursors": [],
+        "synthesis_parameters": {"chemical": {}, "physical": {}},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "CMP slurry composition for organic films.",
+        "composition": {
+          "abrasive": {
+            "material_name": "Ceria",
+            "formula": "CeO2",
+            "source_type": "SOLVAY Co., Ltd.",
+            "particle_size_avg_nm": 60,
+            "concentration": {"final": "0.1", "unit": "wt%"}
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "concentration": {"value": "0.3", "unit": "wt%"}
+            },
+            {
+              "name": "Imidazole",
+              "type": "Heterocyclic compound",
+              "source_type": "Aldrich Co., Ltd.",
+              "concentration": {"value": "0.005", "unit": "wt%"}
+            }
+          ],
+          "solvent": {"name": "Ultrapure water", "percentage": {"value": "balance", "unit": "%"}}
+        },
+        "processing": {
+          "description": "pH adjusted using inorganic or organic acids.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {"min": "2.5", "max": "2.5"},
+            "agents": [{"name": "Nitric acid, Phosphoric acid, Hydrochloric acid, Sulfuric acid, Acetic acid, or Citric acid (specific agent not detailed for this pH)", "concentration": {"value": null, "unit": ""}}]
+          }
+        }
+      },
+      "characterization_of_organic_film_polished": {
+        "description": "Characterization of the organic film material used in this polishing experiment.",
+        "film_type_source": "Preparative Example 1",
+        "material_composition": "Polymer from 1-methoxypyrene and 1,4-bis-methoxymethylbenzene, crosslinked with Powderlink 1174.",
+        "carbon_content": {"value": "72", "unit": "atom %"},
+        "film_density": {"value": "1.4", "unit": "g/cm^3"},
+        "hardness": {"value": "0.9", "unit": "GPa"},
+        "acid_value": {"value": "0", "unit": "mgKOH/g"},
+        "initial_thickness_for_pattern_fill": {"value": "2650", "unit": "Å"},
+        "baking_conditions": {"temperature": {"value": "400", "unit": "°C"}, "duration_for_characterization_sample":{"value": "120", "unit": "s"}}
+      },
+      "cmp_performance": {
+        "polishing_target_material": "Organic film from Preparative Example 1",
+        "polishing_rate": {"value": "2050", "unit": "Å/min"},
+        "defects": {"value": "321", "unit": "counts"},
+        "flatness_of_polished_surface_std_dev": {"value": "44", "unit": "Å"},
+        "polishing_conditions": {
+          "equipment": "200 mm MIRRA polisher (Applied Materials (AMAT) Co., Ltd.)",
+          "pad": "H0800 CMP pad (FUJIBO Co., Ltd.)",
+          "pressure": {"value": "1.0", "unit": "psi"},
+          "slurry_flow_rate": {"value": "200", "unit": "mL/min"},
+          "table_speed": {"value": "90", "unit": "rpm"},
+          "spindle_speed": {"value": "90", "unit": "rpm"},
+          "duration": {"value": "1", "unit": "min"}
+        }
+      }
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Polishing of organic film (from Preparative Example 1) using CMP slurry with Ceria (0.1 wt%), Ferric Nitrate (0.3 wt%), and Imidazole (0.2 wt%) at pH 2.7.",
+      "abrasive_synthesis": {
+        "description": "Commercial metal oxide abrasive (Ceria) used. Specific synthesis details not provided in patent beyond source and particle size.",
+        "precursors": [],
+        "synthesis_parameters": {"chemical": {}, "physical": {}},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "CMP slurry composition for organic films.",
+        "composition": {
+          "abrasive": {
+            "material_name": "Ceria",
+            "formula": "CeO2",
+            "source_type": "SOLVAY Co., Ltd.",
+            "particle_size_avg_nm": 60,
+            "concentration": {"final": "0.1", "unit": "wt%"}
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "concentration": {"value": "0.3", "unit": "wt%"}
+            },
+            {
+              "name": "Imidazole",
+              "type": "Heterocyclic compound",
+              "source_type": "Aldrich Co., Ltd.",
+              "concentration": {"value": "0.2", "unit": "wt%"}
+            }
+          ],
+          "solvent": {"name": "Ultrapure water", "percentage": {"value": "balance", "unit": "%"}}
+        },
+        "processing": {
+          "description": "pH adjusted using inorganic or organic acids.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {"min": "2.7", "max": "2.7"},
+            "agents": [{"name": "Nitric acid, Phosphoric acid, Hydrochloric acid, Sulfuric acid, Acetic acid, or Citric acid (specific agent not detailed for this pH)", "concentration": {"value": null, "unit": ""}}]
+          }
+        }
+      },
+      "characterization_of_organic_film_polished": {
+        "description": "Characterization of the organic film material used in this polishing experiment.",
+        "film_type_source": "Preparative Example 1",
+        "material_composition": "Polymer from 1-methoxypyrene and 1,4-bis-methoxymethylbenzene, crosslinked with Powderlink 1174.",
+        "carbon_content": {"value": "72", "unit": "atom %"},
+        "film_density": {"value": "1.4", "unit": "g/cm^3"},
+        "hardness": {"value": "0.9", "unit": "GPa"},
+        "acid_value": {"value": "0", "unit": "mgKOH/g"},
+        "initial_thickness_for_pattern_fill": {"value": "2650", "unit": "Å"},
+        "baking_conditions": {"temperature": {"value": "400", "unit": "°C"}, "duration_for_characterization_sample":{"value": "120", "unit": "s"}}
+      },
+      "cmp_performance": {
+        "polishing_target_material": "Organic film from Preparative Example 1",
+        "polishing_rate": {"value": "3100", "unit": "Å/min"},
+        "defects": {"value": "658", "unit": "counts"},
+        "flatness_of_polished_surface_std_dev": {"value": "65", "unit": "Å"},
+        "polishing_conditions": {
+          "equipment": "200 mm MIRRA polisher (Applied Materials (AMAT) Co., Ltd.)",
+          "pad": "H0800 CMP pad (FUJIBO Co., Ltd.)",
+          "pressure": {"value": "1.0", "unit": "psi"},
+          "slurry_flow_rate": {"value": "200", "unit": "mL/min"},
+          "table_speed": {"value": "90", "unit": "rpm"},
+          "spindle_speed": {"value": "90", "unit": "rpm"},
+          "duration": {"value": "1", "unit": "min"}
+        }
+      }
+    },
+    {
+      "sample_id": "Example_7",
+      "experiment_context": "Polishing of organic film (from Preparative Example 2) using CMP slurry with Ceria (0.1 wt%), Ferric Nitrate (0.3 wt%), and Imidazole (0.1 wt%) at pH 2.6.",
+      "abrasive_synthesis": {
+        "description": "Commercial metal oxide abrasive (Ceria) used. Specific synthesis details not provided in patent beyond source and particle size.",
+        "precursors": [],
+        "synthesis_parameters": {"chemical": {}, "physical": {}},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "CMP slurry composition for organic films.",
+        "composition": {
+          "abrasive": {
+            "material_name": "Ceria",
+            "formula": "CeO2",
+            "source_type": "SOLVAY Co., Ltd.",
+            "particle_size_avg_nm": 60,
+            "concentration": {"final": "0.1", "unit": "wt%"}
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "concentration": {"value": "0.3", "unit": "wt%"}
+            },
+            {
+              "name": "Imidazole",
+              "type": "Heterocyclic compound",
+              "source_type": "Aldrich Co., Ltd.",
+              "concentration": {"value": "0.1", "unit": "wt%"}
+            }
+          ],
+          "solvent": {"name": "Ultrapure water", "percentage": {"value": "balance", "unit": "%"}}
+        },
+        "processing": {
+          "description": "pH adjusted using inorganic or organic acids.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {"min": "2.6", "max": "2.6"},
+            "agents": [{"name": "Nitric acid, Phosphoric acid, Hydrochloric acid, Sulfuric acid, Acetic acid, or Citric acid (specific agent not detailed for this pH)", "concentration": {"value": null, "unit": ""}}]
+          }
+        }
+      },
+      "characterization_of_organic_film_polished": {
+        "description": "Characterization of the organic film material used in this polishing experiment. Specific properties like carbon content, density, hardness for PrepEx2 film are not detailed in the patent; general ranges apply as per patent text.",
+        "film_type_source": "Preparative Example 2",
+        "material_composition": "Compound based on bis(hydroxypyrenylcarbonyl)benzene (Formula 12).",
+        "carbon_content": {"value": "Not specified for PrepEx2 film", "unit": "atom %"},
+        "film_density": {"value": "Not specified for PrepEx2 film", "unit": "g/cm^3"},
+        "hardness": {"value": "Not specified for PrepEx2 film", "unit": "GPa"},
+        "acid_value": {"value": "0 (assumed, typical for these films as per patent)", "unit": "mgKOH/g"},
+        "initial_thickness_for_pattern_fill": {"value": "Not specified, assumed similar to Ex1", "unit": "Å"},
+        "baking_conditions": {"temperature": {"value": "Not specified, assumed 200-400", "unit": "°C"}}
+      },
+      "cmp_performance": {
+        "polishing_target_material": "Organic film from Preparative Example 2",
+        "polishing_rate": {"value": "1550", "unit": "Å/min"},
+        "defects": {"value": "532", "unit": "counts"},
+        "flatness_of_polished_surface_std_dev": {"value": "61", "unit": "Å"},
+        "polishing_conditions": {
+          "equipment": "200 mm MIRRA polisher (Applied Materials (AMAT) Co., Ltd.)",
+          "pad": "H0800 CMP pad (FUJIBO Co., Ltd.)",
+          "pressure": {"value": "1.0", "unit": "psi"},
+          "slurry_flow_rate": {"value": "200", "unit": "mL/min"},
+          "table_speed": {"value": "90", "unit": "rpm"},
+          "spindle_speed": {"value": "90", "unit": "rpm"},
+          "duration": {"value": "1", "unit": "min"}
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Polishing of organic film (from Preparative Example 1) using CMP slurry with Ceria (0.1 wt%) and Ferric Nitrate (0.3 wt%) only (no heterocyclic compound) at pH 2.5.",
+      "abrasive_synthesis": {
+        "description": "Commercial metal oxide abrasive (Ceria) used. Specific synthesis details not provided in patent beyond source and particle size.",
+        "precursors": [],
+        "synthesis_parameters": {"chemical": {}, "physical": {}},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "CMP slurry composition for organic films.",
+        "composition": {
+          "abrasive": {
+            "material_name": "Ceria",
+            "formula": "CeO2",
+            "source_type": "SOLVAY Co., Ltd.",
+            "particle_size_avg_nm": 60,
+            "concentration": {"final": "0.1", "unit": "wt%"}
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "concentration": {"value": "0.3", "unit": "wt%"}
+            }
+          ],
+          "solvent": {"name": "Ultrapure water", "percentage": {"value": "balance", "unit": "%"}}
+        },
+        "processing": {
+          "description": "pH adjusted using inorganic or organic acids.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {"min": "2.5", "max": "2.5"},
+            "agents": [{"name": "Nitric acid, Phosphoric acid, Hydrochloric acid, Sulfuric acid, Acetic acid, or Citric acid (specific agent not detailed for this pH)", "concentration": {"value": null, "unit": ""}}]
+          }
+        }
+      },
+      "characterization_of_organic_film_polished": {
+        "description": "Characterization of the organic film material used in this polishing experiment.",
+        "film_type_source": "Preparative Example 1",
+        "material_composition": "Polymer from 1-methoxypyrene and 1,4-bis-methoxymethylbenzene, crosslinked with Powderlink 1174.",
+        "carbon_content": {"value": "72", "unit": "atom %"},
+        "film_density": {"value": "1.4", "unit": "g/cm^3"},
+        "hardness": {"value": "0.9", "unit": "GPa"},
+        "acid_value": {"value": "0", "unit": "mgKOH/g"},
+        "initial_thickness_for_pattern_fill": {"value": "2650", "unit": "Å"},
+        "baking_conditions": {"temperature": {"value": "400", "unit": "°C"}, "duration_for_characterization_sample":{"value": "120", "unit": "s"}}
+      },
+      "cmp_performance": {
+        "polishing_target_material": "Organic film from Preparative Example 1",
+        "polishing_rate": {"value": "1650", "unit": "Å/min"},
+        "defects": {"value": "652", "unit": "counts"},
+        "flatness_of_polished_surface_std_dev": {"value": "85", "unit": "Å"},
+        "polishing_conditions": {
+          "equipment": "200 mm MIRRA polisher (Applied Materials (AMAT) Co., Ltd.)",
+          "pad": "H0800 CMP pad (FUJIBO Co., Ltd.)",
+          "pressure": {"value": "1.0", "unit": "psi"},
+          "slurry_flow_rate": {"value": "200", "unit": "mL/min"},
+          "table_speed": {"value": "90", "unit": "rpm"},
+          "spindle_speed": {"value": "90", "unit": "rpm"},
+          "duration": {"value": "1", "unit": "min"}
+        }
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "Polishing of organic film (from Preparative Example 2) using CMP slurry with Ceria (0.1 wt%) and Ferric Nitrate (0.3 wt%) only (no heterocyclic compound) at pH 2.5.",
+      "abrasive_synthesis": {
+        "description": "Commercial metal oxide abrasive (Ceria) used. Specific synthesis details not provided in patent beyond source and particle size.",
+        "precursors": [],
+        "synthesis_parameters": {"chemical": {}, "physical": {}},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "CMP slurry composition for organic films.",
+        "composition": {
+          "abrasive": {
+            "material_name": "Ceria",
+            "formula": "CeO2",
+            "source_type": "SOLVAY Co., Ltd.",
+            "particle_size_avg_nm": 60,
+            "concentration": {"final": "0.1", "unit": "wt%"}
+          },
+          "slurry_additives": [
+            {
+              "name": "Ferric nitrate",
+              "type": "Oxidant",
+              "concentration": {"value": "0.3", "unit": "wt%"}
+            }
+          ],
+          "solvent": {"name": "Ultrapure water", "percentage": {"value": "balance", "unit": "%"}}
+        },
+        "processing": {
+          "description": "pH adjusted using inorganic or organic acids.",
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": {"min": "2.5", "max": "2.5"},
+            "agents": [{"name": "Nitric acid, Phosphoric acid, Hydrochloric acid, Sulfuric acid, Acetic acid, or Citric acid (specific agent not detailed for this pH)", "concentration": {"value": null, "unit": ""}}]
+          }
+        }
+      },
+      "characterization_of_organic_film_polished": {
+        "description": "Characterization of the organic film material used in this polishing experiment. Specific properties like carbon content, density, hardness for PrepEx2 film are not detailed in the patent; general ranges apply as per patent text.",
+        "film_type_source": "Preparative Example 2",
+        "material_composition": "Compound based on bis(hydroxypyrenylcarbonyl)benzene (Formula 12).",
+        "carbon_content": {"value": "Not specified for PrepEx2 film", "unit": "atom %"},
+        "film_density": {"value": "Not specified for PrepEx2 film", "unit": "g/cm^3"},
+        "hardness": {"value": "Not specified for PrepEx2 film", "unit": "GPa"},
+        "acid_value": {"value": "0 (assumed, typical for these films as per patent)", "unit": "mgKOH/g"},
+        "initial_thickness_for_pattern_fill": {"value": "Not specified, assumed similar to Ex1", "unit": "Å"},
+        "baking_conditions": {"temperature": {"value": "Not specified, assumed 200-400", "unit": "°C"}}
+      },
+      "cmp_performance": {
+        "polishing_target_material": "Organic film from Preparative Example 2",
+        "polishing_rate": {"value": "1010", "unit": "Å/min"},
+        "defects": {"value": "581", "unit": "counts"},
+        "flatness_of_polished_surface_std_dev": {"value": "75", "unit": "Å"},
+        "polishing_conditions": {
+          "equipment": "200 mm MIRRA polisher (Applied Materials (AMAT) Co., Ltd.)",
+          "pad": "H0800 CMP pad (FUJIBO Co., Ltd.)",
+          "pressure": {"value": "1.0", "unit": "psi"},
+          "slurry_flow_rate": {"value": "200", "unit": "mL/min"},
+          "table_speed": {"value": "90", "unit": "rpm"},
+          "spindle_speed": {"value": "90", "unit": "rpm"},
+          "duration": {"value": "1", "unit": "min"}
+        }
+      }
+    }
+  ]
+}

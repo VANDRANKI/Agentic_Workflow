@@ -1,0 +1,985 @@
+{
+  "doi": "US 2023/0123263 A1",
+  "title": "CHEMICAL MECHANICAL POLISHING SLURRY COMPOSITION FOR POLISHING BORON SILICON COMPOUND, CHEMICAL MECHANICAL POLISHING METHOD AND METHOD OF FABRICATING SEMICONDUCTOR DEVICE USING THE SAME",
+  "year_published": "2023",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Silica_1wt_pH3_NoCat_NoOx",
+      "experiment_context": "CMP of B-Si compound with 1.0 wt% silica abrasive, pH 3.0. No catalyst, no oxidizer. (Ref. FIG. 7, 8, 12, 13, 15, 20)",
+      "abrasive_synthesis": {
+        "description": "Commercial silica abrasive assumed.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": { "solvents": [], "ph_agents": [], "synthesis_additives": [] },
+          "physical": { "process_stages": [] }
+        },
+        "post_synthesis": { "collection": {}, "treatment": {} }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" }
+          },
+          "slurry_additives": [],
+          "solvent": { "name": "DI water", "percentage": null }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": { "min": "3.0", "max": "3.0" },
+            "agents": [{ "name": "HNO3/KOH", "concentration": null }]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": { "particle_size": null, "shape": null, "surface_area": null },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "55.4", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "platen_speed": { "value": "80", "unit": "rpm" },
+        "head_speed": { "value": "80", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "150", "unit": "ml/min" },
+        "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Silica_1wt_H2O2_2wt_pH3_NoCat",
+      "experiment_context": "CMP of B-Si compound with 1.0 wt% silica abrasive, 2.0 wt% H2O2, pH 3.0. No catalyst. (FIG. 7, 8)",
+      "abrasive_synthesis": {
+        "description": "Commercial silica abrasive assumed.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": { "solvents": [], "ph_agents": [], "synthesis_additives": [] },
+          "physical": { "process_stages": [] }
+        },
+        "post_synthesis": { "collection": {}, "treatment": {} }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "DI water", "percentage": null }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": { "min": "3.0", "max": "3.0" },
+            "agents": [{ "name": "HNO3/KOH", "concentration": null }]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": { "particle_size": null, "shape": null, "surface_area": null },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "193.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "platen_speed": { "value": "80", "unit": "rpm" },
+        "head_speed": { "value": "80", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "150", "unit": "ml/min" },
+        "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 8, 9, 11, 15)",
+      "abrasive_synthesis": {
+        "description": "Commercial silica abrasive assumed.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": { "solvents": [], "ph_agents": [], "synthesis_additives": [] },
+          "physical": { "process_stages": [] }
+        },
+        "post_synthesis": { "collection": {}, "treatment": {} }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "DI water", "percentage": null }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": { "min": "3.0", "max": "3.0" },
+            "agents": [{ "name": "HNO3/KOH", "concentration": null }]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": { "particle_size": null, "shape": null, "surface_area": null },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "890.3", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "platen_speed": { "value": "80", "unit": "rpm" },
+        "head_speed": { "value": "80", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "150", "unit": "ml/min" },
+        "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Cu_0.5mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Cu catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 8)",
+      "abrasive_synthesis": {
+        "description": "Commercial silica abrasive assumed.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": { "solvents": [], "ph_agents": [], "synthesis_additives": [] },
+          "physical": { "process_stages": [] }
+        },
+        "post_synthesis": { "collection": {}, "treatment": {} }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "DI water", "percentage": null }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": { "min": "3.0", "max": "3.0" },
+            "agents": [{ "name": "HNO3/KOH", "concentration": null }]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": { "particle_size": null, "shape": null, "surface_area": null },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "483.8", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "platen_speed": { "value": "80", "unit": "rpm" },
+        "head_speed": { "value": "80", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "150", "unit": "ml/min" },
+        "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Ce_0.5mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Ce catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 8)",
+      "abrasive_synthesis": {
+        "description": "Commercial silica abrasive assumed.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": { "solvents": [], "ph_agents": [], "synthesis_additives": [] },
+          "physical": { "process_stages": [] }
+        },
+        "post_synthesis": { "collection": {}, "treatment": {} }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Ce-catalyst", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "DI water", "percentage": null }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": { "min": "3.0", "max": "3.0" },
+            "agents": [{ "name": "HNO3/KOH", "concentration": null }]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": { "particle_size": null, "shape": null, "surface_area": null },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "347.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "platen_speed": { "value": "80", "unit": "rpm" },
+        "head_speed": { "value": "80", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "150", "unit": "ml/min" },
+        "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Cr_0.5mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Cr catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 8)",
+      "abrasive_synthesis": {
+        "description": "Commercial silica abrasive assumed.",
+        "precursors": [],
+        "synthesis_parameters": {
+          "chemical": { "solvents": [], "ph_agents": [], "synthesis_additives": [] },
+          "physical": { "process_stages": [] }
+        },
+        "post_synthesis": { "collection": {}, "treatment": {} }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": {
+            "material": "Silica",
+            "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Cr-catalyst", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "DI water", "percentage": null }
+        },
+        "processing": {
+          "dispersion": [],
+          "stabilization": {},
+          "ph_control": {
+            "target": { "min": "3.0", "max": "3.0" },
+            "agents": [{ "name": "HNO3/KOH", "concentration": null }]
+          }
+        }
+      },
+      "characterization": {
+        "morphology": { "particle_size": null, "shape": null, "surface_area": null },
+        "stability": null
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "388.1", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "platen_speed": { "value": "80", "unit": "rpm" },
+        "head_speed": { "value": "80", "unit": "rpm" },
+        "slurry_flow_rate": { "value": "150", "unit": "ml/min" },
+        "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_1wt_H2O2_1wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 1.0 wt% silica, 1.0 wt% H2O2, pH 3.0. (FIG. 9)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "1.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "775.2", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_1wt_H2O2_1.5wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 1.0 wt% silica, 1.5 wt% H2O2, pH 3.0. (FIG. 9)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "1.5", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "855.8", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_1wt_H2O2_3wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 1.0 wt% silica, 3.0 wt% H2O2, pH 3.0. (FIG. 9)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "3.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "666.7", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_1wt_H2O2_4wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 1.0 wt% silica, 4.0 wt% H2O2, pH 3.0. (FIG. 9)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "4.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "509.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Fe catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 10, 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "636.9", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1.5mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.5 mM Fe catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 10)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "772", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_2mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 2.0 mM Fe catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 10)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "2.0", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "890.3", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_3mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 3.0 mM Fe catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 10)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "3.0", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "408.4", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_4mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 4.0 mM Fe catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 10)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "4.0", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "53.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_0.1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 0.1 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 11)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "0.1", "final": "0.1", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "150", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_0.5wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 0.5 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 11)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "0.5", "final": "0.5", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "617.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_2wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 2.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 11)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "2.0", "final": "2.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "1150.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_3wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 3.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 11, 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "3.0", "final": "3.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "1312.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_4wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 4.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 11)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "4.0", "final": "4.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "1269", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 12, 13)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "329.8", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Cu_0.5mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 12, 13)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "364", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Cr_0.5mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Cr catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 12)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Cr-catalyst", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "183.5", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Ce_0.5mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Ce catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 12)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Ce-catalyst", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "212", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Fe catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 13, 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "364.1", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Cu_1mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 13)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "332.3", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Cu_0.5mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe + 0.5 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 13, 14)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "766", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.25mM_Cu_0.25mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.25 mM Fe + 0.25 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 14)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.25", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.25", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "669.8", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.25mM_Cu_0.5mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.25 mM Fe + 0.5 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 14)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.25", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "767", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.25mM_Cu_1mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.25 mM Fe + 1.0 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 14)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.25", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "539.4", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Cu_0.25mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe + 0.25 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 14)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.25", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "708.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Cu_1mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe + 1.0 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 14)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "656.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1mM_Cu_0.25mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Fe + 0.25 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 14)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.25", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "683.9", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1mM_Cu_0.5mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Fe + 0.5 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 14, 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "923", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1mM_Cu_1mM_Silica_1wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Fe + 1.0 mM Cu catalyst, 1.0 wt% silica, pH 3.0. No oxidizer. (FIG. 14)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "660", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Silica_3wt_pH3_NoCat_NoOx",
+      "experiment_context": "CMP of B-Si compound with 3.0 wt% silica abrasive, pH 3.0. No catalyst, no oxidizer. (FIG. 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "3.0", "final": "3.0", "unit": "wt%" } },
+          "slurry_additives": [], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "80.3", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1mM_Silica_3wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Fe catalyst, 3.0 wt% silica, pH 3.0. No oxidizer. (FIG. 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "3.0", "final": "3.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "450.3", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1mM_Cu_0.5mM_Silica_3wt_NoOx_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Fe + 0.5 mM Cu catalyst, 3.0 wt% silica, pH 3.0. No oxidizer. (FIG. 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "3.0", "final": "3.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "1048.5", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Cu_0.5mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe + 0.5 mM Cu catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "1180.9", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_0.5mM_Cu_0.5mM_Silica_3wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 0.5 mM Fe + 0.5 mM Cu catalyst, 3.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "3.0", "final": "3.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "1769.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1mM_Cu_0.5mM_Silica_1wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Fe + 0.5 mM Cu catalyst, 1.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "1208.1", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Fe_1mM_Cu_0.5mM_Silica_3wt_H2O2_2wt_pH3",
+      "experiment_context": "CMP of B-Si compound with 1.0 mM Fe + 0.5 mM Cu catalyst, 3.0 wt% silica, 2.0 wt% H2O2, pH 3.0. (FIG. 15)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica", "concentration": { "initial": "3.0", "final": "3.0", "unit": "wt%" } },
+          "slurry_additives": [
+            { "name": "Fe(NO3)3", "type": "Catalyst", "concentration": { "value": "1.0", "unit": "mM" } },
+            { "name": "Cu(NO3)2", "type": "Catalyst", "concentration": { "value": "0.5", "unit": "mM" } },
+            { "name": "H2O2", "type": "Oxidizer", "concentration": { "value": "2.0", "unit": "wt%" } }
+          ], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "1757.4", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Silica_APTES_1wt_pH3_NoCat_NoOx",
+      "experiment_context": "CMP of B-Si compound with 1.0 wt% APTES-modified silica abrasive, pH 3. No catalyst, no oxidizer. (FIG. 20)",
+      "abrasive_synthesis": {
+        "description": "Silica particles surface-modified with APTES.",
+        "precursors": [{"material_name": "Silica (PL3)"}, {"material_name": "APTES"}],
+        "synthesis_parameters": { "chemical": {}, "physical": {} },
+        "post_synthesis": { "collection": {}, "treatment": {} }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica-APTES (PL3+APTES)", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "3.0", "max": "3.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "138.5", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Silica_1wt_pH5_NoCat_NoOx",
+      "experiment_context": "CMP of B-Si compound with 1.0 wt% silica abrasive (PL3), pH 5. No catalyst, no oxidizer. (FIG. 20)",
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica (PL3)", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "5.0", "max": "5.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "26.7", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    },
+    {
+      "sample_id": "Silica_APTES_1wt_pH5_NoCat_NoOx",
+      "experiment_context": "CMP of B-Si compound with 1.0 wt% APTES-modified silica abrasive, pH 5. No catalyst, no oxidizer. (FIG. 20)",
+      "abrasive_synthesis": {
+        "description": "Silica particles surface-modified with APTES.",
+        "precursors": [{"material_name": "Silica (PL3)"}, {"material_name": "APTES"}],
+        "synthesis_parameters": { "chemical": {}, "physical": {} },
+        "post_synthesis": { "collection": {}, "treatment": {} }
+      },
+      "slurry_preparation": {
+        "composition": {
+          "abrasive": { "material": "Silica-APTES (PL3+APTES)", "concentration": { "initial": "1.0", "final": "1.0", "unit": "wt%" } },
+          "slurry_additives": [], "solvent": { "name": "DI water" } },
+        "processing": { "ph_control": { "target": { "min": "5.0", "max": "5.0" }, "agents": [{ "name": "HNO3/KOH" }] } }
+      },
+      "cmp_performance": {
+        "polishing_target": "Boron Silicon (B-Si) compound",
+        "material_removal_rate": { "value": "245.6", "unit": "A/min" },
+        "polishing_pressure": { "value": "3", "unit": "psi" }, "platen_speed": { "value": "80", "unit": "rpm" }, "head_speed": { "value": "80", "unit": "rpm" }, "slurry_flow_rate": { "value": "150", "unit": "ml/min" }, "pad_composition": "IC 1000"
+      }
+    }
+  ]
+}

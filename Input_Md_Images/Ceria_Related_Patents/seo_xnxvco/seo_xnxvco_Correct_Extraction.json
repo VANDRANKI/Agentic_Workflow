@@ -1,0 +1,1149 @@
+{
+  "doi": "US 11,279,852 B2",
+  "title": "CMP SLURRY COMPOSITIONS AND METHODS OF FABRICATING A SEMICONDUCTOR DEVICE USING THE SAME",
+  "year_published": "2022",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Embodiment_1",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 5 wt% picolinic acid, 1 wt% oxalic acid, 5 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle.",
+        "precursors": [],
+        "synthesis_parameters": {},
+        "post_synthesis": {}
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": {
+              "initial": "4",
+              "final": "4",
+              "unit": "wt%"
+            }
+          },
+          "slurry_additives": [
+            {
+              "name": "Picolinic acid",
+              "type": "Dispersing agent",
+              "concentration": { "value": "5", "unit": "wt%" }
+            },
+            {
+              "name": "Oxalic acid",
+              "type": "Auxiliary oxidizing agent",
+              "concentration": { "value": "1", "unit": "wt%" }
+            },
+            {
+              "name": "Sorbitol",
+              "type": "Sugar alcohol compound",
+              "concentration": { "value": "5", "unit": "wt%" }
+            }
+          ],
+          "solvent": {
+            "name": "Water",
+            "quantity": { "value": null, "unit": "" }
+          }
+        },
+        "processing": {
+          "description": "pH adjusted to ~3.3. General pH range for compositions 2-7.",
+          "dispersion": [],
+          "stabilization": { "aging": { "duration": {"value": null, "unit": ""}, "equipment": ""}},
+          "ph_control": {
+            "target_final_slurry_ph": "3.3",
+            "agents": []
+          }
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "average": { "min": "100", "max": "200", "unit": "nm" },
+          "measurement_method_used": null
+        },
+        "particle_morphology": "Colloidal ceria with positively-charged surface",
+        "zeta_potential_slurry": { "min": "+5", "max": "+70", "unit": "mV" },
+        "electric_conductivity_slurry": { "min": "300", "max": "500", "unit": "mS/cm" }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "2514", "unit": "Å/min" },
+          { "material": "SiN", "value": "31", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "81" },
+        "process_temperature": { "value": "RT", "unit": "" },
+        "polishing_pressure": { "value": null, "unit": "psi" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_2",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 10 wt% picolinic acid, 2 wt% oxalic acid, 5 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "10", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "5", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3014", "unit": "Å/min" },
+          { "material": "SiN", "value": "38", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "79" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_3",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 20 wt% picolinic acid, 2 wt% oxalic acid, 5 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "20", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "5", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3354", "unit": "Å/min" },
+          { "material": "SiN", "value": "41", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "82" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_4",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 25 wt% picolinic acid, 2 wt% oxalic acid, 5 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "25", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "5", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3217", "unit": "Å/min" },
+          { "material": "SiN", "value": "40", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "80" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_5",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 5 wt% picolinic acid, 1 wt% oxalic acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "5", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "1715", "unit": "Å/min" },
+          { "material": "SiN", "value": "23", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "75" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_6",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 10 wt% picolinic acid, 2 wt% oxalic acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "10", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3017", "unit": "Å/min" },
+          { "material": "SiN", "value": "35", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "86" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_7",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 15 wt% picolinic acid, 1 wt% oxalic acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "2879", "unit": "Å/min" },
+          { "material": "SiN", "value": "26", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "111" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_8",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 15 wt% picolinic acid, 2 wt% oxalic acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3295", "unit": "Å/min" },
+          { "material": "SiN", "value": "34", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "97" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_9",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 20 wt% picolinic acid, 1 wt% oxalic acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "20", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "2917", "unit": "Å/min" },
+          { "material": "SiN", "value": "31", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "94" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_10",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 25 wt% picolinic acid, 2.5 wt% oxalic acid, 20 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "25", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2.5", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "20", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3401", "unit": "Å/min" },
+          { "material": "SiN", "value": "41", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "83" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_11",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 25 wt% picolinic acid, 1 wt% succinic acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "25", "unit": "wt%" } },
+            { "name": "Succinic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "1815", "unit": "Å/min" },
+          { "material": "SiN", "value": "35", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "52" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_12",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 25 wt% picolinic acid, 2 wt% succinic acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "25", "unit": "wt%" } },
+            { "name": "Succinic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "2145", "unit": "Å/min" },
+          { "material": "SiN", "value": "41", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "52" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_13",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 25 wt% picolinic acid, 1 wt% tartaric acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "25", "unit": "wt%" } },
+            { "name": "Tartaric acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "1713", "unit": "Å/min" },
+          { "material": "SiN", "value": "32", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "54" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_14",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 25 wt% picolinic acid, 2 wt% tartaric acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "25", "unit": "wt%" } },
+            { "name": "Tartaric acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "1947", "unit": "Å/min" },
+          { "material": "SiN", "value": "42", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "46" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_15",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 25 wt% picolinic acid, 1 wt% glutaric acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "25", "unit": "wt%" } },
+            { "name": "Glutaric acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "1517", "unit": "Å/min" },
+          { "material": "SiN", "value": "41", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "37" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_16",
+      "experiment_context": "CMP slurry composition from Table 1: 4 wt% colloidal ceria, 25 wt% picolinic acid, 2 wt% glutaric acid, 10 wt% sorbitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "25", "unit": "wt%" } },
+            { "name": "Glutaric acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "1794", "unit": "Å/min" },
+          { "material": "SiN", "value": "50", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "35" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_17",
+      "experiment_context": "CMP slurry composition from Table 2 (interpreted): 4 wt% colloidal ceria, 10 wt% picolinic acid, 2 wt% oxalic acid, 10 wt% xylitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "10", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Xylitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3185", "unit": "Å/min" },
+          { "material": "SiN", "value": "67", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "48" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_18",
+      "experiment_context": "CMP slurry composition from Table 2 (interpreted): 4 wt% colloidal ceria, 15 wt% picolinic acid, 2 wt% oxalic acid, 10 wt% xylitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Xylitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3218", "unit": "Å/min" },
+          { "material": "SiN", "value": "61", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "53" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_19",
+      "experiment_context": "CMP slurry composition from Table 2 (interpreted): 4 wt% colloidal ceria, 10 wt% picolinic acid, 2 wt% oxalic acid, 10 wt% threitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "10", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Threitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3287", "unit": "Å/min" },
+          { "material": "SiN", "value": "71", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "46" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_20",
+      "experiment_context": "CMP slurry composition from Table 2 (interpreted): 4 wt% colloidal ceria, 15 wt% picolinic acid, 2 wt% oxalic acid, 10 wt% threitol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } },
+            { "name": "Threitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3287", "unit": "Å/min" },
+          { "material": "SiN", "value": "69", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "48" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Comparative_Embodiment_1",
+      "experiment_context": "CMP slurry composition from Table 3: 4 wt% colloidal ceria, 5 wt% picolinic acid, 1 wt% oxalic acid. No sugar alcohol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "5", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "2621", "unit": "Å/min" },
+          { "material": "SiN", "value": "109", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "24" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Comparative_Embodiment_2",
+      "experiment_context": "CMP slurry composition from Table 3: 4 wt% colloidal ceria, 10 wt% picolinic acid, 2 wt% oxalic acid. No sugar alcohol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "10", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3115", "unit": "Å/min" },
+          { "material": "SiN", "value": "120", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "26" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Comparative_Embodiment_3",
+      "experiment_context": "CMP slurry composition from Table 3: 4 wt% colloidal ceria, 20 wt% picolinic acid, 2 wt% oxalic acid. No sugar alcohol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "20", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3481", "unit": "Å/min" },
+          { "material": "SiN", "value": "127", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "27" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Comparative_Embodiment_4",
+      "experiment_context": "CMP slurry composition from Table 3: 4 wt% colloidal ceria, 25 wt% picolinic acid, 2 wt% oxalic acid. No sugar alcohol. pH ~3.3.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to ~3.3.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "25", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "2", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.3" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "average": { "min": "100", "max": "200", "unit": "nm" } },
+        "particle_morphology": "Colloidal ceria with positively-charged surface"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3005", "unit": "Å/min" },
+          { "material": "SiN", "value": "118", "unit": "Å/min" }
+        ],
+        "selectivity": { "type": "ITO/SiN", "value": "25" },
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_21",
+      "experiment_context": "CMP slurry composition from Table 5: 4 wt% colloidal ceria, 15 wt% picolinic acid, 1.5 wt% oxalic acid, 10 wt% sorbitol. pH 3.33.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to 3.33.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "4", "final": "4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1.5", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.33" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "141", "unit": "nm", "measurement_method_used": null },
+        "particle_morphology": "Colloidal ceria with positively-charged surface",
+        "electric_conductivity_slurry": { "value": "373", "unit": "mS/cm" }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "2834", "unit": "Å/min" }
+        ],
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_22",
+      "experiment_context": "CMP slurry composition from Table 5: 2 wt% colloidal ceria, 15 wt% picolinic acid, 1.5 wt% oxalic acid, 10 wt% sorbitol. pH 3.33.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to 3.33.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "2", "final": "2", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1.5", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.33" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "142", "unit": "nm", "measurement_method_used": null },
+        "particle_morphology": "Colloidal ceria with positively-charged surface",
+        "electric_conductivity_slurry": { "value": "401", "unit": "mS/cm" }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3154", "unit": "Å/min" }
+        ],
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_23",
+      "experiment_context": "CMP slurry composition from Table 5: 1 wt% colloidal ceria, 15 wt% picolinic acid, 1.5 wt% oxalic acid, 10 wt% sorbitol. pH 3.31.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to 3.31.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "1", "final": "1", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1.5", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.31" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "141", "unit": "nm", "measurement_method_used": null },
+        "particle_morphology": "Colloidal ceria with positively-charged surface",
+        "electric_conductivity_slurry": { "value": "436.3", "unit": "mS/cm" }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3327", "unit": "Å/min" }
+        ],
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_24",
+      "experiment_context": "CMP slurry composition from Table 5: 0.7 wt% colloidal ceria, 15 wt% picolinic acid, 1.5 wt% oxalic acid, 10 wt% sorbitol. pH 3.29.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to 3.29.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "0.7", "final": "0.7", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1.5", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.29" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "143", "unit": "nm", "measurement_method_used": null },
+        "particle_morphology": "Colloidal ceria with positively-charged surface",
+        "electric_conductivity_slurry": { "value": "438.4", "unit": "mS/cm" }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "3011", "unit": "Å/min" }
+        ],
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_25",
+      "experiment_context": "CMP slurry composition from Table 5: 0.4 wt% colloidal ceria, 15 wt% picolinic acid, 1.5 wt% oxalic acid, 10 wt% sorbitol. pH 3.29.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to 3.29.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "0.4", "final": "0.4", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1.5", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.29" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "143", "unit": "nm", "measurement_method_used": null },
+        "particle_morphology": "Colloidal ceria with positively-charged surface",
+        "electric_conductivity_slurry": { "value": "449", "unit": "mS/cm" }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "2211", "unit": "Å/min" }
+        ],
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_26",
+      "experiment_context": "CMP slurry composition from Table 5: 0.2 wt% colloidal ceria, 15 wt% picolinic acid, 1.5 wt% oxalic acid, 10 wt% sorbitol. pH 3.21.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to 3.21.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "0.2", "final": "0.2", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1.5", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.21" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "141", "unit": "nm", "measurement_method_used": null },
+        "particle_morphology": "Colloidal ceria with positively-charged surface",
+        "electric_conductivity_slurry": { "value": "446.3", "unit": "mS/cm" }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "1403", "unit": "Å/min" }
+        ],
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    },
+    {
+      "sample_id": "Embodiment_27",
+      "experiment_context": "CMP slurry composition from Table 5: 0.1 wt% colloidal ceria, 15 wt% picolinic acid, 1.5 wt% oxalic acid, 10 wt% sorbitol. pH 3.22.",
+      "abrasive_synthesis": {
+        "description": "Pre-synthesized colloidal ceria used as polishing particle."
+      },
+      "slurry_preparation": {
+        "description": "Slurry prepared with specified components in water, pH adjusted to 3.22.",
+        "composition": {
+          "abrasive": {
+            "material": "Colloidal Ceria",
+            "concentration": { "initial": "0.1", "final": "0.1", "unit": "wt%" }
+          },
+          "slurry_additives": [
+            { "name": "Picolinic acid", "type": "Dispersing agent", "concentration": { "value": "15", "unit": "wt%" } },
+            { "name": "Oxalic acid", "type": "Auxiliary oxidizing agent", "concentration": { "value": "1.5", "unit": "wt%" } },
+            { "name": "Sorbitol", "type": "Sugar alcohol compound", "concentration": { "value": "10", "unit": "wt%" } }
+          ],
+          "solvent": { "name": "Water", "quantity": { "value": null, "unit": "" } }
+        },
+        "processing": { "ph_control": { "target_final_slurry_ph": "3.22" } }
+      },
+      "characterization": {
+        "particle_size_distribution": { "value": "142", "unit": "nm", "measurement_method_used": null },
+        "particle_morphology": "Colloidal ceria with positively-charged surface",
+        "electric_conductivity_slurry": { "value": "447.2", "unit": "mS/cm" }
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "1", "unit": "min" },
+        "material_removal_rate": [
+          { "material": "ITO", "value": "778", "unit": "Å/min" }
+        ],
+        "process_temperature": { "value": "RT", "unit": "" }
+      }
+    }
+  ]
+}

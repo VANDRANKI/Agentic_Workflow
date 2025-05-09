@@ -1,0 +1,111 @@
+{
+  "doi": "US5994224",
+  "title": "IC MECHANICAL PLANARIZATION PROCESS INCORPORATING TWO SLURRY COMPOSITIONS FOR FASTER MATERIAL REMOVAL TIMES",
+  "year_published": "1999",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Tungsten_CMP_Stage1_KOH_Applied",
+      "experiment_context": "First stage of a two-stage Chemical Mechanical Planarization (CMP) process for tungsten. This stage utilizes a standard slurry (composed of water, aluminum oxide, and hydrogen peroxide) with the addition of Potassium Hydroxide (KOH) to achieve rapid material removal. Approximately 80-90% of the material is removed in this stage, which typically lasts for 1 minute. The resulting surface is relatively rough.",
+      "slurry_preparation": {
+        "abrasive_material": "Aluminum Oxide",
+        "slurry_components_description": "Standard slurry mixture (water, aluminum oxide, hydrogen peroxide) with KOH.",
+        "additives": [
+          {
+            "name": "KOH (Potassium Hydroxide)",
+            "type": "Strong base / pH adjuster / Chemical accelerant",
+            "concentration_qualitative": "Applied during this stage"
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizer (component of standard slurry)",
+            "concentration_qualitative": "Component of standard slurry"
+          }
+        ],
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": null,
+            "unit": "Not specified"
+          }
+        },
+        "delivery_method": "KOH and standard slurry components are applied via separate application delivery mechanisms, likely mixed at or near the polishing surface to prevent slurry degradation (e.g., titration/hardening)."
+      },
+      "cmp_performance": {
+        "target_material_polished": "Tungsten",
+        "stage_description": "First time period: Aggressive chemical removal with KOH and slurry.",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_percentage_in_stage": "80-90%",
+        "primary_removal_mechanism": "Chemical action (enhanced by KOH)",
+        "secondary_removal_mechanism": "Mechanical action (abrasive polishing pad)",
+        "planarization_rate_qualitative": "High / Fast",
+        "process_temperature": {
+          "value": "Not specified",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": null,
+          "unit": "Not specified"
+        },
+        "equipment_model": "Generic CMP machine (Ref: FIG. 1)",
+        "pad_composition": "Coarse polishing pad (Ref: FIG. 1, polishing pad 16)"
+      },
+      "characterization_of_result": {
+        "surface_finish_after_stage": "Relatively rough (Ref: FIG. 7)",
+        "notes": "A small portion of material (25 in FIG. 7) remains to be removed. This stage focuses on bulk removal."
+      }
+    },
+    {
+      "sample_id": "Tungsten_CMP_Stage2_KOH_Removed",
+      "experiment_context": "Second stage of a two-stage Chemical Mechanical Planarization (CMP) process for tungsten. In this stage, KOH is removed, and polishing continues with the standard slurry (water, aluminum oxide, hydrogen peroxide). This slows down the chemical action, allowing for more precise mechanical removal of the remaining 10-20% of material. This stage also typically lasts for 1 minute and aims to achieve a smooth, highly planarized surface.",
+      "slurry_preparation": {
+        "abrasive_material": "Aluminum Oxide",
+        "slurry_components_description": "Standard slurry mixture (water, aluminum oxide, hydrogen peroxide). KOH is not applied in this stage.",
+        "additives": [
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizer (component of standard slurry)",
+            "concentration_qualitative": "Component of standard slurry"
+          }
+        ],
+        "solvent": {
+          "name": "Water",
+          "quantity": {
+            "value": null,
+            "unit": "Not specified"
+          }
+        },
+        "delivery_method": "Standard slurry components applied. Flow of KOH is stopped."
+      },
+      "cmp_performance": {
+        "target_material_polished": "Tungsten",
+        "stage_description": "Second time period: Precision planarization with slurry only (KOH removed).",
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_percentage_in_stage": "10-20% (remaining material)",
+        "primary_removal_mechanism": "Mechanical action (abrasive polishing pad)",
+        "secondary_removal_mechanism": "Chemical action (standard slurry)",
+        "planarization_rate_qualitative": "Low / Slow and controlled",
+        "process_temperature": {
+          "value": "Not specified",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": null,
+          "unit": "Not specified"
+        },
+        "equipment_model": "Generic CMP machine (Ref: FIG. 1)",
+        "pad_composition": "Coarse polishing pad (Ref: FIG. 1, polishing pad 16)"
+      },
+      "characterization_of_result": {
+        "surface_finish_after_stage": "Smooth planarization (Ref: FIG. 3, desired outcome)",
+        "notes": "This stage focuses on achieving the final desired planarity and surface quality."
+      }
+    }
+  ]
+}

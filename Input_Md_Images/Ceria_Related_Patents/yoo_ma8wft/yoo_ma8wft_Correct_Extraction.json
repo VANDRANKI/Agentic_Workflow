@@ -1,0 +1,631 @@
+{
+  "document_type": "patent",
+  "patent_number": "US 2017/0183537 A1",
+  "publication_date": "2017-06-29",
+  "title": "POLISHING SLURRY COMPOSITION",
+  "inventors": [
+    "Joo Hyoung YOON, Anseong-si (KR)",
+    "Seung Chul HONG, Anseong-si (KR)",
+    "Young HO YOON, Anseong-si (KR)",
+    "UnGyn PAIK, Seoul (KR)",
+    "Ji Hoon SEO, Seoul (KR)",
+    "Ki Jung KIM, Osan-si (KR)",
+    "Kang Cheon LEE, Seoul (KR)"
+  ],
+  "assignees": [
+    "K.C.TECH CO., LTD, Anseong-si (KR)",
+    "IUCF-HYU(INDUSTRY-UNIVERSITY COOPERATION FOUNDATION HANYANG UNIVERSITY), Seoul (KR)"
+  ],
+  "application_number": "15/325,095",
+  "pct_information": {
+    "pct_number": "PCT/KR2015/008370",
+    "pct_filed_date": "2015-08-11"
+  },
+  "foreign_application_priority_data": [
+    {
+      "country": "KR",
+      "application_number": "10-2014-0111222",
+      "date": null
+    },
+    {
+      "country": "KR",
+      "application_number": "10-2014-0149265",
+      "date": null
+    },
+    {
+      "country": "KR",
+      "application_number": "10-2015-0098372",
+      "date": null
+    }
+  ],
+  "abstract_text": "The present invention relates to a polishing slurry composition. A polishing slurry composition according to a first aspect of the present invention comprises abrasive particles and an oxidant, polishes tungsten having a thickness of 10-1,000 Å, and improves the topography of tungsten. Additionally, the polishing slurry composition according to a second aspect of the present invention comprises: at least two abrasive particles among first abrasive particles, second abrasive particles and third abrasive particles; and an oxidant, wherein the primary particle size of the first abrasive particles is 20 nm or more and less than 45 nm , the primary particle size of the second abrasive particles is 45 nm or more and less than 130 nm , and the primary particle size of the third abrasive particles is 130 nm or more and less than 250 nm .",
+  "samples": [
+    {
+      "sample_id": "US20170183537A1_Aspect1_ComparativeExample",
+      "experiment_context": "Comparative example for first aspect: Polishing slurry with 3.5 wt% silica and 8 wt% hydrogen peroxide.",
+      "abrasive_details": {
+        "description": "Silica abrasive.",
+        "types": [
+          {
+            "name": "silica",
+            "primary_particle_size_nm_range": null,
+            "secondary_particle_size_nm_range": null,
+            "percentage_in_total_abrasive": 100
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 8, "unit": "wt%" }
+        },
+        "ph_control": {
+          "target_ph": null,
+          "adjuster": null
+        },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 3, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": { "value": 330, "unit": "Å/min" },
+        "surface_topography_image_ref": "FIG. 4 (images/img-4.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect1_Example",
+      "experiment_context": "Example for first aspect: Polishing slurry with 3.5 wt% silica, 0.5 wt% hydrogen peroxide, pH 2.5.",
+      "abrasive_details": {
+        "description": "Silica abrasive.",
+        "types": [
+          {
+            "name": "silica",
+            "primary_particle_size_nm_range": null,
+            "secondary_particle_size_nm_range": null,
+            "percentage_in_total_abrasive": 100
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": {
+          "target_ph": 2.5,
+          "adjuster": "nitric acid"
+        },
+        "solvent": { "name": "DI water" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 3, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": { "value": 556, "unit": "Å/min" },
+        "surface_topography_image_ref": "FIG. 5 (images/img-5.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_ComparativeExample1",
+      "experiment_context": "Comparative Example 1 for second aspect: Polishing slurry with 100% first silica abrasive particles (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5.",
+      "abrasive_details": {
+        "description": "First silica abrasive particles.",
+        "types": [
+          {
+            "name": "first silica abrasive particles",
+            "primary_particle_size_nm_range": "20 to <45",
+            "secondary_particle_size_nm_range": "30 to <100",
+            "percentage_in_total_abrasive": 100
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.498, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)"
+        },
+        "surface_topography_image_ref": "FIG. 7 (images/img-7.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_ComparativeExample2",
+      "experiment_context": "Comparative Example 2 for second aspect: Polishing slurry with 100% second silica abrasive particles (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5.",
+      "abrasive_details": {
+        "description": "Second silica abrasive particles.",
+        "types": [
+          {
+            "name": "second silica abrasive particles",
+            "primary_particle_size_nm_range": "45 to <130",
+            "secondary_particle_size_nm_range": "100 to <250",
+            "percentage_in_total_abrasive": 100
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.375, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)"
+        },
+        "surface_topography_image_ref": "FIG. 8 (images/img-8.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_ComparativeExample3",
+      "experiment_context": "Comparative Example 3 for second aspect: Polishing slurry with 100% third silica abrasive particles (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5.",
+      "abrasive_details": {
+        "description": "Third silica abrasive particles.",
+        "types": [
+          {
+            "name": "third silica abrasive particles",
+            "primary_particle_size_nm_range": "130 to <250",
+            "secondary_particle_size_nm_range": "250 to <500",
+            "percentage_in_total_abrasive": 100
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.264, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)"
+        },
+        "surface_topography_image_ref": "FIG. 9 (images/img-9.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_Example1",
+      "experiment_context": "Example 1 for second aspect: Polishing slurry with 50% first and 50% second silica abrasives (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5.",
+      "abrasive_details": {
+        "description": "Mixture of first and second silica abrasive particles.",
+        "types": [
+          {
+            "name": "first silica abrasive particles",
+            "primary_particle_size_nm_range": "20 to <45",
+            "secondary_particle_size_nm_range": "30 to <100",
+            "percentage_in_total_abrasive": 50
+          },
+          {
+            "name": "second silica abrasive particles",
+            "primary_particle_size_nm_range": "45 to <130",
+            "secondary_particle_size_nm_range": "100 to <250",
+            "percentage_in_total_abrasive": 50
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.693, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)"
+        },
+        "surface_topography_image_ref": "FIG. 10 (images/img-10.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_Example2",
+      "experiment_context": "Example 2 for second aspect: Polishing slurry with 50% first and 50% third silica abrasives (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5.",
+      "abrasive_details": {
+        "description": "Mixture of first and third silica abrasive particles.",
+        "types": [
+          {
+            "name": "first silica abrasive particles",
+            "primary_particle_size_nm_range": "20 to <45",
+            "secondary_particle_size_nm_range": "30 to <100",
+            "percentage_in_total_abrasive": 50
+          },
+          {
+            "name": "third silica abrasive particles",
+            "primary_particle_size_nm_range": "130 to <250",
+            "secondary_particle_size_nm_range": "250 to <500",
+            "percentage_in_total_abrasive": 50
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.605, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)"
+        },
+        "surface_topography_image_ref": "FIG. 11 (images/img-11.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_Example3",
+      "experiment_context": "Example 3 for second aspect: Polishing slurry with 50% second and 50% third silica abrasives (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5.",
+      "abrasive_details": {
+        "description": "Mixture of second and third silica abrasive particles.",
+        "types": [
+          {
+            "name": "second silica abrasive particles",
+            "primary_particle_size_nm_range": "45 to <130",
+            "secondary_particle_size_nm_range": "100 to <250",
+            "percentage_in_total_abrasive": 50
+          },
+          {
+            "name": "third silica abrasive particles",
+            "primary_particle_size_nm_range": "130 to <250",
+            "secondary_particle_size_nm_range": "250 to <500",
+            "percentage_in_total_abrasive": 50
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.508, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)"
+        },
+        "surface_topography_image_ref": "FIG. 12 (images/img-12.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_Example4",
+      "experiment_context": "Example 4 for second aspect: Polishing slurry with 20% first, 40% second, 40% third silica abrasives (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5.",
+      "abrasive_details": {
+        "description": "Mixture of first, second, and third silica abrasive particles.",
+        "types": [
+          {
+            "name": "first silica abrasive particles",
+            "primary_particle_size_nm_range": "20 to <45",
+            "secondary_particle_size_nm_range": "30 to <100",
+            "percentage_in_total_abrasive": 20
+          },
+          {
+            "name": "second silica abrasive particles",
+            "primary_particle_size_nm_range": "45 to <130",
+            "secondary_particle_size_nm_range": "100 to <250",
+            "percentage_in_total_abrasive": 40
+          },
+          {
+            "name": "third silica abrasive particles",
+            "primary_particle_size_nm_range": "130 to <250",
+            "secondary_particle_size_nm_range": "250 to <500",
+            "percentage_in_total_abrasive": 40
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.763, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)"
+        },
+        "surface_topography_image_ref": "FIG. 13 (images/img-13.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_Example5",
+      "experiment_context": "Example 5 for second aspect: Polishing slurry with 40% first, 20% second, 40% third silica abrasives (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5.",
+      "abrasive_details": {
+        "description": "Mixture of first, second, and third silica abrasive particles.",
+        "types": [
+          {
+            "name": "first silica abrasive particles",
+            "primary_particle_size_nm_range": "20 to <45",
+            "secondary_particle_size_nm_range": "30 to <100",
+            "percentage_in_total_abrasive": 40
+          },
+          {
+            "name": "second silica abrasive particles",
+            "primary_particle_size_nm_range": "45 to <130",
+            "secondary_particle_size_nm_range": "100 to <250",
+            "percentage_in_total_abrasive": 20
+          },
+          {
+            "name": "third silica abrasive particles",
+            "primary_particle_size_nm_range": "130 to <250",
+            "secondary_particle_size_nm_range": "250 to <500",
+            "percentage_in_total_abrasive": 40
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.78, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)"
+        },
+        "surface_topography_image_ref": "FIG. 14 (images/img-14.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_Example6",
+      "experiment_context": "Example 6 for second aspect: Polishing slurry with 40% first, 40% second, 20% third silica abrasives (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5. Lowest polishing rate observed.",
+      "abrasive_details": {
+        "description": "Mixture of first, second, and third silica abrasive particles.",
+        "types": [
+          {
+            "name": "first silica abrasive particles",
+            "primary_particle_size_nm_range": "20 to <45",
+            "secondary_particle_size_nm_range": "30 to <100",
+            "percentage_in_total_abrasive": 40
+          },
+          {
+            "name": "second silica abrasive particles",
+            "primary_particle_size_nm_range": "45 to <130",
+            "secondary_particle_size_nm_range": "100 to <250",
+            "percentage_in_total_abrasive": 40
+          },
+          {
+            "name": "third silica abrasive particles",
+            "primary_particle_size_nm_range": "130 to <250",
+            "secondary_particle_size_nm_range": "250 to <500",
+            "percentage_in_total_abrasive": 20
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.799, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)",
+          "note": "Lowest polishing rate among Ex 1-7"
+        },
+        "surface_topography_image_ref": "FIG. 15 (images/img-15.jpeg)"
+      }
+    },
+    {
+      "sample_id": "US20170183537A1_Aspect2_Example7",
+      "experiment_context": "Example 7 for second aspect: Polishing slurry with 33.3% first, 33.3% second, 33.3% third silica abrasives (total 3.5 wt%), 0.5 wt% H2O2, pH 2.5.",
+      "abrasive_details": {
+        "description": "Mixture of first, second, and third silica abrasive particles in equal proportions.",
+        "types": [
+          {
+            "name": "first silica abrasive particles",
+            "primary_particle_size_nm_range": "20 to <45",
+            "secondary_particle_size_nm_range": "30 to <100",
+            "percentage_in_total_abrasive": 33.33
+          },
+          {
+            "name": "second silica abrasive particles",
+            "primary_particle_size_nm_range": "45 to <130",
+            "secondary_particle_size_nm_range": "100 to <250",
+            "percentage_in_total_abrasive": 33.33
+          },
+          {
+            "name": "third silica abrasive particles",
+            "primary_particle_size_nm_range": "130 to <250",
+            "secondary_particle_size_nm_range": "250 to <500",
+            "percentage_in_total_abrasive": 33.33
+          }
+        ],
+        "total_concentration_in_slurry": { "value": 3.5, "unit": "wt%" }
+      },
+      "slurry_preparation": {
+        "oxidizer": {
+          "name": "hydrogen peroxide",
+          "concentration": { "value": 0.5, "unit": "wt%" }
+        },
+        "ph_control": { "target_ph": 2.5, "adjuster": "nitric acid" },
+        "solvent": { "name": "DI water" }
+      },
+      "characterization_of_abrasive_mixture": {
+        "contact_area_calculated": { "value": 0.786, "unit": "" }
+      },
+      "cmp_performance": {
+        "polishing_target_material": "tungsten",
+        "substrate_description": "6 cm x 6 cm tungsten wafer",
+        "equipment_model": "CETR CP-4 (Bruker Corporation)",
+        "polishing_conditions": {
+          "platen_pressure": { "value": 4, "unit": "psi" },
+          "spindle_speed": { "value": 69, "unit": "rpm" },
+          "platen_speed": { "value": 70, "unit": "rpm" },
+          "slurry_flow_rate": { "value": 100, "unit": "ml/min" }
+        },
+        "material_removal_rate": {
+          "value": null,
+          "unit": "Å/min",
+          "source": "FIG. 6 (images/img-6.jpeg)"
+        },
+        "surface_topography_image_ref": "FIG. 16 (images/img-16.jpeg)"
+      }
+    }
+  ]
+}

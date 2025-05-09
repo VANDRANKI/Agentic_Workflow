@@ -1,0 +1,1410 @@
+{
+  "doi": "US 8,328,893 B2",
+  "title": "METHOD OF PRODUCING OXIDE PARTICLES, SLURRY, POLISHING SLURRY, AND METHOD OF POLISHING SUBSTRATE",
+  "year_published": "2012",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and succinic acid (52g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 1. Slurry made with 40g oxide, 1g (40 mass %) ammonium polyacrylate, 759g water. Pulverized for 30min (Microfluidizer). Avg particle size in slurry 300nm. No coarse particles/abrasion powder in dried slurry by SEM.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Succinic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Succinic Acid",
+          "quantity": { "value": 52, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 1"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "oxide_feed_mass": { "value": 40, "unit": "g" },
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 300,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles other than cerium oxide considered as abrasion powder were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and malonic acid (45g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 2. Slurry prepared similarly to Ex.1. Avg particle size in slurry 230nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Malonic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Malonic Acid",
+          "quantity": { "value": 45, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 2"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 230,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and citric acid (56g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 3. Slurry prepared. Avg particle size 210nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Citric Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Citric Acid",
+          "quantity": { "value": 56, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 3"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 210,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and tartaric acid (65g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 4. Slurry prepared. Avg particle size 230nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Tartaric Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Tartaric Acid",
+          "quantity": { "value": 65, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 4"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 230,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and malic acid (58g). Heated at 750°C for 1h. Oxide (~50g yellowish-white mass, ground in mortar) confirmed by XRD. SEM of powder in FIG. 5. Slurry prepared. Avg particle size 290nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Malic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Malic Acid",
+          "quantity": { "value": 58, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white mass (ground in a mortar)"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 5"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 290,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and oxalic acid.2H2O (55g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 6. Slurry prepared. Avg particle size 210nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Oxalic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Oxalic Acid",
+          "formulation": "oxalic acid.2H2O",
+          "quantity": { "value": 55, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 6"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 210,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_7",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and maleic acid (51g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 7. Slurry prepared. Avg particle size 280nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Maleic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Maleic Acid",
+          "quantity": { "value": 51, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 7"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 280,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_8",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and adipic acid (64g). Heated at 750°C for 1h. Oxide (~50g yellowish-white mass, ground in mortar) confirmed by XRD. SEM of powder in FIG. 8. Slurry prepared. Avg particle size 280nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Adipic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Adipic Acid",
+          "quantity": { "value": 64, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white mass (ground in a mortar)"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 8"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 280,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_9",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and salicylic acid (60g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 9. Slurry prepared. Avg particle size 250nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Salicylic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Salicylic Acid",
+          "quantity": { "value": 60, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 9"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 250,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_10",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and benzoic acid (105g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 10. Slurry prepared. Avg particle size 250nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Benzoic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Benzoic Acid",
+          "quantity": { "value": 105, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 10"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 250,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_11",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and phthalic acid (72g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 11. Slurry prepared. Avg particle size 240nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Phthalic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Phthalic Acid",
+          "quantity": { "value": 72, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 11"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 240,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_12",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and glycolic acid (33g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 12. Slurry prepared. Avg particle size 200nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Glycolic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Glycolic Acid",
+          "quantity": { "value": 33, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 12"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 200,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_13",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and ascorbic acid (77g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 13. Slurry prepared. Avg particle size 280nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Ascorbic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Ascorbic Acid",
+          "quantity": { "value": 77, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 13"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 280,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_14",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and polyacrylic acid (avg MW 25000, 63g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 14. Slurry prepared. Avg particle size 270nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Polyacrylic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Polyacrylic Acid",
+          "average_molecular_weight": 25000,
+          "quantity": { "value": 63, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 14"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 270,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_15",
+      "experiment_context": "Production of cerium oxide from cerium carbonate.8H2O (100g) and polymethacrylic acid (75g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 15. Slurry prepared. Avg particle size 290nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "cerium carbonate.8H2O",
+        "quantity": { "value": 100, "unit": "g" }
+      },
+      "precipitant_type": "Polymethacrylic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Polymethacrylic Acid",
+          "quantity": { "value": 75, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 15"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 290,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μm or more or particles considered as abrasion powder other than cerium oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_16",
+      "experiment_context": "Production of mixed cerium/lanthanum oxide from cerium carbonate.8H2O (90g), lanthanum carbonate hydrate (10g), and malonic acid (45g). Heated at 750°C for 1h. Oxide (~50g yield) confirmed by XRD. SEM of powder in FIG. 16. Slurry prepared. Avg particle size 220nm. No coarse particles/abrasion powder.",
+      "precursor_chemical": "Cerium Carbonate and Lanthanum Carbonate mixture",
+      "precursor_details": [
+        {
+          "name": "Cerium Carbonate",
+          "formulation": "cerium carbonate.8H2O",
+          "quantity": { "value": 90, "unit": "g" }
+        },
+        {
+          "name": "Lanthanum Carbonate",
+          "formulation": "lanthanum carbonate hydrate",
+          "quantity": { "value": 10, "unit": "g" }
+        }
+      ],
+      "precipitant_type": "Malonic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 750, "unit": "°C" },
+      "reaction_time": { "value": 1, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Malonic Acid",
+          "quantity": { "value": 45, "unit": "g" }
+        },
+        "mixing_of_reactants": {
+          "duration": { "value": 10, "unit": "minutes" },
+          "stirring_speed": { "value": 20, "unit": "rpm" },
+          "container": "polyethylene container"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "about 50 g yellowish-white powder"
+        },
+        "sem_image_reference_initial_oxide": "FIG. 16"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_of_oxide": {
+          "method": "countercurrent wet grinding machine MICROFLUIDIZER",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (confirmed to be a mixture of cerium oxide and lanthanum oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium/Lanthanum oxide mixture from this synthesis",
+        "components_for_slurry_batch": {
+          "oxide": { "value": 40, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 1, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 759, "unit": "g" }}
+        },
+        "initial_stirring": "10 minutes",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant",
+            "details": "Added as 1g of 40 mass % aqueous solution"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": 220,
+          "unit": "nm",
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)",
+          "note": "Average particle diameter in obtained slurry"
+        },
+        "particle_morphology_in_dried_slurry_sem": "Coarse particles of 3 μM or more or particles considered as abrasion powder other than cerium oxide or lanthanum oxide were not recognized."
+      },
+      "cmp_performance": null,
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_17",
+      "experiment_context": "Production of cerium oxide from commercial cerium carbonate (6kg) and oxalic acid.2H2O (3.3kg). Mixed 5min (shaker). Heated 800°C, 2h. Yield 3kg. Slurry: 1000g oxide, 80g (40%) ammonium polyacrylate, 5600g water. Wet-milled (bead mill, 30min). Settled 20h, supernatant filtered (1.0um x2). Final solid content 5%. D50=190nm, D99=0.7um. Coarse particles (>=3um) 300ppm. CMP: Rate 650nm/min, 20 scratches.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "commercial cerium carbonate",
+        "quantity": { "value": 6, "unit": "kg" }
+      },
+      "precipitant_type": "Oxalic Acid",
+      "molar_ratio_precursor_precipitant": "0.5 to 6 (general claim for oxalic acid, specific inputs: 6kg carbonate, 3.3kg oxalic acid.2H2O)",
+      "reaction_temperature": { "value": 800, "unit": "°C" },
+      "reaction_time": { "value": 2, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Oxalic Acid",
+          "formulation": "oxalic acid.2H2O",
+          "quantity": { "value": 3.3, "unit": "kg" }
+        },
+        "mixing_of_reactants": {
+          "method": "shaker",
+          "duration": { "value": 5, "unit": "minutes" },
+          "container": "polyethylene container with gas venting hole"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "3 kg yellowish-white powder"
+        }
+      },
+      "post_synthesis_treatment": {
+        "pulverization_and_dispersion": {
+          "oxide_feed_mass": { "value": 1000, "unit": "g" },
+          "method": "wet-milled with a bead mill (manufactured by Ashizawa Finetec)",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (phase identification confirmed cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "abrasive_ceria_concentration": { "value": 5, "unit": "% by solid content" },
+        "components_for_initial_dispersion": {
+          "oxide": { "value": 1000, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 80, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 5600, "unit": "g" }}
+        },
+        "processing_steps": "Stirred 10 mins, wet-milled 30 mins (bead mill), dispersion left at RT for 20 hours, supernatant collected, filtered with 1.0 μm filter (twice), adjusted with deionized water to 5% solid content.",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_value_D50": { "value": 190, "unit": "nm" },
+          "D99": { "value": 0.7, "unit": "μm" },
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)"
+        },
+        "coarse_particle_content": {
+          "size_threshold": ">= 3 μm",
+          "value": 300,
+          "unit": "ppm",
+          "basis": "based on total solid content",
+          "measurement_method": "Filtration through 3-μm filter (Cyclopore Track Etch Membrane Filter)"
+        }
+      },
+      "cmp_performance": {
+        "slurry_dilution": "5-fold with deionized water",
+        "material_removal_rate": { "value": 650, "unit": "nm/min" },
+        "scratches_observed": "20 on whole area (200 mm) of wafer",
+        "polishing_load": { "value": 30, "unit": "kPa" },
+        "polishing_pad": "Foamed polyurethane resin (IC-1000, manufactured by Rodel Inc.)",
+        "revolution_number_platen": { "value": 75, "unit": "min-1" },
+        "revolution_number_pad": { "value": 75, "unit": "min-1" },
+        "feed_speed_polishing_slurry": { "value": 200, "unit": "ml/min" },
+        "object_polished": "P-TEOS layered Si wafer (200 mm)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_18",
+      "experiment_context": "Cerium oxide from Ex.17 (1000g) processed similarly but settled for 100h, supernatant filtered (0.7um x2). Final solid content 5%. D50=160nm, D99=0.5um. Coarse particles (>=3um) 20ppm. CMP: Rate 350nm/min, 10 scratches.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "commercial cerium carbonate (same batch as Ex. 17)",
+        "quantity": { "value": "N/A for this step, oxide from Ex.17 used" }
+      },
+      "precipitant_type": "Oxalic Acid",
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": { "value": 800, "unit": "°C" },
+      "reaction_time": { "value": 2, "unit": "h" },
+      "synthesis_conditions": {
+        "note": "Oxide produced as in Example 17"
+      },
+      "post_synthesis_treatment": {
+        "pulverization_and_dispersion": {
+          "oxide_feed_mass": { "value": 1000, "unit": "g" , "source": "from Example 17 production"},
+          "method": "wet-milled with a bead mill (manufactured by Ashizawa Finetec)",
+          "duration": { "value": 30, "unit": "minutes" }
+        }
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from Example 17 production",
+        "abrasive_ceria_concentration": { "value": 5, "unit": "% by solid content" },
+        "components_for_initial_dispersion": {
+          "oxide": { "value": 1000, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 80, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 5600, "unit": "g" }}
+        },
+        "processing_steps": "Stirred 10 mins, wet-milled 30 mins (bead mill), dispersion left at RT for 100 hours, supernatant collected, filtered with 0.7 μm filter (twice), adjusted with deionized water to 5% solid content.",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_value_D50": { "value": 160, "unit": "nm" },
+          "D99": { "value": 0.5, "unit": "μm" },
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)"
+        },
+        "coarse_particle_content": {
+          "size_threshold": ">= 3 μm",
+          "value": 20,
+          "unit": "ppm",
+          "basis": "based on total solid content"
+        }
+      },
+      "cmp_performance": {
+        "slurry_dilution": "5-fold with deionized water",
+        "material_removal_rate": { "value": 350, "unit": "nm/min" },
+        "scratches_observed": "10 on whole area (200 mm) of wafer",
+        "polishing_conditions_note": "Same as Example 17"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_19",
+      "experiment_context": "Production of cerium oxide from commercial cerium carbonate (6kg) and oxalic acid.2H2O (4.9kg). Mixed 12h (shaker). Heated 800°C, 2h. Yield 3kg. Slurry processed as Ex.18 (settled 100h, filtered 0.7um x2). D50=160nm, D99=0.5um. Coarse particles (>=3um) 20ppm. CMP: Rate 350nm/min, 10 scratches.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "commercial cerium carbonate",
+        "quantity": { "value": 6, "unit": "kg" }
+      },
+      "precipitant_type": "Oxalic Acid",
+      "molar_ratio_precursor_precipitant": "0.5 to 6 (general claim for oxalic acid, specific inputs: 6kg carbonate, 4.9kg oxalic acid.2H2O)",
+      "reaction_temperature": { "value": 800, "unit": "°C" },
+      "reaction_time": { "value": 2, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Oxalic Acid",
+          "formulation": "oxalic acid.2H2O",
+          "quantity": { "value": 4.9, "unit": "kg" }
+        },
+        "mixing_of_reactants": {
+          "method": "shaker",
+          "duration": { "value": 12, "unit": "hours" },
+          "container": "polyethylene container with gas venting hole"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "3 kg yellowish-white powder"
+        }
+      },
+      "post_synthesis_treatment": {
+         "pulverization_and_dispersion": {
+          "oxide_feed_mass": { "value": 1000, "unit": "g" },
+          "method": "wet-milled with a bead mill (manufactured by Ashizawa Finetec)",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (phase identification confirmed cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "abrasive_ceria_concentration": { "value": 5, "unit": "% by solid content" },
+         "components_for_initial_dispersion": {
+          "oxide": { "value": 1000, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 80, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 5600, "unit": "g" }}
+        },
+        "processing_steps": "Stirred 10 mins, wet-milled 30 mins (bead mill), dispersion left at RT for 100 hours, supernatant collected, filtered with 0.7 μm filter (twice), adjusted with deionized water to 5% solid content.",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_value_D50": { "value": 160, "unit": "nm" },
+          "D99": { "value": 0.5, "unit": "μm" },
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)"
+        },
+        "coarse_particle_content": {
+          "size_threshold": ">= 3 μm",
+          "value": 20,
+          "unit": "ppm",
+          "basis": "based on total solid content"
+        }
+      },
+      "cmp_performance": {
+        "slurry_dilution": "5-fold with deionized water",
+        "material_removal_rate": { "value": 350, "unit": "nm/min" },
+        "scratches_observed": "10 on whole area (200 mm) of wafer",
+        "polishing_conditions_note": "Same as Example 17"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_20",
+      "experiment_context": "Production of cerium oxide from commercial cerium carbonate (6kg) and oxalic acid (anhydride, 2.4kg). Mixed 5min (shaker). Heated 800°C, 2h. Yield 3kg. Slurry processed as Ex.18 (settled 100h, filtered 0.7um x2). D50=160nm, D99=0.5um. Coarse particles (>=3um) 20ppm. CMP: Rate 350nm/min, 10 scratches.",
+      "precursor_chemical": "Cerium Carbonate",
+      "precursor_details": {
+        "formulation": "commercial cerium carbonate",
+        "quantity": { "value": 6, "unit": "kg" }
+      },
+      "precipitant_type": "Oxalic Acid",
+      "molar_ratio_precursor_precipitant": "0.5 to 6 (general claim for oxalic acid, specific inputs: 6kg carbonate, 2.4kg oxalic acid anhydride)",
+      "reaction_temperature": { "value": 800, "unit": "°C" },
+      "reaction_time": { "value": 2, "unit": "h" },
+      "synthesis_conditions": {
+        "acid_details": {
+          "name": "Oxalic Acid",
+          "formulation": "anhydride",
+          "quantity": { "value": 2.4, "unit": "kg" }
+        },
+        "mixing_of_reactants": {
+          "method": "shaker",
+          "duration": { "value": 5, "unit": "minutes" },
+          "container": "polyethylene container with gas venting hole"
+        },
+        "heating_details": {
+          "atmosphere": "in air",
+          "container": "alumina container",
+          "product_yield_description": "3 kg yellowish-white powder"
+        }
+      },
+      "post_synthesis_treatment": {
+        "pulverization_and_dispersion": {
+          "oxide_feed_mass": { "value": 1000, "unit": "g" },
+          "method": "wet-milled with a bead mill (manufactured by Ashizawa Finetec)",
+          "duration": { "value": 30, "unit": "minutes" }
+        },
+        "oxide_identity_confirmation_method": "X-ray diffractometry (phase identification confirmed cerium oxide)"
+      },
+      "slurry_preparation": {
+        "abrasive_material_source": "Cerium oxide from this synthesis",
+        "abrasive_ceria_concentration": { "value": 5, "unit": "% by solid content" },
+        "components_for_initial_dispersion": {
+          "oxide": { "value": 1000, "unit": "g" },
+          "dispersant_solution": {
+            "name": "ammonium polyacrylate (40 mass % aqueous solution)",
+            "quantity": { "value": 80, "unit": "g" }
+          },
+          "solvent_deionized_water": { "quantity": { "value": 5600, "unit": "g" }}
+        },
+        "processing_steps": "Stirred 10 mins, wet-milled 30 mins (bead mill), dispersion left at RT for 100 hours, supernatant collected, filtered with 0.7 μm filter (twice), adjusted with deionized water to 5% solid content.",
+        "additives": [
+          {
+            "name": "ammonium polyacrylate",
+            "type": "dispersant"
+          }
+        ],
+        "solvent": { "name": "deionized water" }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "median_value_D50": { "value": 160, "unit": "nm" },
+          "D99": { "value": 0.5, "unit": "μm" },
+          "measurement_method_used": "laser diffraction particle size distribution analyzer (Mastersizer Micro Plus)"
+        },
+        "coarse_particle_content": {
+          "size_threshold": ">= 3 μm",
+          "value": 20,
+          "unit": "ppm",
+          "basis": "based on total solid content"
+        }
+      },
+      "cmp_performance": {
+        "slurry_dilution": "5-fold with deionized water",
+        "material_removal_rate": { "value": 350, "unit": "nm/min" },
+        "scratches_observed": "10 on whole area (200 mm) of wafer",
+        "polishing_conditions_note": "Same as Example 17"
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

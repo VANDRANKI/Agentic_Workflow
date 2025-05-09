@@ -1,0 +1,768 @@
+{
+  "doi": "US 2021/0079262 A1",
+  "title": "POLISHING SLURRY COMPOSITION FOR STI PROCESS",
+  "year_published": "2021",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Comparative_Example_1",
+      "experiment_context": "Comparative Example 1: Polishing slurry with DT-EH as inhibitor. TEOS RR: 3381 Å/min, SiN RR: 22 Å/min. Selectivity (TEOS/SiN): 153.7.",
+      "precursor_chemical": "Ceria",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "tetraethylenepentamine",
+            "type": "amine compound",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "poly(diethylenetriamine)-co-epichlorohydrin (DT-EH)",
+            "type": "polishing inhibitor",
+            "concentration": {
+              "value": "0.002",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "histidine",
+            "type": "basic material",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "lactic acid",
+            "type": "acidic material",
+            "concentration": {
+              "value": "0.024",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Ceria abrasive particles",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "338.1",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (300 mm, manufactured by KCTECH)",
+        "pad_composition": "IC 1000 (manufactured by DOW)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Comparative_Example_2",
+      "experiment_context": "Comparative Example 2: Polishing slurry with DT-EH as inhibitor. TEOS RR: 2293 Å/min, SiN RR: 18 Å/min. Selectivity (TEOS/SiN): 127.4.",
+      "precursor_chemical": "Ceria",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "pentaethylenehexamine",
+            "type": "amine compound",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "poly(diethylenetriamine)-co-epichlorohydrin (DT-EH)",
+            "type": "polishing inhibitor",
+            "concentration": {
+              "value": "0.002",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "histidine",
+            "type": "basic material",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "lactic acid",
+            "type": "acidic material",
+            "concentration": {
+              "value": "0.024",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Ceria abrasive particles",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "229.3",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (300 mm, manufactured by KCTECH)",
+        "pad_composition": "IC 1000 (manufactured by DOW)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Example 1: Polishing slurry with poly(2-ethyl-2-oxazoline) as inhibitor. TEOS RR: 1930 Å/min, SiN RR: 11 Å/min. Selectivity (TEOS/SiN): 175.5.",
+      "precursor_chemical": "Ceria",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "tetraethylenepentamine",
+            "type": "amine compound",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "poly(2-ethyl-2-oxazoline)",
+            "type": "polishing inhibitor",
+            "concentration": {
+              "value": "0.1", 
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "histidine",
+            "type": "basic material",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "lactic acid",
+            "type": "acidic material",
+            "concentration": {
+              "value": "0.024",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Ceria abrasive particles",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "193.0",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (300 mm, manufactured by KCTECH)",
+        "pad_composition": "IC 1000 (manufactured by DOW)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Example 2: Polishing slurry with poly(2-ethyl-2-oxazoline) as inhibitor. Amine: Pentaethylenehexamine 0.005 wt%. TEOS RR: 2817 Å/min, SiN RR: 10 Å/min. Selectivity (TEOS/SiN): 281.7.",
+      "precursor_chemical": "Ceria",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "pentaethylenehexamine",
+            "type": "amine compound",
+            "concentration": {
+              "value": "0.005", 
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "poly(2-ethyl-2-oxazoline)",
+            "type": "polishing inhibitor",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "histidine",
+            "type": "basic material",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "lactic acid",
+            "type": "acidic material",
+            "concentration": {
+              "value": "0.024",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Ceria abrasive particles",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "281.7",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (300 mm, manufactured by KCTECH)",
+        "pad_composition": "IC 1000 (manufactured by DOW)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Example 3: Polishing slurry with poly(2-ethyl-2-oxazoline) as inhibitor. pH 4.5. TEOS RR: 2071 Å/min, SiN RR: 8 Å/min. Selectivity (TEOS/SiN): 258.9.",
+      "precursor_chemical": "Ceria",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "pentaethylenehexamine",
+            "type": "amine compound",
+            "concentration": {
+              "value": "0.005", 
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "poly(2-ethyl-2-oxazoline)",
+            "type": "polishing inhibitor",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "histidine",
+            "type": "basic material",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "lactic acid",
+            "type": "acidic material",
+            "concentration": {
+              "value": "0.024",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Ceria abrasive particles",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "207.1",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (300 mm, manufactured by KCTECH)",
+        "pad_composition": "IC 1000 (manufactured by DOW)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Example 4: Polishing slurry with poly(2-ethyl-2-oxazoline) as inhibitor. Amine: Pentaethylenehexamine 0.075 wt%. TEOS RR: 2132 Å/min, SiN RR: 8 Å/min. Selectivity (TEOS/SiN): 266.5.",
+      "precursor_chemical": "Ceria",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "pentaethylenehexamine",
+            "type": "amine compound",
+            "concentration": {
+              "value": "0.075",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "poly(2-ethyl-2-oxazoline)",
+            "type": "polishing inhibitor",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "histidine",
+            "type": "basic material",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "lactic acid",
+            "type": "acidic material",
+            "concentration": {
+              "value": "0.024",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Ceria abrasive particles",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "213.2",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (300 mm, manufactured by KCTECH)",
+        "pad_composition": "IC 1000 (manufactured by DOW)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Example 5: Polishing slurry with poly(2-ethyl-2-oxazoline) as inhibitor. Amine: Pentaethylenehexamine 0.01 wt%. TEOS RR: 1485 Å/min, SiN RR: 8 Å/min. Selectivity (TEOS/SiN): 185.6.",
+      "precursor_chemical": "Ceria",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "pentaethylenehexamine",
+            "type": "amine compound",
+            "concentration": {
+              "value": "0.01",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "poly(2-ethyl-2-oxazoline)",
+            "type": "polishing inhibitor",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "histidine",
+            "type": "basic material",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "lactic acid",
+            "type": "acidic material",
+            "concentration": {
+              "value": "0.024",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Ceria abrasive particles",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "148.5",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (300 mm, manufactured by KCTECH)",
+        "pad_composition": "IC 1000 (manufactured by DOW)"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Example 6: Polishing slurry with poly(2-ethyl-2-oxazoline) as inhibitor. Amine: Pentaethylenehexamine 0.0125 wt%. TEOS RR: 1416 Å/min, SiN RR: 5 Å/min. Selectivity (TEOS/SiN): 283.2.",
+      "precursor_chemical": "Ceria",
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {
+            "name": "pentaethylenehexamine",
+            "type": "amine compound",
+            "concentration": {
+              "value": "0.0125",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "poly(2-ethyl-2-oxazoline)",
+            "type": "polishing inhibitor",
+            "concentration": {
+              "value": "0.1",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "histidine",
+            "type": "basic material",
+            "concentration": {
+              "value": "0.08",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "lactic acid",
+            "type": "acidic material",
+            "concentration": {
+              "value": "0.024",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {
+          "value": "150",
+          "unit": "nm",
+          "measurement_method_used": null
+        },
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Ceria abrasive particles",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": {
+          "value": "1",
+          "unit": "min"
+        },
+        "material_removal_rate": {
+          "value": "141.6",
+          "unit": "nm/min"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "AP-300 (300 mm, manufactured by KCTECH)",
+        "pad_composition": "IC 1000 (manufactured by DOW)"
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

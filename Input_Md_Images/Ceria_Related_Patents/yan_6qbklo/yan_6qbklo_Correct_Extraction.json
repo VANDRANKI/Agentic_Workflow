@@ -1,0 +1,1153 @@
+{
+  "doi": "US 2005/0090104 A1",
+  "title": "SLURRY COMPOSITIONS FOR CHEMICAL MECHANICAL POLISHING OF COPPER AND BARRIER FILMS",
+  "year_published": "2005",
+  "journal": "US Patent Application",
+  "samples": [
+    {
+      "sample_id": "Example_1",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 1. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "PPA",
+          "concentration": { "value": "1", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "501", "unit": "nm/min" }
+        ],
+        "dishing": null,
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_2",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 2. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "3.4", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "PPA",
+          "concentration": { "value": "1", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "rough"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "825", "unit": "nm/min" }
+        ],
+        "dishing": null,
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_3",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 3. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "3.4", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "PPA",
+          "concentration": { "value": "1", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "532", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "60", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_4",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 4. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "rough"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "1119", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "85", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_5",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 5. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.1", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "953", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "80", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_6",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 6. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.15", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "797", "unit": "nm/min" }
+        ],
+        "dishing": null,
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_7_3psi",
+      "experiment_context": "Copper CMP slurry formulation from Table 1 (Example 7), tested at 3 psi downforce as per Table 2.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth" 
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "740", "unit": "nm/min" },
+          { "material": "Ta", "value": "4.2", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "49", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_7_2psi",
+      "experiment_context": "Copper CMP slurry formulation from Table 1 (Example 7), tested at 2 psi downforce as per Table 2.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth" 
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "668", "unit": "nm/min" },
+          { "material": "Ta", "value": "3.1", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "49", "unit": "nm" }, 
+        "polishing_pressure": { "value": "2", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_7_1psi",
+      "experiment_context": "Copper CMP slurry formulation from Table 1 (Example 7), tested at 1 psi downforce as per Table 2.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth" 
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "493", "unit": "nm/min" },
+          { "material": "Ta", "value": "1.8", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "49", "unit": "nm" },
+        "polishing_pressure": { "value": "1", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_7_0.5psi",
+      "experiment_context": "Copper CMP slurry formulation from Table 1 (Example 7), tested at 0.5 psi downforce as per Table 2.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth" 
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "354", "unit": "nm/min" },
+          { "material": "Ta", "value": "1.1", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "49", "unit": "nm" },
+        "polishing_pressure": { "value": "0.5", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_8",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 8. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "3.4", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "913", "unit": "nm/min" }
+        ],
+        "dishing": null,
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_9",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 9. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "PBTC",
+          "concentration": { "value": "0.25", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "591", "unit": "nm/min" }
+        ],
+        "dishing": null,
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_10",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 10. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "PBTC",
+          "concentration": { "value": "0.5", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "Tween 20",
+            "type": "Surfactant",
+            "concentration": { "value": "0.01", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "rough"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "966", "unit": "nm/min" }
+        ],
+        "dishing": null,
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_11",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 11. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "SiO2",
+          "concentration": { "value": "0.25", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "slightly rough"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "823", "unit": "nm/min" }
+        ],
+        "dishing": null,
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_12",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 12. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "SiO2",
+          "concentration": { "value": "0.25", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Polymer",
+            "concentration": { "value": "0.4", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "608", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "60", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_13",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 13. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "SiO2",
+          "concentration": { "value": "0.75", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Polymer",
+            "concentration": { "value": "0.4", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "730", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "65", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_14",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 14. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "SiO2",
+          "concentration": { "value": "0.25", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "2", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.15", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Polymer",
+            "concentration": { "value": "0.4", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "534", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "65", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_15",
+      "experiment_context": "Copper CMP slurry formulation from Table 1, Example 15. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "SiO2",
+          "concentration": { "value": "0.25", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "3.4", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.15", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "PVP",
+            "type": "Polymer",
+            "concentration": { "value": "0.4", "unit": "wt%" }
+          },
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "739", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "110", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_1C",
+      "experiment_context": "Comparative copper CMP slurry formulation from Table 1, Example 1C. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.3", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "citric acid",
+          "concentration": { "value": "0.5", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "slightly rough"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "317", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "140", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_2C",
+      "experiment_context": "Comparative copper CMP slurry formulation from Table 1, Example 2C. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Al2O3",
+          "concentration": { "value": "0.5", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "3.4", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "phosphoric acid",
+          "concentration": { "value": "1", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "corrosion"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "528", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "125", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_3C",
+      "experiment_context": "Comparative copper CMP slurry formulation from Table 1, Example 3C. Tested at 3 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "SiO2",
+          "concentration": { "value": "0.5", "unit": "wt%" }
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "1.7", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "oxalic acid",
+          "concentration": { "value": "0.5", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.2", "unit": "wt%" }
+          }
+        ],
+        "target_final_slurry_ph": null,
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "surface_condition_after_cmp": "smooth"
+      },
+      "cmp_performance": {
+        "polishing_time": { "value": "60", "unit": "seconds" },
+        "material_removal_rates": [
+          { "material": "Cu", "value": "183", "unit": "nm/min" }
+        ],
+        "dishing": { "value": "120", "unit": "nm" },
+        "polishing_pressure": { "value": "3", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "IC-1000 from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_20_Table3",
+      "experiment_context": "Barrier CMP slurry formulation from Table 3, Example 20 (referred to as Example 16 in text). Tested at 2 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": { "value": "15", "unit": "wt%" },
+          "particle_size_nm": "40"
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "0.33", "unit": "wt%" }
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.1", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.02", "unit": "wt%" }
+          },
+          {
+            "name": "KOH",
+            "type": "pH adjuster",
+            "concentration": null 
+          }
+        ],
+        "target_final_slurry_ph": "9.2",
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "planarity_after_cmp": "Dishing ~30 nm",
+        "hydrogen_peroxide_stability": [
+            {"days": "0", "concentration_wt_percent": "0.34"},
+            {"days": "3", "concentration_wt_percent": "0.33"},
+            {"days": "7", "concentration_wt_percent": "0.33"},
+            {"days": "14", "concentration_wt_percent": "0.33"},
+            {"days": "21", "concentration_wt_percent": "0.31"},
+            {"days": "28", "concentration_wt_percent": "0.31"}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": null, 
+        "material_removal_rates": [
+          { "material": "Cu", "value": "76", "unit": "nm/min" },
+          { "material": "Ta", "value": "84", "unit": "nm/min" },
+          { "material": "SiO2", "value": "72", "unit": "nm/min" }
+        ],
+        "polishing_pressure": { "value": "2", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher", 
+        "pad_composition": "Polytex from Rodel"
+      }
+    },
+    {
+      "sample_id": "Example_21_Table3",
+      "experiment_context": "Barrier CMP slurry formulation from Table 3, Example 21 (referred to as Example 17 in text). Tested at 2 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": { "value": "15", "unit": "wt%" },
+          "particle_size_nm": "40"
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "0.33", "unit": "wt%" } 
+        },
+        "complexing_agent": {
+          "name": "HEDP",
+          "concentration": { "value": "0.05", "unit": "wt%" }
+        },
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.02", "unit": "wt%" }
+          },
+          {
+            "name": "KOH",
+            "type": "pH adjuster",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "9.2",
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "planarity_after_cmp": "Dishing ~16 nm",
+        "hydrogen_peroxide_stability": [
+            {"days": "0", "concentration_wt_percent": "0.34"},
+            {"days": "3", "concentration_wt_percent": "0.33"},
+            {"days": "7", "concentration_wt_percent": "0.33"},
+            {"days": "14", "concentration_wt_percent": "0.32"},
+            {"days": "21", "concentration_wt_percent": "0.31"},
+            {"days": "28", "concentration_wt_percent": "0.31"}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates": [
+          { "material": "Cu", "value": "49", "unit": "nm/min" },
+          { "material": "Ta", "value": "81", "unit": "nm/min" },
+          { "material": "SiO2", "value": "71", "unit": "nm/min" }
+        ],
+        "polishing_pressure": { "value": "2", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "Polytex from Rodel"
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_4C_Table3",
+      "experiment_context": "Comparative barrier CMP slurry formulation from Table 3, Example 4C. Tested at 2 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": { "value": "15", "unit": "wt%" },
+          "particle_size_nm": "40"
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "0.33", "unit": "wt%" } 
+        },
+        "complexing_agent": null,
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.02", "unit": "wt%" }
+          },
+          {
+            "name": "KOH",
+            "type": "pH adjuster",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "9.2",
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "planarity_after_cmp": "Anti-dishing ~41 nm",
+        "hydrogen_peroxide_stability": [
+            {"days": "0", "concentration_wt_percent": "0.32"},
+            {"days": "3", "concentration_wt_percent": "0.23"},
+            {"days": "7", "concentration_wt_percent": "0.18"},
+            {"days": "14", "concentration_wt_percent": "0.10"},
+            {"days": "21", "concentration_wt_percent": "0.07"}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates": [
+          { "material": "Cu", "value": "8", "unit": "nm/min" },
+          { "material": "Ta", "value": "72", "unit": "nm/min" },
+          { "material": "SiO2", "value": "68", "unit": "nm/min" }
+        ],
+        "polishing_pressure": { "value": "2", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "Polytex from Rodel"
+      }
+    },
+    {
+      "sample_id": "Comparative_Example_5C_Table3",
+      "experiment_context": "Comparative barrier CMP slurry formulation from Table 3, Example 5C. Tested at 2 psi.",
+      "slurry_preparation": {
+        "abrasive": {
+          "material": "Colloidal Silica",
+          "concentration": { "value": "15", "unit": "wt%" },
+          "particle_size_nm": "40"
+        },
+        "oxidizer": {
+          "name": "H2O2",
+          "concentration": { "value": "0.33", "unit": "wt%" } 
+        },
+        "complexing_agent": {
+            "name": "Propionic acid",
+            "concentration": {"value": "0.1", "unit": "wt%"}
+        },
+        "additives": [
+          {
+            "name": "BTA",
+            "type": "Corrosion inhibitor",
+            "concentration": { "value": "0.02", "unit": "wt%" }
+          },
+          {
+            "name": "KOH",
+            "type": "pH adjuster",
+            "concentration": null
+          }
+        ],
+        "target_final_slurry_ph": "9.2",
+        "solvent": { "name": "Deionized water", "quantity": null }
+      },
+      "characterization": {
+        "planarity_after_cmp": "Dishing ~18 nm",
+        "hydrogen_peroxide_stability": [
+            {"days": "0", "concentration_wt_percent": "0.33"},
+            {"days": "3", "concentration_wt_percent": "0.28"},
+            {"days": "7", "concentration_wt_percent": "0.24"},
+            {"days": "14", "concentration_wt_percent": "0.21"},
+            {"days": "21", "concentration_wt_percent": "0.19"},
+            {"days": "28", "concentration_wt_percent": "0.17"}
+        ]
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rates": [
+          { "material": "Cu", "value": "52", "unit": "nm/min" },
+          { "material": "Ta", "value": "67", "unit": "nm/min" },
+          { "material": "SiO2", "value": "75", "unit": "nm/min" }
+        ],
+        "polishing_pressure": { "value": "2", "unit": "psi" },
+        "equipment_model": "Strasburgh 6DS-SP polisher",
+        "pad_composition": "Polytex from Rodel"
+      }
+    }
+  ]
+}

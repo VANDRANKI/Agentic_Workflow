@@ -1,0 +1,2747 @@
+{
+  "doi": "US 11,332,641 B2",
+  "title": "POLISHING SLURRY COMPOSITION ENABLING IMPLEMENTATION OF MULTI-SELECTIVITY",
+  "year_published": "2022",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Example1_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Example 1. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.00 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.00",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "3541",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example1_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Example 1. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.00 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.00",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "735",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example1_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Example 1. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.00 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.00",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "12",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example2_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Example 2. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.02 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "2979",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example2_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Example 2. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.02 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "1095",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example2_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Example 2. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.02 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "11",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example3_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Example 3. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.035 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.035",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "2623",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example3_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Example 3. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.035 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.035",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "1028",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example3_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Example 3. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.035 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.035",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "9",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example4_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Example 4. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.05 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "64",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example4_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Example 4. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.05 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "994",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example4_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Example 4. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.05 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 4:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "11",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example5_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Example 5. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.02 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 2.5:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "2.5:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "2971",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example5_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Example 5. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.02 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 2.5:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "2.5:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "1206",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example5_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Example 5. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.02 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 2.5:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "2.5:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "14",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example6_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Example 6. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.02 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 1:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "1:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "2341",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example6_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Example 6. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.02 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 1:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "1:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "1264",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example6_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Example 6. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.02 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 1:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "1:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "6",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example7_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Example 7. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.035 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 2.5:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.035",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "2.5:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "2534",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example7_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Example 7. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.035 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 2.5:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.035",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "2.5:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "960",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example7_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Example 7. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.035 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 2.5:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.035",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "2.5:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "12",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example8_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Example 8. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.035 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 1.5:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.035",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "1.5:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "1309",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example8_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Example 8. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.035 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 1.5:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.035",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "1.5:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "947",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example8_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Example 8. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.035 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 1.5:1.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.035",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "1.5:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "9",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example9_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Example 9. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.05 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 1.5:1. Note: Example 9 is not explicitly in the provided table text, but inferred as a logical continuation or a typo in the description referring to Example 9. Using Example 4 data for flow rate 4:1 and cationic polymer 0.05% as a proxy if Example 9 data is missing. Assuming Example 9 refers to the condition that results in selectivity 0.3, which is Example 4.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm. Data used from Example 4 as proxy for Example 9."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "64",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example9_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Example 9. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.05 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 1.5:1. Note: Example 9 is not explicitly in the provided table text, but inferred as a logical continuation or a typo in the description referring to Example 9. Using Example 4 data for flow rate 4:1 and cationic polymer 0.05% as a proxy if Example 9 data is missing. Assuming Example 9 refers to the condition that results in selectivity 0.3, which is Example 4.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm. Data used from Example 4 as proxy for Example 9."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "994",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "Example9_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Example 9. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.2 wt%, Polyquaterniam (Cationic polymer) 0.05 wt%, Serine (Amino acid) 0.2 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid to additive liquid flow rate ratio: 1.5:1. Note: Example 9 is not explicitly in the provided table text, but inferred as a logical continuation or a typo in the description referring to Example 9. Using Example 4 data for flow rate 4:1 and cationic polymer 0.05% as a proxy if Example 9 data is missing. Assuming Example 9 refers to the condition that results in selectivity 0.3, which is Example 4.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm. Data used from Example 4 as proxy for Example 9."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Polyquaterniam (poly((2-methoxyloxy)ethyl)trimethylammonium chloride))",
+            "type": "Cationic polymer",
+            "concentration": {
+              "value": "0.05",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "Serine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.2",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "4:1"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "11",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "ComparativeExample1_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Comparative Example 1. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.16 wt%, Histidine (Amino acid) 0.16 wt%, PEHA (Amine compound) 0.005 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid (slurry) to additive liquid flow rate ratio: 120-80 (slurry) : 40-125 (additive). Using average or representative values.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Histidine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEHA (pentachylenedioxamine)",
+            "type": "Amine compound",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "Slurry: 80-120 ml/min, Additive: 40-125 ml/min (Range from table)"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "677",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "ComparativeExample1_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Comparative Example 1. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.16 wt%, Histidine (Amino acid) 0.16 wt%, PEHA (Amine compound) 0.005 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid (slurry) to additive liquid flow rate ratio: 120-80 (slurry) : 40-125 (additive). Using average or representative values.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Histidine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEHA (pentachylenedioxamine)",
+            "type": "Amine compound",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "Slurry: 80-120 ml/min, Additive: 40-125 ml/min (Range from table)"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "186",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "ComparativeExample1_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Comparative Example 1. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.16 wt%, Histidine (Amino acid) 0.16 wt%, PEHA (Amine compound) 0.005 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid (slurry) to additive liquid flow rate ratio: 120-80 (slurry) : 40-125 (additive). Using average or representative values.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Histidine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEHA (pentachylenedioxamine)",
+            "type": "Amine compound",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "Slurry: 80-120 ml/min, Additive: 40-125 ml/min (Range from table)"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "8",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "ComparativeExample2_TEOS",
+      "experiment_context": "Polishing of TEOS film using slurry defined in Comparative Example 2. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.16 wt%, Histidine (Amino acid) 0.16 wt%, PEHA (Amine compound) 0.005 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid (slurry) to additive liquid flow rate ratio: 135-95 (slurry) : 30-95 (additive). Using average or representative values.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Histidine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEHA (pentachylenedioxamine)",
+            "type": "Amine compound",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "Slurry: 95-135 ml/min, Additive: 30-95 ml/min (Range from table)"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Oxide Film (TEOS)",
+        "material_removal_rate": {
+          "value": "715",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "ComparativeExample2_Nitride",
+      "experiment_context": "Polishing of Silicon Nitride film using slurry defined in Comparative Example 2. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.16 wt%, Histidine (Amino acid) 0.16 wt%, PEHA (Amine compound) 0.005 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid (slurry) to additive liquid flow rate ratio: 135-95 (slurry) : 30-95 (additive). Using average or representative values.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Histidine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEHA (pentachylenedioxamine)",
+            "type": "Amine compound",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "Slurry: 95-135 ml/min, Additive: 30-95 ml/min (Range from table)"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Silicon Nitride Film (HT-NIT)",
+        "material_removal_rate": {
+          "value": "167",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    },
+    {
+      "sample_id": "ComparativeExample2_Polysilicon",
+      "experiment_context": "Polishing of Polysilicon film using slurry defined in Comparative Example 2. Additive liquid composition: Aquazol 5 (Polymer with amide bond) 0.16 wt%, Histidine (Amino acid) 0.16 wt%, PEHA (Amine compound) 0.005 wt%. Polishing liquid pH: 4. Additive liquid pH: 4.5-5.5. Polishing liquid (slurry) to additive liquid flow rate ratio: 135-95 (slurry) : 30-95 (additive). Using average or representative values.",
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": {
+          "value": "0.3-0.4",
+          "unit": "wt%",
+          "comment": "Concentration in the initial polishing liquid (pH 4) which contains colloidal ceria with primary particle size 60 nm."
+        },
+        "additives": [
+          {
+            "name": "Aquazol 5 (poly(2-ethyl-2-oxazoline))",
+            "type": "Polymer having amide bond",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            },
+            "details": "General structure for amide bond polymers given by Chemical Formula 1 in source document (images/img-0.jpeg, images/img-1.jpeg, images/img-2.jpeg)."
+          },
+          {
+            "name": "Histidine",
+            "type": "Amino acid",
+            "concentration": {
+              "value": "0.16",
+              "unit": "wt%"
+            }
+          },
+          {
+            "name": "PEHA (pentachylenedioxamine)",
+            "type": "Amine compound",
+            "concentration": {
+              "value": "0.005",
+              "unit": "wt%"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.5-5.5",
+        "solvent": {
+          "name": "DI water",
+          "quantity": {
+            "value": null,
+            "unit": ""
+          },
+          "comment": "Assumed solvent for additive liquid and polishing liquid."
+        },
+        "processing_details": {
+          "polishing_liquid_to_additive_liquid_flow_ratio": "Slurry: 95-135 ml/min, Additive: 30-95 ml/min (Range from table)"
+        }
+      },
+      "characterization": {
+        "particle_morphology": "Colloidal Ceria",
+        "particle_size_distribution": {
+          "value": "60",
+          "unit": "nm",
+          "comment": "Primary particle size of ceria abrasives in polishing liquid."
+        }
+      },
+      "cmp_performance": {
+        "polished_material": "Polysilicon Film (Gate Poly)",
+        "material_removal_rate": {
+          "value": "5",
+          "unit": "Å/min"
+        },
+        "polishing_time": {
+          "value": "60",
+          "unit": "seconds"
+        },
+        "polishing_pressure": {
+          "value": "3",
+          "unit": "psi"
+        },
+        "equipment_model": "AP-300 (KCTECH Co., Ltd.)",
+        "pad_composition": "IC1000 (DOW Corporation)",
+        "platen_speed": {
+          "value": "93",
+          "unit": "rpm"
+        },
+        "spindle_speed": {
+          "value": "87",
+          "unit": "rpm"
+        }
+      }
+    }
+  ]
+}

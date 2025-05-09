@@ -1,0 +1,1372 @@
+{
+  "doi": "US 8,557,133 B2",
+  "title": "CHEMICAL MECHANICAL POLISHING OF SILICON CARBIDE COMPRISING SURFACES",
+  "year_published": "2013",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "US_8557133_B2_Ex1_R1_pH2_0.4M",
+      "experiment_context": "Example 1: Slurry with In-Situ Formed Soft Particles. Soft particles (MnCl3 and MnO2, Mohs <3) formed by 0.023M MnCl2 + 0.015M KMnO4. Polished silicon face SiC. Pressure 6.4 psi, rotation 90 rpm.",
+      "precursor_chemical": "MnCl2 and KMnO4 (for particle synthesis)",
+      "precursor_concentration": {
+        "value": "0.023 (MnCl2), 0.015 (KMnO4 initial)",
+        "unit": "M"
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "RT",
+        "unit": ""
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "In-situ formed MnCl3 and MnO2 particles",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.4",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "2",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Insoluble manganese compounds (MnCl3, MnO2), Mohs hardness < 3",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "1400",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "6.4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Buehler apparatus",
+        "pad_composition": null,
+        "rotation_speed": {
+            "value": "90",
+            "unit": "rpm"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex1_R2_pH4_0.4M",
+      "experiment_context": "Example 1: Slurry with In-Situ Formed Soft Particles. Soft particles (MnCl3 and MnO2, Mohs <3) formed by 0.023M MnCl2 + 0.015M KMnO4. Polished silicon face SiC. Pressure 6.4 psi, rotation 90 rpm.",
+      "precursor_chemical": "MnCl2 and KMnO4 (for particle synthesis)",
+      "precursor_concentration": {
+        "value": "0.023 (MnCl2), 0.015 (KMnO4 initial)",
+        "unit": "M"
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "RT",
+        "unit": ""
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "In-situ formed MnCl3 and MnO2 particles",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.4",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Insoluble manganese compounds (MnCl3, MnO2), Mohs hardness < 3",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "1290",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "6.4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Buehler apparatus",
+        "pad_composition": null,
+        "rotation_speed": {
+            "value": "90",
+            "unit": "rpm"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex1_R3_pH6.5_0.4M",
+      "experiment_context": "Example 1: Slurry with In-Situ Formed Soft Particles. Soft particles (MnCl3 and MnO2, Mohs <3) formed by 0.023M MnCl2 + 0.015M KMnO4. Polished silicon face SiC. Pressure 6.4 psi, rotation 90 rpm.",
+      "precursor_chemical": "MnCl2 and KMnO4 (for particle synthesis)",
+      "precursor_concentration": {
+        "value": "0.023 (MnCl2), 0.015 (KMnO4 initial)",
+        "unit": "M"
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "RT",
+        "unit": ""
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "In-situ formed MnCl3 and MnO2 particles",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.4",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "6.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Insoluble manganese compounds (MnCl3, MnO2), Mohs hardness < 3",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "560",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "6.4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Buehler apparatus",
+        "pad_composition": null,
+        "rotation_speed": {
+            "value": "90",
+            "unit": "rpm"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex1_R4_pH9_0.4M",
+      "experiment_context": "Example 1: Slurry with In-Situ Formed Soft Particles. Soft particles (MnCl3 and MnO2, Mohs <3) formed by 0.023M MnCl2 + 0.015M KMnO4. Polished silicon face SiC. Pressure 6.4 psi, rotation 90 rpm.",
+      "precursor_chemical": "MnCl2 and KMnO4 (for particle synthesis)",
+      "precursor_concentration": {
+        "value": "0.023 (MnCl2), 0.015 (KMnO4 initial)",
+        "unit": "M"
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "RT",
+        "unit": ""
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "In-situ formed MnCl3 and MnO2 particles",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.4",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "9.0",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Insoluble manganese compounds (MnCl3, MnO2), Mohs hardness < 3",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "360",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "6.4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Buehler apparatus",
+        "pad_composition": null,
+        "rotation_speed": {
+            "value": "90",
+            "unit": "rpm"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex1_R5_pH4_0.1M",
+      "experiment_context": "Example 1: Slurry with In-Situ Formed Soft Particles. Soft particles (MnCl3 and MnO2, Mohs <3) formed by 0.023M MnCl2 + 0.015M KMnO4. Polished silicon face SiC. Pressure 6.4 psi, rotation 90 rpm.",
+      "precursor_chemical": "MnCl2 and KMnO4 (for particle synthesis)",
+      "precursor_concentration": {
+        "value": "0.023 (MnCl2), 0.015 (KMnO4 initial)",
+        "unit": "M"
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "RT",
+        "unit": ""
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "In-situ formed MnCl3 and MnO2 particles",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.1",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "4.0",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Insoluble manganese compounds (MnCl3, MnO2), Mohs hardness < 3",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "360",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "6.4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Buehler apparatus",
+        "pad_composition": null,
+        "rotation_speed": {
+            "value": "90",
+            "unit": "rpm"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex1_R6_pH3_0.02M",
+      "experiment_context": "Example 1: Slurry with In-Situ Formed Soft Particles. Soft particles (MnCl3 and MnO2, Mohs <3) formed by 0.023M MnCl2 + 0.015M KMnO4. Polished silicon face SiC. Pressure 6.4 psi, rotation 90 rpm.",
+      "precursor_chemical": "MnCl2 and KMnO4 (for particle synthesis)",
+      "precursor_concentration": {
+        "value": "0.023 (MnCl2), 0.015 (KMnO4 initial)",
+        "unit": "M"
+      },
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": {
+        "value": "RT",
+        "unit": ""
+      },
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": {
+        "washing": null
+      },
+      "slurry_preparation": {
+        "abrasive_material": "In-situ formed MnCl3 and MnO2 particles",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.02",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "3.0",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Insoluble manganese compounds (MnCl3, MnO2), Mohs hardness < 3",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "100",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": {
+          "value": "6.4",
+          "unit": "psi"
+        },
+        "pad_conditioning_pressure": null,
+        "equipment_model": "Buehler apparatus",
+        "pad_composition": null,
+        "rotation_speed": {
+            "value": "90",
+            "unit": "rpm"
+        }
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex2_R1_pH4.5_Silica135nm_10pct",
+      "experiment_context": "Example 2: Slurry with Soft Surfaced Composite Particles (Mn(III)/Mn(IV) coating on 135nm silica), No Oxidizer.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Mn(III)/Mn(IV) coated 135 nm silica",
+        "abrasive_concentration": {
+          "value": "10",
+          "unit": "wt %"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "4.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Mn(III)/Mn(IV) coating on silica core. Coating Mohs hardness ~3, Silica core Mohs hardness ~7.",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "84",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex2_R2_pH6.5_Silica135nm_10pct",
+      "experiment_context": "Example 2: Slurry with Soft Surfaced Composite Particles (Mn(III)/Mn(IV) coating on 135nm silica), No Oxidizer.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Mn(III)/Mn(IV) coated 135 nm silica",
+        "abrasive_concentration": {
+          "value": "10",
+          "unit": "wt %"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Mn(III)/Mn(IV) coating on silica core. Coating Mohs hardness ~3, Silica core Mohs hardness ~7.",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "109",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex2_R3_pH6.5_UncoatedSilica135nm_10pct",
+      "experiment_context": "Example 2: Slurry with uncoated 135nm silica particles, No Oxidizer.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Uncoated 135 nm silica",
+        "abrasive_concentration": {
+          "value": "10",
+          "unit": "wt %"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "6.5",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "particle size"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Silica particles, Mohs hardness ~7.",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "1 to 5",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex2_R4_pH2_Silica135nm_2.8pct",
+      "experiment_context": "Example 2: Slurry with Soft Surfaced Composite Particles (Mn(III)/Mn(IV) coating on 135nm silica), No Oxidizer.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Mn(III)/Mn(IV) coated 135 nm silica",
+        "abrasive_concentration": {
+          "value": "2.8",
+          "unit": "wt %"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "2",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Mn(III)/Mn(IV) coating on silica core. Coating Mohs hardness ~3, Silica core Mohs hardness ~7.",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "119",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex2_R5_pH2_Alumina_2.8pct",
+      "experiment_context": "Example 2: Slurry with Soft Surfaced Composite Particles (Mn(III)/Mn(IV) coating on alumina), No Oxidizer.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Mn(III)/Mn(IV) coated alumina",
+        "abrasive_concentration": {
+          "value": "2.8",
+          "unit": "wt %"
+        },
+        "additives": [],
+        "target_final_slurry_ph": "2",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Mn(III)/Mn(IV) coating on alumina core. Coating Mohs hardness ~3, Alumina core Mohs hardness ~9.",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "162.5",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex3_R1_pH3_Silica135nm_KMnO4_0.35M",
+      "experiment_context": "Example 3: Slurry with Soft Surfaced Composite Particles (MnCl3/MnO2 coating on 135nm silica) with 0.35M KMnO4 oxidizer.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "MnCl3/MnO2 coated 135 nm silica",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.35",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "3",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "MnCl3/MnO2 coating on silica core.",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "1350",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex3_R2_pH3_Alumina800nm_KMnO4_0.35M",
+      "experiment_context": "Example 3: Slurry with Soft Surfaced Composite Particles (MnCl3/MnO2 coating on 800nm alumina) with 0.35M KMnO4 oxidizer.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "MnCl3/MnO2 coated 800 nm alumina",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.35",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "3",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "800", "unit": "nm", "measurement_method_used": "core particle size"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "MnCl3/MnO2 coating on alumina core.",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "1800",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex3_R3_pH3_Diamond0.2mic_KMnO4_0.35M",
+      "experiment_context": "Example 3: Slurry with Soft Surfaced Composite Particles (MnCl3/MnO2 coating on 0.2 micron diamond) with 0.35M KMnO4 oxidizer.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "MnCl3/MnO2 coated 0.2 micron diamond",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.35",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "3",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "0.2", "unit": "micron", "measurement_method_used": "core particle size"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "MnCl3/MnO2 coating on diamond core.",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "2300",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex3_R4_pH3_Alumina300nm_KMnO4_0.35M",
+      "experiment_context": "Example 3: Slurry with Soft Surfaced Composite Particles (MnCl3/MnO2 coating on 300nm alumina) with 0.35M KMnO4 oxidizer.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "MnCl3/MnO2 coated 300 nm alumina",
+        "abrasive_concentration": null,
+        "additives": [
+          {
+            "name": "KMnO4",
+            "type": "Oxidizer",
+            "concentration": {
+              "value": "0.35",
+              "unit": "M"
+            }
+          }
+        ],
+        "target_final_slurry_ph": "3",
+        "solvent": {
+          "name": "Water",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "300", "unit": "nm", "measurement_method_used": "core particle size"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "MnCl3/MnO2 coating on alumina core.",
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {
+          "value": "1700",
+          "unit": "nm/hr"
+        },
+        "process_temperature": {
+          "value": "RT",
+          "unit": ""
+        },
+        "polishing_pressure": null,
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": null
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S1",
+      "experiment_context": "Example 4: Potassium dichromate (0.1 mol) + 1% MnO2 coated 135 nm silica particle + water @ pH 2. Polishing conditions: 6 psi, 0.17 m/sec linear velocity, 60 rpm head, 6H SiC wafer.",
+      "slurry_preparation": {
+        "abrasive_material": "MnO2 coated 135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "Potassium dichromate", "type": "Oxidizer", "concentration": {"value": "0.1", "unit": "mol"}}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "69", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S2",
+      "experiment_context": "Example 4: Potassium Ferricyanide (0.1 mol) + 1% MnO2 coated 135 nm silica particle + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "MnO2 coated 135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "Potassium Ferricyanide", "type": "Oxidizer", "concentration": {"value": "0.1", "unit": "mol"}}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "20", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S3",
+      "experiment_context": "Example 4: Chromium (VI) oxide 2% + 1% 135 nm silica particle + 0.1 mol KMnO4 + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [
+            {"name": "Chromium (VI) oxide", "type": "Additive/Oxidizer component", "concentration": {"value": "2", "unit": "%"}},
+            {"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.1", "unit": "mol"}}
+        ],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "106", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S4",
+      "experiment_context": "Example 4: Potassium Chromate (0.1 mol) + 1% 135 nm silica particle + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "Potassium Chromate", "type": "Oxidizer", "concentration": {"value": "0.1", "unit": "mol"}}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "87.5", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S5",
+      "experiment_context": "Example 4: Cupric sulfate (0.1 mol) + 1% 135 nm silica particle + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "Cupric sulfate", "type": "Additive/Oxidizer component", "concentration": {"value": "0.1", "unit": "mol"}}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "87.5", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S6",
+      "experiment_context": "Example 4: Cupric sulfate (0.1 mol) + 1% MnO2 coated 135 nm silica particle + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "MnO2 coated 135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "Cupric sulfate", "type": "Additive/Oxidizer component", "concentration": {"value": "0.1", "unit": "mol"}}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "34", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S7",
+      "experiment_context": "Example 4: Cobaltous sulfate + 1% 135 nm silica particle + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "Cobaltous sulfate", "type": "Additive/Oxidizer component", "concentration": null}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "24", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S8",
+      "experiment_context": "Example 4: Cobaltous sulfate + 1% MnO2 coated 135 nm silica particle + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "MnO2 coated 135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "Cobaltous sulfate", "type": "Additive/Oxidizer component", "concentration": null}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "19", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S9",
+      "experiment_context": "Example 4: Lithium Cobalt (III) Oxide (1%) + 1% 135 nm silica particle + 0.1 mol KMnO4 + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [
+            {"name": "Lithium Cobalt (III) Oxide", "type": "Additive", "concentration": {"value": "1", "unit": "%"}},
+            {"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.1", "unit": "mol"}}
+        ],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "725", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S10",
+      "experiment_context": "Example 4: Cupric sulfate (1%) + 1% 135 nm silica particle + (oxidizer not specified, assumed KMnO4 from context or general setup). Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "135 nm silica",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "Cupric sulfate", "type": "Additive", "concentration": {"value": "1", "unit": "%"}}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "131", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S11",
+      "experiment_context": "Example 4: Cerium Oxide coated silica (75 nm) + 0.3 Mol KMnO4 + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "Cerium Oxide coated silica",
+        "abrasive_concentration": null,
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "Mol"}}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "75", "unit": "nm", "measurement_method_used": "core particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "1320", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S12",
+      "experiment_context": "Example 4: 1% SiC particle (<1500 grit) + 1% MnO2 coated 135 nm silica particle + 0.3 KMnO4 + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "SiC particle (<1500 grit) and MnO2 coated 135 nm silica",
+        "abrasive_concentration": {"value": "1% (SiC) and 1% (coated silica)", "unit": "wt %"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "Mol"}}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {
+          "particle_size_distribution": {"value": "<1500 grit (SiC), 135 nm (coated silica core)", "unit": ""}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "756", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex4_S13",
+      "experiment_context": "Example 4: 1% Boron Nitride particle (0.3 to 0.7 nm) + 1% MnO2 coated 135 nm silica particle + 0.3 KMnO4 + water @ pH 2. Polishing conditions from Ex4 general.",
+      "slurry_preparation": {
+        "abrasive_material": "Boron Nitride particle (0.3-0.7nm) and MnO2 coated 135 nm silica",
+        "abrasive_concentration": {"value": "1% (BN) and 1% (coated silica)", "unit": "wt %"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "Mol"}}],
+        "target_final_slurry_ph": "2",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {
+          "particle_size_distribution": {"value": "0.3-0.7 nm (BN), 135 nm (coated silica core)", "unit": "nm"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "932", "unit": "nm/hr"},
+        "polishing_pressure": {"value": "6", "unit": "psi"},
+        "linear_velocity": {"value": "0.17", "unit": "m/sec"},
+        "rotation_speed": {"value": "60", "unit": "rpm"}
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex5_S1_SoftFuncSilica_0.1MKMnO4",
+      "experiment_context": "Example 5: AFM Data. Silicon face on-axis 6H SiC wafer polished with soft functionalized silica cores (75nm) slurry. Silica functionalized with insoluble Mn+3/Mn+4 compounds. Polishing conditions as Ex1 (6.4 psi, 90 rpm).",
+      "slurry_preparation": {
+        "abrasive_material": "Soft functionalized 75 nm silica (functionalized with Mn+3/Mn+4 compounds)",
+        "abrasive_concentration": null,
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.1", "unit": "M"}}],
+        "target_final_slurry_ph": "Acidic (for functionalization)",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "75", "unit": "nm", "measurement_method_used": "core particle size"},
+        "surface_roughness_rms": {"value": "<2", "unit": "A"},
+        "other_observations": "Terraced structures, atomic planes height ~2.5 A. AFM scan 10x10 microns."
+      },
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "polishing_pressure": {"value": "6.4", "unit": "psi"},
+        "rotation_speed": {"value": "90", "unit": "rpm"},
+        "equipment_model": "Buehler apparatus (implied from Ex1 conditions)"
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex5_S2_CoatedSilica75nm_0.3MKMnO4",
+      "experiment_context": "Example 5: AFM Data. Mn(III)/Mn(IV) coated 75nm silica particles in permanganate slurry. Polished silicon face on-axis 6H SiC. Polishing conditions as Ex1.",
+      "slurry_preparation": {
+        "abrasive_material": "Mn(III)/Mn(IV) coated 75 nm silica",
+        "abrasive_concentration": {"value": "10%", "unit": "wt %"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "mole"}}],
+        "target_final_slurry_ph": null,
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "75", "unit": "nm", "measurement_method_used": "core particle size"},
+        "surface_roughness_rms": {"value": "<2", "unit": "A"},
+        "other_observations": "Atomic terracing corresponding to 2.5 A."
+      },
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "polishing_pressure": {"value": "6.4", "unit": "psi"},
+        "rotation_speed": {"value": "90", "unit": "rpm"},
+        "equipment_model": "Buehler apparatus (implied from Ex1 conditions)"
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex5_S3_CoatedSilica135nm_8degOffAxis_0.3MKMnO4",
+      "experiment_context": "Example 5: AFM Data. 8 degree off-axis SiC Si faced wafer polished with 1% coated 135nm silica particle in 0.3M KMnO4. Polishing conditions as Ex1.",
+      "slurry_preparation": {
+        "abrasive_material": "Coated 135 nm silica",
+        "abrasive_concentration": {"value": "1%", "unit": "wt %"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "M"}}],
+        "target_final_slurry_ph": null,
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"},
+        "surface_roughness_rms": {"value": "<2", "unit": "A"},
+        "other_observations": "No terracing observed on off-axis wafer."
+      },
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "polishing_pressure": {"value": "6.4", "unit": "psi"},
+        "rotation_speed": {"value": "90", "unit": "rpm"},
+        "equipment_model": "Buehler apparatus (implied from Ex1 conditions)"
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex5_S4_CoatedAlumina_0.35MKMnO4",
+      "experiment_context": "Example 5: AFM Data. Si faced 6H SiC surface polished with 1% Mn(III)/Mn(IV) coated alumina with 0.35M KMnO4 slurry. Polishing conditions as Ex1.",
+      "slurry_preparation": {
+        "abrasive_material": "Mn(III)/Mn(IV) coated alumina",
+        "abrasive_concentration": {"value": "1%", "unit": "wt %"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.35", "unit": "M"}}],
+        "target_final_slurry_ph": null,
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {
+        "particle_size_distribution": null,
+        "surface_roughness_rms": {"value": "<2", "unit": "A"},
+        "other_observations": "Different surface terracing compared to silica."
+      },
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "polishing_pressure": {"value": "6.4", "unit": "psi"},
+        "rotation_speed": {"value": "90", "unit": "rpm"},
+        "equipment_model": "Buehler apparatus (implied from Ex1 conditions)"
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex5_S5_MixedCoatedDiamondSilica_0.3MKMnO4",
+      "experiment_context": "Example 5: AFM Data. 6H silicon faced SiC polished with 0.1% 5nm coated diamond and 1% 75nm Mn(III)/Mn(IV) coated silica with 0.3M KMnO4. Polishing conditions as Ex1.",
+      "slurry_preparation": {
+        "abrasive_material": "Coated diamond (5nm) and coated silica (75nm, Mn(III)/Mn(IV) coating)",
+        "abrasive_concentration": {"value": "0.1% (diamond), 1% (silica)", "unit": "wt %"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "M"}}],
+        "target_final_slurry_ph": null,
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {
+        "particle_size_distribution": {"value": "5nm (diamond), 75nm (silica)", "unit": "nm", "measurement_method_used": "core particle sizes"},
+        "surface_roughness_rms": {"value": "<2", "unit": "A"},
+        "other_observations": "Excellent surface finish, no scratches detected."
+      },
+      "cmp_performance": {
+        "material_removal_rate": null,
+        "polishing_pressure": {"value": "6.4", "unit": "psi"},
+        "rotation_speed": {"value": "90", "unit": "rpm"},
+        "equipment_model": "Buehler apparatus (implied from Ex1 conditions)"
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex6_R1_CoatedSilica135nm",
+      "experiment_context": "Example 6: Mixed Particle Systems. SiC silicon faced 6H substrates. 0.3M KMnO4, pH 3.0. Coating is Mn(III)/Mn(IV).",
+      "slurry_preparation": {
+        "abrasive_material": "1% Mn(III)/Mn(IV) coated 135 nm silica particles",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "M"}}],
+        "target_final_slurry_ph": "3.0",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135", "unit": "nm", "measurement_method_used": "core particle size"}},
+      "cmp_performance": {"material_removal_rate": {"value": "1500", "unit": "nm/hr"}}
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex6_R2_CoatedSilicaAlumina",
+      "experiment_context": "Example 6: Mixed Particle Systems. SiC silicon faced 6H substrates. 0.3M KMnO4, pH 3.0. Coating is Mn(III)/Mn(IV).",
+      "slurry_preparation": {
+        "abrasive_material": "1% coated 135 nm silica + 1% coated 0.8 micron alumina",
+        "abrasive_concentration": {"value": "1% (silica) + 1% (alumina)", "unit": "wt %"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "M"}}],
+        "target_final_slurry_ph": "3.0",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135nm (silica), 0.8 micron (alumina)", "unit": "", "measurement_method_used": "core particle sizes"}},
+      "cmp_performance": {"material_removal_rate": {"value": "1900", "unit": "nm/hr"}}
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex6_R3_CoatedSilicaDiamondBN",
+      "experiment_context": "Example 6: Mixed Particle Systems. SiC silicon faced 6H substrates. 0.3M KMnO4, pH 3.0. Coating is Mn(III)/Mn(IV).",
+      "slurry_preparation": {
+        "abrasive_material": "1% coated 135 nm silica + 0.1% 0.2 micron diamond BN",
+        "abrasive_concentration": {"value": "1% (silica) + 0.1% (diamond BN)", "unit": "wt %"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "M"}}],
+        "target_final_slurry_ph": "3.0",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "135nm (silica), 0.2 micron (diamond BN)", "unit": "", "measurement_method_used": "core particle sizes"}},
+      "cmp_performance": {"material_removal_rate": {"value": "1656", "unit": "nm/hr"}}
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex7_SiFace",
+      "experiment_context": "Example 7: Si Face Versus Carbon Face SiC Substrates. 1% coated particle (from Ex1, pH 3.0 type) using 0.3M KMnO4 slurry.",
+      "slurry_preparation": {
+        "abrasive_material": "Coated particle (Mn(III)/Mn(IV) type from Ex1)",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "M"}}],
+        "target_final_slurry_ph": "3.0",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {"value": "1475", "unit": "nm/hr"},
+        "polished_surface": "Silicon face SiC"
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex7_CarbonFace",
+      "experiment_context": "Example 7: Si Face Versus Carbon Face SiC Substrates. 1% coated particle (from Ex1, pH 3.0 type) using 0.3M KMnO4 slurry.",
+      "slurry_preparation": {
+        "abrasive_material": "Coated particle (Mn(III)/Mn(IV) type from Ex1)",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [{"name": "KMnO4", "type": "Oxidizer", "concentration": {"value": "0.3", "unit": "M"}}],
+        "target_final_slurry_ph": "3.0",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": null,
+      "cmp_performance": {
+        "material_removal_rate": {"value": "approx 5000", "unit": "nm/hr"},
+        "polished_surface": "Carbon face SiC"
+      }
+    },
+    {
+      "sample_id": "US_8557133_B2_Ex8_BD1_CoatedSilica",
+      "experiment_context": "Example 8: Polishing of Si-C Containing Compounds (BD1 - Black Diamond). pH 3.0, 1% coated 75nm silica particles, 2 psi.",
+      "slurry_preparation": {
+        "abrasive_material": "Coated 75 nm silica particles",
+        "abrasive_concentration": {"value": "1", "unit": "%"},
+        "additives": [],
+        "target_final_slurry_ph": "3.0",
+        "solvent": {"name": "Water"}
+      },
+      "characterization": {"particle_size_distribution": {"value": "75", "unit": "nm", "measurement_method_used": "core particle size"}},
+      "cmp_performance": {
+        "material_removal_rate": {"value": "1374", "unit": "A/min"},
+        "polishing_pressure": {"value": "2", "unit": "psi"},
+        "polished_material": "BD1 (low dielectric constant material, Si-C-O, N-doped)"
+      }
+    }
+  ]
+}

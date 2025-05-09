@@ -1,0 +1,725 @@
+{
+  "doi": "US 7,534,277 B2",
+  "title": "SLURRY COMPOSITION FOR SECONDARY POLISHING OF SILICON WAFER",
+  "year_published": "2009",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "Patent_Roh_Example1",
+      "experiment_context": "Secondary and final polishing of p-type 200mm silicon wafer. Slurry prepared with colloidal silica, ammonia, tetramethoxyammonium hydroxide, hydroxyethylcellulose, and tripolyoxyethyleneamine ether, homogenized.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Tripolyoxyethyleneamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_moles": "30"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "40", "unit": "nm"},
+          "second_average_diameter": {"value": "70", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": null,
+        "amount_of_coarse_particles": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": null,
+        "lpd_count": {"value": "3", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "2", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_ComparativeExample1",
+      "experiment_context": "Same as Example 1 but no tripolyoxyethyleneamine ether was added.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "40", "unit": "nm"},
+          "second_average_diameter": {"value": "70", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": null,
+        "amount_of_coarse_particles": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": null,
+        "lpd_count": {"value": "10", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "10", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Example2-1_Table1",
+      "experiment_context": "Variation of Example 1, changing colloidal silica particle diameters. From Table 1.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Tripolyoxyethyleneamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_moles": "30"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "20", "unit": "nm"},
+          "second_average_diameter": {"value": "40", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": null,
+        "amount_of_coarse_particles": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": {"value": "0.82", "unit": "µm/min"},
+        "lpd_count": {"value": "15", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "4", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Example2-2_Table1",
+      "experiment_context": "Variation of Example 1, changing colloidal silica particle diameters. From Table 1.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Tripolyoxyethyleneamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_moles": "30"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "40", "unit": "nm"},
+          "second_average_diameter": {"value": "70", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": null,
+        "amount_of_coarse_particles": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": {"value": "0.98", "unit": "µm/min"},
+        "lpd_count": {"value": "5", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "2", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Example2-3_Table1",
+      "experiment_context": "Variation of Example 1, changing colloidal silica particle diameters. From Table 1.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Tripolyoxyethyleneamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_moles": "30"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "40", "unit": "nm"},
+          "second_average_diameter": {"value": "100", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": null,
+        "amount_of_coarse_particles": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": {"value": "1.0", "unit": "µm/min"},
+        "lpd_count": {"value": "7", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "15", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Example2-4_Table1",
+      "experiment_context": "Variation of Example 1, changing colloidal silica particle diameters. First particle diameter 'x'. From Table 1.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Tripolyoxyethyleneamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_moles": "30"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": null, "unit": "nm"},
+          "second_average_diameter": {"value": "120", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": null,
+        "amount_of_coarse_particles": null,
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": {"value": "1.2", "unit": "µm/min"},
+        "lpd_count": {"value": "7", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "16", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Example3-1_Table2",
+      "experiment_context": "Variation of Example 1, changing oxyethylene monomer amount (m+n=5) in nonionic surfactant. From Table 2.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Polyoxyethylenealkylamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_plus_oxyisopropylene_moles": "5"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "40", "unit": "nm"},
+          "second_average_diameter": {"value": "70", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": {"value": "3.8", "unit": "%"},
+        "amount_of_coarse_particles": {"value": "260", "unit": "ppm"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": null, 
+        "lpd_count": {"value": "12", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "5", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Example3-2_Table2",
+      "experiment_context": "Variation of Example 1, changing oxyethylene monomer amount (m+n=35) in nonionic surfactant. From Table 2.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Polyoxyethylenealkylamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_plus_oxyisopropylene_moles": "35"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "40", "unit": "nm"},
+          "second_average_diameter": {"value": "70", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": {"value": "2.5", "unit": "%"},
+        "amount_of_coarse_particles": {"value": "72", "unit": "ppm"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": null,
+        "lpd_count": {"value": "8", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "1", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Example3-3_Table2",
+      "experiment_context": "Variation of Example 1, changing oxyethylene monomer amount (m+n=50) in nonionic surfactant. From Table 2.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Polyoxyethylenealkylamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_plus_oxyisopropylene_moles": "50"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "40", "unit": "nm"},
+          "second_average_diameter": {"value": "70", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": {"value": "2.2", "unit": "%"},
+        "amount_of_coarse_particles": {"value": "61", "unit": "ppm"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": null,
+        "lpd_count": {"value": "5", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "2", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Example3-4_Table2",
+      "experiment_context": "Variation of Example 1, changing oxyethylene monomer amount (m+n=75) in nonionic surfactant. From Table 2.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Polyoxyethylenealkylamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_plus_oxyisopropylene_moles": "75"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.5-10.6",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": {"value": "2000", "unit": "rpm"},
+        "final_slurry_viscosity": {"value": "70", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "40", "unit": "nm"},
+          "second_average_diameter": {"value": "70", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "70", "unit": "cP"},
+        "sedimentation_ratio": {"value": "2.0", "unit": "%"},
+        "amount_of_coarse_particles": {"value": "170", "unit": "ppm"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": null,
+        "lpd_count": {"value": "2", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "2", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "Multi-head polisher (Speedfam Corp.)",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Table3_Example2_Row",
+      "experiment_context": "Data from Table 3, 'Example 2' row, representing the invention's slurry.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": [
+          {"name": "Ammonia", "type": "pH adjuster/dispersant", "concentration": {"value": "1", "unit": "wt%"}},
+          {"name": "Tetramethoxyammonium hydroxide", "type": "Quaternary ammonium base/pH adjuster", "concentration": {"value": "0.08", "unit": "wt%"}},
+          {"name": "Hydroxyethylcellulose", "type": "Thickener", "properties": {"average_molecular_weight": "500000"}, "concentration": {"value": "0.6", "unit": "wt%"}},
+          {"name": "Tripolyoxyethyleneamine ether", "type": "Nonionic surfactant", "properties": {"oxyethylene_moles": "30"}, "concentration": {"value": "0.1", "unit": "wt%"}}
+        ],
+        "target_final_slurry_ph": "10.7", 
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": null, 
+        "final_slurry_viscosity": {"value": "72", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "40", "unit": "nm"},
+          "second_average_diameter": {"value": "70", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "72", "unit": "cP"},
+        "sedimentation_ratio": {"value": "2.5", "unit": "%"},
+        "amount_of_coarse_particles": {"value": "72", "unit": "ppm"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": {"value": "0.98", "unit": "µm/min"},
+        "lpd_count": {"value": "5", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "2", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "STRAUGHBAUGH MARK9K polisher",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Table3_ComparativeExample8",
+      "experiment_context": "Commercially available slurry. Data from Table 3, 'Comparative Example 8' row.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": null, 
+        "target_final_slurry_ph": "10.7",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": null,
+        "final_slurry_viscosity": {"value": "30", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "30", "unit": "nm"},
+          "second_average_diameter": {"value": "65", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "30", "unit": "cP"},
+        "sedimentation_ratio": {"value": "0.2", "unit": "%"},
+        "amount_of_coarse_particles": {"value": "700", "unit": "ppm"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": {"value": "0.97", "unit": "µm/min"},
+        "lpd_count": {"value": "18", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "4", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "STRAUGHBAUGH MARK9K polisher",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Patent_Roh_Table3_ComparativeExample9",
+      "experiment_context": "Commercially available slurry. Data from Table 3, 'Comparative Example 9' row.",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": null,
+      "post_synthesis_treatment": null,
+      "slurry_preparation": {
+        "abrasive_material": "Colloidal Silica",
+        "abrasive_concentration": {"value": "6", "unit": "wt%"},
+        "additives": null,
+        "target_final_slurry_ph": "10.7",
+        "solvent": {"name": "Deionized water", "quantity": {"value": "balance", "unit": ""}},
+        "homogenization_speed": null,
+        "final_slurry_viscosity": {"value": "60", "unit": "cP"}
+      },
+      "characterization": {
+        "particle_sizes": {
+          "first_average_diameter": {"value": "45", "unit": "nm"},
+          "second_average_diameter": {"value": "80", "unit": "nm"}
+        },
+        "slurry_viscosity": {"value": "60", "unit": "cP"},
+        "sedimentation_ratio": {"value": "4.5", "unit": "%"},
+        "amount_of_coarse_particles": {"value": "2000", "unit": "ppm"},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_target": "p-type 200mm silicon wafer, (100)-orientation",
+        "material_removal_rate": {"value": "1.2", "unit": "µm/min"},
+        "lpd_count": {"value": "10", "unit": "ea", "size_threshold": ">=0.1 microns"},
+        "area_defect_count": {"value": "4", "unit": "ea"},
+        "polishing_time": null,
+        "process_temperature": {"value": "RT", "unit": ""},
+        "polishing_pressure": {"value": "5", "unit": "psi"},
+        "table_speed": {"value": "50", "unit": "rpm"},
+        "head_speed": {"value": "30", "unit": "rpm"},
+        "slurry_flow_rate": {"value": "0.5", "unit": "L/min"},
+        "equipment_model": "STRAUGHBAUGH MARK9K polisher",
+        "pad_composition": "Hard urethane polishing pad"
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}

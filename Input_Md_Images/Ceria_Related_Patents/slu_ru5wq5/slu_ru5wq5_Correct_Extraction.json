@@ -1,0 +1,614 @@
+{
+  "doi": "US 7,367,875 B2",
+  "title": "CVD DIAMOND-COATED COMPOSITE SUBSTRATE CONTAINING A CARBIDE-FORMING MATERIAL AND CERAMIC PHASES AND METHOD FOR MAKING SAME",
+  "year_published": "2008",
+  "journal": "US Patent",
+  "samples": [
+    {
+      "sample_id": "Example_1_Si_Substrate_10um_Grit_CMP_Conditioner",
+      "experiment_context": "CVD diamond coating on a 2-inch diameter, 0.04-inch thick silicon substrate with 10-micron synthetic diamond grit, tested as a CMP pad conditioner for non-woven fiber, polyurethane impregnated polishing pads.",
+      "abrasive_synthesis": {
+        "description": "Fabrication of a CVD diamond-coated silicon substrate with embedded diamond grit for CMP conditioning.",
+        "precursors": [
+          {
+            "material_name": "Silicon Substrate",
+            "formula": "Si",
+            "source_type": "Substrate",
+            "purity": null,
+            "quantity": {
+              "value": "1",
+              "unit": "piece"
+            },
+            "properties": {
+              "diameter": {"value": "2", "unit": "inch"},
+              "thickness": {"value": "0.04", "unit": "inch"}
+            }
+          },
+          {
+            "material_name": "Synthetic Diamond Grit",
+            "formula": "C",
+            "source_type": "Abrasive Grit",
+            "purity": null,
+            "properties": {
+              "average_particle_diameter": {"value": "10", "unit": "microns"},
+              "density_on_substrate": {"value": "800", "unit": "grains/mm^2"},
+              "density_range": "700-900 grains/mm^2",
+              "application_method": "Air dispersion technique"
+            }
+          },
+          {
+            "material_name": "Methane",
+            "formula": "CH4",
+            "source_type": "CVD Precursor Gas",
+            "purity": null,
+            "quantity": {
+              "value": "72",
+              "unit": "sccm"
+            }
+          },
+          {
+            "material_name": "Hydrogen",
+            "formula": "H2",
+            "source_type": "CVD Carrier Gas",
+            "purity": null,
+            "quantity": {
+              "value": "3.0",
+              "unit": "slpm"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "CVD diamond deposition via Hot Filament CVD (HFCVD).",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "HFCVD reactor type from Garg, et al., U.S. Pat. No. 5,186,973, modified by U.S. Pat. Nos. 5,833,753 and 5,997,650.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "Initial CVD Diamond Deposition",
+                "temperature": {"value": "2000", "unit": "°C (filament)"},
+                "pressure": {"value": "30", "unit": "Torr"},
+                "duration": {"value": "1.5", "unit": "hours"},
+                "atmosphere_composition": "Methane (72 sccm) in Hydrogen (3.0 slpm)",
+                "equipment_settings": "Filament power: 15.95 kW (145 volts, 110 amps)",
+                "outcome": "1-2 microns of polycrystalline diamond deposited"
+              },
+              {
+                "stage": 2,
+                "process_name": "Main CVD Diamond Growth",
+                "temperature": {"value": null, "unit": "°C (filament, implied similar or higher)"},
+                "pressure": {"value": "25", "unit": "Torr"},
+                "duration": {"value": "29.5", "unit": "hours"},
+                "atmosphere_composition": "Methane and Hydrogen (same flow rates implied)",
+                "equipment_settings": "Filament power: 21.24 kW (177 volts, 120 amps)",
+                "outcome": "Additional diamond growth, total 8-12 microns of coherent polycrystalline diamond"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-deposition treatments.",
+          "collection": {
+            "method": "Cooled to room temperature under flowing hydrogen gas."
+          },
+          "treatment": {
+            "backing_layer_bonding": "Second side of the disk bonded to a backing layer as illustrated in FIG. 3."
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of the diamond coating.",
+        "morphology": {
+          "coating_thickness": {"value": "8-12", "unit": "microns"},
+          "coating_type": "coherent polycrystalline diamond"
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "Tested as a CMP pad conditioner.",
+        "equipment_model": "Conditioning arm mounted",
+        "pad_composition": "Non-woven fiber, polyurethane impregnated polishing pad",
+        "observations": "Polishing pad was not damaged during conditioning. Conditioner effectively conditioned the pad with acceptable wear rate of the pad."
+      }
+    },
+    {
+      "sample_id": "Example_2_PUREBIDE_R2000_10um_Grit_CMP_Conditioner",
+      "experiment_context": "CVD diamond coating on a 2-inch diameter, 0.135-inch thick PUREBIDE R2000 reaction-bonded SiC substrate, seeded with 1-2 micron diamond, with 10-micron diamond grit, tested for bow, adhesion, and CMP conditioning.",
+      "abrasive_synthesis": {
+        "description": "Fabrication of a CVD diamond-coated PUREBIDE R2000 substrate with embedded diamond grit.",
+        "precursors": [
+          {
+            "material_name": "PUREBIDE R2000 Substrate",
+            "formula": "SiC-Si composite",
+            "source_type": "Substrate (reaction-bonded silicon carbide)",
+            "properties": {
+              "diameter": {"value": "2", "unit": "inch"},
+              "thickness": {"value": "0.135", "unit": "inch"},
+              "surface_finish": "Through feed grinding"
+            }
+          },
+          {
+            "material_name": "Diamond Seeding Particles",
+            "formula": "C",
+            "source_type": "Seeding material",
+            "properties": {
+              "size": {"value": "1-2", "unit": "micron"},
+              "application_method": "Mechanically rubbing the surface, excess removed"
+            }
+          },
+          {
+            "material_name": "Diamond Grit",
+            "formula": "C",
+            "source_type": "Abrasive Grit",
+            "properties": {
+              "size": {"value": "10", "unit": "micron"},
+              "density_on_substrate": {"value": "420", "unit": "particles/mm^3 (likely particles/mm^2)"}
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": {
+            "description": "CVD diamond deposition.",
+            "solvents": [],
+            "ph_agents": [],
+            "synthesis_additives": []
+          },
+          "physical": {
+            "description": "CVD process similar to Example 1.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "CVD Diamond Deposition",
+                "duration": null,
+                "outcome": "About 8 microns thick CVD diamond layer deposited (process outlined in Example 1)"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-deposition examination.",
+          "collection": null,
+          "treatment": null
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of the coated substrate.",
+        "morphology": {
+          "coating_thickness": {"value": "8", "unit": "microns"},
+          "coating_appearance": "Uniform adherent diamond coating"
+        },
+        "physical_properties": {
+          "bow": {"value": "5 +/- 2", "unit": "microns across 2-inch diameter"},
+          "bow_comparison": "Within measurement error, same as substrate bow prior to coating."
+        },
+        "stability": {
+          "adhesion": "10 micron diamond crystals were strongly adhered to the surface. No indications of grit pull out after hand rubbing on a polyurethane CMP polishing pad."
+        }
+      },
+      "cmp_performance": {
+        "description": "Tested as a CMP pad conditioner.",
+        "pad_composition": "Non-woven fiber, polyurethane impregnated polishing pad",
+        "observations": "Successful in conditioning the pad. Superior resistance to bowing compared to diamond-coated silicon product of Example 1."
+      }
+    },
+    {
+      "sample_id": "Example_3_PUREBIDE_R2000_75um_Grit_CMP_Conditioner",
+      "experiment_context": "CVD diamond coating on a 2-inch diameter, 0.135-inch thick PUREBIDE R2000 substrate with lapped surface finish, seeded with 1-2 micron diamond, with 75-micron diamond grit.",
+      "abrasive_synthesis": {
+        "description": "Fabrication of a CVD diamond-coated PUREBIDE R2000 substrate with large embedded diamond grit.",
+        "precursors": [
+          {
+            "material_name": "PUREBIDE R2000 Substrate",
+            "formula": "SiC-Si composite",
+            "source_type": "Substrate",
+            "properties": {
+              "diameter": {"value": "2", "unit": "inch"},
+              "thickness": {"value": "0.135", "unit": "inch"},
+              "surface_finish": "Lapped"
+            }
+          },
+          {
+            "material_name": "Diamond Seeding Particles",
+            "formula": "C",
+            "source_type": "Seeding material",
+            "properties": {
+              "size": {"value": "1-2", "unit": "micron"},
+              "application_method": "Mechanically rubbing the surface, excess removed"
+            }
+          },
+          {
+            "material_name": "Diamond Grit",
+            "formula": "C",
+            "source_type": "Abrasive Grit",
+            "properties": {
+              "size": {"value": "75", "unit": "micron"},
+              "density_on_substrate": {"value": "10", "unit": "particles/mm^2"}
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "CVD process similar to Example 1.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "CVD Diamond Deposition",
+                "outcome": "About 15 microns thick CVD diamond layer deposited (process outlined in Example 1)"
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of the coated substrate.",
+        "morphology": {
+          "coating_thickness": {"value": "15", "unit": "microns"},
+          "coating_appearance": "Uniform adherent diamond coating"
+        },
+        "stability": {
+          "adhesion": "75 micron diamond crystals were strongly adhered to the surface. No indications of grit pullout after hand rubbing on a polyurethane CMP polishing pad."
+        }
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Example_4_PUREBIDE_R2000_Gritless_Fixed_Abrasive_CMP_Conditioner",
+      "experiment_context": "Gritless CVD diamond coating (10 microns thick) on a 2-inch diameter, 0.135-inch thick PUREBIDE R2000 substrate with lapped surface finish, seeded with 1-2 micron diamond. Tested on fixed abrasive CMP pad.",
+      "abrasive_synthesis": {
+        "description": "Fabrication of a gritless CVD diamond-coated PUREBIDE R2000 substrate.",
+        "precursors": [
+          {
+            "material_name": "PUREBIDE R2000 Substrate",
+            "formula": "SiC-Si composite",
+            "source_type": "Substrate",
+            "properties": {
+              "diameter": {"value": "2", "unit": "inch"},
+              "thickness": {"value": "0.135", "unit": "inch"},
+              "surface_finish": "Lapped"
+            }
+          },
+          {
+            "material_name": "Diamond Seeding Particles",
+            "formula": "C",
+            "source_type": "Seeding material",
+            "properties": {
+              "size": {"value": "1-2", "unit": "micron"},
+              "application_method": "Mechanically rubbing the surface, excess removed"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "CVD process similar to Example 1.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "CVD Diamond Deposition",
+                "outcome": "About 10 microns thick CVD diamond layer deposited (process outlined in Example 1)"
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of the coated substrate.",
+        "morphology": {
+          "coating_thickness": {"value": "10", "unit": "microns"},
+          "coating_appearance": "Uniform adherent diamond coating. Diamond surface was intact after hand rubbing on polyurethane CMP pad."
+        },
+        "stability": null
+      },
+      "cmp_performance": {
+        "description": "Tested as a CMP pad conditioner for fixed abrasive pads.",
+        "equipment_model": "Applied Materials Mirra CMP System",
+        "pad_composition": "Fixed abrasive CMP pad",
+        "observations": "Successfully conditioned the fixed abrasive CMP pad."
+      }
+    },
+    {
+      "sample_id": "Example_5_PUREBIDE_R2000_Surface_Finish_Effect_On_Roughness",
+      "experiment_context": "Study of initial substrate surface finish effect on final CVD diamond coating roughness. Three PUREBIDE R2000 substrates (2-inch dia, 0.135-inch thick) with different finishes (through feed grinding, Blanchard grinding, lapping) were coated with CVD diamond under identical conditions.",
+      "abrasive_synthesis": {
+        "description": "Fabrication of CVD diamond coatings on PUREBIDE R2000 substrates with varying initial surface finishes.",
+        "precursors": [
+          {
+            "material_name": "PUREBIDE R2000 Substrate",
+            "formula": "SiC-Si composite",
+            "source_type": "Substrate",
+            "properties": {
+              "diameter": {"value": "2", "unit": "inch"},
+              "thickness": {"value": "0.135", "unit": "inch"},
+              "variations": [
+                {"surface_finish": "Through feed grinding"},
+                {"surface_finish": "Blanchard grinding"},
+                {"surface_finish": "Lapping"}
+              ]
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "All substrates coated with CVD diamond to the same thickness in the same reactor at the same time and under the same conditions.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "CVD Diamond Deposition",
+                "outcome": "CVD diamond coating of unspecified, but identical, thickness for all three substrates."
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Surface roughness measurements before and after coating. Quantitative data is in FIG. 17.",
+        "surface_roughness_study": {
+          "observation_text": "The second sample (Blanchard grinding) was less rough than the first (through feed grinding), and the third sample (lapping) was less rough than the second, before coating. In each case, the substrate with the higher original roughness also contained the higher after-coating roughness.",
+          "figure_reference": "FIG. 17 (graphically illustrates the effect of initial surface roughness on final roughness)"
+        },
+        "morphology": null,
+        "stability": null
+      },
+      "cmp_performance": null
+    },
+    {
+      "sample_id": "Example_6_Bow_Analysis_Si_vs_PUREBIDE_R2000",
+      "experiment_context": "Comparative study of bow in CVD diamond-coated silicon (0.040\" thick) vs. PUREBIDE R2000 (0.135\" thick) substrates with various coating thicknesses and grit conditions (gritless, 50-micron grit, 75-micron grit). Bow measured using Tencor P10 surface profiler over a 48 mm cord.",
+      "abrasive_synthesis": {
+        "description": "Fabrication of various CVD diamond coatings on Silicon and PUREBIDE R2000 substrates for bow analysis.",
+        "precursors": [
+          {
+            "material_name": "Silicon Substrate",
+            "formula": "Si",
+            "properties": {"thickness": {"value": "0.040", "unit": "inch"}}
+          },
+          {
+            "material_name": "PUREBIDE R2000 Substrate",
+            "formula": "SiC-Si composite",
+            "properties": {"thickness": {"value": "0.135", "unit": "inch"}}
+          },
+          {
+            "material_name": "Diamond Grit (for some samples)",
+            "formula": "C",
+            "properties": [
+              {"average_particle_size": {"value": "50", "unit": "microns"}},
+              {"average_particle_size": {"value": "75", "unit": "microns"}}
+            ]
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "Substrates coated with CVD diamond coatings of various thicknesses.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "CVD Diamond Deposition",
+                "variations": [
+                  {"coating_type": "Gritless CVD diamond coating"},
+                  {"coating_type": "CVD diamond coating over 50 microns average particle size grit"},
+                  {"coating_type": "CVD diamond coating over 75 microns average particle size grit"}
+                ],
+                "outcome": "Various coating thicknesses applied."
+              }
+            ]
+          }
+        },
+        "post_synthesis": null
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Bow measurement of composite diamond-coated substrates. Quantitative data and trends are presented in FIG. 18A and FIG. 18B.",
+        "bow_measurement": {
+          "equipment": "Tencor P10 surface profiler",
+          "measurement_length": {"value": "48", "unit": "mm cord"},
+          "results_summary_Si": "Increasing bow as a function of CVD diamond coating thickness. Bow strongly dependent on diamond coating thickness.",
+          "results_summary_PUREBIDE_R2000": "Virtually no change in bow as a function of diamond coating thickness. Thickness dependence significantly less pronounced. Amount of bow substantially lower than silicon substrates for diamond coating thickness above about 10 microns.",
+          "figure_reference": "FIG. 18A (aggregate results), FIG. 18B (results broken down by coating type)"
+        },
+        "morphology": null,
+        "stability": {
+          "dimensional_stability": "Composite silicon carbide substrates maintain dimensional stability at relatively high CVD diamond coating thickness."
+        }
+      },
+      "cmp_performance": {
+        "application": "CMP polishing pad conditioners (implied from context of study)"
+      }
+    },
+    {
+      "sample_id": "Example_7_PUREBIDE_R2000_Cutting_Tool_Blank",
+      "experiment_context": "Fabrication of a cutting tool blank from a 2-inch diameter, 0.135-inch thick PUREBIDE R2000 substrate coated with 200 microns of CVD diamond, followed by lapping and polishing.",
+      "abrasive_synthesis": {
+        "description": "Fabrication of a CVD diamond-coated PUREBIDE R2000 cutting tool blank.",
+        "precursors": [
+          {
+            "material_name": "PUREBIDE R2000 Substrate",
+            "formula": "SiC-Si composite",
+            "source_type": "Substrate",
+            "properties": {
+              "diameter": {"value": "2", "unit": "inch"},
+              "thickness": {"value": "0.135", "unit": "inch"}
+            }
+          },
+          {
+            "material_name": "Diamond Seeding Particles",
+            "formula": "C",
+            "source_type": "Seeding material",
+            "properties": {
+              "size": {"value": "1-2", "unit": "micron"},
+              "application_method": "Mechanically rubbing the surface, excess removed"
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "CVD process similar to Example 1.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "CVD Diamond Deposition",
+                "outcome": "About 200 microns thick CVD diamond layer deposited (process outlined in Example 1)"
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-deposition finishing.",
+          "collection": null,
+          "treatment": {
+            "lapping": "Sample lapped flat by diamond lapping the CVD diamond surface.",
+            "polishing": "CVD diamond surface polished to a mirror finish.",
+            "final_surface_roughness_Ra": {"value": "0.02", "unit": "micron"}
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of the finished cutting tool blank.",
+        "morphology": {
+          "coating_thickness": {"value": "200", "unit": "microns"},
+          "coating_appearance": "Uniform adherent diamond coating.",
+          "surface_finish": "Mirror finish",
+          "surface_roughness_Ra": {"value": "0.02", "unit": "micron"}
+        },
+        "stability": null
+      },
+      "application_details": {
+        "intended_use": "Cutting tool blank"
+      }
+    },
+    {
+      "sample_id": "Example_8_Heat_Spreader_Concept",
+      "experiment_context": "Conceptual manufacturing process for a heat spreader using a 1-inch diameter reaction-bonded SiC-Si substrate with 10-500 microns CVD diamond coating, followed by lapping, polishing, and metallization.",
+      "abrasive_synthesis": {
+        "description": "Conceptual fabrication of a CVD diamond-coated heat spreader.",
+        "precursors": [
+          {
+            "material_name": "Reaction-bonded silicon carbide-silicon ceramic substrate",
+            "formula": "SiC-Si composite",
+            "source_type": "Substrate",
+            "properties": {
+              "diameter": {"value": "1", "unit": "inch"}
+            }
+          },
+          {
+            "material_name": "Metallization materials",
+            "formula": "Ti/Pt/Au",
+            "source_type": "Thin film metallization"
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "CVD diamond deposition.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "CVD Diamond Deposition",
+                "outcome": "Between 10 and 500 microns of CVD diamond deposited."
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-deposition processing for heat spreader application.",
+          "collection": null,
+          "treatment": {
+            "lapping": "Lapped on the uncoated ceramic side to obtain required total thickness.",
+            "polishing_diamond_surface": [
+              {"finish_type": "Matte finish", "surface_roughness_Ra": {"value": "<0.1", "unit": "micron"}},
+              {"finish_type": "Mirror finish", "surface_roughness_Ra": {"value": "<0.03", "unit": "micron"}}
+            ],
+            "metallization": "CVD diamond surface and back-side ceramic surfaces metallized using Ti/Pt/Au thin film metallization processes.",
+            "cutting": "Blank may be cut into required size by use of laser or mechanical sawing processes."
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Target properties for the heat spreader.",
+        "morphology": {
+          "coating_thickness_range": {"min": "10", "max": "500", "unit": "microns"}
+        },
+        "stability": null
+      },
+      "application_details": {
+        "intended_use": "Heat spreader"
+      }
+    },
+    {
+      "sample_id": "Example_9_Wear_Test_Component_Pump_Seal",
+      "experiment_context": "Preparation of a wear test component by depositing a 3-5 micron thick CVD diamond layer on a diamond-machined reaction-bonded SiC-Si ceramic substrate. Extension to pump seal application with 0.1-50 micron coating and polishing.",
+      "abrasive_synthesis": {
+        "description": "Fabrication of CVD diamond-coated wear components.",
+        "precursors": [
+          {
+            "material_name": "Reaction-bonded silicon carbide-silicon ceramic substrate",
+            "formula": "SiC-Si composite",
+            "source_type": "Substrate",
+            "properties": {
+              "surface_preparation_wear_test": "Diamond machined to a near mirror finish prior to deposition.",
+              "surface_preparation_pump_seal_variant1": "Polished sealing surfaces.",
+              "surface_preparation_pump_seal_variant2": "Surface not polished prior to deposition."
+            }
+          }
+        ],
+        "synthesis_parameters": {
+          "chemical": null,
+          "physical": {
+            "description": "Hot-filament CVD diamond deposition.",
+            "process_stages": [
+              {
+                "stage": 1,
+                "process_name": "CVD Diamond Deposition (Wear Test Component)",
+                "outcome": "3-5 micron thick layer of CVD diamond."
+              },
+              {
+                "stage": 2,
+                "process_name": "CVD Diamond Deposition (Pump Seal Ring - conceptual)",
+                "outcome": "Between 0.1 and 50 microns thickness."
+              }
+            ]
+          }
+        },
+        "post_synthesis": {
+          "description": "Post-deposition treatments for pump seal application.",
+          "collection": null,
+          "treatment": {
+            "polishing_pump_seal": "CVD diamond surface is then polished to a near mirror finish, similar to original substrate surface finish, using any of a variety of mechanical or chemical polishing techniques (for both variants of pump seal prep)."
+          }
+        }
+      },
+      "slurry_preparation": null,
+      "characterization": {
+        "description": "Characterization of the wear component.",
+        "morphology": {
+          "coating_thickness_wear_test": {"value": "3-5", "unit": "microns"},
+          "coating_thickness_pump_seal": {"min": "0.1", "max": "50", "unit": "microns"}
+        },
+        "stability": {
+          "adhesion_wear_test": "Nucleation and adhesion of the CVD diamond coating was found to be very good."
+        },
+        "surface_finish_pump_seal": "Near mirror finish after polishing."
+      },
+      "application_details": {
+        "intended_use": ["Wear test component", "Pump seal ring"]
+      }
+    }
+  ]
+}

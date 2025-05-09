@@ -1,0 +1,678 @@
+{
+  "patent_number": "US 7,402,261 B2",
+  "title": "SLURRY COMPOSITIONS, METHODS OF PREPARING SLURRY COMPOSITIONS, AND METHODS OF POLISHING AN OBJECT USING SLURRY COMPOSITIONS",
+  "year_published": "2008",
+  "assignee": "Samsung Electronics Co., Ltd.",
+  "inventors": [
+    "Jae-Hyun So",
+    "Sung-Taek Moon",
+    "Dong-Jun Lee",
+    "Nam-Soo Kim",
+    "Bong-Su Ahn",
+    "Kyoung-Moon Kang"
+  ],
+  "application_number": "11/205,029",
+  "filing_date": "2005-08-17",
+  "priority_data": {
+    "country": "KR",
+    "application_number": "10-2004-0064977",
+    "filing_date": "2004-08-18"
+  },
+  "general_findings_from_figures": {
+    "fig1_conventional_ssw2000_slurry": {
+      "description": "SEM image showing metal layer damage (voids) generated in metal CMP process using conventional SS W2000 slurry.",
+      "void_diameter_A": 900
+    },
+    "fig2_conventional_w_slurry": {
+      "description": "SEM image showing metal layer damage (voids) generated in metal CMP process using conventional W slurry (Ceil Industries Inc., Korea).",
+      "void_diameter_A": 600
+    },
+    "fig5_void_diameter_vs_wet_etch_rate": {
+      "description": "Graph illustrating the diameters of voids generated in a tungsten layer are substantially proportional to the wet etch rate of the tungsten layer.",
+      "r_squared_value": ">0.99"
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "Patent_Comparative_Example_1",
+      "experiment_context": "Conventional SS W2000 slurry (trade name manufactured by Cabot Microelectronics Co., U.S.A).",
+      "slurry_preparation": {
+        "description": "Commercial slurry, composition details not provided in patent text beyond being a conventional reference.",
+        "components": [],
+        "total_weight_g": null
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": 1734,
+        "relative_polishing_rate_percent": null,
+        "h2o2_stability_data_fig6": null
+      }
+    },
+    {
+      "sample_id": "Patent_Comparative_Example_2",
+      "experiment_context": "Base slurry with 5 wt% silica, 2 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid in deionized water. No amphoteric surfactant or glycol compound.",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 20,
+            "concentration_wt_percent": 2.0
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 919.7,
+            "concentration_wt_percent": 91.97
+          }
+        ],
+        "total_weight_g": 1000,
+        "preparation_method_details": "Mixed silica, maleic acid, nitric acid, and deionized water. Stirred for 2 hours at 2000 rpm. Dispersed under 1200 psi. Hydrogen peroxide added."
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": 503,
+        "relative_polishing_rate_percent": null,
+        "h2o2_stability_data_fig6": null
+      }
+    },
+    {
+      "sample_id": "Patent_Comparative_Example_3",
+      "experiment_context": "Base slurry with 5 wt% silica, 0.18 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid in deionized water. No amphoteric surfactant or glycol compound. Used for H2O2 stability test (Fig. 6).",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 1.8,
+            "concentration_wt_percent": 0.18
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 937.9,
+            "concentration_wt_percent": 93.79
+          }
+        ],
+        "total_weight_g": 1000,
+        "preparation_method_details": "Mixed silica, maleic acid, nitric acid, and deionized water. Stirred for 2 hours at 2000 rpm. Dispersed under 1200 psi. Hydrogen peroxide added."
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": null,
+        "relative_polishing_rate_percent": 100,
+        "polishing_conditions_from_table3": {
+          "equipment_model": "STRASBAUGH 6EC",
+          "polishing_pad_type": "IC1000/SubulV Stacked",
+          "platen_speed_rpm": 25,
+          "head_speed_rpm": 20,
+          "down_pressure_psi": 7,
+          "back_pressure_psi": 0,
+          "temperature_C": 25,
+          "slurry_flow_rate_mL_min": 250
+        },
+        "h2o2_stability_data_fig6": {
+          "description": "Concentration of H2O2 drastically decreases after preparing the slurry, reduced to less than 50% after about 24 hours (without diethylene glycol).",
+          "h2o2_initial_concentration_wt_percent": 0.18,
+          "h2o2_concentration_after_24h_percent_of_initial": "<50"
+        }
+      }
+    },
+    {
+      "sample_id": "Patent_Comparative_Example_4",
+      "experiment_context": "Slurry with 5 wt% silica, 2 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid, and 0.4 wt% glycine in deionized water.",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 20,
+            "concentration_wt_percent": 2.0
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Glycine",
+            "type": "Amphoteric Surfactant (comparative)",
+            "quantity_g": 4,
+            "concentration_wt_percent": 0.4
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 915.7,
+            "concentration_wt_percent": 91.57
+          }
+        ],
+        "total_weight_g": 1000,
+        "preparation_method_details": "Mixed silica, maleic acid, nitric acid, and deionized water. Stirred for 2 hours at 2000 rpm. Dispersed under 1200 psi. Glycine added and stirred for 30 mins. Hydrogen peroxide added."
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": 176,
+        "relative_polishing_rate_percent": null,
+        "h2o2_stability_data_fig6": null
+      }
+    },
+    {
+      "sample_id": "Patent_Comparative_Example_5",
+      "experiment_context": "Slurry with 5 wt% silica, 0.18 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid, 0.4 wt% glycine, and 0.08 wt% diethylene glycol in deionized water.",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 1.8,
+            "concentration_wt_percent": 0.18
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Glycine",
+            "type": "Amphoteric Surfactant (comparative)",
+            "quantity_g": 4,
+            "concentration_wt_percent": 0.4
+          },
+          {
+            "name": "Diethylene Glycol",
+            "type": "Glycol Compound",
+            "quantity_g": 0.8,
+            "concentration_wt_percent": 0.08
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 933.1,
+            "concentration_wt_percent": 93.31
+          }
+        ],
+        "total_weight_g": 1000
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": null,
+        "relative_polishing_rate_percent": 71,
+        "polishing_conditions_from_table3": {
+          "equipment_model": "STRASBAUGH 6EC",
+          "polishing_pad_type": "IC1000/SubulV Stacked",
+          "platen_speed_rpm": 25,
+          "head_speed_rpm": 20,
+          "down_pressure_psi": 7,
+          "back_pressure_psi": 0,
+          "temperature_C": 25,
+          "slurry_flow_rate_mL_min": 250
+        },
+        "h2o2_stability_data_fig6": null
+      }
+    },
+    {
+      "sample_id": "Patent_Example_1",
+      "experiment_context": "Slurry with 5 wt% silica, 2 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid, and 0.4 wt% lysine in deionized water.",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 20,
+            "concentration_wt_percent": 2.0
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Lysine",
+            "type": "Amphoteric Surfactant",
+            "quantity_g": 4,
+            "concentration_wt_percent": 0.4
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 915.7,
+            "concentration_wt_percent": 91.57
+          }
+        ],
+        "total_weight_g": 1000,
+        "preparation_method_details": "Mixed silica, maleic acid, nitric acid, and deionized water. Stirred for 2 hours at 2000 rpm. Dispersed under 1200 psi. Lysine added and stirred for 30 mins. Hydrogen peroxide added."
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": 705,
+        "relative_polishing_rate_percent": null,
+        "h2o2_stability_data_fig6": null
+      }
+    },
+    {
+      "sample_id": "Patent_Example_2",
+      "experiment_context": "Slurry with 5 wt% silica, 2 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid, and 0.4 wt% proline in deionized water.",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 20,
+            "concentration_wt_percent": 2.0
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Proline",
+            "type": "Amphoteric Surfactant",
+            "quantity_g": 4,
+            "concentration_wt_percent": 0.4
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 915.7,
+            "concentration_wt_percent": 91.57
+          }
+        ],
+        "total_weight_g": 1000,
+        "preparation_method_details": "Mixed silica, maleic acid, nitric acid, and deionized water. Stirred for 2 hours at 2000 rpm. Dispersed under 1200 psi. Proline added and stirred for 30 mins. Hydrogen peroxide added."
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": 290,
+        "relative_polishing_rate_percent": null,
+        "h2o2_stability_data_fig6": null
+      }
+    },
+    {
+      "sample_id": "Patent_Example_3",
+      "experiment_context": "Slurry with 5 wt% silica, 2 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid, and 0.4 wt% arginine in deionized water.",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 20,
+            "concentration_wt_percent": 2.0
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Arginine",
+            "type": "Amphoteric Surfactant",
+            "quantity_g": 4,
+            "concentration_wt_percent": 0.4
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 915.7,
+            "concentration_wt_percent": 91.57
+          }
+        ],
+        "total_weight_g": 1000,
+        "preparation_method_details": "Mixed silica, maleic acid, nitric acid, and deionized water. Stirred for 2 hours at 2000 rpm. Dispersed under 1200 psi. Arginine added and stirred for 30 mins. Hydrogen peroxide added."
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": 170,
+        "relative_polishing_rate_percent": null,
+        "h2o2_stability_data_fig6": null
+      }
+    },
+    {
+      "sample_id": "Patent_Example_4",
+      "experiment_context": "Slurry with 5 wt% silica, 0.18 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid, and 0.08 wt% diethylene glycol in deionized water. Used for H2O2 stability test (Fig. 6).",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 1.8,
+            "concentration_wt_percent": 0.18
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Diethylene Glycol",
+            "type": "Glycol Compound",
+            "quantity_g": 0.8,
+            "concentration_wt_percent": 0.08
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 937.1,
+            "concentration_wt_percent": 93.71
+          }
+        ],
+        "total_weight_g": 1000,
+        "preparation_method_details": "Mixed silica, maleic acid, nitric acid, and deionized water. Stirred for 2 hours at 2000 rpm. Dispersed under 1200 psi. Diethylene glycol added and stirred for 30 mins. Hydrogen peroxide added."
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": null,
+        "relative_polishing_rate_percent": null,
+        "h2o2_stability_data_fig6": {
+          "description": "Hydrogen peroxide in the slurry has a relatively constant concentration when diethylene glycol is included (stabilizer effect).",
+          "h2o2_initial_concentration_wt_percent": 0.18,
+          "h2o2_concentration_after_24h_percent_of_initial": "Relatively constant"
+        }
+      }
+    },
+    {
+      "sample_id": "Patent_Example_5",
+      "experiment_context": "Slurry with 5 wt% silica, 0.18 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid, 0.08 wt% diethylene glycol, and 0.4 wt% lysine in deionized water.",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 1.8,
+            "concentration_wt_percent": 0.18
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Diethylene Glycol",
+            "type": "Glycol Compound",
+            "quantity_g": 0.8,
+            "concentration_wt_percent": 0.08
+          },
+          {
+            "name": "Lysine",
+            "type": "Amphoteric Surfactant",
+            "quantity_g": 4,
+            "concentration_wt_percent": 0.4
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 933.1,
+            "concentration_wt_percent": 93.31
+          }
+        ],
+        "total_weight_g": 1000
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": null,
+        "relative_polishing_rate_percent": 89,
+        "polishing_conditions_from_table3": {
+          "equipment_model": "STRASBAUGH 6EC",
+          "polishing_pad_type": "IC1000/SubulV Stacked",
+          "platen_speed_rpm": 25,
+          "head_speed_rpm": 20,
+          "down_pressure_psi": 7,
+          "back_pressure_psi": 0,
+          "temperature_C": 25,
+          "slurry_flow_rate_mL_min": 250
+        },
+        "h2o2_stability_data_fig6": null
+      }
+    },
+    {
+      "sample_id": "Patent_Example_6",
+      "experiment_context": "Slurry with 5 wt% silica, 0.18 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid, 0.08 wt% diethylene glycol, and 0.4 wt% proline in deionized water.",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 1.8,
+            "concentration_wt_percent": 0.18
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Diethylene Glycol",
+            "type": "Glycol Compound",
+            "quantity_g": 0.8,
+            "concentration_wt_percent": 0.08
+          },
+          {
+            "name": "Proline",
+            "type": "Amphoteric Surfactant",
+            "quantity_g": 4,
+            "concentration_wt_percent": 0.4
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 933.1,
+            "concentration_wt_percent": 93.31
+          }
+        ],
+        "total_weight_g": 1000
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": null,
+        "relative_polishing_rate_percent": 86,
+        "polishing_conditions_from_table3": {
+          "equipment_model": "STRASBAUGH 6EC",
+          "polishing_pad_type": "IC1000/SubulV Stacked",
+          "platen_speed_rpm": 25,
+          "head_speed_rpm": 20,
+          "down_pressure_psi": 7,
+          "back_pressure_psi": 0,
+          "temperature_C": 25,
+          "slurry_flow_rate_mL_min": 250
+        },
+        "h2o2_stability_data_fig6": null
+      }
+    },
+    {
+      "sample_id": "Patent_Example_7",
+      "experiment_context": "Slurry with 5 wt% silica, 0.18 wt% H2O2, 1 wt% maleic acid, 0.03 wt% nitric acid, 0.08 wt% diethylene glycol, and 0.4 wt% arginine in deionized water.",
+      "slurry_preparation": {
+        "components": [
+          {
+            "name": "Silica",
+            "type": "Abrasive",
+            "quantity_g": 50,
+            "concentration_wt_percent": 5.0
+          },
+          {
+            "name": "Hydrogen Peroxide",
+            "type": "Oxidizing Agent",
+            "quantity_g": 1.8,
+            "concentration_wt_percent": 0.18
+          },
+          {
+            "name": "Maleic Acid",
+            "type": "Carboxylic Acid",
+            "quantity_g": 10,
+            "concentration_wt_percent": 1.0
+          },
+          {
+            "name": "Nitric Acid",
+            "type": "Acid",
+            "quantity_g": 0.3,
+            "concentration_wt_percent": 0.03
+          },
+          {
+            "name": "Diethylene Glycol",
+            "type": "Glycol Compound",
+            "quantity_g": 0.8,
+            "concentration_wt_percent": 0.08
+          },
+          {
+            "name": "Arginine",
+            "type": "Amphoteric Surfactant",
+            "quantity_g": 4,
+            "concentration_wt_percent": 0.4
+          },
+          {
+            "name": "Deionized Water",
+            "type": "Solvent",
+            "quantity_g": 933.1,
+            "concentration_wt_percent": 93.31
+          }
+        ],
+        "total_weight_g": 1000
+      },
+      "cmp_performance_on_tungsten": {
+        "wet_etch_rate_A_min": null,
+        "relative_polishing_rate_percent": 72,
+        "polishing_conditions_from_table3": {
+          "equipment_model": "STRASBAUGH 6EC",
+          "polishing_pad_type": "IC1000/SubulV Stacked",
+          "platen_speed_rpm": 25,
+          "head_speed_rpm": 20,
+          "down_pressure_psi": 7,
+          "back_pressure_psi": 0,
+          "temperature_C": 25,
+          "slurry_flow_rate_mL_min": 250
+        },
+        "h2o2_stability_data_fig6": null
+      }
+    }
+  ]
+}

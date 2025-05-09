@@ -1,0 +1,379 @@
+{
+  "doi": "US 10,087,082 B2",
+  "title": "STABILIZED SILICA COLLOID",
+  "year_published": "2018",
+  "journal": "United States Patent",
+  "samples": [
+    {
+      "sample_id": "SiZwi_OnePot",
+      "experiment_context": "One-pot synthesis of silica colloids (from TEOS) with a zwitterion silane (SBS) shell, as described in Example 1.",
+      "precursor_1_chemical": "Tetraethyl orthosilicate (TEOS)",
+      "precursor_1_concentration": { "value": "0.17", "unit": "M" },
+      "precursor_2_chemical": "Ammonia",
+      "precursor_2_concentration": { "value": "0.5", "unit": "M" },
+      "precursor_3_chemical": "Deionized water",
+      "precursor_3_concentration": { "value": "1.8", "unit": "M" },
+      "precursor_4_chemical": "3-(dimethyl(3-(trimethoxysilyl)propyl)ammonio) propane-1-sulfonate (SBS)",
+      "precursor_4_quantity_per_gram_SiO2": {
+        "value": "3.81e-3",
+        "unit": "mol/g SiO2"
+      },
+      "reaction_medium": "Absolute ethanol, then diluted with deionized water (33% Vol)",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time_silica_formation": { "value": "24", "unit": "h" },
+      "reaction_time_sbs_shelling": { "value": "24", "unit": "h" },
+      "synthesis_conditions": {
+        "stirring": "Implied for solution reactions",
+        "environmental_conditions": "Rubber stopper on Erlenmeyer flask"
+      },
+      "post_synthesis_treatment": {
+        "purification_method": "Dialysis",
+        "dialysis_details": "3 days against distilled water, 14,000 MWCO tubing, pH of bathing solution adjusted to 9.0 with ammonium hydroxide"
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwi (SBS-modified SiO2 from TEOS)",
+        "solvent": {
+          "name": "Water (aqueous dispersion after dialysis)",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "initial_silica_particle_hydrodynamic_radius": {
+          "value": "22",
+          "unit": "nm",
+          "std_dev": "2"
+        },
+        "initial_silica_surface_area": { "value": "287", "unit": "m2/g" },
+        "initial_silica_porosity": { "value": "5", "unit": "nm" },
+        "final_sbs_modified_particle_hydrodynamic_radius": {
+          "value": "23",
+          "unit": "nm",
+          "std_dev": "2",
+          "measurement_method_used": "Quasielastic light scattering (Wyatt Technologies)"
+        }
+      }
+    },
+    {
+      "sample_id": "SiZwi_Ludox_Water_9.11e-4_SBS",
+      "experiment_context": "Commercial LUDOX™ silica colloids (10g of 40 wt%, pH 9.0, diluted to 13.3 wt% SiO2) modified with 9.11x10⁻⁴ mols of SBS per 1g SiO2 (1.2g SBS total) in aqueous solution. Example 3.",
+      "base_material_chemical": "LUDOX™ Silica Colloids (SiO2)",
+      "base_material_initial_concentration_solution": {
+        "value": "40",
+        "unit": "wt%"
+      },
+      "base_material_ph": { "value": "9.0", "unit": "" },
+      "modifying_agent_chemical": "3-(dimethyl(3-(trimethoxysilyl)propyl)ammonio) propane-1-sulfonate (SBS)",
+      "modifying_agent_quantity_per_gram_base": {
+        "value": "9.11e-4",
+        "unit": "mol/g SiO2"
+      },
+      "reaction_medium": "Aqueous solution (distilled water)",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time": { "value": "12", "unit": "h" },
+      "synthesis_conditions": { "stirring": "Continuous stirring" },
+      "post_synthesis_treatment": {
+        "purification_method": "Dialysis",
+        "dialysis_details": "3 days against distilled water, 14,000 MWCO tubing, pH of bathing solution adjusted to 9.0 with ammonium hydroxide"
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwi (SBS-modified LUDOX™ SiO2)",
+        "solvent": {
+          "name": "Water (aqueous dispersion after dialysis)",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_hydrodynamic_radius": {
+          "value": "18.8",
+          "unit": "nm",
+          "std_dev": "2",
+          "measurement_method_used": "Quasielastic light scattering",
+          "conditions": "0.033 mg/mL in 0.125 M NaCl, 25 mM Tris buffer pH 9.0 (Table 1, Example 5)"
+        },
+        "elemental_analysis_C": { "value": "1.66", "unit": "%" },
+        "elemental_analysis_S": { "value": "0.48", "unit": "%" },
+        "elemental_analysis_H": { "value": "0.83", "unit": "%" },
+        "surface_coverage_sbs_calculated": {
+          "value": "~26",
+          "unit": "% of theoretical maximum (Example 4)"
+        },
+        "nmr_c13_solid_state_summary": "Broadened peaks, disappearance of trimethoxy peak (δ ~34) indicating hydrolysis and immobilization (Fig. 3, Example 6).",
+        "stability_in_salt": "No aggregation in 0.8 M NaCl for >24 hours; stable up to 3.0 M NaCl (Fig. 4, Example 7, 4.3 wt% colloid).",
+        "stability_against_protein_aggregation": "Stable in presence of lysozyme (1.0 mg/mL) in 0.2 M NaCl, pH 7.4 (Fig. 5, Example 8, 10 wt% colloid).",
+        "stability_against_ph_changes": "Precipitates at pH 2.0 (in 0.2M NaCl), reversible. Stable at pH < 9.0 if NaCl concentration is >= 1.0 M (Fig. 6, Example 9, 10 wt% colloid)."
+      }
+    },
+    {
+      "sample_id": "SiZwi_Ludox_Water_7.288e-4_SBS",
+      "experiment_context": "Commercial LUDOX™ silica colloids modified with 7.288x10⁻⁴ mols of SBS per 1g SiO2 in aqueous solution. Example 3.",
+      "base_material_chemical": "LUDOX™ Silica Colloids (SiO2)",
+      "modifying_agent_chemical": "SBS",
+      "modifying_agent_quantity_per_gram_base": {
+        "value": "7.288e-4",
+        "unit": "mol/g SiO2"
+      },
+      "reaction_medium": "Aqueous solution (distilled water)",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time": { "value": "12", "unit": "h" },
+      "post_synthesis_treatment": { "purification_method": "Dialysis" },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwi (SBS-modified LUDOX™ SiO2)",
+        "solvent": { "name": "Water" }
+      },
+      "characterization": {
+        "particle_size_hydrodynamic_radius": {
+          "value": "18.4",
+          "unit": "nm",
+          "std_dev": "2.5",
+          "measurement_method_used": "Quasielastic light scattering (Table 1, Example 5)"
+        },
+        "elemental_analysis_C": { "value": "1.66", "unit": "%" },
+        "elemental_analysis_S": { "value": "0.43", "unit": "%" },
+        "elemental_analysis_H": { "value": "0.85", "unit": "%" }
+      }
+    },
+    {
+      "sample_id": "SiZwi_Ludox_Water_5.466e-4_SBS",
+      "experiment_context": "Commercial LUDOX™ silica colloids modified with 5.466x10⁻⁴ mols of SBS per 1g SiO2 in aqueous solution. Example 3.",
+      "base_material_chemical": "LUDOX™ Silica Colloids (SiO2)",
+      "modifying_agent_chemical": "SBS",
+      "modifying_agent_quantity_per_gram_base": {
+        "value": "5.466e-4",
+        "unit": "mol/g SiO2"
+      },
+      "reaction_medium": "Aqueous solution (distilled water)",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time": { "value": "12", "unit": "h" },
+      "post_synthesis_treatment": { "purification_method": "Dialysis" },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwi (SBS-modified LUDOX™ SiO2)",
+        "solvent": { "name": "Water" }
+      },
+      "characterization": {
+        "particle_size_hydrodynamic_radius": {
+          "value": "18.4",
+          "unit": "nm",
+          "std_dev": "2.5",
+          "measurement_method_used": "Quasielastic light scattering (Table 1, Example 5)"
+        },
+        "elemental_analysis_C": { "value": "1.63", "unit": "%" },
+        "elemental_analysis_S": { "value": "0.46", "unit": "%" },
+        "elemental_analysis_H": { "value": "0.84", "unit": "%" }
+      }
+    },
+    {
+      "sample_id": "SiZwi_Ludox_Water_3.64e-4_SBS",
+      "experiment_context": "Commercial LUDOX™ silica colloids modified with 3.64x10⁻⁴ mols of SBS per 1g SiO2 in aqueous solution. Example 3.",
+      "base_material_chemical": "LUDOX™ Silica Colloids (SiO2)",
+      "modifying_agent_chemical": "SBS",
+      "modifying_agent_quantity_per_gram_base": {
+        "value": "3.64e-4",
+        "unit": "mol/g SiO2"
+      },
+      "reaction_medium": "Aqueous solution (distilled water)",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time": { "value": "12", "unit": "h" },
+      "post_synthesis_treatment": { "purification_method": "Dialysis" },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwi (SBS-modified LUDOX™ SiO2)",
+        "solvent": { "name": "Water" }
+      },
+      "characterization": {
+        "particle_size_hydrodynamic_radius": {
+          "value": "18.8",
+          "unit": "nm",
+          "std_dev": "2.5",
+          "measurement_method_used": "Quasielastic light scattering (Table 1, Example 5)"
+        },
+        "elemental_analysis_C": { "value": "1.57", "unit": "%" },
+        "elemental_analysis_S": { "value": "0.47", "unit": "%" },
+        "elemental_analysis_H": { "value": "0.82", "unit": "%" }
+      }
+    },
+    {
+      "sample_id": "SiZwi_Ludox_DMSO_9.11e-4_SBS",
+      "experiment_context": "Commercial LUDOX™ silica colloids (10g of 40 wt%, pH 9.0, diluted to 13.3 wt% SiO2, water replaced by DMSO) modified with 9.11x10⁻⁴ mols of SBS per 1g SiO2 (1.2g SBS total) in DMSO. Example 3.",
+      "base_material_chemical": "LUDOX™ Silica Colloids (SiO2)",
+      "modifying_agent_chemical": "SBS",
+      "modifying_agent_quantity_per_gram_base": {
+        "value": "9.11e-4",
+        "unit": "mol/g SiO2"
+      },
+      "reaction_medium": "DMSO (water removed by azeotropic dehydration, 0.1ml water added to catalyze hydrolysis)",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time": { "value": "12", "unit": "h" },
+      "synthesis_conditions": {
+        "stirring": "Continuous stirring",
+        "atmosphere": "Argon"
+      },
+      "post_synthesis_treatment": {
+        "purification_method": "Dialysis",
+        "dialysis_details": "3 days against distilled water, 14,000 MWCO tubing, pH of bathing solution adjusted to 9.0 with ammonium hydroxide"
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwi (SBS-modified LUDOX™ SiO2)",
+        "solvent": { "name": "Water (after dialysis)" }
+      },
+      "characterization": {
+        "particle_size_hydrodynamic_radius": {
+          "value": "18.3",
+          "unit": "nm",
+          "std_dev": "2.5",
+          "measurement_method_used": "Quasielastic light scattering (Table 1, Example 5)"
+        },
+        "elemental_analysis_C": { "value": "1.53", "unit": "%" },
+        "elemental_analysis_S": { "value": "0.39", "unit": "%" },
+        "elemental_analysis_H": { "value": "0.78", "unit": "%" }
+      }
+    },
+    {
+      "sample_id": "SiZwi_Ludox_DMSO_7.288e-4_SBS",
+      "experiment_context": "Commercial LUDOX™ silica colloids modified with 7.288x10⁻⁴ mols of SBS per 1g SiO2 in DMSO. Example 3.",
+      "base_material_chemical": "LUDOX™ Silica Colloids (SiO2)",
+      "modifying_agent_chemical": "SBS",
+      "modifying_agent_quantity_per_gram_base": {
+        "value": "7.288e-4",
+        "unit": "mol/g SiO2"
+      },
+      "reaction_medium": "DMSO",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time": { "value": "12", "unit": "h" },
+      "synthesis_conditions": { "atmosphere": "Argon" },
+      "post_synthesis_treatment": { "purification_method": "Dialysis" },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwi (SBS-modified LUDOX™ SiO2)",
+        "solvent": { "name": "Water (after dialysis)" }
+      },
+      "characterization": {
+        "particle_size_hydrodynamic_radius": {
+          "value": "18.6",
+          "unit": "nm",
+          "std_dev": "2.5",
+          "measurement_method_used": "Quasielastic light scattering (Table 1, Example 5)"
+        },
+        "elemental_analysis_C": { "value": "1.64", "unit": "%" },
+        "elemental_analysis_S": { "value": "0.43", "unit": "%" },
+        "elemental_analysis_H": { "value": "0.84", "unit": "%" }
+      }
+    },
+    {
+      "sample_id": "SiZwi_Ludox_DMSO_5.466e-4_SBS",
+      "experiment_context": "Commercial LUDOX™ silica colloids modified with 5.466x10⁻⁴ mols of SBS per 1g SiO2 in DMSO. Example 3.",
+      "base_material_chemical": "LUDOX™ Silica Colloids (SiO2)",
+      "modifying_agent_chemical": "SBS",
+      "modifying_agent_quantity_per_gram_base": {
+        "value": "5.466e-4",
+        "unit": "mol/g SiO2"
+      },
+      "reaction_medium": "DMSO",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time": { "value": "12", "unit": "h" },
+      "synthesis_conditions": { "atmosphere": "Argon" },
+      "post_synthesis_treatment": { "purification_method": "Dialysis" },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwi (SBS-modified LUDOX™ SiO2)",
+        "solvent": { "name": "Water (after dialysis)" }
+      },
+      "characterization": {
+        "particle_size_hydrodynamic_radius": {
+          "value": "18.6",
+          "unit": "nm",
+          "std_dev": "2.5",
+          "measurement_method_used": "Quasielastic light scattering (Table 1, Example 5)"
+        },
+        "elemental_analysis_C": { "value": "1.54", "unit": "%" },
+        "elemental_analysis_S": { "value": "0.42", "unit": "%" },
+        "elemental_analysis_H": { "value": "0.81", "unit": "%" }
+      }
+    },
+    {
+      "sample_id": "SiZwi_Ludox_DMSO_3.64e-4_SBS",
+      "experiment_context": "Commercial LUDOX™ silica colloids modified with 3.64x10⁻⁴ mols of SBS per 1g SiO2 in DMSO. Example 3.",
+      "base_material_chemical": "LUDOX™ Silica Colloids (SiO2)",
+      "modifying_agent_chemical": "SBS",
+      "modifying_agent_quantity_per_gram_base": {
+        "value": "3.64e-4",
+        "unit": "mol/g SiO2"
+      },
+      "reaction_medium": "DMSO",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time": { "value": "12", "unit": "h" },
+      "synthesis_conditions": { "atmosphere": "Argon" },
+      "post_synthesis_treatment": { "purification_method": "Dialysis" },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwi (SBS-modified LUDOX™ SiO2)",
+        "solvent": { "name": "Water (after dialysis)" }
+      },
+      "characterization": {
+        "particle_size_hydrodynamic_radius": {
+          "value": "18.6",
+          "unit": "nm",
+          "std_dev": "2.5",
+          "measurement_method_used": "Quasielastic light scattering (Table 1, Example 5)"
+        },
+        "elemental_analysis_C": { "value": "1.35", "unit": "%" },
+        "elemental_analysis_S": { "value": "0.30", "unit": "%" },
+        "elemental_analysis_H": { "value": "0.74", "unit": "%" }
+      }
+    },
+    {
+      "sample_id": "SiZwiT_MixedSilane",
+      "experiment_context": "Commercial LUDOX™ silica colloids (10g of 40 wt%, pH 9.0, diluted to 13.3 wt%) modified with a 1:1 mole ratio of SBS (0.24g) and aminopropyltrimethoxysilane (APT, 152.4 µL) simultaneously in aqueous solution. Example 10.",
+      "base_material_chemical": "LUDOX™ Silica Colloids (SiO2)",
+      "modifying_agent_1_chemical": "SBS",
+      "modifying_agent_1_quantity": { "value": "0.24", "unit": "g" },
+      "modifying_agent_2_chemical": "Aminopropyltrimethoxysilane (APT)",
+      "modifying_agent_2_quantity": { "value": "152.4", "unit": "µL" },
+      "mole_ratio_sbs_apt": "1:1 (added)",
+      "reaction_medium": "Aqueous solution (double distilled water)",
+      "reaction_temperature": { "value": "Room Temperature", "unit": "" },
+      "reaction_time": { "value": "12", "unit": "h" },
+      "synthesis_conditions": { "stirring": "Continuous stirring" },
+      "post_synthesis_treatment": {
+        "purification_method": "Dialysis",
+        "dialysis_details": "3 days against distilled water, 14,000 MWCO tubing"
+      },
+      "slurry_preparation": {
+        "abrasive_material": "SiZwiT (SBS and APT co-modified LUDOX™ SiO2)",
+        "solvent": {
+          "name": "Water (aqueous dispersion after dialysis)",
+          "quantity": null
+        }
+      },
+      "characterization": {
+        "particle_size_hydrodynamic_radius": {
+          "value": "18.9",
+          "unit": "nm",
+          "std_dev": "2",
+          "measurement_method_used": "Quasielastic light scattering",
+          "conditions": "0.033 mg/mL in 0.125 M NaCl, 25 mM Tris buffer pH 9.0 (Example 10)"
+        },
+        "elemental_analysis_C": {
+          "value": "1.51",
+          "unit": "% (Theory for full coverage: 4.4%)"
+        },
+        "elemental_analysis_S": {
+          "value": "0.15",
+          "unit": "% (Theory for full coverage: 0.89%)"
+        },
+        "elemental_analysis_H": {
+          "value": "0.76",
+          "unit": "% (Theory for full coverage: 0.84%)"
+        },
+        "surface_coverage_total_calculated": {
+          "value": "31",
+          "unit": "% of theoretical maximum"
+        },
+        "surface_coverage_sbs_calculated": {
+          "value": "~8.5",
+          "unit": "% of theoretical maximum"
+        },
+        "surface_coverage_apt_calculated": {
+          "value": "~22.5",
+          "unit": "% of theoretical maximum"
+        },
+        "stability_against_ph_changes": "pH insensitive in NaCl-free solutions (e.g., pH 9.0 to 2.0). Precipitate upon HCl addition redissolved instantly with stirring (Fig. 8, Example 11, 10 wt% colloid)."
+      }
+    }
+  ]
+}

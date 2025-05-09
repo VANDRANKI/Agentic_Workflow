@@ -1,0 +1,803 @@
+{
+  "patent_number": "US 7,150,677 B2",
+  "title": "CMP CONDITIONER",
+  "date_of_patent": "Dec. 19, 2006",
+  "application_number": "11/231,545",
+  "filing_date": "Sep. 20, 2005",
+  "inventors": [
+    "Tetsuji Yamashita, Iwaki (JP)",
+    "Takashi Kimura, Iwaki (JP)",
+    "Hanako Hata, Iwaki (JP)"
+  ],
+  "assignee": "Mitsubishi Materials Corporation, Tokyo (JP)",
+  "foreign_priority": {
+    "country": "JP",
+    "application_number": "2004-274912",
+    "filing_date": "Sep. 22, 2004"
+  },
+  "abstract": "A CMP conditioner is provided in which diamond grit that is adhered to a conditioning surface so as to face and be in contact with a polishing pad of a CMP apparatus is adhered such that 111 surfaces of crystal surfaces of the diamond grit are substantially parallel with the conditioning surface and face in a direction faced by the conditioning surface.",
+  "samples": [
+    {
+      "sample_id": "Example 1",
+      "experiment_context": "CMP conditioner based on the first embodiment (FIG. 1) with diamond grit particle size #100.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "First embodiment, as shown in FIG. 1. Outer diameter of conditioning surface 101.6 mm, inner diameter of ring portion 90 mm, outer diameter of end surface 4f 94 mm, outer diameter of ring portion including tapered surfaces 4t 97 mm. Protrusion height of ring portions 4 and projections 5 was 0.3 mm. Projections 5 have an outer diameter of 2 mm, arrayed in concentric circles with inner diameter 67 mm and outer diameter 85 mm.",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 1583,
+        "surface_220_cps": 29,
+        "surface_311_cps": 317,
+        "surface_222_cps": null,
+        "surface_400_cps": 184,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 75
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 0,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 35,
+          "after_5_h": 37,
+          "after_10_h": 34,
+          "after_20_h": 30,
+          "after_50_h": 25,
+          "after_100_h": 22
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Comparative Example 1",
+      "experiment_context": "CMP conditioner similar to Example 1, but diamond grit was not specially selected.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "First embodiment, as shown in FIG. 1. (Assumed same dimensions as Example 1)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 327,
+        "surface_220_cps": 65,
+        "surface_311_cps": 4,
+        "surface_222_cps": 11,
+        "surface_400_cps": 893,
+        "other_311_surface_cps": 5,
+        "surface_111_detection_rate_percent": 25
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 11,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 42,
+          "after_5_h": 39,
+          "after_10_h": 34,
+          "after_20_h": 30,
+          "after_50_h": 23,
+          "after_100_h": 18
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Example 2",
+      "experiment_context": "CMP conditioner based on the first embodiment (FIG. 1) with diamond grit particle size #200.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#200",
+        "grit_concentration_per_mm2": {
+          "value": 135,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "First embodiment, as shown in FIG. 1. (Assumed same dimensions as Example 1 for base metal and features)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 2900,
+        "surface_220_cps": 17,
+        "surface_311_cps": 19,
+        "surface_222_cps": null,
+        "surface_400_cps": 1090,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 72
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 0,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 21,
+          "after_5_h": 23,
+          "after_10_h": 22,
+          "after_20_h": 20,
+          "after_50_h": 18,
+          "after_100_h": 14
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Comparative Example 2",
+      "experiment_context": "CMP conditioner similar to Example 2, but diamond grit was not specially selected.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#200",
+        "grit_concentration_per_mm2": {
+          "value": 135,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "First embodiment, as shown in FIG. 1. (Assumed same dimensions as Example 1 for base metal and features)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 696,
+        "surface_220_cps": 10,
+        "surface_311_cps": 374,
+        "surface_222_cps": null,
+        "surface_400_cps": 5,
+        "other_311_surface_cps": 8,
+        "surface_111_detection_rate_percent": 64
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 6,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 27,
+          "after_5_h": 24,
+          "after_10_h": 21,
+          "after_20_h": 18,
+          "after_50_h": 14,
+          "after_100_h": 9
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Example 3",
+      "experiment_context": "CMP conditioner based on the first embodiment (FIG. 1) with diamond grit particle size #325.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#325",
+        "grit_concentration_per_mm2": {
+          "value": 280,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "First embodiment, as shown in FIG. 1. (Assumed same dimensions as Example 1 for base metal and features)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 2947,
+        "surface_220_cps": null,
+        "surface_311_cps": 34,
+        "surface_222_cps": null,
+        "surface_400_cps": 245,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 91
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 0,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 15,
+          "after_5_h": 17,
+          "after_10_h": 19,
+          "after_20_h": 16,
+          "after_50_h": 11,
+          "after_100_h": 6
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Comparative Example 3",
+      "experiment_context": "CMP conditioner similar to Example 3, but diamond grit was not specially selected.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#325",
+        "grit_concentration_per_mm2": {
+          "value": 280,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "First embodiment, as shown in FIG. 1. (Assumed same dimensions as Example 1 for base metal and features)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 893,
+        "surface_220_cps": 2,
+        "surface_311_cps": 2,
+        "surface_222_cps": 3,
+        "surface_400_cps": 25,
+        "other_311_surface_cps": 662,
+        "surface_111_detection_rate_percent": 56
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 9,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 20,
+          "after_5_h": 18,
+          "after_10_h": 15,
+          "after_20_h": 10,
+          "after_50_h": 8,
+          "after_100_h": 3
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Example 4",
+      "experiment_context": "CMP conditioner based on the second embodiment (FIG. 2) with diamond grit particle size #100.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Second embodiment, as shown in FIG. 2. Outer diameter of conditioning surface 101.6 mm. Projections 5 have an outer diameter of 3 mm, arrayed in concentric circles and on the axis O. (Assumed same dimensions for ring portion as Example 1)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 1683,
+        "surface_220_cps": 33,
+        "surface_311_cps": 309,
+        "surface_222_cps": null,
+        "surface_400_cps": 178,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 76
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 0,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 30,
+          "after_5_h": 28,
+          "after_10_h": 27,
+          "after_20_h": 27,
+          "after_50_h": 24,
+          "after_100_h": 20
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Comparative Example 4",
+      "experiment_context": "CMP conditioner similar to Example 4, but diamond grit was not specially selected.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Second embodiment, as shown in FIG. 2. (Assumed same dimensions as Example 4)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 308,
+        "surface_220_cps": 68,
+        "surface_311_cps": null,
+        "surface_222_cps": 10,
+        "surface_400_cps": 900,
+        "other_311_surface_cps": 2,
+        "surface_111_detection_rate_percent": 24
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 7,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 33,
+          "after_5_h": 29,
+          "after_10_h": 25,
+          "after_20_h": 22,
+          "after_50_h": 20,
+          "after_100_h": 18
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Example 5",
+      "experiment_context": "CMP conditioner based on the second embodiment (FIG. 2) with diamond grit particle size #325.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#325",
+        "grit_concentration_per_mm2": {
+          "value": 280,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Second embodiment, as shown in FIG. 2. (Assumed same dimensions as Example 4)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 3043,
+        "surface_220_cps": null,
+        "surface_311_cps": 30,
+        "surface_222_cps": null,
+        "surface_400_cps": 230,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 92
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 0,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 13,
+          "after_5_h": 13,
+          "after_10_h": 11,
+          "after_20_h": 10,
+          "after_50_h": 10,
+          "after_100_h": 10
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Comparative Example 5",
+      "experiment_context": "CMP conditioner similar to Example 5, but diamond grit was not specially selected.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#325",
+        "grit_concentration_per_mm2": {
+          "value": 280,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Second embodiment, as shown in FIG. 2. (Assumed same dimensions as Example 4)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 850,
+        "surface_220_cps": null,
+        "surface_311_cps": null,
+        "surface_222_cps": null,
+        "surface_400_cps": 35,
+        "other_311_surface_cps": 680,
+        "surface_111_detection_rate_percent": 54
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 4,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 15,
+          "after_5_h": 12,
+          "after_10_h": 10,
+          "after_20_h": 9,
+          "after_50_h": 5,
+          "after_100_h": 5
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Example 6",
+      "experiment_context": "CMP conditioner based on the third embodiment (FIG. 3) with diamond grit particle size #100.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Third embodiment, as shown in FIG. 3. Outer diameter of conditioning surface 101.6 mm. Width of beveled tapered surface 2t was 1.5 mm.",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 2200,
+        "surface_220_cps": 40,
+        "surface_311_cps": 350,
+        "surface_222_cps": null,
+        "surface_400_cps": 170,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 80
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 3,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 15,
+          "after_5_h": 17,
+          "after_10_h": 15,
+          "after_20_h": 14,
+          "after_50_h": 10,
+          "after_100_h": 10
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Comparative Example 6",
+      "experiment_context": "CMP conditioner similar to Example 6, but diamond grit was not specially selected.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Third embodiment, as shown in FIG. 3. (Assumed same dimensions as Example 6)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 400,
+        "surface_220_cps": 78,
+        "surface_311_cps": 9,
+        "surface_222_cps": null,
+        "surface_400_cps": 200,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 58
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 15,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 18,
+          "after_5_h": 18,
+          "after_10_h": 14,
+          "after_20_h": 10,
+          "after_50_h": 8,
+          "after_100_h": 8
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Example 7",
+      "experiment_context": "CMP conditioner based on the fourth embodiment (FIG. 4) with diamond grit particle size #100.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Fourth embodiment, as shown in FIG. 4. Outer diameter of conditioning surface 101.6 mm. Ring portion 4 had protrusion height 1 mm, inner diameter of end surface 4f 68.7 mm, outer diameter 94.1 mm. Inner diameter of ring portion including tapered surfaces 61.1 mm.",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 1890,
+        "surface_220_cps": 36,
+        "surface_311_cps": 330,
+        "surface_222_cps": 5,
+        "surface_400_cps": 173,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 78
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 2,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 23,
+          "after_5_h": 23,
+          "after_10_h": 20,
+          "after_20_h": 19,
+          "after_50_h": 17,
+          "after_100_h": 14
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Comparative Example 7",
+      "experiment_context": "CMP conditioner similar to Example 7, but diamond grit was not specially selected.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Fourth embodiment, as shown in FIG. 4. (Assumed same dimensions as Example 7)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 546,
+        "surface_220_cps": 54,
+        "surface_311_cps": 17,
+        "surface_222_cps": null,
+        "surface_400_cps": 190,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 68
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 14,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 27,
+          "after_5_h": 24,
+          "after_10_h": 22,
+          "after_20_h": 18,
+          "after_50_h": 16,
+          "after_100_h": 10
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Example 8",
+      "experiment_context": "CMP conditioner based on the fourth embodiment (FIG. 4) with diamond grit particle size #200.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#200",
+        "grit_concentration_per_mm2": {
+          "value": 135,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Fourth embodiment, as shown in FIG. 4. (Assumed same dimensions as Example 7 for base metal and features)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 2986,
+        "surface_220_cps": 13,
+        "surface_311_cps": 15,
+        "surface_222_cps": 10,
+        "surface_400_cps": 930,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 76
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 4,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 15,
+          "after_5_h": 16,
+          "after_10_h": 13,
+          "after_20_h": 12,
+          "after_50_h": 13,
+          "after_100_h": 10
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Comparative Example 8",
+      "experiment_context": "CMP conditioner similar to Example 8, but diamond grit was not specially selected.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#200",
+        "grit_concentration_per_mm2": {
+          "value": 135,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "Fourth embodiment, as shown in FIG. 4. (Assumed same dimensions as Example 7 for base metal and features)",
+        "coating": null
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 870,
+        "surface_220_cps": 18,
+        "surface_311_cps": 20,
+        "surface_222_cps": 79,
+        "surface_400_cps": 1200,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 41
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 10,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 17,
+          "after_5_h": 15,
+          "after_10_h": 12,
+          "after_20_h": 10,
+          "after_50_h": 8,
+          "after_100_h": 4
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 80,
+        "conditioner_revolution_speed_rpm": 80,
+        "oscillation_speed_mm_per_min": 3000,
+        "load_N": 49,
+        "pad_outer_diameter_mm": 360,
+        "pad_material": "polyurethane",
+        "slurry_type": "water",
+        "slurry_flow_rate_ml_per_min": 100
+      }
+    },
+    {
+      "sample_id": "Example 9",
+      "experiment_context": "CMP conditioner manufactured same way as Example 1, with electrodeposition coating of PFA (tetrafluoroethylene-perfluoroalkyl vinyl ether copolymer resin).",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "First embodiment, as shown in FIG. 1. (Assumed same dimensions as Example 1). Entire conditioning surface coated.",
+        "coating": {
+          "material": "PFA (tetrafluoroethylene-perfluoroalkyl vinyl ether copolymer resin)",
+          "thickness_um": 5,
+          "grit_protrusion_percent": 30
+        }
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 2900,
+        "surface_220_cps": null,
+        "surface_311_cps": null,
+        "surface_222_cps": null,
+        "surface_400_cps": 198,
+        "other_311_surface_cps": null,
+        "surface_111_detection_rate_percent": 94
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 0,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 10,
+          "after_5_h": 12,
+          "after_10_h": 9,
+          "after_20_h": 9,
+          "after_50_h": 6,
+          "after_100_h": 5
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 40,
+        "conditioner_revolution_speed_rpm": 40,
+        "oscillation_speed_mm_per_min": null,
+        "load_N": 80,
+        "pad_outer_diameter_mm": 380,
+        "pad_material": "polyurethane",
+        "slurry_type": "ceria based slurry",
+        "slurry_flow_rate_ml_per_min": null
+      }
+    },
+    {
+      "sample_id": "Comparative Example 9",
+      "experiment_context": "CMP conditioner manufactured same way as Comparative Example 1, with PFA coating.",
+      "conditioner_properties": {
+        "diamond_particle_size_mesh": "#100",
+        "grit_concentration_per_mm2": {
+          "value": 35,
+          "unit": "pieces/mm²"
+        },
+        "embodiment_description": "First embodiment, as shown in FIG. 1. (Assumed same dimensions as Example 1). Entire conditioning surface coated.",
+        "coating": {
+          "material": "PFA (tetrafluoroethylene-perfluoroalkyl vinyl ether copolymer resin)",
+          "thickness_um": 5,
+          "grit_protrusion_percent": 30
+        }
+      },
+      "xray_diffraction_data": {
+        "surface_111_cps": 948,
+        "surface_220_cps": 57,
+        "surface_311_cps": 57,
+        "surface_222_cps": 58,
+        "surface_400_cps": 80,
+        "other_311_surface_cps": 717,
+        "surface_111_detection_rate_percent": 49
+      },
+      "performance_data": {
+        "number_of_scratches_after_100h": 5,
+        "pad_polishing_rate_um_per_h": {
+          "after_30_min": 16,
+          "after_5_h": 13,
+          "after_10_h": 8,
+          "after_20_h": 4,
+          "after_50_h": 2,
+          "after_100_h": 2
+        }
+      },
+      "polishing_conditions": {
+        "pad_revolution_speed_rpm": 40,
+        "conditioner_revolution_speed_rpm": 40,
+        "oscillation_speed_mm_per_min": null,
+        "load_N": 80,
+        "pad_outer_diameter_mm": 380,
+        "pad_material": "polyurethane",
+        "slurry_type": "ceria based slurry",
+        "slurry_flow_rate_ml_per_min": null
+      }
+    }
+  ]
+}

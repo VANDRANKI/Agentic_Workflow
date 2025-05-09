@@ -1,0 +1,369 @@
+{
+  "doi": "US 2006/0118760 A1",
+  "title": "SLURRY COMPOSITION AND METHODS FOR CHEMICAL MECHANICAL POLISHING",
+  "year_published": "2006",
+  "journal": "US Patent Application Publication",
+  "samples": [
+    {
+      "sample_id": "Soft_Abrasives_Fig1A",
+      "experiment_context": "Slurry with soft abrasive particles (FIG. 1A) suitable for polishing soft materials such as aluminum and silver for a fine surface. These abrasives aim to avoid or minimize scratches on the Al film during polishing. (Para [0040])",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": null,
+      "abrasive_details": {
+        "type_description": "Soft particles as per FIG. 1A.",
+        "materials_options": ["amorphous SiO₂", "AlO(OH)", "Al(OH)₃", "ZrO₂", "polyethylene", "PTFE", "other polymer"],
+        "general_particle_size_nm": {"min_value": "10", "max_value": "90", "unit": "nm"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "Generic Oxidizer/Passivation Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["H₂O₂", "salt of S₂O₄²⁻ or S₂O₈²⁻", "KIO₃", "Fe(NO₃)₂", "KMnO₄", "KNO₃ HNO₃", "Bromate", "Chlorates", "NaOH", "KOH", "1,2,3-benzotriazole(BTA)"]},
+          {"name": "Generic pH Adjustor/Buffer", "type": "Component Type", "concentration": null, "examples_from_patent": ["potassium hydrogen, phthalate", "ammonium citrate", "ammonium phosphate", "ammonium acetate"]},
+          {"name": "Generic Dispersion Agent/Surfactant", "type": "Component Type", "concentration": null, "examples_from_patent": ["polyethylene glycol", "polyoxyethylene ether", "glycerol", "polyvinylalcohol", "polyacrylic acid"]},
+          {"name": "Generic Complexing Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["triethanolamine", "ethylenediamine", "ammonium citrate", "ammonium phosphate", "ammonium oxalate", "EDTA"]},
+          {"name": "Generic Etching Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["HCl", "HF", "H₃PO₄", "H₂SO₄ HNO₃"]},
+          {"name": "Generic Special Additive", "type": "Component Type", "concentration": null, "description_from_patent": "To minimize solvent volatilization"}
+        ],
+        "target_final_slurry_ph": "3.5-12 (preferred 8-11)",
+        "solvent": {"name": "Aqueous carrier (implied)", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": {"min_value": "10", "max_value": "90", "unit": "nm", "measurement_method_used": null},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Soft particles (FIG. 1A)",
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {"value": ">= 2000", "unit": "A/min", "condition": "General for Al/Al alloys (Para [0078])"},
+        "process_temperature": null,
+        "polishing_pressure": {"value": ">= 3", "unit": "psi", "condition": "General (Para [0078])"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": ["IC 1000", "IC 1010", "Polyurethane or hard pad"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Hard_Particles_Soft_Shell_Fig1B",
+      "experiment_context": "Slurry with hard abrasive particles where long chain organic molecules are adsorbed to act effectively as a 'soft shell' (FIG. 1B). (Para [0041])",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": null,
+      "abrasive_details": {
+        "type_description": "Hard particles with adsorbed long chain organic molecules acting as a soft shell (FIG. 1B).",
+        "hard_core_materials_options": ["CeO₂", "Al₂O₃", "SiC"],
+        "soft_shell_material": "long chain organic molecules",
+        "general_particle_size_nm": {"min_value": "10", "max_value": "90", "unit": "nm"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "Generic Oxidizer/Passivation Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["H₂O₂", "salt of S₂O₄²⁻ or S₂O₈²⁻", "KIO₃", "Fe(NO₃)₂", "KMnO₄", "KNO₃ HNO₃", "Bromate", "Chlorates", "NaOH", "KOH", "1,2,3-benzotriazole(BTA)"]},
+          {"name": "Generic pH Adjustor/Buffer", "type": "Component Type", "concentration": null, "examples_from_patent": ["potassium hydrogen, phthalate", "ammonium citrate", "ammonium phosphate", "ammonium acetate"]},
+          {"name": "Generic Dispersion Agent/Surfactant", "type": "Component Type", "concentration": null, "examples_from_patent": ["polyethylene glycol", "polyoxyethylene ether", "glycerol", "polyvinylalcohol", "polyacrylic acid"]},
+          {"name": "Generic Complexing Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["triethanolamine", "ethylenediamine", "ammonium citrate", "ammonium phosphate", "ammonium oxalate", "EDTA"]},
+          {"name": "Generic Etching Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["HCl", "HF", "H₃PO₄", "H₂SO₄ HNO₃"]},
+          {"name": "Generic Special Additive", "type": "Component Type", "concentration": null, "description_from_patent": "To minimize solvent volatilization"}
+        ],
+        "target_final_slurry_ph": "3.5-12 (preferred 8-11)",
+        "solvent": {"name": "Aqueous carrier (implied)", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": {"min_value": "10", "max_value": "90", "unit": "nm", "measurement_method_used": null},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Hard particles with a 'soft shell' of adsorbed long chain organic molecules (FIG. 1B)",
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {"value": ">= 2000", "unit": "A/min", "condition": "General for Al/Al alloys (Para [0078])"},
+        "process_temperature": null,
+        "polishing_pressure": {"value": ">= 3", "unit": "psi", "condition": "General (Para [0078])"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": ["IC 1000", "IC 1010", "Polyurethane or hard pad"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Dual_Portion_Particles_Fig2",
+      "experiment_context": "Slurry with polishing particles having a dual-portion structure: a relatively soft outer portion and a relatively hard inner portion (FIG. 2). This aims to eliminate/minimize scratches while maintaining high removal rate. (Para [0042]-[0046])",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null,
+        "description": "Formation methods include sequential growth in different solutions, altering growth conditions for inner (hard) and outer (soft) layers, or softening the surface of a hard particle. (Para [0046])"
+      },
+      "post_synthesis_treatment": null,
+      "abrasive_details": {
+        "type_description": "Dual-portion structure particles (FIG. 2).",
+        "outer_portion_materials_options": ["amorphous SiO₂", "AlO(OH)", "Al(OH)₃", "ZrO₂", "polyethylene", "PTFE", "other suitable polymer", "long-chain organic molecules adsorbed on hard portion"],
+        "inner_portion_materials_options": ["CeO₂", "Al₂O₃", "SiC"],
+        "hardness_relation": "Particle's effective hardness can be selected between the two portion's hardness. (Para [0013], [0052])",
+        "general_particle_size_nm": {"min_value": "10", "max_value": "90", "unit": "nm"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "Generic Oxidizer/Passivation Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["H₂O₂", "salt of S₂O₄²⁻ or S₂O₈²⁻", "KIO₃", "Fe(NO₃)₂", "KMnO₄", "KNO₃ HNO₃", "Bromate", "Chlorates", "NaOH", "KOH", "1,2,3-benzotriazole(BTA)"]},
+          {"name": "Generic pH Adjustor/Buffer", "type": "Component Type", "concentration": null, "examples_from_patent": ["potassium hydrogen, phthalate", "ammonium citrate", "ammonium phosphate", "ammonium acetate"]},
+          {"name": "Generic Dispersion Agent/Surfactant", "type": "Component Type", "concentration": null, "examples_from_patent": ["polyethylene glycol", "polyoxyethylene ether", "glycerol", "polyvinylalcohol", "polyacrylic acid"]},
+          {"name": "Generic Complexing Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["triethanolamine", "ethylenediamine", "ammonium citrate", "ammonium phosphate", "ammonium oxalate", "EDTA"]},
+          {"name": "Generic Etching Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["HCl", "HF", "H₃PO₄", "H₂SO₄ HNO₃"]},
+          {"name": "Generic Special Additive", "type": "Component Type", "concentration": null, "description_from_patent": "To minimize solvent volatilization"}
+        ],
+        "target_final_slurry_ph": "3.5-12 (preferred 8-11)",
+        "solvent": {"name": "Aqueous carrier (implied)", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": {"min_value": "10", "max_value": "90", "unit": "nm", "measurement_method_used": null},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Dual-portion structure: soft outer material, hard inner material (FIG. 2)",
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {"value": ">= 2000", "unit": "A/min", "condition": "General for Al/Al alloys (Para [0078])"},
+        "process_temperature": null,
+        "polishing_pressure": {"value": ">= 3", "unit": "psi", "condition": "General (Para [0078])"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": ["IC 1000", "IC 1010", "Polyurethane or hard pad"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Inner_Charged_Particles_Fig3AB",
+      "experiment_context": "Slurry with inner charged particles (FIG. 3A, 3B), designed to improve dispersion stability and reduce scratch defects caused by aggregation. (Para [0047]-[0049])",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null,
+        "description": "Produced by methods such as implantation doping. (Para [0048])"
+      },
+      "post_synthesis_treatment": null,
+      "abrasive_details": {
+        "type_description": "Inner charged particles (FIG. 3A, 3B).",
+        "structure_fig3a": "Outer dielectric layer, charge layer, inner portion (metal or dielectric).",
+        "structure_fig3b": "Charge dispersed in an inside portion, enclosed by an outside portion.",
+        "outer_dielectric_options_fig3a": ["SiO₂", "AlO(OH)", "Al(OH)3", "ZrO₂", "TiO₂", "A₂Ol₅", "CeO₂", "polyethylene", "PTFE", "other polymers"],
+        "general_particle_size_nm": {"min_value": "10", "max_value": "90", "unit": "nm"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "Generic Oxidizer/Passivation Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["H₂O₂", "salt of S₂O₄²⁻ or S₂O₈²⁻", "KIO₃", "Fe(NO₃)₂", "KMnO₄", "KNO₃ HNO₃", "Bromate", "Chlorates", "NaOH", "KOH", "1,2,3-benzotriazole(BTA)"]},
+          {"name": "Generic pH Adjustor/Buffer", "type": "Component Type", "concentration": null, "examples_from_patent": ["potassium hydrogen, phthalate", "ammonium citrate", "ammonium phosphate", "ammonium acetate"]},
+          {"name": "Generic Dispersion Agent/Surfactant", "type": "Component Type", "concentration": null, "examples_from_patent": ["polyethylene glycol", "polyoxyethylene ether", "glycerol", "polyvinylalcohol", "polyacrylic acid"]},
+          {"name": "Generic Complexing Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["triethanolamine", "ethylenediamine", "ammonium citrate", "ammonium phosphate", "ammonium oxalate", "EDTA"]},
+          {"name": "Generic Etching Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["HCl", "HF", "H₃PO₄", "H₂SO₄ HNO₃"]},
+          {"name": "Generic Special Additive", "type": "Component Type", "concentration": null, "description_from_patent": "To minimize solvent volatilization"},
+          {"name": "Second charged particles", "type": "Dispersion Aid", "description": "Optional, same charge but stronger, to enhance dispersion of main abrasive. (Para [0049])"}
+        ],
+        "target_final_slurry_ph": "3.5-12 (preferred 8-11)",
+        "solvent": {"name": "Aqueous carrier (implied)", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": {"min_value": "10", "max_value": "90", "unit": "nm", "measurement_method_used": null},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Inner charged particles (FIG. 3A shows three portions with charge layer; FIG. 3B shows charge dispersed in inner portion)",
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {"value": ">= 2000", "unit": "A/min", "condition": "General for Al/Al alloys (Para [0078])"},
+        "process_temperature": null,
+        "polishing_pressure": {"value": ">= 3", "unit": "psi", "condition": "General (Para [0078])"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": ["IC 1000", "IC 1010", "Polyurethane or hard pad"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Magnetized_Particles_Fig4ABC",
+      "experiment_context": "Slurry with magnetized polishing particles (FIG. 4A-C), where magnetized material is provided on or inside the particle to prevent scratches caused by abrasive aggregation. (Para [0050])",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": null,
+      "abrasive_details": {
+        "type_description": "Magnetized polishing particles (FIG. 4A-C).",
+        "magnetized_material_location": {
+          "fig4a": "Evenly distributed inside the particle.",
+          "fig4b": "Positioned within an inner core/portion, enclosed by an outer portion.",
+          "fig4c": "Positioned on the surface of an inner core/portion, enclosed by an outer portion."
+        },
+        "general_particle_size_nm": {"min_value": "10", "max_value": "90", "unit": "nm"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "Generic Oxidizer/Passivation Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["H₂O₂", "salt of S₂O₄²⁻ or S₂O₈²⁻", "KIO₃", "Fe(NO₃)₂", "KMnO₄", "KNO₃ HNO₃", "Bromate", "Chlorates", "NaOH", "KOH", "1,2,3-benzotriazole(BTA)"]},
+          {"name": "Generic pH Adjustor/Buffer", "type": "Component Type", "concentration": null, "examples_from_patent": ["potassium hydrogen, phthalate", "ammonium citrate", "ammonium phosphate", "ammonium acetate"]},
+          {"name": "Generic Dispersion Agent/Surfactant", "type": "Component Type", "concentration": null, "examples_from_patent": ["polyethylene glycol", "polyoxyethylene ether", "glycerol", "polyvinylalcohol", "polyacrylic acid"]},
+          {"name": "Generic Complexing Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["triethanolamine", "ethylenediamine", "ammonium citrate", "ammonium phosphate", "ammonium oxalate", "EDTA"]},
+          {"name": "Generic Etching Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["HCl", "HF", "H₃PO₄", "H₂SO₄ HNO₃"]},
+          {"name": "Generic Special Additive", "type": "Component Type", "concentration": null, "description_from_patent": "To minimize solvent volatilization"}
+        ],
+        "target_final_slurry_ph": "3.5-12 (preferred 8-11)",
+        "solvent": {"name": "Aqueous carrier (implied)", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": {"min_value": "10", "max_value": "90", "unit": "nm", "measurement_method_used": null},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Magnetized particles with various internal distributions of magnetized material (FIG. 4A-C)",
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {"value": ">= 2000", "unit": "A/min", "condition": "General for Al/Al alloys (Para [0078])"},
+        "process_temperature": null,
+        "polishing_pressure": {"value": ">= 3", "unit": "psi", "condition": "General (Para [0078])"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": ["IC 1000", "IC 1010", "Polyurethane or hard pad"]
+      },
+      "theoretical_analysis": null
+    },
+    {
+      "sample_id": "Empty_Core_Particles_Fig5",
+      "experiment_context": "Slurry with particles having an empty inner core or portion (FIG. 5). This structure is easily transfigured under polishing pressure, leading to a larger contact area and potentially faster removal rate. Improves colloidal stability for heavy particles. (Para [0051])",
+      "precursor_chemical": null,
+      "precursor_concentration": null,
+      "precipitant_type": null,
+      "molar_ratio_precursor_precipitant": null,
+      "reaction_temperature": null,
+      "reaction_time": null,
+      "synthesis_conditions": {
+        "ph_during_reaction": null,
+        "stirring_speed": null,
+        "environmental_conditions": null
+      },
+      "post_synthesis_treatment": null,
+      "abrasive_details": {
+        "type_description": "Particles with an empty inner core (FIG. 5).",
+        "shell_material_options": ["Hard material", "Soft material"],
+        "effective_hardness": "May be lower than its solid counterpart.",
+        "general_particle_size_nm": {"min_value": "10", "max_value": "90", "unit": "nm"}
+      },
+      "slurry_preparation": {
+        "abrasive_ceria_concentration": null,
+        "additives": [
+          {"name": "Generic Oxidizer/Passivation Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["H₂O₂", "salt of S₂O₄²⁻ or S₂O₈²⁻", "KIO₃", "Fe(NO₃)₂", "KMnO₄", "KNO₃ HNO₃", "Bromate", "Chlorates", "NaOH", "KOH", "1,2,3-benzotriazole(BTA)"]},
+          {"name": "Generic pH Adjustor/Buffer", "type": "Component Type", "concentration": null, "examples_from_patent": ["potassium hydrogen, phthalate", "ammonium citrate", "ammonium phosphate", "ammonium acetate"]},
+          {"name": "Generic Dispersion Agent/Surfactant", "type": "Component Type", "concentration": null, "examples_from_patent": ["polyethylene glycol", "polyoxyethylene ether", "glycerol", "polyvinylalcohol", "polyacrylic acid"]},
+          {"name": "Generic Complexing Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["triethanolamine", "ethylenediamine", "ammonium citrate", "ammonium phosphate", "ammonium oxalate", "EDTA"]},
+          {"name": "Generic Etching Agent", "type": "Component Type", "concentration": null, "examples_from_patent": ["HCl", "HF", "H₃PO₄", "H₂SO₄ HNO₃"]},
+          {"name": "Generic Special Additive", "type": "Component Type", "concentration": null, "description_from_patent": "To minimize solvent volatilization"}
+        ],
+        "target_final_slurry_ph": "3.5-12 (preferred 8-11)",
+        "solvent": {"name": "Aqueous carrier (implied)", "quantity": null}
+      },
+      "characterization": {
+        "particle_size_distribution": {"min_value": "10", "max_value": "90", "unit": "nm", "measurement_method_used": null},
+        "crystallite_size": null,
+        "crystallinity_phase_composition": null,
+        "surface_functional_groups": null,
+        "elemental_composition": null,
+        "particle_morphology": "Hollow-core particle (FIG. 5), large surface area",
+        "tga_weight_loss_percent": null,
+        "uv_vis_peaks_nm": null,
+        "raman_peaks_cm-1": null,
+        "surface_ce3_percent_xps": null,
+        "oxygen_species_percent_xps": null,
+        "xrd_peaks": null
+      },
+      "cmp_performance": {
+        "polishing_time": null,
+        "material_removal_rate": {"value": ">= 2000", "unit": "A/min", "condition": "General for Al/Al alloys (Para [0078]), potentially faster due to larger contact area"},
+        "process_temperature": null,
+        "polishing_pressure": {"value": ">= 3", "unit": "psi", "condition": "General (Para [0078])"},
+        "pad_conditioning_pressure": null,
+        "equipment_model": null,
+        "pad_composition": ["IC 1000", "IC 1010", "Polyurethane or hard pad"]
+      },
+      "theoretical_analysis": null
+    }
+  ]
+}
