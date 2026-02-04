@@ -1,28 +1,23 @@
 # image_details_extractor.py
 import base64
-import requests # Using requests as openai v1+ requires it for image URLs or base64
+import requests
 import os
 import mimetypes
 from openai import OpenAI
 import sys
-import glob # Import glob for finding files
+import glob 
 from dotenv import load_dotenv # Import the dotenv library
 
-# --- Configuration ---
-# Load environment variables from .env file
 load_dotenv()
 
-# Initialize OpenAI client to use OpenRouter endpoint and API key
 try:
     openrouter_api_key = os.getenv("OpenRouter_API_KEY")
     if not openrouter_api_key:
         raise ValueError("OpenRouter_API_KEY not found in .env file or environment variables.")
-
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
         api_key=openrouter_api_key,
     )
-    # Simple check to confirm client object creation
     if not client:
          raise Exception("Failed to create OpenAI client configured for OpenRouter.")
 
@@ -44,7 +39,6 @@ def encode_image_to_base64(image_path):
         return None
 
     try:
-        # Guess the MIME type of the image
         mime_type, _ = mimetypes.guess_type(image_path)
         if not mime_type or not mime_type.startswith('image'):
             print(f"Warning: Cannot determine a valid image MIME type for {image_path}. Attempting to proceed.", file=sys.stderr)
@@ -54,14 +48,12 @@ def encode_image_to_base64(image_path):
 
         with open(image_path, "rb") as image_file:
             encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
-            # Ensure the MIME type is included, default if necessary
             mime_type = mime_type if mime_type else 'image/png' # Defaulting to png if undetectable
             return f"data:{mime_type};base64,{encoded_string}"
     except Exception as e:
         print(f"Error encoding image {image_path}: {e}", file=sys.stderr)
         return None
 
-# --- Main Function ---
 def get_image_details(image_path: str) -> str | None:
     """
     Sends an image to the OpenAI Vision API (gpt-4o) with a prompt instructing
@@ -73,7 +65,6 @@ def get_image_details(image_path: str) -> str | None:
     Returns:
         A JSON string containing the extracted data, or None if an error occurs.
     """
-    # Define the simplified prompt for dynamic JSON generation
     prompt = """Analyze the provided image, which likely contains experimental data (e.g., graphs, tables, micrographs, setup diagrams) related to Chemical Mechanical Planarization (CMP) or similar scientific research.
 
 Your task is to:
@@ -91,7 +82,7 @@ Example data to look for: Material Removal Rate (MRR), sample names, concentrati
 
     base64_image = encode_image_to_base64(image_path)
     if not base64_image:
-        return None # Error message already printed by encode_image_to_base64
+        return None
 
     try:
         # Using OpenRouter's identifier for Anthropic Claude 3 Haiku (trying short form)
@@ -118,7 +109,6 @@ Example data to look for: Material Removal Rate (MRR), sample names, concentrati
             ],
             max_tokens=12000, # Adjust token limit as needed
         )
-        # Accessing the response content correctly
         if response.choices and response.choices[0].message:
             return response.choices[0].message.content
         else:
@@ -148,8 +138,6 @@ if __name__ == "__main__":
         print(f"Error creating output directory '{output_folder}': {e}", file=sys.stderr)
         sys.exit(1)
 
-    # --- Find Image Files ---
-    # Look for common image file extensions
     image_patterns = [os.path.join(input_folder, ext) for ext in ['*.jpg', '*.jpeg', '*.png', '*.gif', '*.bmp', '*.tiff']]
     image_files = []
     for pattern in image_patterns:
@@ -161,14 +149,12 @@ if __name__ == "__main__":
 
     print(f"Found {len(image_files)} images to process in '{input_folder}'.")
 
-    # --- Process Each Image ---
     for image_path in image_files:
         print(f"\nProcessing image: {image_path}")
         try:
             json_output = get_image_details(image_path)
 
             if json_output:
-                # Construct output filename
                 base_filename = os.path.basename(image_path)
                 name_part, _ = os.path.splitext(base_filename)
                 output_filename = os.path.join(output_folder, f"{name_part}.json")
@@ -184,15 +170,12 @@ if __name__ == "__main__":
                 # Validate and Save JSON
                 try:
                     import json
-                    # Try loading the cleaned output to validate
                     json_data = json.loads(cleaned_output)
-                    # Save the validated JSON
                     with open(output_filename, 'w', encoding='utf-8') as f:
                         json.dump(json_data, f, indent=2) # Save with indentation
                     print(f"Successfully extracted, cleaned, and saved valid JSON to: {output_filename}")
 
                 except json.JSONDecodeError as e:
-                    # If cleaning didn't help, report the error with the cleaned output
                     print(f"WARNING: Output for {image_path} is STILL NOT valid JSON after cleaning. Error: {e}", file=sys.stderr)
                     print(f"--- Cleaned Output Attempt for {image_path} ---", file=sys.stderr)
                     print(cleaned_output, file=sys.stderr)
