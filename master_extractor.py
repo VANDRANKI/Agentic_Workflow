@@ -100,13 +100,23 @@ def parse_markdown(md_file_path):
         slurry_conc = slurry_conc_match.group(1) if slurry_conc_match else "0.2" # Default from 1_k9dmxr
 
         # --- Table 1 Parsing Logic ---
-        table1_match = re.search(r'Table 1\n(.*?)\n\n', content, re.DOTALL | re.IGNORECASE)
+        # "Table 1" is followed by its caption text (a separate paragraph) before the
+        # actual Markdown pipe-table appears, so we must search past the label for the
+        # first block of "|"-delimited lines rather than grabbing the text immediately
+        # after "Table 1\n" (which is just the caption).
+        table1_label_match = re.search(r'Table 1\b', content, re.IGNORECASE)
+        table1_match = None
+        if table1_label_match:
+            table1_match = re.search(r'((?:^\|.*\n?)+)', content[table1_label_match.end():], re.MULTILINE)
         if table1_match:
             table1_content = table1_match.group(1)
             # Basic parsing assuming simple markdown table format
             lines = table1_content.strip().split('\n')
             if len(lines) > 7: # Check if it looks like the expected table
-                headers = [h.strip() for h in lines[1].strip('|').split('|')] # Ce precursor/OH-, ratios...
+                # lines[0] = group header (Ce3+/OH-, Ce4+/OH-), lines[1] = the "|:--:|" alignment
+                # separator row that Markdown tables include, lines[2] = the actual ratio labels
+                # (1:1, 1:2, ...). Using lines[1] here previously picked up the separator dashes.
+                headers = [h.strip() for h in lines[2].strip('|').split('|')] # Ce precursor/OH-, ratios...
                 ratios = headers[1:6] # 1:1, 1:2, ...
                 
                 # Extract data rows (dXRD RT, dXRD 80C, Cryst RT, Cryst 80C)
@@ -180,7 +190,7 @@ def parse_markdown(md_file_path):
                     sample_id_80c = f"Ce4+_{ratio.replace(':','-')}_80C"
                     # Handle potentially missing last value in 80C crystallinity row
                     cryst_80c_val = None
-                    if i < len(cryst_80c_values_ce4) and cryst_80c_values_ce4[i] != '-':
+                    if i < len(cryst_80c_values_ce4) and cryst_80c_values_ce4[i] not in ('-', ''):
                          cryst_80c_val = cryst_80c_values_ce4[i]
                     elif i == len(cryst_80c_values_ce4) -1 and len(cryst_80c_values_ce4) < len(ce4_ratios): # Assume last value missing
                          print(f"Warning: Assuming missing crystallinity value for {sample_id_80c}")
