@@ -138,7 +138,8 @@ def parse_markdown(md_file_path):
                         "slurry_preparation": {"abrasive_ceria_concentration": {"value": slurry_conc, "unit": "wt%"}}, # Example
                         "characterization": {
                             "crystallite_size": {"value": dxrd_rt_values[i] if dxrd_rt_values[i] != '-' else None, "unit": "nm"},
-                            "crystallinity_phase_composition": {"value": cryst_rt_values[i] if cryst_rt_values[i] != '-' else None, "unit": "%"}
+                            "crystallinity_phase_composition": {"value": cryst_rt_values[i] if cryst_rt_values[i] != '-' else None, "unit": "%"},
+                            "surface_functional_groups": {"NO3": {}}
                         },
                         # Add other common fields as placeholders
                         "cmp_performance": {},
@@ -155,7 +156,8 @@ def parse_markdown(md_file_path):
                         "slurry_preparation": {"abrasive_ceria_concentration": {"value": slurry_conc, "unit": "wt%"}}, # Example
                         "characterization": {
                             "crystallite_size": {"value": dxrd_80c_values[i] if dxrd_80c_values[i] != '-' else None, "unit": "nm"},
-                            "crystallinity_phase_composition": {"value": cryst_80c_values[i] if cryst_80c_values[i] != '-' else None, "unit": "%"}
+                            "crystallinity_phase_composition": {"value": cryst_80c_values[i] if cryst_80c_values[i] != '-' else None, "unit": "%"},
+                            "surface_functional_groups": {"NO3": {}}
                         },
                         "cmp_performance": {},
                         "theoretical_analysis": {}
@@ -181,7 +183,8 @@ def parse_markdown(md_file_path):
                         "slurry_preparation": {"abrasive_ceria_concentration": {"value": slurry_conc, "unit": "wt%"}}, # Example
                         "characterization": {
                             "crystallite_size": {"value": dxrd_rt_values_ce4[i] if dxrd_rt_values_ce4[i] != '-' else None, "unit": "nm"},
-                            "crystallinity_phase_composition": {"value": cryst_rt_values_ce4[i] if cryst_rt_values_ce4[i] != '-' else None, "unit": "%"}
+                            "crystallinity_phase_composition": {"value": cryst_rt_values_ce4[i] if cryst_rt_values_ce4[i] != '-' else None, "unit": "%"},
+                            "surface_functional_groups": {"NO3": {}}
                         },
                         "cmp_performance": {},
                         "theoretical_analysis": {}
@@ -205,7 +208,8 @@ def parse_markdown(md_file_path):
                         "slurry_preparation": {"abrasive_ceria_concentration": {"value": slurry_conc, "unit": "wt%"}}, # Example
                         "characterization": {
                             "crystallite_size": {"value": dxrd_80c_values_ce4[i] if dxrd_80c_values_ce4[i] != '-' else None, "unit": "nm"},
-                            "crystallinity_phase_composition": {"value": cryst_80c_val, "unit": "%"}
+                            "crystallinity_phase_composition": {"value": cryst_80c_val, "unit": "%"},
+                            "surface_functional_groups": {"NO3": {}}
                         },
                         "cmp_performance": {},
                         "theoretical_analysis": {}
