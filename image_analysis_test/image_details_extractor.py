@@ -1,6 +1,5 @@
 # image_details_extractor.py
 import base64
-import requests
 import os
 import mimetypes
 from openai import OpenAI
