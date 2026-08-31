@@ -1,6 +1,5 @@
 # image_details_extractor.py
 import base64
-import requests # Using requests as openai v1+ requires it for image URLs or base64
 import os
 import mimetypes
 from openai import OpenAI
