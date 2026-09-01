@@ -8,3 +8,5 @@ node_modules/
 *.log
 #Desktop
 desktop.ini
+# macOS
+.DS_Store
